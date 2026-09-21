@@ -6,12 +6,16 @@ from concurrent.futures import ThreadPoolExecutor
 from theme import GOTHIC, stylesheet, vector, typography
 from demo import publish_demo
 from copywriting import publish_copy
+from hud import publish_hud
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
+if '--hud-only' in sys.argv:
+    print(json.dumps({'hudPages': publish_hud(ROOT)}))
+    sys.exit(0)
 if '--demo-only' in sys.argv:
     for name in ('demo.js', 'demo.css', 'demo-qr.svg'):
         shutil.copy2(ROOT / 'brand' / name, OUT / 'brand' / name)
@@ -223,4 +227,5 @@ if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
 stats['copyPages'] = len(publish_copy(ROOT))
 stats['demoPages'] = publish_demo(ROOT)
+stats['hudPages'] = publish_hud(ROOT)
 print(json.dumps(stats, ensure_ascii=False))
