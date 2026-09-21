@@ -7765,3 +7765,7 @@ main .cont_cleaning-case .area_cleaning-case > .flex .text .text-under ul li:bef
 /* end/corporation */
 
 body, input, textarea, select, button, .mincho {font-family:"游明朝","YuMincho","Hiragino Mincho Pro","MS PMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif;}
+
+header .h_top .logo img{aspect-ratio:1578/731;}
+@media screen and (min-width:993px){header .h_top .logo{position:relative;height:72px;}header .h_top .logo img{position:absolute;left:0;top:50%;transform:translateY(-50%);width:180px;height:auto;}}
+@media screen and (max-width:992px){header .h_top .logo img{width:auto;height:38px;}}

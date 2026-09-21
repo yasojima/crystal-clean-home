@@ -2,6 +2,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit, urlunsplit
 from bs4 import BeautifulSoup, Comment
 import json, re, shutil, base64, html, sys
+from concurrent.futures import ThreadPoolExecutor
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -61,22 +62,25 @@ def tab_identity(markup):
             rel = link.get('rel', []) if link else []
             return '' if any('icon' in value.lower() for value in rel) else match[0]
         head = re.sub(r'<link\b[^>]*>', remove_icon, head, flags=re.I)
-        icon = BASE + 'brand/crystal-clean-home.png'
-        head += f'<link rel="icon" type="image/png" href="{icon}"><link rel="apple-touch-icon" href="{icon}">\n'
+        icon = BASE + 'brand/favicon.svg?v=2'
+        head = head.rstrip() + f'\n<link rel="icon" type="image/svg+xml" sizes="any" href="{icon}"><link rel="apple-touch-icon" href="{BASE}brand/crystal-clean-home.png">\n'
         return match[1] + head + match[3]
     return re.sub(r'(<head\b[^>]*>)(.*?)(</head>)', update_head, markup, count=1, flags=re.I | re.S)
 
 if '--tabs-only' in sys.argv:
-    count = 0
-    for f in files:
-        if not f.get('html'):
-            continue
+    def update_tab(f):
         dest = OUT / published_path(f)
         markup = dest.read_text(encoding='utf-8')
         updated = tab_identity(markup)
         if updated != markup:
-            dest.write_text(updated, encoding='utf-8')
-            count += 1
+            temporary = dest.with_name(dest.name + '.tmp')
+            temporary.write_text(updated, encoding='utf-8')
+            temporary.replace(dest)
+            return 1
+        return 0
+    pages = {published_path(f): f for f in files if f.get('html')}
+    with ThreadPoolExecutor(max_workers=12) as pool:
+        count = sum(pool.map(update_tab, pages.values()))
     print(json.dumps({'tabPagesUpdated': count}))
     sys.exit(0)
 
@@ -153,7 +157,8 @@ HTMLFormElement.prototype.submit = function() {
 ''', encoding='utf-8')
 assets = OUT / 'wp/wp-content/themes/original_theme/img'
 encoded = base64.b64encode((ROOT / 'brand/crystal-clean-home.png').read_bytes()).decode()
-(assets / 'logo.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.74 65.57"><image width="234.74" height="65.57" preserveAspectRatio="none" href="data:image/png;base64,' + encoded + '"/></svg>', encoding='utf-8')
+(OUT / 'brand/favicon.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="45 50 570 570" overflow="hidden"><image width="1672" height="941" href="data:image/png;base64,' + encoded + '"/></svg>', encoding='utf-8')
+(assets / 'logo.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="48 72 1578 731" preserveAspectRatio="xMidYMid meet"><image width="1672" height="941" preserveAspectRatio="xMidYMid meet" href="data:image/png;base64,' + encoded + '"/></svg>', encoding='utf-8')
 
 for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,32,285), ('cv_tel.svg',549.05,94.34,61,91,58,485), ('cv_tel02.svg',554.35,108,85,101,55,465)]:
     original = (SOURCE / 'wp/wp-content/themes/original_theme/img' / name).read_text(encoding='utf-8')
@@ -178,6 +183,8 @@ for f in files:
     if f['path'].startswith('wp/wp-content/themes/original_theme/style') and 'css' in f['type']:
         css = css_urls((SOURCE / f['path']).read_text(encoding='utf-8'), f['url'])
         css += '\nbody, input, textarea, select, button, .mincho {font-family:' + MINCHO + ';}\n'
+        css += '\nheader .h_top .logo img{aspect-ratio:1578/731;}\n@media screen and (min-width:993px){header .h_top .logo{position:relative;height:72px;}header .h_top .logo img{position:absolute;left:0;top:50%;transform:translateY(-50%);width:180px;height:auto;}}\n'
+        css += '@media screen and (max-width:992px){header .h_top .logo img{width:auto;height:38px;}}\n'
         (OUT / published_path(f)).write_text(css, encoding='utf-8')
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
