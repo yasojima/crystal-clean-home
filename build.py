@@ -47,6 +47,38 @@ def identity(text):
     text = re.sub(r'平日\s*8:30[～〜~]17:30', '8：00～17:00(年中無休) ※年末年始を除く', text)
     return text
 
+def tab_identity(markup):
+    def update_head(match):
+        head = match[2]
+        title = '<title>' + html.escape(brand['name']) + '</title>'
+        if re.search(r'<title\b', head, re.I):
+            head = re.sub(r'<title\b[^>]*>.*?</title>', lambda _: title, head, flags=re.I | re.S)
+        else:
+            head += title
+        def remove_icon(match):
+            link = BeautifulSoup(match[0], 'html.parser').find('link')
+            rel = link.get('rel', []) if link else []
+            return '' if any('icon' in value.lower() for value in rel) else match[0]
+        head = re.sub(r'<link\b[^>]*>', remove_icon, head, flags=re.I)
+        icon = BASE + 'brand/crystal-clean-home.png'
+        head += f'<link rel="icon" type="image/png" href="{icon}"><link rel="apple-touch-icon" href="{icon}">\n'
+        return match[1] + head + match[3]
+    return re.sub(r'(<head\b[^>]*>)(.*?)(</head>)', update_head, markup, count=1, flags=re.I | re.S)
+
+if '--tabs-only' in sys.argv:
+    count = 0
+    for f in files:
+        if not f.get('html'):
+            continue
+        dest = OUT / published_path(f)
+        markup = dest.read_text(encoding='utf-8')
+        updated = tab_identity(markup)
+        if updated != markup:
+            dest.write_text(updated, encoding='utf-8')
+            count += 1
+    print(json.dumps({'tabPagesUpdated': count}))
+    sys.exit(0)
+
 OUT.mkdir(exist_ok=True)
 stats = {'pages': 0, 'resources': 0, 'forms': 0, 'referenceErrors': manifest['errors']}
 for f in ([] if '--assets-only' in sys.argv else files):
@@ -89,7 +121,7 @@ for f in ([] if '--assets-only' in sys.argv else files):
         if soup.head:
             script = soup.new_tag('script', src=BASE + 'brand/contact-guard.js', defer=True)
             soup.head.append(script)
-        dest.write_text(str(soup), encoding='utf-8')
+        dest.write_text(tab_identity(str(soup)), encoding='utf-8')
         stats['pages'] += 1
     elif 'css' in f['type'] or src.suffix == '.css':
         dest.write_text(css_urls(src.read_text(encoding='utf-8'), f['url']), encoding='utf-8')
