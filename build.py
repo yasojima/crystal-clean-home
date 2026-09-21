@@ -8,6 +8,7 @@ SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
+MINCHO = '"游明朝","YuMincho","Hiragino Mincho Pro","MS PMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif'
 manifest = json.loads((ROOT / 'capture.json').read_text(encoding='utf-8'))
 files = [f for f in manifest['files'] if 'path' in f]
 def published_path(f):
@@ -152,7 +153,7 @@ HTMLFormElement.prototype.submit = function() {
 ''', encoding='utf-8')
 assets = OUT / 'wp/wp-content/themes/original_theme/img'
 encoded = base64.b64encode((ROOT / 'brand/crystal-clean-home.png').read_bytes()).decode()
-(assets / 'logo.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.74 65.57"><image width="234.74" height="65.57" preserveAspectRatio="xMinYMid meet" href="data:image/png;base64,' + encoded + '"/></svg>', encoding='utf-8')
+(assets / 'logo.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234.74 65.57"><image width="234.74" height="65.57" preserveAspectRatio="none" href="data:image/png;base64,' + encoded + '"/></svg>', encoding='utf-8')
 
 for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,32,285), ('cv_tel.svg',549.05,94.34,61,91,58,485), ('cv_tel02.svg',554.35,108,85,101,55,465)]:
     original = (SOURCE / 'wp/wp-content/themes/original_theme/img' / name).read_text(encoding='utf-8')
@@ -160,7 +161,8 @@ for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,
         svg = BeautifulSoup(original, 'xml')
         icon = str(svg.find('path', {'class':'cls-1'}))
         content = '<defs><style>.cls-1{fill:none;stroke:#8fc31f;stroke-width:2px;fill-rule:evenodd}</style></defs>' + icon
-        content += '<text x="0" y="51" fill="#4d4d4d" font-size="11" font-family="sans-serif" textLength="326" lengthAdjust="spacingAndGlyphs">' + html.escape(brand['hours']) + '</text>'
+        x, length, size, y = 43.62, 282.82, 37, 29.6
+        content += '<text x="2.48" y="53" fill="#4d4d4d" font-size="16" font-family="' + html.escape(MINCHO, quote=True) + '" textLength="321.35" lengthAdjust="spacingAndGlyphs">' + html.escape(brand['hours']) + '</text>'
     else:
         svg = BeautifulSoup(original, 'xml')
         root = svg.find('svg')
@@ -169,9 +171,14 @@ for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,
             width, height = float(viewbox[2]), float(viewbox[3])
         top = 42 if name == 'cv_tel.svg' else 38
         content = f'<defs><clipPath id="keep-art"><rect width="{width}" height="{top}"/><rect width="{x - 2}" height="{height}"/></clipPath></defs><g clip-path="url(#keep-art)">' + ''.join(str(c) for c in root.contents) + '</g>'
-    content += f'<text x="{x}" y="{y}" fill="#8fc31f" font-family="Arial,sans-serif" font-size="{size}" textLength="{length}" lengthAdjust="spacingAndGlyphs">{brand["phone"]}</text>'
+    content += f'<text x="{x}" y="{y}" fill="#8fc31f" font-family="{html.escape(MINCHO, quote=True)}" font-size="{size}" textLength="{length}" lengthAdjust="spacingAndGlyphs">{brand["phone"]}</text>'
     (assets / name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}">{content}</svg>', encoding='utf-8')
 (OUT / '.nojekyll').touch()
+for f in files:
+    if f['path'].startswith('wp/wp-content/themes/original_theme/style') and 'css' in f['type']:
+        css = css_urls((SOURCE / f['path']).read_text(encoding='utf-8'), f['url'])
+        css += '\nbody, input, textarea, select, button, .mincho {font-family:' + MINCHO + ';}\n'
+        (OUT / published_path(f)).write_text(css, encoding='utf-8')
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
 print(json.dumps(stats, ensure_ascii=False))
