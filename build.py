@@ -4,12 +4,18 @@ from bs4 import BeautifulSoup, Comment
 import json, re, shutil, base64, html, sys
 from concurrent.futures import ThreadPoolExecutor
 from theme import GOTHIC, stylesheet, vector, typography
+from demo import publish_demo
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
+if '--demo-only' in sys.argv:
+    for name in ('demo.js', 'demo.css', 'demo-qr.svg'):
+        shutil.copy2(ROOT / 'brand' / name, OUT / 'brand' / name)
+    print(json.dumps({'demoPages': publish_demo(ROOT)}))
+    sys.exit(0)
 manifest = json.loads((ROOT / 'capture.json').read_text(encoding='utf-8'))
 files = [f for f in manifest['files'] if 'path' in f]
 def published_path(f):
@@ -209,4 +215,5 @@ for f in files:
         (OUT / published_path(f)).write_text(css, encoding='utf-8')
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
+stats['demoPages'] = publish_demo(ROOT)
 print(json.dumps(stats, ensure_ascii=False))

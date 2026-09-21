@@ -1,0 +1,10 @@
+[data-demo-action]{cursor:pointer}
+.demo-form-notice{color:#17354b;background:#eef5f9;border-left:3px solid #075b91;padding:16px;margin:16px 0;line-height:1.8}
+.demo-dialog{box-sizing:border-box;width:min(92vw,520px);max-height:85vh;margin:auto;border:0;border-radius:8px;padding:28px;color:#344650;background:#fff;box-shadow:0 12px 48px #17354b40;font-family:"Yu Gothic",Meiryo,sans-serif}
+.demo-dialog::backdrop{background:#17354b88}
+.demo-dialog h2{font-size:22px;line-height:1.6;margin:0 0 16px;color:#17354b}
+.demo-dialog p{font-size:16px;line-height:1.9;margin:0 0 24px}
+.demo-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:12px}
+.demo-actions button{appearance:none;background:#075b91;color:#fff;border:0;border-radius:4px;padding:12px 18px;font:inherit;cursor:pointer}
+.demo-actions button[hidden]{display:none}
+.demo-actions button:focus-visible{outline:3px solid #17354b;outline-offset:3px}
