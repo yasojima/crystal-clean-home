@@ -3,13 +3,13 @@ from urllib.parse import urljoin, urlsplit, urlunsplit
 from bs4 import BeautifulSoup, Comment
 import json, re, shutil, base64, html, sys
 from concurrent.futures import ThreadPoolExecutor
+from theme import GOTHIC, stylesheet, vector, typography
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
-MINCHO = '"游明朝","YuMincho","Hiragino Mincho Pro","MS PMincho","ＭＳ Ｐ明朝","ヒラギノ明朝 Pro W6",serif'
 manifest = json.loads((ROOT / 'capture.json').read_text(encoding='utf-8'))
 files = [f for f in manifest['files'] if 'path' in f]
 def published_path(f):
@@ -167,7 +167,7 @@ for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,
         icon = str(svg.find('path', {'class':'cls-1'}))
         content = '<defs><style>.cls-1{fill:none;stroke:#8fc31f;stroke-width:2px;fill-rule:evenodd}</style></defs>' + icon
         x, length, size, y = 43.62, 282.82, 37, 29.6
-        content += '<text x="2.48" y="53" fill="#4d4d4d" font-size="16" font-family="' + html.escape(MINCHO, quote=True) + '" textLength="321.35" lengthAdjust="spacingAndGlyphs">' + html.escape(brand['hours']) + '</text>'
+        content += '<text x="2.48" y="53" fill="#4d4d4d" font-size="16" font-family="' + html.escape(GOTHIC, quote=True) + '" textLength="321.35" lengthAdjust="spacingAndGlyphs">' + html.escape(brand['hours']) + '</text>'
     else:
         svg = BeautifulSoup(original, 'xml')
         root = svg.find('svg')
@@ -176,13 +176,34 @@ for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,
             width, height = float(viewbox[2]), float(viewbox[3])
         top = 42 if name == 'cv_tel.svg' else 38
         content = f'<defs><clipPath id="keep-art"><rect width="{width}" height="{top}"/><rect width="{x - 2}" height="{height}"/></clipPath></defs><g clip-path="url(#keep-art)">' + ''.join(str(c) for c in root.contents) + '</g>'
-    content += f'<text x="{x}" y="{y}" fill="#8fc31f" font-family="{html.escape(MINCHO, quote=True)}" font-size="{size}" textLength="{length}" lengthAdjust="spacingAndGlyphs">{brand["phone"]}</text>'
+    content += f'<text x="{x}" y="{y}" fill="#8fc31f" font-family="{html.escape(GOTHIC, quote=True)}" font-size="{size}" textLength="{length}" lengthAdjust="spacingAndGlyphs">{brand["phone"]}</text>'
     (assets / name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}">{content}</svg>', encoding='utf-8')
 (OUT / '.nojekyll').touch()
 for f in files:
+    if not f['path'].startswith('wp/wp-content/themes/original_theme/'):
+        continue
+    src = SOURCE / f['path']
+    dest = OUT / published_path(f)
+    if src.suffix == '.svg' and src.name != 'logo.svg':
+        current = dest.read_text(encoding='utf-8') if src.name in ('h_tel.svg', 'cv_tel.svg', 'cv_tel02.svg') else src.read_text(encoding='utf-8')
+        dest.write_text(vector(current), encoding='utf-8')
+    elif 'css' in f['type']:
+        dest.write_text(stylesheet(css_urls(src.read_text(encoding='utf-8'), f['url'])), encoding='utf-8')
+
+def apply_inline_theme(path):
+    markup = path.read_text(encoding='utf-8')
+    updated = re.sub(r'(<style\b[^>]*>)(.*?)(</style>)', lambda m: m[1] + stylesheet(m[2]) + m[3], markup, flags=re.S | re.I)
+    updated = re.sub(r'(\bstyle=["\'])(.*?)(["\'])', lambda m: m[1] + stylesheet(m[2]) + m[3], updated, flags=re.S | re.I)
+    if updated != markup:
+        path.write_text(updated, encoding='utf-8')
+with ThreadPoolExecutor(max_workers=12) as pool:
+    list(pool.map(apply_inline_theme, OUT.rglob('*.html')))
+
+for f in files:
     if f['path'].startswith('wp/wp-content/themes/original_theme/style') and 'css' in f['type']:
         css = css_urls((SOURCE / f['path']).read_text(encoding='utf-8'), f['url'])
-        css += '\nbody, input, textarea, select, button, .mincho {font-family:' + MINCHO + ';}\n'
+        css = stylesheet(css)
+        css += typography()
         css += '\nheader .h_top .logo img{aspect-ratio:1578/731;}\n@media screen and (min-width:993px){header .h_top .logo{position:relative;height:72px;}header .h_top .logo img{position:absolute;left:0;top:50%;transform:translateY(-50%);width:180px;height:auto;}}\n'
         css += '@media screen and (max-width:992px){header .h_top .logo img{width:auto;height:38px;}}\n'
         (OUT / published_path(f)).write_text(css, encoding='utf-8')
