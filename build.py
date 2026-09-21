@@ -7,12 +7,16 @@ from theme import GOTHIC, stylesheet, vector, typography
 from demo import publish_demo
 from copywriting import publish_copy
 from hud import publish_hud
+from header import publish_header
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
+if '--header-only' in sys.argv:
+    print(json.dumps({'headerPages': publish_header(ROOT)}))
+    sys.exit(0)
 if '--hud-only' in sys.argv:
     print(json.dumps({'hudPages': publish_hud(ROOT)}))
     sys.exit(0)
@@ -226,6 +230,7 @@ for f in files:
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
 stats['copyPages'] = len(publish_copy(ROOT))
+stats['headerPages'] = publish_header(ROOT)
 stats['demoPages'] = publish_demo(ROOT)
 stats['hudPages'] = publish_hud(ROOT)
 print(json.dumps(stats, ensure_ascii=False))

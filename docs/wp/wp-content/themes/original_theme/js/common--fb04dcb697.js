@@ -1,41 +1,3 @@
-// header
-const header = document.getElementById("header");
-const hH = header.clientHeight;
-const winH = window.innerHeight;
-const docH = document.documentElement.scrollHeight;
-const windBtm = docH - winH;
-let pos = 0;
-let lastPos = 0;
-const mediaQueryList = window.matchMedia("(min-width:993px)");
-/**
- * イベントリスナー
- */
-const listener = (event) => {
-  if (event.matches) {
-    const onScroll = () => {
-      if (pos > hH && pos > lastPos) {
-        header.classList.add("fixed");
-      }
-      if (pos < hH || pos < lastPos || windBtm <= pos) {
-        header.classList.remove("fixed");
-      }
-      lastPos = pos;
-    };
-    window.addEventListener("scroll", () => {
-      pos = window.scrollY;
-      onScroll();
-    });
-  } else {
-
-  }
-};
-// リスナー登録
-// mediaQueryList.addListener(listener); // @deprecated
-mediaQueryList.addEventListener("change", listener);
-// 初期化処理
-listener(mediaQueryList);
-
-
 //animetion
 $(window).on("load scroll",function(){
 var scrl = $(window).scrollTop();
@@ -65,54 +27,6 @@ $(".u-animation").each(function(){
 	}
 });
 });
-
-// gnav
-(function($) {
-  var $nav   = $('#navArea');
-  var $btn   = $('.toggle_btn');
-  var $mask  = $('#mask');
-  var $menu  = $('.gnav a');
-  var $dropdown_menu  = $('.dropdown_menu a');
-  var open   = 'open'; // class
-  // menu open close
-  $btn.on( 'click', function() {
-    if ( ! $nav.hasClass( open ) ) {
-      $nav.addClass( open );
-    } else {
-      $nav.removeClass( open );
-    }
-  });
-  // mask close
-  $dropdown_menu.on('click', function() {
-    $nav.removeClass( open );
-  });
-	$mask.on('click', function() {
-		$nav.removeClass( open );
-	});
-} )(jQuery);
-const mediaQuery = window.matchMedia('(max-width: 992px)');
-// ページが読み込まれた時に実行
-handle(mediaQuery);
-// ウィンドウサイズを変更しても実行（ブレイクポイントの監視）
-mediaQuery.addListener(handle);
-function handle(mm) {
-  if (mm.matches) {
-		jQuery(function ($) {
-		  $(".dropdown").click(function () {
-		    $(".dropdown").not(this).removeClass("open");
-		    $(this).toggleClass("open");
-				$(this).next().slideToggle("fast");
-    		$(".dropdown").not(this).next().slideUp("fast");
-		  });
-			$(".drop_open_mask").click(function () {
-				$(".dropdown").not(this).removeClass("open");
-			});
-			$(".dropdown_menu a").click(function () {
-				$(".dropdown").removeClass("open");
-			});
-		});
-  }
-}
 
 // scroll
 /*! SmoothScroll v16.1.4 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
