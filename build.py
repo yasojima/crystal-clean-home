@@ -5,6 +5,7 @@ import json, re, shutil, base64, html, sys
 from concurrent.futures import ThreadPoolExecutor
 from theme import GOTHIC, stylesheet, vector, typography
 from demo import publish_demo
+from copywriting import publish_copy
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -15,6 +16,11 @@ if '--demo-only' in sys.argv:
     for name in ('demo.js', 'demo.css', 'demo-qr.svg'):
         shutil.copy2(ROOT / 'brand' / name, OUT / 'brand' / name)
     print(json.dumps({'demoPages': publish_demo(ROOT)}))
+    sys.exit(0)
+if '--copy-only' in sys.argv:
+    changes = publish_copy(ROOT)
+    (ROOT / 'copy-change-log.json').write_text(json.dumps(changes, ensure_ascii=False, indent=2), encoding='utf-8')
+    print(json.dumps({'copyPages': len(changes), 'copyEdits': sum(len(p['changes']) for p in changes), 'demoPages': publish_demo(ROOT)}))
     sys.exit(0)
 manifest = json.loads((ROOT / 'capture.json').read_text(encoding='utf-8'))
 files = [f for f in manifest['files'] if 'path' in f]
@@ -215,5 +221,6 @@ for f in files:
         (OUT / published_path(f)).write_text(css, encoding='utf-8')
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
+stats['copyPages'] = len(publish_copy(ROOT))
 stats['demoPages'] = publish_demo(ROOT)
 print(json.dumps(stats, ensure_ascii=False))
