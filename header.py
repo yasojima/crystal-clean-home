@@ -36,13 +36,14 @@ def publish_header(root):
         if count != 1:
             raise ValueError('Missing header: '+path)
         text = re.sub(r'<(?:link|script)\b[^>]*\bdata-shared-header=["\'][^"\']*["\'][^>]*>(?:</script>)?\s*', '', text, flags=re.I)
-        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=1" data-shared-header="style">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
+        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=2" data-shared-header="style">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
         entry = extensions.get(path, {})
         for asset in entry.get('styles', []):
             tags += '<link rel="stylesheet" href="/crystal-clean-home/brand/header/'+html.escape(asset, quote=True)+'" data-shared-header="extension">\n'
         for asset in entry.get('scripts', []):
             tags += '<script defer src="/crystal-clean-home/brand/header/'+html.escape(asset, quote=True)+'" data-shared-header="extension"></script>\n'
         text = re.sub(r'</head>', lambda _: tags+'</head>', text, count=1, flags=re.I)
+        text = re.sub(r'<div id="breadcrumb"[^>]*>.*?</div>', '<div id="breadcrumb" class="cch-header-band" aria-hidden="true"></div>', text, flags=re.S)
         text = re.sub(r'(src=["\'][^"\']*/js/common[^"\'?]*\.js)(?:\?[^"\']*)?', r'\1?header=1', text)
         target.write_text(text, encoding='utf-8')
     with ThreadPoolExecutor(max_workers=12) as pool:
