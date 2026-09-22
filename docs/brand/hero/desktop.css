@@ -6,6 +6,7 @@
 #cch-hero.main_visual .main_visual_item {
   width: 100%;
   position: sticky;
+  will-change: transform;
   top: var(--hero-header-height, 150px);
 }
 
@@ -23,6 +24,7 @@
   height: calc(100dvh - var(--hero-header-height, 150px));
   background: #fff;
   overflow: hidden;
+  contain: paint;
   position: relative;
 }
 
