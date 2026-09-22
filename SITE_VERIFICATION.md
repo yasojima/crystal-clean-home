@@ -64,3 +64,5 @@
 - python test_card_copy.py PASS。全HTML要素・属性・数値列・お客様の声が一致し、再適用も不変。カタログを説明文以外で比較して完全一致。
 - node test-shop.cjs、test-reference.cjs、test-checkout.cjs PASS。
 - 非表示IAB：パック一覧PC/390pxで本文・追加ボタンの重なりなし、カードの高さ方向の溢れ0、横溢れなし。表示テキストの指定外フォント0。全ページ目視検収ではない。
+
+- 公開：e43f2699577ca4cea9099c372b748f41ecf2851c、Pages 35793929775 success。公開パックページの編集済み本文、34,100円、游ゴシック、共通三角形をIABで照合。
