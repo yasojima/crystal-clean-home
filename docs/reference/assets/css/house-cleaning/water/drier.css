@@ -1,0 +1,3 @@
+.cch-reference .merit__heading{text-align:center}
+@media  print,screen and (min-width: 768px){.cch-reference .merit__text{margin-top:16px}}
+@media  screen and (max-width: 767.98px){.cch-reference .merit__text{margin-top:12px}}

@@ -36,4 +36,8 @@ def publish_shop(root=ROOT):
     if not soup.select_one('[data-shop-home]'):
         style=soup.new_tag('style',attrs={'data-shop-home':'true'});style.string='.shop-home-cart{position:fixed;right:24px;bottom:24px;z-index:900;background:#075b91;color:white;padding:20px 24px;border-radius:4px;font-family:"Yu Gothic",YuGothic,sans-serif;font-weight:bold;box-shadow:0 4px 16px #17354b26}@media(max-width:600px){.shop-home-cart{right:12px;bottom:12px;padding:12px 16px;font-size:13px;right:12px;left:12px;bottom:76px}}';soup.head.append(style)
     target.write_text(str(soup),encoding='utf-8')
-if __name__=='__main__':publish_shop()
+if __name__=='__main__':
+    publish_shop()
+    if (ROOT/'source/osouji/capture.json').exists():
+        from reference import publish_reference
+        publish_reference(ROOT)

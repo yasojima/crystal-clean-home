@@ -1,0 +1,1312 @@
+  .sp-only,
+  .anchor-nav.sp-only {
+    display: none;
+  }
+
+  .l-section[class*=-bubbles]::before {
+    display: none;
+  }
+
+  .anchor-links {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 8px
+  }
+
+  .anchor-nav {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 52px;
+    padding: 20px;
+    justify-content: center;
+    font-size: .9rem;
+  }
+
+  .anchor-nav .ac-block {
+    display: flex;
+    margin-right: 16px;
+  }
+
+  .anchor-nav .ac-block .ttl span:first-child,
+  .anchor-nav .ttl {
+    color: #005BAC;
+  }
+
+  .anchor-nav .ac-block .ttl .sub-txt {
+    color: #222;
+    font-size: .75rem;
+  }
+
+  .anchor-nav .ac-block a {
+    display: flex;
+    align-items: center;
+    margin-right: 32px;
+    cursor: pointer;
+  }
+
+  .anchor-nav a {
+    gap: 5px;
+    margin-right: 16px;
+  }
+
+  .anchor-nav .ac-block a img.aircon-img {
+    width: 80px;
+    padding-right: 10px;
+  }
+
+  .anchor-nav .ac-block a img.aircon-ceiling-img {
+    width: 72px;
+  }
+
+  .anchor-nav .side-border-right {
+    border-right: 1px solid #005BAC;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .p-content-box__content {
+    margin-bottom: 20px;
+  }
+
+  .c-feature__heading {
+    font-weight: normal;
+    margin: 12px auto 0;
+  }
+
+  .c-feature {
+    padding: 8px 8px 26px 8px;
+  }
+
+  .p-content-box__content+p {
+    /*width: 70%;*/
+    margin: 0 auto 16px;
+  }
+
+  .p-content-box__content+p+p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #005BAC;
+  }
+
+  .p-content-box__button {
+    margin: 24px auto 0;
+  }
+
+  .blue-text {
+    color: #005BAC;
+  }
+
+  .pb0 {
+    padding-bottom: 0;
+  }
+
+  .mt0 {
+    margin-top: 0;
+  }
+
+  /* 比較表 */
+
+  .compare-table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+
+  .compare-table {
+    table-layout: fixed;
+  }
+
+  .compare-table__heading,
+  .compare-table__data {
+    color: #525a61;
+    background-color: #f5f8fa;
+    border: solid 1px #d7dfe8;
+  }
+
+  .compare-table__heading {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .compare-table__heading--row {
+    color: #fff;
+    background-color: #005bac;
+  }
+
+  .compare-table__data--center {
+    text-align: center;
+  }
+
+  .compare-table__row-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 3em;
+  }
+
+  .compare-table__image {
+    display: block;
+    margin: 4px auto 0;
+  }
+
+  .compare-table__text {
+    line-height: 1.8;
+    color: #525a61;
+    font-feature-settings: "palt";
+    letter-spacing: .02em;
+  }
+
+  .compare-table__note {
+    color: #88929b;
+    text-indent: -1em;
+    padding-left: 1em;
+    margin-top: 4px;
+  }
+
+  .compare-section__heading {
+    text-align: center;
+    color: #06408c;
+  }
+
+  .compare-box {
+    --main-color: #c6303f;
+    --bg-color: #ffebeb;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color);
+  }
+
+  .compare-box--blue {
+    --main-color: #06408c;
+    --bg-color: #e3f1fc;
+  }
+
+  .compare-box__heading {
+    text-align: center;
+    color: var(--main-color);
+  }
+
+  .compare-box__contents {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-top: solid 1px #fff;
+  }
+
+  .compare-box__read span {
+    font-weight: bold;
+    line-height: 1.8;
+    color: var(--main-color);
+  }
+
+  .compare-box__description {
+    margin-top: 8px;
+  }
+
+  .compare-box__link-button {
+    margin-top: auto;
+  }
+
+  /* エアコンクリーニングとは */
+  .ac-howto {
+    padding-bottom: 72px;
+  }
+
+  .ac-howto .c-feature {
+    display: flex;
+  }
+
+  .ac-howto .c-feature .c-flex-image {
+    width: 32%;
+  }
+
+  .ac-howto .p-content-box__content {
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .ac-howto .c-feature__description {
+    margin-top: 12px;
+    margin-left: 20px;
+  }
+
+  .ac-howto h3.c-feature__heading,
+  .ac-atl h2.c-feature__heading {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .ac-howto h3.c-heading-level-3,
+  .ac-points h3.c-feature__heading {
+    background-color: #005bac;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .ac-howto .c-grid {
+    padding: 12px;
+  }
+
+  .ac-howto .c-grid div p {
+    line-height: 1.8em;
+  }
+
+  .ac-howto .c-grid li {
+    padding-left: 1em;
+    text-indent: -1em;
+  }
+
+  .ac-howto .c-grid li:first-child {
+    margin-bottom: 2px;
+  }
+
+  .ac-howto .ac-howto-contents {
+    background-color: #f5f8fa;
+    padding: 20px 40px 20px;
+  }
+
+  /* エアコン記事 */
+  .ac-atl {
+    margin: 48px auto;
+  }
+
+  .ac-atl .c-grid {
+    display: flex;
+    /*width: 1200px;*/
+  }
+
+  .ac-atl .p-content-box__content {
+    margin-top: 32px;
+  }
+
+  .ac-atl .c-grid .c-feature {
+    width: 100%;
+    padding: 8px 16px 26px 16px;
+    border: none;
+  }
+
+  .ac-atl .c-grid .c-feature a {
+    /*color: #005bac;*/
+    display: flex;
+    text-align: justify;
+    /*align-items: flex-start;*/
+    align-items: center;
+  }
+
+  .ac-atl .c-grid .c-feature a:hover {
+    opacity: .8;
+    transition: opacity .3s;
+  }
+
+  .ac-atl .c-grid .c-feature img {
+    width: 96px;
+    height: 96px;
+    margin-right: 16px;
+    border-radius: 4px;
+    box-shadow: none;
+  }
+
+  /*おそうじ本舗のハウスクリーニング一覧*/
+  .c-double-line-heading {
+    font-size: 1.8125rem;
+  }
+
+
+  @media print,
+  screen and (min-width: 768px) {
+    .anchor-links {
+      gap: 4px 0;
+      padding: 20px 40px
+    }
+
+    /* 比較表 */
+
+    .compare-table-note {
+      display: none;
+    }
+
+    .compare-table__row:first-of-type .compare-table__heading {
+      width: 300px;
+    }
+
+    .compare-table__heading,
+    .compare-table__data {
+      padding: 16px;
+    }
+
+    .compare-table__heading {
+      font-size: 1rem;
+    }
+
+    .compare-table__text {
+      font-size: 0.875rem;
+    }
+
+    .compare-table__note {
+      font-size: 0.8125rem;
+    }
+
+    .compare-section {
+      /*margin-top: 72px;*/
+    }
+
+    .compare-section+.compare-section {
+      margin-top: 96px;
+    }
+
+    .compare-section__contents {
+      margin-top: 48px;
+    }
+
+    .compare-box-container {
+      max-width: 792px;
+      margin-inline: auto;
+    }
+
+    .compare-box__heading {
+      padding: 16px 1em;
+    }
+
+    .compare-box__contents {
+      padding: 24px 36px 32px;
+    }
+
+    .compare-box__read {
+      margin-top: 20px;
+    }
+
+    .compare-box__read span {
+      font-size: 1rem;
+    }
+
+    .compare-box__description {
+      padding-bottom: 24px;
+    }
+
+
+    /* おそうじ本舗が選ばれる理由 */
+    .ac-points .c-feature {
+      padding: 8px;
+    }
+
+    /* 店舗一覧 */
+    .search-keyword__input-field {
+      max-width: 560px;
+      margin-inline: auto;
+      margin-top: 48px;
+    }
+
+    .search-prefectures {
+      margin-top: 80px;
+    }
+
+    .search-prefectures__contents {
+      margin-top: 80px;
+    }
+
+    .prefecture-map {
+      width: 100%;
+      height: 807px;
+      background: url("../../images/shop/top/prefecture-bg.webp") no-repeat top 56px left 115px / 878px 580px;
+      position: relative;
+    }
+
+  }
+
+  @media screen and (min-width: 967px) and (max-width: 1193px) {
+    .anchor-nav.sp-only {
+      display: none;
+    }
+
+    .anchor-nav .ac-block {
+      margin-bottom: 12px;
+    }
+
+    .u-anchor-nav {
+      display: flex;
+      text-align: center;
+      margin-top: 16px;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 966px) {
+    .anchor-nav.sp-only {
+      display: none;
+    }
+
+    .anchor-nav .ac-block {
+      border-bottom: 1px solid #005BAC;
+      margin: 0 auto;
+      padding-bottom: 12px;
+      width: 78%;
+      justify-content: center;
+    }
+
+    .anchor-nav .ac-block a:first-child {
+      margin-right: 32px;
+    }
+
+    .u-anchor-nav {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+
+
+  @media screen and (max-width: 767.98px) {
+    .sp-only {
+      display: block;
+    }
+
+    .anchor-links {
+      gap: 8px 12px;
+      padding: 20px
+    }
+
+    .anchor-nav.pc-only {
+      display: none;
+    }
+
+    .anchor-nav.sp-only {
+      display: block;
+      background-color: transparent;
+      margin-top: 32px;
+      padding: 0;
+    }
+
+    .anchor-nav.sp-only .ac-block {
+      display: block;
+      justify-content: space-between;
+      margin: 0 auto;
+      padding-bottom: 12px;
+      background-color: #fff;
+      padding: 20px 20px 10px;
+      border-radius: 8px;
+      border: none;
+      width: 100%;
+    }
+
+    .anchor-nav.sp-only .u-anchor-nav {
+      text-align: center;
+      margin: 10px auto 0;
+      background-color: #fff;
+      padding: 20px 30px 10px;
+      border-radius: 8px;
+      width: 100%;
+    }
+
+    /* こんなお悩みありませんか */
+    .ac-worries .c-feature {
+      padding: 8px;
+    }
+
+    .p-content-box__content+p {
+      line-height: 1.6em;
+    }
+
+    .p-content-box__heading {
+      line-height: 1.6em;
+    }
+
+    /* ページ内リンク */
+    .anchor-nav {
+      font-size: 1rem;
+      /*padding: 20px 12px;*/
+      /*text-align: center;*/
+    }
+
+    .anchor-nav .ac-block {
+      display: flex;
+      justify-content: space-between;
+      width: 82%;
+      /*margin-right: 0;
+    margin-bottom: 10px;*/
+      border-bottom: 1px solid #005BAC;
+      margin: 0 auto;
+      padding-bottom: 12px;
+    }
+
+    .anchor-nav .ac-block .ac-block-inner,
+    .anchor-nav.sp-only .u-anchor-nav .u-anchor-inner {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    .anchor-nav .ac-block a {
+      margin-right: 0;
+      justify-content: center;
+    }
+
+    .anchor-nav .inner-item a {
+      margin-right: 0;
+      padding-left: 26px;
+    }
+
+    .anchor-nav .ac-block a img.aircon-ceiling-img {
+      width: 76px;
+      margin-right: 5px;
+    }
+
+    .u-anchor-nav {
+      text-align: center;
+      width: 82%;
+      margin: 20px auto 0;
+    }
+
+    .anchor-nav a {
+      margin-right: 0;
+      display: block;
+      border-bottom: 1px solid var(--color);
+      padding-bottom: 10px;
+    }
+
+    .anchor-nav a+a {
+      padding-top: 10px;
+    }
+
+    .anchor-nav .ac-block a+a {
+      padding-right: 23px;
+    }
+
+    .inner-item {
+      /*display: flex;*/
+      justify-content: space-between;
+    }
+
+    .inner-item+a+a {
+      /*padding: 0 8px 12px 0;*/
+    }
+
+    /*エアコンクリーニングとは*/
+    .ac-howto .c-grid li:first-child {
+      margin-bottom: 6px;
+    }
+
+    /* 比較表 */
+    .compare-table-note {
+      font-size: 0.8125rem;
+      color: #88929b;
+      text-indent: -1em;
+      padding-left: 1em;
+      padding-bottom: 16px;
+    }
+
+    .compare-table-container {
+      padding-bottom: 0.5em;
+    }
+
+    .compare-table {
+      width: 100%;
+    }
+
+    .compare-table__row:first-of-type .compare-table__heading {
+      width: 115px;
+    }
+
+    .compare-table__row:first-of-type .compare-table__heading:not(:first-of-type) {
+      width: 173px;
+    }
+
+    .compare-table__heading,
+    .compare-table__data {
+      padding: 8px;
+    }
+
+    .compare-table__heading {
+      font-size: 0.875rem;
+    }
+
+    .compare-table__text {
+      font-size: 0.8125rem;
+    }
+
+    .compare-table__note {
+      font-size: 0.75rem;
+    }
+
+    .compare-table__link-button {
+      padding: 10px 0.5em 11px;
+    }
+
+    .compare-table__link-button .c-button__text {
+      font-size: 0.75rem;
+    }
+
+    .compare-section {
+      margin-top: 48px;
+    }
+
+    .compare-section+.compare-section {
+      margin-top: 64px;
+    }
+
+    .compare-section__contents {
+      margin-top: 32px;
+    }
+
+    .compare-box__heading {
+      padding: 12px 1em;
+    }
+
+    .compare-box__contents {
+      padding: 20px 34px 24px;
+    }
+
+    .compare-box__read {
+      margin-top: 16px;
+    }
+
+    .compare-box__read span {
+      font-size: 0.875rem;
+    }
+
+    .compare-box__description {
+      padding-bottom: 20px;
+    }
+
+    .ac-table {
+      padding: 15px 0 56px 15px;
+    }
+
+    .customer-voice__link-container {
+      margin-right: 15px;
+    }
+
+    /* おそうじ本舗が選ばれる理由 */
+    .ac-points {
+      padding-bottom: 0;
+    }
+
+    /* エアコンクリーニングとは */
+    .ac-howto .ac-howto-contents {
+      padding: 10px 20px;
+    }
+
+    .ac-howto .c-feature__description {
+      margin: 0 10px;
+    }
+
+    .ac-howto .c-grid li:first-child {
+      margin-bottom: 6px;
+    }
+
+    .ac-howto h3.c-feature__heading {
+      font-size: 1.2rem;
+    }
+
+    /* 店舗一覧 */
+
+    .search-keyword__input-field {
+      margin-top: 28px;
+    }
+
+    .search-prefectures {
+      margin-top: 28px;
+    }
+
+    .search-prefectures__contents {
+      margin-top: 28px;
+    }
+
+    /* 記事 */
+    .ac-atl .p-content-box__content {
+      margin-top: 0;
+    }
+
+    .ac-atl .c-grid {
+      display: grid;
+    }
+
+    .ac-atl .c-grid .c-feature {
+      border-bottom: 1px solid #d7dfe8;
+      padding: 16px;
+    }
+
+    /*おそうじ本舗のハウスクリーニング一覧*/
+    .c-double-line-heading {
+      font-size: 1.4375rem;
+    }
+
+  }
+
+  .anchor-links__link {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.8;
+    color: #005bac;
+    text-decoration: underline;
+    transition: opacity .3s
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .anchor-links__link {
+      gap: 16px;
+      font-size: 1rem
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .anchor-links__link {
+      gap: 12px;
+      font-size: .875rem
+    }
+  }
+
+  @media(hover: hover) {
+    .anchor-links__link:not(.is-disabled-hover):hover {
+      opacity: .75
+    }
+  }
+
+  .anchor-links__link:not(:last-child)::after {
+    display: block;
+    width: 1px;
+    content: "";
+    background-color: #b6c0ca
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .anchor-links__link:not(:last-child)::after {
+      height: calc(100% - 12.8px)
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .anchor-links__link:not(:last-child)::after {
+      height: calc(100% - 11.2px)
+    }
+  }
+
+  .fine-bubble {
+    margin-bottom: 16px;
+  }
+
+  .fine-bubble .c-note {
+    display: block;
+  }
+
+  .fine-bubble-head {
+    display: flex;
+    align-items: center
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+
+    .fine-bubble {
+      margin-top: 5px;
+    }
+
+    .fine-bubble .c-text {
+      margin-bottom: 1em;
+      font-weight: bold;
+    }
+
+    .fine-bubble-head {
+      justify-content: center;
+      gap: 32px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .fine-bubble-head {
+      flex-direction: column;
+      gap: 16px
+    }
+  }
+
+  .fine-bubble-heading {
+    font-weight: bold;
+    line-height: 1.2;
+    color: #06408c
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .fine-bubble-heading {
+      font-size: 1.8125rem
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .fine-bubble-heading {
+      text-align: center;
+      font-size: 1.4375rem
+    }
+
+    .ac-howto .c-feature {
+      display: block;
+    }
+
+    .ac-howto .c-feature img {
+      /*height: initial;*/
+      width: 100% !important;
+      margin-bottom: 20px;
+    }
+  }
+
+  .fine-bubble-heading__sub {
+    display: block;
+    padding-bottom: 8px;
+  }
+
+  .fine-bubble-heading__catch {
+    display: block;
+    color: #fff;
+    background: #06408c;
+    font-weight: bold;
+    line-height: 1;
+    padding: .5em 0;
+    margin-bottom: 12px;
+  }
+
+
+  @media print,
+  screen and (min-width: 768px) {
+
+    .fine-bubble-heading__sub,
+    .fine-bubble-heading__catch {
+      font-size: 1.25rem
+    }
+
+    .fine-bubble_03 {
+      margin-left: 1vw;
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+
+    .fine-bubble-heading__sub,
+    .fine-bubble-heading__catch {
+      font-size: 1.0625rem
+    }
+
+    .fine-bubble_03 {
+      margin: 32px 0;
+    }
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .fine-bubble__text {
+      margin-top: 16px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .fine-bubble__text {
+      margin-top: 12px
+    }
+  }
+
+  .fine-bubble__figure {
+    margin-top: 24px
+  }
+
+  .fine-bubble__note {
+    margin-top: 16px
+  }
+
+  .fine-bubble__note+.fine-bubble__note {
+    margin-top: 4px
+  }
+
+  .fine-bubble-figure {
+    display: grid;
+    background-color: #fff;
+    padding: 20px
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .fine-bubble-figure {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 24px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .fine-bubble-figure {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 16px
+    }
+  }
+
+  .fine-bubble-figure__heading {
+    font-weight: bold;
+    font-size: 1.0625rem
+  }
+
+  .fine-bubble-figure__text {
+    font-size: .8125rem;
+    margin-top: 8px
+  }
+
+  .recommend-plan__heading,
+  .recommend-plan__text {
+    text-align: center
+  }
+
+  .recommend-plan__heading {
+    color: #06408c
+  }
+
+  .recommend-plan__text {
+    margin-top: 12px
+  }
+
+  .recommend-plan__tab {
+    margin-top: 40px
+  }
+
+  .recommend-plan-cards {
+    display: grid;
+    gap: 24px;
+    justify-content: center
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .recommend-plan-cards {
+      grid-template-columns: repeat(auto-fit, minmax(100px, 384px))
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .recommend-plan-cards {
+      grid-template-columns: repeat(1, 1fr)
+    }
+  }
+
+  .about-price-heading {
+    text-align: center
+  }
+
+  .about-price-heading__main,
+  .about-price-heading__sub {
+    display: block
+  }
+
+  .about-price-heading__main {
+    font-weight: bold;
+    color: #fff;
+    background-color: #005bac;
+    border-radius: 8px
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-heading__main {
+      font-size: 1.5rem;
+      line-height: 1.2;
+      padding: 32px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-heading__main {
+      font-size: 1.0625rem;
+      padding: 20px
+    }
+  }
+
+  .about-price-heading__sub {
+    color: #005bac
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-heading__sub {
+      font-size: 1.25rem;
+      margin-top: 16px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-heading__sub {
+      font-size: 1.0625rem;
+      margin-top: 8px
+    }
+  }
+
+  .about-price-truth {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    position: relative
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-truth {
+      font-size: 1.5rem;
+      margin-top: 88px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-truth {
+      font-size: 1.25rem;
+      margin-top: 48px
+    }
+  }
+
+  .about-price-truth::before {
+    content: "";
+    display: inline-flex;
+    width: 2px;
+    background: linear-gradient(to top, #88929b 2px, transparent 2px);
+    background-repeat: repeat-y;
+    background-position: left bottom;
+    background-size: 2px 6px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-truth::before {
+      height: 32px;
+      bottom: calc(100% + 28px)
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-truth::before {
+      height: 16px;
+      bottom: calc(100% + 16px)
+    }
+  }
+
+  .about-price-truth__emphasize {
+    color: #005bac
+  }
+
+  .about-price-figure {
+    text-align: center;
+    background-color: #fff
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-figure {
+      padding: 32px 40px 40px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-figure {
+      padding: 24px 20px
+    }
+  }
+
+  .about-price-figure__figcaption {
+    font-weight: bold;
+    color: #005bac
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-figure__figcaption {
+      font-size: 1.25rem
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-figure__figcaption {
+      font-size: 1.0625rem
+    }
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .about-price-figure__image {
+      margin-top: 24px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .about-price-figure__image {
+      margin-top: 16px
+    }
+  }
+
+  .about-price-appeal {
+    font-weight: bold;
+    text-align: center;
+    /*  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;*/
+    font-size: 1.0625rem;
+    line-height: 2.47;
+    color: #005bac
+  }
+
+  @media print,
+  screen and (min-width: 768px) {
+    .customer-voice__card+.customer-voice__card {
+      margin-top: 32px
+    }
+  }
+
+  @media screen and (max-width: 767.98px) {
+    .customer-voice__card+.customer-voice__card {
+      margin-top: 16px
+    }
+  }
+
+  .customer-voice__link-container {
+    text-align: right;
+    margin-top: 32px
+  }
+
+  .mv-anchor {
+    position: relative;
+  }
+
+  .mv-anchor-btn-wrap {
+    position: absolute;
+    max-width: 1024px;
+    width: 100%;
+    bottom: 1.8vw;
+    left: 0;
+    right: 0;
+    padding: 0 3%;
+    margin: auto;
+  }
+
+  .mv-anchor-btn-wrap .c-step-list-item__note {
+    margin: 2px 0;
+  }
+
+  .mv-anchor-btn-wrap .l-section--limited {
+    padding-inline: 0;
+  }
+
+  .mv-anchor-btn-wrap ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    margin-bottom: 4px;
+  }
+
+  .mv-anchor-btn-wrap ul li a {
+    display: block;
+    position: relative;
+    width: 100%;
+    color: #084490;
+    background-image: -moz-linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(255, 255, 255) 51%);
+    background-image: -webkit-linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(255, 255, 255) 51%);
+    background-image: -ms-linear-gradient(90deg, rgb(213, 213, 213) 0%, rgb(255, 255, 255) 51%);
+    text-align: center;
+    font-size: clamp(1rem, 1.6vw, 1.6rem);
+    font-weight: bold;
+    font-feature-settings: "palt";
+    letter-spacing: .05em;
+    line-height: 1;
+    padding: 0.6em 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5);
+  }
+
+  .mv-anchor-btn-wrap ul li a:before {
+    content: '';
+    background: #084490;
+    position: absolute;
+    top: calc(50% - 8px);
+    right: 12px;
+    width: 16px;
+    height: 16px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .mv-anchor-btn-wrap ul li a:after {
+    content: '';
+    position: absolute;
+    top: 14px;
+    right: 17px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+  }
+
+
+  @media print,
+  screen and (min-width: 768px) {
+
+    .mv-anchor-btn-wrap ul {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .mv-anchor-btn-wrap ul li {
+      max-width: 480px;
+      width: 47.5%;
+    }
+
+    .mv-anchor-btn-wrap ul li a {
+      padding: 0.8em 0;
+    }
+
+    .mv-anchor-btn-wrap ul li a:before {
+      top: calc(50% - 12px);
+      right: 20px;
+      width: 24px;
+      height: 24px;
+    }
+
+    .mv-anchor-btn-wrap ul li a:after {
+      top: calc(50% - 6px);
+      right: 28px;
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+
+  @media print,
+  screen and (min-width: 1024px) {
+
+    .l-section-inner-aircon-top-note {
+      padding-inline: 0 !important;
+    }
+
+    .mv-anchor-btn-wrap {
+      padding: 0;
+    }
+
+    .mv-anchor-btn-wrap ul {
+      margin-bottom: 20px;
+    }
+
+    .mv-anchor-btn-wrap .c-step-list-item__note {
+      margin: 4px 0;
+    }
+  }
+
+  sup {
+    font-size: .5em;
+  }

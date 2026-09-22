@@ -12,6 +12,7 @@ from device_styles import layout_source
 from hero import publish_hero
 from home_sections import publish_home_sections
 from shop import publish_shop
+from reference import publish_reference
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -260,4 +261,5 @@ stats['hudPages'] = publish_hud(ROOT)
 stats['heroPages'] = publish_hero(ROOT)
 publish_home_sections(ROOT)
 publish_shop(ROOT)
+publish_reference(ROOT)
 print(json.dumps(stats, ensure_ascii=False))
