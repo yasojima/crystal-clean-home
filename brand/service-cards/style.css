@@ -310,3 +310,36 @@ screen and (min-width: 768px) {#cch-service-cards .u-sp-only{
 }
 #cch-service-cards h2::before,#cch-service-cards h2::after{content:none;}
 #cch-service-cards .c-house-cleaning-links{margin-top:40px;}
+
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child {
+  --crystal-edge: #b5d6e7;
+  border-radius: 0;
+  background: var(--crystal-edge);
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+  box-shadow: none;
+  isolation: isolate;
+  transition: background-color .18s ease;
+}
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child::before {
+  content: "";
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  background: linear-gradient(145deg, #fff 30%, #edf8fc 100%);
+  clip-path: polygon(0 0, calc(100% - 19px) 0, 100% 19px, 100% 100%, 19px 100%, 0 calc(100% - 19px));
+  box-shadow: inset 0 -12px 24px rgba(18, 98, 145, .025);
+}
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child .c-category-simple-card__bottom {
+  background: transparent;
+  border-radius: 0;
+}
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child .c-category-simple-card__bottom::before,
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child h3::before,
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child h3::after { content: none; }
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child .c-category-simple-card__text { color: #124d70; }
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child:hover { --crystal-edge: #548fae; }
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child:focus-visible { --crystal-edge: #124d70; outline: none; }
+#cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child:focus-visible::before { inset: 3px; }
+@media (prefers-reduced-motion: reduce) {
+  #cch-service-cards .c-house-cleaning-links > .c-category-simple-card:first-child { transition: none; }
+}
