@@ -1,0 +1,555 @@
+{
+  "categories": [
+    [
+      "all",
+      "すべて"
+    ],
+    [
+      "pack",
+      "セット"
+    ],
+    [
+      "aircon",
+      "エアコン"
+    ],
+    [
+      "kitchen",
+      "キッチン"
+    ],
+    [
+      "water",
+      "水まわり"
+    ],
+    [
+      "washing",
+      "洗濯機"
+    ],
+    [
+      "room",
+      "お部屋"
+    ],
+    [
+      "coating",
+      "コーティング"
+    ],
+    [
+      "other",
+      "その他"
+    ]
+  ],
+  "products": [
+    {
+      "id": "packThree",
+      "category": "pack",
+      "name": "キッチン・レンジフード・浴室セット",
+      "description": "キッチンI型・レンジフード・浴室をまとめて清掃。複数の場所を一度にご相談いただけます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house06.jpg",
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house05.jpg",
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house07.jpg"
+      ],
+      "variants": [
+        {
+          "id": "packThree",
+          "name": "セット一式",
+          "price": 39600,
+          "unit": "式",
+          "max": 10
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "packWater",
+      "category": "pack",
+      "name": "浴室・洗面所・トイレセット",
+      "description": "浴室と洗面所・トイレをまとめて清掃。毎日使う水まわりを一度に整えたい方へ。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house07.jpg",
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house10.jpg",
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house11.jpg"
+      ],
+      "variants": [
+        {
+          "id": "packWater",
+          "name": "セット一式",
+          "price": 26400,
+          "unit": "式",
+          "max": 10
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "packKitchen",
+      "category": "pack",
+      "name": "キッチン・レンジフードセット",
+      "description": "キッチンI型とレンジフードをまとめて清掃。調理まわりの汚れを一度に整えたい方へ。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house06.jpg",
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house05.jpg"
+      ],
+      "variants": [
+        {
+          "id": "packKitchen",
+          "name": "セット一式",
+          "price": 26400,
+          "unit": "式",
+          "max": 10
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "airconKabekake",
+      "category": "aircon",
+      "name": "壁掛けエアコン",
+      "description": "フィルターや内部の汚れを洗浄。機種に合った清掃方法で整えます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-air-conditioner01.jpg"
+      ],
+      "variants": [
+        {
+          "id": "airconKogataIppan",
+          "name": "通常タイプ",
+          "price": 11000,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "airconOsoujiKinou",
+          "name": "お掃除機能付きタイプ",
+          "price": 17600,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "airconKabeUmekomi",
+          "name": "壁埋め込み式",
+          "price": 14300,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "airconKabekakeOogata",
+          "name": "大型タイプ",
+          "price": 16500,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/air-conditioner/"
+    },
+    {
+      "id": "airconTenjou",
+      "category": "aircon",
+      "name": "天井設置エアコン",
+      "description": "ご家庭・店舗の天井設置型に対応。設置状況と機種を確認して作業します。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-air-conditioner05.jpg"
+      ],
+      "variants": [
+        {
+          "id": "airconKogataUmekomi",
+          "name": "住居・家庭用",
+          "price": 22000,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "airconOogataUmekomi",
+          "name": "オフィス・店舗・施設用",
+          "price": 22000,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/air-conditioner/"
+    },
+    {
+      "id": "airconYuka",
+      "category": "aircon",
+      "name": "床置きエアコン",
+      "description": "床置き型のエアコンを、サイズに合わせて清掃します。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-air-conditioner08.jpg"
+      ],
+      "variants": [
+        {
+          "id": "airconKogataOkigata",
+          "name": "小型",
+          "price": 14300,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "airconOogataOkigata",
+          "name": "大型",
+          "price": 22000,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/air-conditioner/"
+    },
+    {
+      "id": "sentakuki",
+      "category": "washing",
+      "name": "縦型洗濯機",
+      "description": "洗濯槽の汚れを清掃。容量と乾燥機能の有無を選んでください。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/washing-machine002.jpg"
+      ],
+      "variants": [
+        {
+          "id": "sentakuki8kgMiman",
+          "name": "8kg未満（縦型）",
+          "price": 17600,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "sentakuki8kgIjou",
+          "name": "8kg以上（縦型）",
+          "price": 20900,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "sentakukiBeatwash8kgMiman",
+          "name": "8kg未満（縦型） 乾燥機能付",
+          "price": 23100,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "sentakukiBeatwash8kgIjou",
+          "name": "8kg以上（縦型） 乾燥機能付",
+          "price": 26400,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/washing-machine/"
+    },
+    {
+      "id": "rangeHood",
+      "category": "kitchen",
+      "name": "レンジフード・換気扇",
+      "description": "フィルターやファンに付着した油汚れを、部品ごとに丁寧に落とします。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house05.jpg"
+      ],
+      "variants": [
+        {
+          "id": "rangeHood",
+          "name": "レンジフード",
+          "price": 15400,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "rangeHood-puropera",
+          "name": "フード無しプロペラ・天埋換気扇タイプ",
+          "price": 9900,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/rangefood/"
+    },
+    {
+      "id": "kitchen",
+      "category": "kitchen",
+      "name": "キッチン",
+      "description": "コンロまわりやシンクの汚れを清掃。キッチンの形状から選べます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house06.jpg"
+      ],
+      "variants": [
+        {
+          "id": "kitchen",
+          "name": "キッチンI型",
+          "price": 16500,
+          "unit": "式",
+          "max": 20
+        },
+        {
+          "id": "kitchen-Lgata",
+          "name": "キッチンL型",
+          "price": 22000,
+          "unit": "式",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/kitchen/"
+    },
+    {
+      "id": "bathroom",
+      "category": "water",
+      "name": "浴室・シャワー室",
+      "description": "浴槽や床・壁の水垢、石けんかすなど、日々蓄積する汚れを清掃します。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house07.jpg"
+      ],
+      "variants": [
+        {
+          "id": "bathroom",
+          "name": "標準タイプ",
+          "price": 16500,
+          "unit": "室",
+          "max": 20
+        },
+        {
+          "id": "bathroomBenkiTsuki",
+          "name": "浴室（便器付き）",
+          "price": 18700,
+          "unit": "室",
+          "max": 20
+        },
+        {
+          "id": "showerroom",
+          "name": "シャワー室",
+          "price": 11000,
+          "unit": "室",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/bathroom/"
+    },
+    {
+      "id": "washroom",
+      "category": "water",
+      "name": "洗面所",
+      "description": "洗面ボウルや蛇口、鏡などを清掃し、毎日使う場所を清潔に整えます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house10.jpg"
+      ],
+      "variants": [
+        {
+          "id": "washroom",
+          "name": "標準タイプ",
+          "price": 7700,
+          "unit": "ヶ所",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/washroom/"
+    },
+    {
+      "id": "toilet",
+      "category": "water",
+      "name": "トイレ",
+      "description": "便器やまわりの汚れを清掃。気になる箇所は予約時にご相談いただけます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house11.jpg"
+      ],
+      "variants": [
+        {
+          "id": "toilet",
+          "name": "標準タイプ",
+          "price": 8800,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "toilet-shoben",
+          "name": "小便器",
+          "price": 5500,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": "/crystal-clean-home/service/house/toilet/"
+    },
+    {
+      "id": "yuka",
+      "category": "room",
+      "name": "床・フローリング",
+      "description": "床材とご希望に合わせて、拭き掃除またはワックス仕上げを選べます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house12.jpg"
+      ],
+      "variants": [
+        {
+          "id": "fukisoujiPlusSoujiki",
+          "name": "拭き掃除+掃除機掛け",
+          "price": 440,
+          "unit": "㎡",
+          "max": 999
+        },
+        {
+          "id": "seisouPlusStandardWax",
+          "name": "清掃+スタンダードワックス",
+          "price": 1430,
+          "unit": "㎡",
+          "max": 999
+        },
+        {
+          "id": "seisouPlusHighGradeWax",
+          "name": "清掃+ハイグレードワックス",
+          "price": 1100,
+          "unit": "㎡",
+          "max": 999
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "carpet",
+      "category": "room",
+      "name": "敷き詰めカーペット",
+      "description": "カーペットの汚れを清掃。施工する面積を入力してください。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house15.jpg"
+      ],
+      "variants": [
+        {
+          "id": "carpet",
+          "name": "標準タイプ",
+          "price": 1100,
+          "unit": "㎡",
+          "max": 999
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "windowGlass",
+      "category": "room",
+      "name": "窓ガラス・サッシ・雨戸",
+      "description": "ガラスやサッシ、雨戸など、清掃する箇所と種類から選べます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house26.jpg"
+      ],
+      "variants": [
+        {
+          "id": "windowGlass",
+          "name": "窓ガラス・サッシ2枚",
+          "price": 8800,
+          "unit": "枠",
+          "max": 20
+        },
+        {
+          "id": "windowGlassHakidashiMado",
+          "name": "窓ガラス・サッシ （掃き出し窓）",
+          "price": 3850,
+          "unit": "枠",
+          "max": 20
+        },
+        {
+          "id": "shutter01",
+          "name": "家庭用シャッター（雨戸）片側",
+          "price": 2200,
+          "unit": "枠",
+          "max": 20
+        },
+        {
+          "id": "shutter02",
+          "name": "家庭用シャッター（雨戸）両面",
+          "price": 3850,
+          "unit": "枠",
+          "max": 20
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "veranda",
+      "category": "other",
+      "name": "ベランダ",
+      "description": "ベランダの床などの汚れを清掃。面積に合わせたメニューを選べます。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house18.jpg"
+      ],
+      "variants": [
+        {
+          "id": "veranda10Miman",
+          "name": "（10㎡未満）",
+          "price": 9900,
+          "unit": "ヶ所",
+          "max": 20
+        },
+        {
+          "id": "veranda10Ijou20Miman",
+          "name": "（10㎡以上20㎡未満）",
+          "price": 15400,
+          "unit": "ヶ所",
+          "max": 20
+        },
+        {
+          "id": "veranda20Ijou30Miman",
+          "name": "（20㎡以上30㎡未満）",
+          "price": 23100,
+          "unit": "ヶ所",
+          "max": 20
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "kankisen",
+      "category": "other",
+      "name": "お部屋の換気扇・換気口",
+      "description": "ホコリがたまりやすい換気まわりを清掃します。",
+      "images": [
+        "/crystal-clean-home/brand/shop/vent.svg"
+      ],
+      "variants": [
+        {
+          "id": "kankisen",
+          "name": "換気扇",
+          "price": 3850,
+          "unit": "台",
+          "max": 20
+        },
+        {
+          "id": "kankikou",
+          "name": "換気口",
+          "price": 3850,
+          "unit": "台",
+          "max": 20
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "coating",
+      "category": "coating",
+      "name": "コーティングのご相談",
+      "description": "床材・施工面積・ご希望の仕上がりを伺い、お見積もりします。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house12.jpg"
+      ],
+      "variants": [
+        {
+          "id": "coating",
+          "name": "個別見積り",
+          "price": null,
+          "unit": "件",
+          "max": 1
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "exterior",
+      "category": "other",
+      "name": "外壁洗浄・その他のご相談",
+      "description": "外壁など、一覧にない清掃もご相談ください。現地の状態を確認してお見積もりします。",
+      "images": [
+        "/crystal-clean-home/wp/wp-content/themes/original_theme/img/simulation-house18.jpg"
+      ],
+      "variants": [
+        {
+          "id": "exterior",
+          "name": "個別見積り",
+          "price": null,
+          "unit": "件",
+          "max": 1
+        }
+      ],
+      "detail": null
+    }
+  ]
+}
