@@ -1441,15 +1441,15 @@ Mobile style's
   justify-content: space-between;
 }
 .sec_area .flex .img{
-  width:calc(100% - 700px);
+  width:calc(100% - 600px);
 }
 .sec_area .flex .img img{
   width:340px;
 }
 .sec_area .flex .txt{
-  width:700px;
+  width:600px;
   padding:0 2rem 0;
-  text-align:center;
+  text-align:left;
 }
 .sec_area .flex .txt h2::before{
   content:none;
