@@ -50,4 +50,4 @@ reference-report.json、copy-change-log.json等は生成・照合データで、
 - 適用：home_sections.py、reference.py、checkout.py。要素・属性・リンク・注意書きを保持する。商品名、料金、作業範囲の列挙、お客様の声は編集対象から除外。
 - 検証：python test_card_copy.py（元HTMLの構造/属性/数値/お客様の声/再適用時の不変性）、python audit_shared_ui.py（共有CSS・接続・カード文言の棚卸し）。生成レポートはcard-copy-review.jsonとcard-copy-inventory.json。
 
-- 共通カテゴリーカード形状・帯・ラベル・hover：brand/header/category-cards.css。比較用nth-child例外は再追加しない。
+- 共通カテゴリーカード形状・帯・ラベル・hover：brand/header/category-cards.css。参考元デザインへ復元済み。比較用nth-child例外は再追加しない。
