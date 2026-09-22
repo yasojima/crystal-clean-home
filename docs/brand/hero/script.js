@@ -12,7 +12,7 @@
     duration: 2,
     virtualScroll: ({event}) => {
       const nativeInput = event.composedPath().some(node => node instanceof Element && node.matches('#header, dialog, .simulation'));
-      const nativeMode = nativeInput || document.documentElement.classList.contains('cch-header-drawer-open') || document.querySelector('dialog[open]') || window.scrollY >= hero.offsetTop + hero.offsetHeight;
+      const nativeMode = nativeInput || document.documentElement.classList.contains('cch-header-drawer-open') || document.querySelector('dialog[open]');
       if (nativeMode) {
         lenis.reset();
         return false;
