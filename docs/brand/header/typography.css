@@ -4,4 +4,4 @@ body,body :is(p,span,a,button,input,textarea,select,label,dt,dd,li,td,th,summary
 body :is(h1,h2,h3,h4,h5,h6),body :is(h1,h2,h3,h4,h5,h6) :is(span,a,small,strong,em){font-family:var(--cch-heading-font)!important}
 /* Category names, prices and action labels remain readable UI text. */
 body :is(header,nav,button,.btn,.btn_cv,.btn_flat,.c-category-simple-card,.c-cart-confirm,.c-price,.c-product-price) :is(h1,h2,h3,h4,h5,h6,span,a,small,strong,em),body :is(button,input,textarea,select,.c-price__text){font-family:var(--cch-body-font)!important}
-body .l-section[class*="-bubbles"]::before{background-image:url("section-triangles.svg")!important;background-repeat:no-repeat!important;background-size:12px 36px!important;background-position:center!important}
+body .l-section[class*="-bubbles"]::before{background-image:url("section-triangles.svg?v=black1")!important;background-repeat:no-repeat!important;background-size:12px 36px!important;background-position:center!important}

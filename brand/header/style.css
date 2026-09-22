@@ -1,5 +1,5 @@
-@import url("category-cards.css?v=20260923-3");
-@import url("typography.css?v=20260923-1");
+@import url("category-cards.css?v=20260923-4");
+@import url("typography.css?v=20260923-2");
 #header.cch-header {
   --header-duration: .4s;
   --header-ease: cubic-bezier(.43,.05,.17,1);
