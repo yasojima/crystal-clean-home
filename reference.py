@@ -2,6 +2,7 @@
 from pathlib import Path
 from urllib.parse import urljoin,urlsplit
 from bs4 import BeautifulSoup
+from card_copy import apply_card_copy
 import tinycss2,re,json,shutil
 ROOT=Path(__file__).resolve().parent;BASE='/crystal-clean-home/';REF=BASE+'reference/';ORIGIN='https://www.osoujihonpo.com'
 def scope_css(css,scope):
@@ -74,6 +75,7 @@ def publish_reference(root=ROOT):
     for f in sorted((src/'pages').rglob('index.html')):
         path='/'+f.parent.relative_to(src/'pages').as_posix()+'/'
         soup=BeautifulSoup(f.read_bytes(),'html.parser');main=soup.select_one('main')
+        if main:apply_card_copy(main)
         if not main:continue
         for card in main.select('.js-product-card'):
             field=card.select_one('input[name=product-id]');heading=card.select_one('h3,h4,h2,h5')
@@ -151,7 +153,7 @@ def publish_reference(root=ROOT):
         variant_map['ref-'+set_id]['components']=components
     recommendation_cards=json.loads((src/'checkout/recommend-cards.json').read_text(encoding='utf-8'))
     for rawid,html in recommendation_cards.items():
-        sid='ref-'+rawid.replace('_','~');card=BeautifulSoup(html,'html.parser');p=product_map.get(sid)
+        sid='ref-'+rawid.replace('_','~');card=BeautifulSoup(html,'html.parser');apply_card_copy(card);p=product_map.get(sid)
         if p:
             img=card.select_one('img[src]');desc=card.select_one('.c-product-additional-card__description')
             if img:p['images']=[local_url(img['src'],'/cart/')]

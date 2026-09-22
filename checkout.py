@@ -2,6 +2,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup,Comment
 import re,json
+from card_copy import apply_card_copy
 
 def publish_checkout(root,header,data):
     from reference import local_url,replace_brand,BASE
@@ -53,6 +54,7 @@ def publish_checkout(root,header,data):
         else:
             for key in ['confirm','confirm-item','summary']:content+='<template id="cch-template-'+key+'">'+templates[key]+'</template>'
         cleaned=BeautifulSoup(content,'html.parser')
+        apply_card_copy(cleaned)
         for el in cleaned.select('form'):
             el['action']='#';el.attrs.pop('onsubmit',None)
         for el in cleaned.select('input[type=hidden]'):el.decompose()

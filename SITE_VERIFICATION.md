@@ -55,3 +55,12 @@
 - index.htmlを持つ443公開ページが共通ヘッダーCSSを参照。55ページ・165個のバブル接続を共通セレクターで置換。
 - 非表示IABのホームでゴールド/紺の通常・hover反転値、游明朝の見出し、三角形表示を確認。390pxではdocument幅375pxで横溢れなし。
 - node test-shop.cjs、test-reference.cjs、test-checkout.cjsがPASS。全443ページの目視検収とは区別。
+
+- UI公開：f350c24、Pages 35792290125 success。公開ホームで角丸12px・ゴールド/紺と三角形の実表示を確認。
+
+## CHG-2026-09-23-CARD-COPY 検証
+
+- 221件の文言対応表。52参照ページ中48ページ・219種類の実テキストを変更。ホームとカート推薦にも適用。サービス名・作業範囲・料金条件・お客様の声は保持。
+- python test_card_copy.py PASS。全HTML要素・属性・数値列・お客様の声が一致し、再適用も不変。カタログを説明文以外で比較して完全一致。
+- node test-shop.cjs、test-reference.cjs、test-checkout.cjs PASS。
+- 非表示IAB：パック一覧PC/390pxで本文・追加ボタンの重なりなし、カードの高さ方向の溢れ0、横溢れなし。表示テキストの指定外フォント0。全ページ目視検収ではない。

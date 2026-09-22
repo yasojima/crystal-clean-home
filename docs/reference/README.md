@@ -19,3 +19,5 @@ node test-reference.cjsで代表計算と参照を確認。現在の検証範囲
 checkout.pyはsource/osouji/checkoutのcart/estimate/confirm.htmlを使用。checkout.js/cssが数量変更、親子明細、追加オプション、割引内訳、入力・確認・戻る・デモ確定を接続する。set-samples.jsonは16セットの公開カート応答（トークンやセッションIDを保存しない）、recommend-cards.jsonは元の推薦カード。個人情報は画面メモリだけ。postal-data.jsは日本郵便の公開データを同梱した住所補完用。取得元：https://www.post.japanpost.jp/service/search/zipcode/download/utf-zip.html （2026-08-31版）。
 
 node test-checkout.cjsで16セットの構成と金額、税額、親子削除、保存復元、ローカルフォームの送信禁止を検証。全クーポン・店舗別価格・実予約送信・予約完了後の参照元画面は未検証/未接続。
+
+カードの説明・訴求見出しはcard-copy.jsonとcard_copy.pyで編集。承認済み原文との完全一致に限定し、構造・属性・料金条件・商品名・引用を保持。実テキストの共通書体と3段三角形はbrand/header/typography.cssを参照する。

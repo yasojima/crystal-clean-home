@@ -42,3 +42,10 @@ Node：`node test-shop.cjs`、`node test-reference.cjs`、`node test-checkout.cj
 reference-report.json、copy-change-log.json等は生成・照合データで、現在の承認事項の正本ではない。過去の公開状態を固定文でMDへ上書きする旧補助スクリプトは撤去済み。
 
 カートの取得ソース：capture_checkout.py（カート・入力・確認。実予約送信は行わない）、capture_cart_samples.py（16セットの公開カート応答・推薦カード）。通常生成時に再取得しない。source/osouji/checkout/set-samples.jsonを価格根拠として保持。旧brand/shopの独自shell/script/CSSは撤去済み。住所補完データはbrand/reference/postal-data.js（日本郵便2026-08-31版、120717郵便番号）。
+
+## 共通UIとカード文言
+
+- 全ページの実テキスト書体とセクション三角形：brand/header/typography.css、section-triangles.svg。header/style.cssから参照し、header.pyで配布する。
+- カード文言の正本：brand/reference/card-copy.json（確認済みの原文と置換文221組）。card_copy.pyが原文に完全一致するテキストノードだけを置換する。未知の文章への一般的な単語置換は行わない。
+- 適用：home_sections.py、reference.py、checkout.py。要素・属性・リンク・注意書きを保持する。商品名、料金、作業範囲の列挙、お客様の声は編集対象から除外。
+- 検証：python test_card_copy.py（元HTMLの構造/属性/数値/お客様の声/再適用時の不変性）、python audit_shared_ui.py（共有CSS・接続・カード文言の棚卸し）。生成レポートはcard-copy-review.jsonとcard-copy-inventory.json。

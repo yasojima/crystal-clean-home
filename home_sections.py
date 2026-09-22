@@ -3,6 +3,8 @@ from pathlib import Path
 import re
 import shutil
 import hashlib
+from bs4 import BeautifulSoup
+from card_copy import apply_card_copy
 
 def publish_home_sections(root):
     target = root / 'docs/index.html'
@@ -14,6 +16,9 @@ def publish_home_sections(root):
             text = text.replace('</main>', f'<!-- cch-{name} -->\n</main>', 1)
         component = root / 'brand' / name
         markup = (component / 'template.html').read_text(encoding='utf-8')
+        fragment = BeautifulSoup(markup, 'html.parser')
+        apply_card_copy(fragment)
+        markup = str(fragment)
         pattern = rf'<!-- cch-{name}:start -->.*?<!-- cch-{name}:end -->|<!-- cch-{name} -->|<section class="{old}">.*?</section>'
         text, count = re.subn(pattern, lambda _: f'<!-- cch-{name}:start -->{markup}<!-- cch-{name}:end -->', text, count=1, flags=re.S)
         if count != 1:
