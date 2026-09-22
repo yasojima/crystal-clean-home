@@ -8,6 +8,7 @@ from demo import publish_demo
 from copywriting import publish_copy
 from hud import publish_hud
 from header import publish_header
+from device_styles import layout_source
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -58,6 +59,28 @@ def local_url(value, origin):
 
 def css_urls(text, origin):
     return re.sub(r'url\(\s*([\"\']?)([^\)\"\']+)\1\s*\)', lambda m: 'url("' + local_url(m[2].strip(), origin) + '")', text)
+
+def rendered_site_css(f):
+    css = css_urls(layout_source(ROOT, f['path']), f['url'])
+    css = stylesheet(css)
+    css += typography()
+    css += '\nheader .h_top .logo img{aspect-ratio:1578/731;}\n@media screen and (min-width:993px){header .h_top .logo{position:relative;height:72px;}header .h_top .logo img{position:absolute;left:0;top:50%;transform:translateY(-50%);width:180px;height:auto;}}\n'
+    css += '@media screen and (max-width:992px){header .h_top .logo img{width:auto;height:38px;}}\n'
+    return css
+
+
+if '--layout-only' in sys.argv:
+    owned = json.loads((SOURCE / 'layout/manifest.json').read_text(encoding='utf-8'))
+    count = 0
+    for f in files:
+        path = Path(f['path']).as_posix()
+        if path not in owned:
+            continue
+        css = rendered_site_css(f) if owned[path] == 'site.css' else stylesheet(css_urls(layout_source(ROOT, path), f['url']))
+        (OUT / published_path(f)).write_text(css, encoding='utf-8')
+        count += 1
+    print(json.dumps({'layoutStyles': count, 'headerPages': publish_header(ROOT)}))
+    sys.exit(0)
 
 def absolute_urls(text):
     return re.sub(r'https?://[^\s\"\'<>\\)]+', lambda m: local_url(m[0], 'https://iekire.com/'), text)
@@ -149,7 +172,7 @@ for f in ([] if '--assets-only' in sys.argv else files):
         dest.write_text(tab_identity(str(soup)), encoding='utf-8')
         stats['pages'] += 1
     elif 'css' in f['type'] or src.suffix == '.css':
-        dest.write_text(css_urls(src.read_text(encoding='utf-8'), f['url']), encoding='utf-8')
+        dest.write_text(css_urls(layout_source(ROOT, f['path']), f['url']), encoding='utf-8')
         stats['resources'] += 1
     elif src.suffix == '.js':
         dest.write_text(absolute_urls(src.read_text(encoding='utf-8-sig')), encoding='utf-8')
@@ -208,7 +231,7 @@ for f in files:
         current = dest.read_text(encoding='utf-8') if src.name in ('h_tel.svg', 'cv_tel.svg', 'cv_tel02.svg') else src.read_text(encoding='utf-8')
         dest.write_text(vector(current), encoding='utf-8')
     elif 'css' in f['type']:
-        dest.write_text(stylesheet(css_urls(src.read_text(encoding='utf-8'), f['url'])), encoding='utf-8')
+        dest.write_text(stylesheet(css_urls(layout_source(ROOT, f['path']), f['url'])), encoding='utf-8')
 
 def apply_inline_theme(path):
     markup = path.read_text(encoding='utf-8')
@@ -221,12 +244,7 @@ with ThreadPoolExecutor(max_workers=12) as pool:
 
 for f in files:
     if f['path'].startswith('wp/wp-content/themes/original_theme/style') and 'css' in f['type']:
-        css = css_urls((SOURCE / f['path']).read_text(encoding='utf-8'), f['url'])
-        css = stylesheet(css)
-        css += typography()
-        css += '\nheader .h_top .logo img{aspect-ratio:1578/731;}\n@media screen and (min-width:993px){header .h_top .logo{position:relative;height:72px;}header .h_top .logo img{position:absolute;left:0;top:50%;transform:translateY(-50%);width:180px;height:auto;}}\n'
-        css += '@media screen and (max-width:992px){header .h_top .logo img{width:auto;height:38px;}}\n'
-        (OUT / published_path(f)).write_text(css, encoding='utf-8')
+        (OUT / published_path(f)).write_text(rendered_site_css(f), encoding='utf-8')
 if '--assets-only' not in sys.argv:
     (ROOT / 'build-report.json').write_text(json.dumps(stats, ensure_ascii=False, indent=2), encoding='utf-8')
 stats['copyPages'] = len(publish_copy(ROOT))
