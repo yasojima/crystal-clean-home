@@ -1,15 +1,11 @@
 # Crystal Clean Home
 
-Editable public HTML, CSS, JavaScript and assets captured from https://iekire.com/.
+現在は公開ワイヤーフレームを構築中です。2026-09-23更新。
 
-- Website: https://yasojima.github.io/crystal-clean-home/
-- Source pages and assets: `source/`
-- Shared business information and adopted logo: `brand/`
-- Capture inventory: `capture.json`
-- Build: `python build.py`
-- Preview: `python preview.py`
-- Generated GitHub Pages site: `docs/`
+- 最初に [PROJECT_MANIFEST.md](PROJECT_MANIFEST.md) を読む。
+- 現行要件は [要件定義書](Crystal-Clean-Home_要件定義書.md)、編集・生成は [EDITING_GUIDE.md](EDITING_GUIDE.md)。
+- 重要な決定は [CHANGELOG.md](CHANGELOG.md)、確認済み範囲と残件は [SITE_VERIFICATION.md](SITE_VERIFICATION.md)。
+- 公開：https://yasojima.github.io/crystal-clean-home/
+- Git：https://github.com/yasojima/crystal-clean-home （main / docs）
 
-Install Python dependencies with `pip install -r requirements.txt`.
-
-The capture contains public browser-delivered files, not private WordPress PHP, databases or server-side form processing. The displayed source service information is reference content, pending business-owner review. Contact submission is disabled until a receiving endpoint is configured.
+旧サイト基盤と、おそうじ本舗から移植した商品ページが併存しています。実予約の送信は未接続です。商品・料金・キャンペーンは自社の確定情報ではありません。

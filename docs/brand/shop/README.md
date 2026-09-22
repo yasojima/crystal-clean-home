@@ -1,11 +1,12 @@
-# Shopping prototype — 2026-09-23
+# カート・見積フォーム
 
-Canonical data: `brand/shop/catalog.json`. Shared renderer: `shop.py`; full build invokes it after homepage sections. Targeted rebuild: `python home_sections.py` then `python shop.py`. PC and mobile overrides are separate.
+更新：2026-09-23。現在の公開商品一覧はreference.pyによる移植ページ。shop.pyの独自一覧を最終成果として公開しない。
 
-Routes: `/services/`, `/cart/`, `/estimate/`. Category links on homepage and lower directory lead to filtered catalog. Old homepage floating calculator replaced by cart link. Existing detail pages are retained.
+- brand/shop/catalog.json：旧19グループ/40バリアント。旧保存カート互換用として維持。
+- cart-core.js：ID・数量の検証と合計、複数台単価。
+- script.js：カート編集・削除・フォーム確認・デモ終了。個人情報の送信/永続保存なし。
+- style.css、desktop.css、mobile.css：新カート/フォームの表示。
+- shop.py実行後にreference.pyが移植商品を結合し、/cart/・/estimate/へ注入。CLI python shop.pyはこの順で実行する。
+- 保存キーcch-estimate-cart-v1。保存内容は商品IDと整数数量のみ。
 
-19 cards / 40 variants, including 3 set combinations and 2 individual-estimate consultation items. Prices copied from existing simulation `formConfig` as draft data, not newly approved commercial rates. Existing water-set pricing is used for the three combinations; I-shaped kitchen, standard bathroom and hood are the scope. Do not present this as a complete import of every reference-site service or optional treatment. Existing source price anomalies (standard wax 1,430 vs high-grade 1,100 per square metre) require business review before production. No automatic discounts or source-company campaign offers are implemented.
-
-Cart stores only variant IDs and integer quantities in localStorage; computes current prices from catalog, rejects unknown/invalid records and caps quantities. Contact data lives only in the form DOM. CSP forbids network connections and form submission. Final reservation button opens the demo notice, never submits. Actual booking integration and validated commercial catalog are a later step.
-
-Checks: `node test-shop.cjs` covers duplicates, invalid storage, quantity bounds, variant/area/set totals and all image files. Browser checks cover variant selection, add multiple items, cart persistence, quantity editing, deletion, confirmation and demo completion; responsive checks at 390px and desktop.
+検証：node test-shop.cjs、node test-reference.cjs。料金は事業者未承認。正式な価格・全割引条件・実受付接続は未完了。共通現行仕様はルートの要件定義書、未対応はSITE_VERIFICATION.md。

@@ -1,32 +1,16 @@
-# PC・スマホの表示管理
+# PC・スマホの編集境界
 
-更新日：2026-09-22 / CHG-2026-09-22-DEVICE-LAYOUT
+更新：2026-09-23。
 
-## 編集場所
+| 対象 | 共通 / PC / スマホ |
+| --- | --- |
+| 旧基盤 | source/layout/manifest.json、desktop/site.css、mobile/site.css |
+| 旧見積 | source/layout/desktop/estimate.css、mobile/estimate.css |
+| 共通ヘッダー | brand/header/style.css、desktop.css、mobile.css |
+| ヒーロー | brand/hero/desktop.css、mobile.css、script.js |
+| 新カート | brand/shop/style.css、desktop.css、mobile.css |
+| 移植ページ | source/osouji/assets/cssの元メディアクエリ＋brand/reference/brand.css、desktop.css、mobile.css |
 
-| 対象 | PC | スマホ・タブレット |
-| --- | --- | --- |
-| ページ全体・サイドバー・フッター・画像の表示寸法 | source/layout/desktop/site.css | source/layout/mobile/site.css |
-| 見積シミュレーションのレイアウト | source/layout/desktop/estimate.css | source/layout/mobile/estimate.css |
-| 共通ヘッダー・グローバルメニューの表示 | brand/header/desktop.css | brand/header/mobile.css |
-
-PCは993px以上、スマホ側は992px以下を担当します。スマホ側にはタブレット幅の調整も含みます。HUDのMOBILE/TABLET分類は従来どおりです。各ファイルは対象端末にだけ適用され、PC用の配置・余白を変更してもスマホ用には適用されません。移行時は現在の公開スタイルを基準に、適用順序と既存表示を維持しました。独立して調整するレイアウト指定は各端末ファイルで所有します。
-
-## 共通管理する内容
-
-文章はcopy/ja.json、メニュー項目・リンク先はbrand/header/template.html、事業情報はbrand/site.json、色・用途別書体はbrand/theme.jsonとtheme.pyを使用します。画像素材は既存の共通資産を参照します。同じ画像や文章を端末別に複製しません。スマホ向けに文章を短くする場合も、共通の文章を更新しPCに反映します。
-
-brand/header/style.cssには共通の色・すりガラス・アクセシビリティ・装飾帯の指定を置きます。開閉と操作状態の管理はscript.jsで共通化されています。文書構造・フォーム処理・第三者ライブラリまで別サイトに複製する構成ではありません。
-
-## 生成と公開
-
-source/layout/manifest.jsonが元のCSS公開パスと編集ファイルを対応付け、device_styles.pyが端末条件を付けて生成します。元の2つのCSSソースは案内のみで、古い混在スタイルを残しません。
-
-`python build.py --layout-only`で表示用CSSと全ページの共通ヘッダーを生成します。通常ビルドにも同じ処理を使用します。生成先docsを直接編集しません。Bootstrap等の第三者基盤CSSは既存の依存資産として保持します。
-
-## 検証
-
-390・640・768・992・993・1280・1440pxで、サイト本体と見積CSSの有効ルールと適用順序が分離前と一致することを確認しました。PCと390pxのブラウザー表示も確認します。全ページの目視確認ではありません。
-
-
-2026-09-22：ホーム追加・パンくず文字撤去はc34763a、Pages 35670130130成功。端末別CSS管理はded3811、Pages 35670654995成功。公開トップ・下層・PC/スマホヘッダーCSS・本体CSSとローカル生成物の一致を確認。PC1280pxで帯31.96875px・本文開始245.96875pxは変更前と同じ。390pxのホーム移動・メニュー表示と既存詳細21リンクを確認。サイト/見積CSSは390/640/768/992/993/1280/1440pxで有効ルールの順序を含め分離前と一致。全387ページの目視確認ではない。
+ヘッダー・旧基盤・ヒーローのPC境界は993px、スマホ/タブレットは992px以下。移植本文には元サイト独自のブレークポイントがあり、一律993pxではない。
+文章・画像・商品データは端末別に複製しない。移植CSSは.cch-reference、ホストCSSは.cch-hostにスコープ化する。生成・公開はEDITING_GUIDE.md参照。
+過去のPC/390pxブラウザー確認は実機検収ではない。現在の全ページ・全幅で目視合格したとは扱わない。
