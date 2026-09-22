@@ -10,6 +10,7 @@ from hud import publish_hud
 from header import publish_header
 from device_styles import layout_source
 from hero import publish_hero
+from home_sections import publish_home_sections
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -256,4 +257,5 @@ stats['headerPages'] = publish_header(ROOT)
 stats['demoPages'] = publish_demo(ROOT)
 stats['hudPages'] = publish_hud(ROOT)
 stats['heroPages'] = publish_hero(ROOT)
+publish_home_sections(ROOT)
 print(json.dumps(stats, ensure_ascii=False))
