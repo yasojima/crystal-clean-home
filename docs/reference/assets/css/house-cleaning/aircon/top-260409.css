@@ -65,7 +65,7 @@
     padding: 8px 8px 26px 8px;
   }
 .cch-reference .p-content-box__content+p{
-    
+
     margin: 0 auto 16px;
   }
 .cch-reference .p-content-box__content+p+p{
@@ -214,7 +214,7 @@
   }
 .cch-reference .ac-atl .c-grid{
     display: flex;
-    
+
   }
 .cch-reference .ac-atl .p-content-box__content{
     margin-top: 32px;
@@ -225,10 +225,10 @@
     border: none;
   }
 .cch-reference .ac-atl .c-grid .c-feature a{
-    
+
     display: flex;
     text-align: justify;
-    
+
     align-items: center;
   }
 .cch-reference .ac-atl .c-grid .c-feature a:hover{
@@ -269,7 +269,7 @@
       font-size: 0.8125rem;
     }
 .cch-reference .compare-section{
-      
+
     }
 .cch-reference .compare-section+.compare-section{
       margin-top: 96px;
@@ -391,14 +391,14 @@
     }
 .cch-reference .anchor-nav{
       font-size: 1rem;
-      
-      
+
+
     }
 .cch-reference .anchor-nav .ac-block{
       display: flex;
       justify-content: space-between;
       width: 82%;
-      
+
       border-bottom: 1px solid #075b91;
       margin: 0 auto;
       padding-bottom: 12px;
@@ -437,11 +437,11 @@
       padding-right: 23px;
     }
 .cch-reference .inner-item{
-      
+
       justify-content: space-between;
     }
 .cch-reference .inner-item+a+a{
-      
+
     }
 .cch-reference .ac-howto .c-grid li:first-child{
       margin-bottom: 6px;
@@ -627,7 +627,7 @@
       display: block;
     }
 .cch-reference .ac-howto .c-feature img{
-      
+
       width: 100% !important;
       margin-bottom: 20px;
     }}
@@ -824,7 +824,7 @@
 .cch-reference .about-price-appeal{
     font-weight: bold;
     text-align: center;
-    
+
     font-size: 1.0625rem;
     line-height: 2.47;
     color: #075b91

@@ -1,12 +1,11 @@
-# カート・見積フォーム
+# 共通カート計算・旧データ互換
 
-更新：2026-09-23。現在の公開商品一覧はreference.pyによる移植ページ。shop.pyの独自一覧を最終成果として公開しない。
+更新：2026-09-23。
 
-- brand/shop/catalog.json：旧19グループ/40バリアント。旧保存カート互換用として維持。
-- cart-core.js：ID・数量の検証と合計、複数台単価。
-- script.js：カート編集・削除・フォーム確認・デモ終了。個人情報の送信/永続保存なし。
-- style.css、desktop.css、mobile.css：新カート/フォームの表示。
-- shop.py実行後にreference.pyが移植商品を結合し、/cart/・/estimate/へ注入。CLI python shop.pyはこの順で実行する。
-- 保存キーcch-estimate-cart-v1。保存内容は商品IDと整数数量のみ。
+- catalog.json：旧19グループ/40種類の保存カート互換データ。
+- cart-core.js：ID・数量検証、セット分解、合計、複数台価格、割引・税額、本体削除時のオプション削除。
+- 保存キーcch-estimate-cart-v1。保存対象は商品IDと整数数量だけ。
+- 画面はsource/osouji/checkoutの参考元HTML/CSSをcheckout.pyで生成。brand/reference/checkout.jsがローカル操作を担当する。
+- 旧独自shell/script/CSSは撤去。shop.pyは共有アセットとホームの入口を管理し、CLIではreference.pyを続けて実行する。
 
-検証：node test-shop.cjs、node test-reference.cjs。料金は事業者未承認。正式な価格・全割引条件・実受付接続は未完了。共通現行仕様はルートの要件定義書、未対応はSITE_VERIFICATION.md。
+検証：node test-shop.cjs、node test-reference.cjs、node test-checkout.cjs。実予約・クーポン判定は未接続。現行仕様と残件はルートの要件定義書とSITE_VERIFICATION.md。

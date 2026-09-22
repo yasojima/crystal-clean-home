@@ -43,7 +43,7 @@ def prices(el):
     return int(match[0].replace(',','')) if match else None
 def publish_reference(root=ROOT):
     src=root/'source/osouji';out=root/'docs/reference';out.mkdir(exist_ok=True)
-    assets=src/'assets';shutil.copytree(assets,out/'assets',dirs_exist_ok=True)
+    assets=src/'assets';shutil.copytree(assets,out/'assets',dirs_exist_ok=True,ignore=lambda directory,names:[n for n in names if n.endswith('.css')])
     common=(assets/'js/common.js').read_text(encoding='utf-8')
     assert 'new a,new o,new S,new y,new E,new x,new Ee' in common
     common=common.replace('new a,new o,new S,new y,new E,new x,new Ee','new S,new y,new E,new x,new Ee')
@@ -52,13 +52,15 @@ def publish_reference(root=ROOT):
     assert common.count('w(this.el,{reserveScrollBarGap:!0})') == 2
     common=common.replace('w(this.el,{reserveScrollBarGap:!0})','void 0').replace('b(this.el)','void 0')
     (out/'assets/js/common.js').write_text(common,encoding='utf-8')
-    for f in (out/'assets').rglob('*.css'):
-        original=assets/f.relative_to(out/'assets');css=original.read_text(encoding='utf-8-sig')
+    for original in assets.rglob('*.css'):
+        f=out/'assets'/original.relative_to(assets);css=original.read_text(encoding='utf-8-sig')
         css=re.sub(r'url\(([^)]+)\)',lambda m:'url("'+local_url(m[1].strip(' \"\''),'/assets/'+f.relative_to(out/'assets').as_posix())+'")',css)
         css=scope_css(css,'.cch-reference')
         # Adapt only palette values; keep dimensions, composition and breakpoints.
         for a,b in {'#005bac':'#075b91','#0060ae':'#075b91','#004098':'#17354b','#e3f1fc':'#eef5f9','#f4f8fa':'#eef5f9'}.items():css=re.sub(re.escape(a),b,css,flags=re.I)
-        f.write_text(css,encoding='utf-8')
+        css='\n'.join(line.rstrip() for line in css.splitlines())
+        if not f.exists() or f.read_text(encoding='utf-8')!=css:
+            temporary=f.with_suffix('.css.tmp');temporary.write_text(css,encoding='utf-8');temporary.replace(f)
     hostcss=''
     for f in [root/'docs/wp/wp-content/themes/original_theme/css/bulma.css',root/'docs/wp/wp-content/themes/original_theme/style--a15f99ca6e.css']:
         css=f.read_text(encoding='utf-8');css=re.sub(r'url\(([^)]+)\)',lambda m:'url("'+urljoin(BASE+'wp/wp-content/themes/original_theme/'+('css/' if f.name=='bulma.css' else ''),m[1].strip(' \"\''))+'")',css);hostcss+=scope_css(css,'.cch-host')
@@ -98,6 +100,15 @@ def publish_reference(root=ROOT):
                     match=re.search(r'[／/]\s*(.+)',unitnode.text)
                     if match:unit=match[1].strip()
                 v=dict(id=sid,name=choice.get_text(' ',strip=True) if choice else '標準',price=price,unit=unit,max=999,sourceId=rid)
+                regular=pe.select_one('[data-discount]')
+                if regular:
+                    m=re.search(r'[0-9][0-9,]*',regular.get('data-discount',''))
+                    if m:v['regularPrice']=int(m[0].replace(',',''))
+                counters=card.select('[data-switch-target=counters] input') or card.select('.js-counter input')
+                counter=counters[min(i,len(counters)-1)] if counters else None
+                quantities=card.select('.js-product-quantity select option')
+                if counter:v['max']=int(counter.get('max',30))
+                elif quantities:v['max']=max(int(o.get('value',1)) for o in quantities)
                 tier=pe.select('.c-multi-campaign-price__item')
                 if len(tier)>1:v['multiPrice']=prices(tier[1])
                 if '〜' in pe.get_text() or '～' in pe.get_text():v['fromPrice']=True
@@ -122,14 +133,41 @@ def publish_reference(root=ROOT):
         html=(root/'brand/reference/shell.html').read_text(encoding='utf-8').replace('{{TITLE}}',replace_brand(soup.title.text if soup.title else '清掃メニュー')).replace('{{HEADER}}',header).replace('{{STYLES}}',styles).replace('{{CONTENT}}',replace_brand(crumb+str(main))).replace('{{HIDDEN_HEADER}}',hidden)
         page_outputs.append((path,html))
     catalog=json.loads((root/'brand/shop/catalog.json').read_text(encoding='utf-8'));catalog['products']+=list(products.values())
+    variant_map={v['id']:v for p in catalog['products'] for v in p['variants']}
+    samples=json.loads((src/'checkout/set-samples.json').read_text(encoding='utf-8'))
+    product_map={v['id']:p for p in catalog['products'] for v in p['variants']}
+    for set_id,parts in samples.items():
+        components=[]
+        for part in parts:
+            sid='ref-'+(str(part['parent_id'])+'~' if 'parent_id' in part else '')+str(part['id'])
+            amount=part['amounts'][0];regular=amount['price']+amount['price_tax'];price=regular-amount['price_discount']-amount['price_discount_tax']
+            if sid not in variant_map:
+                v=dict(id=sid,name='標準',price=price,regularPrice=regular,unit=part['unit'],max=30,sourceId=str(part['id']))
+                if 'parent_id' in part:v['requires']='ref-'+str(part['parent_id'])
+                parent=product_map.get('ref-'+str(part.get('parent_id',part['id']))) or product_map['ref-'+set_id]
+                p=dict(id='ref-cart-'+sid,category='reference',name=replace_brand(part['web_cart_name']),description='',images=parent['images'],variants=[v],detail=parent['detail']);catalog['products'].append(p);variant_map[sid]=v;product_map[sid]=p
+            variant_map[sid]['regularPrice']=regular;variant_map[sid]['price']=price
+            components.append(sid)
+        variant_map['ref-'+set_id]['components']=components
+    recommendation_cards=json.loads((src/'checkout/recommend-cards.json').read_text(encoding='utf-8'))
+    for rawid,html in recommendation_cards.items():
+        sid='ref-'+rawid.replace('_','~');card=BeautifulSoup(html,'html.parser');p=product_map.get(sid)
+        if p:
+            img=card.select_one('img[src]');desc=card.select_one('.c-product-additional-card__description')
+            if img:p['images']=[local_url(img['src'],'/cart/')]
+            if desc:p['description']=replace_brand(desc.get_text(' ',strip=True))
+    for v in variant_map.values():
+        ids=v.get('sourceId','').split('_')
+        if len(ids)>1:
+            components=['ref-'+ids[0]]+['ref-'+ids[0]+'~'+n for n in ids[1:]]
+            if all(n in variant_map for n in components) and sum(variant_map[n]['price'] or 0 for n in components)==v['price']:v['components']=components
     (out/'catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
     data=json.dumps(catalog,ensure_ascii=False).replace('</','<\\/')
     for path,html in page_outputs:
         html=html.replace('{{CATALOG}}',data);dest=root/'docs'/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(html,encoding='utf-8')
         if path=='/house-cleaning/pack/':(root/'docs/services/index.html').write_text(html,encoding='utf-8')
-    # Reuse local checkout with the exact captured price catalogue, no remote cart calls.
-    for page in ['cart','estimate']:
-        f=root/'docs'/page/'index.html';html=f.read_text(encoding='utf-8');html=re.sub(r'(<script id="shop-catalog" type="application/json">).*?(</script>)',lambda m:m[1]+data+m[2],html,flags=re.S);f.write_text(html,encoding='utf-8')
+    from checkout import publish_checkout
+    publish_checkout(root,header,data)
     shutil.copytree(root/'brand/reference',out,dirs_exist_ok=True)
     (root/'reference-report.json').write_text(json.dumps({'pages':counts,'products':len(products),'variants':sum(len(p['variants']) for p in products.values())},ensure_ascii=False,indent=2),encoding='utf-8')
     print('Published reference pages',len(page_outputs),'products',len(products))

@@ -1,0 +1,10 @@
+.cch-reference .confirm-form-fieldset__data{white-space:pre-line}
+.cch-reference .product-slider__inner{overflow-x:auto;scrollbar-width:none;scroll-snap-type:x mandatory;transform:none!important}
+.cch-reference .product-slider__inner>.swiper-slide{flex:0 0 calc((100% - 48px)/3);scroll-snap-align:start;margin-right:24px}
+.cch-reference .additional-options-items[hidden]{display:none}
+.cch-reference .discount-detail__content[aria-hidden=true]{display:none}
+.cch-reference #cch-cart-summary .discount-detail__content[aria-hidden=false]{display:block}
+.cch-reference #js-store-search-suggest button{padding:16px;width:100%;text-align:left;background:#fff;color:#075b91;border:1px solid #dae8f1}
+@media(max-width:767px){.cch-reference .product-slider__inner>.swiper-slide{flex-basis:86%;margin-right:16px}}
+
+.cch-reference .cart--empty .cart__contents{width:100%;flex:1}

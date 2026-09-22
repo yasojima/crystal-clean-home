@@ -1936,7 +1936,7 @@ screen and (min-width: 768px) {.cch-reference .c-compare-image .icv__arrow-wrapp
   mask-image: url("/crystal-clean-home/reference/assets/images/common-parts/icon/ulblo.svg")
 }
 @media  (hover: hover) {.cch-reference .head-area__button .c-icon--calculator{
-    
+
     background-image: url("/crystal-clean-home/reference/assets/images/common-parts/icon/icon-calculator.svg");
     --bg-color: none;
     --border-color: none;
@@ -1968,7 +1968,7 @@ screen and (min-width: 768px) {.cch-reference .c-compare-image .icv__arrow-wrapp
     mask-image: none;
   }}
 @media  (hover: none) {.cch-reference .head-area__button .c-icon--calculator{
-    
+
     background-image: url("/crystal-clean-home/reference/assets/images/common-parts/icon/icon-calculator.svg");
     --bg-color: none;
     --border-color: none;
@@ -2871,11 +2871,11 @@ screen and (min-width: 768px) {.cch-reference .c-product-detail-heading__image{
 }
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-double-icon-button__inner{
-    
+
     padding: 10px 20px;
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .c-double-icon-button__inner{
-    
+
     padding: 10px 20px;
   }}
 .cch-reference .c-double-icon-button__text{
@@ -4870,11 +4870,11 @@ screen and (min-width: 768px) {.cch-reference .c-category-simple-card--icon-down
 }
 .cch-reference .c-category-card.is-current-page{
   background-color: #f5f8fa;
-  
+
   box-shadow: none;
-  
+
   pointer-events: none;
-  
+
   cursor: default;
 }
 .cch-reference .c-category-card.is-current-page .c-category-card__heading,.cch-reference .c-category-card.is-current-page .c-category-card__description{
@@ -10944,13 +10944,13 @@ screen and (min-width: 768px) {.cch-reference .c-menu-modal__closer{
   width: 33.3333333333%
 }
 @media  screen and (max-width: 767.98px) {.cch-reference .c-aircon-details__item{
-    
+
   }}
 .cch-reference .c-aircon-details__link{
   display: grid;
   gap: 8px;
   justify-items: center;
-  
+
   margin-inline: auto;
   width: fit-content;
   font-size: .75rem;
@@ -11079,17 +11079,17 @@ screen and (min-width: 768px) {.cch-reference .c-aircon-details__image{
   position: relative
 }
 .cch-reference .c-footer__top-nav{
-  
+
   max-width: 1200px;
   margin-inline: auto
 }
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer__top-nav{
     display: grid;
-    
+
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    
+
     padding: 32px 0;
   }}
 @media  print,
@@ -11156,7 +11156,7 @@ screen and (min-width: 768px) {.cch-reference .c-footer--simple .c-footer__page-
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item{
-    
+
     display: flex;
     flex-direction: column;
   }}
@@ -11166,18 +11166,18 @@ screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item:not(:first
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item:nth-child(2){
-    
+
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .c-footer-top-nav__item:nth-child(2) .c-footer-global-links__item:first-child{
-    
+
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item:nth-child(3){
-    
+
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item:last-child{
-    
+
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .c-footer-top-nav__item:last-child{
     display: flex;
@@ -11190,8 +11190,8 @@ screen and (min-width: 768px) {.cch-reference .c-footer-top-nav__item:last-child
 .cch-reference .c-footer-accordion__trigger{
   display: flex;
   align-items: center;
-  
-  
+
+
   z-index: 99;
 }
 .cch-reference .c-footer-accordion-no-link__trigger{
@@ -11249,7 +11249,7 @@ screen and (min-width: 768px) {.cch-reference .c-footer-item-heading{
     display: flex;
     color: #fff;
     background-color: #2076d6;
-    
+
     margin-top: 2px;
     position: relative;
   }
@@ -11258,8 +11258,8 @@ screen and (min-width: 768px) {.cch-reference .c-footer-item-heading{
   }
 .cch-reference .c-footer-item-heading a.link{
     color: #fff;
-    
-    
+
+
     width: 85%;
     padding: 15px 0 15px 15px;
   }
@@ -11291,14 +11291,14 @@ screen and (min-width: 768px) {.cch-reference .c-footer-item-heading__text{
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-global-links{
-    
+
     padding-block: 5px 15px;
-    
+
     padding-left: 12px;
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-global-links__item{
-    
+
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .c-footer-global-links__item{
     padding: 15px;
@@ -11360,7 +11360,7 @@ screen and (min-width: 768px) {.cch-reference .c-footer-global-links__link{
 @media  print,
 screen and (min-width: 768px) {.cch-reference .c-footer-sns{
     column-gap: 28px;
-    
+
     margin-top: auto;
     align-items: center;
   }}
@@ -12040,7 +12040,7 @@ screen and (min-width: 768px) {.cch-reference .u-pb-120_72{
   -o-border-radius: 9999px;
 }
 @media  screen and (max-width: 767.98px) {.cch-reference .important-news a,.cch-reference .maintenance-news a{
-    
+
     font-size: 1rem;
   }}
 .cch-reference a[href="/policy/"] .c-link-text__text{

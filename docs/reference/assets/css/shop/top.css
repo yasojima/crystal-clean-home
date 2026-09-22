@@ -1,6 +1,6 @@
 .cch-reference .c-search-field__input:-webkit-autofill,.cch-reference .c-search-field__input:-webkit-autofill:hover,.cch-reference .c-search-field__input:-webkit-autofill:focus{
-  -webkit-text-fill-color: #333; 
-  box-shadow: 0 0 0px 1000px #fff inset; 
+  -webkit-text-fill-color: #333;
+  box-shadow: 0 0 0px 1000px #fff inset;
   transition: background-color 9999s ease-in-out 0s;
 }
 @media  print,

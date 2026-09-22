@@ -180,7 +180,7 @@ screen and (min-width: 768px) {.cch-reference .compare-table-note{
 }
 @media  print,
 screen and (min-width: 768px) {.cch-reference .compare-table__row:first-of-type .compare-table__heading{
-    
+
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .compare-table{
     width: 100%
@@ -228,7 +228,7 @@ screen and (min-width: 768px) {.cch-reference .compare-table__heading{
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 .cch-reference .compare-table__image{
   display: block;
@@ -402,7 +402,7 @@ screen and (min-width: 768px) {.cch-reference .fan-compare-table .compare-table_
   }}
 @media  print,
 screen and (min-width: 768px) {.cch-reference #guide .c-cleaning-area__item{
-    
+
     border-right: none;
     border-bottom: 0 !important;
     padding-block: 0 !important;

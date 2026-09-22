@@ -125,7 +125,7 @@ screen and (min-width: 768px) {.cch-reference .cleaning-list__list{
   position: relative
 }
 @media  screen and (max-width: 767.98px) {.cch-reference .anchor-links__cards-container{
-    
+
     padding-inline: 15px;
   }}
 @media  print,
@@ -139,7 +139,7 @@ screen and (min-width: 768px) {.cch-reference .anchor-links__cards{
     grid-template-columns: repeat(4, 1fr)
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .anchor-links__cards{
-    
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 11px;
@@ -157,7 +157,7 @@ screen and (min-width: 768px) {.cch-reference .anchor-links__card{
   }}
 @media  screen and (max-width: 767.98px) {.cch-reference .anchor-links__card{
     display: grid;
-    
+
     grid-template-rows: subgrid;
     grid-row: span 2;
     row-gap: 0
