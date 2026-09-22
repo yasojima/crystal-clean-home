@@ -9,12 +9,16 @@ from copywriting import publish_copy
 from hud import publish_hud
 from header import publish_header
 from device_styles import layout_source
+from hero import publish_hero
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
 OUT = ROOT / 'docs'
 BASE = '/crystal-clean-home/'
 brand = json.loads((ROOT / 'brand/site.json').read_text(encoding='utf-8-sig'))
+if '--hero-only' in sys.argv:
+    print(json.dumps({'heroPages': publish_hero(ROOT)}))
+    sys.exit(0)
 if '--header-only' in sys.argv:
     print(json.dumps({'headerPages': publish_header(ROOT)}))
     sys.exit(0)
@@ -251,4 +255,5 @@ stats['copyPages'] = len(publish_copy(ROOT))
 stats['headerPages'] = publish_header(ROOT)
 stats['demoPages'] = publish_demo(ROOT)
 stats['hudPages'] = publish_hud(ROOT)
+stats['heroPages'] = publish_hero(ROOT)
 print(json.dumps(stats, ensure_ascii=False))
