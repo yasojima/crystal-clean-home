@@ -49,3 +49,9 @@
 - 公開9ファイル（cart、estimate、cart/estimate、pack、checkout.js、brand.css、catalog.json、cart-core.js、postal-data.js）のSHA-256がコミット内ファイルと一致。
 - 公開IABでセット追加→元形式の追加モーダル→カート2点・34,100円→情報入力画面の遷移を確認。公開カートの新規スクリーンショットで赤CTAと明細表示を確認。入力ページ1280px：横溢れなし、破損画像0。
 - ローカルでは本体削除時のオプション連動削除と空カート表示も確認。
+
+## CHG-2026-09-23-UI-TYPE 検証
+
+- index.htmlを持つ443公開ページが共通ヘッダーCSSを参照。55ページ・165個のバブル接続を共通セレクターで置換。
+- 非表示IABのホームでゴールド/紺の通常・hover反転値、游明朝の見出し、三角形表示を確認。390pxではdocument幅375pxで横溢れなし。
+- node test-shop.cjs、test-reference.cjs、test-checkout.cjsがPASS。全443ページの目視検収とは区別。

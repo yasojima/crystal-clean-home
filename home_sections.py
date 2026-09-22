@@ -22,8 +22,7 @@ def publish_home_sections(root):
         version = hashlib.sha256((component / 'style.css').read_bytes()).hexdigest()[:12]
         text = text.replace('</head>', f'<link rel="stylesheet" href="/crystal-clean-home/brand/{name}/style.css?v={version}" data-home-component="{name}">\n</head>')
         shutil.copytree(component, root / 'docs/brand' / name, dirs_exist_ok=True)
-    if 'data-home-font' not in text:
-        text = text.replace('</head>', '<link data-home-font="true" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap">\n</head>')
+    text = re.sub(r'<link[^>]*data-home-font="true"[^>]*>\s*', '', text)
     for cls in ['sec_info', 'sec_point']:
         text = re.sub(rf'<section class="{cls}">.*?</section>\s*', '', text, flags=re.S)
     target.write_text(text, encoding='utf-8')
