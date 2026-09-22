@@ -2,3 +2,4 @@ html{scroll-behavior:smooth;scroll-padding-top:170px}body{margin:0;color:#344650
 .cch-reference :is(.c-button--fill-red,.c-double-icon-button--fill-red,.c-cart-confirm-button){border-color:#075b91}.cch-reference .c-cart-confirm__heading{font-family:"Yu Gothic",YuGothic,sans-serif}
 /* Wireframe: preserve the reference red for add-to-cart actions. */
 .cch-reference :is(.js-add-cart,#js-add-cart){background-color:var(--bg-color,#ed0e42);border-color:var(--border-color,#ed0e42);color:var(--color,#fff)}
+.cch-reference .js-compare-image .icv__control{touch-action:none}

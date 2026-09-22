@@ -47,6 +47,10 @@ def publish_reference(root=ROOT):
     common=(assets/'js/common.js').read_text(encoding='utf-8')
     assert 'new a,new o,new S,new y,new E,new x,new Ee' in common
     common=common.replace('new a,new o,new S,new y,new E,new x,new Ee','new S,new y,new E,new x,new Ee')
+    # Scroll locking changes the viewport width beneath our fixed header.
+    # Local touch-action on the handle prevents touch scrolling without reflow.
+    assert common.count('w(this.el,{reserveScrollBarGap:!0})') == 2
+    common=common.replace('w(this.el,{reserveScrollBarGap:!0})','void 0').replace('b(this.el)','void 0')
     (out/'assets/js/common.js').write_text(common,encoding='utf-8')
     for f in (out/'assets').rglob('*.css'):
         original=assets/f.relative_to(out/'assets');css=original.read_text(encoding='utf-8-sig')
