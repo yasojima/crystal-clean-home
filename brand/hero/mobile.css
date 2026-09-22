@@ -10,7 +10,9 @@
 
 #cch-hero.main_visual .main_visual_image {
   width: 100%;
-  padding-top: 100%;
+  height: calc(100vh - var(--hero-header-height, 60px));
+  height: calc(100dvh - var(--hero-header-height, 60px));
+  background: #fff;
   overflow: hidden;
   position: relative;
 }
@@ -22,7 +24,7 @@
   z-index: 1;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   transform: scale(1) !important;
   filter: brightness(1) !important;
 }
