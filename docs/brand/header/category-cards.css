@@ -1,11 +1,11 @@
 body .c-category-simple-card{border:1px solid #b5d6e7!important;border-radius:12px!important;clip-path:none!important;overflow:hidden!important;background:linear-gradient(145deg,#fff 30%,#edf8fc)!important;box-shadow:0 6px 16px #173e5810!important;isolation:isolate;transform:none!important;transition:border-color .18s ease!important}
 body .c-category-simple-card::before{content:none!important}
-body .c-category-simple-card__bottom{background:rgba(23,62,88,.09)!important;border-radius:0!important;border-top:1px solid #ffffffb3!important;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background-color .18s ease!important}
+body .c-category-simple-card__bottom{background:#ffe4b5!important;border-radius:0!important;border-top:1px solid #ffffffb3!important;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);transition:background-color .18s ease!important}
 body .c-category-simple-card__text{color:#173e58!important;transition:color .18s ease!important}
 body .c-category-simple-card__bottom::before,body .c-category-simple-card h3::before,body .c-category-simple-card h3::after{content:none!important}
-body .c-category-simple-card__label{--bg-color:#173e58!important;--border-color:#173e58!important;--color:#fff!important;background-color:#173e58!important;color:#fff!important;left:8px!important;top:8px!important}
+body .c-category-simple-card__label{--bg-color:#075b91!important;--border-color:#075b91!important;--color:#fff!important;background-color:#075b91!important;color:#fff!important;left:8px!important;top:8px!important}
 body .c-category-simple-card:hover,body .c-category-simple-card:focus-visible{border-color:#173e58!important;opacity:1!important;transform:none!important}
 body .c-category-simple-card:is(:hover,:focus-visible) .c-category-simple-card__bottom{background:#173e58!important}
-body .c-category-simple-card:is(:hover,:focus-visible) .c-category-simple-card__text{color:#fff!important}
+body .c-category-simple-card:is(:hover,:focus-visible) .c-category-simple-card__text{color:#ffe4b5!important}
 body .c-category-simple-card:focus-visible{outline:3px solid #173e58!important;outline-offset:3px!important}
 @media(prefers-reduced-motion:reduce){body .c-category-simple-card,body .c-category-simple-card__bottom,body .c-category-simple-card__text{transition:none!important}}
