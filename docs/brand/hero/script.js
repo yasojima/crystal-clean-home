@@ -1,6 +1,12 @@
 (() => {
   const hero = document.querySelector('#cch-hero');
   if (!hero) return;
+  const header = document.querySelector('#header');
+  if (header) {
+    const syncHeaderHeight = () => hero.style.setProperty('--hero-header-height', header.getBoundingClientRect().height + 'px');
+    syncHeaderHeight();
+    new ResizeObserver(syncHeaderHeight).observe(header);
+  }
   const lenis = new Lenis({
     autoRaf: true,
     duration: 2,
