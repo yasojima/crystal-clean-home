@@ -10,8 +10,15 @@
   const lenis = new Lenis({
     autoRaf: true,
     duration: 2,
-    prevent: node => !!node.closest('#header, dialog, .simulation'),
-    virtualScroll: () => !document.documentElement.classList.contains('cch-header-drawer-open') && !document.querySelector('dialog[open]') && window.scrollY < hero.offsetTop + hero.offsetHeight
+    virtualScroll: ({event}) => {
+      const nativeInput = event.composedPath().some(node => node instanceof Element && node.matches('#header, dialog, .simulation'));
+      const nativeMode = nativeInput || document.documentElement.classList.contains('cch-header-drawer-open') || document.querySelector('dialog[open]') || window.scrollY >= hero.offsetTop + hero.offsetHeight;
+      if (nativeMode) {
+        lenis.reset();
+        return false;
+      }
+      return true;
+    }
   });
   gsap.registerPlugin(ScrollTrigger);
   lenis.on('scroll', ScrollTrigger.update);
