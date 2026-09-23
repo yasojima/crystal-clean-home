@@ -18,6 +18,11 @@ def publish_header(root):
     illustration_output.mkdir(parents=True, exist_ok=True)
     for image in (root/'brand/category-illustrations-v1').glob('*.webp'):
         shutil.copy2(image, illustration_output/image.name)
+    section_output = root/'docs/brand/section-illustrations-v1'
+    section_output.mkdir(parents=True, exist_ok=True)
+    for asset in (root/'brand/section-illustrations-v1').iterdir():
+        if asset.suffix in ('.webp', '.svg', '.css'):
+            shutil.copy2(asset, section_output/asset.name)
     for asset in {a for entry in extensions.values() for a in entry.get('styles', [])+entry.get('scripts', [])}:
         source = (component/asset).resolve()
         if not source.is_relative_to(component.resolve()):
@@ -40,7 +45,7 @@ def publish_header(root):
         if count != 1:
             raise ValueError('Missing header: '+path)
         text = re.sub(r'<(?:link|script)\b[^>]*\bdata-shared-header=["\'][^"\']*["\'][^>]*>(?:</script>)?\s*', '', text, flags=re.I)
-        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-cta3" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
+        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-corporate1" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
         entry = extensions.get(path, {})
         for asset in entry.get('styles', []):
             tags += '<link rel="stylesheet" href="/crystal-clean-home/brand/header/'+html.escape(asset, quote=True)+'" data-shared-header="extension">\n'
