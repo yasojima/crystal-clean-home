@@ -1,3 +1,4 @@
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-popup1';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');
@@ -45,9 +46,21 @@
   if (!footer || document.getElementById('cch-bottom-bar')) return;
   const bar = document.createElement('div');
   bar.id = 'cch-bottom-bar'; bar.className = 'DEVELOP778 scrolled'; bar.dataset.pattern = '1';
-  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a><a href="/crystal-clean-home/cart/"><span>お見積りはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
+  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/reference/assets/images/header/estimate.svg" alt="お見積り" width="48" height="42"></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
   footer.before(bar);
   const wrap = bar.querySelector('.fixbtnwrap');
+  const popup = document.createElement('div');
+  popup.id='cch-cart-popup'; popup.className='c-cart-popup';
+  popup.innerHTML='<a class="c-cart-popup__link" href="/crystal-clean-home/cart/">カートの中身を確認する</a><p class="c-cart-popup__overview">現在<span data-count>0</span>点のメニューが入っています。</p><p class="c-cart-popup__price">合計金額 ¥<span data-amount>0</span>（税込）</p>';
+  wrap.append(popup);
+  const cartButton=bar.querySelector('.cch-bottom-cart');
+  // Original common.js onPopupOpenerClick toggles is-active without an animation.
+  cartButton.addEventListener('click',()=>{popup.classList.toggle('is-active');cartButton.setAttribute('aria-expanded',String(popup.classList.contains('is-active')));positionPopup();updateCart();});
+  function positionPopup(){const r=cartButton.getBoundingClientRect(),w=wrap.getBoundingClientRect();popup.style.left=Math.max(5,Math.min(w.width-322,r.right-w.left-300))+'px';popup.style.bottom=(w.bottom-r.top+20)+'px';popup.style.setProperty('--cart-tip-right',Math.max(16,Math.min(282,parseFloat(popup.style.left)+310-(r.left-w.left+r.width/2)))+'px');}
+  let cartIndex;
+  const cartReady=(async()=>{if(!window.CCHCart)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/brand/shop/cart-core.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});if(!window.CCHReferenceCatalog)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/reference/catalog.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});cartIndex=CCHCart.index(window.CCHReferenceCatalog)})();
+  async function updateCart(){try{await cartReady;const cart=CCHCart.clean(JSON.parse(localStorage.getItem('cch-estimate-cart-v1')||'[]'),cartIndex),totals=CCHCart.totals(cart,cartIndex);popup.querySelector('[data-count]').textContent=cart.reduce((n,l)=>n+l.qty,0);popup.querySelector('[data-amount]').textContent=totals.total.toLocaleString()+(totals.quote?'＋個別見積り':'')}catch(error){console.error('Cart summary:',error);popup.querySelector('[data-amount]').textContent='—'}}
+  window.addEventListener('cch-cart-change',updateCart);window.addEventListener('storage',updateCart);window.addEventListener('pageshow',updateCart);window.addEventListener('resize',positionPopup);updateCart();
   let timer;
   function positionBar(scrolling) {
     const h = wrap.getBoundingClientRect().height;
