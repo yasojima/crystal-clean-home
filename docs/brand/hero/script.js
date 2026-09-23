@@ -1,4 +1,5 @@
 (() => {
+ document.querySelector('.cch-hero-scroll')?.addEventListener('click',event=>{const target=document.querySelector('#cch-reasons');if(target){event.preventDefault();event.stopPropagation();window.scrollTo({top:target.getBoundingClientRect().top+window.scrollY,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});}});
  const video=document.querySelector('#cch-hero video'),button=document.querySelector('.cch-video-toggle');
  if(!video||!video.getAttribute('src'))return;
  const reduced=matchMedia('(prefers-reduced-motion:reduce)');

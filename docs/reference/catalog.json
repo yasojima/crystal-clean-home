@@ -756,7 +756,7 @@
           "name": "標準",
           "price": 13200,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "1",
           "multiPrice": 11000,
           "regularPrice": 14300
@@ -778,7 +778,7 @@
           "name": "標準",
           "price": 8800,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "1",
           "fromPrice": true,
           "requires": "ref-1",
@@ -801,7 +801,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "2",
           "requires": "ref-1",
           "regularPrice": 3300
@@ -823,7 +823,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "28",
           "requires": "ref-1"
         }
@@ -844,7 +844,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "29",
           "requires": "ref-1",
           "regularPrice": 1100
@@ -866,7 +866,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "30",
           "requires": "ref-1"
         }
@@ -887,7 +887,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "31",
           "requires": "ref-1"
         }
@@ -908,7 +908,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "43",
           "requires": "ref-1"
         }
@@ -929,7 +929,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "32",
           "requires": "ref-1"
         }
@@ -950,7 +950,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "33",
           "requires": "ref-1"
         }
@@ -971,7 +971,7 @@
           "name": "標準",
           "price": 23100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "2",
           "multiPrice": 20900,
           "fromPrice": true,
@@ -994,7 +994,7 @@
           "name": "標準",
           "price": 8800,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "159",
           "fromPrice": true,
           "requires": "ref-2",
@@ -1017,7 +1017,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "160",
           "requires": "ref-2",
           "regularPrice": 3300
@@ -1039,7 +1039,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "161",
           "requires": "ref-2"
         }
@@ -1060,7 +1060,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "個",
-          "max": 1,
+          "max": 30,
           "sourceId": "162",
           "requires": "ref-2",
           "regularPrice": 1100
@@ -1082,7 +1082,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "163",
           "requires": "ref-2"
         }
@@ -1103,7 +1103,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "164",
           "requires": "ref-2"
         }
@@ -1124,7 +1124,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "166",
           "requires": "ref-2"
         }
@@ -1145,7 +1145,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "167",
           "requires": "ref-2"
         }
@@ -1166,7 +1166,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "165",
           "requires": "ref-2"
         }
@@ -1397,7 +1397,7 @@
           "name": "標準",
           "price": 47850,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "801"
         }
       ],
@@ -1417,7 +1417,7 @@
           "name": "標準",
           "price": 16500,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "802"
         }
       ],
@@ -1437,7 +1437,7 @@
           "name": "標準",
           "price": 17050,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "803"
         }
       ],
@@ -1457,7 +1457,7 @@
           "name": "標準",
           "price": 12100,
           "unit": "帖",
-          "max": 1,
+          "max": 30,
           "sourceId": "805"
         }
       ],
@@ -1477,7 +1477,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "694",
           "requires": "ref-805"
         }
@@ -1498,7 +1498,7 @@
           "name": "標準",
           "price": 11000,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "806"
         }
       ],
@@ -1836,7 +1836,7 @@
           "name": "標準",
           "price": 18700,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "668",
           "regularPrice": 19800
         }
@@ -1857,7 +1857,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "701",
           "requires": "ref-668",
           "regularPrice": 9900
@@ -1879,7 +1879,7 @@
           "name": "標準",
           "price": 8800,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "490",
           "requires": "ref-668"
         }
@@ -1900,7 +1900,7 @@
           "name": "標準",
           "price": 15400,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "486",
           "regularPrice": 16500,
           "requires": "ref-668"
@@ -1922,7 +1922,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "㎡",
-          "max": 1,
+          "max": 30,
           "sourceId": "487",
           "requires": "ref-668"
         }
@@ -1943,7 +1943,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "495",
           "requires": "ref-668"
         }
@@ -1964,7 +1964,7 @@
           "name": "標準",
           "price": 4400,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "488",
           "requires": "ref-668"
         }
@@ -1985,7 +1985,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "493",
           "requires": "ref-668"
         }
@@ -2006,7 +2006,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "494",
           "requires": "ref-668"
         }
@@ -2027,7 +2027,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "492",
           "requires": "ref-668"
         }
@@ -2048,7 +2048,7 @@
           "name": "標準",
           "price": 13200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "489",
           "fromPrice": true,
           "requires": "ref-668"
@@ -2070,7 +2070,7 @@
           "name": "標準",
           "price": 11000,
           "unit": "台",
-          "max": 1,
+          "max": 30,
           "sourceId": "670"
         }
       ],
@@ -2090,7 +2090,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "497",
           "requires": "ref-670"
         }
@@ -2111,7 +2111,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "498",
           "requires": "ref-670"
         }
@@ -2132,7 +2132,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "499",
           "requires": "ref-670"
         }
@@ -2153,7 +2153,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "500",
           "requires": "ref-670"
         }
@@ -2352,7 +2352,7 @@
           "name": "標準",
           "price": 33000,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "700"
         }
       ],
@@ -2372,7 +2372,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "帖",
-          "max": 1,
+          "max": 30,
           "sourceId": "511",
           "requires": "ref-700"
         }
@@ -5523,7 +5523,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "691",
           "fromPrice": true
         }
@@ -5544,7 +5544,7 @@
           "name": "標準",
           "price": 22000,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "694",
           "fromPrice": true
         }
@@ -5565,7 +5565,7 @@
           "name": "標準",
           "price": 75900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "994",
           "fromPrice": true
         }
@@ -5586,7 +5586,7 @@
           "name": "標準",
           "price": 33000,
           "unit": "6帖",
-          "max": 1,
+          "max": 30,
           "sourceId": "984",
           "requires": "ref-994"
         }
@@ -5607,7 +5607,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "985",
           "requires": "ref-994"
         }
@@ -5628,7 +5628,7 @@
           "name": "標準",
           "price": 13200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "995",
           "fromPrice": true
         }
@@ -6474,7 +6474,7 @@
           "name": "標準",
           "price": 25300,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "5"
         }
       ],
@@ -6494,7 +6494,7 @@
           "name": "標準",
           "price": 53900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "983",
           "requires": "ref-5"
         }
@@ -6515,7 +6515,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "5",
           "requires": "ref-5"
         }
@@ -6536,7 +6536,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "6",
           "requires": "ref-5"
         }
@@ -6557,7 +6557,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "式",
-          "max": 1,
+          "max": 5,
           "sourceId": "101",
           "requires": "ref-5"
         }
@@ -6578,7 +6578,7 @@
           "name": "標準",
           "price": 62700,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "993"
         }
       ],
@@ -6622,7 +6622,7 @@
           "name": "標準",
           "price": 9900,
           "unit": "式",
-          "max": 1,
+          "max": 5,
           "sourceId": "7",
           "regularPrice": 9900
         }
@@ -6643,7 +6643,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "700",
           "requires": "ref-7",
           "regularPrice": 5500
@@ -6665,7 +6665,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "113",
           "requires": "ref-7"
         }
@@ -6686,7 +6686,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "基",
-          "max": 1,
+          "max": 30,
           "sourceId": "105",
           "requires": "ref-7"
         }
@@ -6707,7 +6707,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "107",
           "requires": "ref-7"
         }
@@ -6728,7 +6728,7 @@
           "name": "標準",
           "price": 1100,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "114",
           "requires": "ref-7"
         }
@@ -6749,7 +6749,7 @@
           "name": "標準",
           "price": 13200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "115",
           "fromPrice": true,
           "requires": "ref-7",
@@ -6772,7 +6772,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "116",
           "requires": "ref-7"
         }
@@ -6793,7 +6793,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "106",
           "requires": "ref-7"
         }
@@ -6814,7 +6814,7 @@
           "name": "標準",
           "price": 9350,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "142",
           "regularPrice": 9350
         }
@@ -6835,7 +6835,7 @@
           "name": "標準",
           "price": 5500,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "699",
           "requires": "ref-142",
           "regularPrice": 5500
@@ -6857,7 +6857,7 @@
           "name": "標準",
           "price": 17600,
           "unit": "セット",
-          "max": 1,
+          "max": 30,
           "sourceId": "133",
           "regularPrice": 18700,
           "requires": "ref-142"
@@ -6879,7 +6879,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "134",
           "requires": "ref-142"
         }
@@ -6900,7 +6900,7 @@
           "name": "標準",
           "price": 3300,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "138",
           "requires": "ref-142"
         }
@@ -6921,7 +6921,7 @@
           "name": "標準",
           "price": 2200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "136",
           "requires": "ref-142"
         }
@@ -6942,7 +6942,7 @@
           "name": "標準",
           "price": 2750,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "137",
           "requires": "ref-142"
         }
@@ -6963,7 +6963,7 @@
           "name": "標準",
           "price": 13200,
           "unit": "式",
-          "max": 1,
+          "max": 30,
           "sourceId": "135",
           "fromPrice": true,
           "requires": "ref-142"

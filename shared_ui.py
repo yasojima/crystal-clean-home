@@ -11,6 +11,7 @@ def publish_shared_ui(root):
     component = root / 'brand/shared-ui'
     shutil.copytree(component, root / 'docs/brand/shared-ui', dirs_exist_ok=True)
     shutil.copy2(root / 'brand/header/floating.js', root / 'docs/brand/header/floating.js')
+    shutil.copy2(root / 'brand/header/cart-mark.svg', root / 'docs/brand/header/cart-mark.svg')
     footer = (component / 'footer.html').read_text(encoding='utf-8')
     header = (root / 'brand/header/template.html').read_text(encoding='utf-8')
     area_label = re.search(r'<li class="area"><a[^>]*>([^<]+)</a>', header)[1]
@@ -45,7 +46,7 @@ def publish_shared_ui(root):
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
         text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
-        text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=bar-solid-links1', text)
+        text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=cart-badge3', text)
         if text != old:
             path.write_text(text, encoding='utf-8')
             return name

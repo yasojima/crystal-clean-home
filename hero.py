@@ -14,7 +14,7 @@ def publish_hero(root):
     markup = '<section id="cch-hero" aria-label="サービスイメージ動画">'
     markup += '<video class="cch-hero-video" muted loop playsinline preload="metadata" poster="' + html.escape(video['poster'], quote=True) + '"' + src + ' aria-label="サービスイメージ"></video>'
     markup += '<div class="cch-video-caption"' + hidden + '><span>' + html.escape(video['label']) + '</span><small>IMAGE VIDEO</small></div>'
-    markup += '<button class="cch-video-toggle" type="button" hidden>動画を再生</button></section>'
+    markup += '<button class="cch-video-toggle" type="button" hidden>動画を再生</button><button class="cch-hero-scroll" type="button" aria-label="選ばれる理由へスクロール"></button></section>'
     target = root / 'docs/index.html'
     text = target.read_text(encoding='utf-8')
     pattern = r'<!-- cch-hero:start -->.*?<!-- cch-hero:end -->|<div class="hero">.*?</div>'
@@ -22,8 +22,8 @@ def publish_hero(root):
     if count != 1:
         raise ValueError('Homepage hero boundary not found')
     text = re.sub(r'<(?:link|script)\b[^>]*data-home-hero="[^"]*"[^>]*>(?:</script>)?\s*', '', text)
-    tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/hero/video.css?v=frame1" data-home-hero="style">\n'
-    tags += '<script defer src="/crystal-clean-home/brand/hero/script.js?v=frame1" data-home-hero="script"></script>\n'
+    tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/hero/video.css?v=scroll2" data-home-hero="style">\n'
+    tags += '<script defer src="/crystal-clean-home/brand/hero/script.js?v=scroll2" data-home-hero="script"></script>\n'
     text = text.replace('</head>', tags + '</head>', 1)
     target.write_text(text, encoding='utf-8')
     shutil.copytree(component, root / 'docs/brand/hero', dirs_exist_ok=True)

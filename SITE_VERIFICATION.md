@@ -59,3 +59,7 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 サービスメニュー公開確認：01281888のPages run 35871718670成功。公開ヘッダー8+1項目、9リンク実クリック遷移PASS。
 
 - INNER-SIDEBAR: reason/first/qa/area の4ページを1280px・390pxで確認。aside.side=0、本文は1カラム、横溢れなし。
+
+- INNER-SIDEBAR: Pages 35872610744 成功。公開4ルートのサイドメニュー削除を確認。
+- HERO-SCROLL: 1280px/390pxでタップ後 #cch-reasons の上端が0.3px以内。SP横溢れなし。
+- CART-BADGE: ローカルで追加1点、明細数量3点、減数2点、再読み込み後の数量一致を確認。数量上限の回帰テスト追加。test-reference/test-shop/test-checkout/test_device_ui PASS。

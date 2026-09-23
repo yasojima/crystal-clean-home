@@ -581,3 +581,7 @@ html.cch-rail-open #cch-bottom-bar .c-cart-popup{display:none!important}
 
 #cch-bottom-bar .cch-bar-payments{display:grid;grid-template-columns:repeat(2,40px);align-items:center;gap:0 2px;line-height:1}
 #cch-bottom-bar .cch-bar-payments img{width:54px;height:36px;object-fit:contain;justify-self:center;max-width:none;transform:translateX(-7px)}
+
+#cch-bottom-bar .cch-bottom-cart{position:relative}
+#cch-bottom-bar .cch-bottom-cart .cch-bottom-cart-count{position:absolute;top:-5px;left:calc(50% + 5px);min-width:18px;height:18px;padding:0 4px;border-radius:20px;background:#ed0e42;color:#fff;border:2px solid #fff;box-sizing:content-box;font-family:Arial,sans-serif!important;font-size:11px;font-weight:700;line-height:18px;text-align:center;box-shadow:0 1px 4px #0002}
+#cch-bottom-bar .cch-bottom-cart-count[hidden]{display:none}

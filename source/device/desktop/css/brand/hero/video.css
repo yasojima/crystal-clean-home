@@ -12,3 +12,8 @@ body:has(#cch-hero) #header.cch-header::before{background:transparent;backdrop-f
 #cch-hero .cch-video-toggle{position:absolute;bottom:24px;left:24px;background:#fff;color:#173e58;border:1px solid #63727a;padding:8px 14px;font:inherit;font-size:12px}
 #cch-hero [hidden]{display:none!important}
 @media(max-width:992px){#cch-hero{height:auto;aspect-ratio:5/4;min-height:330px}#cch-hero .cch-hero-scroll{right:76px;bottom:16px;font-size:9px}#cch-hero .cch-hero-scroll::after{height:24px}#cch-hero .cch-video-caption{padding-top:60px}}
+
+#cch-hero .cch-hero-scroll{right:24px;bottom:calc(var(--cch-bottom-bar-height,64px) + 24px);width:56px;height:56px;border:0;padding:0;cursor:pointer;border-radius:50%;background:#2077d7;display:grid;place-items:center;z-index:2}
+#cch-hero .cch-hero-scroll::after{width:20px;height:14px;background:#fff;clip-path:polygon(0 0,100% 0,50% 100%)}
+#cch-hero .cch-hero-scroll:focus-visible{outline:3px solid #fff;outline-offset:3px}
+@media(max-width:992px){#cch-hero .cch-hero-scroll{width:48px;height:48px;right:16px;bottom:16px}}

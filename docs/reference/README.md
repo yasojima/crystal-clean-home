@@ -20,4 +20,12 @@ checkout.pyはsource/osouji/checkoutのcart/estimate/confirm.htmlを使用。che
 
 node test-checkout.cjsで16セットの構成と金額、税額、親子削除、保存復元、ローカルフォームの送信禁止を検証。全クーポン・店舗別価格・実予約送信・予約完了後の参照元画面は未検証/未接続。
 
-カードの説明・訴求見出しはcard-copy.jsonとcard_copy.pyで編集。承認済み原文との完全一致に限定し、構造・属性・料金条件・商品名・引用を保持。実テキストの共通書体と3段三角形はbrand/header/typography.cssを参照する。
+カードの説明・訴求見出しはcard-copy.jsonとcard_copy.pyで編集。承認済み原文との完全一致に限定し、構造・属性・料金条件・商品名・引用を保持。実テキストの共通書体と3段三角形はsource/device/{desktop,mobile}/css/brand/header/typography.cssを参照する。
+
+カート本文の書体はcart-exact.cssで参考元へ統一し、共通サイト書体の上書きから分離する。checkout.pyがcartページだけに読み込む。
+
+## 2026-09-23 カート移植の追加照合
+
+カート本文へ参考元の未改色CSSをスコープ付きで適用。おすすめ欄も参考元top.js内のSwiperと初期化設定（20px間隔、PC3.5枚・768px以上2.5枚）を移植。私有APIと送信処理は切り離す。追従バーのカート文字はHTML化し、お問い合わせと同じCardo/Noto Serif JP・600へ統一。
+
+現行CSSの編集元はsource/device/{desktop,mobile}/css/reference/。brand配下のCSSは振分け入口。空カートは参考元のc-page-headingとl-section構造を使用する。

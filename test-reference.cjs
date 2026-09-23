@@ -11,3 +11,5 @@ const report=JSON.parse(fs.readFileSync('reference-report.json','utf8'));
 assert.equal(Object.keys(report.pages).length,52);
 for(const route of Object.keys(report.pages))assert(fs.existsSync('docs'+route+'index.html'));
 console.log('PASS: 52 routes, reference set/room/tier totals, option parent IDs, integer prices');
+
+assert.equal(C.clean([{id:'ref-1',qty:2}],m)[0].qty,2,'Quantity options without value attributes must retain their displayed limits');

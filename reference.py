@@ -110,7 +110,7 @@ def publish_reference(root=ROOT):
                 counter=counters[min(i,len(counters)-1)] if counters else None
                 quantities=card.select('.js-product-quantity select option')
                 if counter:v['max']=int(counter.get('max',30))
-                elif quantities:v['max']=max(int(o.get('value',1)) for o in quantities)
+                elif quantities:v['max']=max(int(o.get('value',o.get_text(strip=True))) for o in quantities)
                 tier=pe.select('.c-multi-campaign-price__item')
                 if len(tier)>1:v['multiPrice']=prices(tier[1])
                 if '〜' in pe.get_text() or '～' in pe.get_text():v['fromPrice']=True
