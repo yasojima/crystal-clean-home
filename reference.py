@@ -77,6 +77,25 @@ def publish_reference(root=ROOT):
         soup=BeautifulSoup(f.read_bytes(),'html.parser');main=soup.select_one('main')
         if main:apply_card_copy(main)
         if not main:continue
+        if path == '/house-cleaning/pack/':
+            # Approved removal: the seasonal SALE banner only.
+            for banner in main.select('#Second_campaign_banner'):
+                banner.decompose()
+            # Approved next removal: the full reasons section, including its images.
+            reasons = main.select_one('.p-reasons')
+            if reasons:
+                reasons.find_parent('section').decompose()
+            # Approved next removal: only the FAQ read-more link.
+            for link in main.select('a.c-icon-link-text[href="/house-cleaning/faq/"]'):
+                link.decompose()
+        if path == '/house-cleaning/water/':
+            # Approved removal: reasons and coating promotion in the same section.
+            reasons = main.select_one('.p-reasons')
+            if reasons:
+                reasons.find_parent('section').decompose()
+            # Approved next removal: only the FAQ read-more link.
+            for link in main.select('a.c-icon-link-text[href="/house-cleaning/faq/"]'):
+                link.decompose()
         if path == '/house-cleaning/aircon/':
             # Approved removal: opening hero, anchor buttons, notes and sale banner.
             for selector in ('.mv.mv-anchor', '.l-section--limited-cp'):
