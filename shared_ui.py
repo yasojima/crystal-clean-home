@@ -14,6 +14,8 @@ def publish_shared_ui(root):
     footer = (component / 'footer.html').read_text(encoding='utf-8')
     header = (root / 'brand/header/template.html').read_text(encoding='utf-8')
     area_label = re.search(r'<li class="area"><a[^>]*>([^<]+)</a>', header)[1]
+    service_pattern = r'<li class="service">.*?</div>\s*</li>'
+    service_menu = re.search(service_pattern, header, flags=re.S)[0]
     files = subprocess.check_output(['git', 'ls-files', 'docs/*.html', 'docs/**/*.html'], cwd=root, text=True).splitlines()
     def publish(name):
         path = root / name
@@ -21,6 +23,7 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
+        text = re.sub(service_pattern, lambda _: service_menu, text, count=1, flags=re.S)
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
         if name == 'docs/area/index.html':

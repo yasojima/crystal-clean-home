@@ -66,3 +66,10 @@
 - 人間要求：グローバルナビの「対応地域」と、そのページ内の同表記を「訪問地域」へ変更。
 - 共通ナビ、生成MENU、同ページへのフッターリンク、/area/の見出しと説明メタ情報を同期。URL・地域情報・見た目は維持。
 - 正本：brand/header/template.html、brand/shared-ui/footer.html、source/area/index.html、shared_ui.py。要件・HEADER_UI・検証記録を同期。
+
+
+## CHG-2026-09-23-SERVICE-MENU
+
+- 人間要求：添付のホーム8カテゴリーにメニューを絞り、3・3・2の順で配置。その他は法人向けサービスだけを残す。
+- 共通ヘッダー正本から全ページへサービス項目を同期し、MENUも追従。既存の3列CSSを使用し、掲載カテゴリ一覧へ直接リンク。商品内容・ページは維持。
+- 同期：要件定義書、HEADER_UI、SITE_VERIFICATION。
