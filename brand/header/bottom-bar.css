@@ -547,3 +547,6 @@ body:has(#cch-bottom-bar) .fix_bottom{display:none!important}
 
 #cch-bottom-bar .contents_btn01{flex-direction:row}
 #cch-bottom-bar .cch-bottom-cart{margin:0 10px 0 0}
+
+#cch-bottom-bar .cch-bottom-cart{width:72px}
+@media(max-width:700px){#cch-bottom-bar .cch-bottom-cart{width:52px}}
