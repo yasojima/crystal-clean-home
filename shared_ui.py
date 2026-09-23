@@ -12,6 +12,8 @@ def publish_shared_ui(root):
     shutil.copytree(component, root / 'docs/brand/shared-ui', dirs_exist_ok=True)
     shutil.copy2(root / 'brand/header/floating.js', root / 'docs/brand/header/floating.js')
     footer = (component / 'footer.html').read_text(encoding='utf-8')
+    header = (root / 'brand/header/template.html').read_text(encoding='utf-8')
+    area_label = re.search(r'<li class="area"><a[^>]*>([^<]+)</a>', header)[1]
     files = subprocess.check_output(['git', 'ls-files', 'docs/*.html', 'docs/**/*.html'], cwd=root, text=True).splitlines()
     def publish(name):
         path = root / name
@@ -19,6 +21,10 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
+        text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
+                      lambda m: m[1] + area_label + m[2], text)
+        if name == 'docs/area/index.html':
+            text = text.replace('対応地域', area_label).replace('ご対応エリア', area_label)
         if name != 'docs/index.html':
             text = re.sub(r'<div\b[^>]*\bid="breadcrumb"[^>]*>.*?</div>', '', text, flags=re.S)
             text = re.sub(r'<ol\b[^>]*\bclass="c-breadcrumbs"[^>]*>.*?</ol>', '', text, flags=re.S)

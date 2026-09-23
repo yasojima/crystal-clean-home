@@ -59,3 +59,10 @@
 - 決定：旧ページの空のパンくず帯と商品ページのパンくずを共通publisherで除去し、再生成時の復活を防ぐ。
 - 影響：下層ページのPC/SP。ホーム、本文、MENU、追従バーは維持。
 - 同期：要件定義書、HEADER_UI.md、SITE_VERIFICATION.md。
+
+
+## CHG-2026-09-23-AREA-LABEL
+
+- 人間要求：グローバルナビの「対応地域」と、そのページ内の同表記を「訪問地域」へ変更。
+- 共通ナビ、生成MENU、同ページへのフッターリンク、/area/の見出しと説明メタ情報を同期。URL・地域情報・見た目は維持。
+- 正本：brand/header/template.html、brand/shared-ui/footer.html、source/area/index.html、shared_ui.py。要件・HEADER_UI・検証記録を同期。
