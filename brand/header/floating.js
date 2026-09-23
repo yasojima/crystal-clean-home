@@ -1,4 +1,4 @@
-(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-source2';document.head.append(l)})();
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=menu-fit1';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');
@@ -25,10 +25,14 @@
       const list=document.createElement('ul');list.className='cch-os-house-cleaning-menu';const li=document.createElement('li');li.className='cch-os-house-cleaning-menu__item';li.append(group);list.append(li);nav.append(list);
     }else{const ul=document.createElement('ul');ul.className=index===0?'cch-os-site-menu__bold-links cch-os-bold-links cch-os-bold-links--services':'';const li=document.createElement('li');li.className='cch-os-bold-links__item';const a=document.createElement('a');a.className=index===0?'cch-os-bold-links__link':'cch-os-site-menu-link';a.href=trigger.href;a.textContent=trigger.textContent.trim();li.append(a);ul.append(li);nav.append(ul);}
   });
+  const links=document.createElement('div');links.className='cch-menu-links';links.append(...nav.children);nav.append(links);
+  const utilities=document.createElement('div');utilities.className='cch-menu-utilities';nav.append(utilities);
+  function fitMenu(){const viewport=window.visualViewport;dialog.style.setProperty('--menu-screen-height',(viewport?.height||innerHeight)+'px');dialog.style.setProperty('--menu-screen-top',(viewport?.offsetTop||0)+'px')}
+  window.addEventListener('resize',fitMenu);window.visualViewport?.addEventListener('resize',fitMenu);fitMenu();
   document.body.append(rail,dialog);
   const menu=rail.querySelector('button');
-  function closeMenu(){dialog.classList.add('is-hidden');dialog.setAttribute('aria-hidden','true');menu.setAttribute('aria-expanded','false');dialog.addEventListener('animationend',()=>{dialog.classList.remove('is-active');document.documentElement.classList.remove('cch-rail-open');menu.focus({preventScroll:true});},{once:true});}
-  menu.addEventListener('click',()=>{dialog.classList.remove('is-hidden');dialog.classList.add('is-active');document.documentElement.classList.add('cch-rail-open');dialog.setAttribute('aria-hidden','false');menu.setAttribute('aria-expanded','true');});
+  function closeMenu(){if(dialog.classList.contains('is-hidden'))return;dialog.classList.add('is-hidden');dialog.setAttribute('aria-hidden','true');menu.setAttribute('aria-expanded','false');dialog.addEventListener('animationend',()=>{dialog.classList.remove('is-active');document.documentElement.classList.remove('cch-rail-open');document.dispatchEvent(new CustomEvent('cch-menu-change',{detail:{open:false}}));menu.focus({preventScroll:true});},{once:true});}
+  menu.addEventListener('click',()=>{dialog.classList.remove('is-hidden');dialog.classList.add('is-active');document.documentElement.classList.add('cch-rail-open');dialog.setAttribute('aria-hidden','false');menu.setAttribute('aria-expanded','true');fitMenu();document.dispatchEvent(new CustomEvent('cch-menu-change',{detail:{open:true}}));dialog.querySelector('.cch-os-menu-modal__closer').focus({preventScroll:true});});
   dialog.querySelector('.cch-os-menu-modal__closer').addEventListener('click',closeMenu);
   dialog.querySelector('.cch-os-menu-modal__backdrop').addEventListener('click',closeMenu);
   dialog.querySelector('.cch-os-menu-modal__main-content').addEventListener('click',e=>e.stopPropagation());
@@ -47,6 +51,18 @@
   bar.id = 'cch-bottom-bar'; bar.className = 'DEVELOP778 scrolled'; bar.dataset.pattern = '1';
   bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/brand/header/cart-mark.svg" alt="" width="24" height="24"><span>お見積り</span></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
   footer.before(bar);
+  const utilities=document.querySelector('.cch-menu-utilities');
+  if(utilities){
+    const social=document.createElement('div');social.className='cch-menu-social';social.setAttribute('aria-label','SNS（リンク未設定）');
+    for(const [id,label] of [['x','X'],['instagram','Instagram'],['tiktok','TikTok'],['youtube','YouTube']]){const icon=document.createElement('span');icon.title=label+'（リンク未設定）';icon.innerHTML='<img src="/crystal-clean-home/brand/shared-ui/social/'+id+'.png" alt="'+label+'" width="36" height="36">';social.append(icon)}
+    const details=document.createElement('div');details.className='cch-menu-contact';details.setAttribute('aria-label','連絡先・受付時間');
+    const phone=document.createElement('p');phone.className='cch-menu-phone';phone.textContent=bar.querySelector('[data-tel]').childNodes[1].textContent.trim();
+    const hours=document.createElement('p');hours.className='cch-menu-hours';hours.textContent=bar.querySelector('.fixbtntel p').textContent;
+    const actions=document.createElement('div');actions.className='cch-menu-actions';actions.innerHTML='<a href="/crystal-clean-home/contact/">お問い合わせはこちら</a><a class="cch-menu-estimate" href="/crystal-clean-home/cart/"><img src="/crystal-clean-home/brand/header/cart-mark.svg" alt="" width="20" height="20">お見積りはこちら</a>';
+    details.append(phone,hours,actions);utilities.append(social,details);
+  }
+  const headerPayments=document.querySelector('#header .cch-payments');
+  if(headerPayments){const hours=bar.querySelector('.fixbtntel>p');const group=document.createElement('div');group.className='cch-bar-hours';hours.before(group);group.append(hours);const payments=headerPayments.cloneNode(true);payments.classList.add('cch-bar-payments');group.append(payments)}
   const wrap = bar.querySelector('.fixbtnwrap');
   const popup = document.createElement('div');
   popup.id='cch-cart-popup'; popup.className='c-cart-popup';
@@ -65,6 +81,7 @@
   async function updateCart(){try{await cartReady;const cart=CCHCart.clean(JSON.parse(localStorage.getItem('cch-estimate-cart-v1')||'[]'),cartIndex),totals=CCHCart.totals(cart,cartIndex);popup.querySelector('[data-count]').textContent=cart.reduce((n,l)=>n+l.qty,0);popup.querySelector('[data-amount]').textContent=totals.total.toLocaleString()+(totals.quote?'＋個別見積り':'')}catch(error){console.error('Cart summary:',error);popup.querySelector('[data-amount]').textContent='—'}}
   window.addEventListener('cch-cart-change',updateCart);window.addEventListener('storage',updateCart);window.addEventListener('pageshow',updateCart);window.addEventListener('resize',positionPopup);updateCart();
   let timer;
+  document.addEventListener('cch-menu-change',event=>{bar.inert=event.detail.open;bar.setAttribute('aria-hidden',String(event.detail.open));if(event.detail.open){clearTimeout(timer);closeCartPopup()}else positionBar(false)});
   function positionBar(scrolling) {
     const h = wrap.getBoundingClientRect().height;
     bar.style.height = h + 'px';

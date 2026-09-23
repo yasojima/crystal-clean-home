@@ -247,3 +247,8 @@ html[data-cch-page="inner"] body{padding-top:0!important}
 html[data-cch-page="inner"] .cch-reference{padding-top:0!important}
 html[data-cch-page="inner"] .cch-side-rail{top:8px}
 @media(max-width:992px){#cch-shared-footer .cont_correspondence-area .inner{display:block}#cch-shared-footer .f_menu a{font-size:14px}#cch-shared-footer .f_menu li{padding-right:12px;margin-right:12px;margin-bottom:24px}html[data-cch-page="inner"] .cch-side-rail{top:0}}
+
+#cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2{background:#fff;color:#000}
+#cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2::after{border-color:currentColor}
+#cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2:hover{background:#075b91;color:#fff}
+#cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2:hover i{color:#fff}

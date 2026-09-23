@@ -215,7 +215,7 @@ for name, width, height, x, y, size, length in [('h_tel.svg',326.43,54.16,39,33,
     if name == 'h_tel.svg':
         svg = BeautifulSoup(original, 'xml')
         icon = str(svg.find('path', {'class':'cls-1'}))
-        content = '<defs><style>.cls-1{fill:none;stroke:#8fc31f;stroke-width:2px;fill-rule:evenodd}</style></defs>' + icon
+        content = '<defs><style>.cls-1{fill:#8fc31f;stroke:none;fill-rule:evenodd}</style></defs>' + icon
         x, length, size, y = 43.62, 282.82, 37, 29.6
         content += '<text x="2.48" y="53" fill="#4d4d4d" font-size="16" font-family="' + html.escape(GOTHIC, quote=True) + '" textLength="321.35" lengthAdjust="spacingAndGlyphs">' + html.escape(brand['hours']) + '</text>'
     else:

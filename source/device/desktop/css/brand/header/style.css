@@ -68,4 +68,5 @@ body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
 
 @media(min-width:993px){#header.cch-header .menu>ul{display:flex;justify-content:space-between;gap:16px}#header.cch-header .menu>ul>li{flex:0 0 auto;width:auto;margin:0}#header.cch-header .menu>ul>li>a{white-space:nowrap;font-size:clamp(14px,1.4vw,20px)}}
 
-body #header.cch-header #navArea .dropdown_menu ul li a::after{background:#f4c400}
+body #header.cch-header #navArea .dropdown_menu ul li a::after{background:#26a9e8}
+
