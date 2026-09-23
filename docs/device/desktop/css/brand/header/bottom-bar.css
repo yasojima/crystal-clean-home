@@ -432,6 +432,8 @@
 }
 #cch-bottom-bar .fixbtnwrap{z-index:3900;bottom:0}
 body:has(#cch-bottom-bar) .cch-reference .c-floating-buttons{bottom:calc(var(--cch-bottom-bar-height,64px) + 12px);z-index:3901}
+body:has(.cch-reference .c-floating-buttons) #cch-bottom-bar .cch-bottom-cart,
+body:has(.cch-reference .c-floating-buttons) #cch-bottom-bar .c-cart-popup{display:none!important}
 @media(min-width:768px){body:has(#cch-bottom-bar) .cch-reference .c-floating-buttons.is-apply-area{bottom:max(180px,calc(var(--cch-bottom-bar-height,64px) + 12px))}}
 @media(max-width:767.98px){body:has(#cch-bottom-bar) .cch-reference .c-floating-buttons.is-footer-area{transform:translateY(calc(100% + var(--cch-bottom-bar-height,64px) + 12px))}}
 #cch-bottom-bar .inner{max-width:none}
