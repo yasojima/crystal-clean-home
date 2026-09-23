@@ -411,3 +411,6 @@ a.cch-os-site-menu-sns__link:hover {
 
 .cch-os-menu-modal{z-index:5000}
 html.cch-rail-open{overflow:hidden}
+
+/* Keep source close animation active despite legacy global .is-hidden reset. */
+.cch-os-menu-modal.is-active{display:block!important}
