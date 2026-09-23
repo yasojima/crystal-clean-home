@@ -1,4 +1,4 @@
-(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=bar-solid-links1';document.head.append(l)})();
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-badge4';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');

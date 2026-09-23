@@ -46,7 +46,7 @@ def publish_shared_ui(root):
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
         text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
-        text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=cart-badge3', text)
+        text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=cart-badge4', text)
         if text != old:
             path.write_text(text, encoding='utf-8')
             return name
