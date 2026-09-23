@@ -1,0 +1,32 @@
+/* Approved pack-card shape; keep current colors, ribbons, images and hover. */
+body .c-category-simple-card{border-radius:12px!important;clip-path:none!important;overflow:hidden!important}
+body .c-category-simple-card__bottom{border-radius:0!important}
+/* Restore the captured reference category design; typography remains site-wide. */
+body .c-category-simple-card__bottom{background-color:#005bac!important}
+body .c-category-simple-card__text{color:#fff!important}
+body .c-category-simple-card h3::before,body .c-category-simple-card h3::after{content:none!important}
+@media (hover:hover){body .c-category-simple-card:not(.is-disabled-hover):hover{color:#0056b3}body .c-category-simple-card:not(.is-disabled-hover):hover .c-category-simple-card__bottom::before{animation:cch-category-sparkle .3s linear}}
+@keyframes cch-category-sparkle{0%{left:-40px;transform:translateY(-50%) rotate(45deg)}100%{left:100%;transform:translateY(-50%) rotate(45deg)}}
+
+body .c-category-simple-card .c-category-simple-card__icon.c-illust--aircon,body .c-category-simple-card .c-category-simple-card__icon.c-illust--pack,body .c-category-simple-card .c-category-simple-card__icon.c-illust--bath,body .c-category-simple-card .c-category-simple-card__icon.c-illust--washing-machine,body .c-category-simple-card .c-category-simple-card__icon.c-illust--kitchen,body .c-category-simple-card .c-category-simple-card__icon.c-illust--room,body .c-category-simple-card .c-category-simple-card__icon.c-illust--coating,body .c-category-simple-card .c-category-simple-card__icon.c-illust--other{width:100%!important;max-width:240px;height:120px!important;display:block!important;background-color:transparent!important;background-repeat:no-repeat!important;background-position:center!important;background-size:contain!important;mask:none!important;-webkit-mask:none!important}
+body .c-category-simple-card .c-illust--aircon{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/aircon.webp")!important}
+body .c-category-simple-card .c-illust--pack{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/pack.webp")!important}
+body .c-category-simple-card .c-illust--bath{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/water.webp")!important}
+body .c-category-simple-card .c-illust--washing-machine{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/washing.webp")!important}
+body .c-category-simple-card .c-illust--kitchen{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/kitchen.webp")!important}
+body .c-category-simple-card .c-illust--room{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/room.webp")!important}
+body .c-category-simple-card .c-illust--coating{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/coating.webp")!important}
+body .c-category-simple-card .c-illust--other{background-image:url("/crystal-clean-home/brand/category-illustrations-v1/other.webp")!important}
+body .c-category-simple-card__top:has(.c-category-simple-card__icon:is(.c-illust--aircon,.c-illust--pack,.c-illust--bath,.c-illust--washing-machine,.c-illust--kitchen,.c-illust--room,.c-illust--coating,.c-illust--other)){padding-block:0!important}
+@media(max-width:767.98px){body .c-category-simple-card .c-category-simple-card__icon.c-illust--aircon,body .c-category-simple-card .c-category-simple-card__icon.c-illust--pack,body .c-category-simple-card .c-category-simple-card__icon.c-illust--bath,body .c-category-simple-card .c-category-simple-card__icon.c-illust--washing-machine,body .c-category-simple-card .c-category-simple-card__icon.c-illust--kitchen,body .c-category-simple-card .c-category-simple-card__icon.c-illust--room,body .c-category-simple-card .c-category-simple-card__icon.c-illust--coating,body .c-category-simple-card .c-category-simple-card__icon.c-illust--other{height:108px!important}}
+
+/* Free estimate CTA: only the bottom-right corner is rounded. */
+body .c-double-icon-button--fill-red{border-radius:0 0 16px 0!important}
+
+/* Corporate and service-area CTAs share the estimate CTA shape and arrow. */
+body .sec_corp a.btn,body .sec_area a.btn{border-radius:0 0 16px 0!important}
+body .sec_corp a.btn::after,body .sec_area a.btn::after{content:""!important;margin:0!important;border:0!important;width:18px!important;height:18px!important;right:20px!important;top:50%!important;transform:translateY(-50%)!important;background-color:currentColor!important;mask:url("/crystal-clean-home/brand/estimate-cta/circle-caret-right.svg") center/contain no-repeat!important;-webkit-mask:url("/crystal-clean-home/brand/estimate-cta/circle-caret-right.svg") center/contain no-repeat!important}
+body .sec_cv .cv_btn img[src*="cv_mail.svg"],body .sec_cv .cv_btn img[data-src*="cv_mail.svg"]{content:url("/crystal-clean-home/brand/header/contact-cta.svg?v=shape2");filter:none;clip-path:inset(9.988% 2.024% 9.982% 2.048% round 0 0 16px 0)}
+
+/* Apply the shadow outside the clipped SVG, keeping a CSS 16px circular corner at every width. */
+body .sec_cv .cv_btn a:has(img[src*="cv_mail.svg"]),body .sec_cv .cv_btn a:has(img[data-src*="cv_mail.svg"]){filter:drop-shadow(0 4px 5px #0003)}

@@ -1,0 +1,8 @@
+@media  print,screen and (min-width: 768px){.cch-reference .faq-lead{padding-block:48px 56px;text-align:center}}
+@media  screen and (max-width: 767.98px){.cch-reference .faq-lead{padding-block:32px 48px;text-align:left}}
+@media  print,screen and (min-width: 768px){.cch-reference .faq-nav-wrap{padding-block:72px 112px}}
+@media  screen and (max-width: 767.98px){.cch-reference .faq-nav-wrap{padding-block:48px 64px}}
+@media  print,screen and (min-width: 768px){.cch-reference .faq-nav__contents{margin-top:33px}}
+@media  screen and (max-width: 767.98px){.cch-reference .faq-nav__contents{margin-top:24px}}
+@media  print,screen and (min-width: 768px){.cch-reference .faq-group__content{margin-top:32px}}
+@media  screen and (max-width: 767.98px){.cch-reference .faq-group__content{margin-top:4px}}

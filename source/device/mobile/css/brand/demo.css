@@ -1,0 +1,14 @@
+[data-demo-action]{cursor:pointer}
+.demo-dialog{box-sizing:border-box;width:min(92vw,440px);max-height:85vh;margin:auto;border:1px solid #dae8f1;border-radius:0;padding:36px;color:#344650;background:#fff;box-shadow:0 12px 48px #17354b30;font-family:"Yu Gothic",Meiryo,sans-serif}
+.demo-dialog::backdrop{background:#17354b70}
+.demo-eyebrow{display:block;color:#075b91;font-size:11px;letter-spacing:.16em;margin:8px 0 28px}
+.demo-dialog h2{font-size:30px;line-height:1.5;margin:0 0 36px;color:#17354b}
+.demo-dialog p{font-size:14px;line-height:1.9;margin:0 0 28px;white-space:pre-line}
+.demo-actions{display:flex;flex-direction:column;gap:12px}
+.demo-actions button{appearance:none;width:100%;background:#075b91;color:#fff;border:0;border-radius:0;padding:14px 18px;font:inherit;cursor:pointer}
+.demo-actions button[hidden]{display:none}
+.demo-actions button:focus-visible{outline:3px solid #17354b;outline-offset:3px}
+.demo-confirm-fields{max-height:30vh;overflow:auto;margin:0 0 20px;font-size:14px;line-height:1.7;overflow-wrap:anywhere}
+.demo-confirm-fields dt{font-weight:700;margin-top:10px}
+.demo-confirm-fields dd{margin-left:0}
+@media(max-width:480px){.demo-dialog{padding:28px}.demo-dialog h2{font-size:26px}}

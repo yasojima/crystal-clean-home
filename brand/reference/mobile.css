@@ -1,1 +1,2 @@
-@media(max-width:992px){html{scroll-padding-top:75px}.cch-reference{padding-top:0}.cch-host #header.cch-header .toggle_btn{position:fixed;top:8px;right:12px;bottom:auto;width:44px;height:44px;padding:0;background:#075b91;border-radius:4px}.cch-host #header.cch-header .toggle_btn span{left:7px}.cch-host #header.cch-header .toggle_btn::after{content:none}.cch-reference .cch-brand-banner{gap:10px;padding:18px}.cch-reference .cch-brand-banner img{width:120px}}
+@import url("/crystal-clean-home/device/desktop/css/reference/mobile.css?v=1ddbe2bcfe45") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/reference/mobile.css?v=1ddbe2bcfe45") screen and (max-width:992px);

@@ -2,19 +2,21 @@
 
 更新：2026-09-23。
 
-| 対象 | 共通 / PC / スマホ |
-| --- | --- |
-| 旧基盤 | source/layout/manifest.json、desktop/site.css、mobile/site.css |
-| 旧見積 | source/layout/desktop/estimate.css、mobile/estimate.css |
-| 共通ヘッダー | brand/header/style.css、desktop.css、mobile.css |
-| ヒーロー | brand/hero/desktop.css、mobile.css、script.js |
-| 新カート | brand/shop/style.css、desktop.css、mobile.css |
-| 移植ページ | source/osouji/assets/cssの元メディアクエリ＋brand/reference/brand.css、desktop.css、mobile.css |
+## 編集する正本
 
-ヘッダー・旧基盤・ヒーローのPC境界は993px、スマホ/タブレットは992px以下。移植本文には元サイト独自のブレークポイントがあり、一律993pxではない。
-文章・画像・商品データは端末別に複製しない。移植CSSは.cch-reference、ホストCSSは.cch-hostにスコープ化する。生成・公開はEDITING_GUIDE.md参照。
-過去のPC/390pxブラウザー確認は実機検収ではない。現在の全ページ・全幅で目視合格したとは扱わない。
+- PC（993px以上）：source/device/desktop/css/、images.json、ui.json。
+- スマホ・タブレット（992px以下）：source/device/mobile/css/、images.json、ui.json。
+- CSSの収録一覧：source/device/manifest.json。本文、共通UI、カート、フォーム、画像背景を含む。
+- 文章・商品名・価格・カート計算は共有。本文の構造と共通部品の意味上の構造は共有し、見た目の配置・サイズ・色・画像の選択は端末別に所有する。
 
-## 2026-09-23 動画ワイヤーフレームと右側ナビ
+各端末のCSSには既存の内側のメディアクエリを保持し、その端末範囲内でレスポンシブに調整する。外側の読み込み条件は993px/992pxで排他的。PCのCSSを編集してもスマホのCSSは再計算・上書きしない。CSS内のimportも同じ端末のツリーに限定する。
 
-ホームは全幅のグレー動画仮枠へ変更。ヘッダーは固定せずスクロールで上へ抜ける。PCはヘッダー通過後に右側MENUを表示、スマートフォンは常時表示。右から開くメニューは既存6項目とサービス詳細を共有する。お見積りアイコンは右側に追従し、既存カートの件数・合計と連動する。実動画は後日video.jsonで設定。
+images.jsonは元の画像URLをキー、端末別の採用URLを値とする。画像バイナリは同じものを参照でき、差替える際は片側の値だけ変更する。CSS背景画像は各端末のCSSで変更する。ui.jsonには追従バー復帰待ち時間とカートポップアップ寸法を分離する。DOM操作・カート状態などの共通ロジックはbrand/に置く。
+
+## 生成
+
+`python device_ui.py`。全体生成・共通UI生成の最後にも実行される。
+
+brand配下のCSSとdocsの元のCSSパスは端末別正本へ振り分ける生成用入口であり、見た目を直接編集しない。取得ソースとsource/layoutは取込処理の入力として保持するが、現行見た目の編集元ではない。
+
+ヘッダーはホームだけ表示。下層ページは右上MENU常設。フッターと追従バーは全ページで共通。各端末の見た目を変える場合は、それぞれのcss/brand/header/、css/brand/shared-ui/を編集する。

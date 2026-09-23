@@ -1,0 +1,59 @@
+.cch-reference .anchors{display:flex;flex-wrap:wrap;background-color:#f5f8fa}
+@media  print,screen and (min-width: 768px){.cch-reference .anchors{justify-content:center;gap:8px 32px;padding:32px 1em}}
+@media  screen and (max-width: 767.98px){.cch-reference .anchors{gap:12px;padding:24px 15px}}
+.cch-reference .anchors__item{color:#075b91;position:relative}
+.cch-reference .anchors__link{padding-left:24px;text-decoration:underline;transition:opacity .3s}
+@media  print,screen and (min-width: 768px){.cch-reference .anchors__link{font-size:1rem}}
+@media  screen and (max-width: 767.98px){.cch-reference .anchors__link{font-size:.875rem}}
+@media (hover: hover){.cch-reference .anchors__link:not(.is-disabled-hover):hover{opacity:.75}}
+.cch-reference .anchors__link::before{width:16px;height:16px;content:"";background-color:#075b91;transition:transform .3s ease-out;position:absolute;top:50%;left:0;transform:translateY(-50%);-webkit-mask-image:url("/crystal-clean-home/reference/assets/images/common-parts/icon/circle-caret-down.svg");mask-image:url("/crystal-clean-home/reference/assets/images/common-parts/icon/circle-caret-down.svg");-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-position:center;mask-position:center;-webkit-mask-size:contain;mask-size:contain}
+.cch-reference .about__item{align-items:center;justify-items:center;background-color:#eef5f9}
+@media  print,screen and (min-width: 768px){.cch-reference .about__item{padding:40px}}
+@media  screen and (max-width: 767.98px){.cch-reference .about__item{padding:20px}}
+.cch-reference .about__item+.about__item{background-color:#075b91}
+@media  print,screen and (min-width: 768px){.cch-reference .about__item+.about__item{padding:48px 40px}}
+.cch-reference .merit__image{margin-inline:auto;background:#fff;border-radius:50%;position:relative}
+@media  print,screen and (min-width: 768px){.cch-reference .merit__image{width:120px;height:120px}}
+@media  screen and (max-width: 767.98px){.cch-reference .merit__image{width:80px;height:80px}}
+.cch-reference .merit__icon{display:block;background:linear-gradient(270deg, #36beef 0.01%, #0666bc 100%, #0666bc 100%);position:absolute;top:50%;left:50%;transform:translate(-50%, -50%)}
+@media  print,screen and (min-width: 768px){.cch-reference .merit__icon{--size: 48px}}
+@media  screen and (max-width: 767.98px){.cch-reference .merit__icon{--size: 40px}}
+.cch-reference .merit__heading{color:#075b91;font-weight:bold;line-height:1.8}
+@media  print,screen and (min-width: 768px){.cch-reference .merit__heading{margin-top:16px;font-size:1rem;text-align:center}}
+@media  screen and (max-width: 767.98px){.cch-reference .merit__heading{margin-top:8px;font-size:.875rem}}
+@media  print,screen and (min-width: 768px){.cch-reference .merit__notes{margin-top:8px}}
+@media  screen and (max-width: 767.98px){.cch-reference .merit__notes{margin-top:4px}}
+.cch-reference .products-heading{text-align:center}
+@media  print,screen and (min-width: 768px){.cch-reference .products-heading{padding-inline:40px}}
+@media  screen and (max-width: 767.98px){.cch-reference .products-heading{padding-inline:15px}}
+.cch-reference .product-cards{display:grid;grid-template-columns:repeat(1, 1fr)}
+@media  print,screen and (min-width: 768px){.cch-reference .product-cards{gap:24px;max-width:1280px;padding:48px 40px 72px;margin-inline:auto}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-cards{gap:20px;padding:32px 15px 56px}}
+.cch-reference .product-card{display:flex;box-shadow:0px 8px 20px 0px rgba(31,114,208,.2)}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card{gap:40px;padding:40px}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card{flex-direction:column}}
+.cch-reference .product-card__image{object-fit:cover}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__image{width:28.5714285714%}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card__image{padding:20px}}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__body{display:flex;flex-direction:column;width:67.8571428571%}}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__heading{font-size:1.25rem}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card__heading{font-size:1.0625rem;padding-inline:24px}}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__price{margin-top:16px}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card__price{padding-inline:24px}}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__cart-button-container{padding-top:24px;margin-top:auto}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card__cart-button-container{padding:20px 1em;border-top:solid 1px #edf2f8;margin-top:20px}}
+@media  print,screen and (min-width: 768px){.cch-reference .product-card__cart-button{max-width:236px;margin-left:auto}}
+@media  screen and (max-width: 767.98px){.cch-reference .product-card__cart-button{max-width:173px;margin-inline:auto}}
+@media  print,screen and (min-width: 768px){.cch-reference .campaign{max-width:1280px;padding:0 40px 72px;margin-inline:auto}}
+@media  screen and (max-width: 767.98px){.cch-reference .campaign{padding:0 15px 56px}}
+.cch-reference .campaign__heading{text-align:center;color:#469eea}
+@media  print,screen and (min-width: 768px){.cch-reference .campaign__heading{font-size:1.25rem}}
+@media  screen and (max-width: 767.98px){.cch-reference .campaign__heading{font-size:1.0625rem}}
+.cch-reference .campaign__text{font-weight:bold;text-align:center;line-height:1.2;margin-top:12px}
+@media  print,screen and (min-width: 768px){.cch-reference .campaign__text{font-size:1.8125rem}}
+@media  screen and (max-width: 767.98px){.cch-reference .campaign__text{font-size:1.25rem}}
+.cch-reference .campaign__banners{display:grid;gap:24px}
+@media  print,screen and (min-width: 768px){.cch-reference .campaign__banners{grid-template-columns:repeat(2, 1fr);margin-top:32px}}
+@media  screen and (max-width: 767.98px){.cch-reference .campaign__banners{grid-template-columns:repeat(1, 1fr);margin-top:24px}}
+.cch-reference .campaign-banner{display:block}
+@media (hover: hover){.cch-reference .campaign-banner:not(.is-disabled-hover):hover{opacity:.75;transition:opacity .3s}}

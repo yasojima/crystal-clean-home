@@ -1,14 +1,2 @@
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/crystal-clean-home/vendor/fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFBEj75s.ttf") format('truetype');
-}
-@font-face {
-  font-family: 'Noto Sans JP';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/crystal-clean-home/vendor/fonts.gstatic.com/s/notosansjp/v56/-F6jfjtqLzI2JPCgQBnw7HFyzSD-AsregP8VFPYk75s.ttf") format('truetype');
-}
+@import url("/crystal-clean-home/device/desktop/css/vendor/fonts.googleapis.com/css2--a95f565aa0.css?v=c66e0d0a8b6e") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/vendor/fonts.googleapis.com/css2--a95f565aa0.css?v=c66e0d0a8b6e") screen and (max-width:992px);

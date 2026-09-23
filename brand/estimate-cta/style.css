@@ -1,12 +1,2 @@
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom){background:#f5f8fa;padding:32px 20px;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) *{box-sizing:border-box;font-family:"Yu Gothic","游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif;line-height:1.5;letter-spacing:normal;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-double-icon-button{--color:#fff;--bg-color:#ed0e42;--border-color:#ed0e42;display:block;width:100%;max-width:360px;margin-inline:auto;color:var(--color);background:var(--bg-color);border:1px solid var(--border-color);border-radius:0 0 16px 0;box-shadow:0 8px 20px rgba(31,114,208,.2);text-decoration:none;font-size:16px;font-weight:400;transition:color .3s,background-color .3s,border .3s;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-double-icon-button:is(:hover,:focus-visible){--color:#ed0e42;--bg-color:#fff;--border-color:#ed0e42;opacity:1;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-double-icon-button__inner{display:flex;align-items:center;padding:10px 20px;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-double-icon-button__text{width:100%;padding:0 20px 0 0;font-size:17px;font-weight:700;text-align:center;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .btn-free{font-size:20px;letter-spacing:1.6px;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-icon{display:inline-flex;flex-shrink:0;background-color:var(--color);mask-repeat:no-repeat;mask-position:center;mask-size:contain;transition:background-color .3s;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-icon--calculator{width:40px;height:40px;margin-top:5px;background:transparent url(icon-calculator.svg?v=red2) center/contain no-repeat;}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) a:is(:hover,:focus-visible) .c-icon--calculator{background-image:url(icon-calculator-hover.svg?v=red2);}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) .c-icon--circle-caret-right{width:18px;height:18px;mask-image:url(circle-caret-right.svg);}
-:is(#cch-estimate-cta,#cch-estimate-cta-bottom) a:focus-visible{outline:3px solid #17354b;outline-offset:4px;}
+@import url("/crystal-clean-home/device/desktop/css/brand/estimate-cta/style.css?v=1b37759f89c8") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/brand/estimate-cta/style.css?v=1b37759f89c8") screen and (max-width:992px);

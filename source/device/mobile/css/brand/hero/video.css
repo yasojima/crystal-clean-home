@@ -1,0 +1,14 @@
+body:has(#cch-hero){padding-top:0!important}
+body:has(#cch-hero) #breadcrumb{display:none!important}
+body:has(#cch-hero) #header.cch-header{position:absolute!important;top:0;left:0;width:100%;background:transparent}
+body:has(#cch-hero) #header.cch-header::before{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none}
+#cch-hero{position:relative;width:100%;height:min(100svh,80vw);min-height:330px;margin:0;overflow:hidden;background:#c7c7c7}
+#cch-hero .cch-hero-video{display:block;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#cch-hero .cch-video-caption{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;color:#4f5356;pointer-events:none}
+#cch-hero .cch-video-caption span{font-size:clamp(20px,2.4vw,40px);letter-spacing:.15em}
+#cch-hero .cch-video-caption small{font-size:12px;letter-spacing:.18em}
+#cch-hero .cch-hero-scroll{position:absolute;right:104px;bottom:32px;display:flex;align-items:center;gap:12px;color:#333;font-size:11px;letter-spacing:.15em}
+#cch-hero .cch-hero-scroll::after{content:"";height:40px;width:1px;background:currentColor}
+#cch-hero .cch-video-toggle{position:absolute;bottom:24px;left:24px;background:#fff;color:#173e58;border:1px solid #63727a;padding:8px 14px;font:inherit;font-size:12px}
+#cch-hero [hidden]{display:none!important}
+@media(max-width:992px){#cch-hero{height:auto;aspect-ratio:5/4;min-height:330px}#cch-hero .cch-hero-scroll{right:76px;bottom:16px;font-size:9px}#cch-hero .cch-hero-scroll::after{height:24px}#cch-hero .cch-video-caption{padding-top:60px}}

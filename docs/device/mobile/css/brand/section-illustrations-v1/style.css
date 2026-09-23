@@ -1,0 +1,5 @@
+body .sec_corp .img img{content:url("/crystal-clean-home/brand/section-illustrations-v1/corporate.webp")}
+body .sec_corp .flex .txt h2{background-image:url("/crystal-clean-home/brand/section-illustrations-v1/brand-script.svg");background-size:95% auto;background-position:center;}
+body .sec_area .img img{content:url("/crystal-clean-home/brand/section-illustrations-v1/area.webp?v=map2");aspect-ratio:490 / 467;object-fit:contain;height:auto}
+body .sec_area .flex .txt h2{background-image:url("/crystal-clean-home/brand/section-illustrations-v1/brand-script.svg");background-size:95% auto;background-position:center;}
+body .sec_cv:not(.custom){background-image:url("/crystal-clean-home/brand/section-illustrations-v1/sunlit-room.webp");}

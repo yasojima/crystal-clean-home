@@ -1,24 +1,2 @@
-/*
-Default style for WP-PageNavi plugin
-
-http://wordpress.org/extend/plugins/wp-pagenavi/
-*/
-
-.wp-pagenavi {
-	clear: both;
-}
-
-.wp-pagenavi a, .wp-pagenavi span {
-	text-decoration: none;
-	border: 1px solid #BFBFBF;
-	padding: 3px 5px;
-	margin: 2px;
-}
-
-.wp-pagenavi a:hover, .wp-pagenavi span.current {
-	border-color: #000;
-}
-
-.wp-pagenavi span.current {
-	font-weight: bold;
-}
+@import url("/crystal-clean-home/device/desktop/css/wp/wp-content/plugins/wp-pagenavi/pagenavi-css--4ba3e68688.css?v=c2711e9edc60") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/wp/wp-content/plugins/wp-pagenavi/pagenavi-css--4ba3e68688.css?v=c2711e9edc60") screen and (max-width:992px);

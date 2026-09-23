@@ -1,14 +1,2 @@
-@media  print,screen and (min-width: 768px){.cch-reference .lead-text{padding-block:48px 72px}}
-@media  screen and (max-width: 767.98px){.cch-reference .lead-text{padding-block:32px 48px}}
-@media  print,screen and (min-width: 768px){.cch-reference .voices{padding-block:80px 96px !important}}
-@media  screen and (max-width: 767.98px){.cch-reference .voices{padding-block:56px !important}}
-.cch-reference .service-pick{display:flex;align-items:center}
-@media  print,screen and (min-width: 768px){.cch-reference .service-pick{gap:20px}}
-@media  screen and (max-width: 767.98px){.cch-reference .service-pick{flex-wrap:wrap;gap:8px 16px}}
-.cch-reference .service-pick__label{font-weight:bold;color:#06408c}
-@media  print,screen and (min-width: 768px){.cch-reference .service-pick__label{font-size:1rem}}
-@media  screen and (max-width: 767.98px){.cch-reference .service-pick__label{font-size:.875rem}}
-.cch-reference .service-pick__select{width:100%;max-width:200px}
-.cch-reference .empty-message{font-weight:bold;text-align:center;font-size:1.0625rem;color:#075b91;background-color:#fff;padding-inline:24px}
-@media  print,screen and (min-width: 768px){.cch-reference .empty-message{padding-block:56px;margin-top:56px}}
-@media  screen and (max-width: 767.98px){.cch-reference .empty-message{padding-block:40px;margin-top:40px}}
+@import url("/crystal-clean-home/device/desktop/css/reference/assets/css/house-cleaning/voice/top.css?v=cf2bfb975ad2") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/reference/assets/css/house-cleaning/voice/top.css?v=cf2bfb975ad2") screen and (max-width:992px);

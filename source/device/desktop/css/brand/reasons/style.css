@@ -1,0 +1,232 @@
+#cch-reasons{font:16px/1.5 "Yu Gothic",YuGothic,sans-serif;color:#344650;background:#fff;counter-reset:reason-card;scroll-margin-top:160px}#cch-reasons *{box-sizing:border-box;font-family:inherit;letter-spacing:normal}#cch-reasons h2,#cch-reasons h3,#cch-reasons p{margin:0;padding:0;line-height:1.5}#cch-reasons h2::before,#cch-reasons h3::before{content:none}#cch-reasons img{display:block;max-width:100%}
+#cch-reasons .l-section{
+  --bg-color: #ffffff;
+  width: 100%;
+  background-color: var(--bg-color);
+  position: relative
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .l-section{
+    padding-block: 72px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .l-section{
+    padding-block: 56px
+  }}
+#cch-reasons .l-section[class*=-bubbles]::before{
+  content: "";
+  display: inline-flex;
+  width: 12px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1
+}
+#cch-reasons .l-section--blue-bubbles::before{
+  background: url("/crystal-clean-home/brand/reasons/assets/bubbles_blue.svg")
+}
+#cch-reasons .l-section[class*=wave]{
+  background-repeat: no-repeat;
+  background-position: top center
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .l-section[class*=wave]{
+    background-size: 100% 432px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .l-section[class*=wave]{
+    background-size: 100% 310px
+  }}
+#cch-reasons .l-section-inner{
+  width: 100%
+}
+#cch-reasons .c-grid{
+  display: grid
+}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-grid[style*="--grid-row-sp"]{
+    grid-template-rows: var(--grid-row-sp)
+  }
+#cch-reasons .c-grid[style*="--grid-col-sp"]{
+    grid-template-columns: var(--grid-col-sp)
+  }
+#cch-reasons .c-grid[style*="--grid-gap-sp"]{
+    gap: var(--grid-gap-sp)
+  }}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-grid[style*="--grid-row-pc"]{
+    grid-template-rows: var(--grid-row-pc)
+  }
+#cch-reasons .c-grid[style*="--grid-col-pc"]{
+    grid-template-columns: var(--grid-col-pc)
+  }
+#cch-reasons .c-grid[style*="--grid-gap-pc"]{
+    gap: var(--grid-gap-pc)
+  }}
+@media  screen and (min-width: 768px)and (max-width: 1024px) {#cch-reasons .c-grid[style*="--grid-row-tablet"]{
+    grid-template-rows: var(--grid-row-tablet)
+  }
+#cch-reasons .c-grid[style*="--grid-col-tablet"]{
+    grid-template-columns: var(--grid-col-tablet)
+  }
+#cch-reasons .c-grid[style*="--grid-gap-tablet"]{
+    gap: var(--grid-gap-tablet)
+  }}
+@media  not all and (min-width: 768px)and (max-width: 1024px) {#cch-reasons .c-grid[style*="--grid-row-notTablet"]{
+    grid-template-rows: var(--grid-row-notTablet)
+  }
+#cch-reasons .c-grid[style*="--grid-col-notTablet"]{
+    grid-template-columns: var(--grid-col-notTablet)
+  }
+#cch-reasons .c-grid[style*="--grid-gap-notTablet"]{
+    gap: var(--grid-gap-notTablet)
+  }}
+#cch-reasons .c-flex-image{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom
+}
+#cch-reasons .c-flex-image--stretched{
+  width: 100%;
+  max-width: none
+}
+#cch-reasons .c-heading-level-2{
+  line-height: 1.2
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-heading-level-2{
+    font-size: 1.8125rem
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-heading-level-2{
+    font-size: 1.4375rem
+  }}
+#cch-reasons .c-reason-card{
+  display: block;
+  background-color: #fff;
+  margin-top: 30px;
+  box-shadow: 0px 8px 20px 0px rgba(31, 114, 208, .2);
+  position: relative
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-reason-card{
+    padding: 56px 40px 40px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-reason-card{
+    padding: 48px 28px 40px
+  }}
+#cch-reasons .c-reason-card::before{
+  content: counter(reason-card, decimal-leading-zero);
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 2.8125rem;
+  line-height: 1.2;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: radial-gradient(144.36% 67% at 87.18% 21%, #aedbf9 0%, #005bac 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0)
+}
+#cch-reasons .c-reason-card__heading{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.0625rem;
+  color: #005bac
+}
+#cch-reasons .c-reason-card__description{
+  line-height: 1.8;
+  margin-top: 24px
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-reason-card__description{
+    font-size: 1rem
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-reason-card__description{
+    font-size: .875rem
+  }}
+#cch-reasons .c-reasons{
+  max-width: 1600px;
+  margin-inline: auto
+}
+#cch-reasons .c-reasons__item{
+  counter-increment: reason-card;
+  position: relative
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-reasons__item{
+    padding-inline: .5em;
+    padding-bottom: 178px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-reasons__item{
+    padding-bottom: 144px
+  }}
+#cch-reasons .c-reasons__card{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-inline: auto;
+  position: relative;
+  z-index: 1
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-reasons__card{
+    max-width: 352px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-reasons__card{
+    width: 85.6%
+  }}
+#cch-reasons .c-reasons__bg{
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .c-reasons__bg{
+    height: 298px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .c-reasons__bg{
+    height: 232px
+  }}
+#cch-reasons .p-reasons__heading{
+  text-align: center;
+  color: #06408c
+}
+@media  print,
+screen and (min-width: 768px) {#cch-reasons .p-reasons__contents{
+    margin-top: 48px
+  }}
+@media  screen and (max-width: 767.98px) {#cch-reasons .p-reasons__contents{
+    margin-top: 40px
+  }}
+#cch-reasons .u-pb-0{
+  padding-bottom: 0 !important
+}
+
+#cch-reasons .p-reasons__heading{font-family:"Yu Mincho",YuMincho,serif;color:#17354b;padding-inline:20px}
+#cch-reasons .c-reason-card__heading{color:#075b91}
+#cch-reasons .c-reason-card__description{line-height:1.8;margin-top:24px}
+#cch-reasons .c-reason-card{box-shadow:0 8px 20px #075b9120}
+#cch-reasons .c-reason-card::before{font-family:"Yu Gothic",YuGothic,sans-serif;background:linear-gradient(#9dbed2,#075b91);background-clip:text;-webkit-background-clip:text}
+#cch-reasons .about-link{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;max-width:750px;min-height:98px;margin:56px auto 0;padding:16px 48px;background:#fff;border-radius:0 0 32px 0;box-shadow:0 4px 12px #075b9126;text-decoration:none;color:#075b91}
+#cch-reasons .about-link__note{font-size:14px;font-weight:700;color:#344650}
+#cch-reasons .about-link__main{display:flex;align-items:center;justify-content:center;gap:16px;font-size:22px;font-weight:700}
+#cch-reasons .about-link__logo{width:170px;height:65px;object-fit:contain}
+#cch-reasons .about-link__arrow{position:absolute;right:24px;top:50%;transform:translateY(-50%);width:21px;height:21px;border-radius:50%;background:#075b91;color:white;text-align:center;font:18px/21px sans-serif}
+#cch-reasons .about-link:focus-visible{outline:3px solid #075b91;outline-offset:4px}
+#cch-reasons .about-link:hover{opacity:.8}
+#cch-reasons .reasons-banner{padding:0 20px 64px}
+@media(max-width:767.98px){#cch-reasons .about-link{padding:24px 35px 24px 20px;margin-top:32px}#cch-reasons .about-link__main{flex-direction:column;gap:8px;font-size:17px;text-align:center}#cch-reasons .about-link__note{font-size:12px}#cch-reasons .about-link__arrow{right:12px}#cch-reasons .p-reasons__heading{font-size:24px}}
+
+#cch-reasons .about-link__main{width:494px;max-width:100%;justify-content:flex-start}
+
+#cch-reasons .about-link{box-shadow:0 0 0 1px #bfd3df,0 6px 16px rgba(23,62,88,.18)}
+
+

@@ -39,8 +39,7 @@
 
 })();
 
-// K's DEVELOP778 footer branch: hide on scroll, return after 500 ms,
-// and dock at the footer. Source: k-hairsalon.jp/3.2/js/cmn.js, 2026-09-23.
+// Hide while scrolling, return after the configured delay, and dock above the footer.
 (() => {
   const footer = document.querySelector('footer');
   if (!footer || document.getElementById('cch-bottom-bar')) return;
@@ -54,12 +53,13 @@
   popup.innerHTML='<a class="c-cart-popup__link" href="/crystal-clean-home/cart/">カートの中身を確認する</a><p class="c-cart-popup__overview">現在<span data-count>0</span>点のメニューが入っています。</p><p class="c-cart-popup__price">合計金額 ¥<span data-amount>0</span>（税込）</p>';
   wrap.append(popup);
   const cartButton=bar.querySelector('.cch-bottom-cart');
-  // Original common.js onPopupOpenerClick toggles is-active without an animation.
+  // Toggle without a transition to match the popup interaction.
   cartButton.addEventListener('click',()=>{popup.classList.toggle('is-active');cartButton.setAttribute('aria-expanded',String(popup.classList.contains('is-active')));positionPopup();updateCart();});
   function closeCartPopup(){popup.classList.remove('is-active');cartButton.setAttribute('aria-expanded','false');}
   document.addEventListener('click',event=>{if(!popup.contains(event.target)&&!cartButton.contains(event.target))closeCartPopup();});
   document.addEventListener('keydown',event=>{if(event.key==='Escape'&&popup.classList.contains('is-active')){closeCartPopup();cartButton.focus({preventScroll:true});}});
-  function positionPopup(){const r=cartButton.getBoundingClientRect(),w=wrap.getBoundingClientRect();popup.style.left=Math.max(5,Math.min(w.width-322,r.right-w.left-300))+'px';popup.style.bottom=(w.bottom-r.top+20)+'px';popup.style.setProperty('--cart-tip-right',Math.max(16,Math.min(282,parseFloat(popup.style.left)+310-(r.left-w.left+r.width/2)))+'px');}
+  const deviceUI=()=>window.CCHDeviceUI?.[matchMedia('(max-width:992px)').matches?'mobile':'desktop']||{};
+  function positionPopup(){const settings=deviceUI(),width=settings.cartPopupWidth||322,r=cartButton.getBoundingClientRect(),w=wrap.getBoundingClientRect();popup.style.width=width+'px';popup.style.left=Math.max(5,Math.min(w.width-width,r.right-w.left-width+22))+'px';popup.style.bottom=(w.bottom-r.top+(settings.cartPopupGap||20))+'px';popup.style.setProperty('--cart-tip-right',Math.max(16,Math.min(282,parseFloat(popup.style.left)+310-(r.left-w.left+r.width/2)))+'px');}
   let cartIndex;
   const cartReady=(async()=>{if(!window.CCHCart)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/brand/shop/cart-core.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});if(!window.CCHReferenceCatalog)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/reference/catalog.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});cartIndex=CCHCart.index(window.CCHReferenceCatalog)})();
   async function updateCart(){try{await cartReady;const cart=CCHCart.clean(JSON.parse(localStorage.getItem('cch-estimate-cart-v1')||'[]'),cartIndex),totals=CCHCart.totals(cart,cartIndex);popup.querySelector('[data-count]').textContent=cart.reduce((n,l)=>n+l.qty,0);popup.querySelector('[data-amount]').textContent=totals.total.toLocaleString()+(totals.quote?'＋個別見積り':'')}catch(error){console.error('Cart summary:',error);popup.querySelector('[data-amount]').textContent='—'}}
@@ -76,7 +76,7 @@
     } else {
       bar.style.position = 'inherit';
       Object.assign(wrap.style, {position:'fixed', bottom:scrolling ? -h+'px' : '0', top:'auto'});
-      if (scrolling) timer = setTimeout(() => { wrap.style.bottom = '0'; }, 500);
+      if (scrolling) timer = setTimeout(() => { wrap.style.bottom = '0'; }, deviceUI().barReturnDelay??500);
     }
   }
   window.addEventListener('scroll', () => positionBar(true), {passive:true});
@@ -85,8 +85,8 @@
     e.preventDefault(); window.scrollTo({top:0, behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});
   });
   positionBar(false);
-  setTimeout(() => { wrap.style.transform = 'translateY(0)'; }, 500);
+  setTimeout(() => { wrap.style.transform = 'translateY(0)'; }, deviceUI().barReturnDelay??500);
 })();
 
-// Original accordion animation classes from osoujihonpo common.js.
+// Accordion animation preserves expansion height and spacing.
 (()=>{class T{constructor(){this.ANIMATING_CLASS="is-sliding",this.SPACING_MARGIN_PROPS=["padding-top","padding-bottom","margin-top","margin-bottom"],this.TRANSITION_PROPS=["transition-property","transition-duration","transition-timing-function"],this.slideUp=(e,t=300)=>{if(!this.canAnimate(e))return;e.classList.add(this.ANIMATING_CLASS),e.style.height=`${e.offsetHeight}px`,e.offsetHeight,this.setTransitionPropsValue(e,t);const s=["height",...this.SPACING_MARGIN_PROPS];this.setStylePropsValueToZero(e,s),setTimeout((()=>{const t=["display","height","overflow",...this.SPACING_MARGIN_PROPS,...this.TRANSITION_PROPS];this.removeStyleProps(e,t),e.classList.remove(this.ANIMATING_CLASS)}),t)}}slideDown(e,t=300){if(!this.canAnimate(e))return;e.classList.add(this.ANIMATING_CLASS),e.style.removeProperty("display");const s=window.getComputedStyle(e).display;e.style.display="none"!==s?s:"block";const i=e.offsetHeight,n=["height",...this.SPACING_MARGIN_PROPS];this.setStylePropsValueToZero(e,n),e.offsetHeight,e.style.height=`${i}px`,e.style.overflow="hidden",this.setTransitionPropsValue(e,t),this.removeStyleProps(e,this.SPACING_MARGIN_PROPS),setTimeout((()=>{const t=["height","overflow",...this.TRANSITION_PROPS];this.removeStyleProps(e,t),e.classList.remove(this.ANIMATING_CLASS)}),t)}slideToggle(e,t=300){this.isVisible(e)?this.slideUp(e,t):this.slideDown(e,t)}canAnimate(e){return!e.classList.contains(this.ANIMATING_CLASS)}isVisible(e){return"none"!==window.getComputedStyle(e).display}setTransitionPropsValue(e,t){const s=["height",...this.SPACING_MARGIN_PROPS].join(",");e.style.transitionProperty=s,e.style.transitionDuration=`${t}ms`,e.style.transitionTimingFunction="ease"}setStylePropsValueToZero(e,t){for(const s of t)e.style.setProperty(s,"0")}removeStyleProps(e,t){for(const s of t)e.style.removeProperty(s)}}class y extends T{constructor(e=300){super(),this.ANIMATION_CLASS="is-sliding",this.ACCORDION_CLASS="js-accordion",this.ACCORDION_TRIGGER_CLASS="js-accordion-trigger",this.animationDuration=e,this.init()}init(){const e=document.querySelectorAll(`#cch-side-menu .${this.ACCORDION_CLASS}`);e.length>0&&e.forEach((e=>{const t="true"===e.dataset.simpleType;e.querySelectorAll(`.${this.ACCORDION_TRIGGER_CLASS}`).forEach((e=>{e.addEventListener("click",(e=>this.accordion(t,e)))}))}))}accordion(e,t){const s=t.currentTarget,i=s.getAttribute("aria-controls"),n=document.getElementById(i);if(!(null==n?void 0:n.classList.contains(this.ANIMATION_CLASS))){if(!e){const e=s.closest(`.${this.ACCORDION_CLASS}`),t=null==e?void 0:e.querySelectorAll(`.${this.ACCORDION_TRIGGER_CLASS}:not([aria-controls="${i}"])`);null==t||t.forEach((e=>{const t=e.getAttribute("aria-controls"),s=document.getElementById(t);this.closeAccordion(e,s),this.slideUp(s,this.animationDuration)}))}"true"===s.getAttribute("aria-expanded")?this.closeAccordion(s,n):this.openAccordion(s,n)}}openAccordion(e,t){e.setAttribute("aria-expanded","true"),t.setAttribute("aria-hidden","false");const s=e.dataset.closedText;s&&(e.innerHTML=s),this.slideDown(t,this.animationDuration)}closeAccordion(e,t){e.setAttribute("aria-expanded","false"),t.setAttribute("aria-hidden","true");const s=e.dataset.openedText;s&&(e.innerHTML=s),this.slideUp(t,this.animationDuration)}}new y;})();

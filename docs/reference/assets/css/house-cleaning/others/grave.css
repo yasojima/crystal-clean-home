@@ -1,6 +1,2 @@
-.cch-reference .service-feature__text{display:block}
-.cch-reference .service-feature__description{margin-top:16px}
-.cch-reference .service-feature__description+.service-feature__heading{margin-top:32px}
-.cch-reference .service-feature__figure{display:block}
-.cch-reference .service-feature__figure-image{width:100%;box-shadow:0px 8px 20px 0px rgba(31,114,208,.2)}
-.cch-reference .service-feature__figure-caption{font-size:.8125rem;color:#525a61;margin-top:16px}
+@import url("/crystal-clean-home/device/desktop/css/reference/assets/css/house-cleaning/others/grave.css?v=c9526ebb5aba") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/reference/assets/css/house-cleaning/others/grave.css?v=c9526ebb5aba") screen and (max-width:992px);

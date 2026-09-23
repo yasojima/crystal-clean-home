@@ -1,3 +1,2 @@
-.cch-reference .merit__heading{text-align:center}
-@media  print,screen and (min-width: 768px){.cch-reference .merit__text{margin-top:16px}}
-@media  screen and (max-width: 767.98px){.cch-reference .merit__text{margin-top:12px}}
+@import url("/crystal-clean-home/device/desktop/css/reference/assets/css/house-cleaning/water/drier.css?v=e48ac8eb6a4f") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/reference/assets/css/house-cleaning/water/drier.css?v=e48ac8eb6a4f") screen and (max-width:992px);

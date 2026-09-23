@@ -1,0 +1,71 @@
+@import url("/crystal-clean-home/device/desktop/css/brand/header/floating.css?v=d90ddf6f09d9");
+@import url("/crystal-clean-home/device/desktop/css/brand/section-illustrations-v1/style.css?v=d90ddf6f09d9");
+@import url("/crystal-clean-home/device/desktop/css/brand/header/backgrounds.css?v=d90ddf6f09d9");
+@import url("/crystal-clean-home/device/desktop/css/brand/header/category-cards.css?v=d90ddf6f09d9");
+@import url("/crystal-clean-home/device/desktop/css/brand/header/typography.css?v=d90ddf6f09d9");
+#header.cch-header {
+  --header-duration: .4s;
+  --header-ease: cubic-bezier(.43,.05,.17,1);
+  --header-material: cubic-bezier(.26,.16,.1,1);
+  --header-accent: #075b91;
+  --header-height: 150px;
+  background: transparent;
+  box-shadow: none;
+  transform: none;
+  transition: none;
+  isolation: isolate;
+}
+#header.cch-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(255,255,255,.2);
+  -webkit-backdrop-filter: blur(clamp(10px,1.041667vw,15px));
+  backdrop-filter: blur(clamp(10px,1.041667vw,15px));
+  pointer-events: none;
+}
+#header.cch-header .menu>ul>li>a {
+  cursor: pointer;
+  transition: color var(--header-duration) var(--header-material),border-color var(--header-duration) var(--header-material);
+}
+#header.cch-header a:focus-visible,#header.cch-header [role="button"]:focus-visible {
+  outline: 2px solid var(--header-accent);
+  outline-offset: 3px;
+}
+@supports not (backdrop-filter:blur(1px)) {
+  #header.cch-header::before {background:rgba(255,255,255,.94)}
+}
+
+
+@keyframes cch-menu-reveal {from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce) {
+  #header.cch-header {--header-duration:0s}
+}
+
+#header.cch-header .menu>ul>li>a:first-letter {color:var(--header-accent)}
+#breadcrumb.cch-header-band {font-size:.8rem;padding:.5em 0;pointer-events:none}
+#breadcrumb.cch-header-band::before {content:"";display:block;height:1.5em}
+
+#header.cch-header .cch-payments{display:grid;grid-template-columns:repeat(2,40px);align-items:center;justify-content:center;gap:0 2px;flex:0 0 auto;line-height:1;margin:0;position:absolute;right:calc(100% + 16px);bottom:-2px}
+#header.cch-header .cch-payments img{display:block;width:54px;height:36px;object-fit:contain;justify-self:center;max-width:none;transform:translateX(-7px)}
+body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
+@media(max-width:992px){
+ #header.cch-header .h_top{position:relative}
+ #header.cch-header .h_top .logo{width:90px!important;margin:0;text-align:left}
+ #header.cch-header .h_top .logo img{margin:0}
+ #header.cch-header .cch-payments{position:absolute;right:56px;top:50%;transform:translateY(-50%);gap:0 2px;margin:0}
+ #header.cch-header .cch-payments img{width:54px;height:36px}
+}
+
+#header.cch-header #navArea .menu>ul>li.service>.dropdown_menu{background:#fff}
+
+#header.cch-header .cch-header-contact{position:relative}
+@media(max-width:992px){#header.cch-header .cch-header-contact{position:static}#header.cch-header .cch-payments{bottom:auto}}
+
+#header.cch-header .cch-payments-label{grid-column:1 / -1;text-align:center;font-family:var(--cch-body-font)!important;font-size:11px;line-height:18px;letter-spacing:.04em;color:#fff;background:#000;font-weight:700}
+@media(max-width:992px){#header.cch-header .cch-payments-label{font-size:10px}}
+
+@media(min-width:993px){#header.cch-header .menu>ul{display:flex;justify-content:space-between;gap:16px}#header.cch-header .menu>ul>li{flex:0 0 auto;width:auto;margin:0}#header.cch-header .menu>ul>li>a{white-space:nowrap;font-size:clamp(14px,1.4vw,20px)}}
+
+body #header.cch-header #navArea .dropdown_menu ul li a::after{background:#f4c400}

@@ -1,18 +1,2 @@
-@media(max-width:992px) {
-  html.cch-header-drawer-open,html.cch-header-drawer-open body {overflow:hidden;scrollbar-gutter:stable}
-  body:has(#header.cch-header) {padding-top:60px}
-  #header.cch-header {position:fixed;top:0;height:60px}
-  #header.cch-header #navArea nav {top:60px;bottom:0;left:0;width:100%;height:calc(100dvh - 60px);min-height:0;padding:20px 16px 88px;background:#fff;visibility:hidden;opacity:0;transform:translateY(-10px);pointer-events:none;transition:opacity var(--header-duration) var(--header-material),transform var(--header-duration) var(--header-ease),visibility var(--header-duration)}
-  #header.cch-header #navArea nav::before {content:none}
-  #header.cch-header #navArea.open nav {background:#fff;visibility:visible;opacity:1;transform:translateY(0);pointer-events:auto;transition:opacity var(--header-duration) var(--header-ease),transform var(--header-duration) var(--header-ease),visibility 0s}
-  #header.cch-header #navArea .menu>ul>li>.dropdown_menu {display:none!important;transform:none;opacity:1;visibility:visible;border:0;border-radius:0;background:#fff}
-  #header.cch-header #navArea .menu>ul>li.is-open>.dropdown_menu {display:block!important;animation:cch-menu-reveal var(--header-duration) var(--header-ease)}
-  #header.cch-header #navArea .dropdown_menu ul {height:auto}
-  #header.cch-header #mask {display:none}
-  #header.cch-header .toggle_btn {transition:all var(--header-duration) var(--header-ease)}
-  #header.cch-header .toggle_btn span {transition:all var(--header-duration) var(--header-ease)}
-  #header.cch-header #navArea.open .toggle_btn {top:8px;right:12px;bottom:auto;width:44px;height:44px;padding:0;z-index:3001;background:var(--header-accent);border-radius:6px;transition:none}
-  #header.cch-header #navArea.open .toggle_btn span {left:7px}
-  #header.cch-header #navArea.open .toggle_btn::after {content:none}
-  #header.cch-header #navArea nav {overscroll-behavior:contain}
-}
+@import url("/crystal-clean-home/device/desktop/css/brand/header/mobile.css?v=644fe74add3f") screen and (min-width:993px);
+@import url("/crystal-clean-home/device/mobile/css/brand/header/mobile.css?v=644fe74add3f") screen and (max-width:992px);

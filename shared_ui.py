@@ -20,6 +20,9 @@ def publish_shared_ui(root):
             return None
         old = text
         page = 'home' if name == 'docs/index.html' else 'inner'
+        if page == 'home':
+            from home_cleanup import clean_home
+            text = clean_home(text)
         text = re.sub(r'\sdata-cch-page="[^"]*"', '', text)
         text = re.sub(r'<html\b', '<html data-cch-page="'+page+'"', text, count=1)
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
@@ -30,7 +33,10 @@ def publish_shared_ui(root):
             path.write_text(text, encoding='utf-8')
             return name
     with ThreadPoolExecutor(max_workers=16) as pool:
-        return [name for name in pool.map(publish, files) if name]
+        changed = [name for name in pool.map(publish, files) if name]
+    from device_ui import publish_device_ui
+    publish_device_ui(root)
+    return changed
 
 
 if __name__ == '__main__':

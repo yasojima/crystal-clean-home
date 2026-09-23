@@ -1,0 +1,7 @@
+.cch-reference .confirm-form-fieldset__data{white-space:pre-line}
+.cch-reference .additional-options-items[hidden]{display:none}
+.cch-reference .discount-detail__content[aria-hidden=true]{display:none}
+.cch-reference #cch-cart-summary .discount-detail__content[aria-hidden=false]{display:block}
+.cch-reference #js-store-search-suggest button{padding:16px;width:100%;text-align:left;background:#fff;color:#075b91;border:1px solid #dae8f1}
+
+.cch-reference .cart--empty .cart__contents{width:100%;flex:1}
