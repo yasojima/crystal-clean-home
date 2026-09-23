@@ -45,7 +45,7 @@
   if (!footer || document.getElementById('cch-bottom-bar')) return;
   const bar = document.createElement('div');
   bar.id = 'cch-bottom-bar'; bar.className = 'DEVELOP778 scrolled'; bar.dataset.pattern = '1';
-  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli">クリスタルクリーンホーム</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a><a href="/crystal-clean-home/cart/"><span>お見積りはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
+  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a><a href="/crystal-clean-home/cart/"><span>お見積りはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
   footer.before(bar);
   const wrap = bar.querySelector('.fixbtnwrap');
   let timer;
