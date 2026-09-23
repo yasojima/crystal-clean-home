@@ -65,3 +65,5 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 - CART-BADGE: ローカルで追加1点、明細数量3点、減数2点、再読み込み後の数量一致を確認。数量上限の回帰テスト追加。test-reference/test-shop/test-checkout/test_device_ui PASS。
 
 - 公開 run 35874502596 成功。スクロール到着0.3px以内、カート2→3→2点と明細一致。0点非表示・赤塗りSVGのPC/SPスクリーンショット確認。旧CSSキャッシュ対策として追従バーCSSのURLも更新。
+
+- 2026-09-24 SCROLL-ALIGN: 非表示IABの1477/820/390px幅でMENUとFV丸ボタンの横中心差0pxを確認。
