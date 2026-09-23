@@ -17,6 +17,22 @@ def remove_footer_details(text):
         raise ValueError('Unclosed footer details')
     return re.sub(r'<footer\b[^>]*>.*?</footer>', clean, text, flags=re.S|re.I)
 
+def remove_legacy_floaters(text):
+    # Remove only the old floating conversion widgets; keep page contact content.
+    pattern = r'<div\b[^>]*(?:\bid=["\']fixed_side["\']|\bclass=["\'][^"\']*\b(?:simulation_btn|fix_bottom)\b[^"\']*["\'])[^>]*>'
+    while True:
+        start = re.search(pattern, text, re.I)
+        if not start:
+            return text
+        depth = 0
+        for tag in re.finditer(r'</?div\b[^>]*>', text[start.start():], re.I):
+            depth += -1 if tag.group(0).startswith('</') else 1
+            if depth == 0:
+                text = text[:start.start()] + text[start.start()+tag.end():]
+                break
+        else:
+            raise ValueError('Unclosed legacy floating widget')
+
 def publish_header(root):
     config = json.loads((root/'brand/site.json').read_text(encoding='utf-8-sig'))
     component = root/'brand/header'
@@ -69,7 +85,7 @@ def publish_header(root):
         text = re.sub(r'(href=["\'][^"\']*/(?:style--[^/"\'?]+|mitsumori--[^/"\'?]+)\.css)(?:\?[^"\']*)?', r'\1?layout=1', text)
         text = re.sub(r'<div id="breadcrumb"[^>]*>.*?</div>', '<div id="breadcrumb" class="cch-header-band" aria-hidden="true"></div>', text, flags=re.S)
         text = re.sub(r'(src=["\'][^"\']*/js/common[^"\'?]*\.js)(?:\?[^"\']*)?', r'\1?header=1', text)
-        target.write_text(remove_footer_details(text), encoding='utf-8')
+        target.write_text(remove_legacy_floaters(remove_footer_details(text)), encoding='utf-8')
     with ThreadPoolExecutor(max_workers=12) as pool:
         list(pool.map(update, paths))
     return len(paths)
