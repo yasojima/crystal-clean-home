@@ -24,17 +24,7 @@
 Git：https://github.com/yasojima/crystal-clean-home （main）。公開：https://yasojima.github.io/crystal-clean-home/ （docs）。
 source/は取込データと端末別正本、brand/は共有構造とロジック、docs/は生成結果。Driveは参照専用。取得元の来歴はcaptureデータに保持し、ホーム実行HTMLから不要な他社名・旧メタ情報を除去する。来歴の保持と自社サービスの承認は別である。
 
-## 進行中の引継ぎ
+## Route確認・引継ぎ完了
 ROUTE_LOCK_REFRESH（2026-09-23、新担当取込）：WEB / 1.0-rc46 / EXECUTION_READY。PACKAGE_MANIFEST SHA256=C8B737D4244B962D9D1EBC3570EAD4D5EFA22BBB51FB7C718E0B2C2C774B1B0E、PACKAGE_START SHA256=991ECC24C98BDD1AF10FF67A0F4A7B3C081097EEFC51B8251972FBBC7BC33F81を現物確認。許可する実行参照は02_WEB_Web制作のみ、他Route参照0。source rootと本タスクcwdは上記作業正本で一致。外部AI・PDCAはPROJECT_EXCEPTIONSと人間指示により除外。VS Codeゲートの新規検証は未実施でPASS扱いにせず、既存案件を本Codexタスクで継続する明示指示に従う。
 
-HANDOFF_ARTIFACT_READY
-C:\Users\yasoj\codex Projects\Crystal Clean Home\HANDOFF_REQUIRED.md
-SHA-256: bf0df95012a7b0d2cfc8c458a52bfa88d1691271278782ecb6ae0b185de72052
-元task: 01a0bfe6-f9a1-7253-81ba-2d4fba702ad4
-
-新task: 01a0ce6d-933e-7ce1-a618-a3ac155e38d5 / host local
-保存済みProject: Crystal Clean Home / 76b77638-9f25-49f5-809a-9e3ca8c373a2
-HANDOFF_PROMPT_ACCEPTED / DESTINATION_INTAKE_STARTED
-確認時刻: 2026-09-23T13:22:01.329Z
-証拠: wait_threads: active/inProgress; commentary: 引継ぎの取込みを開始します。正本と現在の変更状態を確認し、追従バー、透過、メニューリンクの順に修正・公開確認まで進めます。
-受領記録: HANDOFF_RECEIPT.json
+引継ぎ閉鎖：元task 01a0bfe6-f9a1-7253-81ba-2d4fba702ad4 → 本task 01a0ce6d-933e-7ce1-a618-a3ac155e38d5。同一保存済みProject 76b77638-9f25-49f5-809a-9e3ca8c373a2。元担当のHANDOFF_COMPLETE受領記録（2026-09-23T13:22:01.329Z）を確認。未完了3点は80532f37で実装し、Pages 35868425891成功・公開29リンク遷移確認まで完了。確定内容を仕様書とSITE_VERIFICATIONへ移したため、一時引継ぎ書・受領JSONを閉鎖整理。
