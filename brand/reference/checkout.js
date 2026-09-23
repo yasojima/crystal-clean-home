@@ -4,7 +4,7 @@ const BASE='/crystal-clean-home/',KEY='cch-estimate-cart-v1',data=JSON.parse(doc
 const $=(s,e=document)=>e.querySelector(s),$$=(s,e=document)=>[...e.querySelectorAll(s)],yen=n=>Math.round(n).toLocaleString('ja-JP');
 let cart=[];const template=n=>document.getElementById('cch-template-'+n).content.firstElementChild.cloneNode(true);
 function read(){try{cart=CCHCart.clean(JSON.parse(localStorage.getItem(KEY)||'[]'),map)}catch{cart=[]}}
-function save(){try{localStorage.setItem(KEY,JSON.stringify(cart));return true}catch{alert('カートの保存ができません。ブラウザーの保存設定をご確認ください。');return false}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(cart));window.dispatchEvent(new Event("cch-cart-change"));return true}catch{alert('カートの保存ができません。ブラウザーの保存設定をご確認ください。');return false}}
 const name=v=>v.product.name+(v.name==='標準'?'':'／'+v.name);
 const regular=v=>v.regularPrice||v.price;
 function price(el,v,qty=1,base=true){const p=$('.c-price__text',el),u=$('.c-price__unit',el);if(p)p.textContent=v.price===null?'個別見積り':yen(base?regular(v):CCHCart.unitPrice(v,qty))+(v.fromPrice?'〜':'');if(u)u.textContent=' (税込)／'+v.unit}

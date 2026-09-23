@@ -72,6 +72,6 @@ def publish_checkout(root,header,data):
         shell=(root/'brand/reference/shell.html').read_text(encoding='utf-8')
         shell=shell.replace('{{TITLE}}',replace_brand(soup.title.text)).replace('{{HEADER}}',header).replace('{{STYLES}}',styles).replace('{{CONTENT}}',replace_brand(str(cleaned))).replace('{{CATALOG}}',data)
         shell=shell.replace('reference/bridge.js','reference/checkout.js').replace('<body>','<body data-checkout-page="'+name+'">')
-        if name=='estimate':shell=shell.replace('<script defer src="'+BASE+'reference/checkout.js">','<script defer src="'+BASE+'reference/postal-data.js"></script><script defer src="'+BASE+'reference/checkout.js">')
+        if name=='estimate':shell=shell.replace('<script defer src="'+BASE+'reference/checkout.js?v=rail1">','<script defer src="'+BASE+'reference/postal-data.js"></script><script defer src="'+BASE+'reference/checkout.js?v=rail1">')
         dest=root/'docs'/name/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(shell,encoding='utf-8')
     alias=root/'docs/cart/estimate/index.html';alias.parent.mkdir(parents=True,exist_ok=True);alias.write_text((root/'docs/estimate/index.html').read_text(encoding='utf-8'),encoding='utf-8')
