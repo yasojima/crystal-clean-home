@@ -26,4 +26,7 @@ body .c-double-icon-button--fill-red{border-radius:0 0 16px 0!important}
 /* Corporate and service-area CTAs share the estimate CTA shape and arrow. */
 body .sec_corp a.btn,body .sec_area a.btn{border-radius:0 0 16px 0!important}
 body .sec_corp a.btn::after,body .sec_area a.btn::after{content:""!important;margin:0!important;border:0!important;width:18px!important;height:18px!important;right:20px!important;top:50%!important;transform:translateY(-50%)!important;background-color:currentColor!important;mask:url("../estimate-cta/circle-caret-right.svg") center/contain no-repeat!important;-webkit-mask:url("../estimate-cta/circle-caret-right.svg") center/contain no-repeat!important}
-body .sec_cv .cv_btn img[src*="cv_mail.svg"],body .sec_cv .cv_btn img[data-src*="cv_mail.svg"]{content:url("contact-cta.svg?v=shape1");filter:drop-shadow(0 4px 5px #0003)}
+body .sec_cv .cv_btn img[src*="cv_mail.svg"],body .sec_cv .cv_btn img[data-src*="cv_mail.svg"]{content:url("contact-cta.svg?v=shape2");filter:none;clip-path:inset(9.988% 2.024% 9.982% 2.048% round 0 0 16px 0)}
+
+/* Apply the shadow outside the clipped SVG, keeping a CSS 16px circular corner at every width. */
+body .sec_cv .cv_btn a:has(img[src*="cv_mail.svg"]),body .sec_cv .cv_btn a:has(img[data-src*="cv_mail.svg"]){filter:drop-shadow(0 4px 5px #0003)}
