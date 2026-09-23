@@ -107,3 +107,7 @@
 ## CHG-2026-09-23-CATEGORY-SHAPE-RESTORE / ESTIMATE-SHAPE
 
 非表示IABでカテゴリー8枚の四隅12px、青帯rgb(0,91,172)を確認。無料お見積りCTAは0 0 16px 0、背景rgb(237,14,66)。配色と元の背景を維持。
+
+## CHG-2026-09-23-BLUE-CTA-SHAPE
+
+非表示IABで法人向け・地域CTAのborder-radius 0 0 16px 0と見積CTAと同じSVG maskを確認。既存疑似要素のmarginを解除して縦中央化。共通お問い合わせCTAは既存SVGの文字/封筒を保持し、背景外形と円形右矢印の同一パスへ差替え。ホームの新規スクリーンショットで確認。
