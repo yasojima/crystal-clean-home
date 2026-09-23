@@ -83,3 +83,5 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 - 2026-09-24 KITCHEN-REMOVALS: バナー・理由セクション・FAQ追加リンクがDOM0件。商品カードとFAQ5件のHTMLは変更前と一致。
 
 - 2026-09-24 ROOM-FAQ-LINK: FAQ追加リンクがDOM0件。商品カード・FAQ5件のHTMLが変更前と一致。
+
+- 2026-09-24 COATING-OTHERS-CORPORATION-AREA: コーティング指定2範囲、その他の追加リンク2個、法人サイドメニュー、地域地図をDOM除去確認。商品カード9件/7件とその他FAQ3件はHTML一致。法人1カラム表示を非表示IABで目視確認。

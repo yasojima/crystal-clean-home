@@ -26,7 +26,7 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
-        if name in {'docs/reason/index.html', 'docs/first/index.html', 'docs/qa/index.html', 'docs/area/index.html'}:
+        if name in {'docs/reason/index.html', 'docs/first/index.html', 'docs/qa/index.html', 'docs/area/index.html', 'docs/service/corporation/index.html'}:
             text = re.sub(r'<aside\b[^>]*class="side"[^>]*>.*?</aside>', '', text, flags=re.S)
             text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-single-column\b)',
                           r'\1 cch-single-column', text, count=1)
@@ -35,6 +35,8 @@ def publish_shared_ui(root):
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
         if name == 'docs/area/index.html':
+            # Approved removal: the legacy regional map, including its lazy-load fallback.
+            text = re.sub(r'<div>\s*<img\b[^>]*data-src="[^"]*/area001\.svg"[^>]*>\s*<noscript>.*?</noscript>\s*</div>', '', text, flags=re.S)
             text = text.replace('対応地域', area_label).replace('ご対応エリア', area_label)
         if name != 'docs/index.html':
             text = re.sub(r'<div\b[^>]*\bid="breadcrumb"[^>]*>.*?</div>', '', text, flags=re.S)

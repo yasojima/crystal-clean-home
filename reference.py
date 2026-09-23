@@ -77,6 +77,30 @@ def publish_reference(root=ROOT):
         soup=BeautifulSoup(f.read_bytes(),'html.parser');main=soup.select_one('main')
         if main:apply_card_copy(main)
         if not main:continue
+        if path == '/house-cleaning/coating/':
+            # Approved removal: the opening guide and easy-care coating section.
+            guide = main.select_one(':scope > section.u-py-48-64_40-56')
+            if guide:
+                guide.decompose()
+            heading = main.select_one('#coating01')
+            if heading:
+                content = heading.find_next_sibling('div', class_='coating-contents')
+                if content:
+                    content.decompose()
+                heading.decompose()
+            # Approved next removal: renewal introduction and comparison only.
+            renewal = main.select_one('#coating02')
+            if renewal:
+                content = renewal.find_next_sibling('div', class_='coating-contents')
+                if content:
+                    content.decompose()
+        if path == '/house-cleaning/others/':
+            # Approved removal: only the customer reviews read-more link.
+            for link in main.select('a.c-icon-link-text[href="/house-cleaning/voice/others/"]'):
+                link.decompose()
+            # Approved next removal: only the FAQ read-more link.
+            for link in main.select('a.c-icon-link-text[href="/house-cleaning/faq/"]'):
+                link.decompose()
         if path == '/house-cleaning/room/':
             # Approved removal: only the FAQ read-more link.
             for link in main.select('a.c-icon-link-text[href="/house-cleaning/faq/"]'):
