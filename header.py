@@ -45,7 +45,7 @@ def publish_header(root):
         if count != 1:
             raise ValueError('Missing header: '+path)
         text = re.sub(r'<(?:link|script)\b[^>]*\bdata-shared-header=["\'][^"\']*["\'][^>]*>(?:</script>)?\s*', '', text, flags=re.I)
-        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-area1" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
+        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-sunlit1" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
         entry = extensions.get(path, {})
         for asset in entry.get('styles', []):
             tags += '<link rel="stylesheet" href="/crystal-clean-home/brand/header/'+html.escape(asset, quote=True)+'" data-shared-header="extension">\n'
