@@ -30,6 +30,10 @@ def publish_home_sections(root):
     text = re.sub(r'<link[^>]*data-home-font="true"[^>]*>\s*', '', text)
     for cls in ['sec_info', 'sec_point']:
         text = re.sub(rf'<section class="{cls}">.*?</section>\s*', '', text, flags=re.S)
+    # Reuse the exact same estimate CTA at the lower service-directory entry.
+    text = re.sub(r'<!-- cch-estimate-bottom:start -->.*?<!-- cch-estimate-bottom:end -->', '', text, flags=re.S)
+    lower_cta = (root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8').replace('id="cch-estimate-cta"', 'id="cch-estimate-cta-bottom"')
+    text = text.replace('<!-- cch-service-directory:start -->', '<!-- cch-estimate-bottom:start -->' + lower_cta + '<!-- cch-estimate-bottom:end --><!-- cch-service-directory:start -->', 1)
     target.write_text(text, encoding='utf-8')
 
 if __name__ == '__main__':
