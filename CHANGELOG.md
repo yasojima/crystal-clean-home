@@ -135,3 +135,6 @@
 
 ## CHG-2026-09-23-CREAM-CACHE
 共有CSSの親URLが同じため通常更新で旧背景が残る問題を修正。全ページとpublisherの参照をstyle.css?v=20260923-cream1に更新し、旧キャッシュを回避。
+
+## CHG-2026-09-23-CREAM-LIGHT
+共通無地背景を#FFF4E6から白に近い#FFFCF7に調整。全ページのCSS参照をcream2へ更新しキャッシュを回避。

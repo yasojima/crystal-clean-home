@@ -30,7 +30,7 @@ body .ac-howto .ac-howto-contents:not(.sec_corp),
 body .empty-cart:not(.sec_corp),
 body footer:not([class]),
 body .footer-inner:not(.sec_corp) {
-  background-color:#fff4e6!important;
+  background-color:#fffcf7!important;
   background-image:none!important;
   background-position:center!important;
   background-size:100% 100%!important;
