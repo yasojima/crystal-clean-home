@@ -1,2 +1,15 @@
-#cch-prevention{background:#fff;padding:56px 40px 72px;font-family:"Yu Gothic",YuGothic,sans-serif;scroll-margin-top:160px}#cch-prevention *{box-sizing:border-box}#cch-prevention .l-section-inner{max-width:750px;margin:auto}#cch-prevention .c-banner{position:relative;display:flex;align-items:center;justify-content:center;gap:12px;min-height:78px;padding:12px 48px;background:#dae8f1;color:#075b91;text-decoration:none;font-size:18px;font-weight:700;letter-spacing:.06em}#cch-prevention img{display:block;width:150px;height:54px;object-fit:contain}#cch-prevention .arrow{position:absolute;right:20px;top:50%;transform:translateY(-50%);font:28px/1 sans-serif}#cch-prevention a:hover{opacity:.8}#cch-prevention a:focus-visible{outline:3px solid #075b91;outline-offset:4px}@media(max-width:767.98px){#cch-prevention{padding:32px 20px 40px}#cch-prevention .c-banner{flex-wrap:wrap;gap:8px;padding:20px 32px;font-size:15px}#cch-prevention img{width:140px;height:52px}#cch-prevention .arrow{right:12px}}
-#cch-prevention img{margin:0}@media(max-width:767.98px){#cch-prevention .c-banner{flex-direction:column;gap:6px}}
+#cch-prevention{background:#fff;padding:56px 20px 72px;font-family:"Yu Gothic",YuGothic,sans-serif;scroll-margin-top:160px}#cch-prevention *{box-sizing:border-box}#cch-prevention .l-section-inner{max-width:750px;margin:auto}
+#cch-prevention .about-link{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;max-width:750px;min-height:98px;margin:56px auto 0;padding:16px 48px;background:#fff;border-radius:0 0 32px 0;box-shadow:0 4px 12px #075b9126;text-decoration:none;color:#075b91}
+#cch-prevention .about-link__note{font-size:14px;font-weight:700;color:#344650}
+#cch-prevention .about-link__main{display:flex;align-items:center;justify-content:center;gap:16px;font-size:22px;font-weight:700}
+#cch-prevention .about-link__logo{width:170px;height:65px;object-fit:contain}
+#cch-prevention .about-link__arrow{position:absolute;right:24px;top:50%;transform:translateY(-50%);width:21px;height:21px;border-radius:50%;background:#075b91;color:white;text-align:center;font:18px/21px sans-serif}
+#cch-prevention .about-link:focus-visible{outline:3px solid #075b91;outline-offset:4px}
+#cch-prevention .about-link:hover{opacity:.8}
+#cch-prevention .reasons-banner{padding:0 20px 64px}
+@media(max-width:767.98px){#cch-prevention .about-link{padding:24px 35px 24px 20px;margin-top:32px}#cch-prevention .about-link__main{flex-direction:column;gap:8px;font-size:17px;text-align:center}#cch-prevention .about-link__note{font-size:12px}#cch-prevention .about-link__arrow{right:12px}#cch-prevention .p-reasons__heading{font-size:24px}}
+
+#cch-prevention .about-link{margin:0 auto;letter-spacing:normal}
+#cch-prevention .about-link__main{width:494px;max-width:100%;justify-content:flex-start}
+#cch-prevention .about-link__logo{display:block;margin:0;flex-shrink:0}
+@media(max-width:767.98px){#cch-prevention{padding:32px 20px 40px}#cch-prevention .about-link{margin:0 auto}}

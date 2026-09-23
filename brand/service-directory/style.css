@@ -738,3 +738,5 @@ screen and (min-width: 768px) {#cch-service-directory .u-pb-72_80{
     padding-bottom: 80px !important
   }}
 #cch-service-directory .c-double-line-heading{font-family:"Yu Mincho",YuMincho,serif;color:#17354b}#cch-service-directory .c-category-simple-card__bottom{background:#075b91}#cch-service-directory h3::before{content:none}
+#cch-service-directory .l-section--blue-wave{background-image:url("../service-cards/assets/wave_blue_pc.webp");background-repeat:no-repeat;background-position:center top;background-size:100% auto}
+@media(max-width:767.98px){#cch-service-directory .l-section--blue-wave{background-image:url("../service-cards/assets/wave_blue_sp.webp")}}

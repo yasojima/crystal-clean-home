@@ -224,3 +224,5 @@ screen and (min-width: 768px) {#cch-reasons .p-reasons__contents{
 #cch-reasons .about-link:hover{opacity:.8}
 #cch-reasons .reasons-banner{padding:0 20px 64px}
 @media(max-width:767.98px){#cch-reasons .about-link{padding:24px 35px 24px 20px;margin-top:32px}#cch-reasons .about-link__main{flex-direction:column;gap:8px;font-size:17px;text-align:center}#cch-reasons .about-link__note{font-size:12px}#cch-reasons .about-link__arrow{right:12px}#cch-reasons .p-reasons__heading{font-size:24px}}
+
+#cch-reasons .about-link__main{width:494px;max-width:100%;justify-content:flex-start}
