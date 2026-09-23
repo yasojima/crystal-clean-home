@@ -1,7 +1,8 @@
 #cch-faq{background:#fff;padding:64px 20px 72px;color:#173e58;scroll-margin-top:24px}
 #cch-faq *{box-sizing:border-box}
 #cch-faq .cch-faq-inner{max-width:1200px;margin:0 auto}
-#cch-faq h2{margin:0 0 32px;text-align:center;font-size:28px;color:#075b91}
+#cch-faq h2{margin:0 0 32px;padding:0;text-align:center;font-family:"Yu Mincho",YuMincho,serif;font-size:1.8125rem;line-height:1.2;letter-spacing:normal;color:#000}
+#cch-faq h2::before,#cch-faq h2::after{content:none;display:none}
 #cch-faq details{margin:0 0 8px;border:1px solid #075b91;border-radius:3px;overflow:hidden}
 #cch-faq summary{position:relative;display:flex;gap:8px;align-items:baseline;padding:18px 56px 18px 28px;background:#075b91;color:#fff;cursor:pointer;list-style:none;font-size:17px;font-weight:700;line-height:1.65}
 #cch-faq summary::-webkit-details-marker{display:none}
