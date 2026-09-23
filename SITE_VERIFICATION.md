@@ -79,3 +79,5 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 - 2026-09-24 AIRCON-REMOVALS: 指定7項目のDOM除去を確認。商品カード38件・FAQ6件のHTMLは変更前と一致。お客様の声はリンク以外の本文一致。非表示IABでFAQ開閉、削除後画面を確認。
 
 - 2026-09-24 PACK-WATER-REMOVALS: パック3件・水まわり2件の削除DOMを検証。商品カードはパック103件／水まわり46件、FAQ各5件のHTMLが変更前と一致。
+
+- 2026-09-24 KITCHEN-REMOVALS: バナー・理由セクション・FAQ追加リンクがDOM0件。商品カードとFAQ5件のHTMLは変更前と一致。
