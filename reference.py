@@ -77,6 +77,34 @@ def publish_reference(root=ROOT):
         soup=BeautifulSoup(f.read_bytes(),'html.parser');main=soup.select_one('main')
         if main:apply_card_copy(main)
         if not main:continue
+        if path == '/house-cleaning/aircon/':
+            # Approved removal: opening hero, anchor buttons, notes and sale banner.
+            for selector in ('.mv.mv-anchor', '.l-section--limited-cp'):
+                for section in main.select(selector):
+                    section.decompose()
+            # Approved removal: certification section including the following video.
+            fine_bubble = main.select_one(':scope > .l-section--white-line')
+            if fine_bubble:
+                video = fine_bubble.find_next_sibling('div', class_='p-content-box')
+                if video and video.select_one('iframe'):
+                    video.decompose()
+                fine_bubble.decompose()
+            # Approved removal: air-conditioner type comparison and its footer link.
+            comparison = main.select_one('.compare-table')
+            if comparison:
+                comparison.find_parent('section').decompose()
+            # Approved removal: reasons section and now-unused local anchors.
+            for section in main.select('section#points, a[href="#points"]'):
+                section.decompose()
+            # Approved removal: only the review read-more link.
+            for link in main.select('#review a[href="/house-cleaning/voice/"]'):
+                link.decompose()
+            # Approved removal: only the FAQ read-more link.
+            for link in main.select('#faq a[href="/house-cleaning/faq/"]'):
+                link.decompose()
+            # Approved removal: store search, prefecture map and its local anchors.
+            for section in main.select('#area, a[href="#area"]'):
+                section.decompose()
         for card in main.select('.js-product-card'):
             field=card.select_one('input[name=product-id]');heading=card.select_one('h3,h4,h2,h5')
             if not field or not heading:continue
