@@ -3,6 +3,20 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
 import html, json, re, shutil
 
+def remove_footer_details(text):
+    def clean(match):
+        footer = match.group(0)
+        start = re.search(r'<div\b[^>]*class=["\'][^"\']*\bf_bottom\b[^"\']*["\'][^>]*>', footer)
+        if not start:
+            return footer
+        depth = 0
+        for tag in re.finditer(r'</?div\b[^>]*>', footer[start.start():], re.I):
+            depth += -1 if tag.group(0).startswith('</') else 1
+            if depth == 0:
+                return footer[:start.start()] + footer[start.start()+tag.end():]
+        raise ValueError('Unclosed footer details')
+    return re.sub(r'<footer\b[^>]*>.*?</footer>', clean, text, flags=re.S|re.I)
+
 def publish_header(root):
     config = json.loads((root/'brand/site.json').read_text(encoding='utf-8-sig'))
     component = root/'brand/header'
@@ -12,7 +26,7 @@ def publish_header(root):
     extensions = json.loads((component/'pages.json').read_text(encoding='utf-8'))
     manifest = json.loads((root/'capture.json').read_text(encoding='utf-8'))
     paths = sorted({Path(f['path']).as_posix() for f in manifest['files'] if f.get('html') and not f['path'].startswith('vendor/')})
-    for name in ('style.css', 'desktop.css', 'mobile.css', 'script.js', 'typography.css', 'section-triangles.svg', 'category-cards.css', 'backgrounds.css', 'crystal-background.webp', 'contact-cta.svg'):
+    for name in ('style.css', 'desktop.css', 'mobile.css', 'script.js', 'typography.css', 'section-triangles.svg', 'category-cards.css', 'backgrounds.css', 'crystal-background.webp', 'contact-cta.svg', 'payment-cash.svg'):
         shutil.copy2(component/name, output/name)
     illustration_output = root/'docs/brand/category-illustrations-v1'
     illustration_output.mkdir(parents=True, exist_ok=True)
@@ -45,7 +59,7 @@ def publish_header(root):
         if count != 1:
             raise ValueError('Missing header: '+path)
         text = re.sub(r'<(?:link|script)\b[^>]*\bdata-shared-header=["\'][^"\']*["\'][^>]*>(?:</script>)?\s*', '', text, flags=re.I)
-        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-sunlit1" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
+        tags = '<link rel="stylesheet" href="/crystal-clean-home/brand/header/style.css?v=20260923-payments1" data-shared-header="style">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/desktop.css?v=1" media="(min-width:993px)" data-shared-header="desktop">\n<link rel="stylesheet" href="/crystal-clean-home/brand/header/mobile.css?v=1" media="(max-width:992px)" data-shared-header="mobile">\n<script defer src="/crystal-clean-home/brand/header/script.js?v=1" data-shared-header="script"></script>\n'
         entry = extensions.get(path, {})
         for asset in entry.get('styles', []):
             tags += '<link rel="stylesheet" href="/crystal-clean-home/brand/header/'+html.escape(asset, quote=True)+'" data-shared-header="extension">\n'
@@ -55,7 +69,7 @@ def publish_header(root):
         text = re.sub(r'(href=["\'][^"\']*/(?:style--[^/"\'?]+|mitsumori--[^/"\'?]+)\.css)(?:\?[^"\']*)?', r'\1?layout=1', text)
         text = re.sub(r'<div id="breadcrumb"[^>]*>.*?</div>', '<div id="breadcrumb" class="cch-header-band" aria-hidden="true"></div>', text, flags=re.S)
         text = re.sub(r'(src=["\'][^"\']*/js/common[^"\'?]*\.js)(?:\?[^"\']*)?', r'\1?header=1', text)
-        target.write_text(text, encoding='utf-8')
+        target.write_text(remove_footer_details(text), encoding='utf-8')
     with ThreadPoolExecutor(max_workers=12) as pool:
         list(pool.map(update, paths))
     return len(paths)
