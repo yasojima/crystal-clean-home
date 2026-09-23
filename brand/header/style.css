@@ -46,14 +46,14 @@
 #breadcrumb.cch-header-band {font-size:.8rem;padding:.5em 0;pointer-events:none}
 #breadcrumb.cch-header-band::before {content:"";display:block;height:1.5em}
 
-#header.cch-header .cch-payments{display:grid;grid-template-columns:repeat(2,40px);align-items:center;justify-content:center;gap:0 2px;flex:0 0 auto;line-height:1;margin:0;position:absolute;right:calc(100% + 12px);bottom:-2px}
-#header.cch-header .cch-payments img{display:block;width:54px;height:36px;object-fit:contain;justify-self:center;max-width:none}
+#header.cch-header .cch-payments{display:grid;grid-template-columns:repeat(2,40px);align-items:center;justify-content:center;gap:0 2px;flex:0 0 auto;line-height:1;margin:0;position:absolute;right:calc(100% + 16px);bottom:-2px}
+#header.cch-header .cch-payments img{display:block;width:54px;height:36px;object-fit:contain;justify-self:center;max-width:none;transform:translateX(-7px)}
 body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
 @media(max-width:992px){
  #header.cch-header .h_top{position:relative}
  #header.cch-header .h_top .logo{width:90px!important;margin:0;text-align:left}
  #header.cch-header .h_top .logo img{margin:0}
- #header.cch-header .cch-payments{position:absolute;right:52px;top:50%;transform:translateY(-50%);gap:0 2px;margin:0}
+ #header.cch-header .cch-payments{position:absolute;right:56px;top:50%;transform:translateY(-50%);gap:0 2px;margin:0}
  #header.cch-header .cch-payments img{width:54px;height:36px}
 }
 
