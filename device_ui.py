@@ -11,27 +11,6 @@ BASE = '/crystal-clean-home/'
 DEVICES = {'desktop': '(min-width:993px)', 'mobile': '(max-width:992px)'}
 
 
-def bootstrap(root):
-    root = Path(root)
-    folder = root / 'source/device'
-    css_paths = subprocess.check_output(['git','ls-files','docs/*.css','docs/**/*.css'], cwd=root, text=True).splitlines()
-    css_paths = [p[5:] for p in css_paths if not p.startswith('docs/device/')]
-    (folder / 'manifest.json').parent.mkdir(parents=True, exist_ok=True)
-    (folder / 'manifest.json').write_text(json.dumps(css_paths, indent=2), encoding='utf-8')
-    for device in DEVICES:
-        for relative in css_paths:
-            css = (root / 'docs' / relative).read_text(encoding='utf-8')
-            def absolute(match):
-                value = match[2]
-                if value.startswith(('data:', '#', 'http:', 'https:', '//', '/')):
-                    return match[0]
-                return 'url("'+urljoin(BASE+relative, value)+'")'
-            css = re.sub(r'url\(\s*([\"\']?)([^\)\"\']+)\1\s*\)', absolute, css)
-            target = folder / device / 'css' / relative
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_text(css, encoding='utf-8')
-
-
 def publish_device_ui(root):
     root = Path(root)
     folder = root / 'source/device'
@@ -57,7 +36,9 @@ def publish_device_ui(root):
     ui = {d: json.loads((folder / d / 'ui.json').read_text(encoding='utf-8')) for d in DEVICES}
     output = root / 'docs/device'
     script = (root / 'brand/shared-ui/device-images.js').read_text(encoding='utf-8')
-    (output / 'images.js').write_text('window.CCHDeviceUI='+json.dumps(ui)+';window.CCHDeviceImages='+json.dumps(config, ensure_ascii=False)+';\n'+script, encoding='utf-8')
+    image_script = 'window.CCHDeviceUI='+json.dumps(ui)+';window.CCHDeviceImages='+json.dumps(config, ensure_ascii=False)+';\n'+script
+    image_revision = hashlib.sha256(image_script.encode()).hexdigest()[:12]
+    (output / 'images.js').write_text(image_script, encoding='utf-8')
     for device in DEVICES:
         for source in (folder/device/'css/inline').glob('*.css'):
             output=root/'docs/device'/device/'css/inline'/source.name
@@ -86,7 +67,7 @@ def publish_device_ui(root):
             return ''.join(links)
         text = re.sub(r'<style\b[^>]*>(.*?)</style>', inline_style, text, flags=re.S|re.I)
         text = re.sub(r'<script[^>]*data-device-images[^>]*></script>', '', text)
-        text = text.replace('</head>', '<script defer src="'+BASE+'device/images.js?v=1" data-device-images></script></head>')
+        text = re.sub(r'(<head\b[^>]*>)', lambda m: m[0]+'<script defer src="'+BASE+'device/images.js?v='+image_revision+'" data-device-images></script>', text, count=1)
         path.write_text(text, encoding='utf-8')
     with ThreadPoolExecutor(max_workers=16) as pool:
         list(pool.map(patch, files))
