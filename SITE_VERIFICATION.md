@@ -95,3 +95,7 @@
 - パックページの水色sectionは共通WebP、白sectionは白のまま。旧形式rangefoodページのfeaturesも共通WebPへ適用。白・写真・操作部品を除外する共通CSSで配布。
 - python test_card_copy.py：48 source pages / 219 edited nodes PASS。承認済みカテゴリーラベル内の不要br/span除去のみ構造比較から除外し、ほかの構造・属性・数値・お客様の声・冪等性を確認。
 - 全ページ目視・実機確認は未実施。
+
+## CHG-2026-09-23-CRYSTAL-BG-SOFTEN 検証
+
+非表示IABで共通背景の白40%レイヤーを確認。カードopacityは1、法人向けサービスの背景画像はnoneのまま。ホームの新規スクリーンショットで柄の薄まりを確認。
