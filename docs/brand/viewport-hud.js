@@ -6,8 +6,8 @@
   hud.setAttribute('aria-hidden', 'true');
   const shadow = hud.attachShadow({mode: 'open'});
   shadow.innerHTML = `<style>
-    :host{all:initial!important;position:fixed!important;inset:auto 10px 10px auto!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;overflow:visible!important;z-index:2147483647!important;pointer-events:none!important;width:max-content!important;height:auto!important}
-    span{display:block;box-sizing:border-box;background:#111;color:#fff;padding:7px 10px;border-radius:5px;box-shadow:0 2px 8px #0003;font:11px/1.3 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap;pointer-events:none}
+    :host{all:initial!important;position:fixed!important;inset:auto 1px 1px auto!important;margin:0!important;padding:0!important;border:0!important;background:transparent!important;overflow:visible!important;z-index:2147483647!important;pointer-events:none!important;width:max-content!important;height:auto!important}
+    span{display:block;box-sizing:border-box;background:#111;color:#fff;padding:1px 3px;border-radius:2px;box-shadow:none;font:8px/1.1 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:nowrap;pointer-events:none}
     @media print{:host{display:none!important}}
   </style><span></span>`;
   const label = shadow.querySelector('span');
