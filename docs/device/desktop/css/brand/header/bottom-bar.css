@@ -560,8 +560,8 @@ body:has(#cch-bottom-bar) .fix_bottom{display:none!important}
 
 #cch-bottom-bar .cch-bottom-cart span{padding:0;margin:0;width:auto;white-space:nowrap;background:none}
 
-#cch-bottom-bar .cch-bottom-cart{background:#ed0e42;color:#fff}
-#cch-bottom-bar .cch-bottom-cart img{filter:brightness(0) invert(1)}
+#cch-bottom-bar .cch-bottom-cart{background:transparent;color:#ed0e42}
+#cch-bottom-bar .cch-bottom-cart img{filter:none}
 html.cch-rail-open #cch-bottom-bar .fixbtnwrap{transform:translateY(calc(100% + 2px))!important;pointer-events:none}
 html.cch-rail-open #cch-bottom-bar .c-cart-popup{display:none!important}
 
@@ -578,3 +578,6 @@ html.cch-rail-open #cch-bottom-bar .c-cart-popup{display:none!important}
 #cch-bottom-bar .cch-bar-payments{grid-template-columns:30px 30px}
 #cch-bottom-bar .cch-bar-payments img{width:32px;height:21px}
 #cch-bottom-bar .cch-bar-payments .cch-payments-label{font-size:9px;line-height:14px}
+
+#cch-bottom-bar .cch-bar-payments{display:flex;align-items:center;gap:4px;line-height:1}
+#cch-bottom-bar .cch-bar-payments img{width:48px;height:32px;object-fit:contain}

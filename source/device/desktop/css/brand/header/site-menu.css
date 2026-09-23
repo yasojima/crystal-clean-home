@@ -447,3 +447,8 @@ html{scrollbar-gutter:stable}
 @media(max-height:799px){.cch-os-site-menu{gap:12px;padding-top:clamp(36px,8svh,64px);padding-bottom:20px}.cch-menu-social{justify-content:flex-start}.cch-menu-contact{grid-template-columns:auto 1fr;align-items:center;text-align:left;gap:8px 20px}.cch-menu-contact .cch-menu-phone{font-size:30px}.cch-menu-contact .cch-menu-hours{grid-column:1;font-size:12px}.cch-menu-actions{grid-column:2;grid-row:1/3;justify-content:flex-end;margin:0;gap:8px}.cch-menu-actions a{font-size:12px;padding:8px 10px}}
 
 #cch-side-menu .cch-menu-links .cch-os-bold-links__link{background:transparent;color:#172133}
+
+#cch-side-menu .cch-menu-links>ul>li>a,#cch-side-menu .cch-os-menu-accordion__link{color:#4d4d4d;font-weight:700;text-decoration:none;transition:color .4s cubic-bezier(.26,.16,.1,1),border-color .4s cubic-bezier(.26,.16,.1,1)}
+#cch-side-menu .cch-menu-label{display:block;font-family:"Yu Gothic","游ゴシック",YuGothic,"Hiragino Kaku Gothic ProN",Meiryo,sans-serif!important;font-weight:700;color:inherit}
+#cch-side-menu .cch-menu-label::first-letter{color:#075b91}
+#cch-side-menu .cch-menu-links>ul>li>a:is(:hover,:focus-visible),#cch-side-menu .cch-os-menu-accordion__link:is(:hover,:focus-visible){color:#075b91;border-color:#075b91;text-decoration:none}
