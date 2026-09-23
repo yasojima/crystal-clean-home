@@ -88,4 +88,6 @@ def publish_header(root):
         target.write_text(remove_legacy_floaters(remove_footer_details(text)), encoding='utf-8')
     with ThreadPoolExecutor(max_workers=12) as pool:
         list(pool.map(update, paths))
+    from shared_ui import publish_shared_ui
+    publish_shared_ui(root)
     return len(paths)

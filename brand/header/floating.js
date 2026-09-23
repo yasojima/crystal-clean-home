@@ -34,7 +34,7 @@
   dialog.querySelector('.cch-os-menu-modal__main-content').addEventListener('click',e=>e.stopPropagation());
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog.classList.contains('is-active'))closeMenu();});
   const mobile=matchMedia('(max-width:992px)');
-  const updateMenu=()=>menu.classList.toggle('is-awaiting-scroll',!mobile.matches&&header.getBoundingClientRect().bottom>0);
+  const updateMenu=()=>menu.classList.toggle('is-awaiting-scroll',document.documentElement.dataset.cchPage==='home'&&!mobile.matches&&header.getBoundingClientRect().bottom>0);
   new IntersectionObserver(updateMenu).observe(header);mobile.addEventListener('change',updateMenu);updateMenu();
 
 })();

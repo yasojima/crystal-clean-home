@@ -173,5 +173,7 @@ def publish_reference(root=ROOT):
     publish_checkout(root,header,data)
     shutil.copytree(root/'brand/reference',out,dirs_exist_ok=True)
     (root/'reference-report.json').write_text(json.dumps({'pages':counts,'products':len(products),'variants':sum(len(p['variants']) for p in products.values())},ensure_ascii=False,indent=2),encoding='utf-8')
+    from shared_ui import publish_shared_ui
+    publish_shared_ui(root)
     print('Published reference pages',len(page_outputs),'products',len(products))
 if __name__=='__main__':publish_reference()
