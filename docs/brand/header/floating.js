@@ -56,6 +56,9 @@
   const cartButton=bar.querySelector('.cch-bottom-cart');
   // Original common.js onPopupOpenerClick toggles is-active without an animation.
   cartButton.addEventListener('click',()=>{popup.classList.toggle('is-active');cartButton.setAttribute('aria-expanded',String(popup.classList.contains('is-active')));positionPopup();updateCart();});
+  function closeCartPopup(){popup.classList.remove('is-active');cartButton.setAttribute('aria-expanded','false');}
+  document.addEventListener('click',event=>{if(!popup.contains(event.target)&&!cartButton.contains(event.target))closeCartPopup();});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&popup.classList.contains('is-active')){closeCartPopup();cartButton.focus({preventScroll:true});}});
   function positionPopup(){const r=cartButton.getBoundingClientRect(),w=wrap.getBoundingClientRect();popup.style.left=Math.max(5,Math.min(w.width-322,r.right-w.left-300))+'px';popup.style.bottom=(w.bottom-r.top+20)+'px';popup.style.setProperty('--cart-tip-right',Math.max(16,Math.min(282,parseFloat(popup.style.left)+310-(r.left-w.left+r.width/2)))+'px');}
   let cartIndex;
   const cartReady=(async()=>{if(!window.CCHCart)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/brand/shop/cart-core.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});if(!window.CCHReferenceCatalog)await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='/crystal-clean-home/reference/catalog.js';script.onload=resolve;script.onerror=reject;document.head.append(script)});cartIndex=CCHCart.index(window.CCHReferenceCatalog)})();
