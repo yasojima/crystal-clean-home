@@ -23,6 +23,10 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
+        if name in {'docs/reason/index.html', 'docs/first/index.html', 'docs/qa/index.html', 'docs/area/index.html'}:
+            text = re.sub(r'<aside\b[^>]*class="side"[^>]*>.*?</aside>', '', text, flags=re.S)
+            text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-single-column\b)',
+                          r'\1 cch-single-column', text, count=1)
         text = re.sub(service_pattern, lambda _: service_menu, text, count=1, flags=re.S)
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
@@ -40,7 +44,7 @@ def publish_shared_ui(root):
         text = re.sub(r'<html\b', '<html data-cch-page="'+page+'"', text, count=1)
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
-        text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=menu-fit1" data-shared-ui="style"></head>')
+        text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
         text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=bar-solid-links1', text)
         if text != old:
             path.write_text(text, encoding='utf-8')

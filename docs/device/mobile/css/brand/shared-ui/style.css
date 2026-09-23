@@ -252,3 +252,5 @@ html[data-cch-page="inner"] .cch-side-rail{top:8px}
 #cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2::after{border-color:currentColor}
 #cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2:hover{background:#075b91;color:#fff}
 #cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2:hover i{color:#fff}
+
+.page_container.cch-single-column>.main_contents{width:100%;min-width:0}

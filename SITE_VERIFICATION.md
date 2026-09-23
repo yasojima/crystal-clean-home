@@ -55,3 +55,7 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 ## CHG-2026-09-23-SERVICE-MENU
 
 ローカルIAB1280pxで8項目が3・3・2の3行、その他1項目であることをDOM座標とスクリーンショットで確認。9項目すべてを実クリックして指定URLとページ見出しを確認。
+
+サービスメニュー公開確認：01281888のPages run 35871718670成功。公開ヘッダー8+1項目、9リンク実クリック遷移PASS。
+
+- INNER-SIDEBAR: reason/first/qa/area の4ページを1280px・390pxで確認。aside.side=0、本文は1カラム、横溢れなし。
