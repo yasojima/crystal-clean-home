@@ -103,3 +103,7 @@
 ## CHG-2026-09-23-CREAM-BG 検証
 
 非表示IABのホームで背景rgb(255,244,230)、background-image:noneを確認。法人向けサービスはrgb(238,245,249)を維持。新規スクリーンショットで無地表示を確認。
+
+## CHG-2026-09-23-CATEGORY-SHAPE-RESTORE / ESTIMATE-SHAPE
+
+非表示IABでカテゴリー8枚の四隅12px、青帯rgb(0,91,172)を確認。無料お見積りCTAは0 0 16px 0、背景rgb(237,14,66)。配色と元の背景を維持。
