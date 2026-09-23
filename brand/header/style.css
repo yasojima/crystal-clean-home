@@ -58,7 +58,7 @@ body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
  #header.cch-header .cch-payments img{width:54px;height:36px}
 }
 
-#header.cch-header #navArea .menu>ul>li.service>.dropdown_menu{background:#fff1df}
+#header.cch-header #navArea .menu>ul>li.service>.dropdown_menu{background:#fff}
 
 #header.cch-header .cch-header-contact{position:relative}
 @media(max-width:992px){#header.cch-header .cch-header-contact{position:static}#header.cch-header .cch-payments{bottom:auto}}
@@ -67,3 +67,5 @@ body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
 @media(max-width:992px){#header.cch-header .cch-payments-label{font-size:10px}}
 
 @media(min-width:993px){#header.cch-header .menu>ul{display:flex;justify-content:space-between;gap:16px}#header.cch-header .menu>ul>li{flex:0 0 auto;width:auto;margin:0}#header.cch-header .menu>ul>li>a{white-space:nowrap;font-size:clamp(14px,1.4vw,20px)}}
+
+#header.cch-header #navArea .dropdown_menu ul li a::after{background:#f4c400}
