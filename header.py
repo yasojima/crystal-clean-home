@@ -26,7 +26,7 @@ def publish_header(root):
     extensions = json.loads((component/'pages.json').read_text(encoding='utf-8'))
     manifest = json.loads((root/'capture.json').read_text(encoding='utf-8'))
     paths = sorted({Path(f['path']).as_posix() for f in manifest['files'] if f.get('html') and not f['path'].startswith('vendor/')})
-    for name in ('style.css', 'desktop.css', 'mobile.css', 'script.js', 'typography.css', 'section-triangles.svg', 'category-cards.css', 'backgrounds.css', 'crystal-background.webp', 'contact-cta.svg', 'payment-visa.svg', 'payment-mastercard.svg', 'floating.css', 'floating.js'):
+    for name in ('style.css', 'desktop.css', 'mobile.css', 'script.js', 'typography.css', 'section-triangles.svg', 'category-cards.css', 'backgrounds.css', 'crystal-background.webp', 'contact-cta.svg', 'payment-visa.svg', 'payment-mastercard.svg', 'floating.css', 'floating.js', 'bottom-bar.css'):
         shutil.copy2(component/name, output/name)
     illustration_output = root/'docs/brand/category-illustrations-v1'
     illustration_output.mkdir(parents=True, exist_ok=True)

@@ -1,0 +1,386 @@
+/* Adapted from k-hairsalon.jp/3.2/css/cmn.css and fronts/mystyle-css/tmp/, 2026-09-23. */
+#cch-bottom-bar{
+	min-height: 60px;
+}
+#cch-bottom-bar .fixbtnwrap{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	transition: 0.3s ease-in-out;
+	transform: translateY(100%);
+}
+#cch-bottom-bar.scrolled .fixbtnwrap{
+	bottom: 0;
+}
+#cch-bottom-bar .inner{
+	display: flex;
+	min-height: 60px;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+#cch-bottom-bar .inner{
+	max-width: none;
+}
+#cch-bottom-bar .inner>div{
+	display: flex;
+	align-items: center;
+	padding: 8px 15px;
+}
+#cch-bottom-bar .fixbtntel{
+	line-height: 1.5;
+	text-align: left;
+	flex-grow: 1;
+	flex-shrink: 2;
+}
+#cch-bottom-bar .fixbtntel [data-tel],
+#cch-bottom-bar .fixbtntel>a{
+	align-items: center;
+}
+#cch-bottom-bar .fixbtntel [data-tel]{
+	pointer-events: none;
+}
+#cch-bottom-bar .fixbtntel [data-tel],
+#cch-bottom-bar .fixbtntel>a{
+	text-decoration: none !important;
+}
+#cch-bottom-bar .fixbtntel a.pc_tel{
+	pointer-events: auto;
+}
+#cch-bottom-bar .fixbtntel span{
+	white-space: nowrap;
+}
+#cch-bottom-bar .fixbtntel>p{
+	font-size: 12.5px;
+	line-height: 1.2;
+	word-break: break-all;
+}
+@media screen and (min-width: 1200px){
+	#cch-bottom-bar .inner>div.fixbtntel{
+		padding-left: 20px;
+	}
+	#cch-bottom-bar .cch-bottom-top{
+		padding-right: 20px;
+	}
+}
+@media screen and (max-width: 1300px){
+	#cch-bottom-bar .fixbtntel{
+		flex-wrap: wrap;
+		align-content: center;
+	}
+	#cch-bottom-bar .fixbtntel p{
+		width: 100%;
+		padding-top: 10px;
+	}
+}
+@media screen and (max-width: 768px){
+	#cch-bottom-bar .fixbtntel [data-tel]{
+		pointer-events: auto;
+	}
+}
+@media screen and (max-width: 600px){
+	#cch-bottom-bar .fixbtnwrap{
+		border-bottom: none !important;
+	}
+}
+#cch-bottom-bar .inner > div.contents_btn01{
+	flex-shrink: 0;
+	align-items: center;
+	box-sizing: border-box;
+}
+#cch-bottom-bar .contents_btn01 a[style*="background-color:"]:hover{
+	opacity: 0.8;
+}
+#cch-bottom-bar .contents_btn01 a:nth-of-type(2):nth-last-of-type(1){
+	margin-left: 10px;
+}
+#cch-bottom-bar .contents_btn01 a i.ic{
+	display: block;
+	width: 25px;
+	height: 25px;
+	margin-left: 15px;
+	flex-shrink: 0;
+}
+#cch-bottom-bar .contents_btn01 a[target="_blank"] i.ic{
+	margin-left: 7px;
+}
+#cch-bottom-bar .contents_btn01 a img.icimg{
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+#cch-bottom-bar .contents_btn01 a i.ic{
+	mask-size: contain !important;
+}
+#cch-bottom-bar .contents_btn01 a i.ic+span,
+#cch-bottom-bar .accordion_btn span.inn{
+	padding-left: 5px;
+}
+#cch-bottom-bar .cch-bottom-top{
+	padding-left: 0;
+}
+#cch-bottom-bar .cch-bottom-top a{
+	display: block;
+	position: relative;
+	transition: 0.4s ease-in-out;
+	overflow: hidden;
+}
+#cch-bottom-bar .cch-bottom-top a:before{
+	content: "";
+	display: block;
+	position: absolute;
+}
+@media screen and (max-width: 1300px){
+	#cch-bottom-bar .contents_btn01{
+		flex-direction: column;
+		justify-content: center;
+	}
+	#cch-bottom-bar .contents_btn01 a:nth-of-type(2):nth-last-of-type(1){
+		margin-top: 5px;
+		margin-left: inherit;
+	}
+}
+@media screen and (max-width: 700px){
+	#cch-bottom-bar .inner{
+		justify-content: space-around;
+		flex-wrap: wrap;
+		padding: 3px 5px;
+	}
+	#cch-bottom-bar .inner>div{
+		border: none !important;
+		padding: 8px 0;
+	}
+	#cch-bottom-bar .inner>div.fixbtntel{
+		flex-grow: 0;
+		flex-shrink: 0;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	#cch-bottom-bar .fixbtntel [data-tel],
+	#cch-bottom-bar .fixbtntel>a{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	#cch-bottom-bar .fixbtntel p{
+		display: none;
+	}
+	#cch-bottom-bar .inner>div.contents_btn01{
+		flex-grow: 0;
+		flex-shrink: 0;
+		max-width: 100%;
+		flex-wrap: wrap;
+	}
+	#cch-bottom-bar .contents_btn01{
+		flex-direction: row;
+	}
+	#cch-bottom-bar .contents_btn01 a{
+		/*min-width: 0;*/
+		margin: 2px 2.5px !important;
+		min-width: 130px;
+	}
+	#cch-bottom-bar .contents_btn01 a:nth-of-type(2):nth-last-of-type(1){
+		margin-top: 0;
+	}
+	#cch-bottom-bar .contents_btn01>a i.ic{
+		width: 20px;
+		height: 20px;
+		margin-left: 5px;
+	}
+	/*▼2個の時*/
+	#cch-bottom-bar .contents_btn01 a:nth-last-child(2):not([target="_blank"]) span,
+	#cch-bottom-bar .contents_btn01 a+a:not([target="_blank"]) span{
+		padding-left: 5px !important;
+		padding-right: 5px !important;
+	}
+	#cch-bottom-bar .contents_btn01 a:nth-last-child(2)[target="_blank"] span,
+	#cch-bottom-bar .contents_btn01 a+a[target="_blank"] span{
+		padding-left: 5px !important;
+	}
+	/*▲2個の時*/
+	#cch-bottom-bar .cch-bottom-top{
+		display: none;
+	}
+	#cch-bottom-bar.no{
+		display: none;
+	}
+}
+@media screen and (max-width: 600px){
+	#cch-bottom-bar .fixbtntel svg{
+		width: 12px !important;
+		height: 12px !important;
+	}
+	#cch-bottom-bar .fixbtntel [data-tel],
+	#cch-bottom-bar .fixbtntel>a{
+		font-size: 25.0px !important;
+	}
+	.ft02 #cch-bottom-bar .fixbtntel [data-tel],
+	.ft02 #cch-bottom-bar .fixbtntel>a{
+		font-size: 27.0px !important;
+	}
+	.ft02 #cch-bottom-bar .contents_btn01 span{
+		font-size: 15.0px !important;
+	}
+}
+#cch-bottom-bar{
+	margin-bottom: 30px;
+	font-size: 15.5px;
+}
+#cch-bottom-bar .fixbtnwrap{
+	background: rgb(255 255 255 / 95%);
+	border-top: 1px solid #202c3c;
+	border-bottom: 1px solid #202c3c;
+}
+/*▼ TEL、予約ボタンない = 追従フッター有効でない場合*/
+#cch-bottom-bar.no .fixbtnwrap{
+	background-color: transparent;
+}
+#cch-bottom-bar .fixbtntel,
+#cch-bottom-bar .fixbtntel a,
+#cch-bottom-bar .fixbtntel span{
+}
+#cch-bottom-bar .fixbtntel{
+	border-right: 1px solid #202c3c;
+}
+#cch-bottom-bar .fixbtntel:nth-last-of-type(2){
+	border-right: none;
+}
+#cch-bottom-bar .fixbtntel a,
+#cch-bottom-bar .fixbtntel span{
+	font-size: 26.0px;
+	line-height: 1;
+	margin-right: 10px;
+	color: #202c3c;
+	font-weight: 600;
+}
+#cch-bottom-bar .fixbtntel a,
+#cch-bottom-bar .fixbtntel [data-tel] {
+    text-align: center;
+}
+#cch-bottom-bar .contents_btn01 a{
+	border: none;
+}
+#cch-bottom-bar .contents_btn01 a:hover{
+	transform: none;
+	opacity: 0.6 !important;
+}
+#cch-bottom-bar .fixbtntel a:last-child,
+#cch-bottom-bar .fixbtntel span:last-child{
+	margin-right: 0;
+}
+#cch-bottom-bar .contents_btn01 a span{
+	color: #fff;
+	font-weight: 600;
+	white-space: nowrap;
+}
+#cch-bottom-bar .fixbtntel svg{
+	width: 22px;
+	height: 22px;
+	margin-right: 5px;
+	fill: #202c3c;
+}
+#cch-bottom-bar .contents_btn01{
+	border-left: 1px solid rgba(255,255,255,0.1);
+}
+#cch-bottom-bar .contents_btn01:nth-of-type(1){
+	border-left: none;
+}
+#cch-bottom-bar .contents_btn01:nth-of-type(1){
+	/*▼ TELない場合中央揃え*/
+	margin-left: auto;
+	margin-right: auto;
+}
+#cch-bottom-bar .contents_btn01 a{
+	padding: 0;
+	background: #202c3c;
+}
+#cch-bottom-bar[data-pattern="2"] .contents_btn01 a{
+	border: none;
+}
+#cch-bottom-bar .contents_btn01 span{
+	text-align: center;
+	padding: 13px 15px 9px;
+	line-height: 1.6;
+}
+#cch-bottom-bar .contents_btn01 a:before,
+#cch-bottom-bar .contents_btn01 a:after{
+	display: none;
+}
+#cch-bottom-bar .contents_btn01 a[target=_blank] span:before,
+#cch-bottom-bar .contents_btn01 a[target=_blank] span:after {
+	border-color: #fff;
+}
+/*▼ TEL、予約ボタンない = 追従フッター有効でない場合*/
+#cch-bottom-bar .cch-bottom-top:nth-of-type(1){
+	margin-left: auto;
+	/*▼ 右揃え*/
+	margin-right: 0;
+	/*▼ 中央揃え*/
+	margin-right: auto;
+}
+#cch-bottom-bar .cch-bottom-top a{
+	height: 40px;
+	width: 40px;
+}
+#cch-bottom-bar .cch-bottom-top a:before{
+	top: 17px;
+	left: 3px;
+	transform: rotate(45deg);
+	transition: 0.2s ease-in-out;
+	border-left: 2px solid #202c3c;
+	border-top: 2px solid #202c3c;
+	width: 30px;
+	height: 30px;
+}
+#cch-bottom-bar .cch-bottom-top a:hover:before{
+	opacity: 0.7;
+}
+/*▼ TEL、予約ボタンない = 追従フッター有効でない場合*/
+#cch-bottom-bar.no .cch-bottom-top a:before{
+	border-color: rgba(120,120,120,0.6) ;
+}
+#cch-bottom-bar.no .cch-bottom-top a:hover:before{
+	border-left: 2px solid rgba(120,120,120,1);
+	border-top: 2px solid rgba(120,120,120,1);
+}
+
+@media screen and (max-width: 600px){
+	#cch-bottom-bar{
+		margin-bottom: 0;
+	}
+	#cch-bottom-bar,
+	#cch-bottom-bar .fixbtntel a,
+	#cch-bottom-bar .fixbtntel span{
+		font-size: 17.0px;
+	}
+	#cch-bottom-bar .fixbtntel a,
+	#cch-bottom-bar .fixbtntel span{
+		font-size: 20.0px;
+		color: #202c3c !important;
+		margin: 0;
+	}
+	#cch-bottom-bar .fixbtntel svg{
+		width: 18px;
+		height: 18px;
+
+	}
+	#cch-bottom-bar .contents_btn01 a{
+		padding: 0;
+		letter-spacing: 0;
+	}
+	#cch-bottom-bar .contents_btn01 a span{
+		padding: 11px 15px 6px;
+	}
+}
+#cch-bottom-bar{font-family:var(--cch-body-font);line-height:1.8;color:#202c3c;text-align:left}
+#cch-bottom-bar *{box-sizing:content-box}
+#cch-bottom-bar .fixbtnwrap{z-index:3900;bottom:0}
+#cch-bottom-bar .inner{max-width:none}
+#cch-bottom-bar p{margin:0}
+#cch-bottom-bar .contents_btn01 a{display:block;width:173px;text-decoration:none;transition:.4s ease-in-out}
+#cch-bottom-bar .contents_btn01 a span{display:block;font-size:14px}
+#cch-bottom-bar .fixbtntel [data-tel]{display:block}
+#cch-bottom-bar .fixbtntel small{display:block;font-size:12px;line-height:15px;font-weight:400}
+body:has(#cch-bottom-bar) .fix_bottom{display:none!important}
+@media(prefers-reduced-motion:reduce){#cch-bottom-bar .fixbtnwrap{transition:none}}

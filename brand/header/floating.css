@@ -1,3 +1,4 @@
+@import url("bottom-bar.css?v=1");
 #header.cch-header{position:absolute!important;top:0}
 #header.cch-header .toggle_btn{display:none!important}
 .cch-side-rail{position:fixed;z-index:4000;right:0;top:20px;display:flex;flex-direction:column;width:72px;filter:drop-shadow(0 2px 5px #17354b1a)}
