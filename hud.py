@@ -7,7 +7,7 @@ def publish_hud(root):
     manifest = json.loads((root/'capture.json').read_text(encoding='utf-8'))
     paths = sorted({Path(f['path']).as_posix() for f in manifest['files'] if f.get('html') and not f['path'].startswith('vendor/')})
     shutil.copy2(root/'brand/viewport-hud.js', root/'docs/brand/viewport-hud.js')
-    tag = '<script defer src="/crystal-clean-home/brand/viewport-hud.js?v=20260923-bar-final2" data-viewport-hud="true"></script>'
+    tag = '<script defer src="/crystal-clean-home/brand/viewport-hud.js?v=20260923-readable" data-viewport-hud="true"></script>'
     def update(path):
         target = root/'docs'/path
         text = target.read_text(encoding='utf-8')
