@@ -552,8 +552,8 @@ body:has(#cch-bottom-bar) .fix_bottom{display:none!important}
 @media(max-width:700px){#cch-bottom-bar .cch-bottom-cart{width:52px}}
 
 #cch-bottom-bar .cch-bottom-cart{flex-direction:column;gap:2px;font-family:inherit;font-weight:700;color:#075b91}
-#cch-bottom-bar .cch-bottom-cart img{width:24px;height:24px}
-#cch-bottom-bar .cch-bottom-cart span{font-family:inherit!important;font-size:12px;line-height:16px;font-weight:700}
+#cch-bottom-bar .cch-bottom-cart img{width:28px;height:28px}
+#cch-bottom-bar .cch-bottom-cart span{font-family:inherit!important;font-size:10px;line-height:13px;font-weight:700}
 
 #cch-bottom-bar .cch-bottom-cart,#cch-bottom-bar .cch-bottom-cart span{font-family:"Cardo", "Noto Serif JP", "游明朝", "Yu Mincho", "游明朝体", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", serif!important}
 #cch-bottom-bar .cch-bottom-cart span{font-weight:600}
@@ -583,5 +583,5 @@ html.cch-rail-open #cch-bottom-bar .c-cart-popup{display:none!important}
 #cch-bottom-bar .cch-bar-payments img{width:54px;height:36px;object-fit:contain;justify-self:center;max-width:none;transform:translateX(-7px)}
 
 #cch-bottom-bar .cch-bottom-cart{position:relative}
-#cch-bottom-bar .cch-bottom-cart .cch-bottom-cart-count{position:absolute;top:-5px;left:calc(50% + 5px);min-width:18px;height:18px;padding:0 4px;border-radius:20px;background:#ed0e42;color:#fff;border:2px solid #fff;box-sizing:content-box;font-family:Arial,sans-serif!important;font-size:11px;font-weight:700;line-height:18px;text-align:center;box-shadow:0 1px 4px #0002}
+#cch-bottom-bar .cch-bottom-cart .cch-bottom-cart-count{position:absolute;top:-5px;left:calc(50% + 5px);min-width:18px;height:18px;padding:0 4px;border-radius:20px;background:#ffd84d;color:#075b91;border:2px solid #fff;box-sizing:content-box;font-family:Arial,sans-serif!important;font-size:11px;font-weight:700;line-height:18px;text-align:center;box-shadow:0 1px 4px #0002}
 #cch-bottom-bar .cch-bottom-cart-count[hidden]{display:none}
