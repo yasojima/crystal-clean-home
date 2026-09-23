@@ -1,1 +1,18 @@
-/* Background overrides removed: use each original section background. */
+/* Homepage surfaces: base, content, emphasis. */
+body:has(#cch-hero){--cch-surface-base:#e3f1fc;--cch-surface-content:#fff;--cch-surface-emphasis:#06408c;background:var(--cch-surface-base)}
+body:has(#cch-hero) #header.cch-header::before{background:rgba(255,255,255,.9)}
+body:has(#cch-hero) :is(#cch-estimate-cta,#cch-estimate-cta-bottom,.sec_area){background-color:var(--cch-surface-base)}
+body:has(#cch-hero) :is(#cch-service-cards,#cch-service-directory) .l-section{--bg-color:var(--cch-surface-base)!important;background-color:var(--cch-surface-base)}
+body:has(#cch-hero) :is(#cch-reasons,#cch-prevention),body:has(#cch-hero) #cch-reasons .l-section{background-color:var(--cch-surface-content)}
+body:has(#cch-hero) .sec_corp{background-color:var(--cch-surface-emphasis)}
+body:has(#cch-hero) .sec_corp .txt :is(h2,p){color:#fff}
+body:has(#cch-hero) .sec_corp a.btn{background:#fff;color:#005bac;border-color:#fff}
+body:has(#cch-hero) .sec_corp a.btn:is(:hover,:focus-visible){background:#e3f1fc;color:#06408c;opacity:1}
+body:has(#cch-hero) footer{background:var(--cch-surface-emphasis);color:#fff}
+body:has(#cch-hero) footer :is(a,h2,h3,small,i){color:#fff}
+body:has(#cch-hero) footer .cont_correspondence-area h2{background:transparent;border-color:rgba(255,255,255,.35)}
+body:has(#cch-hero) footer .cont_correspondence-area.regular-cleaning_ac h2:hover{background:rgba(255,255,255,.1)}
+body:has(#cch-hero) footer .cont_correspondence-area.regular-cleaning_ac h2::after{border-color:#fff}
+body:has(#cch-hero) footer .copyright{background:var(--cch-surface-emphasis);border-top:1px solid rgba(255,255,255,.25);color:#fff}
+
+body:has(#cch-hero) .sec_corp .flex .txt h2{background-image:linear-gradient(rgba(6,64,140,.8),rgba(6,64,140,.8)),url("../section-illustrations-v1/brand-script.svg");background-size:100% 100%,95% auto;background-position:center;background-repeat:no-repeat}
