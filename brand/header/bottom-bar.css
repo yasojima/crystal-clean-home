@@ -446,3 +446,5 @@ body:has(#cch-bottom-bar) .fix_bottom{display:none!important}
 #cch-bottom-bar{margin-bottom:0}
 @media(max-width:850px){#cch-bottom-bar{--k-font-scale:.969696;letter-spacing:0}}
 @media(max-width:700px){#cch-bottom-bar .inner{padding:0}}
+
+#cch-bottom-bar .teli{color:#000!important}
