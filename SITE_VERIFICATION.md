@@ -40,3 +40,8 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 - 390、700、992、993pxでページ横あふれなし。320pxは既存ホーム本文の.txt/.btn_areaが約449pxまで広がる残件あり。今回のバー自体は305pxの内容幅へ収まる。
 - node --check brand/header/floating.js、python -B test_device_ui.pyがPASS（58 CSS入口・443共通UIページ）。
 - 公開確認：80532f3715ff6fb0f9b3233facb7eda8f265cbfa、Pages run 35868425891が成功。公開サイトでも29/29リンクを実クリックし所定URLへの遷移を確認。1280pxホームと390pxメニューの新規スクリーンショットを目視確認。公開PCはヘッダー/バーとも54px幅・中心間隔42px、公開SPは約43.2px幅、バーと見積背景はrgb(255,255,255)。SNS4個は未設定のまま。
+
+
+## CHG-2026-09-23-BREADCRUMB
+
+下層の旧パンくず帯386件と商品側パンくず53件を共通生成処理で除去。ローカル非表示IABで/first/と/house-cleaning/のパンくずDOMが0件、本文とMENUが残ることを確認。ホームは差分なし。公開反映後は代表ページを再確認する。

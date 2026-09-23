@@ -51,3 +51,11 @@
 - 維持：ヘッダーのカード、ラベル撤去、MENU開閉、フッター停止、既存サービス、SNS未設定、実予約送信禁止。
 - 同期：要件定義書、HEADER_UI.md、SITE_VERIFICATION.md。
 - 確認：非表示IABで主要6・サービス21・下部CTA2の計29リンクを実クリックし、所定URLへ遷移。公開確認はSITE_VERIFICATION.mdへ記録。
+
+
+## CHG-2026-09-23-BREADCRUMB
+
+- 人間要求：ホーム以外の下層ページのパンくずリストを削除。
+- 決定：旧ページの空のパンくず帯と商品ページのパンくずを共通publisherで除去し、再生成時の復活を防ぐ。
+- 影響：下層ページのPC/SP。ホーム、本文、MENU、追従バーは維持。
+- 同期：要件定義書、HEADER_UI.md、SITE_VERIFICATION.md。

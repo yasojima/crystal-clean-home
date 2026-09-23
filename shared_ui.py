@@ -19,6 +19,9 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
+        if name != 'docs/index.html':
+            text = re.sub(r'<div\b[^>]*\bid="breadcrumb"[^>]*>.*?</div>', '', text, flags=re.S)
+            text = re.sub(r'<ol\b[^>]*\bclass="c-breadcrumbs"[^>]*>.*?</ol>', '', text, flags=re.S)
         text = re.sub(r'h_tel\.svg(?:\?[^\"\s<>]*)?', 'h_tel.svg?v=solid1', text)
         page = 'home' if name == 'docs/index.html' else 'inner'
         if page == 'home':
