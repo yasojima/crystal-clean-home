@@ -7,54 +7,35 @@
   rail.className = 'cch-side-rail';
   rail.setAttribute('aria-label', 'メニューとお見積り');
   rail.innerHTML = '<button class="cch-rail-menu" type="button" aria-label="メニューを開く" aria-haspopup="dialog" aria-controls="cch-side-menu" aria-expanded="false"><span class="cch-menu-lines" aria-hidden="true"></span><span>MENU</span></button><a class="cch-rail-cart" href="'+base+'cart/" aria-label="お見積り内容を確認"><svg viewBox="0 0 32 30" aria-hidden="true"><path d="M2 2h4l3 19h19M7 6l23 2-3 11H9"/><circle cx="11" cy="26" r="2"/><circle cx="26" cy="26" r="2"/></svg><span class="cch-cart-count" hidden></span><span>お見積り</span><small class="cch-cart-amount"></small></a>';
-  const dialog = document.createElement('dialog');
-  dialog.className = 'cch-drawer'; dialog.id = 'cch-side-menu';
-  dialog.setAttribute('aria-labelledby', 'cch-drawer-title');
-  dialog.innerHTML = '<div class="cch-drawer-head"><h2 class="cch-drawer-title" id="cch-drawer-title">MENU</h2><button class="cch-drawer-close" type="button" aria-label="メニューを閉じる">×</button></div><nav class="cch-drawer-links" aria-label="サイト全体メニュー"></nav>';
-  const nav = dialog.querySelector('nav');
-  function copyLink(source) { const a = document.createElement('a'); a.href = source.href; a.textContent = source.textContent.trim(); return a; }
-  header.querySelectorAll('.menu>ul>li').forEach(item => {
-    const trigger = item.querySelector(':scope>a');
-    const panel = item.querySelector('.dropdown_menu');
-    if (!panel) { if (trigger?.hasAttribute('href')) nav.append(copyLink(trigger)); return; }
-    const details = document.createElement('details'), summary = document.createElement('summary'), body = document.createElement('div');
-    summary.textContent = trigger.textContent.trim(); body.className = 'cch-drawer-services';
-    panel.querySelectorAll('h3,a[href]').forEach(source => {
-      if (source.tagName === 'H3') { const h = document.createElement('h3'); h.textContent = source.textContent; body.append(h); }
-      else body.append(copyLink(source));
-    });
-    details.append(summary, body); nav.append(details);
+  rail.querySelector('button').innerHTML='<img src="'+base+'reference/assets/images/header/menu-open_pc.webp" alt="MENU" width="72" height="72">';
+  rail.querySelector('.cch-rail-cart').remove();
+  rail.setAttribute('aria-label','メニュー');
+  const dialog=document.createElement('div');
+  dialog.id='cch-side-menu';dialog.className='cch-os-menu-modal';dialog.setAttribute('aria-hidden','true');dialog.setAttribute('role','dialog');dialog.setAttribute('aria-label','サイト全体メニュー');
+  dialog.innerHTML='<div class="cch-os-menu-modal__backdrop"><div class="cch-os-menu-modal__main-content"><button class="cch-os-menu-modal__closer" aria-label="メニューを閉じる"><img src="'+base+'reference/assets/images/header/menu-close.webp" alt="CLOSE" width="58" height="58"></button><nav class="cch-os-site-menu" aria-label="サイト全体メニュー"></nav></div></div>';
+  const nav=dialog.querySelector('nav');
+  header.querySelectorAll('.menu>ul>li').forEach((item,index)=>{
+    const trigger=item.querySelector(':scope>a'), panel=item.querySelector('.dropdown_menu');
+    if(!trigger)return;
+    if(panel){
+      const group=document.createElement('div');group.className='cch-os-menu-accordion js-accordion';group.dataset.simpleType='true';
+      group.innerHTML='<p class="cch-os-menu-accordion__heading"><a class="cch-os-menu-accordion__link" href="'+base+'services/">'+trigger.textContent.trim()+'</a><button class="cch-os-menu-accordion__trigger js-accordion-trigger" aria-label="サービスと料金の詳細を開閉" aria-controls="cch-menu-services" aria-expanded="false" type="button"></button></p><ul class="cch-os-menu-accordion__content cch-os-menu-accordion-content" id="cch-menu-services"></ul>';
+      panel.querySelectorAll('a[href]').forEach(source=>{const li=document.createElement('li');li.className='cch-os-menu-accordion-content__item';const link=document.createElement('a');link.className='cch-os-site-menu-link';link.href=source.href;link.textContent=source.textContent.trim();li.append(link);group.querySelector('ul').append(li);});
+      const list=document.createElement('ul');list.className='cch-os-house-cleaning-menu';const li=document.createElement('li');li.className='cch-os-house-cleaning-menu__item';li.append(group);list.append(li);nav.append(list);
+    }else{const ul=document.createElement('ul');ul.className=index===0?'cch-os-site-menu__bold-links cch-os-bold-links cch-os-bold-links--services':'';const li=document.createElement('li');li.className='cch-os-bold-links__item';const a=document.createElement('a');a.className=index===0?'cch-os-bold-links__link':'cch-os-site-menu-link';a.href=trigger.href;a.textContent=trigger.textContent.trim();li.append(a);ul.append(li);nav.append(ul);}
   });
-  document.body.append(rail, dialog);
-  const menu = rail.querySelector('button');
-  menu.addEventListener('click', () => { dialog.showModal(); menu.setAttribute('aria-expanded','true'); document.documentElement.classList.add('cch-rail-open'); });
-  dialog.querySelector('.cch-drawer-close').addEventListener('click', () => dialog.close());
-  dialog.addEventListener('click', e => { if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();} });
-  dialog.addEventListener('close', () => { document.documentElement.classList.remove('cch-rail-open'); menu.setAttribute('aria-expanded','false'); menu.focus({preventScroll:true}); });
-  dialog.querySelectorAll('a').forEach(a => a.addEventListener('click', () => dialog.close()));
-  const mobile = matchMedia('(max-width:992px)');
-  const updateMenu = () => menu.classList.toggle('is-awaiting-scroll', !mobile.matches && header.getBoundingClientRect().bottom > 0);
-  new IntersectionObserver(updateMenu).observe(header); mobile.addEventListener('change', updateMenu); updateMenu();
-  let map;
-  function renderCart() {
-    if (!map) return;
-    let cart; try { cart = CCHCart.clean(JSON.parse(localStorage.getItem('cch-estimate-cart-v1')||'[]'),map); } catch { cart=[]; }
-    const t=CCHCart.totals(cart,map), count=cart.reduce((n,l)=>n+l.qty,0), badge=rail.querySelector('.cch-cart-count');
-    badge.textContent=count; badge.hidden=!count;
-    const amount=t.total.toLocaleString('ja-JP')+'円'+(t.quote?'〜':'');
-    rail.querySelector('.cch-cart-amount').textContent=count?amount:'';
-    rail.querySelector('.cch-rail-cart').setAttribute('aria-label','お見積り内容を確認：'+count+'点、'+amount+(t.quote?'、個別見積りを含む':''));
-  }
-  async function prepareCart() {
-    try {
-      if (!window.CCHCart) await new Promise((resolve,reject)=>{ const s=document.createElement('script');s.src=base+'brand/shop/cart-core.js';s.onload=resolve;s.onerror=reject;document.head.append(s); });
-      const embedded=document.getElementById('shop-catalog');
-      let data;if(embedded)data=JSON.parse(embedded.textContent);else{await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=base+'reference/catalog.js';s.onload=resolve;s.onerror=reject;document.head.append(s);});data=window.CCHReferenceCatalog;}
-      map=CCHCart.index(data);renderCart();
-    } catch { /* The cart link remains available if the summary cannot load. */ }
-  }
-  window.addEventListener('pageshow',renderCart);window.addEventListener('storage',renderCart);window.addEventListener('cch-cart-change',renderCart);
-  prepareCart();
+  document.body.append(rail,dialog);
+  const menu=rail.querySelector('button');
+  function closeMenu(){dialog.classList.add('is-hidden');dialog.setAttribute('aria-hidden','true');menu.setAttribute('aria-expanded','false');dialog.addEventListener('animationend',()=>{dialog.classList.remove('is-active');document.documentElement.classList.remove('cch-rail-open');menu.focus({preventScroll:true});},{once:true});}
+  menu.addEventListener('click',()=>{dialog.classList.remove('is-hidden');dialog.classList.add('is-active');document.documentElement.classList.add('cch-rail-open');dialog.setAttribute('aria-hidden','false');menu.setAttribute('aria-expanded','true');});
+  dialog.querySelector('.cch-os-menu-modal__closer').addEventListener('click',closeMenu);
+  dialog.querySelector('.cch-os-menu-modal__backdrop').addEventListener('click',closeMenu);
+  dialog.querySelector('.cch-os-menu-modal__main-content').addEventListener('click',e=>e.stopPropagation());
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&dialog.classList.contains('is-active'))closeMenu();});
+  const mobile=matchMedia('(max-width:992px)');
+  const updateMenu=()=>menu.classList.toggle('is-awaiting-scroll',!mobile.matches&&header.getBoundingClientRect().bottom>0);
+  new IntersectionObserver(updateMenu).observe(header);mobile.addEventListener('change',updateMenu);updateMenu();
+
 })();
 
 // K's DEVELOP778 footer branch: hide on scroll, return after 500 ms,
@@ -90,3 +71,6 @@
   positionBar(false);
   setTimeout(() => { wrap.style.transform = 'translateY(0)'; }, 500);
 })();
+
+// Original accordion animation classes from osoujihonpo common.js.
+(()=>{class T{constructor(){this.ANIMATING_CLASS="is-sliding",this.SPACING_MARGIN_PROPS=["padding-top","padding-bottom","margin-top","margin-bottom"],this.TRANSITION_PROPS=["transition-property","transition-duration","transition-timing-function"],this.slideUp=(e,t=300)=>{if(!this.canAnimate(e))return;e.classList.add(this.ANIMATING_CLASS),e.style.height=`${e.offsetHeight}px`,e.offsetHeight,this.setTransitionPropsValue(e,t);const s=["height",...this.SPACING_MARGIN_PROPS];this.setStylePropsValueToZero(e,s),setTimeout((()=>{const t=["display","height","overflow",...this.SPACING_MARGIN_PROPS,...this.TRANSITION_PROPS];this.removeStyleProps(e,t),e.classList.remove(this.ANIMATING_CLASS)}),t)}}slideDown(e,t=300){if(!this.canAnimate(e))return;e.classList.add(this.ANIMATING_CLASS),e.style.removeProperty("display");const s=window.getComputedStyle(e).display;e.style.display="none"!==s?s:"block";const i=e.offsetHeight,n=["height",...this.SPACING_MARGIN_PROPS];this.setStylePropsValueToZero(e,n),e.offsetHeight,e.style.height=`${i}px`,e.style.overflow="hidden",this.setTransitionPropsValue(e,t),this.removeStyleProps(e,this.SPACING_MARGIN_PROPS),setTimeout((()=>{const t=["height","overflow",...this.TRANSITION_PROPS];this.removeStyleProps(e,t),e.classList.remove(this.ANIMATING_CLASS)}),t)}slideToggle(e,t=300){this.isVisible(e)?this.slideUp(e,t):this.slideDown(e,t)}canAnimate(e){return!e.classList.contains(this.ANIMATING_CLASS)}isVisible(e){return"none"!==window.getComputedStyle(e).display}setTransitionPropsValue(e,t){const s=["height",...this.SPACING_MARGIN_PROPS].join(",");e.style.transitionProperty=s,e.style.transitionDuration=`${t}ms`,e.style.transitionTimingFunction="ease"}setStylePropsValueToZero(e,t){for(const s of t)e.style.setProperty(s,"0")}removeStyleProps(e,t){for(const s of t)e.style.removeProperty(s)}}class y extends T{constructor(e=300){super(),this.ANIMATION_CLASS="is-sliding",this.ACCORDION_CLASS="js-accordion",this.ACCORDION_TRIGGER_CLASS="js-accordion-trigger",this.animationDuration=e,this.init()}init(){const e=document.querySelectorAll(`#cch-side-menu .${this.ACCORDION_CLASS}`);e.length>0&&e.forEach((e=>{const t="true"===e.dataset.simpleType;e.querySelectorAll(`.${this.ACCORDION_TRIGGER_CLASS}`).forEach((e=>{e.addEventListener("click",(e=>this.accordion(t,e)))}))}))}accordion(e,t){const s=t.currentTarget,i=s.getAttribute("aria-controls"),n=document.getElementById(i);if(!(null==n?void 0:n.classList.contains(this.ANIMATION_CLASS))){if(!e){const e=s.closest(`.${this.ACCORDION_CLASS}`),t=null==e?void 0:e.querySelectorAll(`.${this.ACCORDION_TRIGGER_CLASS}:not([aria-controls="${i}"])`);null==t||t.forEach((e=>{const t=e.getAttribute("aria-controls"),s=document.getElementById(t);this.closeAccordion(e,s),this.slideUp(s,this.animationDuration)}))}"true"===s.getAttribute("aria-expanded")?this.closeAccordion(s,n):this.openAccordion(s,n)}}openAccordion(e,t){e.setAttribute("aria-expanded","true"),t.setAttribute("aria-hidden","false");const s=e.dataset.closedText;s&&(e.innerHTML=s),this.slideDown(t,this.animationDuration)}closeAccordion(e,t){e.setAttribute("aria-expanded","false"),t.setAttribute("aria-hidden","true");const s=e.dataset.openedText;s&&(e.innerHTML=s),this.slideUp(t,this.animationDuration)}}new y;})();
