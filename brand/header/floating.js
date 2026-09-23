@@ -49,7 +49,7 @@
     try {
       if (!window.CCHCart) await new Promise((resolve,reject)=>{ const s=document.createElement('script');s.src=base+'brand/shop/cart-core.js';s.onload=resolve;s.onerror=reject;document.head.append(s); });
       const embedded=document.getElementById('shop-catalog');
-      let data;if(embedded)data=JSON.parse(embedded.textContent);else{const response=await fetch(base+'reference/catalog.json');if(!response.ok)throw new Error('catalog');data=await response.json();}
+      let data;if(embedded)data=JSON.parse(embedded.textContent);else{await new Promise((resolve,reject)=>{const s=document.createElement('script');s.src=base+'reference/catalog.js';s.onload=resolve;s.onerror=reject;document.head.append(s);});data=window.CCHReferenceCatalog;}
       map=CCHCart.index(data);renderCart();
     } catch { /* The cart link remains available if the summary cannot load. */ }
   }

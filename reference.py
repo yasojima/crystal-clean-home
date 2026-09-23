@@ -164,6 +164,7 @@ def publish_reference(root=ROOT):
             components=['ref-'+ids[0]]+['ref-'+ids[0]+'~'+n for n in ids[1:]]
             if all(n in variant_map for n in components) and sum(variant_map[n]['price'] or 0 for n in components)==v['price']:v['components']=components
     (out/'catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
+    (out/'catalog.js').write_text('window.CCHReferenceCatalog='+json.dumps(catalog,ensure_ascii=False)+';',encoding='utf-8')
     data=json.dumps(catalog,ensure_ascii=False).replace('</','<\\/')
     for path,html in page_outputs:
         html=html.replace('{{CATALOG}}',data);dest=root/'docs'/path.strip('/')/'index.html';dest.parent.mkdir(parents=True,exist_ok=True);dest.write_text(html,encoding='utf-8')
