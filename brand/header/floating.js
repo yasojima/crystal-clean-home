@@ -1,4 +1,4 @@
-(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-popup1';document.head.append(l)})();
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-source2';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');
@@ -46,7 +46,7 @@
   if (!footer || document.getElementById('cch-bottom-bar')) return;
   const bar = document.createElement('div');
   bar.id = 'cch-bottom-bar'; bar.className = 'DEVELOP778 scrolled'; bar.dataset.pattern = '1';
-  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/reference/assets/images/header/estimate.svg" alt="お見積り" width="48" height="42"></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
+  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/brand/header/cart-mark.svg" alt="" width="24" height="24"><span>お見積り</span></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
   footer.before(bar);
   const wrap = bar.querySelector('.fixbtnwrap');
   const popup = document.createElement('div');
