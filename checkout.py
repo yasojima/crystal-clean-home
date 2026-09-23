@@ -69,6 +69,7 @@ def publish_checkout(root,header,data):
             existing={l['href'] for l in soup.select('link[rel=stylesheet]')}
             styles+=''.join('<link rel="stylesheet" href="'+local_url(l['href'],path)+'">' for l in confirm.select('link[rel=stylesheet]') if l.get('href','').startswith('/assets/') and l['href'] not in existing)
         styles+='<link rel="stylesheet" href="'+BASE+'reference/checkout.css">'
+        if name=='cart':styles+='<link rel="stylesheet" href="'+BASE+'reference/cart-exact.css?v=1">'
         shell=(root/'brand/reference/shell.html').read_text(encoding='utf-8')
         shell=shell.replace('{{TITLE}}',replace_brand(soup.title.text)).replace('{{HEADER}}',header).replace('{{STYLES}}',styles).replace('{{CONTENT}}',replace_brand(str(cleaned))).replace('{{CATALOG}}',data)
         shell=shell.replace('reference/bridge.js','reference/checkout.js').replace('<body>','<body data-checkout-page="'+name+'">')
