@@ -47,6 +47,8 @@ def publish_device_ui(root):
     files = subprocess.check_output(['git','ls-files','docs/*.html','docs/**/*.html'], cwd=root, text=True).splitlines()
     def patch(name):
         path = root / name
+        if not path.exists():
+            return
         text = path.read_text(encoding='utf-8')
         if 'cch-header' not in text:
             return

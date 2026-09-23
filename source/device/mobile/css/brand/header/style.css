@@ -70,3 +70,5 @@ body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
 
 body #header.cch-header #navArea .dropdown_menu ul li a::after{background:#26a9e8}
 
+
+@media(min-width:993px){#header.cch-header .menu>ul{max-width:1000px;margin-inline:auto;justify-content:space-between;gap:24px}}

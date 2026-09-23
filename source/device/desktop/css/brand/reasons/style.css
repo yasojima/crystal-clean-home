@@ -230,3 +230,9 @@ screen and (min-width: 768px) {#cch-reasons .p-reasons__contents{
 #cch-reasons .about-link{box-shadow:0 0 0 1px #bfd3df,0 6px 16px rgba(23,62,88,.18)}
 
 
+
+#cch-reasons .reasons-banner .about-link{height:124px}
+#cch-reasons .reasons-banner .about-link + .about-link{margin-top:24px}
+#cch-reasons .about-link__note{position:absolute;top:8px;left:20px;right:20px;text-align:center}
+#cch-reasons .about-link__logo{flex-shrink:0;display:block;margin:0}
+@media(max-width:767.98px){#cch-reasons .reasons-banner .about-link{height:170.5px}#cch-reasons .about-link__main{align-items:center}}

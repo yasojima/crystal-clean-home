@@ -20,6 +20,8 @@ def publish_shared_ui(root):
     files = subprocess.check_output(['git', 'ls-files', 'docs/*.html', 'docs/**/*.html'], cwd=root, text=True).splitlines()
     def publish(name):
         path = root / name
+        if not path.exists():
+            return None
         text = path.read_text(encoding='utf-8')
         if 'cch-header' not in text:
             return None
@@ -29,6 +31,7 @@ def publish_shared_ui(root):
             text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-single-column\b)',
                           r'\1 cch-single-column', text, count=1)
         text = re.sub(service_pattern, lambda _: service_menu, text, count=1, flags=re.S)
+        text = re.sub(r'<li class="faq"><a[^>]*>.*?</a></li>', '', text)
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
         if name == 'docs/area/index.html':
@@ -44,6 +47,8 @@ def publish_shared_ui(root):
         text = re.sub(r'\sdata-cch-page="[^"]*"', '', text)
         text = re.sub(r'<html\b', '<html data-cch-page="'+page+'"', text, count=1)
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
+        text = text.replace('href="/crystal-clean-home/qa/"', 'href="/crystal-clean-home/#cch-faq"')
+        text = re.sub(r'(brand/header/style.css)\?v=[^"\s]+', r'\1?v=nav-five1', text)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
         text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
         text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=cart-badge4', text)
@@ -54,6 +59,7 @@ def publish_shared_ui(root):
         changed = [name for name in pool.map(publish, files) if name]
     from device_ui import publish_device_ui
     publish_device_ui(root)
+    (root / 'docs/qa/index.html').unlink(missing_ok=True)
     return changed
 
 

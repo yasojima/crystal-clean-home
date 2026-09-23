@@ -1,21 +1,15 @@
-#cch-prevention{background:#fff;padding:56px 20px 72px;font-family:"Yu Gothic",YuGothic,sans-serif;scroll-margin-top:160px}#cch-prevention *{box-sizing:border-box}#cch-prevention .l-section-inner{max-width:750px;margin:auto}
-#cch-prevention .about-link{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;max-width:750px;min-height:98px;margin:56px auto 0;padding:16px 48px;background:#fff;border-radius:0 0 32px 0;box-shadow:0 4px 12px #075b9126;text-decoration:none;color:#075b91}
-#cch-prevention .about-link__note{font-size:14px;font-weight:700;color:#344650}
-#cch-prevention .about-link__main{display:flex;align-items:center;justify-content:center;gap:16px;font-size:22px;font-weight:700}
-#cch-prevention .about-link__logo{width:170px;height:65px;object-fit:contain}
-#cch-prevention .about-link__arrow{position:absolute;right:24px;top:50%;transform:translateY(-50%);width:21px;height:21px;border-radius:50%;background:#075b91;color:white;text-align:center;font:18px/21px sans-serif}
-#cch-prevention .about-link:focus-visible{outline:3px solid #075b91;outline-offset:4px}
-#cch-prevention .about-link:hover{opacity:.8}
-#cch-prevention .reasons-banner{padding:0 20px 64px}
-@media(max-width:767.98px){#cch-prevention .about-link{padding:24px 35px 24px 20px;margin-top:32px}#cch-prevention .about-link__main{flex-direction:column;gap:8px;font-size:17px;text-align:center}#cch-prevention .about-link__note{font-size:12px}#cch-prevention .about-link__arrow{right:12px}#cch-prevention .p-reasons__heading{font-size:24px}}
-
-#cch-prevention .about-link{margin:0 auto;letter-spacing:normal}
-#cch-prevention .about-link__main{width:494px;max-width:100%;justify-content:flex-start}
-#cch-prevention .about-link__logo{display:block;margin:0;flex-shrink:0}
-@media(max-width:767.98px){#cch-prevention{padding:32px 20px 40px}#cch-prevention .about-link{margin:0 auto}}
-
-#cch-prevention .about-link{box-shadow:0 0 0 1px #bfd3df,0 6px 16px rgba(23,62,88,.18)}
-
-#cch-prevention .about-link{height:124px}
-#cch-prevention .about-link__note{position:absolute;top:8px;left:20px;right:20px;text-align:center}
-@media(max-width:767.98px){#cch-prevention .about-link{height:170.5px}}
+#cch-faq{background:#fff;padding:64px 20px 72px;color:#173e58;scroll-margin-top:24px}
+#cch-faq *{box-sizing:border-box}
+#cch-faq .cch-faq-inner{max-width:1200px;margin:0 auto}
+#cch-faq h2{margin:0 0 32px;text-align:center;font-size:28px;color:#075b91}
+#cch-faq details{margin:0 0 8px;border:1px solid #075b91;border-radius:3px;overflow:hidden}
+#cch-faq summary{position:relative;display:flex;gap:8px;align-items:baseline;padding:18px 56px 18px 28px;background:#075b91;color:#fff;cursor:pointer;list-style:none;font-size:17px;font-weight:700;line-height:1.65}
+#cch-faq summary::-webkit-details-marker{display:none}
+#cch-faq .cch-faq-number{flex-shrink:0}
+#cch-faq summary::after{content:"";position:absolute;right:24px;top:calc(50% - 7px);width:12px;height:12px;border-right:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(45deg)}
+#cch-faq details[open] summary::after{transform:rotate(225deg);top:calc(50% - 3px)}
+#cch-faq summary:focus-visible{outline:3px solid #fff;outline-offset:-5px}
+#cch-faq summary:hover{background:#064c79}
+#cch-faq .cch-faq-answer{display:flex;gap:10px;padding:24px 28px;background:#fff;line-height:2;font-size:16px}
+#cch-faq .cch-faq-answer::before{content:"A.";font-weight:700;color:#075b91;flex-shrink:0}
+@media(max-width:767.98px){#cch-faq{padding:40px 16px 48px}#cch-faq h2{font-size:24px;margin-bottom:24px}#cch-faq summary{font-size:15px;padding:16px 42px 16px 16px}#cch-faq summary::after{right:18px;width:10px;height:10px}#cch-faq .cch-faq-answer{padding:18px 16px;font-size:15px}}
