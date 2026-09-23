@@ -7,16 +7,22 @@ from bs4 import BeautifulSoup
 from card_copy import apply_card_copy, eligible
 
 ROOT = Path(__file__).resolve().parent
+def structure(main):
+    # Category display labels may lose their obsolete br/span wrappers.
+    return [(e.name, dict(e.attrs)) for e in main.find_all()
+            if not (e.find_parent(class_="c-category-simple-card__text")
+                    and e.find_parent(class_="c-category-simple-card").select_one(".c-illust--pack"))]
+
 changes, untouched, pages = {}, {}, 0
 for filename in subprocess.check_output(['rg', '--files', 'source/osouji/pages', '-g', '*.html'], cwd=ROOT, text=True).splitlines():
     soup = BeautifulSoup((ROOT / filename).read_bytes(), 'lxml')
     main = soup.select_one('main')
-    before = [(e.name, dict(e.attrs)) for e in main.find_all()]
+    before = structure(main)
     numbers = re.findall(r'\d+(?:[,.]\d+)*', main.get_text())
     voices = [str(e) for e in main.select('[class*="voice-card"],[class*="voice-service-card"],[class*="doctor-recommendation"]')]
     delta = apply_card_copy(main)
     assert not apply_card_copy(main), 'Copy replacements must be idempotent: ' + filename
-    assert before == [(e.name, dict(e.attrs)) for e in main.find_all()], filename
+    assert before == structure(main), filename
     assert numbers == re.findall(r'\d+(?:[,.]\d+)*', main.get_text()), filename
     assert voices == [str(e) for e in main.select('[class*="voice-card"],[class*="voice-service-card"],[class*="doctor-recommendation"]')], filename
     if delta:

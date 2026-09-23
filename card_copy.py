@@ -35,6 +35,12 @@ def rewrite(text):
 
 def apply_card_copy(main):
     changes = []
+    for icon in main.select(".c-category-simple-card .c-illust--pack"):
+        card = icon.find_parent(class_="c-category-simple-card")
+        heading = card.select_one(".c-category-simple-card__text")
+        if heading is not None and ("パックサービス" in heading.get_text() or heading.get_text(strip=True) == "まるごとクリーニング"):
+            heading.clear()
+            heading.append("まるごとクリーニング")
     for text in list(main.descendants):
         if not isinstance(text, NavigableString) or isinstance(text, Comment):
             continue

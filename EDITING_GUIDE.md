@@ -51,3 +51,5 @@ reference-report.json、copy-change-log.json等は生成・照合データで、
 - 検証：python test_card_copy.py（元HTMLの構造/属性/数値/お客様の声/再適用時の不変性）、python audit_shared_ui.py（共有CSS・接続・カード文言の棚卸し）。生成レポートはcard-copy-review.jsonとcard-copy-inventory.json。
 
 - 共通カテゴリーカード形状・帯・ラベル・hover：brand/header/category-cards.css。参考元デザインへ復元済み。比較用nth-child例外は再追加しない。
+
+- 水色セクション背景：brand/header/backgrounds.css と crystal-background.webp（元PNGも同じディレクトリ）。法人向けサービス .sec_corp は対象外。共通カテゴリー名は card_copy.py で「まるごとクリーニング」に揃える。
