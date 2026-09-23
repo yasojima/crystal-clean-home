@@ -30,8 +30,8 @@ body .ac-howto .ac-howto-contents:not(.sec_corp),
 body .empty-cart:not(.sec_corp),
 body footer:not([class]),
 body .footer-inner:not(.sec_corp) {
-  background-color:#f6fbfe!important;
-  background-image:linear-gradient(rgba(255,255,255,.4),rgba(255,255,255,.4)),url("crystal-background.webp")!important;
+  background-color:#fff4e6!important;
+  background-image:none!important;
   background-position:center!important;
   background-size:100% 100%!important;
   background-repeat:no-repeat!important;
