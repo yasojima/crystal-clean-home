@@ -15,3 +15,7 @@
 @media(max-width:767.98px){#cch-prevention{padding:32px 20px 40px}#cch-prevention .about-link{margin:0 auto}}
 
 #cch-prevention .about-link{box-shadow:0 0 0 1px #bfd3df,0 6px 16px rgba(23,62,88,.18)}
+
+#cch-prevention .about-link{height:124px}
+#cch-prevention .about-link__note{position:absolute;top:8px;left:20px;right:20px;text-align:center}
+@media(max-width:767.98px){#cch-prevention .about-link{height:170.5px}}
