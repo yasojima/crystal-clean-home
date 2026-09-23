@@ -16,3 +16,5 @@ body:has(#cch-hero) footer .cont_correspondence-area.regular-cleaning_ac h2::aft
 body:has(#cch-hero) footer .copyright{background:var(--cch-surface-emphasis);border-top:1px solid rgba(255,255,255,.25);color:#fff}
 
 body:has(#cch-hero) .sec_corp .flex .txt h2{background-image:linear-gradient(rgba(6,64,140,.8),rgba(6,64,140,.8)),url("../section-illustrations-v1/brand-script.svg");background-size:100% 100%,95% auto;background-position:center;background-repeat:no-repeat}
+
+body:has(#cch-hero) #cch-reasons > .l-section::before{top:-15px}

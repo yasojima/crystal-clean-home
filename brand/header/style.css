@@ -1,5 +1,5 @@
 @import url("../section-illustrations-v1/style.css?v=map2");
-@import url("backgrounds.css?v=20260923-surfaces1");
+@import url("backgrounds.css?v=20260923-cards2");
 @import url("category-cards.css?v=20260923-cta3");
 @import url("typography.css?v=20260923-2");
 #header.cch-header {
@@ -46,9 +46,15 @@
 #breadcrumb.cch-header-band {font-size:.8rem;padding:.5em 0;pointer-events:none}
 #breadcrumb.cch-header-band::before {content:"";display:block;height:1.5em}
 
-#header.cch-header .cch-payments{display:flex;align-items:center;justify-content:center;gap:10px;flex:0 0 auto;line-height:1}
-#header.cch-header .cch-payments img{display:block;width:auto;height:28px;max-width:47px;object-fit:contain}
+#header.cch-header .cch-payments{display:flex;align-items:center;justify-content:center;gap:4px;flex:0 0 auto;line-height:1;margin:0 24px 0 16px}
+#header.cch-header .cch-payments img{display:block;width:72px;height:48px;object-fit:contain}
 body footer .f_menu + .cont_correspondence-area{margin-top:1.5rem}
-@media(max-width:992px){#header.cch-header .h_top{position:relative}#header.cch-header .cch-payments{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);gap:8px}#header.cch-header .cch-payments img{height:22px;max-width:38px}}
+@media(max-width:992px){
+ #header.cch-header .h_top{position:relative}
+ #header.cch-header .h_top .logo{width:90px!important;margin:0;text-align:left}
+ #header.cch-header .h_top .logo img{margin:0}
+ #header.cch-header .cch-payments{position:absolute;right:52px;top:50%;transform:translateY(-50%);gap:0;margin:0}
+ #header.cch-header .cch-payments img{width:54px;height:36px}
+}
 
-@media(max-width:992px){#header.cch-header .h_top .logo{width:90px!important;margin:0;text-align:left}#header.cch-header .h_top .logo img{margin:0}#header.cch-header .cch-payments{left:60%}}
+#header.cch-header #navArea .menu>ul>li.service>.dropdown_menu{background:#fff1df}
