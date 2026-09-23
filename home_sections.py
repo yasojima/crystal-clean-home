@@ -11,7 +11,7 @@ from copywriting import text_id
 def homepage_questions(root):
     source = BeautifulSoup((root / 'source/qa/index.html').read_text(encoding='utf-8'), 'html.parser')
     copy = json.loads((root / 'copy/ja.json').read_text(encoding='utf-8'))
-    section = BeautifulSoup('<section id="cch-faq" aria-labelledby="cch-faq-heading"><div class="cch-faq-inner"><h2 id="cch-faq-heading">ご利用前のご質問</h2><div class="cch-faq-list"></div></div></section>', 'html.parser')
+    section = BeautifulSoup('<section id="cch-faq" aria-labelledby="cch-faq-heading"><div class="cch-faq-inner"><h2 id="cch-faq-heading">よくあるご質問</h2><div class="cch-faq-list"></div></div></section>', 'html.parser')
     for number, item in enumerate(source.select('.sec_qa .area_qa-list dl'), 1):
         details = section.new_tag('details')
         summary = section.new_tag('summary')
