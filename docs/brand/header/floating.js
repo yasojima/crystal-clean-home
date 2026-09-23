@@ -1,4 +1,4 @@
-(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-badge4';document.head.append(l)})();
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-above-bar1';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');
@@ -85,6 +85,7 @@
   document.addEventListener('cch-menu-change',event=>{bar.inert=event.detail.open;bar.setAttribute('aria-hidden',String(event.detail.open));if(event.detail.open){clearTimeout(timer);closeCartPopup()}else positionBar(false)});
   function positionBar(scrolling) {
     const h = wrap.getBoundingClientRect().height;
+    document.documentElement.style.setProperty('--cch-bottom-bar-height', Math.ceil(h) + 'px');
     bar.style.height = h + 'px';
     const top = bar.getBoundingClientRect().top + window.scrollY;
     clearTimeout(timer);
@@ -103,6 +104,9 @@
     e.preventDefault(); window.scrollTo({top:0, behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'instant':'smooth'});
   });
   positionBar(false);
+  if (window.ResizeObserver) new ResizeObserver(() => {
+    document.documentElement.style.setProperty('--cch-bottom-bar-height', Math.ceil(wrap.getBoundingClientRect().height) + 'px');
+  }).observe(wrap);
   setTimeout(() => { wrap.style.transform = 'translateY(0)'; }, deviceUI().barReturnDelay??500);
 })();
 
