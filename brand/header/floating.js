@@ -1,4 +1,4 @@
-(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=cart-red1';document.head.append(l)})();
+(()=>{const l=document.createElement('link');l.rel='stylesheet';l.href='/crystal-clean-home/brand/header/bottom-bar.css?v=bar-solid-links1';document.head.append(l)})();
 (() => {
   'use strict';
   const header = document.querySelector('#header.cch-header');
@@ -21,9 +21,9 @@
     if(panel){
       const group=document.createElement('div');group.className='cch-os-menu-accordion js-accordion';group.dataset.simpleType='true';
       group.innerHTML='<p class="cch-os-menu-accordion__heading"><a class="cch-os-menu-accordion__link" href="'+base+'services/">'+trigger.textContent.trim()+'</a><button class="cch-os-menu-accordion__trigger js-accordion-trigger" aria-label="サービスと料金の詳細を開閉" aria-controls="cch-menu-services" aria-expanded="false" type="button"></button></p><ul class="cch-os-menu-accordion__content cch-os-menu-accordion-content" id="cch-menu-services"></ul>';
-      panel.querySelectorAll('a[href]').forEach(source=>{const li=document.createElement('li');li.className='cch-os-menu-accordion-content__item';const link=document.createElement('a');link.className='cch-os-site-menu-link';link.href=source.href;link.textContent=source.textContent.trim();li.append(link);group.querySelector('ul').append(li);});
+      panel.querySelectorAll('a[href]').forEach(source=>{const li=document.createElement('li');li.className='cch-os-menu-accordion-content__item';const link=document.createElement('a');link.className='cch-os-site-menu-link';link.setAttribute('href',source.getAttribute('href'));link.textContent=source.textContent.trim();li.append(link);group.querySelector('ul').append(li);});
       const list=document.createElement('ul');list.className='cch-os-house-cleaning-menu';const li=document.createElement('li');li.className='cch-os-house-cleaning-menu__item';li.append(group);list.append(li);nav.append(list);
-    }else{const ul=document.createElement('ul');ul.className=index===0?'cch-os-site-menu__bold-links cch-os-bold-links cch-os-bold-links--services':'';const li=document.createElement('li');li.className='cch-os-bold-links__item';const a=document.createElement('a');a.className=index===0?'cch-os-bold-links__link':'cch-os-site-menu-link';a.href=trigger.href;a.textContent=trigger.textContent.trim();li.append(a);ul.append(li);nav.append(ul);}
+    }else{const ul=document.createElement('ul');ul.className=index===0?'cch-os-site-menu__bold-links cch-os-bold-links cch-os-bold-links--services':'';const li=document.createElement('li');li.className='cch-os-bold-links__item';const a=document.createElement('a');a.className=index===0?'cch-os-bold-links__link':'cch-os-site-menu-link';a.setAttribute('href',trigger.getAttribute('href'));a.textContent=trigger.textContent.trim();li.append(a);ul.append(li);nav.append(ul);}
   });
   const links=document.createElement('div');links.className='cch-menu-links';links.append(...nav.children);nav.append(links);
   links.querySelectorAll(':scope>ul>li>a,.cch-os-menu-accordion__link').forEach(link=>{const label=document.createElement('span');label.className='cch-menu-label';label.textContent=link.textContent;link.replaceChildren(label)});
