@@ -12,6 +12,9 @@ def prepare_demo(markup, path):
         return markup
     doc = html.document_fromstring(markup)
     head = doc.find('head')
+    if path.startswith('contact/'):
+        for n in doc.xpath('//script[contains(@src,"mw-wp-form/js/")]'):
+            n.drop_tree()
     for n in doc.xpath('//script[contains(@src,"contact-guard.js") or contains(@src,"ajaxzip3")]'):
         n.drop_tree()
     for n in doc.xpath('//script[not(@src)]'):

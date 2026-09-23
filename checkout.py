@@ -27,6 +27,10 @@ def publish_checkout(root,header,data):
             rid=inp.get('value','');parent=el.select_one('input[name=parent-id]')
             el['data-checkout-add']='ref-'+rid.replace('_','~')
     form=estimate.select_one('main form');form['id']='cch-estimate-form'
+    for selector in ['#js-store-search-pulldown', 'input[name="coupon-code"]']:
+        field=form.select_one(selector)
+        if field:field.find_parent(class_='form-fieldset__group').decompose()
+    for el in form.select('.yahoo-developer'):el.decompose()
     for inp in form.select('input,select'):
         name=inp.get('name','')
         if name in ['last-name','first-name','last-name_kana','first-name_kana','email','tel_01','tel_02','tel_03','postal-code_01','postal-code_02','address_01','address_02','address_03','privacy-policy']:inp['required']=''

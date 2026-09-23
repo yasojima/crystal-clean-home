@@ -254,3 +254,6 @@ html[data-cch-page="inner"] .cch-side-rail{top:8px}
 #cch-shared-footer .cont_correspondence-area.regular-cleaning_ac h2:hover i{color:#fff}
 
 .page_container.cch-single-column>.main_contents{width:100%;min-width:0}
+
+.main_contents h2.cch-contact-heading{padding-left:0;background:none}
+.main_contents h2.cch-contact-heading::before,.main_contents h2.cch-contact-heading::after{content:none;display:none}

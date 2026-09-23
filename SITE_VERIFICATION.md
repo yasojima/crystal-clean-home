@@ -85,3 +85,5 @@ main/docsをGitHub Pagesへ公開。8ae99aebのPages実行35825051262が成功�
 - 2026-09-24 ROOM-FAQ-LINK: FAQ追加リンクがDOM0件。商品カード・FAQ5件のHTMLが変更前と一致。
 
 - 2026-09-24 COATING-OTHERS-CORPORATION-AREA: コーティング指定2範囲、その他の追加リンク2個、法人サイドメニュー、地域地図をDOM除去確認。商品カード9件/7件とその他FAQ3件はHTML一致。法人1カラム表示を非表示IABで目視確認。
+
+- 2026-09-24 見積り・お問い合わせ: 見積り取込HTMLと読込JSに受信先メール埋込なし（サンプル入力値のみ）。旧action/旧JS参照除去、公開CSP送信禁止、店舗・クーポン・Yahoo DOM除去を確認。test-checkout.cjs PASS。お問い合わせaside除去と1カラムクラス確認。

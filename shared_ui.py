@@ -26,7 +26,7 @@ def publish_shared_ui(root):
         if 'cch-header' not in text:
             return None
         old = text
-        if name in {'docs/reason/index.html', 'docs/first/index.html', 'docs/qa/index.html', 'docs/area/index.html', 'docs/service/corporation/index.html'}:
+        if name in {'docs/reason/index.html', 'docs/first/index.html', 'docs/qa/index.html', 'docs/area/index.html', 'docs/service/corporation/index.html', 'docs/contact/index.html'}:
             text = re.sub(r'<aside\b[^>]*class="side"[^>]*>.*?</aside>', '', text, flags=re.S)
             text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-single-column\b)',
                           r'\1 cch-single-column', text, count=1)
@@ -34,6 +34,13 @@ def publish_shared_ui(root):
         text = re.sub(r'<li class="faq"><a[^>]*>.*?</a></li>', '', text)
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
+        if name == 'docs/contact/index.html':
+            text = re.sub(r'<script\b[^>]*src=["\'][^"\']*mw-wp-form/js/[^"\']*["\'][^>]*>\s*</script>', '', text, flags=re.S)
+            text = re.sub(r'<tr\b[^>]*>.*?</tr>', lambda m: '' if any(label in m[0] for label in ['エアコンの型番・型式', '第三希望']) else m[0], text, flags=re.S)
+            text = text.replace('ご依頼内容', 'お問い合わせ項目')
+            text = text.replace('<p>ご予約は余裕をもってお申し込みください。日程が近い場合は、お電話やメールで調整のご相談をすることがあります。</p>', '')
+            text = text.replace('お見積もり・ご相談フォーム', 'お問い合わせ窓口').replace('お見積もり・ご相談', 'お問い合わせ窓口')
+            text = text.replace('<h2>お問い合わせ窓口</h2>', '<h2 class="cch-contact-heading">お問い合わせ窓口</h2>')
         if name == 'docs/area/index.html':
             # Approved removal: the legacy regional map, including its lazy-load fallback.
             text = re.sub(r'<div>\s*<img\b[^>]*data-src="[^"]*/area001\.svg"[^>]*>\s*<noscript>.*?</noscript>\s*</div>', '', text, flags=re.S)
