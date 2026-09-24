@@ -10,6 +10,7 @@
 |端末別の採用画像|各端末のimages.json|
 |端末別のUI寸法・復帰待ち|各端末のui.json|
 |店舗情報・ロゴ|brand/site.json、brand/crystal-clean-home.png|
+|ホーム・共通メニューの8カテゴリ画像|brand/category-illustrations-v2/、source/device/{desktop,mobile}/css/brand/header/category-cards.css|
 |ホーム部品の文章・構造|brand各部品のtemplate.html|
 |共通ヘッダー内容|brand/header/template.html|
 |共通フッター内容|brand/shared-ui/footer.html|

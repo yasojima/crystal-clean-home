@@ -57,7 +57,7 @@ def publish_shared_ui(root):
         text = re.sub(r'<html\b', '<html data-cch-page="'+page+'"', text, count=1)
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
         text = text.replace('href="/crystal-clean-home/qa/"', 'href="/crystal-clean-home/#cch-faq"')
-        text = re.sub(r'(brand/header/style.css)\?v=[^"\s]+', r'\1?v=nav-five1', text)
+        text = re.sub(r'(brand/header/style.css)\?v=[^"\s]+', r'\1?v=home-category-v2', text)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
         text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
         text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=single-product-cart1', text)
