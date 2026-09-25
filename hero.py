@@ -26,5 +26,6 @@ def publish_hero(root):
     tags += '<script defer src="/crystal-clean-home/brand/hero/script.js?v=center3" data-home-hero="script"></script>\n'
     text = text.replace('</head>', tags + '</head>', 1)
     target.write_text(text, encoding='utf-8')
-    shutil.copytree(component, root / 'docs/brand/hero', dirs_exist_ok=True)
+    shutil.copytree(component, root / 'docs/brand/hero', dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns('video.json'))
     return 1

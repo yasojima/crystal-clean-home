@@ -6970,6 +6970,45 @@
         }
       ],
       "detail": "/crystal-clean-home/house-cleaning/water/"
+    },
+    {
+      "id": "ref-card-outerwall-base",
+      "category": "reference",
+      "name": "外壁手洗い洗浄",
+      "description": "外壁の汚れを確認しながら、専用の器材を使って手洗いで丁寧に洗浄します。",
+      "images": [
+        "/crystal-clean-home/reference/product-pages/assets/others/hero-exterior.png"
+      ],
+      "variants": [
+        {
+          "id": "ref-outerwall-base",
+          "name": "外壁1面（40㎡以下）",
+          "price": 44000,
+          "unit": "面",
+          "max": 30
+        }
+      ],
+      "detail": null
+    },
+    {
+      "id": "ref-card-outerwall-extra-sqm",
+      "category": "reference",
+      "name": "外壁手洗い洗浄 追加1㎡（40㎡超の部分）",
+      "description": "外壁1面が40㎡を超える場合の追加面積です。",
+      "images": [
+        "/crystal-clean-home/reference/product-pages/assets/others/hero-exterior.png"
+      ],
+      "variants": [
+        {
+          "id": "ref-outerwall-extra-sqm",
+          "name": "追加1㎡",
+          "price": 990,
+          "unit": "㎡",
+          "max": 30,
+          "requires": "ref-outerwall-base"
+        }
+      ],
+      "detail": null
     }
   ]
 }

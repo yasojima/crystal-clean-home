@@ -28,6 +28,25 @@ def scope_css(css,scope):
     return '\n'.join(out)
 def replace_brand(text):
     return text.replace('おそうじ本舗','クリスタルクリーンホーム').replace('お掃除本舗','クリスタルクリーンホーム')
+def remove_source_site_links(main):
+    for link in list(main.select('a[href]')):
+        host=urlsplit(link.get('href','')).netloc.lower()
+        if host not in ('osoujihonpo.com','www.osoujihonpo.com','form.osoujihonpo.com'):
+            continue
+        if link.find_parent('li', class_='c-service-modal-notes__item') or link.find_parent('ul', class_='c-service-modal-notes__list'):
+            item=link.find_parent('li')
+            if item:item.decompose()
+        elif article:=link.find_parent(class_='c-article-link'):
+            article.decompose()
+        elif 'c-banner' in link.get('class',[]):
+            area=link.find_parent(class_='c-campaign-area')
+            if area:area.decompose()
+            else:link.decompose()
+        elif 'c-button' in link.get('class',[]):
+            link['href']=BASE+'contact/'
+            link['class']=[name for name in link.get('class',[]) if name!='js-add-cart']
+        else:
+            link.unwrap()
 def local_url(u,path):
     z=urlsplit(urljoin(ORIGIN+path,u))
     if z.netloc not in ['www.osoujihonpo.com','osoujihonpo.com']:return u
@@ -214,11 +233,11 @@ def publish_reference(root=ROOT):
                 if tag.get(attr) and not tag[attr].startswith(('#','data:','mailto:','tel:','javascript:')):tag[attr]=local_url(tag[attr],path)
             if tag.get('srcset'):tag['srcset']=', '.join(' '.join([local_url(part.strip().split()[0],path)]+part.strip().split()[1:]) for part in tag['srcset'].split(',') if part.strip())
         for tag in main.select('[style]'):tag['style']=re.sub(r'url\([\'\"]?([^\)\'\"]+)[\'\"]?\)',lambda m:'url('+local_url(m[1],path)+')',tag['style'])
+        remove_source_site_links(main)
         crumb=soup.select_one('.c-breadcrumbs');crumb=str(crumb) if crumb else ''
         crumb=re.sub(r'href="([^"]+)"',lambda m:'href="'+local_url(m[1],path)+'"',crumb)
         styles=''.join('<link rel="stylesheet" href="'+local_url(l['href'],path)+'">' for l in soup.select('link[rel=stylesheet]') if l.get('href','').startswith('/assets/'))
-        original_header=soup.select_one('header');hidden='<div hidden>'+str(original_header)+'</div>' if original_header else ''
-        html=(root/'brand/reference/shell.html').read_text(encoding='utf-8').replace('{{TITLE}}',replace_brand(soup.title.text if soup.title else '清掃メニュー')).replace('{{HEADER}}',header).replace('{{STYLES}}',styles).replace('{{CONTENT}}',replace_brand(crumb+str(main))).replace('{{HIDDEN_HEADER}}',hidden)
+        html=(root/'brand/reference/shell.html').read_text(encoding='utf-8').replace('{{TITLE}}',replace_brand(soup.title.text if soup.title else '清掃メニュー')).replace('{{HEADER}}',header).replace('{{STYLES}}',styles).replace('{{CONTENT}}',replace_brand(crumb+str(main)))
         page_outputs.append((path,html))
     catalog=json.loads((root/'brand/shop/catalog.json').read_text(encoding='utf-8'));catalog['products']+=list(products.values())
     variant_map={v['id']:v for p in catalog['products'] for v in p['variants']}
@@ -249,6 +268,9 @@ def publish_reference(root=ROOT):
         if len(ids)>1:
             components=['ref-'+ids[0]]+['ref-'+ids[0]+'~'+n for n in ids[1:]]
             if all(n in variant_map for n in components) and sum(variant_map[n]['price'] or 0 for n in components)==v['price']:v['components']=components
+    from product_wireframe import add_outerwall_products
+    from integrated_product_pages import PUBLIC_ASSET_BASE
+    add_outerwall_products(catalog, PUBLIC_ASSET_BASE)
     (out/'catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2),encoding='utf-8')
     (out/'catalog.js').write_text('window.CCHReferenceCatalog='+json.dumps(catalog,ensure_ascii=False)+';',encoding='utf-8')
     data=json.dumps(catalog,ensure_ascii=False).replace('</','<\\/')
@@ -257,7 +279,10 @@ def publish_reference(root=ROOT):
         if path=='/house-cleaning/pack/':(root/'docs/services/index.html').write_text(html,encoding='utf-8')
     from checkout import publish_checkout
     publish_checkout(root,header,data)
-    shutil.copytree(root/'brand/reference',out,dirs_exist_ok=True)
+    from integrated_product_pages import publish_integrated_product_pages
+    publish_integrated_product_pages(root,catalog)
+    shutil.copytree(root/'brand/reference',out,dirs_exist_ok=True,
+                    ignore=shutil.ignore_patterns('card-copy.json', 'README.md', 'shell.html'))
     (root/'reference-report.json').write_text(json.dumps({'pages':counts,'products':len(products),'variants':sum(len(p['variants']) for p in products.values())},ensure_ascii=False,indent=2),encoding='utf-8')
     from shared_ui import publish_shared_ui
     publish_shared_ui(root)

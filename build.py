@@ -13,6 +13,7 @@ from hero import publish_hero
 from home_sections import publish_home_sections
 from shop import publish_shop
 from reference import publish_reference
+from io_retry import write_text
 
 ROOT = Path(__file__).resolve().parent
 SOURCE = ROOT / 'source'
@@ -137,6 +138,9 @@ if '--tabs-only' in sys.argv:
 OUT.mkdir(exist_ok=True)
 stats = {'pages': 0, 'resources': 0, 'forms': 0, 'referenceErrors': manifest['errors']}
 for f in ([] if '--assets-only' in sys.argv else files):
+    if f.get('html') and f['path'].startswith('vendor/maps.google.co.jp/maps/'):
+        # Captured map responses are not linked by the current pages.
+        continue
     src = SOURCE / f['path']
     dest = OUT / published_path(f)
     dest.parent.mkdir(parents=True, exist_ok=True)
@@ -176,7 +180,7 @@ for f in ([] if '--assets-only' in sys.argv else files):
         if soup.head:
             script = soup.new_tag('script', src=BASE + 'brand/contact-guard.js', defer=True)
             soup.head.append(script)
-        dest.write_text(tab_identity(str(soup)), encoding='utf-8')
+        write_text(dest, tab_identity(str(soup)))
         stats['pages'] += 1
     elif 'css' in f['type'] or src.suffix == '.css':
         dest.write_text(css_urls(layout_source(ROOT, f['path']), f['url']), encoding='utf-8')
@@ -188,7 +192,24 @@ for f in ([] if '--assets-only' in sys.argv else files):
         shutil.copy2(src, dest)
         stats['resources'] += 1
 
-shutil.copytree(ROOT / 'brand', OUT / 'brand', dirs_exist_ok=True)
+def private_brand_files(directory, names):
+    local = Path(directory).resolve().relative_to((ROOT / 'brand').resolve()).as_posix()
+    private = {'README.md'} & set(names)
+    if local == '.':
+        private |= {'site.json', 'theme.json'} & set(names)
+    elif local == 'reference':
+        private |= {'card-copy.json', 'shell.html'} & set(names)
+    elif local == 'header':
+        private |= {'pages.json', 'BACKGROUND.md'} & set(names)
+    elif local == 'shop':
+        private |= {'catalog.json'} & set(names)
+    elif local == 'hero':
+        private |= {'video.json'} & set(names)
+    elif local == 'section-illustrations-v1':
+        private |= {name for name in names if name.endswith('-prompt.txt') or name.endswith('-prompts.json')}
+    return private
+
+shutil.copytree(ROOT / 'brand', OUT / 'brand', dirs_exist_ok=True, ignore=private_brand_files)
 (OUT / 'brand/contact-guard.js').write_text('''document.addEventListener('submit', function(event) {
   if (event.target.matches('[data-contact-unconfigured]')) {
     event.preventDefault();

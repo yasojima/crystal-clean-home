@@ -2,6 +2,7 @@
 from pathlib import Path
 from lxml import html
 import hashlib, json, re
+from io_retry import write_text
 
 ROOT = Path(__file__).resolve().parent
 
@@ -43,6 +44,6 @@ def publish_copy(root):
                 if node.get(attr):
                     node.set(attr, rewrite(node.get(attr)))
         if page_changes:
-            dest.write_text('<!DOCTYPE html>\n'+html.tostring(doc, encoding='unicode', method='html'), encoding='utf-8')
+            write_text(dest, '<!DOCTYPE html>\n'+html.tostring(doc, encoding='unicode', method='html'))
             changes.append({'path':path, 'changes':page_changes})
     return changes

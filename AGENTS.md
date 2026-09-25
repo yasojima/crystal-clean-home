@@ -1,6 +1,6 @@
 # Crystal Clean Home — エージェント入口
 
-更新：2026-09-23。作業正本：C:/Users/yasoj/codex Projects/Crystal Clean Home。
+更新：2026-09-26。作業正本：C:/Users/yasoj/codex Projects/Crystal Clean Home。
 親のAGENTS.mdとSOURCE_AND_HISTORY_POLICY.mdを適用する。
 
 1. PROJECT_MANIFEST.md → 要件定義書 → EDITING_GUIDE.md → SITE_VERIFICATION.mdの順で現在地を確認する。
@@ -15,3 +15,4 @@
 10. 事業情報・実受付先は未確定。移植ページの外部情報リンクと、禁止している予約送信を区別する（DEMO_MODE.md）。
 
 11. 現行の見た目はsource/device/{desktop,mobile}を編集する。brandのCSSは生成用入口。単独publisher実行後はshared_ui.pyを実行する。
+12. 商品8カテゴリの本編はreference.pyがproduct_wireframe.pyとintegrated_product_pages.pyから生成する。取得元の複製HTMLとsource/product-wireframeの文章・画像は生成正本として保持し、docs/_product-wireframeの独立ラフは使用しない。口コミは掲載用サンプルと明示する。

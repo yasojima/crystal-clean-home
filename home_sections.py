@@ -34,6 +34,8 @@ def publish_home_sections(root):
     target = root / 'docs/index.html'
     text = target.read_text(encoding='utf-8')
     for name, old in [('estimate-cta', 'sec_corona'), ('service-cards', 'sec_service'), ('reasons', 'unused_reasons'), ('prevention', 'unused_prevention'), ('service-directory', 'unused_directory')]:
+        if name in ('estimate-cta', 'service-cards') and f'<!-- cch-{name}' not in text:
+            text = text.replace('<section class="sec_corp">', f'<!-- cch-{name} -->\n<section class="sec_corp">', 1)
         if name == 'reasons' and '<!-- cch-reasons' not in text:
             text = text.replace('<section class="sec_area">', '<!-- cch-reasons -->\n<section class="sec_area">', 1)
         if name in ('prevention', 'service-directory') and f'<!-- cch-{name}' not in text:
@@ -53,7 +55,8 @@ def publish_home_sections(root):
         style_source = ''.join((root / 'source/device' / device / 'css/brand' / name / 'style.css').read_text(encoding='utf-8') for device in ('desktop', 'mobile'))
         version = hashlib.sha256(style_source.encode()).hexdigest()[:12]
         text = text.replace('</head>', f'<link rel="stylesheet" href="/crystal-clean-home/brand/{name}/style.css?v={version}" data-home-component="{name}">\n</head>')
-        shutil.copytree(component, root / 'docs/brand' / name, dirs_exist_ok=True)
+        shutil.copytree(component, root / 'docs/brand' / name, dirs_exist_ok=True,
+                        ignore=shutil.ignore_patterns('README.md'))
     text = re.sub(r'<link[^>]*data-home-font="true"[^>]*>\s*', '', text)
     for cls in ['sec_info', 'sec_point']:
         text = re.sub(rf'<section class="{cls}">.*?</section>\s*', '', text, flags=re.S)

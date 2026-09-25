@@ -100,15 +100,17 @@ def prepare_demo(markup, path):
 
 def publish_demo(root):
     import json
-    from concurrent.futures import ThreadPoolExecutor
+    from io_retry import write_text
     manifest = json.loads((root/'capture.json').read_text(encoding='utf-8'))
     paths = sorted({Path(f['path']).as_posix() for f in manifest['files'] if f.get('html') and not f['path'].startswith('vendor/')})
     def update_page(path):
         dest = root/'docs'/path
-        dest.write_text(prepare_demo(dest.read_text(encoding='utf-8'), path), encoding='utf-8')
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        list(pool.map(update_page, paths))
-    return len(paths)
+        # A publisher may intentionally remove a captured page (for example /qa/).
+        if not dest.is_file():
+            return False
+        write_text(dest, prepare_demo(dest.read_text(encoding='utf-8'), path))
+        return True
+    return sum(update_page(path) for path in paths)
 
 if __name__ == '__main__':
     print(publish_demo(Path(__file__).resolve().parent))

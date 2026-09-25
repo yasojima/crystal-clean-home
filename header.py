@@ -1,7 +1,7 @@
 """Publish one shared header, with optional per-page extension assets."""
 from pathlib import Path
-from concurrent.futures import ThreadPoolExecutor
 import html, json, re, shutil
+from io_retry import write_text
 
 def remove_footer_details(text):
     def clean(match):
@@ -44,10 +44,11 @@ def publish_header(root):
     paths = sorted({Path(f['path']).as_posix() for f in manifest['files'] if f.get('html') and not f['path'].startswith('vendor/')})
     for name in ('style.css', 'desktop.css', 'mobile.css', 'script.js', 'typography.css', 'section-triangles.svg', 'category-cards.css', 'backgrounds.css', 'crystal-background.webp', 'contact-cta.svg', 'payment-visa.svg', 'payment-mastercard.svg', 'floating.css', 'floating.js', 'bottom-bar.css', 'site-menu.css', 'k-icons.svg', 'cart-mark.svg'):
         shutil.copy2(component/name, output/name)
-    illustration_output = root/'docs/brand/category-illustrations-v1'
-    illustration_output.mkdir(parents=True, exist_ok=True)
-    for image in (root/'brand/category-illustrations-v1').glob('*.webp'):
-        shutil.copy2(image, illustration_output/image.name)
+    frontal_output = root/'docs/brand/category-illustrations-v2'
+    frontal_output.mkdir(parents=True, exist_ok=True)
+    for image in (root/'brand/category-illustrations-v2').iterdir():
+        if image.suffix in ('.png', '.webp'):
+            shutil.copy2(image, frontal_output/image.name)
     section_output = root/'docs/brand/section-illustrations-v1'
     section_output.mkdir(parents=True, exist_ok=True)
     for asset in (root/'brand/section-illustrations-v1').iterdir():
@@ -67,6 +68,8 @@ def publish_header(root):
         common.write_text(text, encoding='utf-8')
     def update(path):
         target = root/'docs'/path
+        if not target.is_file():
+            return
         text = target.read_text(encoding='utf-8')
         header = template.replace('{{logo_tag}}', 'h1' if path == 'index.html' else 'div')
         for key in ('nameJa', 'phone', 'hours'):
@@ -85,9 +88,9 @@ def publish_header(root):
         text = re.sub(r'(href=["\'][^"\']*/(?:style--[^/"\'?]+|mitsumori--[^/"\'?]+)\.css)(?:\?[^"\']*)?', r'\1?layout=1', text)
         text = re.sub(r'<div id="breadcrumb"[^>]*>.*?</div>', '<div id="breadcrumb" class="cch-header-band" aria-hidden="true"></div>', text, flags=re.S)
         text = re.sub(r'(src=["\'][^"\']*/js/common[^"\'?]*\.js)(?:\?[^"\']*)?', r'\1?header=1', text)
-        target.write_text(remove_legacy_floaters(remove_footer_details(text)), encoding='utf-8')
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        list(pool.map(update, paths))
+        write_text(target, remove_legacy_floaters(remove_footer_details(text)))
+    for path in paths:
+        update(path)
     from shared_ui import publish_shared_ui
     publish_shared_ui(root)
     return len(paths)

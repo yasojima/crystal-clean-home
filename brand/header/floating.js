@@ -50,17 +50,16 @@
   if (!footer || document.getElementById('cch-bottom-bar')) return;
   const bar = document.createElement('div');
   bar.id = 'cch-bottom-bar'; bar.className = 'DEVELOP778 scrolled'; bar.dataset.pattern = '1';
-  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><span data-tel><svg aria-hidden="true"><use href="/crystal-clean-home/brand/header/k-icons.svg#icon-tel"></use></svg>000-0000-0000<i class="teli" style="color:#000!important">※営業電話は業務に支障をきたす為、ご遠慮ください。</i></span><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/brand/header/cart-mark.svg?v=solid3" alt="" width="24" height="24"><span>お見積り</span><span class="cch-bottom-cart-count" aria-hidden="true" hidden></span></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
+  bar.innerHTML = '<div class="fixbtnwrap"><div class="inner"><div class="fixbtntel"><p>［受付時間］8:00〜17:00（年中無休）※年末年始を除く</p></div><div class="contents_btn01"><button type="button" class="cch-bottom-cart" aria-label="お見積り概要を表示する" aria-expanded="false" aria-controls="cch-cart-popup"><img src="/crystal-clean-home/brand/header/cart-mark.svg?v=solid3" alt="" width="24" height="24"><span>お見積り</span><span class="cch-bottom-cart-count" aria-hidden="true" hidden></span></button><a href="/crystal-clean-home/contact/"><span>お問い合わせはこちら</span></a></div><div id="cch-bottom-top" class="cch-bottom-top"><a href="#" aria-label="ページトップへ移動"></a></div></div></div>';
   footer.before(bar);
   const utilities=document.querySelector('.cch-menu-utilities');
   if(utilities){
     const social=document.createElement('div');social.className='cch-menu-social';social.setAttribute('aria-label','SNS（リンク未設定）');
     for(const [id,label] of [['x','X'],['instagram','Instagram'],['tiktok','TikTok'],['youtube','YouTube']]){const icon=document.createElement('span');icon.title=label+'（リンク未設定）';icon.innerHTML='<img src="/crystal-clean-home/brand/shared-ui/social/'+id+'.png" alt="'+label+'" width="36" height="36">';social.append(icon)}
     const details=document.createElement('div');details.className='cch-menu-contact';details.setAttribute('aria-label','連絡先・受付時間');
-    const phone=document.createElement('p');phone.className='cch-menu-phone';phone.textContent=bar.querySelector('[data-tel]').childNodes[1].textContent.trim();
     const hours=document.createElement('p');hours.className='cch-menu-hours';hours.textContent=bar.querySelector('.fixbtntel p').textContent;
     const actions=document.createElement('div');actions.className='cch-menu-actions';actions.innerHTML='<a href="/crystal-clean-home/contact/">お問い合わせはこちら</a><a class="cch-menu-estimate" href="/crystal-clean-home/cart/"><img src="/crystal-clean-home/brand/header/cart-mark.svg?v=solid3" alt="" width="20" height="20">お見積りはこちら</a>';
-    actions.prepend(actions.querySelector('.cch-menu-estimate'));details.append(phone,hours,actions);utilities.append(social,details);
+    actions.prepend(actions.querySelector('.cch-menu-estimate'));details.append(hours,actions);utilities.append(social,details);
   }
   const headerPayments=document.querySelector('#header .cch-payments');
   if(headerPayments){const hours=bar.querySelector('.fixbtntel>p');const group=document.createElement('div');group.className='cch-bar-hours';hours.before(group);group.append(hours);const payments=headerPayments.cloneNode(true);payments.classList.add('cch-bar-payments');payments.querySelector('.cch-payments-label')?.remove();group.append(payments)}

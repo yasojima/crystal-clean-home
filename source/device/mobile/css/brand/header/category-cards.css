@@ -30,3 +30,12 @@ body .sec_cv .cv_btn img[src*="cv_mail.svg"],body .sec_cv .cv_btn img[data-src*=
 
 /* Apply the shadow outside the clipped SVG, keeping a CSS 16px circular corner at every width. */
 body .sec_cv .cv_btn a:has(img[src*="cv_mail.svg"]),body .sec_cv .cv_btn a:has(img[data-src*="cv_mail.svg"]){filter:drop-shadow(0 4px 5px #0003)}
+
+@media (max-width:390px){
+  body:has(#cch-hero) .sec_corp .txt,
+  body:has(#cch-hero) .sec_area .txt,
+  body:has(#cch-hero) .sec_corp .btn_area,
+  body:has(#cch-hero) .sec_area .btn_area{min-width:0;max-width:100%;width:100%;box-sizing:border-box}
+  body:has(#cch-hero) .sec_corp .btn_area a,
+  body:has(#cch-hero) .sec_area .btn_area a{max-width:100%;width:100%;box-sizing:border-box;white-space:normal}
+}

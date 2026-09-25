@@ -9,6 +9,8 @@ def publish_checkout(root,header,data):
     src=root/'source/osouji/checkout'
     def read(name):return BeautifulSoup((src/(name+'.html')).read_text(encoding='utf-8'),'html.parser')
     cart=read('cart');estimate=read('estimate');confirm=read('confirm')
+    for value in confirm.find_all(string=lambda item: item and 'preview@example.com' in item):
+        value.replace_with(value.replace('preview@example.com', '入力後に表示'))
     templates={}
     selectors={'parent':'.product-card','option':'.option-card','additional':'.additional-option-card','summary':'.cart__price-info','recommend':'.recommend-options','confirm-item':'.estimate-details__item'}
     for name,selector in selectors.items():
@@ -37,7 +39,7 @@ def publish_checkout(root,header,data):
         if not inp.get('id'):inp['id']='cch-'+name
         labels={'email':'Eメールアドレス','tel_01':'電話番号（先頭）','tel_02':'電話番号（中央）','tel_03':'電話番号（末尾）','postal-code_01':'郵便番号（3桁）','postal-code_02':'郵便番号（4桁）','address_01':'都道府県','coupon-code':'クーポンコード'}
         if name in labels:inp['aria-label']=labels[name]
-        if name=='email':inp['type']='email'
+        if name=='email':inp['type']='email';inp['placeholder']='メールアドレス'
         if name.startswith('tel_'):inp['pattern']='[0-9]{1,4}';inp['maxlength']='4'
         if 'postal-code_' in name:inp['pattern']='[0-9]{'+('3' if name.endswith('01') else '4')+'}'
         if name.endswith('_kana'):inp['pattern']='[ァ-ヶー　 ]+'
@@ -67,6 +69,7 @@ def publish_checkout(root,header,data):
                 if el.get(attr):el[attr]=local_url(el[attr],path)
         for el in cleaned.select('a[href]'):
             if '/cart/estimate' in el['href']:el['href']=BASE+'estimate/'
+            if 'osoujihonpo.com/policy/' in el['href']:el['href']=BASE+'privacy-policy/';el.attrs.pop('target',None)
         styles=''.join('<link rel="stylesheet" href="'+local_url(l['href'],path)+'">' for l in soup.select('link[rel=stylesheet]') if l.get('href','').startswith('/assets/'))
         # Confirmation markup has dedicated style sheets in addition to form/common.css.
         if name=='estimate':

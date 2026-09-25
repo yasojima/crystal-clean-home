@@ -18,11 +18,14 @@ for name in paths:
         for css in re.findall(r'/crystal-clean-home/device/[^"\s)]+\.css', text):
             assert (root/'docs'/css.removeprefix('/crystal-clean-home/')).is_file(), css
 for device in ['desktop','mobile']:
-    assert json.loads((root/'source/device'/device/'images.json').read_text(encoding='utf-8'))
+    assert isinstance(json.loads((root/'source/device'/device/'images.json').read_text(encoding='utf-8')), dict)
 footer = (root/'brand/shared-ui/footer.html').read_text(encoding='utf-8')
 files = subprocess.check_output(['git','ls-files','docs/*.html','docs/**/*.html'],cwd=root,text=True).splitlines()
 def check(name):
-    text = (root/name).read_text(encoding='utf-8')
+    path = root/name
+    if not path.is_file():
+        return 0
+    text = path.read_text(encoding='utf-8')
     if 'cch-header' not in text:
         return 0
     assert footer in text, name
