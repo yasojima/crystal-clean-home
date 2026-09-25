@@ -11,6 +11,7 @@
 |端末別のUI寸法・復帰待ち|各端末のui.json|
 |店舗情報・ロゴ|brand/site.json、brand/crystal-clean-home.png|
 |ホーム部品の文章・構造|brand各部品のtemplate.html|
+|ホーム上部・下部の8カテゴリーリンク|brand/service-cards/template.html、brand/service-directory/template.html（home_sections.pyでdocs/index.htmlへ反映）|
 |共通ヘッダー内容|brand/header/template.html|
 |共通フッター内容|brand/shared-ui/footer.html|
 |MENU・追従バー・カート概要の共通動作|brand/header/floating.js|
@@ -40,4 +41,4 @@ brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/d
 検証：python test_device_ui.py、node test-checkout.cjs、node test-reference.cjs、node test-shop.cjs。UI変更は非表示IABで実操作も確認する。実予約送信はしない。
 商品ページ変更はpython -B test_integrated_product_pages.pyも実施し、PC/SPの境界992px/993pxと狭い幅を確認する。画像の古い版は現行参照を調べてからデスクトップの「削除用」へ移し、復旧はGitで行う。
 
-公開元はmainのdocs。商品8カテゴリはローカル本編出力に統合済み。公開サイトへの反映は未確認。公開する変更では対象ファイルを明示してcommit/pushし、該当SHAのPages成功と公開ページを確認する。無関係な作業中ファイルを一括登録しない。旧版はGitで保持する。
+公開元はmainのdocs。商品8カテゴリは本編出力に統合済み。公開する変更では対象ファイルを明示してcommit/pushし、該当SHAのPages成功と公開ページを確認する。無関係な作業中ファイルを一括登録しない。旧版はGitで保持する。
