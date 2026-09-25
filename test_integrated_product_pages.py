@@ -61,6 +61,11 @@ for category in CATEGORIES:
     print(category, len(cards), "cards; 6 expanded sample reviews; exact main markup")
 
 assert (ROOT / "docs/services/index.html").read_bytes() == (ROOT / "docs/house-cleaning/pack/index.html").read_bytes()
+home = BeautifulSoup((ROOT / "docs/index.html").read_text(encoding="utf-8"), "html.parser")
+home_routes = [f"{PUBLIC_BASE}house-cleaning/{category}/" for category in CATEGORIES]
+for section_id in ("cch-service-cards", "cch-service-directory"):
+    links = home.select(f"#{section_id} .c-house-cleaning-links__link")
+    assert [link.get("href") for link in links] == home_routes, section_id
 for device in ("desktop", "mobile"):
     assert (ROOT / "docs" / PUBLIC_ASSET_BASE.removeprefix(PUBLIC_BASE) / f"wireframe-{device}.css").exists()
 print("PASS: eight integrated pages, links, assets, products, catalog, and reviews")
