@@ -2,6 +2,7 @@
 from pathlib import Path
 from bs4 import BeautifulSoup
 from PIL import Image
+import json
 from first_lp import publish_first_lp
 
 root = Path(__file__).resolve().parent
@@ -42,4 +43,25 @@ assert len(page.select('meta[name="description"]')) == 1
 assert len(page.select('[data-cch-first-lp]')) == 2
 assert not main.select('form, iframe, script, [hidden]')
 assert all(a['href'] == '/crystal-clean-home/services/' for a in main.select('.cch-lp-cta a'))
-print('PASS: regeneration, canonical body, 4 manga panels/bubbles, 5-company sample, anchors, SEO and 5 assets')
+assert len(main.select('.cch-lp-cta')) == 5
+home = BeautifulSoup((root / 'brand/service-cards/template.html').read_text(encoding='utf-8'), 'html.parser')
+cards = main.select('.lp-service-card')
+originals = home.select('.c-house-cleaning-links__link')
+assert len(cards) == len(originals) == 8
+assert [(a['href'], a.h3.get_text(' ', strip=True)) for a in cards] == [(a['href'], a.h3.get_text(' ', strip=True)) for a in originals]
+settings = json.loads((root / 'brand/first-lp/materials.json').read_text(encoding='utf-8'))
+assert len(main.select('.lp-case')) == len(settings['cases']) == 2
+for case, setting in zip(main.select('.lp-case'), settings['cases']):
+    for img, state in zip(case.select('img'), ('before', 'after')):
+        derivative = root / 'docs' / img['src'].removeprefix('/crystal-clean-home/')
+        assert derivative.read_bytes() == (root / setting[state]).read_bytes(), 'Before/after must preserve existing image'
+reviews = json.loads((root / 'source/product-wireframe/review-copy.json').read_text(encoding='utf-8'))
+assert len(main.select('.lp-voice')) == len(settings['reviews']) == 3
+for voice, setting in zip(main.select('.lp-voice'), settings['reviews']):
+    title, body = reviews[setting['category']][setting['index']]
+    assert voice.h3.get_text() == title
+    assert voice.select('p')[-1].get_text() == body
+assert '実際の施工写真ではありません' in main.get_text()
+assert '実際のお客様の口コミ・評価ではありません' in main.get_text()
+assert '{{' not in str(main)
+print('PASS: regeneration, canonical body, 4 manga panels, 8 linked menus, 2 before/after pairs, 3 source reviews, 5 CTAs, anchors, SEO and all image dimensions')

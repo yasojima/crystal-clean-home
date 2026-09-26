@@ -1,12 +1,59 @@
 """Publish the first-visit manga LP; text remains visible static HTML."""
 from pathlib import Path
 import hashlib
+import html
+import json
 import re
 import shutil
+from bs4 import BeautifulSoup
+from PIL import Image
 from io_retry import write_text
 
 BASE = '/crystal-clean-home/'
 PUBLIC = 'https://yasojima.github.io' + BASE
+
+
+def render_materials(root, out):
+    """Reuse home category ownership and product samples without duplicating copy."""
+    settings = json.loads((root / 'brand/first-lp/materials.json').read_text(encoding='utf-8'))
+    home = BeautifulSoup((root / 'brand/service-cards/template.html').read_text(encoding='utf-8'), 'html.parser')
+    css = (root / 'source/device/desktop/css/brand/header/category-cards.css').read_text(encoding='utf-8')
+    reused = out / 'reused'
+    reused.mkdir(exist_ok=True)
+
+    def picture(path, name, alt, class_name=''):
+        source = root / path
+        destination = reused / (name + '.webp')
+        with Image.open(source) as image:
+            width, height = image.size
+            if source.suffix == '.webp':
+                shutil.copy2(source, destination)
+            else:
+                image.save(destination, 'WEBP', quality=90, method=6)
+        return f'<img class="{class_name}" src="{BASE}brand/first-lp/reused/{destination.name}" width="{width}" height="{height}" loading="lazy" alt="{html.escape(alt, quote=True)}">'
+
+    services = []
+    scenes = {}
+    for card in home.select('.c-house-cleaning-links__link'):
+        marker = next(name for name in card.select_one('.c-illust')['class'] if name.startswith('c-illust--'))
+        image_url = re.search(r'\.' + re.escape(marker) + r'\{[^}]*background-image:url\("([^"]+)"', css)[1]
+        path = image_url.removeprefix(BASE)
+        name = card['href'].rstrip('/').split('/')[-1]
+        title = card.select_one('h3').get_text(' ', strip=True)
+        scenes[name] = (path, name, title)
+        services.append(f'<a class="lp-service-card" href="{card["href"]}">{picture(path, name, title)}<h3>{html.escape(title)}</h3><span>内容・料金を確認 <span aria-hidden="true">›</span></span></a>')
+
+    cases = []
+    for item in settings['cases']:
+        pairs = ''.join(f'<figure>{picture(item[state], item["key"] + "-" + state, item["category"] + "：" + label)}<figcaption>{label}</figcaption></figure>' for state, label in [('before', '清掃前のイメージ'), ('after', '清掃後のイメージ')])
+        cases.append(f'<article class="lp-case"><div class="lp-case-copy"><p class="lp-eyebrow">{html.escape(item["category"])}</p><h3>{html.escape(item["title"])}</h3><p>{html.escape(item["description"])}</p></div><div class="lp-case-pair">{pairs}</div></article>')
+
+    reviews = json.loads((root / 'source/product-wireframe/review-copy.json').read_text(encoding='utf-8'))
+    voices = []
+    for index, item in enumerate(settings['reviews'], 1):
+        title, body = reviews[item['category']][item['index']]
+        voices.append(f'<article class="lp-voice"><p class="lp-voice-label">掲載用サンプル {index:02}</p><h3>{html.escape(title)}</h3><p>{html.escape(body)}</p></article>')
+    return {'SERVICE_CARDS': ''.join(services), 'CASE_CARDS': ''.join(cases), 'REVIEW_CARDS': ''.join(voices), 'ROOM_SCENE': picture(*scenes['room'], class_name='lp-approach-image')}
 
 
 def publish_first_lp(root):
@@ -15,13 +62,17 @@ def publish_first_lp(root):
     if not template.exists():
         return
     main = template.read_text(encoding='utf-8').strip()
-    cta = (root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8').strip()
-    for index in range(1, 5):
-        instance = cta.replace('id="cch-estimate-cta"', f'id="first-estimate-{index}" class="cch-lp-cta"')
-        main = main.replace(f'{{{{CTA_{index}}}}}', instance)
     out = root / 'docs/brand/first-lp'
     out.mkdir(parents=True, exist_ok=True)
     shutil.copytree(root / 'brand/first-lp/images', out / 'images', dirs_exist_ok=True)
+    for name, markup in render_materials(root, out).items():
+        main = main.replace('{{' + name + '}}', markup)
+    cta = (root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8').strip()
+    for index in re.findall(r'\{\{CTA_(\d+)\}\}', main):
+        instance = cta.replace('id="cch-estimate-cta"', f'id="first-estimate-{index}" class="cch-lp-cta"')
+        main = main.replace('{{CTA_' + index + '}}', instance)
+    if '{{' in main:
+        raise ValueError('Unresolved first LP content placeholder')
     links = []
     for platform in ('desktop', 'mobile'):
         # Share the accepted CTA source rather than creating another button design.
