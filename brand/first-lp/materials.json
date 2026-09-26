@@ -18,8 +18,24 @@
     }
   ],
   "reviews": [
-    { "category": "aircon", "index": 4 },
-    { "category": "water", "index": 0 },
-    { "category": "pack", "index": 4 }
+    {
+      "category": "aircon",
+      "index": 4
+    },
+    {
+      "category": "water",
+      "index": 0
+    },
+    {
+      "category": "pack",
+      "index": 4
+    }
+  ],
+  "faq_indices": [
+    0,
+    3,
+    4,
+    6,
+    10
   ]
 }

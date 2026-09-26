@@ -1,10 +1,12 @@
-"""Publish the image-led first-visit LP and its accessible text equivalents."""
+"""Publish the illustrated LP, reusing the site's existing service components."""
 from pathlib import Path
+from copy import deepcopy
 import hashlib
 import html
 import json
 import re
 import shutil
+import tinycss2
 from bs4 import BeautifulSoup
 from PIL import Image
 from io_retry import write_text
@@ -13,93 +15,153 @@ BASE = '/crystal-clean-home/'
 PUBLIC = 'https://yasojima.github.io' + BASE
 
 
-def render_art(root, out):
-    """Finished section art is the visual source. Do not recreate balloons in CSS.
+def art_image(root, name, alt, eager=False):
+    path = root / 'brand/first-lp/art' / (name + '.webp')
+    with Image.open(path) as image:
+        width, height = image.size
+    priority = 'fetchpriority="high"' if eager else 'loading="lazy"'
+    revision = hashlib.sha256(path.read_bytes()).hexdigest()[:10]
+    return f'<img src="{BASE}brand/first-lp/art/{path.name}?v={revision}" width="{width}" height="{height}" {priority} decoding="async" alt="{html.escape(alt, quote=True)}">'
 
-    Mobile artwork is a deliberate recomposition, never a crop of dialogue.
-    Text equivalents are available to every reader through ordinary disclosures.
-    """
+
+def render_art(root, out):
     content = json.loads((root / 'brand/first-lp/art-content.json').read_text(encoding='utf-8'))
     shutil.copytree(root / 'brand/first-lp/art', out / 'art', dirs_exist_ok=True)
-    # Keep the original, text-free character art only as the social preview.
     (out / 'images').mkdir(exist_ok=True)
     shutil.copy2(root / 'brand/first-lp/images/hero.webp', out / 'images/hero.webp')
-
-    def img(name, alt, eager=False):
-        path = root / 'brand/first-lp/art' / (name + '.webp')
-        with Image.open(path) as image:
-            width, height = image.size
-        priority = 'fetchpriority="high"' if eager else 'loading="lazy"'
-        return f'<img src="{BASE}brand/first-lp/art/{path.name}" width="{width}" height="{height}" {priority} decoding="async" alt="{html.escape(alt, quote=True)}">'
-
-    def picture(name, item):
-        desktop = img(name, item['alt'], name == 'cover')
-        if not item.get('mobile'):
-            return desktop
-        path = root / 'brand/first-lp/art' / (item['mobile'] + '.webp')
-        with Image.open(path) as image:
-            width, height = image.size
-        return f'<picture><source media="(max-width: 600px)" srcset="{BASE}brand/first-lp/art/{path.name}" width="{width}" height="{height}">{desktop}</picture>'
-
     tokens = {}
     for name, item in content['sections'].items():
-        tokens['ART_' + name.upper().replace('-', '_')] = picture(name, item)
-        paragraphs = ''.join(f'<p>{html.escape(text)}</p>' for text in item.get('transcript', []))
-        if paragraphs:
-            tokens['TEXT_' + name.upper().replace('-', '_')] = f'<details class="lp-transcript"><summary>画像の内容を文章で読む</summary><div>{paragraphs}</div></details>'
-    # The existing shared CTA determines the destination, even though this LP
-    # uses finished image artwork for its label, icon, frame and background.
+        markup = art_image(root, name, item['alt'], name == 'opening')
+        if item.get('mobile'):
+            path = root / 'brand/first-lp/art' / (item['mobile'] + '.webp')
+            with Image.open(path) as image:
+                width, height = image.size
+            revision = hashlib.sha256(path.read_bytes()).hexdigest()[:10]
+            markup = f'<picture><source media="(max-width:600px)" srcset="{BASE}brand/first-lp/art/{path.name}?v={revision}" width="{width}" height="{height}">{markup}</picture>'
+        token = name.upper().replace('-', '_')
+        tokens['ART_' + token] = markup
+        if item.get('transcript'):
+            paragraphs = ''.join(f'<p>{html.escape(text)}</p>' for text in item['transcript'])
+            tokens['TEXT_' + token] = f'<details class="lp-transcript"><summary>漫画・画像の内容を文章で読む</summary><div>{paragraphs}</div></details>'
     shared = BeautifulSoup((root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8'), 'html.parser')
-    target = shared.select_one('a')['href']
-    tokens['CTA_ART'] = f'<a class="lp-art-cta" href="{html.escape(target, quote=True)}" aria-label="無料お見積り：清掃メニューを選ぶ">{picture("cta-art", content["cta"])}</a>'
-    comparison = content['comparison']
+    button = shared.select_one('a')
+    button.attrs.pop('role', None)
+    button['class'] = button.get('class', []) + ['lp-estimate-button']
+    button['aria-label'] = '無料お見積り：清掃メニューを選ぶ'
+    button.select_one('.c-double-icon-button__text').clear()
+    button.select_one('.c-double-icon-button__text').append(BeautifulSoup('<span class="btn-free">無料お見積り</span>', 'html.parser'))
+    tokens['CTA_BUTTON'] = str(button)
+    for name, item in content['ctas'].items():
+        art = art_image(root, name, item['alt'])
+        tokens[name.upper().replace('-', '_')] = f'<div class="lp-cta-scene">{art}<div class="lp-cta-action">{button}</div></div>'
+    comparison = json.loads((root / 'brand/first-lp/comparison.json').read_text(encoding='utf-8'))
     heads = ''.join(f'<th scope="col">{html.escape(text)}</th>' for text in comparison['columns'])
     rows = ''.join('<tr><th scope="row">' + html.escape(row[0]) + '</th>' + ''.join(f'<td>{html.escape(value)}</td>' for value in row[1:]) + '</tr>' for row in comparison['rows'])
-    tokens['COMPARISON_TABLE'] = f'<table><caption>料金比較サンプル（各1台・1箇所、税込・仮設定）</caption><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table>'
+    tokens['COMPARISON_TABLE'] = f'<table><caption class="lp-sr">エアコンクリーニングの通常料金比較</caption><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table>'
+    sources = ''.join(f'<li><strong>{html.escape(s["label"])}</strong>：' + '／'.join(f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a>' for label, url in s['links']) + f'<p>{html.escape(s["note"])}</p></li>' for s in comparison['sources'])
+    notes = ''.join(f'<p>{html.escape(n)}</p>' for n in comparison['notes'])
+    tokens['COMPARISON_SOURCES'] = f'<details class="lp-transcript lp-comparison-sources"><summary>比較条件・出典（{comparison["checked"]}確認）</summary><div>{notes}<ul>{sources}</ul></div></details>'
     return tokens
 
 
 def render_materials(root, out):
-    """Reuse home category ownership and product samples without duplicating copy."""
+    from home_sections import homepage_questions
+    from product_wireframe import review_cards, common_flow
     settings = json.loads((root / 'brand/first-lp/materials.json').read_text(encoding='utf-8'))
     home = BeautifulSoup((root / 'brand/service-cards/template.html').read_text(encoding='utf-8'), 'html.parser')
-    css = (root / 'source/device/desktop/css/brand/header/category-cards.css').read_text(encoding='utf-8')
+    cards = ''.join(str(c) for c in home.select('.c-house-cleaning-links__link'))
+    labels = {c['href'].rstrip('/').split('/')[-1]: c.h3.get_text(' ', strip=True) for c in home.select('.c-house-cleaning-links__link')}
+    pack = BeautifulSoup((root / 'source/product-wireframe/pages/house-cleaning/pack/index.html').read_text(encoding='utf-8'), 'html.parser')
+    tabs = deepcopy(pack.select_one('.c-compare-image').find_parent(class_='c-tab'))
+    buttons = tabs.select('.c-tab__button')
+    panels = tabs.select('.c-tab__panel')
+    for extra in buttons[len(settings['cases']):] + panels[len(settings['cases']):]:
+        extra.decompose()
     reused = out / 'reused'
     reused.mkdir(exist_ok=True)
-
-    def picture(path, name, alt, class_name=''):
-        source = root / path
-        destination = reused / (name + '.webp')
-        with Image.open(source) as image:
-            width, height = image.size
-            if source.suffix == '.webp':
-                shutil.copy2(source, destination)
-            else:
-                image.save(destination, 'WEBP', quality=90, method=6)
-        return f'<img class="{class_name}" src="{BASE}brand/first-lp/reused/{destination.name}" width="{width}" height="{height}" loading="lazy" alt="{html.escape(alt, quote=True)}">'
-
-    services = []
-    scenes = {}
-    for card in home.select('.c-house-cleaning-links__link'):
-        marker = next(name for name in card.select_one('.c-illust')['class'] if name.startswith('c-illust--'))
-        image_url = re.search(r'\.' + re.escape(marker) + r'\{[^}]*background-image:url\("([^"]+)"', css)[1]
-        path = image_url.removeprefix(BASE)
-        name = card['href'].rstrip('/').split('/')[-1]
-        title = card.select_one('h3').get_text(' ', strip=True)
-        scenes[name] = (path, name, title)
-        services.append(f'<a class="lp-service-card" href="{card["href"]}">{picture(path, name, title)}<h3>{html.escape(title)}</h3><span>内容・料金を確認 <span aria-hidden="true">›</span></span></a>')
-
-    cases = []
-    for item in settings['cases']:
-        pairs = ''.join(f'<figure>{picture(item[state], item["key"] + "-" + state, item["category"] + "：" + label)}<figcaption>{label}</figcaption></figure>' for state, label in [('before', '清掃前のイメージ'), ('after', '清掃後のイメージ')])
-        cases.append(f'<article class="lp-case"><div class="lp-case-copy"><p class="lp-eyebrow">{html.escape(item["category"])}</p><h3>{html.escape(item["title"])}</h3><p>{html.escape(item["description"])}</p></div><div class="lp-case-pair">{pairs}</div></article>')
-
-    reviews = json.loads((root / 'source/product-wireframe/review-copy.json').read_text(encoding='utf-8'))
+    for i, item in enumerate(settings['cases']):
+        button, panel = buttons[i], panels[i]
+        button['id'] = f'lp-case-tab-{i}'
+        button['aria-controls'] = f'lp-case-panel-{i}'
+        button['aria-selected'] = 'true' if i == 0 else 'false'
+        button['tabindex'] = '0' if i == 0 else '-1'
+        button.string = item['category']
+        panel['id'] = f'lp-case-panel-{i}'
+        panel['aria-labelledby'] = button['id']
+        panel['class'] = ['c-tab__panel'] + (['is-active'] if i == 0 else [])
+        for image, state in zip(panel.select('.c-compare-image img'), ('before', 'after')):
+            path = root / item[state]
+            destination = reused / f'{item["key"]}-{state}.webp'
+            shutil.copy2(path, destination)
+            with Image.open(path) as asset:
+                image['width'], image['height'] = map(str, asset.size)
+            image['src'] = BASE + 'brand/first-lp/reused/' + destination.name
+            image['alt'] = item['category'] + ('・清掃前のイメージ' if state == 'before' else '・清掃後のイメージ')
+            image['loading'] = 'lazy'
+        panel.select_one('.c-compare-image-tab__text').string = item['description']
+        for note in panel.select('.c-note'):
+            note.decompose()
+        link_box = panel.select_one('.c-compare-image-tab__link-container')
+        if link_box:
+            link_box.decompose()
     voices = []
-    for index, item in enumerate(settings['reviews'], 1):
-        title, body = reviews[item['category']][item['index']]
-        voices.append(f'<article class="lp-voice"><p class="lp-voice-label">掲載用サンプル {index:02}</p><h3>{html.escape(title)}</h3><p>{html.escape(body)}</p></article>')
-    return {'SERVICE_CARDS': ''.join(services), 'CASE_CARDS': ''.join(cases), 'REVIEW_CARDS': ''.join(voices), 'ROOM_SCENE': picture(*scenes['room'], class_name='lp-approach-image')}
+    for item in settings['reviews']:
+        original = review_cards(item['category'], None)
+        card = deepcopy(original.select('.c-voice-card')[item['index']])
+        card['class'] += ['lp-voice']
+        label = BeautifulSoup(f'<p class="lp-service-label">{html.escape(labels[item["category"]])}</p>', 'html.parser')
+        card.insert(1, label)
+        card.append(BeautifulSoup(f'<a class="lp-related-menu" href="{BASE}house-cleaning/{item["category"]}/">この清掃メニューを見る <span aria-hidden="true">›</span></a>', 'html.parser'))
+        voices.append(str(card))
+    flow = common_flow().select_one('.c-step-list')
+    for icon in flow.select('img'):
+        icon['src'] = icon['src'].replace('_product-wireframe/', 'reference/product-pages/')
+        with Image.open(root / 'source/product-wireframe/assets/flow' / icon['src'].split('/')[-1]) as asset:
+            icon['width'], icon['height'] = map(str, asset.size)
+    faq = BeautifulSoup(homepage_questions(root), 'html.parser')
+    for i, item in enumerate(faq.select('details')):
+        if i not in settings['faq_indices']:
+            item.decompose()
+    for i, item in enumerate(faq.select('.cch-faq-number'), 1):
+        item.string = f'Q{i}.'
+    return {'SERVICE_CARDS': cards, 'CASE_SLIDER': str(tabs), 'REVIEW_CARDS': ''.join(voices),
+            'FLOW': str(flow), 'FAQ': '<div class="lp-faq">' + str(faq.select_one('.cch-faq-list')) + '</div>'}
+
+
+def reused_css(root, platform):
+    """Scope the canonical component rules without forking their visual definitions."""
+    families = ('.icv', '.c-compare-image', '.c-tab__', '.c-voice-card', '.c-step-list',
+                '.cch-wf-voice', '.cch-wf-flow-icon', '.cch-faq', '#cch-faq',
+                '.c-category-simple-card', '.c-ribbon-label-tag', '.c-illust')
+    sources = ['reference/assets/css/common.css', 'product-wireframe/wireframe.css',
+               'brand/prevention/style.css', 'brand/service-cards/style.css',
+               'brand/header/category-cards.css']
+    def scope(selector):
+        selector = re.sub(r'html\[data-product-wireframe=["\']true["\']\]\s*', '', selector)
+        selector = selector.replace('.cch-reference', '').replace('#cch-service-cards', '').replace('#cch-service-directory', '')
+        selector = selector.replace('#cch-faq', '#first-faq')
+        selector = re.sub(r'^\s*body\s+', '', selector)
+        return '#cch-first-lp ' + selector.strip()
+    def rules(items):
+        result = []
+        for rule in items:
+            if rule.type == 'at-rule' and rule.content is not None and rule.lower_at_keyword in ('media', 'supports', 'layer'):
+                nested = rules(tinycss2.parse_rule_list(rule.content, skip_whitespace=True, skip_comments=True))
+                if nested:
+                    result.append('@' + rule.lower_at_keyword + ' ' + tinycss2.serialize(rule.prelude) + '{' + nested + '}')
+            elif rule.type == 'qualified-rule':
+                groups = [[]]
+                for token in rule.prelude:
+                    if token.type == 'literal' and token.value == ',':
+                        groups.append([])
+                    else:
+                        groups[-1].append(token)
+                selectors = [tinycss2.serialize(group).strip() for group in groups]
+                selectors = [scope(s) for s in selectors if any(f in s for f in families)]
+                if selectors:
+                    result.append(','.join(selectors) + '{' + tinycss2.serialize(rule.content) + '}')
+        return '\n'.join(result)
+    return '\n'.join(rules(tinycss2.parse_stylesheet((root / f'source/device/{platform}/css' / source).read_text(encoding='utf-8'), skip_comments=True, skip_whitespace=True)) for source in sources)
 
 
 def publish_first_lp(root):
@@ -107,22 +169,24 @@ def publish_first_lp(root):
     template = root / 'brand/first-lp/template.html'
     if not template.exists():
         return
-    main = template.read_text(encoding='utf-8').strip()
+    main = template.read_text(encoding='utf-8-sig').strip()
     out = root / 'docs/brand/first-lp'
     out.mkdir(parents=True, exist_ok=True)
-    for name, markup in render_art(root, out).items():
-        main = main.replace('{{' + name + '}}', markup)
-    for name, markup in render_materials(root, out).items():
+    for name, markup in (render_art(root, out) | render_materials(root, out)).items():
         main = main.replace('{{' + name + '}}', markup)
     if '{{' in main:
         raise ValueError('Unresolved first LP content placeholder')
     links = []
     for platform in ('desktop', 'mobile'):
-        css = (root / f'source/device/{platform}/css/first-lp.css').read_text(encoding='utf-8')
+        css = reused_css(root, platform) + '\n' + (root / f'source/device/{platform}/css/first-lp.css').read_text(encoding='utf-8')
         revision = hashlib.sha256(css.encode()).hexdigest()[:12]
         write_text(out / f'{platform}.css', css)
         media = '(min-width: 993px)' if platform == 'desktop' else '(max-width: 992px)'
         links.append(f'<link rel="stylesheet" href="{BASE}brand/first-lp/{platform}.css?v={revision}" media="{media}" data-cch-first-lp>')
+    script = root / 'brand/first-lp/interaction.js'
+    shutil.copy2(script, out / script.name)
+    revision = hashlib.sha256(script.read_bytes()).hexdigest()[:12]
+    scripts = f'<script defer src="{BASE}reference/assets/js/common.js" data-cch-lp-script></script><script defer src="{BASE}brand/first-lp/interaction.js?v={revision}" data-cch-lp-script></script>'
     for relative in ('source/first/index.html', 'docs/first/index.html'):
         page = root / relative
         text = page.read_text(encoding='utf-8')
@@ -130,15 +194,18 @@ def publish_first_lp(root):
         if count != 1:
             raise ValueError(f'Missing first main in {relative}')
         text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-first-lp-page\b)', r'\1 cch-first-lp-page', text, count=1)
+        text = re.sub(r'<section\b[^>]*class="sec_cv"[^>]*>.*?</section>', '', text, flags=re.S)
+        # The shared floating bar only mounts when a footer exists.
+        text = re.sub(r'<footer\b[^>]*>.*?</footer>', '', text, flags=re.S)
         text = re.sub(r'<link\b[^>]*data-cch-first-lp[^>]*>', '', text)
+        text = re.sub(r'<script\b[^>]*data-cch-lp-script[^>]*>.*?</script>', '', text, flags=re.S)
         text = re.sub(r'<title>.*?</title>', '<title>初めての方へ｜安心して相談できるハウスクリーニング｜クリスタルクリーンホーム</title>', text, count=1, flags=re.S)
         text = re.sub(r'<meta\b[^>]*(?:name=["\']description["\']|property=["\']og:[^"\']+["\'])[^>]*>', '', text)
         text = re.sub(r'<link\b[^>]*rel=["\']canonical["\'][^>]*>', '', text)
         desc = '初めてのハウスクリーニングを漫画でご案内。清掃方法の選定、作業前の説明、住まいの保護、衛生管理と仕上がり確認への取り組みをご紹介します。'
         metadata = f'<meta name="description" content="{desc}"><link rel="canonical" href="{PUBLIC}first/"><meta property="og:title" content="初めての方へ｜クリスタルクリーンホーム"><meta property="og:description" content="{desc}"><meta property="og:type" content="website"><meta property="og:url" content="{PUBLIC}first/"><meta property="og:image" content="{PUBLIC}brand/first-lp/images/hero.webp">'
-        text = re.sub(r'\s*</head>', lambda _: '\n' + metadata + '\n'.join(links) + '\n</head>', text, count=1)
+        text = re.sub(r'\s*</head>', lambda _: '\n' + metadata + '\n'.join(links) + scripts + '\n</head>', text, count=1)
         if relative.startswith('source/'):
-            # source/** is stored verbatim by Git; preserve its LF line endings.
             page.write_bytes(re.sub(r'[ \t]+$', '', text, flags=re.M).encode('utf-8'))
         else:
             write_text(page, text)

@@ -28,7 +28,11 @@ def check(name):
     text = path.read_text(encoding='utf-8')
     if 'cch-header' not in text:
         return 0
-    assert footer in text, name
+    if name == 'docs/first/index.html':
+        assert not re.search(r'<footer\b|class="sec_cv"', text), name
+        assert 'lp-scroll-up' in text, name
+    else:
+        assert footer in text, name
     assert text.count('data-device-images') == 1, name
     assert text.count('data-shared-ui="style"') == 1, name
     assert 'data-cch-page="'+('home' if name=='docs/index.html' else 'inner')+'"' in text, name
