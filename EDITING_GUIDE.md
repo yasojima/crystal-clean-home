@@ -18,6 +18,7 @@
 |カートの計算・保存|brand/shop/cart-core.js|
 |カートのDOM・操作|brand/reference/checkout.js、checkout.py|
 |商品データ・移植入力|source/osouji、brand/reference/card-copy.json|
+|初めての方へ・清掃・感染予防の仮統合本文|source/first/index.html の main.main_contents（shared_ui.pyで本編へ反映）|
 |旧基盤本文|source、copy/ja.json|
 |8カテゴリ本編の共通構造・文章|product_wireframe.py、source/product-wireframe/{review,faq,flow,service,option-brief}-copy.json|
 |8カテゴリ本編のPCの見た目|source/device/desktop/css/product-wireframe/wireframe.css|
@@ -30,6 +31,7 @@ brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/d
 
 ## 生成と公開
 - 見た目だけ：python device_ui.py。
+- 仮統合ページ：`source/first/index.html` の本文を正本とし、`shared_ui.py` で反映する。旧 `/reason/` はcaptureとsourceから削除済み。全体再生成でも復活させず、旧リンクは `/first/#cleaning-approach` へ接続する。研修ページと共有画像は残す。LPとしての整理は未着手。
 - 共通UI：python shared_ui.py（末尾でdevice_uiを実行）。
 - お問い合わせの最上部見出し帯：`shared_ui.py` で `/contact/` の上部H1を指定し、PC/SPの色・書体・高さは `source/device/{desktop,mobile}/css/brand/shared-ui/style.css` で管理する。フォーム内H2と入力欄は変更しない。
 - 商品・カート：python reference.py（最後に共通UI・端末分離も生成）。

@@ -36,6 +36,17 @@ def remove_unset_phone_links(text):
 
 def publish_shared_ui(root):
     root = Path(root)
+    first = root / 'docs/first/index.html'
+    if first.exists():
+        source = (root / 'source/first/index.html').read_text(encoding='utf-8')
+        content = re.search(r'<main class="main_contents">.*?</main>', source, re.S)
+        if content is None:
+            raise ValueError('Missing canonical first-page content')
+        markup, count = re.subn(r'<main class="main_contents">.*?</main>',
+                                lambda _: content[0], first.read_text(encoding='utf-8'), count=1, flags=re.S)
+        if count != 1:
+            raise ValueError('Missing first-page main')
+        write_text(first, markup)
     component = root / 'brand/shared-ui'
     shutil.copytree(component, root / 'docs/brand/shared-ui', dirs_exist_ok=True)
     shutil.copy2(root / 'brand/header/floating.js', root / 'docs/brand/header/floating.js')
@@ -70,6 +81,9 @@ def publish_shared_ui(root):
             text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-single-column\b)',
                           r'\1 cch-single-column', text, count=1)
         text = re.sub(service_pattern, lambda _: service_menu, text, count=1, flags=re.S)
+        text = re.sub(r'<li class="reason">.*?</li>', '', text, flags=re.S)
+        text = text.replace('href="/crystal-clean-home/reason/"',
+                            'href="/crystal-clean-home/first/#cleaning-approach"')
         text = re.sub(r'<li class="faq"><a[^>]*>.*?</a></li>', '', text)
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
@@ -113,7 +127,7 @@ def publish_shared_ui(root):
         text = re.sub(r'<html\b', '<html data-cch-page="'+page+'"', text, count=1)
         text = re.sub(r'<footer\b[^>]*>.*?</footer>', lambda m: footer, text, count=1, flags=re.S)
         text = text.replace('href="/crystal-clean-home/qa/"', 'href="/crystal-clean-home/#cch-faq"')
-        text = re.sub(r'(brand/header/style.css)\?v=[^"\s]+', r'\1?v=nav-five1', text)
+        text = re.sub(r'(brand/header/style.css)\?v=[^"\s]+', r'\1?v=nav-four1', text)
         text = re.sub(r'<link\b[^>]*data-shared-ui="style"[^>]*>', '', text)
         text = text.replace('</head>', '<link rel="stylesheet" href="/crystal-clean-home/brand/shared-ui/style.css?v=single-column1" data-shared-ui="style"></head>')
         text = re.sub(r'floating.js\?v=[^"\s]+', 'floating.js?v=single-product-cart1', text)
@@ -124,6 +138,7 @@ def publish_shared_ui(root):
     from device_ui import publish_device_ui
     publish_device_ui(root)
     (root / 'docs/qa/index.html').unlink(missing_ok=True)
+    (root / 'docs/reason/index.html').unlink(missing_ok=True)
     return changed
 
 

@@ -57,6 +57,8 @@ def local_url(value, origin):
         return 'tel:' + brand['phone']
     parsed = urlsplit(urljoin(origin, value))
     host = parsed.netloc.replace('www.iekire.com', 'iekire.com')
+    if host == 'iekire.com' and parsed.path.rstrip('/') == '/reason':
+        return BASE + 'first/#cleaning-approach'
     key = urlunsplit(('https' if host == 'iekire.com' else parsed.scheme, host, parsed.path or '/', parsed.query, ''))
     target = mapping.get(key)
     if target:

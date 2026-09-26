@@ -1,5 +1,5 @@
-@import url("/crystal-clean-home/device/mobile/css/brand/header/site-menu.css?v=ff47e4cebc34");
-@import url("/crystal-clean-home/device/mobile/css/brand/header/bottom-bar.css?v=ff47e4cebc34");
+@import url("/crystal-clean-home/device/mobile/css/brand/header/site-menu.css?v=5b0d2337b97e");
+@import url("/crystal-clean-home/device/mobile/css/brand/header/bottom-bar.css?v=5b0d2337b97e");
 #header.cch-header{position:absolute!important;top:0}
 #header.cch-header .toggle_btn{display:none!important}
 .cch-side-rail{position:fixed;z-index:4000;right:0;top:20px;display:flex;flex-direction:column;width:72px;filter:drop-shadow(0 2px 5px #17354b1a)}
