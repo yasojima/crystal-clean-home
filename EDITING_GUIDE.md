@@ -31,6 +31,7 @@ brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/d
 ## 生成と公開
 - 見た目だけ：python device_ui.py。
 - 共通UI：python shared_ui.py（末尾でdevice_uiを実行）。
+- お問い合わせの最上部見出し帯：`shared_ui.py` で `/contact/` の上部H1を指定し、PC/SPの色・書体・高さは `source/device/{desktop,mobile}/css/brand/shared-ui/style.css` で管理する。フォーム内H2と入力欄は変更しない。
 - 商品・カート：python reference.py（最後に共通UI・端末分離も生成）。
 - 全体：python build.py。取得ソースを再取得する必要はない。
 - 法人向けページ：python corporation.py。本文と画像参照を生成し、最後に共通UIを反映する。全体生成でもbuild.pyの末尾から実行される。

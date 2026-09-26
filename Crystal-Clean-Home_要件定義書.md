@@ -40,6 +40,10 @@
 
 `/service/corporation/` の最上部は商品LINEUPと同じ紺 `#06408c`・游明朝・全幅・高さの「法人向けサービス」帯を用いる。旧ドット柄の見出し背景は使用しない。以降のセクション名とレイアウト、画像の配置・表示比率は維持する。掲載画像18点は元の清掃箇所を保ちながら、元画像と異なる構図・視点で描いた独自のリアルなアニメ調に差し替え、人物、他社名、埋め込み文字を入れない。各見出し左の装飾マークを表示せず、本文との間に後付けされた淡い水色の背景帯は元の背景へ戻す。本文7箇所は見出しと対象サービスに対応する丁寧な独自文とし、裏付けのない創業年、取引先、施工規模などの実績表示を置かない。基礎色は白・淡い水色 `#e3f1fc`・紺 `#06408c` に揃える。生成正本は `corporation.py`、画像は `brand/corporation/images/`、PC/SPのCSSは `source/device/{desktop,mobile}/css/corporation.css` とする。
 
+## お問い合わせページ
+
+`/contact/` の最上部「お問い合わせ窓口」は法人向けページの見出し帯と同じ紺 `#06408c`・游明朝・全幅・高さにする。旧ドット柄は使わず、ファーストビュー画像も追加しない。フォーム内の「お問い合わせ窓口」見出しと入力項目は維持し、実送信はデモの制約に従う。見出しの生成は `shared_ui.py`、PC/SPの見た目は `source/device/{desktop,mobile}/css/brand/shared-ui/style.css` で管理する。
+
 ## 正本・公開・検収
 
 取得元の複製HTMLは `source/product-wireframe/pages/`、文章は `source/product-wireframe/*-copy.json`、画像は `source/product-wireframe/assets/`、PC/SPのCSSは `source/device/{desktop,mobile}/css/product-wireframe/`。生成物だけを直接修正しない。公開元はGitHub `main` の `docs/`。2026-09-26に8ページ、カート、見積、ホーム導線の公開反映を確認した。詳細は `SITE_VERIFICATION.md`。スマホ実機の見た目、全ページ目視、事業者情報・料金・受付条件の最終承認、実予約は未検収であり、公開中であることと受け入れ完了を混同しない。

@@ -74,12 +74,15 @@ def publish_shared_ui(root):
         text = re.sub(r'(<a\b[^>]*href="/crystal-clean-home/area/"[^>]*>)対応地域(</a>)',
                       lambda m: m[1] + area_label + m[2], text)
         if name == 'docs/contact/index.html':
+            text = re.sub(r'(class="page_container)(?![^"\n]*\bcch-contact-page\b)',
+                          r'\1 cch-contact-page', text, count=1)
             text = re.sub(r'<script\b[^>]*src=["\'][^"\']*mw-wp-form/js/[^"\']*["\'][^>]*>\s*</script>', '', text, flags=re.S)
             text = re.sub(r'<tr\b[^>]*>.*?</tr>', lambda m: '' if any(label in m[0] for label in ['エアコンの型番・型式', '第三希望']) else m[0], text, flags=re.S)
             text = text.replace('ご依頼内容', 'お問い合わせ項目')
             text = text.replace('例) xxx@example.com', 'メールアドレス')
             text = text.replace('<p>ご予約は余裕をもってお申し込みください。日程が近い場合は、お電話やメールで調整のご相談をすることがあります。</p>', '')
             text = text.replace('お見積もり・ご相談フォーム', 'お問い合わせ窓口').replace('お見積もり・ご相談', 'お問い合わせ窓口')
+            text = text.replace('<h1>お問い合わせ窓口</h1>', '<h1 class="cch-contact-title-band">お問い合わせ窓口</h1>')
             text = text.replace('<h2>お問い合わせ窓口</h2>', '<h2 class="cch-contact-heading">お問い合わせ窓口</h2>')
         if name == 'docs/simulation-contact/index.html':
             text = text.replace('例) xxx@example.com', 'メールアドレス')

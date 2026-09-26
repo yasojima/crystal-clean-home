@@ -257,3 +257,14 @@ html[data-cch-page="inner"] .cch-side-rail{top:8px}
 
 .main_contents h2.cch-contact-heading{padding-left:0;background:none}
 .main_contents h2.cch-contact-heading::before,.main_contents h2.cch-contact-heading::after{content:none;display:none}
+
+.page_container.cch-contact-page{margin-top:0}
+.cch-contact-page .main_contents > h1.cch-contact-title-band{
+  position:relative;left:50%;width:100vw;margin-left:-50vw;
+  min-height:141.1px;margin-top:0;margin-bottom:3rem;
+  display:flex;align-items:center;justify-content:center;
+  padding:40px 15px;box-sizing:border-box;
+  background:#06408c;color:#fff;text-align:center;
+  font:700 1.4375rem/1.2 "Yu Mincho",YuMincho,"游明朝",serif;
+}
+.cch-contact-page .main_contents > h1.cch-contact-title-band::first-letter{color:#fff}
