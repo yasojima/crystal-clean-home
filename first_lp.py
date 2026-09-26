@@ -1,4 +1,4 @@
-"""Publish the first-visit manga LP; text remains visible static HTML."""
+"""Publish the image-led first-visit LP and its accessible text equivalents."""
 from pathlib import Path
 import hashlib
 import html
@@ -11,6 +11,52 @@ from io_retry import write_text
 
 BASE = '/crystal-clean-home/'
 PUBLIC = 'https://yasojima.github.io' + BASE
+
+
+def render_art(root, out):
+    """Finished section art is the visual source. Do not recreate balloons in CSS.
+
+    Mobile artwork is a deliberate recomposition, never a crop of dialogue.
+    Text equivalents are available to every reader through ordinary disclosures.
+    """
+    content = json.loads((root / 'brand/first-lp/art-content.json').read_text(encoding='utf-8'))
+    shutil.copytree(root / 'brand/first-lp/art', out / 'art', dirs_exist_ok=True)
+    # Keep the original, text-free character art only as the social preview.
+    (out / 'images').mkdir(exist_ok=True)
+    shutil.copy2(root / 'brand/first-lp/images/hero.webp', out / 'images/hero.webp')
+
+    def img(name, alt, eager=False):
+        path = root / 'brand/first-lp/art' / (name + '.webp')
+        with Image.open(path) as image:
+            width, height = image.size
+        priority = 'fetchpriority="high"' if eager else 'loading="lazy"'
+        return f'<img src="{BASE}brand/first-lp/art/{path.name}" width="{width}" height="{height}" {priority} decoding="async" alt="{html.escape(alt, quote=True)}">'
+
+    def picture(name, item):
+        desktop = img(name, item['alt'], name == 'cover')
+        if not item.get('mobile'):
+            return desktop
+        path = root / 'brand/first-lp/art' / (item['mobile'] + '.webp')
+        with Image.open(path) as image:
+            width, height = image.size
+        return f'<picture><source media="(max-width: 600px)" srcset="{BASE}brand/first-lp/art/{path.name}" width="{width}" height="{height}">{desktop}</picture>'
+
+    tokens = {}
+    for name, item in content['sections'].items():
+        tokens['ART_' + name.upper().replace('-', '_')] = picture(name, item)
+        paragraphs = ''.join(f'<p>{html.escape(text)}</p>' for text in item.get('transcript', []))
+        if paragraphs:
+            tokens['TEXT_' + name.upper().replace('-', '_')] = f'<details class="lp-transcript"><summary>画像の内容を文章で読む</summary><div>{paragraphs}</div></details>'
+    # The existing shared CTA determines the destination, even though this LP
+    # uses finished image artwork for its label, icon, frame and background.
+    shared = BeautifulSoup((root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8'), 'html.parser')
+    target = shared.select_one('a')['href']
+    tokens['CTA_ART'] = f'<a class="lp-art-cta" href="{html.escape(target, quote=True)}" aria-label="無料お見積り：清掃メニューを選ぶ">{picture("cta-art", content["cta"])}</a>'
+    comparison = content['comparison']
+    heads = ''.join(f'<th scope="col">{html.escape(text)}</th>' for text in comparison['columns'])
+    rows = ''.join('<tr><th scope="row">' + html.escape(row[0]) + '</th>' + ''.join(f'<td>{html.escape(value)}</td>' for value in row[1:]) + '</tr>' for row in comparison['rows'])
+    tokens['COMPARISON_TABLE'] = f'<table><caption>料金比較サンプル（各1台・1箇所、税込・仮設定）</caption><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table>'
+    return tokens
 
 
 def render_materials(root, out):
@@ -64,21 +110,15 @@ def publish_first_lp(root):
     main = template.read_text(encoding='utf-8').strip()
     out = root / 'docs/brand/first-lp'
     out.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(root / 'brand/first-lp/images', out / 'images', dirs_exist_ok=True)
+    for name, markup in render_art(root, out).items():
+        main = main.replace('{{' + name + '}}', markup)
     for name, markup in render_materials(root, out).items():
         main = main.replace('{{' + name + '}}', markup)
-    cta = (root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8').strip()
-    for index in re.findall(r'\{\{CTA_(\d+)\}\}', main):
-        instance = cta.replace('id="cch-estimate-cta"', f'id="first-estimate-{index}" class="cch-lp-cta"')
-        main = main.replace('{{CTA_' + index + '}}', instance)
     if '{{' in main:
         raise ValueError('Unresolved first LP content placeholder')
     links = []
     for platform in ('desktop', 'mobile'):
-        # Share the accepted CTA source rather than creating another button design.
-        css = (root / f'source/device/{platform}/css/brand/estimate-cta/style.css').read_text(encoding='utf-8')
-        css = css.replace(':is(#cch-estimate-cta,#cch-estimate-cta-bottom)', '#cch-first-lp .cch-lp-cta')
-        css += '\n' + (root / f'source/device/{platform}/css/first-lp.css').read_text(encoding='utf-8')
+        css = (root / f'source/device/{platform}/css/first-lp.css').read_text(encoding='utf-8')
         revision = hashlib.sha256(css.encode()).hexdigest()[:12]
         write_text(out / f'{platform}.css', css)
         media = '(min-width: 993px)' if platform == 'desktop' else '(max-width: 992px)'
