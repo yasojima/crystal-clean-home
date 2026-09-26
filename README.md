@@ -1,6 +1,6 @@
 # Crystal Clean Home
 
-現在は公開ワイヤーフレームを構築中です。2026-09-23更新。
+本編の商品8カテゴリは統合済みで、法人向けページの改修を進めています。2026-09-26更新。
 
 - 最初に [PROJECT_MANIFEST.md](PROJECT_MANIFEST.md) を読む。
 - 現行要件は [要件定義書](Crystal-Clean-Home_要件定義書.md)、編集・生成は [EDITING_GUIDE.md](EDITING_GUIDE.md)。

@@ -1,6 +1,6 @@
 # 共通UI仕様
 
-更新：2026-09-24。
+更新：2026-09-26。
 
 ヘッダー内容：brand/header/template.html、事業情報：brand/site.json。HOME／サービスと料金／清掃への取り組み／初めての方へ／訪問地域。会社概要はヘッダーに表示しない。
 ヘッダーの表示はホームのみ。全幅のメディア上へ重ね、スクロールで上へ抜ける。カード案内はVisaとMastercardのアイコン2点のみで、電話案内左の縦中央に置く。電話番号は未設定のため表示しない。詳細メニュー面は白、ホバー横線は黄色。
@@ -14,7 +14,7 @@
 
 見た目の正本はsource/device/{desktop,mobile}/css/brand/header/とcss/brand/shared-ui/。画像選択とUI寸法は同階層のimages.json、ui.json。入口CSSは生成用振り分けファイルのため直接編集しない。意味上のDOMと文言・カート状態は共有。
 
-ホーム上部・下部と商品試作の8カテゴリー画像は `brand/category-illustrations-v2/` の正面構図を使用する。画像の配布は `header.py`、PC/SPごとのカード表示は `source/device/{desktop,mobile}/css/brand/header/category-cards.css` が管理する。旧v1画像は現行生成から外した。
+ホーム上部・下部と本編8カテゴリー画像は `brand/category-illustrations-v2/` の正面構図を使用する。画像の配布は `header.py`、PC/SPごとのカード表示は `source/device/{desktop,mobile}/css/brand/header/category-cards.css` が管理する。旧v1画像は現行生成から外した。
 
 
 ## メニュー・追従バーの現行調整

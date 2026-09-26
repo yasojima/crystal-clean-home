@@ -1,0 +1,18 @@
+/* Corporate title band mirrors the product LINEUP band at smartphone widths. */
+body.cch-corporation { background: #fff; color: #344650; }
+body.cch-corporation .page_container { margin-top: 0; }
+body.cch-corporation .main_contents > h1.cch-corporation-title-band {
+  position: relative; left: 50%; width: 100vw; margin-left: -50vw;
+  min-height: 141.1px; margin-top: 0; margin-bottom: 3rem;
+  display: flex; align-items: center; justify-content: center;
+  padding: 40px 15px; box-sizing: border-box;
+  background: #06408c; color: #fff; text-align: center;
+  font: 700 1.4375rem/1.2 "Yu Mincho", YuMincho, "游明朝", serif;
+}
+body.cch-corporation .main_contents > h1.cch-corporation-title-band::first-letter { color: #fff; }
+body.cch-corporation .main_contents h2,
+body.cch-corporation .main_contents h3 { color: #06408c; }
+body.cch-corporation .main_contents .sec_corporation-difference { background: #e3f1fc; }
+body.cch-corporation .main_contents .area_corporation-difference .flex,
+body.cch-corporation .main_contents .area_corporation-difference-annotation,
+body.cch-corporation .main_contents .area_wide-range-support li { background: #fff; }

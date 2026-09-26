@@ -13,6 +13,7 @@ from hero import publish_hero
 from home_sections import publish_home_sections
 from shop import publish_shop
 from reference import publish_reference
+from corporation import publish_corporation
 from io_retry import write_text
 
 ROOT = Path(__file__).resolve().parent
@@ -283,4 +284,5 @@ stats['heroPages'] = publish_hero(ROOT)
 publish_home_sections(ROOT)
 publish_shop(ROOT)
 publish_reference(ROOT)
+publish_corporation(ROOT)
 print(json.dumps(stats, ensure_ascii=False))

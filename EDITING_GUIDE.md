@@ -1,6 +1,6 @@
 # 編集・生成ガイド
 
-更新：2026-09-24。作業正本：C:/Users/yasoj/codex Projects/Crystal Clean Home。
+更新：2026-09-26。作業正本：C:/Users/yasoj/codex Projects/Crystal Clean Home。
 
 ## 編集先
 |対象|正本|
@@ -23,6 +23,8 @@
 |8カテゴリ本編のPCの見た目|source/device/desktop/css/product-wireframe/wireframe.css|
 |8カテゴリ本編のスマホ・タブレットの見た目|source/device/mobile/css/product-wireframe/wireframe.css|
 |カテゴリー画像の現行版|brand/category-illustrations-v2/|
+|法人向けページの本文・画像参照・見出し帯|corporation.py、brand/corporation/images/|
+|法人向けページのPC/SPの見た目|source/device/{desktop,mobile}/css/corporation.css|
 
 brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/deviceを編集する。文章とカート計算は共有し、見た目を片方だけ変更するときは他方の正本を変更しない。HTML内styleブロックもcss/inlineへ端末別に分離している。
 
@@ -31,10 +33,11 @@ brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/d
 - 共通UI：python shared_ui.py（末尾でdevice_uiを実行）。
 - 商品・カート：python reference.py（最後に共通UI・端末分離も生成）。
 - 全体：python build.py。取得ソースを再取得する必要はない。
+- 法人向けページ：python corporation.py。本文と画像参照を生成し、最後に共通UIを反映する。全体生成でもbuild.pyの末尾から実行される。
 - 8カテゴリの本編商品ページ：python reference.py が `integrated_product_pages.py` を呼び、`docs/house-cleaning/{8カテゴリ}/` と `docs/reference/product-pages/` のCSS・画像を生成する。旧 `docs/_product-wireframe/` の独立ラフ生成は終了した。
-- ローカル試作のオプションカードに個別の「詳しく見る」と専用ダイアログは置かない。説明本文は source/product-wireframe/option-brief-copy.json で管理し、PC・スマホの狭い幅を含めて表示3行以内に収める。条件・注意事項は落とさず、3行を超えそうなときは本文を確定する前に人間へ確認する。カード内の本文枠は3行分を確保し、同じ段の下端を揃える。
+- 本編のオプションカードに個別の「詳しく見る」と専用ダイアログは置かない。説明本文は source/product-wireframe/option-brief-copy.json で管理し、PC・スマホの狭い幅を含めて表示3行以内に収める。条件・注意事項は落とさず、3行を超えそうなときは本文を確定する前に人間へ確認する。カード内の本文枠は3行分を確保し、同じ段の下端を揃える。
 - 親商品の「詳しく見る」は現在のデモでは押すとポップアップが開き、「※デモンストレーションのサンプル表示のため、「詳しく見る」のパッケージはありません。」を表示する。商品カードの写真下には常時表示しない。実案件のパッケージを作る際は、確認できた独自技術・権利・追加条件など、説明で差別化できる内容がある場合だけ詳細画面を用意する。特別な内容がなければ親商品の「詳しく見る」も削除し、数量選択と「カートに追加」の操作だけを残す。商品ID・価格・カート連携は維持する。
-- 洗濯機・コーティング・「その他」の追加比較画像は `source/product-wireframe/assets/{washer,coating,others}/case-*-{before,after}.png` が正本。比較タブ・おすすめ欄・洗濯機の商品概要と個別見出しは `product_wireframe.py` で生成する。洗濯機の商品名・料金・サービス時間・オプション名と価格は `source/product-wireframe/pages/house-cleaning/washer/{top,front,side}/index.html` から抽出し、本編の商品・オプション欄には水まわりの既存カードHTMLを複製して入れる。おすすめも既存のプランカードHTMLを使い、元の商品IDに連携する。「その他」の外壁洗浄は元の44,000円／40㎡以下と超過1㎡990円を連携。試作用の `cart/`・`estimate/` は現行の生成済み画面から複製し、追加商品のカタログを全11ページで共通化する。最初の洗濯機選択カードは本編内の3見出しへ接続する。
+- 洗濯機・コーティング・「その他」の追加比較画像は `source/product-wireframe/assets/{washer,coating,others}/case-*-{before,after}.png` が正本。比較タブ・おすすめ欄・洗濯機の商品概要と個別見出しは `product_wireframe.py` で生成する。洗濯機の商品名・料金・サービス時間・オプション名と価格は `source/product-wireframe/pages/house-cleaning/washer/{top,front,side}/index.html` から抽出し、本編の商品・オプション欄には水まわりの既存カードHTMLを複製して入れる。おすすめも既存のプランカードHTMLを使い、元の商品IDに連携する。「その他」の外壁洗浄は元の44,000円／40㎡以下と超過1㎡990円を連携。商品IDと価格は本編共通カート・見積画面で扱う。最初の洗濯機選択カードは本編内の3見出しへ接続する。
 - ホーム部品・動画など単独publisherを実行した後は、最後にpython shared_ui.py。
 - CSS/JS変更時は公開キャッシュも確認する。docsだけで修正を完結させない。
 
