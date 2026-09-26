@@ -11,7 +11,9 @@
 - 非表示IABの320・390・600・768・992・993・1440px幅でページ横あふれ0px、CTA文字あふれ0px。CTAは最小48px高、角丸8px。bodyの背景画像はnone。320pxでも末尾CTAの文字が収まることを実測した。
 - PCで比較タブ切替、左右キー（50→55）、Home／EndとARIA値更新、390pxでドラッグ（0→63）を確認。Before／Afterのラベル、中央揃えの説明、落ち着いた背景を目視。FAQはクリックで展開しEnterで閉鎖。末尾から先頭への移動はscrollY=0を確認。
 - 最終CTAから既存カートへ実遷移。既存10点・201,300円の状態から数量を1つ増やして11点・220,000円、元の数量へ戻して10点・201,300円となることを確認。入力／送信は行わず、他のカート項目は変更していない。
-- 確認画像：`C:/Users/yasoj/.codex/visualizations/2026/09/23/01a0ce6d-933e-7ce1-a618-a3ac155e38d5/first-lp-polish-closing-mobile-20260927.png`。最終の公開反映は以下に追記する。
+- 実装コミット `07e7de7fb6ba33e4ad4f2a63b65bdbadde050ddb` の [Pages run 36258651209](https://github.com/yasojima/crystal-clean-home/actions/runs/36258651209) は成功。[公開LP](https://yasojima.github.io/crystal-clean-home/first/) のHTML・2 CSS・JS・画像等33ファイルがHTTP 200で、テキスト改行正規化後またはバイナリで作業版と一致。変更55ファイルを作業正本へ同期し、一致を確認した。
+- 公開版を非表示IABの390px・1440px幅で確認。横あふれ0px、背面画像なし、文章版・出典欄なし、終盤再訴求・/cart/リンク・料金表の列を確認。ローカルではLP内27画像の読込成功、コンソールエラー0件。
+- 公開確認画像は `C:/Users/yasoj/.codex/visualizations/2026/09/23/01a0ce6d-933e-7ce1-a618-a3ac155e38d5/first-lp-polish-public-opening-20260927.png`、同ディレクトリの `first-lp-polish-public-closing-20260927.png` と `first-lp-polish-public-desktop-20260927.png`。
 - 実機のタッチ操作と人間による最終検収は未実施。スマホ幅のブラウザードラッグと実機検収を区別する。実予約・決済・メール送信は行っていない。
 
 ## お問い合わせ見出し帯
