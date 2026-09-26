@@ -36,6 +36,8 @@ def remove_unset_phone_links(text):
 
 def publish_shared_ui(root):
     root = Path(root)
+    from first_lp import publish_first_lp
+    publish_first_lp(root)
     first = root / 'docs/first/index.html'
     if first.exists():
         source = (root / 'source/first/index.html').read_text(encoding='utf-8')
@@ -51,7 +53,7 @@ def publish_shared_ui(root):
     shutil.copytree(component, root / 'docs/brand/shared-ui', dirs_exist_ok=True)
     shutil.copy2(root / 'brand/header/floating.js', root / 'docs/brand/header/floating.js')
     shutil.copy2(root / 'brand/header/cart-mark.svg', root / 'docs/brand/header/cart-mark.svg')
-    footer = (component / 'footer.html').read_text(encoding='utf-8')
+    footer = (component / 'footer.html').read_text(encoding='utf-8').rstrip()
     header = (root / 'brand/header/template.html').read_text(encoding='utf-8')
     area_label = re.search(r'<li class="area"><a[^>]*>([^<]+)</a>', header)[1]
     service_pattern = r'<li class="service">.*?</div>\s*</li>'
