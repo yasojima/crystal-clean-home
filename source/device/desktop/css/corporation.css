@@ -11,8 +11,11 @@ body.cch-corporation .main_contents > h1.cch-corporation-title-band {
 }
 body.cch-corporation .main_contents > h1.cch-corporation-title-band::first-letter { color: #fff; }
 body.cch-corporation .main_contents h2,
-body.cch-corporation .main_contents h3 { color: #06408c; }
-body.cch-corporation .main_contents .sec_corporation-difference { background: #e3f1fc; }
-body.cch-corporation .main_contents .area_corporation-difference .flex,
-body.cch-corporation .main_contents .area_corporation-difference-annotation,
-body.cch-corporation .main_contents .area_wide-range-support li { background: #fff; }
+body.cch-corporation .main_contents h3 { color: #06408c; padding-left: 0; }
+body.cch-corporation .main_contents h2::before,
+body.cch-corporation .main_contents h3::before { content: none; display: none; }
+/* Preserve the original image slots while allowing the replacement scenes to use new framing. */
+body.cch-corporation .area_corporation-lead img.pc_only { width: 100%; aspect-ratio: 2164 / 727; object-fit: cover; }
+body.cch-corporation .area_corporation-lead img.sp_only { width: 100%; aspect-ratio: 1235 / 1274; object-fit: cover; }
+body.cch-corporation .area_corporation-difference .img img,
+body.cch-corporation .area_wide-range-support li img { width: 100%; aspect-ratio: 1508 / 1043; object-fit: cover; }
