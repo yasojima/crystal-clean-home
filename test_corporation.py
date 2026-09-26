@@ -38,6 +38,10 @@ def check():
     assert not any("/wp/wp-content/themes/original_theme/img/corporate_img" in str(img) for img in main.find_all("img"))
     for platform in ("desktop", "mobile"):
         assert (ROOT / f"docs/brand/corporation/{platform}.css").read_bytes() == (ROOT / f"source/device/{platform}/css/corporation.css").read_bytes()
+    from shared_ui import publish_shared_ui
+    publish_shared_ui(ROOT)
+    footer = (ROOT / "brand/shared-ui/footer.html").read_text(encoding="utf-8")
+    assert footer in PAGE.read_text(encoding="utf-8"), "shared footer missing after corporate publishing"
     print("PASS: corporate title, seven paragraphs, 18 images, two stylesheets, idempotent publishing")
 
 
