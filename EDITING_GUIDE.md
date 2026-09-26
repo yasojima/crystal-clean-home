@@ -32,7 +32,7 @@ brandのCSSおよびdocsの元CSSパスは振り分け用。見た目はsource/d
 
 ## 生成と公開
 - 見た目だけ：python device_ui.py。
-- 漫画LP：`python -B first_lp.py`。画像はart/、構成はtemplate.html、最終生成指示はart-assets.json、文章版はart-content.json、比較料金・公式出典はcomparison.json、既存素材・FAQ選択はmaterials.json。端末別first-lp.cssで配置。CTAは共有DOMを画像の余白へ重ね、必要なボタン部分だけリンクにする。既存比較スライダーの共通JSを読み、interaction.jsでキーボードとARIAを補完。LPだけfooterとsec_cvを除去するため追従バーは生成されない。他ページの共有正本は変えない。検証はtest_first_lp.py、test_device_ui.pyと非表示IAB。詳細はFIRST_LP.md。
+- 漫画LP：`python -B first_lp.py`。画像はart/、構成はtemplate.html、最終生成指示はart-assets.json、altと内部保管する会話原稿はart-content.json、比較料金・公式出典はcomparison.json、既存素材・FAQ選択はmaterials.json。端末別first-lp.cssで配置。CTAは共有DOMを使い、冒頭は画像直下、中盤と末尾は画像の余白へ配置する。必要なボタン部分だけリンクにし、最終CTAは/cart/へつなぐ。文章版・比較出典の開閉欄と外側の室内背景は表示しない。FAQ後の再訴求と別形式のBefore／AfterもLPの正本に含める。既存比較スライダーの共通JSを読み、interaction.jsでキーボードとARIAを補完。LPだけfooterとsec_cvを除去するため追従バーは生成されない。他ページの共有正本は変えない。検証はtest_first_lp.py、test_device_ui.pyと非表示IAB。詳細はFIRST_LP.md。
 - 共通UI：python shared_ui.py（末尾でdevice_uiを実行）。
 - お問い合わせの最上部見出し帯：`shared_ui.py` で `/contact/` の上部H1を指定し、PC/SPの色・書体・高さは `source/device/{desktop,mobile}/css/brand/shared-ui/style.css` で管理する。フォーム内H2と入力欄は変更しない。
 - 商品・カート：python reference.py（最後に共通UI・端末分離も生成）。

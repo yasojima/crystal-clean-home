@@ -40,27 +40,26 @@ def render_art(root, out):
             markup = f'<picture><source media="(max-width:600px)" srcset="{BASE}brand/first-lp/art/{path.name}?v={revision}" width="{width}" height="{height}">{markup}</picture>'
         token = name.upper().replace('-', '_')
         tokens['ART_' + token] = markup
-        if item.get('transcript'):
-            paragraphs = ''.join(f'<p>{html.escape(text)}</p>' for text in item['transcript'])
-            tokens['TEXT_' + token] = f'<details class="lp-transcript"><summary>漫画・画像の内容を文章で読む</summary><div>{paragraphs}</div></details>'
     shared = BeautifulSoup((root / 'brand/estimate-cta/template.html').read_text(encoding='utf-8'), 'html.parser')
     button = shared.select_one('a')
     button.attrs.pop('role', None)
     button['class'] = button.get('class', []) + ['lp-estimate-button']
-    button['aria-label'] = '無料お見積り：清掃メニューを選ぶ'
+    button['aria-label'] = '無料お見積もり：清掃メニューを選ぶ'
     button.select_one('.c-double-icon-button__text').clear()
-    button.select_one('.c-double-icon-button__text').append(BeautifulSoup('<span class="btn-free">無料お見積り</span>', 'html.parser'))
+    button.select_one('.c-double-icon-button__text').append(BeautifulSoup('<span class="btn-free">無料お見積もり</span>', 'html.parser'))
     tokens['CTA_BUTTON'] = str(button)
     for name, item in content['ctas'].items():
         art = art_image(root, name, item['alt'])
-        tokens[name.upper().replace('-', '_')] = f'<div class="lp-cta-scene">{art}<div class="lp-cta-action">{button}</div></div>'
+        scene_button = deepcopy(button)
+        if name == 'cta-final':
+            scene_button['href'] = BASE + 'cart/'
+            scene_button['aria-label'] = '無料見積もりを試す：見積もりカートへ'
+            scene_button.select_one('.btn-free').string = '無料見積もりを試す'
+        tokens[name.upper().replace('-', '_')] = f'<div class="lp-cta-scene {name}">{art}<div class="lp-cta-action">{scene_button}</div></div>'
     comparison = json.loads((root / 'brand/first-lp/comparison.json').read_text(encoding='utf-8'))
     heads = ''.join(f'<th scope="col">{html.escape(text)}</th>' for text in comparison['columns'])
     rows = ''.join('<tr><th scope="row">' + html.escape(row[0]) + '</th>' + ''.join(f'<td>{html.escape(value)}</td>' for value in row[1:]) + '</tr>' for row in comparison['rows'])
-    tokens['COMPARISON_TABLE'] = f'<table><caption class="lp-sr">エアコンクリーニングの通常料金比較</caption><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table>'
-    sources = ''.join(f'<li><strong>{html.escape(s["label"])}</strong>：' + '／'.join(f'<a href="{html.escape(url, quote=True)}" target="_blank" rel="noopener noreferrer">{html.escape(label)}</a>' for label, url in s['links']) + f'<p>{html.escape(s["note"])}</p></li>' for s in comparison['sources'])
-    notes = ''.join(f'<p>{html.escape(n)}</p>' for n in comparison['notes'])
-    tokens['COMPARISON_SOURCES'] = f'<details class="lp-transcript lp-comparison-sources"><summary>比較条件・出典（{comparison["checked"]}確認）</summary><div>{notes}<ul>{sources}</ul></div></details>'
+    tokens['COMPARISON_TABLE'] = f'<table><caption class="lp-sr">エアコンクリーニングの料金比較</caption><thead><tr>{heads}</tr></thead><tbody>{rows}</tbody></table>'
     return tokens
 
 
@@ -104,6 +103,17 @@ def render_materials(root, out):
         link_box = panel.select_one('.c-compare-image-tab__link-container')
         if link_box:
             link_box.decompose()
+    closing_cases = []
+    for item in settings['closing_cases']:
+        pair = []
+        for state, label in (('before', 'Before'), ('after', 'After')):
+            path = root / item[state]
+            destination = reused / f'{item["key"]}-{state}.webp'
+            shutil.copy2(path, destination)
+            with Image.open(path) as asset:
+                width, height = asset.size
+            pair.append(f'<figure class="lp-result-{state}"><figcaption>{label}</figcaption><img src="{BASE}brand/first-lp/reused/{destination.name}" width="{width}" height="{height}" loading="lazy" decoding="async" alt="{html.escape(item["category"])} {label}のイメージ"></figure>')
+        closing_cases.append(f'<article class="lp-result-card"><h3>{html.escape(item["category"])}</h3><div class="lp-result-pair">{"".join(pair)}</div></article>')
     voices = []
     for item in settings['reviews']:
         original = review_cards(item['category'], None)
@@ -124,7 +134,7 @@ def render_materials(root, out):
             item.decompose()
     for i, item in enumerate(faq.select('.cch-faq-number'), 1):
         item.string = f'Q{i}.'
-    return {'SERVICE_CARDS': cards, 'CASE_SLIDER': str(tabs), 'REVIEW_CARDS': ''.join(voices),
+    return {'SERVICE_CARDS': cards, 'CASE_SLIDER': str(tabs), 'CLOSING_CASES': ''.join(closing_cases), 'REVIEW_CARDS': ''.join(voices),
             'FLOW': str(flow), 'FAQ': '<div class="lp-faq">' + str(faq.select_one('.cch-faq-list')) + '</div>'}
 
 

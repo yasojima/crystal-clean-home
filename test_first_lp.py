@@ -18,23 +18,21 @@ publish_first_lp(root)
 before = (root/'docs/first/index.html').read_bytes()
 publish_first_lp(root)
 assert before == (root/'docs/first/index.html').read_bytes(), 'Idempotence'
-page = BeautifulSoup(before, 'html.parser')
+page = BeautifulSoup(before.decode('utf-8').replace('\r\n', '\n'), 'html.parser')
 main = page.select_one('#cch-first-lp')
 source = BeautifulSoup((root/'source/first/index.html').read_text(encoding='utf-8'), 'html.parser')
 assert str(main) == str(source.select_one('#cch-first-lp'))
 assert len(main.select('h1')) == 1 and main.h1.img
 assert not page.select('footer, .sec_cv')
 assert not main.select('.lp-bridge, .lp-art-cta, .lp-contact')
-art = json.loads((root/'brand/first-lp/art-content.json').read_text(encoding='utf-8'))
-for entry in art['sections'].values():
-    for copy in entry.get('transcript', []):
-        assert copy in main.get_text()
+assert not main.select('.lp-transcript, .lp-comparison-sources')
+assert not any(d for d in main.select('details') if not d.find_parent(class_='lp-faq'))
 assert len(main.select('.lp-art-section picture source')) == 3
 assert len(main.select('.lp-estimate-button')) == 5
 assert len(main.select('.lp-cta-scene')) == 4
 assert len({i['src'] for i in main.select('.lp-cta-scene>img')}) == 4
-for button in main.select('.lp-estimate-button'):
-    assert button['href'] == '/crystal-clean-home/services/'
+for i, button in enumerate(main.select('.lp-estimate-button')):
+    assert button['href'] == '/crystal-clean-home/' + ('cart/' if i == 4 else 'services/')
     assert not button.select('img,picture')
 assert main.select_one('.lp-scroll-up')['href'] == '#first-introduction'
 ids = [x['id'] for x in page.select('[id]')]
@@ -58,6 +56,12 @@ for img in main.select('picture source'):
         assert image.size == (int(img['width']),int(img['height']))
 data = json.loads((root/'brand/first-lp/materials.json').read_text(encoding='utf-8'))
 assert len(main.select('.js-compare-image')) == 2
+assert before.index(b'id="first-faq"') < before.index(b'id="first-closing"') < before.index(b'lp-cta-scene cta-final')
+assert len(main.select('.lp-result-card')) == 2
+for card, item in zip(main.select('.lp-result-card'), data['closing_cases']):
+    assert [n.get_text() for n in card.select('figcaption')] == ['Before', 'After']
+    for img, state in zip(card.select('img'), ('before', 'after')):
+        assert (root/item[state]).read_bytes() == (root/'docs'/img['src'].removeprefix('/crystal-clean-home/')).read_bytes()
 for i, item in enumerate(data['cases']):
     panel = main.select('.c-tab__panel')[i]
     tab = main.select('.c-tab__button')[i]
@@ -84,6 +88,9 @@ assert [n.get_text() for n in main.select('thead th')] == comparison['columns']
 assert [[n.get_text() for n in row.select('th,td')] for row in main.select('tbody tr')] == comparison['rows']
 assert len(comparison['sources']) == 6
 assert all(s['links'] for s in comparison['sources'])
+assert not any(a['href'].startswith('http') for a in main.select('a[href]'))
+for platform in ('desktop', 'mobile'):
+    assert 'backdrop.webp' not in (root/f'source/device/{platform}/css/first-lp.css').read_text(encoding='utf-8')
 assert not any(word in main.get_text() for word in ('架空の会社','比較用サンプル','仮設定'))
 assert len(page.select('[data-cch-first-lp]')) == 2
 assert len(page.select('[data-cch-lp-script]')) == 2
@@ -91,4 +98,4 @@ assert page.select_one('link[rel=canonical]')['href'] == 'https://yasojima.githu
 assert not main.select('form, iframe')
 for path, digest in untouched.items():
     assert hashlib.sha256(Path(path).read_bytes()).hexdigest() == digest, path
-print('PASS: LP regeneration; source reuse; 5 button-only CTAs; 4 unique scenes; 3 mobile manga; 8 menus; 2 sliders; 3 review entries; 5 steps/FAQ; sourced comparison; LP-only footer removal.')
+print('PASS: LP regeneration; source reuse; 5 button-only CTAs; 4 unique scenes; 3 mobile manga; 8 menus; 2 sliders; 3 review entries; 5 steps/FAQ; internal price sources; closing Before/After and cart CTA; no transcript/source dropdowns or backdrop; LP-only footer removal.')

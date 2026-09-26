@@ -5,39 +5,34 @@
   <div class="lp-opening-actions">
     {{CTA_BUTTON}}
     <nav class="lp-jump" aria-label="このページのご案内">
-      <a href="#first-comic"><span>漫画でわかる清掃</span><b aria-hidden="true">↓</b></a>
-      <a href="#cleaning-approach"><span>大切にすること</span><b aria-hidden="true">↓</b></a>
-      <a href="#first-comparison"><span>料金を比較する</span><b aria-hidden="true">↓</b></a>
-      <a href="#first-flow"><span>ご利用の流れ</span><b aria-hidden="true">↓</b></a>
+      <a href="#first-comic"><span>漫画でわかる清掃</span><b aria-hidden="true"></b></a>
+      <a href="#cleaning-approach"><span>大切にすること</span><b aria-hidden="true"></b></a>
+      <a href="#first-comparison"><span>料金を比較する</span><b aria-hidden="true"></b></a>
+      <a href="#first-flow"><span>ご利用の流れ</span><b aria-hidden="true"></b></a>
     </nav>
   </div>
 </section>
 <section id="first-comic" class="lp-art-section" aria-label="お願いする前に">
   {{ART_STORY_CONSULT}}
-  {{TEXT_STORY_CONSULT}}
 </section>
-<section id="cleaning-approach" class="lp-art-section" aria-label="仕上がりを支える、私たちの6つの姿勢">
+<section id="cleaning-approach" class="lp-art-section" aria-label="仕上がりを支える私たちの6つの姿勢">
   {{ART_QUALITY}}
-  {{TEXT_QUALITY}}
 </section>
 {{CTA_ASSURANCE}}
-<section id="first-work" class="lp-art-section" aria-label="見えないところにも、責任を">
+<section id="first-work" class="lp-art-section" aria-label="見えないところにも責任を">
   {{ART_STORY_WORK}}
-  {{TEXT_STORY_WORK}}
 </section>
-<section id="infection-prevention" class="lp-art-section" aria-label="清潔な道具と、生活環境への配慮">
+<section id="infection-prevention" class="lp-art-section" aria-label="清潔な道具と生活環境への配慮">
   {{ART_HYGIENE_BOARD}}
-  {{TEXT_HYGIENE_BOARD}}
 </section>
 <section id="first-cases" class="lp-support lp-cases-section" aria-labelledby="cases-title">
-  <h2 id="cases-title"><span>動かしてわかる、</span><span>清掃前と清掃後。</span></h2>
-  <p class="lp-control-hint">中央のつまみを左右に動かしてご覧ください。</p>
+  <p class="lp-eyebrow">BEFORE / AFTER</p>
+  <h2 id="cases-title"><span>こびりついた汚れも</span><span><em>ここまできれいに！</em></span></h2>
   {{CASE_SLIDER}}
   <p class="lp-note">清掃前後の変化を説明する生成イメージです。実際の施工写真ではありません。仕上がりは状態により異なります。</p>
 </section>
-<section id="first-finish" class="lp-art-section" aria-label="仕上がりの、その先まで">
+<section id="first-finish" class="lp-art-section" aria-label="仕上がりのその先まで">
   {{ART_STORY_FINISH}}
-  {{TEXT_STORY_FINISH}}
 </section>
 {{CTA_AFTERCARE}}
 <section id="first-voices" class="lp-support lp-voices-section" aria-labelledby="voices-title">
@@ -46,11 +41,10 @@
   <p class="lp-note">各メニューページの掲載文より抜粋。実際のお客様の口コミ・評価ではありません。</p>
 </section>
 <section id="first-comparison" class="lp-comparison-section" aria-labelledby="comparison-title">
-  <div class="lp-comparison-heading"><p>料金も、内容も。納得して選ぶために。</p><h2 id="comparison-title">エアコンクリーニング<br><strong>料金比較表</strong></h2></div>
-  <p class="lp-table-caption">壁掛けタイプ／各1台・税込通常料金</p>
+  <div class="lp-comparison-heading"><p>料金も内容も納得して選ぶために</p><h2 id="comparison-title">エアコンクリーニング<br><strong>料金比較表</strong></h2></div>
+  <p class="lp-table-caption">壁掛けタイプ／各1台・税込料金</p>
   <div class="lp-table-scroll" tabindex="0" role="region" aria-label="当社とA社からE社のエアコンクリーニング料金比較">{{COMPARISON_TABLE}}</div>
-  <p class="lp-control-hint">スマートフォンでは表を左右に動かせます。</p>
-  {{COMPARISON_SOURCES}}
+  <p class="lp-control-hint">表は左右にスクロールできます</p>
 </section>
 <section id="first-services" class="lp-menu-section" aria-label="清掃メニュー">
   {{CTA_MENU}}
@@ -63,6 +57,20 @@
 <section id="first-faq" class="lp-support" aria-labelledby="faq-title">
   <h2 id="faq-title">よくあるご質問</h2>
   {{FAQ}}
+</section>
+<section id="first-closing" class="lp-closing" aria-label="気になる汚れと無料見積もり">
+  <div class="lp-closing-art">{{ART_CLOSING_CONCERNS}}</div>
+  <div class="lp-closing-results">
+    <p class="lp-eyebrow">BEFORE / AFTER</p>
+    <h2><span>気になっていた場所も</span><span><em>こんなにすっきり！</em></span></h2>
+    <div class="lp-results">{{CLOSING_CASES}}</div>
+    <p class="lp-note">清掃前後の変化を説明する生成イメージです。実際の施工写真ではありません。仕上がりは状態により異なります。</p>
+  </div>
+  <div class="lp-estimate-guide">
+    <h2><span>あなたのお住まいなら</span><span>いくらになる？</span></h2>
+    <p>気になるメニューと数量を選んで<br>カートで合計金額を確認できます</p>
+    <ol><li><span>1</span>メニューを選ぶ</li><li><span>2</span>カートに追加</li><li><span>3</span>合計をチェック</li></ol>
+  </div>
 </section>
 {{CTA_FINAL}}
 <div class="lp-end"><a class="lp-scroll-up" href="#first-introduction" aria-label="ファーストビューへ戻る"><span aria-hidden="true"></span></a><p>ページの先頭へ</p></div>

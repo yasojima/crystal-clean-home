@@ -3,16 +3,16 @@
     {
       "key": "aircon-case",
       "category": "エアコンのお手入れ",
-      "title": "内部にたまった汚れまで、状態を確認。",
-      "description": "普段のお手入れでは届きにくい熱交換器も、機種と状態を確かめて清掃範囲をご案内します。",
+      "title": "エアコンの奥の汚れもすっきり",
+      "description": "普段のお手入れでは届きにくい内部まで\n機種と状態に合わせて丁寧に清掃します",
       "before": "source/product-wireframe/assets/aircon/case-1-before.webp",
       "after": "source/product-wireframe/assets/aircon/case-1-after.webp"
     },
     {
       "key": "kitchen-case",
       "category": "レンジフードのお手入れ",
-      "title": "油汚れは、素材に合わせた方法で。",
-      "description": "フィルターなどに付着した油汚れには、材質を確認して洗剤と道具を選び、一つひとつ丁寧に対応します。",
+      "title": "こびりついた油汚れもすっきり",
+      "description": "こびりついた油汚れも一つひとつ丁寧に\n素材に合う洗剤と道具で仕上げます",
       "before": "source/product-wireframe/assets/kitchen/case-1-before.webp",
       "after": "source/product-wireframe/assets/kitchen/case-1-after.webp"
     }
@@ -37,5 +37,19 @@
     4,
     6,
     10
+  ],
+  "closing_cases": [
+    {
+      "key": "closing-sink",
+      "category": "キッチンの水アカ",
+      "before": "source/product-wireframe/assets/pack/case-1-before.webp",
+      "after": "source/product-wireframe/assets/pack/case-1-after.webp"
+    },
+    {
+      "key": "closing-bath",
+      "category": "浴室のこびりついた汚れ",
+      "before": "source/product-wireframe/assets/water/case-1-before.webp",
+      "after": "source/product-wireframe/assets/water/case-1-after.webp"
+    }
   ]
 }

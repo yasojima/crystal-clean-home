@@ -25,14 +25,14 @@
       if (!control || !wrapper || control.hasAttribute('role')) return;
       control.setAttribute('role', 'slider');
       control.setAttribute('tabindex', '0');
-      control.setAttribute('aria-label', '清掃前後の比較位置');
+      control.setAttribute('aria-label', 'BeforeとAfterの比較位置');
       control.setAttribute('aria-valuemin', '0');
       control.setAttribute('aria-valuemax', '100');
       const reflect = () => {
         const match = control.style.left.match(/([\d.]+)%/);
         const value = match ? Math.round(Number(match[1])) : 50;
         control.setAttribute('aria-valuenow', String(value));
-        control.setAttribute('aria-valuetext', '清掃前 ' + value + '％、清掃後 ' + (100 - value) + '％');
+        control.setAttribute('aria-valuetext', 'Before ' + value + '％、After ' + (100 - value) + '％');
       };
       reflect();
       new MutationObserver(reflect).observe(control, {attributes:true, attributeFilter:['style']});
@@ -51,8 +51,8 @@
       });
       const before = view.querySelector('.icv__label-before');
       const after = view.querySelector('.icv__label-after');
-      if (before) before.textContent = '清掃前';
-      if (after) after.textContent = '清掃後';
+      if (before) before.textContent = 'Before';
+      if (after) after.textContent = 'After';
     });
   }
   enhanceSliders();
