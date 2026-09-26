@@ -18,6 +18,7 @@
 |カートの計算・保存|brand/shop/cart-core.js|
 |カートのDOM・操作|brand/reference/checkout.js、checkout.py|
 |商品データ・移植入力|source/osouji、brand/reference/card-copy.json|
+|初めての方へのLP用本文原稿（公開未反映）|source/first/lp-copy.md|
 |初めての方へ・清掃・感染予防の仮統合本文|source/first/index.html の main.main_contents（shared_ui.pyで本編へ反映）|
 |旧基盤本文|source、copy/ja.json|
 |8カテゴリ本編の共通構造・文章|product_wireframe.py、source/product-wireframe/{review,faq,flow,service,option-brief}-copy.json|
