@@ -58,6 +58,7 @@ OLD_SOCIAL_ITEM = re.compile(
 def replace_link(match: re.Match[str]) -> str:
     tag, href = match.group(), match.group(1)
     if not (CONTACT_URL.match(href) or OLD_SOCIAL.match(href) or FORMER_BRAND_URL.match(href)
+            or "osoujihonpo" in href.lower()
             or "via=osoujihonpo" in href.lower()):
         return tag
     tag = tag.replace(f'href="{href}"', 'href="#" data-demo-dialog=""', 1)
@@ -176,14 +177,18 @@ def main() -> None:
                       '</div></section></main>')
             new_text = re.sub(r'<main\b[^>]*>.*?</main>', notice, new_text,
                               count=1, flags=re.I | re.S)
-        if rel == "campaign/180223-01/index.html":
+        if rel in ("campaign/180223-01/index.html", "campaign/osoujihonpo-app/index.html"):
+            is_app = rel == "campaign/osoujihonpo-app/index.html"
             new_text = re.sub(r'<main\b[^>]*>.*?</main>',
                               '<main><section class="l-section l-section--limited u-pt-0 u-pb-96_80">'
-                              '<div class="l-section-inner"><h1 class="c-page-heading">ご予約について</h1>'
-                              '<p class="c-text">デモ表示のため、予約先は未設定です。</p>'
+                              '<div class="l-section-inner"><h1 class="c-page-heading">'
+                              + ("アプリについて" if is_app else "ご予約について") + '</h1>'
+                              '<p class="c-text">デモ表示のため、'
+                              + ("アプリ連携" if is_app else "予約先") + 'は未設定です。</p>'
                               '</div></section></main>', new_text, count=1, flags=re.I | re.S)
             new_text = re.sub(r'<title>.*?</title>',
-                              f'<title>ご予約について | {BRAND}</title>', new_text, count=1, flags=re.I | re.S)
+                              f'<title>{"アプリについて" if is_app else "ご予約について"} | {BRAND}</title>',
+                              new_text, count=1, flags=re.I | re.S)
         if rel in ("campaign/outerwall_complete/index.html", "error/403/index.html",
                    "house-cleaning/room/mattress/index.html"):
             new_text = re.sub(r'[ \t]+(?=\r?\n)', '', new_text)

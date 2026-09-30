@@ -14,7 +14,7 @@ SCRIPT = "/assets/js/demo-contact.js"
 OLD_NAME = re.compile(r"おそうじ本舗|お掃除本舗|オソウジホンポ")
 OLD_PHONE = re.compile(r"0120[-‐‑–—ー ]?24[-‐‑–—ー ]?1000|03[-‐‑–—ー ]?6630[-‐‑–—ー ]?6104|0120241000")
 EMAIL = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
-FORMER_LINK = re.compile(r"(?:osoujihonpo\.com|osoujihonpo-fc\.com|hitowa\.com|lin\.ee/|com\.osoujihonpo\.customer)", re.I)
+FORMER_LINK = re.compile(r"(?:osoujihonpo|hitowa\.com|lin\.ee/)", re.I)
 
 
 class Page(HTMLParser):

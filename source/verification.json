@@ -1,9 +1,9 @@
 {
   "source": "https://www.osoujihonpo.com",
-  "verified_at": "2026-09-30T19:56:43.715012+00:00",
+  "verified_at": "2026-09-30T20:02:25.454793+00:00",
   "verified_files": 2177,
   "html_files": 415,
-  "total_bytes": 180311187,
+  "total_bytes": 180290124,
   "matches_manifest": true,
   "unchanged_source_files": 1745,
   "local_authored_files": 6,
@@ -146,7 +146,7 @@
     "https://www.osoujihonpo.com/shop/detail/4811/": "HTTP 404"
   },
   "response_conflicts": [],
-  "committed_git_blobs_verified": true,
+  "committed_git_blobs_verified": false,
   "external_resources_remain_external": [
     "http://0120157257.com/",
     "http://btoptout.yahoo.co.jp/optout/preferences.html",
@@ -2209,6 +2209,5 @@
     "https://www.youtube.com/watch?v=4tFyUCUWd6I",
     "https://x.com/osoujihonpo?ref_src=twsrc%5Etfw",
     "https://zucks.co.jp/optout/"
-  ],
-  "verified_git_source_tree": "ea5721e908c5c97195ddb7eaab008e7bdc46112a"
+  ]
 }

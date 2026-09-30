@@ -702,7 +702,7 @@
                           <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_1.webp" alt="" width="280" height="186" loading="lazy">
                           <p class="pickup-card__text">キレイが続く！新発想のコーティング技術</p>
                         </a>
-                        <a class="pickup-card swiper-slide" href="/campaign/osoujihonpo-app/">
+                        <a class="pickup-card swiper-slide" href="#" data-demo-dialog="">
                           <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/img-app750.webp" alt="" width="280" height="186" loading="lazy">
                           <p class="pickup-card__text">【無料】クリスタルクリーンホームの公式アプリ</p>
                         </a>
@@ -995,7 +995,7 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/office/">店舗・オフィスクリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/business/">法人のお客様へ</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="#" data-demo-dialog="">クリスタルクリーンホームFCパートナー募集</a></li>
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://osoujihonpo.saiyo-job.jp/4lcj/recruit/" target="_blank" rel="noopener">店舗求人情報</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="#" data-demo-dialog="">店舗求人情報</a></li>
 </ul>
 </div>
 </div>
@@ -1099,7 +1099,7 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/office/">店舗・オフィスクリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/business/">法人のお客様へ</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="#" data-demo-dialog="">クリスタルクリーンホームFCパートナー募集</a></li>
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://osoujihonpo.saiyo-job.jp/4lcj/recruit/" target="_blank" rel="noopener">店舗求人情報</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="#" data-demo-dialog="">店舗求人情報</a></li>
 </ul>
 <ul class="c-footer-sns">
 </ul>

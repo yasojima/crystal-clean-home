@@ -12,9 +12,11 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://yasojima.github.io"
 CATEGORIES = ["aircon", "pack", "water", "washer", "kitchen", "room", "coating", "others"]
 PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
-         "/house-cleaning/aircon/wall/", "/sitemap.xml",
+         "/house-cleaning/aircon/wall/", "/contact/", "/policy/", "/sitemap.xml",
          "/assets/css/cart/complete.css", "/assets/js/common.js", "/assets/js/viewport-hud.js",
-         "/favicon/apple-touch-icon-114x114.png",
+         "/assets/js/demo-contact.js", "/favicon/crystal-clean-home.svg",
+         "/assets/images/crystal-clean-home.png",
+         "/assets/images/footer/footer-phone-demo-sp.svg",
          "/assets/images/top/kv/slider-pc_business.jpg",
          "/assets/images/header/estimate.svg",
          "/assets/font/campaign/font-awesome/fontawesome-webfont.woff2"]

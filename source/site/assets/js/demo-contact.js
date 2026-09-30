@@ -2,7 +2,7 @@
   'use strict';
 
   const message = 'デモ表示のためリンク未設定です。';
-  const blockedPath = /^\/(?:contact(?:\/|$)|business\/contact(?:\/|$)|campaign\/180223-01(?:\/|$)|reservation(?:\/|$)|reserve(?:\/|$)|booking(?:\/|$)|carts\/add_product_from_campaign(?:\/|$))/i;
+  const blockedPath = /^\/(?:contact(?:\/|$)|business\/contact(?:\/|$)|campaign\/(?:180223-01|osoujihonpo-app)(?:\/|$)|reservation(?:\/|$)|reserve(?:\/|$)|booking(?:\/|$)|carts\/add_product_from_campaign(?:\/|$))/i;
   const blockedHost = /^(?:form\.osoujihonpo\.com|reg18\.smp\.ne\.jp)$/i;
   const submitLabel = /(?:予約|送信|申し込|申込|注文|購入|資料請求|今すぐ電話)/;
 
