@@ -13,7 +13,7 @@ ORIGIN = "https://yasojima.github.io"
 CATEGORIES = ["aircon", "pack", "water", "washer", "kitchen", "room", "coating", "others"]
 PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
          "/house-cleaning/aircon/wall/", "/sitemap.xml",
-         "/assets/css/cart/complete.css", "/assets/js/common.js",
+         "/assets/css/cart/complete.css", "/assets/js/common.js", "/assets/js/viewport-hud.js",
          "/favicon/apple-touch-icon-114x114.png",
          "/assets/images/top/kv/slider-pc_business.jpg",
          "/assets/images/header/estimate.svg",

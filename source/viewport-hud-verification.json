@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-01",
+  "all_html_documents": 413,
+  "shared_script": "/assets/js/viewport-hud.js",
+  "local_checks": [
+    {
+      "width": 390,
+      "height": 844,
+      "label": "MOBILE",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    },
+    {
+      "width": 767,
+      "height": 700,
+      "label": "MOBILE",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    },
+    {
+      "width": 768,
+      "height": 700,
+      "label": "TABLET",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    },
+    {
+      "width": 1023,
+      "height": 700,
+      "label": "TABLET",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    },
+    {
+      "width": 1024,
+      "height": 700,
+      "label": "DESKTOP",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "label": "DESKTOP",
+      "right_gap_px": 1,
+      "bottom_gap_px": 1,
+      "hud_height_px": 18,
+      "pointer_events": "none",
+      "hit_test_passes_through": true,
+      "instances": 1
+    }
+  ],
+  "same_page_resize_verified": true,
+  "product_detail_and_scrolled_position_verified": true,
+  "public_verified": false
+}
