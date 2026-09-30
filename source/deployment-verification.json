@@ -1,15 +1,15 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-09-30T20:06:05.476326+00:00",
+  "verified_at": "2026-09-30T20:14:09.377492+00:00",
   "pages_build_status": "built",
-  "pages_commit": "29ad77e6abfabc9ed73c3131d20c51aab6e53baa",
-  "source_tree": "6821fad70da334da764a852e7d816fa6ebdfdbfe",
+  "pages_commit": "ab3012edfb58d5842cbe9aec567619856c9e002f",
+  "source_tree": "b3261b4072d626a8b44b78f176db5872feac1668",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "url": "https://yasojima.github.io/",
-      "sha256": "5b5234266a136da55ec327657841980d32b7a8e450f097b8e5faf9e309639d66",
+      "sha256": "11598cf4c3020bfa9b34c5ed76b3aa3d1338e45ec6c1ebaefe124a73e5aaa9cf",
       "passed": true
     },
     {
@@ -198,6 +198,31 @@
     },
     {
       "path": "/campaign/senzai02/",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/assets/images/logo.webp",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/assets/images/top/pickup/img-app750.webp",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/assets/images/campaign/aircon-all-year/line_bnr.webp",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/assets/images/campaign/aircon-multiple-units/line_bnr.webp",
       "status": 404,
       "passed": true
     }

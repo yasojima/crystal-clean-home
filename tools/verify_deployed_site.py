@@ -21,7 +21,11 @@ PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
          "/assets/images/header/estimate.svg",
          "/assets/font/campaign/font-awesome/fontawesome-webfont.woff2"]
 EXCLUDED = ["/shop/", "/area/chiba-kashiwa/", "/guide/", "/promotion/",
-            "/kajitatsu/", "/gift/", "/campaign/senzai02/"]
+            "/kajitatsu/", "/gift/", "/campaign/senzai02/",
+            "/assets/images/logo.webp", "/favicon.ico",
+            "/assets/images/top/pickup/img-app750.webp",
+            "/assets/images/campaign/aircon-all-year/line_bnr.webp",
+            "/assets/images/campaign/aircon-multiple-units/line_bnr.webp"]
 
 
 def check(path):
