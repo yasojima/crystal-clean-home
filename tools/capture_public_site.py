@@ -15,6 +15,7 @@ from pathlib import Path
 
 from lxml import etree, html
 import requests
+from site_scope import excluded_url
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source' / 'site'
@@ -126,6 +127,8 @@ def enqueue_asset(value: str, base: str) -> None:
 
 
 def enqueue_page(value: str, base: str) -> None:
+    if excluded_url(value, base):
+        return
     u = normalize(value, base)
     if not u or u in seen or u in failed:
         return

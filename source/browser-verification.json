@@ -1,63 +1,81 @@
 {
   "origin": "http://127.0.0.1:8769/",
-  "date": "2026-10-01",
-  "scope": "Local frontend snapshot; representative routes only, not a visual inspection of every page",
+  "verified_at": "2026-09-30T18:44:22.134469+00:00",
+  "scope": "After approved section removal; representative frontend routes only",
+  "viewport_tests": {
+    "mobile": [
+      390,
+      844
+    ],
+    "desktop": [
+      1440,
+      900
+    ]
+  },
   "categories": [
     {
       "path": "/house-cleaning/aircon/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/pack/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/water/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/washer/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/kitchen/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/room/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/coating/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     },
     {
       "path": "/house-cleaning/others/",
       "mobile_client_width": 375,
       "desktop_client_width": 1425,
       "horizontal_overflow": false,
-      "first_viewport_broken_images": []
+      "first_viewport_broken_images": [],
+      "excluded_navigation_links": 0
     }
   ],
   "additional_checks": [
@@ -66,31 +84,17 @@
       "checks": [
         "desktop display",
         "mobile display",
-        "mobile menu opens and closes"
+        "mobile menu opens and closes",
+        "mobile footer remains visible",
+        "excluded groups absent from menu and footer"
       ]
     },
     {
       "path": "/house-cleaning/aircon/wall/",
       "checks": [
-        "mobile display",
-        "first viewport images loaded",
-        "no horizontal overflow"
-      ]
-    },
-    {
-      "path": "/area/chiba-kashiwa/",
-      "checks": [
-        "desktop display",
-        "first viewport images loaded",
-        "no horizontal overflow"
-      ]
-    },
-    {
-      "path": "/shop/detail/10205/",
-      "checks": [
         "desktop and mobile display",
-        "first viewport images loaded",
-        "no horizontal overflow"
+        "no horizontal overflow",
+        "mobile first viewport images loaded"
       ]
     }
   ],
@@ -100,18 +104,5 @@
     "all-page visual acceptance",
     "host-dependent external services",
     "public website deployment"
-  ],
-  "preview_command": "python tools/serve_public_site.py",
-  "preview_server_verified": {
-    "response_byte_checks": [
-      "/",
-      "/house-cleaning/aircon/",
-      "/shop/detail/10205/"
-    ],
-    "response_bytes_match_manifest": true,
-    "canonical_path_redirect_verified": true,
-    "mobile_home_client_width": 375,
-    "mobile_home_horizontal_overflow": false,
-    "mobile_home_first_viewport_broken_images": []
-  }
+  ]
 }

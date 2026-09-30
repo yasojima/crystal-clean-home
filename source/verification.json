@@ -1,13 +1,15 @@
 {
   "source": "https://www.osoujihonpo.com",
-  "verified_at": "2026-09-30T17:51:27.213941+00:00",
-  "verified_files": 15012,
-  "html_files": 5096,
-  "total_bytes": 3464534102,
-  "unmodified": true,
+  "verified_at": "2026-09-30T18:35:39.632573+00:00",
+  "verified_files": 2201,
+  "html_files": 415,
+  "total_bytes": 179347249,
+  "matches_manifest": true,
+  "unchanged_source_files": 1813,
+  "approved_scope_edited_files": 388,
   "integrity_errors": [],
-  "sitemap_urls": 5069,
-  "sitemap_saved": 5067,
+  "sitemap_urls": 408,
+  "sitemap_saved": 406,
   "sitemap_unavailable": {
     "https://www.osoujihonpo.com/campaign/super-sale_2025/": "HTTP 404",
     "https://www.osoujihonpo.com/error/": "HTTP 403"
@@ -19,7 +21,7 @@
     "HTTP 403": 1
   },
   "over_100_MiB_files": [],
-  "within_GitHub_Pages_1GB": false,
+  "within_GitHub_Pages_1GB": true,
   "unavailable_source_urls": {
     "https://www.osoujihonpo.com/assets/images/common-parts/illust/office-uv-flooring.svg": "HTTP 404",
     "https://www.osoujihonpo.com/error/": "HTTP 403",
@@ -143,7 +145,7 @@
     "https://www.osoujihonpo.com/shop/detail/4811/": "HTTP 404"
   },
   "response_conflicts": [],
-  "committed_git_blobs_verified": true,
+  "committed_git_blobs_verified": false,
   "external_resources_remain_external": [
     "http://0120157257.com/",
     "http://btoptout.yahoo.co.jp/optout/preferences.html",
@@ -2206,6 +2208,5 @@
     "https://www.youtube.com/watch?v=4tFyUCUWd6I",
     "https://x.com/osoujihonpo?ref_src=twsrc%5Etfw",
     "https://zucks.co.jp/optout/"
-  ],
-  "verified_git_source_tree": "8d3dadc70b3c56249debc59968c9a575fc4f89a2"
+  ]
 }
