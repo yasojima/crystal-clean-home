@@ -1,12 +1,13 @@
 {
   "source": "https://www.osoujihonpo.com",
-  "verified_at": "2026-09-30T18:46:20.046318+00:00",
-  "verified_files": 2201,
+  "verified_at": "2026-09-30T19:00:11.848220+00:00",
+  "verified_files": 2202,
   "html_files": 415,
-  "total_bytes": 179347249,
+  "total_bytes": 179372103,
   "matches_manifest": true,
-  "unchanged_source_files": 1813,
-  "approved_scope_edited_files": 388,
+  "unchanged_source_files": 1787,
+  "local_authored_files": 1,
+  "approved_scope_edited_files": 414,
   "integrity_errors": [],
   "sitemap_urls": 408,
   "sitemap_saved": 406,
@@ -2209,5 +2210,5 @@
     "https://x.com/osoujihonpo?ref_src=twsrc%5Etfw",
     "https://zucks.co.jp/optout/"
   ],
-  "verified_git_source_tree": "0de21dcad7636b899fa92279949f1d729015079b"
+  "verified_git_source_tree": "cefd8050bfb241d1dcd7928ef564ead423839a22"
 }
