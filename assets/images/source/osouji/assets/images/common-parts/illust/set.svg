@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 100">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1.75px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #005aa3;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-3 {
+        fill: #005aa3;
+      }
+
+      .cls-2 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="26.51" y="23.32" width="38.73" height="18.32"/>
+    <rect class="cls-1" x="65.24" y="28.28" width="37.43" height="13.37"/>
+  </g>
+  <polygon class="cls-2" points="105.89 41.65 21.98 41.65 32.01 88.61 96.1 88.61 105.89 41.65"/>
+  <g>
+    <line class="cls-1" x1="34.83" y1="42.87" x2="34.83" y2="88.61"/>
+    <line class="cls-1" x1="42.1" y1="42.87" x2="42.1" y2="88.61"/>
+    <line class="cls-1" x1="49.38" y1="42.87" x2="49.38" y2="88.61"/>
+    <line class="cls-1" x1="56.66" y1="42.87" x2="56.66" y2="88.61"/>
+    <line class="cls-1" x1="63.94" y1="42.87" x2="63.94" y2="88.61"/>
+    <line class="cls-1" x1="71.21" y1="42.87" x2="71.21" y2="88.61"/>
+    <line class="cls-1" x1="78.49" y1="42.87" x2="78.49" y2="88.61"/>
+    <line class="cls-1" x1="85.77" y1="42.87" x2="85.77" y2="88.61"/>
+    <line class="cls-1" x1="93.04" y1="42.87" x2="93.04" y2="88.61"/>
+  </g>
+  <line class="cls-1" x1="25.21" y1="52.65" x2="102.66" y2="52.65"/>
+  <line class="cls-1" x1="26.51" y1="64.39" x2="101.36" y2="64.39"/>
+  <line class="cls-1" x1="28.3" y1="76.14" x2="99.57" y2="76.14"/>
+  <line class="cls-1" x1="28.95" y1="76.14" x2="98.92" y2="76.14"/>
+  <line class="cls-2" x1="15.38" y1="41.65" x2="112.49" y2="41.65"/>
+  <g>
+    <rect class="cls-3" x="34.22" y="88.61" width="15.16" height="5.95"/>
+    <rect class="cls-3" x="78.49" y="88.61" width="15.16" height="5.95"/>
+  </g>
+  <rect class="cls-3" x="49.38" y="52.65" width="29.11" height="11.74"/>
+</svg>
