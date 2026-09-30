@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="content-language" content="ja">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="referrer" content="no-referrer-when-downgrade">
+  <title>ハウスクリーニング・お掃除のことならおそうじ本舗</title>
+  <meta name="description" content="ハウスクリーニングのおそうじ本舗は全国で展開中！ご家庭・店舗／オフィスのあらゆる箇所を掃除のプロが徹底的に汚れを除去。まずは無料で訪問・お見積りいたします。">
+  <meta name="keywords" content="ハウスクリーニング,エアコン,浴室,キッチン,換気扇,洗濯機,トイレ,掃除,清掃,家庭,店舗,オフィス,おそうじ本舗">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="おそうじ本舗">
+  <meta property="og:type" content="article">
+      <meta property="og:image" content="https://www.osoujihonpo.com/assets/images/ogp.jpg">
+    <meta property="og:url" content="">
+  <meta property="og:title" content="ハウスクリーニング・お掃除のことならおそうじ本舗">
+  <meta property="og:description" content="ハウスクリーニングのおそうじ本舗は全国で展開中！ご家庭・店舗／オフィスのあらゆる箇所を掃除のプロが徹底的に汚れを除去。まずは無料で訪問・お見積りいたします。">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@osoujihonpo">
+  <meta name="msapplication-TileColor" content="#2d88ef">
+  <meta name="msapplication-TileImage" content="/assets/images/common-parts/windows/mstile-144x144.png">
+  <meta name="thumbnail" content="/assets/images/common-parts/windows/meta-thumbnail.jpg">
+    <link rel="canonical" href="https://www.osoujihonpo.com/">
+  <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon-180x180.png">
+  <link rel="manifest" href="/favicon/manifest.json">
+<!-- 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" as="style">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" media="print">
+ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" as="style" fetchpriority="high">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" media="print" onload='this.media="all"'>
+  <link rel="stylesheet" href="/assets/css/common.css?241126">
+  <script src="/assets/js/common.js" defer=""></script>
+  <link rel="stylesheet" href="/assets/css/top.css?260210"><script src="/assets/js/top.js?260210" defer=""></script><script type="text/javascript" src="/assets/ganalytics.php?v=1"></script>
+  <script type="text/javascript">
+    (function u(){
+      var u=document.createElement("script");
+      u.type="text/javascript",u.async=true,u.src="//api.u-komi.com/c27f9aab6aaf9d1b11e57e3b40442f2453fe1a1d6ad92dd7c81cdeeee0504d5f/widget.js";
+      var k=document.getElementsByTagName("script")[0];k.parentNode.insertBefore(u,k)
+    })();
+  </script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-MQTJBZ5');</script>
+  <!-- End Google Tag Manager -->
+<!-- ① Organization スキーマ：企業・ブランド情報をAIに伝える -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "おそうじ本舗",
+  "url": "https://www.osoujihonpo.com/",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://www.osoujihonpo.com/assets/images/logo.webp"
+  },
+  "description": "ハウスクリーニング・お掃除のことならおそうじ本舗。エアコン、浴室、洗濯機、キッチンなど全国のプロが対応します。",
+  "sameAs": [
+    "https://twitter.com/osoujihonpo",
+    "https://www.facebook.com/osoujihonpo.official",
+    "https://www.instagram.com/osoujihonpo_official/",
+    "https://lin.ee/4PFvSTR"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://www.osoujihonpo.com/contact/",
+    "contactType": "customer service",
+    "availableLanguage": "Japanese"
+  },
+  "areaServed": "JP"
+}
+</script>
+</head>
+<body>
+      <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQTJBZ5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <header class="c-header">
+<h1 class="c-header__logo c-header-logo"><a class="c-header-logo__link" href="/"> <img class="c-flex-image" src="/assets/images/logo.webp" alt="おそうじ本舗" width="160" height="55"></a></h1>
+<nav class="c-header__navigation" aria-label="主要ページメニュー">
+<ul class="c-main-menu">
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/about/">おそうじ本舗について</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/aircon/">エアコン</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/pack/">パックサービス</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/water/">水まわり</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/washer/">洗濯機</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/kitchen/">キッチン</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/room/">お部屋</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/coating/">コーティング</a></li>
+<li class="c-main-menu__item"><a class="c-main-menu__link" href="/house-cleaning/others/">その他</a></li>
+</ul>
+</nav>
+<div class="c-header__icons"><button class="c-header__cart js-popup-opener" type="button" aria-label="お見積り概要を表示する"> <img class="c-flex-image" src="/assets/images/header/estimate.svg" alt="お見積り" width="48" height="42"></button>
+<div class="c-header__cart-popup c-cart-popup js-popup"><a class="c-cart-popup__link" href="/cart">カートの中身を確認する</a>
+<p class="c-cart-popup__overview" id="js-header-total-count">現在<span>0</span>点のメニューが入っています。</p>
+<p class="c-cart-popup__price" id="js-header-total-amount">合計金額 &yen;<span>0</span>（税込）</p>
+</div>
+<button class="c-header__menu js-menu-modal-opener" type="button" data-target-modal-id="menu" aria-label="メニューを開く"> <picture class="c-flex-picture"> <source srcset="/assets/images/header/menu-open_sp.webp" width="52" height="52" media="screen and (max-width: 767.98px)"> <img class="c-flex-image" src="/assets/images/header/menu-open_pc.webp" alt="Menu" width="72" height="72"> </picture> </button></div>
+<div class="c-menu-modal js-menu-modal" id="menu">
+<div class="c-menu-modal__backdrop js-menu-modal-closer">
+<div class="c-menu-modal__main-content js-menu-modal-content"><button class="c-menu-modal__closer js-menu-modal-closer" type="button" aria-label="メニューを閉じる"> <img class="c-flex-image" src="/assets/images/header/menu-close.webp" alt="CLOSE" width="58" height="58"></button><nav class="c-menu-modal__site-menu c-site-menu" aria-label="サイト全体メニュー"><!-- <p class="c-site-menu__category">ハウスクリーニング</p> -->
+<ul class="c-site-menu__bold-links c-bold-links c-bold-links--services">
+<li class="c-bold-links__item"><a class="c-bold-links__link" href="/house-cleaning/">ハウスクリーニング</a></li>
+</ul>
+<ul class="c-site-menu__house-cleaning c-house-cleaning-menu"><!-- <li class="c-house-cleaning-menu__item"><a class="c-site-menu-link" href="/house-cleaning/">ハウスクリーニングメニュー一覧</a></li> -->
+<li class="c-house-cleaning-menu__item"><a class="c-house-cleaning-menu__link c-site-menu-link c-site-menu-link--without-icon" href="/house-cleaning/aircon/">エアコンクリーニング</a>
+<ul class="c-house-cleaning-menu__aircon-details c-aircon-details">
+<li class="c-aircon-details__item"><a class="c-aircon-details__link" href="/house-cleaning/aircon/wall/"> <img class="c-flex-image c-aircon-details__image" src="/assets/images/header/aircon-wall.webp" alt="" width="70" height="70" loading="lazy">壁掛けタイプ</a></li>
+<li class="c-aircon-details__item"><a class="c-aircon-details__link" href="/house-cleaning/aircon/ceil/"> <img class="c-flex-image c-aircon-details__image" src="/assets/images/header/aircon-ceil.webp" alt="" width="70" height="70" loading="lazy">天井埋込タイプ</a></li>
+<li class="c-aircon-details__item"><a class="c-aircon-details__link" href="/campaign/aircon-multiple-units/"> <img class="c-flex-image c-aircon-details__image" src="/assets/images/header/aircon-multiple-units.webp" alt="" width="70" height="70" loading="lazy">まとめ割</a></li>
+</ul>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/pack/">パックサービス</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_2" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_2">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/pack/move/">お引越し前・後<br>まるごとクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/pack/entirety/">在宅<br>まるごとクリーニング</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/water/">水まわりのお掃除</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_3" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_3">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/bathroom/">風呂・浴室クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/pipe/">浴室（風呂釜）の追い焚き配管除菌クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/ulblo/">ウルブロ取り付け</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/drier/">浴室乾燥機クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/toilet/">トイレクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/water/lavatory/">洗面台クリーニング</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/washer/">洗濯機クリーニング</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_4" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_4">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/washer/top/">縦型洗濯機クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/washer/front/">ドラム式洗濯機クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/washer/side/">ドラム式乾燥機能分解クリーニング</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/kitchen/">キッチンのお掃除</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_5" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_5">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/kitchen/fan/">レンジフード・<br>換気扇クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/kitchen/kitchen/">キッチンクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/kitchen/rei/">冷蔵庫クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/kitchen/dishwasher/">食器洗い乾燥機クリーニング</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/room/">お部屋のお掃除</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_6" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_6">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/flooring/">フローリングクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/mattress/">マットレス除菌クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/sofa/">ソファ・椅子クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/carpet/">カーペットクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/wallpaper-dyeing/">壁紙染色</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/cloth/">壁紙クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/glass/">ガラス・サッシクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/white-wood/">白木クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/tatami/">畳除菌クリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/entrance/">玄関床クリーニング＆コーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/duct/">換気ダクトクリーニング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/room/air-cleaner/">空気洗浄機クリーニング</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/coating/">コーティング</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_7" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_7">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/op-coating/">お手入れ簡単コーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/bathroom/">浴室リニューアルコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/kitchen/">キッチンリニューアルコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/toilet/">トイレリニューアルコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/lavatory/">洗面台リニューアルコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/floor/">フロアコーティング（1帖あたり）</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/uv-coating/">UVコーティング（1帖あたり）</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/repair/">フローリング補修（リペア）</a></li>
+</ul>
+</div>
+</li>
+<li class="c-house-cleaning-menu__item">
+<div class="c-menu-accordion js-accordion" data-simple-type="true">
+<p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/others/">その他のお掃除</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_8" type="button"></button></p>
+<ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_8">
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/others/outerwall/">外壁手洗い洗浄</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/others/photocatalyst/">光触媒抗菌コーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/others/exterior/">ベランダ・外回り高圧洗浄</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/others/grave/">お墓のお掃除</a></li>
+</ul>
+</div>
+</li>
+<!-- <li class="c-house-cleaning-menu__item"><a class="c-site-menu-link" href="/house-cleaning/op-coating/">お手入れ簡単コーティング</a></li> --></ul>
+<ul class="c-site-menu__bold-links c-bold-links c-bold-links--services">
+<li class="c-bold-links__item"><a class="c-bold-links__link" href="/shop/">店舗一覧</a></li>
+</ul>
+<p class="c-site-menu__category c-site-menu__category--underline" data-guide="">ご利用ガイド</p>
+<ul>
+<li><a class="c-site-menu-link" href="/about/">おそうじ本舗のハウスクリーニングとは</a></li>
+<li><a class="c-site-menu-link" href="/beginner/">はじめての方へ</a></li>
+<li><a class="c-site-menu-link" href="/house-cleaning/faq/">よくあるご質問</a></li>
+<li><a class="c-site-menu-link" href="/sitepolicy/">サイトのご利用にあたって</a></li>
+<li><a class="c-site-menu-link" href="/eco/">アレルギーをお持ちのお客様へ</a></li>
+<li><a class="c-site-menu-link" href="/info/">お知らせ</a></li>
+<li><a class="c-site-menu-link" href="/contact/">お問い合わせ</a></li>
+</ul>
+<p class="c-site-menu__category c-site-menu__category--underline" data-guide="">お役立ち情報</p>
+<ul>
+<li><a class="c-site-menu-link" href="/promotion/">動画コンテンツ</a></li>
+<li><a class="c-site-menu-link" href="/guide/">自分でできるお掃除術</a></li>
+</ul>
+<p class="c-site-menu__category c-site-menu__category--underline" data-guide="">関連サービス</p>
+<ul>
+<li><a class="c-site-menu-link" href="/kajitatsu/">家事代行サービス</a></li>
+<li><a class="c-site-menu-link" href="https://partner.racn.jp/estimate/rakuracn/0001/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=huyouhin" target="_blank" rel="noopener">不用品回収サービス</a></li>
+<li><a class="c-site-menu-link" href="https://partner.racn.jp/estimate/rakuracn/0002/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=installation" target="_blank" rel="noopener">住宅設備等の取替・交換サービス</a></li>
+<li><a class="c-site-menu-link" href="https://partner.racn.jp/estimate/rakuracn/home/lp" target="_blank" rel="noopener">楽ラクーン</a></li>
+<li><a class="c-site-menu-link" href="/gift/">ハウスクリーニングギフトカード</a></li>
+</ul>
+<p class="c-site-menu__category c-site-menu__category--underline" data-others="">ビジネス・法人向け</p>
+<ul>
+<li><a class="c-site-menu-link c-site-menu-link--gray" href="/office/">店舗・オフィスクリーニング</a></li>
+<li><a class="c-site-menu-link c-site-menu-link--gray" href="/business/">法人のお客様へ</a></li>
+<li><a class="c-site-menu-link c-site-menu-link--gray" href="https://www.osoujihonpo-fc.com" target="_blank" rel="noopener">おそうじ本舗FCパートナー募集</a></li>
+</ul>
+<ul class="c-site-menu__sns c-site-menu-sns">
+<li class="c-site-menu-sns__item"><a class="c-site-menu-sns__link" href="https://lin.ee/4PFvSTR" target="_blank" rel="noopener"> <img class="c-flex-image" src="/assets/images/common-parts/sns-icon/icon-line.webp" alt="line" width="38" height="38" loading="lazy"></a></li>
+<li class="c-site-menu-sns__item"><a class="c-site-menu-sns__link" href="https://www.instagram.com/osoujihonpo_official/" target="_blank" rel="noopener"> <img class="c-flex-image" src="/assets/images/common-parts/sns-icon/icon-instagram.webp" alt="instagram" width="38" height="38" loading="lazy"></a></li>
+<li class="c-site-menu-sns__item"><a class="c-site-menu-sns__link" href="https://www.youtube.com/@osoujihonpo1000/" target="_blank" rel="noopener"> <img class="c-flex-image" src="/assets/images/common-parts/sns-icon/icon-youtube.webp" alt="youtube" width="38" height="38" loading="lazy"></a></li>
+<li class="c-site-menu-sns__item"><a class="c-site-menu-sns__link" href="https://twitter.com/osoujihonpo" target="_blank" rel="noopener"> <img class="c-flex-image" src="/assets/images/common-parts/sns-icon/icon-x.webp" alt="twitter" width="38" height="38" loading="lazy"></a></li>
+<li class="c-site-menu-sns__item"><a class="c-site-menu-sns__link" href="https://www.facebook.com/osoujihonpo.official" target="_blank" rel="noopener"> <img class="c-flex-image" src="/assets/images/common-parts/sns-icon/icon-facebook.webp" alt="facebook" width="38" height="38" loading="lazy"></a></li>
+</ul>
+</nav></div>
+</div>
+</div>
+</header>
+  <main>
+  <div class="mv">
+    <div class="mv__inner swiper" id="js-mv-slider">
+      <div class="mv__slides swiper-wrapper">
+                <a id="Top_Slide_bn1" class="mv__slide swiper-slide" href="/campaign/super-sale/">
+                <picture class="c-flex-picture">
+                    <source srcset="/assets/images/top/kv/slider-sp_260901-01.webp" width="375" height="320" media="screen and (max-width: 767.98px)">
+                    <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/kv/slider-pc_260901-01.webp" alt="【SALE】定番メニューが一カ所あたり最大2200円OFF" width="1024" height="432" loading="eager">
+                </picture>
+              </a>
+                <a id="Top_Slide_bn2" class="mv__slide swiper-slide" href="/campaign/aircon-multiple-units/">
+                <picture class="c-flex-picture">
+                    <source srcset="/assets/images/top/kv/slider-sp_aircon-multiple-units_250301.webp" width="375" height="320" media="screen and (max-width: 767.98px)">
+                    <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/kv/slider-pc_aircon-multiple-units_250301.webp" alt="エアコンクリーニングまとめ割" width="1024" height="432" loading="eager">
+                </picture>
+              </a>
+                <a id="Top_Slide_bn3" class="mv__slide swiper-slide" href="/campaign/cm2026/">
+                <picture class="c-flex-picture">
+                    <source srcset="/assets/top_banner_tvcm2026_sp.webp" width="375" height="320" media="screen and (max-width: 767.98px)">
+                    <img class="c-flex-image c-flex-image--stretched" src="/assets/top_banner_tvcm2026_pc.webp" alt="TVCM2026 放送開始" width="1024" height="432" loading="eager">
+                </picture>
+              </a>
+                <a id="Top_Slide_bn4" class="mv__slide swiper-slide" href="/business/">
+                <picture class="c-flex-picture">
+                    <source srcset="/assets/images/top/kv/slider-sp_business.jpg" width="375" height="320" media="screen and (max-width: 767.98px)">
+                    <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/kv/slider-pc_business.jpg" alt="slider-pc_business" width="1024" height="432" loading="eager">
+                </picture>
+              </a>
+                <a id="Top_Slide_bn5" class="mv__slide swiper-slide" href="/kajitatsu/">
+                <picture class="c-flex-picture">
+                    <source srcset="/assets/images/top/kv/slider_sp_kaji_260213.webp" width="375" height="320" media="screen and (max-width: 767.98px)">
+                    <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/kv/slider_pc_kaji_260213.webp" alt="" width="1024" height="432" loading="eager">
+                </picture>
+              </a>
+      </div>
+      <button class="mv__button-prev" id="mv-prev-button" type="button"></button>
+      <button class="mv__button-next" id="mv-next-button" type="button"></button>
+      <div class="mv__pagination swiper-pagination" id="mv-pagination"></div>  
+    </div>
+  </div>
+      <section class="l-section l-section--limited l-section--limited-top" style="--bg-color:#f5f8fa;">
+        <div class="l-section-inner l-section-inner--limited">
+          <div class="head-area">
+            <a class="c-double-icon-button c-double-icon-button--fill-red head-area__button" href="/quick_cart/"><span class="c-double-icon-button__inner"><span class="c-icon c-icon--calculator c-double-icon-button__left-icon c-double-icon-button__left-icon-top" style=""></span><span class="c-double-icon-button__text">&#92; 今すぐ簡単！ /<br><span class="btn-free">無料お見積り</span></span><span class="c-icon c-icon--circle-caret-right c-double-icon-button__right-icon" style=""></span></span></a>
+          </div>
+        </div>
+      </section>
+      <section class="l-section l-section--limited l-section--limited-cp" style="">
+        <div class="l-section-inner l-section-inner--limited">
+          <div class="c-campaign-area">
+                    <a id="Second_campaign_banner" class="c-banner c-campaign-area__banner" href="/campaign/240315-11/">
+                  <picture class="c-flex-picture">
+                      <source srcset="/assets/images/top/slider-sp_260901_b.webp" width="345" height="106" media="screen and (max-width: 767.98px)">
+                      <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/slider-pc_260901_b.webp" alt="プロのエアコンクリーニングで徹底洗浄（キャンペーン枠）" width="750" height="111" loading="lazy">
+                  </picture>
+                  </a>
+          </div>
+        </div>
+      </section>
+      <section class="l-section l-section--limited l-section--blue-wave l-section--blue-bubbles u-pb-96_64" style="--bg-color: #e3f1fc;">
+<div class="l-section-inner l-section-inner--limited">
+<h2 class="c-heading-level-2 cleaning-heading">おそうじ本舗の<br class="u-sp-only">ハウスクリーニング一覧</h2>
+<!-- <div class="house-cleaning-news"><a class="c-icon-link-text" href="/info/news/2026-0618-01/">【お知らせ】2026年8月1日より<br class="u-sp-only">エアコンクリーニング価格改定</a></div> -->
+<div class="cleaning-guide-tab js-tab">
+<div class="cleaning-guide-tab__buttons js-tab-buttons" role="tablist"><button class="cleaning-guide-tab__button" role="tab" type="button" id="tab_01" aria-controls="tab-panel_01" aria-selected="true" tabindex="0">場所から探す</button><button class="cleaning-guide-tab__button" role="tab" type="button" id="tab_02" aria-controls="tab-panel_02" aria-selected="false" tabindex="-1">お悩み・ご要望別</button></div>
+<div class="cleaning-guide-tab__panels">
+<div class="cleaning-guide-tab__panel cleaning-guide is-active" role="tabpanel" id="tab-panel_01" aria-labelledby="tab_01" tabindex="0">
+<div class="c-grid c-house-cleaning-links" style="--grid-col-pc: repeat(4, 1fr); --grid-gap-pc: 16px; --grid-col-tablet: repeat(3, 1fr); --grid-gap-tablet: 16px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 13px;"><a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/aircon/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label" aria-label="人気">人気</div>
+<span class="c-illust c-illust--aircon c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">エアコンクリーニング</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/pack/">
+<div class="c-category-simple-card__top"><!-- <div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--recommend" aria-label="オススメ">オススメ</div> --> <!-- <div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--recommend" aria-label="お得キャンペーン">お得キャンペーン</div> --> <span class="c-illust c-illust--pack c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">パックサービス<span class="c-category-simple-card__sub-heading">（まるごとクリーニング）</span></h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/water/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--bath c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">水まわり・浴室</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/washer/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--washing-machine c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">洗濯機</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/kitchen/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--kitchen c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">キッチン</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/room/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--room c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">お部屋<span class="c-category-simple-card__sub-heading">（床・壁紙・ガラス等）</span></h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/coating/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--coating c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">コーティング</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/others/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--other c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">外壁洗浄・その他</h3>
+</div>
+</a></div>
+      <div class="banner-area u-mt-64_48">
+                <a id="Second_campaign_banner" class="c-banner" href="/house-cleaning/washer/">
+              <picture class="c-flex-picture">
+                  <source srcset="/assets/images/top/banner/bnr-washer-sp.webp" width="345" height="106" media="screen and (max-width: 767.98px)">
+                  <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/banner/bnr-washer-pc.webp" alt="洗濯機クリーニングなら完全分解洗浄" width="750" height="111" loading="lazy">
+              </picture>
+              </a>
+                <a id="Second_campaign_banner" class="c-banner" href="/house-cleaning/op-coating/">
+              <picture class="c-flex-picture">
+                  <source srcset="/assets/images/top/banner/campaign_banner_02v2_sp.webp" width="345" height="106" media="screen and (max-width: 767.98px)">
+                  <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/banner/campaign_banner_02v2_pc.webp" alt="お手入れ簡単コーティング" width="750" height="111" loading="lazy">
+              </picture>
+              </a>
+      </div>
+   </div>
+<div class="cleaning-guide-tab__panel cleaning-guide" role="tabpanel" id="tab-panel_02" aria-labelledby="tab_02" tabindex="0">
+<h3 class="c-double-line-heading cleaning-guide__heading">お悩み・ご要望別</h3>
+<div class="cleaning-guide__contents">
+<div class="issue-list">
+<div class="issue-list__item">
+<h4 class="c-bullet-heading issue__heading">エアコンクリーニングに関するお悩み</h4>
+<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_aircon_01">エアコンから嫌なニオイ・吹き出し口に黒い点がある</button></h5>
+<div class="c-issue-accordion__content" id="accordion_aircon_01">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/aircon/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--aircon c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">エアコンクリーニング</dt>
+<dd class="c-issue-accordion-card__description">おそうじ本舗のプロ技で分解して、すみずみまで徹底洗浄！　 壁掛けタイプ（お掃除機能なし・付き）、天井埋め込みタイプに対応。</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_aircon_02">リビングのエアコンが汚れやすい</button></h5>
+<div class="c-issue-accordion__content" id="accordion_aircon_02">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/fan">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--kitchen-fan c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">レンジフード・換気扇クリーニング</dt>
+<dd class="c-issue-accordion-card__description">換気扇が汚れていると、吸い込む力が弱くなり、エアコンに油汚れが吸い寄せられる可能性が！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="issue-list__item">
+<h4 class="c-bullet-heading issue__heading">水まわりに関するお悩み</h4>
+<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_01">浴室のカビが気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_water_01">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/water/bathroom/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--wash-basin c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">風呂・浴室クリーニング</dt>
+<dd class="c-issue-accordion-card__description">頑固なカビや水アカもプロの技とオリジナル洗剤でピカピカに！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_02">水まわりの普段の掃除を楽にしたい</button></h5>
+<div class="c-issue-accordion__content" id="accordion_water_02">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/op-coating/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--cleaning c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">お手入れ簡単コーティング</dt>
+<dd class="c-issue-accordion-card__description">コーティングでキレイが長持ち。特殊コーティングによる「撥水」「防汚」「素材保護」のトリプル効果で、普段のお掃除が楽に！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_03">追い焚き配管（風呂釜）の雑菌が気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_water_03">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/water/pipe/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--pipe c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">浴室（風呂釜）の追い焚き配管除菌クリーニング</dt>
+<dd class="c-issue-accordion-card__description">ウルトラファインバブルの力と専用の除菌剤で追い焚き配管内部の汚れを浮かせて除菌！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_04">浴室をさらに充実させたい</button></h5>
+<div class="c-issue-accordion__content" id="accordion_water_04">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/water/ulblo/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--ulblo c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">ウルブロ取り付け</dt>
+<dd class="c-issue-accordion-card__description">浴室に付いている既存の循環アダプターを交換し、ウルトラファインバブルで満たされたお風呂を楽しめるようにします。</dd>
+</dl>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="issue-list__item">
+<h4 class="c-bullet-heading issue__heading">洗濯機に関するお悩み</h4>
+<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_washer_01">縦型洗濯機の汚れが気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_washer_01">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/washer/top/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--washer c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">縦型洗濯機クリーニング</dt>
+<dd class="c-issue-accordion-card__description">縦型洗濯機内部のカビや雑菌をオリジナル除菌剤と専用機材でしっかり除菌洗浄します！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_washer_02">ドラム式洗濯機の汚れが気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_washer_02">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/washer/front/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--drum-washer c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">ドラム式洗濯機クリーニング</dt>
+<dd class="c-issue-accordion-card__description">ドラム式洗濯機内部のカビや雑菌をオリジナル除菌剤と専用機材でしっかり除菌洗浄します！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="issue-list__item">
+<h4 class="c-bullet-heading issue__heading">キッチンに関するお悩み</h4>
+<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_kitchen_01">換気扇の油汚れが気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_kitchen_01">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/fan/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--kitchen-fan c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">レンジフード・換気扇クリーニング</dt>
+<dd class="c-issue-accordion-card__description">換気扇を分解し、ファンやフィルターなど細かい部品に付いたしつこい油汚れもしっかり洗浄して換気効率が復活！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_kitchen_02">キッチンシンクやコンロの汚れが気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_kitchen_02">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/kitchen/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--kitchen c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">キッチンクリーニング</dt>
+<dd class="c-issue-accordion-card__description">ガス台、コンロ、シンクはもちろん、見落としがちなグリル、高所にある照明・吊戸棚の表面、窓や壁までしっかりお掃除するので、キッチン一式がピカピカに！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="issue-list__item">
+<h4 class="c-bullet-heading issue__heading">外壁洗浄・その他のお悩み</h4>
+<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
+<div class="c-issue-accordion__item"><!-- <h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_01">壁紙の汚れが気になる</button></h5> -->
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_01">外壁の雨だれや苔が気になる</button></h5>
+<div class="c-issue-accordion__content" id="accordion_other_01">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<!-- <a class="c-issue-accordion-card__contents" href="/house-cleaning/room/wallpaper-dyeing/">
+                            <div class="c-issue-accordion-card__icon-circle">
+                              <div class="c-icon c-icon--brush c-issue-accordion-card__icon"></div>
+                            </div>
+                            <dl class="c-issue-accordion-card__detail">
+                              <dt class="c-issue-accordion-card__term">壁紙染色</dt>
+                              <dd class="c-issue-accordion-card__description">壁紙を貼り替えずに「染色」することで短時間で新品同様に！お部屋の明るさを取り戻せます！</dd>
+                            </dl>
+                          </a> --> <a class="c-issue-accordion-card__contents" href="/house-cleaning/others/outerwall/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--outerwall c-issue-accordion-card__icon" style="--size: 46px;"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">外壁手洗い洗浄</dt>
+<dd class="c-issue-accordion-card__description">特殊な専用器材とプロのテクニックで外壁を丁寧に洗浄。短時間でキレイな外壁を取り戻します！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+<div class="c-issue-accordion__item">
+<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_02">引越しを機に部屋を丸ごとお掃除してほしい</button></h5>
+<div class="c-issue-accordion__content" id="accordion_other_02">
+<div class="c-issue-accordion-card">
+<h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/pack/move/">
+<div class="c-issue-accordion-card__icon-circle">
+<div class="c-icon c-icon--truck c-issue-accordion-card__icon"></div>
+</div>
+<dl class="c-issue-accordion-card__detail">
+<dt class="c-issue-accordion-card__term">引越し前・後 まるごとクリーニング</dt>
+<dd class="c-issue-accordion-card__description">お得なパックサービス！ 退去後・入居前のお掃除はプロに任せて、効率の良い新生活のスタートを！</dd>
+</dl>
+</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!--追加エリア-->
+<section class="l-section l-section--limited l-section--blue-bubbles u-py-48_40">
+<div class="l-section-inner l-section-inner--limited">
+<div class="p-content-box">
+<h2 class="c-heading-level-2 p-reasons__heading">お役立ち関連サービス</h2>
+<div class="p-content-box">
+<div class="p-content-box__content">
+<div class="c-grid p-cleaning-menu__contents" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 24px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 24px;">
+<div><a class="c-feature" href="/kajitatsu/"> <img class="c-flex-image c-flex-image--stretched c-feature__image" src="/assets/images/top/link-kajidaikou.webp" alt="家事代行サービス初回42%OFF" width="300" height="200" loading="lazy"> <!-- <p class="c-lineup-card__description">初回限定！スポットプランが42%OFF!!</p> -->
+<p class="c-lineup-card__description">初回限定！家事代行サービスのスポットプランが42%OFF!!</p>
+</a>
+<p class="c-note u-mt-8">割引率については小数点以下を切り捨てて表記しており、実際の割引率は42.63％となります。</p>
+</div>
+<div><a class="c-feature" href="https://partner.racn.jp/estimate/rakuracn/0001/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=huyouhin" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-feature__image" src="/assets/images/top/link-fuyouhin.webp" alt="不要品回収サービス" width="300" height="200" loading="lazy">
+<p class="c-lineup-card__description">家の中で使わなくなった物や家具を回収します！出張料金、お見積もり0円</p>
+</a>
+<p class="c-note u-mt-8">一部お受けできない地域がございます。</p>
+</div>
+<div><a class="c-feature" href="https://partner.racn.jp/estimate/rakuracn/0002/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=installation" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-feature__image" src="/assets/images/top/link-juusetsu.gif" alt="住宅設備等の取替・交換サービス" width="300" height="200" loading="lazy">
+<p class="c-lineup-card__description">エアコン・トイレ・水栓・レンジフードなど、商品の納品から取付、施工まで対応いたします！</p>
+</a>
+<p class="c-note u-mt-8">商品+標準取り付け工事費+処分費込　※出張費、お見積り0円</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="l-section l-section--blue-bubbles u-pb-0">
+<div class="l-section-inner">
+<div class="p-reasons">
+<h2 class="c-heading-level-2 p-reasons__heading">おそうじ本舗が選ばれる理由</h2>
+<div class="c-grid c-reasons p-reasons__contents" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 0; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 24px;">
+<div class="c-reasons__item">
+<div class="c-reason-card c-reasons__card">
+<h3 class="c-reason-card__heading">安心と信頼の実績</h3>
+<p class="c-reason-card__description">全国チェーンのおそうじ本舗だからこそ提供できる納得価格。混雑する時期でも予約が取りやすく、早朝・夜間などの要望にも柔軟な対応が可能です。</p>
+</div>
+<img class="c-flex-image c-flex-image--stretched c-reasons__bg" src="/assets/images/top/reason-bg_01.webp" alt="" width="750" height="464" loading="lazy"></div>
+<div class="c-reasons__item">
+<div class="c-reason-card c-reasons__card">
+<h3 class="c-reason-card__heading">清潔感のあるスタッフ</h3>
+<p class="c-reason-card__description">ご自宅での清掃サービスでは、清潔感がない、マナーの悪い業者は家にはあげたくないですよね？おそうじ本舗ではお客様に不快感を与えないよう身だしなみのチェックを徹底しています。</p>
+</div>
+<img class="c-flex-image c-flex-image--stretched c-reasons__bg" src="/assets/images/top/reason-bg_02.webp" alt="" width="750" height="464" loading="lazy"></div>
+<div class="c-reasons__item">
+<div class="c-reason-card c-reasons__card">
+<h3 class="c-reason-card__heading">確かな技術力</h3>
+<p class="c-reason-card__description">おそうじ本舗のスタッフは、皆厳しい研修を受けています。本部や店舗同士の繋がりも強く、日々最新の情報を共有しながら技術力を磨いています。</p>
+</div>
+<img class="c-flex-image c-flex-image--stretched c-reasons__bg" src="/assets/images/top/reason-bg_03.webp" alt="" width="750" height="464" loading="lazy"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="l-section l-section--limited u-pt-56_32">
+<div class="l-section-inner l-section-inner--limited"><a class="c-banner about-link" href="/about/"> <picture class="c-flex-picture"> <source srcset="/assets/images/top/about-link_sp.webp" width="690" height="348" media="screen and (max-width: 767.98px)"> <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/about-link_pc.webp" alt="おそうじ本舗のハウスクリーニングについて。初めての方は是非こちらもご覧ください" width="750" height="98" loading="lazy"> </picture> </a></div>
+<div class="l-section-inner l-section-inner--limited" style="margin-top: 24px;"><a class="c-banner about-link" href="/business/"> <picture class="c-flex-picture"> <source srcset="/assets/images/top/business-link_sp.webp" width="690" height="348" media="screen and (max-width: 767.98px)"> <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/business-link_pc.webp" alt="事務所・介護施設・学校など　法人のお客様はこちら" width="750" height="98" loading="lazy"> </picture> </a></div>
+</section>
+  <section class="l-section l-section--limited u-pb-0" style="--bg-color:#06408c;">
+    <div class="l-section-inner">
+      <div class="pickup">
+        <h2 class="c-heading-level-3 pickup__heading" style="">ピックアップ</h2>
+        <div class="pickup__slider-container swiper">
+          <div class="pickup__inner" id="js-pickup-slider">
+            <div class="pickup__slides swiper-wrapper">
+                        <a class="pickup-card swiper-slide" href="/house-cleaning/aircon/2027problem/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/2027problem.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">知ってる？エアコン2027年問題</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/guide/aircon/220606-01/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/photo-220606-01.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">エアコンクリーニングの「完全分解洗浄」とは？</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/guide/aircon/240516-01/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/guide-aircon-240516-01.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">エアコンのドレンホースの汚れを放置すると水漏れの原因に！</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/guide/outerwall/250226-01/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_4.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">外壁が汚れる原因とは？業者へ依頼するには</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/house-cleaning/op-coating/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_1.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">キレイが続く！新発想のコーティング技術</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/campaign/osoujihonpo-app/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/img-app750.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">【無料】おそうじ本舗の公式アプリ</p>
+                        </a>
+                        <a class="pickup-card swiper-slide" href="/house-cleaning/others/photocatalyst/">
+                          <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_2.webp" alt="" width="280" height="186" loading="lazy">
+                          <p class="pickup-card__text">ウイルスを分解除去！光触媒抗菌コーティング</p>
+                        </a>
+            </div><button class="pickup__button-prev swiper-button-prev" id="pickup-prev-button" type="button"></button><button class="pickup__button-next swiper-button-next" id="pickup-next-button" type="button"></button>
+            <div class="pickup__pagination swiper-pagination" id="pickup-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        <section class="l-section l-section--limited" style="--bg-color:#06408c;">
+          <div class="l-section-inner l-section-inner--limited">
+            <div class="info">
+              <h2 class="c-heading-level-3 info__heading" style="">お知らせ</h2>
+              <ul class="info__list info-list">
+                <li class="info-list__item">
+                  <a class="info-list__link" href="/info/news/2026-0918-01/">
+                      <h3 class="info-list__label">ニュース</h3>
+                    <p class="info-list__date"><time datetime="2026.9.18">2026-9-18</time></p>
+                    <p class="info-list__text">公式アプリ「明日までに来てくれるサービス」終了のお知らせ</p>
+                  </a>
+                </li>
+                <li class="info-list__item">
+                  <a class="info-list__link" href="/info/media/9_12_nikkei_1/">
+                      <h3 class="info-list__label">メディア掲載実績</h3>
+                    <p class="info-list__date"><time datetime="2026.9.12">2026-9-12</time></p>
+                    <p class="info-list__text">9/12発行 「日本経済新聞 NIKKEIプラス1」に掲載されました</p>
+                  </a>
+                </li>
+                <li class="info-list__item">
+                  <a class="info-list__link" href="/info/news/2026-0817-01/">
+                      <h3 class="info-list__label">ニュース</h3>
+                    <p class="info-list__date"><time datetime="2026.8.17">2026-8-17</time></p>
+                    <p class="info-list__text">おそうじ本舗×映画『シャドウワーク』公開記念コラボ企画</p>
+                  </a>
+                </li>
+            </ul>
+            <div class="info__button__wrap">
+                <a class="c-button info__button" href="/info/"><span class="c-button__text">お知らせ一覧</span><span class="c-icon c-icon--circle-caret-right c-button__icon" style=""></span></a>
+                <a class="c-button info__button" href="/info/media/"><span class="c-button__text">メディア掲載実績一覧</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></a>
+            </div>
+          </div>
+        </div>
+      </section>
+<section class="l-section l-section--limited u-pt-56_32">
+<div class="l-section-inner l-section-inner--limited">
+  <a class="c-banner" href="/info/news/2025-03-18/">
+    <picture class="c-flex-picture">
+      <source srcset="/assets/images/top/prevention-link_sp.webp" width="345" height="174" media="screen and (max-width: 767.98px)">
+      <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/prevention-link_pc.webp" alt="感染予防へのおそうじ本舗の取り組み" width="750" height="96" loading="lazy">
+    </picture> 
+  </a>
+</div>
+</section>
+     <!--
+      <section class="l-section l-section--limited" style="">
+        <div class="l-section-inner l-section-inner--limited">
+          <div class="c-cleaning-scope-accordion js-accordion" data-simple-type="true">
+            <div class="c-cleaning-scope-accordion__item">
+              <h2 class="c-cleaning-scope-accordion__heading"><button class="c-cleaning-scope-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_effort">感染予防へのおそうじ本舗の取り組み</button></h2>
+              <div class="c-cleaning-scope-accordion__content" id="accordion_effort">
+                <div class="c-grid efforts" style="--grid-col-pc:repeat(8, 1fr);--grid-gap-pc:16px;--grid-col-tablet:repeat(4, 1fr);--grid-gap-tablet:7px;--grid-col-sp:repeat(4, 1fr);--grid-gap-sp:7px;">
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_01.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">毎日の<br>検温</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_02.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">マスクの<br>着用</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_03.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">スタッフの<br>除菌</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_04.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">ドアノブの<br>除菌</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_05.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">道具の<br>除菌</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_06.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">お部屋の<br>換気</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_07.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">フィジカル<br>ディスタンス</p>
+                  </div>
+                  <div class="efforts__item">
+                    <img class="c-flex-image c-flex-image--stretched efforts__image" src="/assets/images/top/effort-image_08.webp" alt="" width="130" height="130" loading="lazy">
+                    <p class="efforts__text">非接触の<br>お会計</p>
+                  </div>
+                </div>
+                <ul class="effort-list">
+                  <li class="effort-list__item"> お客様へ安心をお届けできるように、万全の対策を実施しサービスをご提供いたします。 </li>
+                  <li class="effort-list__item">お客様と適度な距離を確保して、サービスをご提供いたします。</li>
+                </ul>
+                <div class="effort-inner">
+                  <p class="c-text u-font-weight-bold" style="">おそうじ本舗では以下のマニュアルに準じた対応を実施し、お客様に「安心」をお届けできるよう徹底いたします。</p>
+                  <ul class="c-list">
+                    <li class="c-list__item c-list-item">毎日検温を行い、サービス実施当日に37.5度以上でお客様宅へのお伺いはいたしません。</li>
+                    <li class="c-list__item c-list-item">お客様宅へお伺い時には、マスクの着用を徹底します※。</li>
+                    <li class="c-list__item c-list-item">お客様宅へお伺い前には、スタッフ自身の除菌処理を当社オリジナル除菌剤で行い、手指の消毒はアルコール除菌剤を用いて行います。</li>
+                    <li class="c-list__item c-list-item">退出時には、ドアノブやスイッチプレート等の接触箇所を全て除菌効果のある洗剤で拭き上げを実施します。</li>
+                    <li class="c-list__item c-list-item">密閉空間での作業を避けるため、サービス提供中は定期的にお部屋の換気をお願いする場合がございます。</li>
+                    <li class="c-list__item c-list-item">サービスをご提供する際は、お客様との密接を避けるため一定の距離（1メートル以上）を取って作業いたします。</li>
+                    <li class="c-list__item c-list-item">料金のお支払いは、非接触決済へも対応いたします。現金でのお支払いには、トレイをご用意いたします。</li>
+                    <li class="c-list__item c-list-item">お客様宅で使用する道具や身につけるものは、毎日除菌することを徹底します。</li>
+                  </ul>
+                  <p class="effort-notes"> 気温が高い状態でマスクの着用を続けることにより、スタッフの健康とお客様へのサービスに影響がある場合、事前にお客様からご了承をいただいた上で、サービス時は状況に応じてスタッフのマスクを外させていただきます。マスクを外す場合は、お客様と2メートル以上の距離を保ち、安全にサービスを行うよう努めさせていただきます。あらかじめご理解いただきますようお願い申し上げます。 </p>
+                  <p class="c-text customer-notice" style=""><span class="u-font-weight">【お願い】</span><br><br> ご自身やご家族が新型コロナウイルスに感染している場合、または疑わしい症状がある場合は、担当店舗までキャンセルのご連絡をお願いいたします（キャンセル料金は発生いたしません）。 </p>
+                  <p class="c-text" style=""> 以上、おそうじ本舗チェーン全体でお客様への「安心」をお届けできるよう万全の対策を実施し、「感動と満足」をご提供できるように努めて参ります。<br> 何卒ご理解を賜りますよう宜しくお願い申し上げます。 </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+        <section class="l-section l-section--limited u-pb-72_80" style="--bg-color: #f5f8fa;">
+<div class="l-section-inner l-section-inner--limited">
+<h2 class="c-double-line-heading">おそうじ本舗のハウスクリーニング</h2>
+<div class="c-grid c-house-cleaning-links u-mt-24" style="--grid-col-pc: repeat(4, 1fr); --grid-gap-pc: 16px; --grid-col-tablet: repeat(3, 1fr); --grid-gap-tablet: 16px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 13px;"><a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/aircon/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label" aria-label="人気">人気</div>
+<span class="c-illust c-illust--aircon c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">エアコン<br class="u-sp-only">クリーニング</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/pack/">
+<div class="c-category-simple-card__top"><!-- <div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--recommend" aria-label="オススメ">オススメ</div> --> <span class="c-illust c-illust--pack c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">パックサービス<span class="c-category-simple-card__sub-heading">（まるごとクリーニング）</span></h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/water/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--bath c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">水まわり・浴室</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/washer/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--washing-machine c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">洗濯機</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/kitchen/">
+<div class="c-category-simple-card__top">
+<div class="c-ribbon-label-tag c-category-simple-card__label c-category-simple-card__label--cp" aria-label="キャンペーン">キャンペーン</div>
+<span class="c-illust c-illust--kitchen c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">キッチン</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/room/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--room c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">お部屋<span class="c-category-simple-card__sub-heading">（床・壁紙・ガラス等）</span></h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/coating/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--coating c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">コーティング</h3>
+</div>
+</a> <a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/others/">
+<div class="c-category-simple-card__top"><span class="c-illust c-illust--other c-category-simple-card__icon"></span></div>
+<div class="c-category-simple-card__bottom">
+<h3 class="c-category-simple-card__text">外壁洗浄・その他</h3>
+</div>
+</a></div>
+<div class="p-content-box__link-container"><a class="c-icon-link-text" href="/house-cleaning/"><span class="c-icon-link-text__text">ハウスクリーニングのメニュー一覧はこちら</span><span class="c-icon c-icon--circle-caret-right c-icon-link-text__icon"></span></a></div>
+</div>
+</section>
+  </main>
+  <footer class="c-footer" id="footer"><a class="c-footer__page-top" href="#"></a>
+<div class="u-sp-only">
+<div class="footer-tel-sp">
+<p class="footer-tel-img"><img src="/assets/images/footer/footer-tel-sp.gif" alt="0120-24-1000"></p>
+<p class="footer-tel-btn"><a href="tel:0120241000">今すぐ電話する</a></p>
+</div>
+<div class="js-accordion" data-simple-type="true">
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/">ハウスクリーニング</a></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/aircon/">エアコンクリーニング</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_01"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_01">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/wall/">壁掛けタイプエアコン</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/campaign/aircon-multiple-units/">エアコンクリーニングまとめ割</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/ceil/">天井埋め込みタイプエアコン</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/pack/">パックサービス</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_02"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_02">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/move/">お引越し前・後まるごとクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/entirety/">在宅まるごとクリーニング</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/water/">水まわりのお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_04"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_04">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/bathroom/">風呂・浴室クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/pipe/">浴室（風呂釜）の追い焚き配管除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/ulblo/">ウルブロ取り付け</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/drier/">浴室乾燥機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/toilet/">トイレクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/lavatory/">洗面台クリーニング</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/washer/">洗濯機クリーニング</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_05"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_05">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/top/">縦型洗濯機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/front/">ドラム式洗濯機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/side/">ドラム式乾燥機能分解クリーニング（一部機種限定）</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/kitchen/">キッチンのお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_06"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_06">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/fan/">レンジフード・換気扇クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/kitchen/">キッチンクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/rei/">冷蔵庫クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/dishwasher/">食器洗い乾燥機クリーニング</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/room/">お部屋のお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_07"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_07">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/flooring/">フローリングクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/mattress/">マットレス除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/sofa/">ソファ・椅子クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/carpet/">カーペットクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/wallpaper-dyeing/">壁紙染色</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/cloth/">壁紙クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/glass/">ガラス・サッシクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/white-wood/">白木クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/tatami/">畳除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/entrance/">玄関床クリーニング＆コーティング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/duct/">換気ダクトクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/air-cleaner/">空気清浄機クリーニング</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/coating/">コーティング</a></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/others/">その他のお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_08"></button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_08">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/outerwall/">外壁手洗い洗浄</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/photocatalyst/">光触媒抗菌コーティング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/exterior/">ベランダ・外回り高圧洗浄</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/grave/">お墓のお掃除</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading"><a class="link" href="/shop/">店舗一覧</a></div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_09">ご利用ガイド</button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_09">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/about/">おそうじ本舗のハウスクリーニングとは</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/beginner/">はじめての方へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/flow/">ご注文の流れ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/howto-cart/">カートの使い方</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/faq/">よくあるご質問</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/sitepolicy/">サイトのご利用にあたって</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/eco/">アレルギーをお持ちのお客様へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/info/">お知らせ</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_10">お役立ち情報</button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_10">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/guide/">自分でできるお掃除術</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/promotion/">動画コンテンツ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/voice/">お客様の声</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_11">関連サービス</button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_11">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/kajitatsu/" rel="noopener">家事代行サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/0001/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=huyouhin" target="_blank" rel="noopener">不用品回収サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/0002/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=installation" target="_blank" rel="noopener">住宅設備等の取替・交換サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/home/lp" target="_blank" rel="noopener">楽ラクーン</a></li>
+</ul>
+</div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_12">ビジネス・法人向け</button></div>
+<div class="c-footer-accordion__content" id="footer-accordion_12">
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/office/">店舗・オフィスクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/business/">法人のお客様へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://www.osoujihonpo-fc.com" target="_blank" rel="noopener">おそうじ本舗FCパートナー募集</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://osoujihonpo.saiyo-job.jp/4lcj/recruit/" target="_blank" rel="noopener">店舗求人情報</a></li>
+</ul>
+</div>
+</div>
+<div class="c-footer-top-nav__item">
+<ul class="c-footer-sns">
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://lin.ee/4PFvSTR" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-line.webp" alt="line" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.instagram.com/osoujihonpo_official/" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-instagram.webp" alt="instagram" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.youtube.com/@osoujihonpo1000" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-youtube.webp" alt="instagram" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://twitter.com/osoujihonpo" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-x.webp" alt="twitter" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.facebook.com/osoujihonpo.official" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-facebook.webp" alt="facebook" width="40" height="40" loading="eager"></a></li>
+</ul>
+</div>
+</div>
+<div class="u-pc-only">
+<p class="footer-tel-pc"><img src="/assets/images/footer/footer-tel-pc.gif" alt="0120-24-1000"></p>
+<div class="c-footer__top-nav c-footer-top-nav">
+<div class="c-footer-top-nav__item">
+<div class="c-footer-item-heading c-footer-item-heading-mb"><!-- <img class="c-flex-image c-footer-item-heading__icon" src="/assets/images/footer/footer-icon_01.webp" alt="" width="15" height="15" loading="eager"> --> <span class="c-footer-item-heading__text"><a href="/house-cleaning/">ハウスクリーニング</a></span></div>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/aircon/">エアコンクリーニング</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/wall/">壁掛けタイプエアコン</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/campaign/aircon-multiple-units/">エアコンクリーニングまとめ割</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/ceil/">天井埋め込みタイプエアコン</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/pack/">パックサービス</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/move/">お引越し前・後まるごとクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/entirety/">在宅まるごとクリーニング</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/water/">水まわりのお掃除</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/bathroom/">風呂・浴室クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/pipe/">浴室（風呂釜）の追い焚き配管除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/ulblo/">ウルブロ取り付け</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/drier/">浴室乾燥機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/toilet/">トイレクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/lavatory/">洗面台クリーニング</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/washer/">洗濯機クリーニング</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/top/">縦型洗濯機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/front/">ドラム式洗濯機クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/side/">ドラム式乾燥機能分解クリーニング（一部機種限定）</a></li>
+</ul>
+</div>
+<div class="c-footer-top-nav__item">
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/kitchen/">キッチンのお掃除</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/fan/">レンジフード・換気扇クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/kitchen/">キッチンクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/rei/">冷蔵庫クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/dishwasher/">食器洗い乾燥機クリーニング</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/room/">お部屋のお掃除</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/flooring/">フローリングクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/mattress/">マットレス除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/sofa/">ソファ・椅子クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/carpet/">カーペットクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/wallpaper-dyeing/">壁紙染色</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/cloth/">壁紙クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/glass/">ガラス・サッシクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/white-wood/">白木クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/tatami/">畳除菌クリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/entrance/">玄関床クリーニング＆コーティング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/duct/">換気ダクトクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/air-cleaner/">空気清浄機クリーニング</a></li>
+</ul>
+<div class="c-footer-item-heading c-footer-item-heading-mb"><span class="c-footer-item-heading__text"><a href="/house-cleaning/coating/">コーティング</a></span></div>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/others/">その他のお掃除</a></span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/outerwall/">外壁手洗い洗浄</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/photocatalyst/">光触媒抗菌コーティング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/exterior/">ベランダ・外回り高圧洗浄</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/grave/">お墓のお掃除</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/shop/">店舗一覧</a></span></div>
+</div>
+<div class="c-footer-top-nav__item">
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text">ご利用ガイド</span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/about/">おそうじ本舗のハウスクリーニングとは</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/beginner/">はじめての方へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/flow/">ご注文の流れ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/howto-cart/">カートの使い方</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/faq/">よくあるご質問</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/sitepolicy/">サイトのご利用にあたって</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/eco/">アレルギーをお持ちのお客様へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/info/">お知らせ</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text">お役立ち情報</span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/guide/">自分でできるお掃除術</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/promotion/">動画コンテンツ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/voice/">お客様の声</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text">関連サービス</span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/kajitatsu/" rel="noopener">家事代行サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/0001/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=huyouhin" target="_blank" rel="noopener">不用品回収サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/0002/lp?utm_source=homepage&amp;utm_medium=subbanner&amp;utm_campaign=installation" target="_blank" rel="noopener">住宅設備等の取替・交換サービス</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://partner.racn.jp/estimate/rakuracn/home/lp" target="_blank" rel="noopener">楽ラクーン</a></li>
+</ul>
+<div class="c-footer-item-heading"><span class="c-footer-item-heading__text">ビジネス・法人向け</span></div>
+<ul class="c-footer-global-links">
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/office/">店舗・オフィスクリーニング</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/business/">法人のお客様へ</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://www.osoujihonpo-fc.com" target="_blank" rel="noopener">おそうじ本舗FCパートナー募集</a></li>
+<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="https://osoujihonpo.saiyo-job.jp/4lcj/recruit/" target="_blank" rel="noopener">店舗求人情報</a></li>
+</ul>
+<ul class="c-footer-sns">
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://lin.ee/4PFvSTR" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-line.webp" alt="line" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.instagram.com/osoujihonpo_official/" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-instagram.webp" alt="instagram" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.youtube.com/@osoujihonpo1000" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-youtube.webp" alt="instagram" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://twitter.com/osoujihonpo" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-x.webp" alt="twitter" width="40" height="40" loading="eager"></a></li>
+<li class="c-footer-sns__item"><a class="c-footer-sns__link" href="https://www.facebook.com/osoujihonpo.official" target="_blank" rel="noopener"> <img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-facebook.webp" alt="facebook" width="40" height="40" loading="eager"></a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="c-footer__bottom-nav c-footer-bottom-nav">
+<ul class="c-footer-bottom-nav__links c-footer-bottom-links">
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/">Home</a></li>
+<!-- <li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/sitepolicy/">サイトのご利用にあたって</a></li> -->
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="https://www.hitowa.com/life-partner/company/" target="_blank" rel="noopener">企業情報</a></li>
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/policy/">プライバシーポリシー</a></li>
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/sitemap/">サイトマップ</a></li>
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/contact/">お問い合わせ</a></li>
+</ul>
+<!-- <small class="c-footer-bottom-nav__copyright">&copy; HITOWA Life Partner Co., Ltd.</small> --> <small class="c-footer-bottom-nav__copyright">&copy; HITOWA Co., Ltd.</small></div>
+</footer>
+</body>
+</html>
