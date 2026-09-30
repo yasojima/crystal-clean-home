@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.8;
+}
+
+@media (min-width: 1290px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+
+@media screen and (max-width: 599px) {
+
+  h1 {
+    margin-top: 20px !important;
+  }
+
+  .c-breadcrumbs {
+    display: none;
+  }
+
+}
+
+
+/* ヘッダー */
+
+.c-main-menu__link {
+  font-size: 1.4rem;
+}
+
+.c-breadcrumbs {
+  margin: 0;
+}
+
+.c-breadcrumbs__link,
+.c-breadcrumbs__item:not(:last-of-type)::after {
+  font-size: 1rem;
+  color: inherit;
+}
+
+/* ナビゲーション */
+
+button:focus {
+  outline: none
+}
+
+.c-site-menu__category,
+.c-site-menu-link,
+.c-menu-accordion__link,
+.c-bold-links__link {
+  font-size: 1.5rem;
+}
+
+.c-menu-accordion__link {
+  color: #2076d6;
+}
+
+.c-menu-accordion__link:hover {
+  color: inherit;
+}
+
+.c-bold-links__link:hover {
+  color: #fff;
+}
+
+.c-menu-accordion__heading {
+  margin: 0;
+}
+
+.c-aircon-details__link {
+  font-size: 1.2rem;
+}
+
+.c-site-menu-link--gray:hover {
+  color: #666;
+}
+
+/* フッター */
+
+@media screen and (max-width: 767.98px) {
+
+  .c-footer-accordion-no-link__trigger,
+  .c-footer-item-heading a.link {
+    font-size: 1.6rem;
+  }
+
+  .c-footer-global-links__link {
+    font-size: 1.5rem;
+  }
+
+  .c-footer-bottom-links__link,
+  .c-footer-bottom-nav__copyright {
+    font-size: 1.2rem;
+  }
+
+  .footer-tel-btn {
+    margin: 0;
+  }
+
+  .footer-tel-sp .footer-tel-btn a {
+    font-size: 1.8rem;
+  }
+
+}
+
+@media print,
+screen and (min-width: 768px) {
+
+  .c-footer-item-heading__text,
+  .c-footer-item-heading__text a {
+    font-size: 1.5rem;
+  }
+
+  .c-footer-global-links__link {
+    font-size: 1.2rem;
+    color: inherit;
+  }
+
+  .c-footer-bottom-links__link {
+    font-size: 1.4rem;
+    color: inherit;
+  }
+
+  .c-footer-bottom-nav__copyright {
+    font-size: 1.2rem;
+  }
+
+  .c-footer-global-links a:hover {
+    color: inherit;
+  }
+
+}
+
+.c-footer-bottom-links__link:hover {
+  color: #fff;
+}

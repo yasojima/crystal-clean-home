@@ -1,0 +1,650 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrap{
+	padding: 0 3%;
+	margin-top: 5%
+}
+p{
+	color: #3d3d3d;
+	font-weight: 500;
+	text-align: justify;
+	font-size:1.2rem;
+}
+
+.wrap{
+	max-width: 900px;
+	margin:5% auto 0;
+	}
+.h2-blue{
+	font-size: 48px;
+	font-weight: 600;
+	color: #2b93f3;
+	margin-bottom: 10px;
+}
+.h2-white{
+	font-size: 3rem;
+	font-weight: 600;
+	color: #fff;
+	padding: 0 10px;
+}
+.h2-pink{
+	font-size: 3rem;
+	font-weight: bold 600;
+	color: #fc7b7b;
+}
+	
+.bold{
+	color: #3d3d3d;
+	font-weight: 900;
+}
+.center{
+	text-align: center;
+	align-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.large{
+	font-size: 1.4rem;
+}
+.term{
+	font-size: 1rem;
+	color: #eb5852;
+}
+/* SP表示 */
+@media screen and (max-width: 600px) {
+	.h2-blue{
+		font-size: 1.4rem;
+		font-weight: 600;
+		color: #2b93f3;
+		margin-bottom: 10px;
+	}
+	.h2-white{
+		font-size: 1.4rem;
+		font-weight: 600;
+		color: #fff;
+		padding: 0 10px;
+	}
+	.h2-pink{
+		font-size: 1.4rem;
+		font-weight: bold 600;
+		color: #fc7b7b;
+	}
+	.term{
+		font-size: .85rem;
+		color: #eb5852;
+		white-space: nowrap
+	}
+	.large{
+		font-size: 1rem;
+		}
+	.sakura{
+		max-width:50px;
+	}
+	p{
+	font-size:1rem;
+	}
+	.yellow{
+		font-size: 1rem;
+		color: #fafc7b;
+		border: none;
+	}
+
+
+}
+/* SP表示オワリ*/
+
+
+small{
+	font-size: .8rem;
+}
+
+.sec2area{
+	display:flex;
+	flex-direction: row-reverse;
+	justify-cntent: flex-end;
+	margin-bottom: 5%;
+}
+@media screen and (max-width: 600px) {
+.sec2area{
+		display:block;
+	}
+}
+.trialrun-text{
+	flex-basis: 65%;
+}
+.aircon-trialrun{
+	flex-basis: 35%;
+}
+.button-area{
+	margin:0 auto;
+	margin-bottom: 5%;
+	max-width: 800px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.link-pink{
+	text-decoration: none;
+	color:#eb5852;
+	padding: .2rem .3rem;
+}
+.link-pink:hover,
+a.link-pink:hover {
+  color: #fff;
+  background: #eb5852;
+	cursor : pointer;
+}
+.btn{
+	display: inline-block;
+	margin: 5px auto;
+	min-width: 120px;
+}
+@import "https://use.fontawesome.com/releases/v5.13.0/css/all.css";
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - 0.5em);
+  right: 1rem;
+}
+.btn-blue,
+a.btn-blue {
+	position: relative;
+  color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: .8rem;
+  background-color: #2a88de;
+}
+.btn-blue:hover,
+a.btn-blue:hover {
+  color: #fff;
+  background: #2b93f3;
+}
+.btn-pink,
+a.btn-pink {
+	position: relative;
+  color: #fff;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-align: center;
+	font-size: .8rem;
+  background-color:  #b3b3b3;
+}
+/*
+.btn-pink:hover,
+a.btn-pink:hover {
+  color: #eb5852;
+  background: #fbc5c5;
+}
+*/
+
+a.btn-radius {
+   border-radius: 100vh;
+}
+a.btn:after {
+  top: calc(100% - 1px);
+  left: 0;
+
+  width: 100%;
+  height: 40%;
+
+  -webkit-transform: rotateX(-90deg);
+
+  transform: rotateX(-90deg);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+
+  border-radius: 0 0 4px 4px;
+  background: #53a6d7;
+}
+a.btn:after {
+	font-size: 62.5%;
+  position: absolute;
+  z-index: -1;
+
+  content: "";
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+#podcast{
+	background-color: #2a88de; 
+	padding: 5%;
+}
+.section-inner{
+	border-radius: 30px;
+	padding: 5%;
+}
+.bg-white{
+	background-color: #fff;
+}
+.podcast-text{
+	margin-bottom:30px;
+}
+
+/* 波線部分 */
+.custom-shape-divider-bottom-1743394916 {
+	position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	transform: rotate(180deg);
+	margin-bottom: 5%;
+}
+
+.custom-shape-divider-bottom-1743394916 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1743394916 .shape-fill {
+    fill: #2a88de;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-bottom-1743394916 svg {
+        width: calc(100% + 1.3px);
+        height: 68px;
+    }
+}
+
+/* 試運転ol */
+.trialrun-list{
+  counter-reset:number; /*数字をリセット*/
+  list-style-type: none!important; /*数字を一旦消す*/
+  padding:0.5em;
+}
+.trialrun-list li{
+  position: relative;
+  padding: 0.5em 0.5em 0.5em 35px;
+  line-height: 1.5em;
+}
+.trialrun-list li:before{
+  /* 以下数字をつける */
+  position: absolute;
+  counter-increment: number;
+  content: counter(number);
+  /*数字のデザイン変える*/
+  display:inline-block;
+  background: #2b93f3;
+  color: white;
+  font-family: 'Avenir','Arial Black','Arial',sans-serif;
+  font-weight:bold;
+  font-size: 15px;
+  border-radius: 50%;/*円にする*/
+  left: 0;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  /*以下 上下中央寄せのため*/
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.trialrun-list li:after {/*吹き出しのちょこんと出た部分*/
+  content: '';
+  display: block;
+  position: absolute;
+  left: 20px;/*左からの位置*/
+  height: 0;
+  width: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 12px solid #2b93f3;
+  /*以下 上下中央寄せのため*/
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.trialrun-list{
+	font-size: 1.2rem;
+}
+.evidencelink{
+	margin-top:20px;
+	text-align: right;
+	color: #b3b3b3;
+	font-size: .85rem;
+}
+.sec4-img{
+	margin-top: 30px;
+}
+.link{
+	margin-top:20px;
+	text-align: right;
+	color: #666666;
+	font-size: .85rem;
+}
+#trialrun{
+	margin-bottom: 50px;
+}
+.check-list{
+	font-size: 1.2rem;
+}
+/*チェクリスト*/
+ul .checklist{
+	list-style: none;
+}
+.checklist{
+background:url("/assets/images/campaign/ots/check.gif") no-repeat 0 0;
+  background-size:auto 20px;
+  padding-left: 30px;
+	margin-top: 5px;
+}
+#check{
+	margin-bottom: 50px;
+}
+.notice {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 2px #3d3d3d;
+    border-radius: 8px;
+}
+.notice .notice-title {
+    position: absolute;
+    display: inline-block;
+    top: -13px;
+    left: 10px;
+    padding: 0 9px;
+    line-height: 1;
+    font-size: 19px;
+    background: #FFF;
+    color: #3d3d3d;
+    font-weight: bold;
+}
+.notice p {
+    margin: 3%; 
+    padding: 0;
+}
+.notice-text{
+	font-size: .9rem;
+}
+#wash{
+	margin-bottom: 30px;	
+}
+.wash-text{
+	margin-bottom: 10px;
+}
+#sec7{
+	background-color: #fbc5c5;
+	padding: 0 auto;
+	margin-top: 50px auto;
+	align-items: center;
+  	justify-content: center;
+	width: 100%;
+}
+.sec7-inner{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 5% 3%;
+}
+.spring-text{
+	display: inline-flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	transform: translateX(50%);
+	margin-bottom: 30px;
+}
+@media (max-width: 600px) {
+	.spring-text{
+		display: inline-flex;
+		text-align: center;
+	}
+	
+}
+.chohayawari{
+	display: block;
+	background-repeat: no-repeat;padding: 0 auto;
+}
+.pikapika{
+	align-items: center;
+	padding: 0 auto;
+}
+.chohayawari-text{
+	display:inline-flex;
+	letter-spacing: .1em;
+	line-height: 1.5rem;
+	align-items: center;
+	margin: 10px auto;
+}
+.br-sp {
+    display: none;
+}
+@media (max-width: 600px) {
+    .br-sp {
+        display: block;
+    }
+}
+.br-pc {
+    display: block;
+}
+@media (max-width: 600px) {
+    .br-pc {
+        display: none;
+    }
+}
+.aircon-creaning_cta{
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.sec7_logo{
+	max-width: 500px;
+	margin: 30px auto;
+}
+.collaboration{
+	margin-bottom:10px;
+}
+.thankyou{
+	color: #fff;
+	font-weight: 900;
+	background-color: #eb5852;
+	padding: .2rem .4rem;
+}
+ul .attention{
+	line-height: 1.5;
+}
+@media (max-width: 600px) {
+	.thankyou{
+	color: #fff;
+	font-weight: 900;
+	background-color: #eb5852;
+	padding: .2rem .3rem;
+	}
+}
+.coupon-area{
+	background-color: #fff;
+	padding: 40px 5%;
+	margin: 5% auto;
+	max-width: 900px;
+}
+.coupon{
+	width: 100%;
+	max-width: 600px;
+}
+.coupon-code{
+	font-size: 1.5rem;
+	color: #b3b3b3;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: .1em;
+}
+@media (max-width: 600px) {
+	.coupon-code{
+	font-size: 1rem;
+	color: #b3b3b3;
+	font-weight: 900;
+	text-align: center;
+	letter-spacing: .1em;
+}
+}
+.success-msg {
+    display: none;
+    position: fixed;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #fafc7b;
+    color: #3d3d3d;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+}
+#copy-url{
+	font-size: 1.4rem;
+	font-weight: 900;
+	text-align: center;
+	color: #fff;
+	border: none;
+	background-color: #b3b3b3;
+	border-radius: 100vh;
+	padding: .5rem 1rem;
+	margin: 0 auto;
+}
+#copy-url:hover,
+a#copy-url:hover {
+  color: #fafc7b;
+	cursor : pointer;
+}
+@media (max-width: 600px) {
+	#copy-url{
+	font-size: 1rem;
+	text-align: center;
+	font-weight: 900;
+	color: #fff;
+	background: #eb5852;
+}
+}
+
+/*クーポンコードをコピー*/
+
+.copy-btn{
+	margin: 0 auto;
+	
+}
+
+.fa-position-right {
+  position: absolute;
+  top: calc(50% - .5em);
+  right: 1rem;
+}
+
+/* 不要 */
+.balloon1-top {
+  position: relative;
+  display: inline-block;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	margin: 15px auto;
+	left: 50%;
+    transform: translateX(-50%);
+  padding: 7px 10px;
+  min-width: 100px;
+  max-width: 100%;
+  background: #eb5852;
+}
+
+.balloon1-top:before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #eb5852;
+}
+.balloon1-top p {
+  margin: 0 auto;
+  padding: 0 auto;
+	text-align: center;
+}
+.coupon-description{
+	max-width: 900px;
+	margin: 0 auto;
+}
+.cta{
+	align-items: center;
+	text-align: center;
+	margin: 30px auto;
+	max-width: 500px;
+}
+.cta-sub{
+	/*青色
+	color: #2b93f3;　*/
+	color: #ee2c57;
+	font-weight:bold;
+	margin: 0 auto 5px;
+	text-align: center;
+}
+.cta-text{
+	display: block;
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: #fff;
+}
+.cta-text:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  width: 8px;
+  height: 8px;  
+  margin: -4px 0 0 0;
+  border-right: 2px solid #fff;
+  border-top: 2px solid #fff;
+  transform: translateX(5px) rotate(45deg);
+}
+.cta-btn{
+	border: none;
+	padding: .5rem 1rem .5rem 1.5rem;
+	border-radius: 45px;
+	/*青グラデ
+	background-image: linear-gradient(180deg, rgba(65, 164, 253, 1), rgba(61, 170, 253, 1) 54%, rgba(14, 244, 255, 1)); */
+	background-image: linear-gradient(0deg, rgba(247, 93, 139, 1), rgba(249, 111, 118, 1) 0%, rgba(238, 44, 87, 1) 0%, rgba(254, 156, 64, 1));
+}
+.yellow{
+	font-size:1.5rem;
+	color: #fafc7b;
+	border: none;
+}
+.coupon-attention{
+	background-color: #e6e6e6;
+	font-size: .85rem;
+	margin: 30px 0;
+	padding: 30px 3%;
+}
+#sec8{
+	margin-bottom:50px;
+	padding: 0 3%;
+}
+.sec8-inner{
+	max-width: 900px;
+	margin: 5% auto;
+	padding: 0 3%;
+}
+.sec8-text{
+	font-size: 1.2rem;
+}

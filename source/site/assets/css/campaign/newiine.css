@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/* iOSでのデフォルトスタイルをリセット */
+button {
+  -webkit-box-sizing: content-box;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+button::-webkit-search-decoration {
+  display: none;
+}
+button::focus {
+  outline-offset: -2px;
+}
+
+button.newiine_btn {
+  font-family: "メイリオ", Meiryo, "ヒラギノ角ゴシック", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
+  position: relative;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid;
+  color: #afa9aa;
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 3px 13px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-right: 10px;
+}
+
+button.newiine_btn:hover {
+  background: #f1f1f1;
+}
+
+button.newiine_btn span.material-icons-round {
+  font-size: 18px;
+  vertical-align: sub;
+}
+
+button.newiine_btn.newiine_clickedtoday {
+  color: #ed5d78;
+  border-color: #ed5d78;
+}
+
+button.newiine_btn.newiine_clickedtoday:hover {
+  background: #fff3f5;
+}
+
+button.newiine_btn.newiine_clicked {
+  color: #ffffff;
+  background: #ed5d78;
+  border-color: #ed5d78;
+}
+
+button.newiine_btn.newiine_clicked:hover {
+  background: #fd7f96;
+  border-color: #fd7f96;
+}
+
+button.newiine_btn:before {
+  position: absolute;
+  content: "";
+  display: block;
+  margin: auto;
+  visibility: hidden;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  -webkit-transition: all ease-out 0.5s;
+  transition: all ease-out 0.5s;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  background: #fd7f96;
+}
+
+button.newiine_btn:active {
+  -webkit-transform: scale(0.92);
+  transform: scale(0.92);
+}
+
+button.newiine_btn.newiine_animate:before {
+  z-index: 1;
+  -webkit-animation: newiine_animation ease-out 0.5s forwards;
+  animation: newiine_animation ease-out 0.5s forwards;
+}
+
+div.newiine_thanks img {
+  max-width: 100%;
+}
+
+button.newiine_btn div.newiine_thanks {
+  /* ※ ↓お礼メッセージの吹き出しのサイズを変えたい場合はここを調整 */
+  min-width: 300px;
+  background: white;
+  color: #333;
+  text-align: left;
+  font-size: 15px;
+  border: 1px solid #efefef;
+  border-radius: 10px;
+  padding: 10px;
+  filter: drop-shadow(0 2px 8px #cccccc7d);
+  position: absolute;
+  opacity: 0;
+  transition: 0.3s;
+  animation-duration: .5s;
+  animation-fill-mode: both;
+  z-index: 5;
+  pointer-events: none;
+}
+
+button.newiine_btn div.newiine_thanks:after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 20px;
+}
+
+button.newiine_btn div.newiine_thanks_up {
+  bottom: 140%;
+  animation-name: newiine_thanks-up;
+}
+
+button.newiine_btn div.newiine_thanks_up:after {
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+  top: calc(100% - 1px);
+}
+
+button.newiine_btn div.newiine_thanks_down {
+  top: 140%;
+  animation-name: newiine_thanks-down;
+}
+
+button.newiine_btn div.newiine_thanks_down:after {
+  border-top: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid white;
+  bottom: calc(100% - 1px);
+}
+
+button.newiine_btn div.newiine_thanks_right {
+  right: 0;
+  left: auto;
+}
+
+button.newiine_btn div.newiine_thanks_right:after {
+  left: auto;
+  right: 20px;
+} 
+
+button.newiine_btn div.newiine_thanks p {
+  margin: 10px auto;
+}
+
+.newiine_fadeout {
+  animation : newiine_fadeOut 1s !important;
+  animation-fill-mode: both;
+}
+
+/* newiine_type02 */
+
+button.newiine_btn.newiine_type02 {
+  text-align: center;
+  word-break: keep-all;
+  height: 60px;
+  width: 60px;
+  padding: 3px;
+  border-radius: 30px;
+  background: #f1f1f1;
+  border: none;
+}
+
+button.newiine_btn.newiine_type02:hover {
+  color: #fd7f96;
+}
+
+button.newiine_btn.newiine_type02.newiine_clickedtoday {
+  color: #fd7f96;
+  background: #fff3f5;
+}
+
+button.newiine_btn.newiine_type02.newiine_clicked {
+  background: #fd7f96;
+  color: #ffffff;
+}
+
+button.newiine_btn.newiine_type02.newiine_clicked:hover {
+  color: #fff3f5;
+}
+
+button.newiine_btn.newiine_type02.newiine_animate:before {
+  z-index: 1;
+  -webkit-animation: newiine_animation_type02 ease-out 0.5s forwards;
+  animation: newiine_animation_type02 ease-out 0.5s forwards;
+}
+
+@-webkit-keyframes newiine_animation {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    visibility: hidden;
+  }
+}
+
+@keyframes newiine_animation {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes newiine_animation_type02 {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    visibility: hidden;
+  }
+}
+
+@keyframes newiine_animation_type02 {
+  0% {
+    visibility: visible;
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    visibility: hidden;
+  }
+}
+
+
+@keyframes newiine_fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes newiine_thanks-up {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes newiine_thanks-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

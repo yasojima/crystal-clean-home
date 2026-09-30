@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+/* ========================================
+   ハンバーガーメニュー（チェックボックス非表示）
+   ======================================== */
+.header-right #menu-toggle {
+  display: none;
+}
+
+/* ========================================
+   ハンバーガーボタン本体（SP: 固定・右上）
+   ======================================== */
+.header-right .menu-toggle {
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 11;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 63px;
+  height: 60px;
+  background-color: #1778CB;
+}
+
+body:has(#menu-toggle:checked) {
+  overflow: hidden;
+/*  position: fixed;
+  width: 100%;*/
+}
+
+/* デスクトップでは非表示 */
+@media (min-width: 1025px) {
+  .header-right .menu-toggle {
+    display: none;
+  }
+
+  .header-right .main-sp-nav {
+    position: fixed;
+    top: 0px;
+    right: -20%;        /* 初期：画面外 */
+    width: 20%;
+    background-color: #ffffff;
+    z-index: 10;
+    height: 100vh;
+    transition: all 0.5s ease;
+    overflow-y: auto;                    /* ← スクロール有効化 */
+    -webkit-overflow-scrolling: touch;   /* ← iOS慣性スクロール対応 */
+    overscroll-behavior: contain;        /* ← 背景スクロールの伝播を防ぐ */
+    box-shadow: 0 0 10px 1px rgb(0 0 0 / 0.1);
+    /* ← 以下を追加 */
+    visibility: hidden; /* 非表示中は存在を消す */
+  }
+}
+
+/*@media (min-width: 768px) {
+  .header-right .menu-toggle {
+    display: none;
+  }
+}*/
+
+/* ========================================
+   3本線（バー）
+   ======================================== */
+.header-right .menu-toggle .menu-icon {
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 50%;
+  height: 2px;
+  float: left;
+  transform-origin: center center;
+  transition: transform 250ms ease;
+  z-index: 200;
+}
+
+/* 1本目：上にずらす */
+.header-right .menu-toggle .menu-icon:nth-child(1) {
+  transform: translateY(-5px);
+}
+
+/* 3本目：下にずらす */
+.header-right .menu-toggle .menu-icon:nth-child(3) {
+  transform: translateY(5px);
+}
+
+/* "menu"テキスト */
+.header-right .menu-toggle .menu-text {
+  position: relative;
+  display: block;
+  transform: translateY(7px);
+  color: white;
+  float: left;
+  font-size: 12px;
+}
+
+/* ========================================
+   SPドロワーナビ（右からスライドイン）
+   ======================================== */
+.header-right .main-sp-nav {
+  position: fixed;
+  top: 0px;
+  right: -98%;        /* 初期：画面外 */
+  width: 98%;
+  background-color: #ffffff;
+  z-index: 10;
+  height: 100vh;
+  transition: all 0.5s ease;
+  overflow-y: auto;                    /* ← スクロール有効化 */
+  -webkit-overflow-scrolling: touch;   /* ← iOS慣性スクロール対応 */
+  overscroll-behavior: contain;        /* ← 背景スクロールの伝播を防ぐ */
+  box-shadow: 0 0 10px 1px rgb(0 0 0 / 0.1);
+  /* ← 以下を追加 */
+  visibility: hidden; /* 非表示中は存在を消す */
+}
+
+body:has(#menu-toggle:checked) .main-sp-nav {
+  right: 0;
+  visibility: visible;
+}
+
+
+/*@media (min-width: 1024px) {
+  .header-right .main-sp-nav {
+    display: none;
+  }
+}*/
+
+.main-sp-nav .side-menu{
+  width: 100%;
+  height: 950px;
+  background: #fff;
+  padding: 80px 28px 16px;
+/*  position: sticky;*/
+  top: 60px;
+  box-shadow: none;
+  overflow-y: auto;                    /* ← スクロール有効化 */
+  -webkit-overflow-scrolling: touch;   /* ← iOS慣性スクロール対応 */
+  /*overscroll-behavior: contain;*/        /* ← 背景スクロールの伝播を防ぐ */
+}
+
+.main-sp-nav .side-menu h3{
+  padding: 4px 0 11px;
+  text-align: center;
+  font-size: 2.8rem;
+}
+
+.main-sp-nav .side-menu .dist a img{
+  width: 118px;
+  height: 103px;
+}
+
+.main-sp-nav .side-menu .dist a p,
+.main-sp-nav .side-menu .dist+div li a{
+  font-size: 2.0rem;
+}
+
+.main-sp-nav .side-menu .dist+div li{
+  margin-bottom: 20px;
+}
+
+
+/* ========================================
+   チェックON時：×アイコン + ドロワーを表示
+   ======================================== */
+/* 1本目：右上がり斜め */
+.header-right #menu-toggle:checked + .menu-toggle > .menu-icon:nth-child(1) {
+  transform: translateY(1px) rotate(45deg);
+}
+
+/* 2本目：非表示 */
+.header-right #menu-toggle:checked + .menu-toggle > .menu-icon:nth-child(2) {
+  display: none;
+}
+
+/* 3本目：右下がり斜め */
+.header-right #menu-toggle:checked + .menu-toggle > .menu-icon:nth-child(3) {
+  transform: translateY(-1px) rotate(-45deg);
+}
+
+/* ドロワーを画面内へスライドイン */
+.header-right #menu-toggle:checked ~ .main-sp-nav {
+  right: 0;
+}
+
+@media (min-width: 431px) and (max-width: 1024px) {
+  .header-right .main-sp-nav {
+    right: -46%;     /* 幅に合わせて画面外へ */
+    width: 46%;
+  }
+
+  .header-right .menu-toggle {
+    width: 71px;
+    height: 71px;
+    padding-top: 6px;
+  }
+}
+
+@media (min-width: 431px) and (max-width: 768px) {
+  .c-header__icons{
+    margin-right: 95px !important;
+  }
+}
+
+
+

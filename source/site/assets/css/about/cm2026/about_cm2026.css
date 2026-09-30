@@ -1,0 +1,44 @@
+
+  .mv-image-section{
+    position: relative;
+  }
+
+  .c-banner{
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    left: 0;
+  }
+
+  .mv-c2026{
+    background: #041531;
+  }
+
+  .c-option-card{
+    background: none;
+    box-shadow: none;
+  }
+
+@media (max-width: 1060px) {
+  a.c-banner.about-link{
+    width: 65%;
+  }
+}
+
+@media (max-width: 430px) {
+  a.c-banner.about-link{
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  a.c-banner.about-link{
+    width: 95%;
+  }
+
+  .c-banner{
+    bottom: 50px;
+  }
+}
+
+

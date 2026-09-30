@@ -1,0 +1,904 @@
+
+/* ========================================
+   リセットとベーススタイル
+======================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div#wrap {
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "MS P明朝", "MS PMincho", serif;
+    line-height: 1.7;
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    line-height: 2.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+.sp-only{
+    display: none;
+}
+
+.pc-only,
+br.pc-only{
+    display: block;
+}
+
+.c-note{
+    color: #fff;
+}
+
+/* ========================================
+   MVセクション
+======================================== */
+
+.mv img {
+    width: 100%;
+}
+
+img.sp-img{
+    display: none;
+}
+
+
+/* ========================================
+   CPバナーセクション
+======================================== */
+
+.cp-bnr-section{
+    width: 750px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+/* ========================================
+   イントロセクション
+======================================== */
+
+.intro{
+    width: 100%;
+    background: url("/assets/campaign/images/cm2026/pc_info_bg.png") no-repeat 0 0;
+    background-size: cover;
+    padding: 32px 0 42px;
+    font-size: 18px;
+}
+
+.intro .contents{
+    text-align: center;
+    width: 881px;
+    margin: 0 auto;
+}
+
+.intro .contents span{
+    display: block;
+    font-size: 28px;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+.intro .contents div{
+    margin-top: 42px;
+    border: 1px solid #B39952;
+}
+
+.intro .contents div h3{
+    background: #B39952;
+}
+
+.intro .contents div ul{
+    display: flex;
+    width: 494px;
+    margin: 0 auto;
+    padding: 32px 0;
+}
+
+.intro .contents div ul li{
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+.intro .contents div ul li+li{
+    padding-right: 0;
+}
+
+.intro h1{
+    font-size: 32px;
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.intro .contents h1 span{
+    font-size: 62px;
+    margin: 0;
+}
+
+/* ========================================
+   セクションタイトル
+======================================== */
+
+.section-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.section-title-line {
+  flex: 1;
+  height: 1px;
+  background-color: #fff;
+  max-width: 80px;
+}
+
+.section-title-text {
+  color: #fff;
+  text-align: center;
+  margin: 0 20px;
+  line-height: 1.2;
+}
+
+.section-title-text .small{
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+.section-title-text .large{
+  display: block;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+
+/* ========================================
+   TV MOVIE
+======================================== */
+
+section.movie{
+    margin: 80px 0;
+    text-align: center;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.video-container iframe {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+.video-container iframe + h3{
+    margin-top: 42px;
+}
+
+.section-title+img{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* ========================================
+   CAST & DIRECTER
+======================================== */
+
+.cast-info{
+    min-height: 1310px;
+}
+
+.cast{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cast img{
+    width: 800px;
+}
+
+.cast div.txt-group{
+    width: 500px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+.cast div p{
+    margin-left: 20px;
+    line-height: 2em;
+}
+
+.cast h3{
+    background: linear-gradient(90deg, #b39952, #000000);
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+/* ---------- */
+
+.directer{
+    display: flex;
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.directer img{
+    width: 800px;
+    position: absolute;
+    right: 0;
+}
+
+.directer h3{
+    background: linear-gradient(90deg, #000000, #b39952);
+    padding-right: 20px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-size: 28px;
+}
+
+.directer div.txt-group{
+    width: 500px;
+    position: absolute;
+    top: 152px;
+    left: 0;
+}
+
+.directer div.txt-group p:first-child{
+    position: absolute;
+    top: -41px;
+    right: 20px;
+}
+
+.directer div p{
+    line-height: 2em;   
+}
+
+/* ========================================
+   縦棒
+======================================== */
+
+hr{
+    width: 2px;
+    height: 78px;
+    background: #fff;
+    margin: 40px auto 0;
+}
+
+/* ========================================
+   PICK UP
+======================================== */
+
+.pick-up{
+    text-align: center;
+    margin: 32px 0 160px;
+}
+
+br.sp-only{
+    display: none;
+}
+
+.pick-up h2{
+    font-size: 42px;
+}
+
+.pick-up h3{
+    /*width: 1200px;*/
+    width: 70%;
+    margin: 32px auto 32px;
+    padding: 10px 0;
+    color: #fff;
+    background: #b39952;
+    font-size: 24px;
+}
+
+.pick-up ul.pick-up-group{
+    display: flex;
+    width: 70%;
+    min-height: 810px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Yu Gothic Medium", "Yu Gothic", "Hiragino Kaku Gothic ProN",
+             "Hiragino Sans", Meiryo, sans-serif;
+}
+
+.pick-up ul.pick-up-group li{
+    width: 100%;
+    margin-right: 24px;
+    position: relative;
+}
+
+/*.pick-up ul.pick-up-group li.pick-contents{
+    min-height: 260px;  
+}*/
+
+.pick-up ul.pick-up-group li div li{
+    width: 100%;
+}
+
+.pick-up ul.pick-up-group li:last-child{
+    margin-right: 0;
+}
+
+.pick-up ul.pick-up-group img{
+    margin-bottom: 20px;
+}
+
+.pick-up ul.pick-up-group h4{
+    font-size: 20px;
+    border-left: 8px solid #B39952;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.pick-up ul.pick-up-group p,
+.pick-up div ul{
+    line-height: 2em; 
+    font-size: 16px;
+}
+
+.pick-up div ul{
+    margin-top: 20px;
+}
+
+.pick-up div h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.pick-up div h5 + ul{
+    margin-top: 0;
+}
+
+.pick-up a{
+    width: 90%;
+    background: #1F5BAC;
+    display: block;
+    padding: 10px 0 5px 0;
+    text-align: center;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.pick-up a img{
+    width: 20px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+/* ========================================
+   おそうじ本舗のハウスクリーニング一覧
+======================================== */
+
+.clean-list{
+    width: 100%;
+    min-height: 1000px;
+    background: url("/assets/campaign/images/cm2026/cleanlist_bg.png") no-repeat right 37px;
+    background-size: cover;
+}
+
+.clean-list .contents{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.clean-list .contents h3.ttl{
+    background: #B39952;
+    padding: 10px 0;
+    font-size: 24px;
+}
+
+.clean-list h4{
+    font-size: 38px;
+    margin: 66px 0 0;
+}
+
+.l-section{
+    background: none;
+    position: relative;
+    top: -33px;
+}
+
+a.btn-clean{
+    background: #1F5BAC;
+    padding: 30px 50px 30px 100px;
+    border-radius: 100px;
+    position: relative;
+    top: 20px;
+    font-family: "Yu Gothic Medium", "Yu Gothic", "Hiragino Kaku Gothic ProN",
+             "Hiragino Sans", Meiryo, sans-serif;
+}
+
+a img.arrow{
+    width: 20px;
+    padding-bottom: 4px;
+    margin-left: 60px;
+}
+
+/* ========================================
+======================================== */
+@media (max-width: 1211px) {
+    .cast{
+        left: -200px;
+    }
+    .clean-list .contents{
+        width: 80%;
+    }
+    .directer{
+        width: 100%;
+    }
+    .directer img{
+        width: 760px;
+    }
+    .directer div.txt-group{
+        width: 40%;
+        left: 80px;
+    }
+
+}/*ブレイクポイント*/
+
+
+/* ========================================
+======================================== */
+@media (max-width: 1370px) {
+    .pick-up ul.pick-up-group{
+        width: 80%;
+    }
+
+}/*ブレイクポイント*/
+
+/* ========================================
+   レスポンシブデザイン（スマートフォン）
+======================================== */
+/*@media (max-width: 768px)*/
+@media (max-width: 960px) {
+
+/* ========================================
+   MVセクション
+======================================== */
+
+img.sp-img{
+    display: block;
+}
+
+img.pc-img{
+    display: none;
+}
+
+/* ========================================
+   TV MOVIE
+======================================== */
+
+.video-container iframe{
+    width: 90%;
+}
+
+/* ========================================
+   CPバナーセクション
+======================================== */
+
+.cp-bnr-section{
+    width: 90%;
+    margin: 0 auto 10px;
+    line-height: 1.2em;
+}
+
+.cp-bnr-section img{
+    margin-bottom: 4px;
+}
+
+.cp-bnr-section .cp-txt{
+    padding-top: 5px;
+    font-size: 16px;
+}
+
+/* ========================================
+   イントロ
+======================================== */
+
+.pc-only{
+    display: none;
+}
+
+.intro {
+    background: url("/assets/campaign/images/cm2026/sp_info_bg.jpg") no-repeat 0 0;
+    background-size: cover;
+}
+
+.intro .contents{
+    text-align: justify;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.intro .contents h1 span{
+    font-size: 48px;
+}
+
+.intro .contents p{
+    line-height: 2em; 
+    text-align: center;
+}
+
+.intro .contents p span{
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    padding: 20px 0;
+}
+
+.intro .contents div{
+    text-align: center;
+}
+
+.intro .contents div ul{
+    display: block;
+    width: 331px;
+}
+
+.intro .contents div ul li{
+    padding: 0;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+/* ========================================
+   CAST & DIRECTER
+======================================== */
+
+.sp-only{
+    display: block;
+}
+
+.cast-info{
+    width: 100%;
+    min-height: 1060px; 
+}
+
+.cast{
+    left: 0;
+}
+
+.cast img.sp-only{
+    width: 66%;
+}
+
+.cast div.txt-group{
+    width: 65%;
+    top: 70px;
+    right: 0;
+    display: justify;
+}
+
+.cast,
+.directer{
+    width: 100%;
+}
+
+.cast div.txt-group h3,
+.directer div.txt-group h3{
+    background: #B39952;
+    font-size: 24px;
+}
+
+.cast div p{
+    font-size: 20px;
+}
+
+.cast div p:first-chaild{
+    margin-left: 20px;
+}
+
+.cast div.txt-group h3+p{
+    padding-right: 8px;
+    margin-left: 0;
+}
+
+.directer{
+    margin-top: 112px;
+    height: 650px;
+}
+
+.directer img.sp-only{
+    width: 60%;
+    right: 0;
+    bottom: 10px;
+}
+
+.directer div.txt-group{
+    width: 60%;
+    top: 30px;
+    left: 0;
+}
+
+.directer div.txt-group h3+p{
+    padding-left: 16px;
+}
+
+/* ========================================
+   PICK UP
+======================================== */
+
+.pick-up h3{
+    width: 90%;
+    padding: 5px 0;
+}
+
+.pick-up ul.pick-up-group{
+    display: block;
+    width: 90%;
+}
+
+.pick-up ul.pick-up-group li{
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+
+.pick-up ul.pick-up-group li div li{
+    margin-bottom: 0;
+}
+
+.pick-up ul.pick-up-group li a{
+    position: static;
+    margin-top: 32px;
+    width: 55%;
+}
+
+/* ========================================
+   おそうじ本舗のハウスクリーニング一覧
+======================================== */
+
+.clean-list{
+    height: 1090px;
+}
+
+.clean-list .contents{
+    width: 100%;
+}
+
+}/*ブレイクポイント*/
+
+/* ========================================
+   レスポンシブデザイン（スマートフォン）
+======================================== */
+@media (max-width: 432px){
+
+.intro{
+    background-size: cover;
+}
+
+.intro .contents h1 span{
+    font-size: 42px;
+}
+
+.intro .contents p span{
+    font-size: 24px;
+}
+
+.intro .contents div ul{
+    width: 240px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.intro .contents div ul li{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.cast{
+    top: 30px;
+}
+
+.cast div.txt-group{
+    top: 20px;
+}
+
+.directer{
+    top: 80px;
+    height: 580px;
+}
+
+.directer img.sp-only{
+    bottom: 0;
+    top: 0;
+}
+
+.pick-up h2{
+    font-size: 32px;
+}
+
+.pick-up div h5{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.pick-up div h5 + ul{
+    margin-top: 0;
+}
+
+br.sp-only{
+    display: block;
+}
+
+.clean-list{
+    min-height: 1270px;
+}
+
+a.btn-clean{
+    top: 0;
+    padding: 30px 60px 30px 66px;
+}
+
+.clean-list h4{
+    font-size: 34px;
+}
+
+}/*ブレイクポイント*/
+
+/* ========================================
+   レスポンシブデザイン（スマートフォン）
+======================================== */
+@media (max-width: 430px) {
+
+.pc-only, br.pc-only{
+    display: none;
+}
+
+.intro .contents p span{
+    padding-bottom: 0;
+}
+
+.pick-up ul.pick-up-group li a{
+    width: 90%;
+}
+
+a img.arrow{
+    margin-left: 15px;
+}
+
+}
+
+/* ========================================
+   レスポンシブデザイン（スマートフォン）
+======================================== */
+@media (max-width: 402px) {
+.intro .contents h1 span{
+    font-size: 40px;
+}
+
+}
+
+/* ========================================
+   レスポンシブデザイン（スマートフォン）
+======================================== */
+@media (max-width: 375px) {
+
+.intro h1{
+    font-size: 24px;
+    margin-bottom: 28px;
+}
+
+br.pc-only{
+    display: none;
+}
+
+br.sp-only{
+    display: block;
+}
+
+.section-title-text .small{
+  margin-bottom: 3px;
+}
+
+.section-title-text .large{
+  font-size: 24px;
+}
+
+.intro .contents p span {
+    font-size: 30px;
+    line-height: 1.5em;
+}
+
+.intro .contents h1 span{
+    font-size: 38px;
+}
+
+.video-container .h3{
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.directer{
+    top: 100px;
+    min-height: 630px;
+}
+
+.directer div.txt-group{
+    width: 70%;
+}
+
+hr{
+    height: 58px;
+}
+
+.clean-list{
+    min-height: 1200px;
+    background: url(/assets/campaign/images/cm2026/cleanlist_bg.png) no-repeat right bottom;
+    background-size: 565px;
+}
+
+.clean-list .contents{
+    position: relative;
+}
+
+.clean-list h4{
+    font-size: 30px;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    margin-top: 22px;
+    line-height: 1.5em; 
+}
+
+a.btn-clean{
+    padding: 29px 50px 30px 50px;
+}
+
+.pick-up{
+    margin-bottom: 120px;
+}
+
+.pick-up ul.pick-up-group li a{
+    width: 90%;
+}
+
+a img.arrow{
+    margin-left: 18px;
+}
+
+.l-section.l-section--limited.u-pb-72_80{
+    margin-top: 90px;
+}
+
+
+}/*ブレイクポイント*/
+
+
+
+
+
+
