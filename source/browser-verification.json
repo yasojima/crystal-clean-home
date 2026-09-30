@@ -100,5 +100,18 @@
     "all-page visual acceptance",
     "host-dependent external services",
     "public website deployment"
-  ]
+  ],
+  "preview_command": "python tools/serve_public_site.py",
+  "preview_server_verified": {
+    "response_byte_checks": [
+      "/",
+      "/house-cleaning/aircon/",
+      "/shop/detail/10205/"
+    ],
+    "response_bytes_match_manifest": true,
+    "canonical_path_redirect_verified": true,
+    "mobile_home_client_width": 375,
+    "mobile_home_horizontal_overflow": false,
+    "mobile_home_first_viewport_broken_images": []
+  }
 }
