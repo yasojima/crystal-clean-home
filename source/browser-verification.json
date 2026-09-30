@@ -102,7 +102,28 @@
     "cart and reservation backend",
     "form submissions",
     "all-page visual acceptance",
-    "host-dependent external services",
-    "public website deployment"
-  ]
+    "host-dependent external services"
+  ],
+  "public_checks": {
+    "origin": "https://yasojima.github.io/",
+    "homepage": {
+      "desktop_client_width": 1425,
+      "mobile_client_width": 375,
+      "horizontal_overflow": false,
+      "mobile_first_viewport_broken_images": [],
+      "excluded_navigation_links": 0,
+      "mobile_menu_opens_and_closes": true
+    },
+    "aircon_category": {
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    "aircon_wall_detail": {
+      "mobile_client_width": 375,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    "http_evidence": "source/deployment-verification.json"
+  }
 }
