@@ -3719,7 +3719,7 @@ p.aircon2-price.price-after {
 }
 
 
-/* おそうじ本舗割引クーポンの使い方 */
+/* クリスタルクリーンホーム割引クーポンの使い方 */
 
 #static-content #coupon-description1 {
   margin-bottom: 30px;
@@ -4728,7 +4728,7 @@ p.aircon2-price.price-after {
 @media screen and (min-width: 600px) {
 
   #static-content .cp-2509 .cp-detail {
-    /* background: #dbecf7 url(https://www.osoujihonpo.com/assets/images/campaign/250131-11/bg-cp2509.gif) no-repeat top / contain; */
+    /* background: #dbecf7 url(https://yasojima.github.io/assets/images/campaign/250131-11/bg-cp2509.gif) no-repeat top / contain; */
     /* padding: 0 3% 3% 3%; */
   }
 

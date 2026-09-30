@@ -1,0 +1,4 @@
+#!/bin/sh
+# Keep every new page's tab identity and demo links in sync before publication.
+python -X utf8 tools/apply_site_identity.py --check || exit 1
+python -X utf8 tools/verify_site_identity.py || exit 1

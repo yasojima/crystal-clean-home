@@ -17261,3 +17261,14 @@ screen and (min-width: 768px) {
   text-decoration: underline;
   color: #007bff;
 }
+.c-brand-banner{box-sizing:border-box;position:relative;display:flex;align-items:center;gap:14px;min-height:96px;width:100%;padding:8px 22px;background:#fff;color:#005bac;font-weight:700;text-align:left}
+.c-brand-banner--prevention{background:#d1e7f7}
+.c-brand-banner__logo{display:block;flex:0 0 145px;width:145px;height:80px;object-fit:contain}
+.c-brand-banner__copy{display:flex;flex-direction:column;gap:2px;min-width:0}
+.c-brand-banner__eyebrow{font-size:14px;color:#7d858c}
+.c-brand-banner__eyebrow:empty{display:none}
+.c-brand-banner__label{font-size:26px;line-height:1.35}
+.c-brand-banner__arrow{margin-left:auto;font-size:36px;line-height:1}
+@media screen and (max-width:767.98px){.c-brand-banner{min-height:174px;flex-direction:column;justify-content:center;gap:0;padding:9px 35px;text-align:center}.c-brand-banner__logo{flex:none;width:190px;height:102px}.c-brand-banner__copy{gap:0}.c-brand-banner__eyebrow{font-size:13px}.c-brand-banner__label{font-size:22px}.c-brand-banner__arrow{position:absolute;right:10px;top:calc(50% - 18px)}}
+
+.c-header__logo { width: 175px; height: 82px; }

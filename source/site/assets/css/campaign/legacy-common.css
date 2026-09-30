@@ -3138,3 +3138,4 @@ screen and (min-width: 768px) {
   content: "";
   position: absolute
 }
+.c-header__logo { width: 175px; height: 82px; }
