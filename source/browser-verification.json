@@ -1,0 +1,104 @@
+{
+  "origin": "http://127.0.0.1:8769/",
+  "date": "2026-10-01",
+  "scope": "Local frontend snapshot; representative routes only, not a visual inspection of every page",
+  "categories": [
+    {
+      "path": "/house-cleaning/aircon/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/pack/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/water/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/washer/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/kitchen/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/room/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/coating/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    },
+    {
+      "path": "/house-cleaning/others/",
+      "mobile_client_width": 375,
+      "desktop_client_width": 1425,
+      "horizontal_overflow": false,
+      "first_viewport_broken_images": []
+    }
+  ],
+  "additional_checks": [
+    {
+      "path": "/",
+      "checks": [
+        "desktop display",
+        "mobile display",
+        "mobile menu opens and closes"
+      ]
+    },
+    {
+      "path": "/house-cleaning/aircon/wall/",
+      "checks": [
+        "mobile display",
+        "first viewport images loaded",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "path": "/area/chiba-kashiwa/",
+      "checks": [
+        "desktop display",
+        "first viewport images loaded",
+        "no horizontal overflow"
+      ]
+    },
+    {
+      "path": "/shop/detail/10205/",
+      "checks": [
+        "desktop and mobile display",
+        "first viewport images loaded",
+        "no horizontal overflow"
+      ]
+    }
+  ],
+  "not_verified": [
+    "cart and reservation backend",
+    "form submissions",
+    "all-page visual acceptance",
+    "host-dependent external services",
+    "public website deployment"
+  ]
+}
