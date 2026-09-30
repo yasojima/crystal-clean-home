@@ -72,5 +72,14 @@
   ],
   "same_page_resize_verified": true,
   "product_detail_and_scrolled_position_verified": true,
-  "public_verified": false
+  "public_verified": true,
+  "public_url": "https://yasojima.github.io/",
+  "public_commit": "a7e737edb5e593dc2727352c2b5219a46bf4cff7",
+  "public_resize_labels": [
+    "390 × 844 px | MOBILE",
+    "800 × 700 px | TABLET",
+    "1280 × 800 px | DESKTOP"
+  ],
+  "public_right_and_bottom_gap_px": 1,
+  "html_diff_check": "All 413 documents differ only by the shared script tag added to head."
 }

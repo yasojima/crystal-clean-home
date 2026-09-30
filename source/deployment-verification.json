@@ -1,78 +1,78 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-09-30T18:50:52.116853+00:00",
+  "verified_at": "2026-09-30T19:01:50.258391+00:00",
   "pages_build_status": "built",
-  "pages_commit": "d684f6f1fa2fc09cd65e02c3161c6d029ca7467f",
-  "source_tree": "0de21dcad7636b899fa92279949f1d729015079b",
+  "pages_commit": "a7e737edb5e593dc2727352c2b5219a46bf4cff7",
+  "source_tree": "cefd8050bfb241d1dcd7928ef564ead423839a22",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "url": "https://yasojima.github.io/",
-      "sha256": "f52f8bf9c0e13e636fdff6c9446e0a049863d8fce9fa2be48ef13e737418cec6",
+      "sha256": "6c1e6140689963e7336b56ce0b9c9d60be68090267107ca8fdec005c74fb221f",
       "passed": true
     },
     {
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "ed649f7c82fb19bb30d3d91492a2f29dc7c222818a609d9b3f2e32ce2e97bff4",
+      "sha256": "971abc68ec917e2d9722297438bf54a7b91bfacd337154495700b6e3bd133883",
       "passed": true
     },
     {
       "path": "/house-cleaning/pack/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/pack/",
-      "sha256": "433ac54fc9ccafe92d4c4d30bdf1e75759d6152f5354ce0db12a69f6dd2330d7",
+      "sha256": "626740a70b9ba08c79b2b626ae7fe14b704aaba19cfafdb51b043d785c42c3a2",
       "passed": true
     },
     {
       "path": "/house-cleaning/water/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/water/",
-      "sha256": "d1cc6789b01e49b9964bf9a38a6f47e728eaedf543d08cba4d051b87fffb2137",
+      "sha256": "1ed030bedc9b4c532cc34f08ad1a5b6b220a6c8c014017b1664daf5a0bdc1c2a",
       "passed": true
     },
     {
       "path": "/house-cleaning/washer/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/washer/",
-      "sha256": "c4d251082623760d5ba42e554db4391147d6d70fc14a6e54e0f5f3728598a852",
+      "sha256": "49fc4e2f7d8f6531a00feee8240aa8082fa5b859a4ce44962b25780dd3ec952f",
       "passed": true
     },
     {
       "path": "/house-cleaning/kitchen/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/kitchen/",
-      "sha256": "d80bfc930894bbc7259d29dffa46b81882162f1dc029b7614b39b41fff13a0db",
+      "sha256": "c62762271e5a4e37a40cbbb3e2fe1638256cfbe07ab3d981b3c2a81f8e4717f8",
       "passed": true
     },
     {
       "path": "/house-cleaning/room/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/room/",
-      "sha256": "6d028c7e1107b3651ecf0c9cebbd8e1a37caddb1904ce5878f8e9f3e72bddd82",
+      "sha256": "ea56235348eecdd4da01142f8a3e398c6c0010895cd9190885f8d06b3e9dd7a6",
       "passed": true
     },
     {
       "path": "/house-cleaning/coating/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/coating/",
-      "sha256": "09edf77ecdc8f23e989ba9eecb89d7d45cc7bd22fd0686d9f5a7dee2cb95ce82",
+      "sha256": "3f567502705e170daa72ab822234d7faac4b46d87c219b286e5b2b44018fbfa0",
       "passed": true
     },
     {
       "path": "/house-cleaning/others/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/others/",
-      "sha256": "4aa944a45cfeda64cc9ad060110559ec90cd84c4007c521a0fb32eea41f7e433",
+      "sha256": "50f69257e3f8340213421dde4815c389d74d6b773043c510319f2befd063da65",
       "passed": true
     },
     {
       "path": "/house-cleaning/aircon/wall/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/wall/",
-      "sha256": "872ffe1f44fe305eb08d069616f37475c6f36e3e27e2e91bf01aeefe47a94edc",
+      "sha256": "a08c71dc323056c312bee98d344e183d3b1ca0b030e22859a121fef4d6bc0509",
       "passed": true
     },
     {
@@ -94,6 +94,13 @@
       "status": 200,
       "url": "https://yasojima.github.io/assets/js/common.js",
       "sha256": "96fc3b31508873288c197348a1064f39495bc168d1941c4e54694988bd02781d",
+      "passed": true
+    },
+    {
+      "path": "/assets/js/viewport-hud.js",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/js/viewport-hud.js",
+      "sha256": "00a074f15c1d4d246046fe4e212445b3c2e6af28b52b21d3ae353e63945af121",
       "passed": true
     },
     {
