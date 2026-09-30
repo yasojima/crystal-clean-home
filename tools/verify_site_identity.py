@@ -15,6 +15,8 @@ OLD_NAME = re.compile(r"おそうじ本舗|お掃除本舗|オソウジホンポ
 OLD_PHONE = re.compile(r"0120[-‐‑–—ー ]?24[-‐‑–—ー ]?1000|03[-‐‑–—ー ]?6630[-‐‑–—ー ]?6104|0120241000")
 EMAIL = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
 FORMER_LINK = re.compile(r"(?:osoujihonpo|hitowa\.com|lin\.ee/)", re.I)
+OBSOLETE_ASSET = re.compile(r"(?:/assets/images/logo\.webp|/assets/images/footer/footer-tel-"
+                            r"|img-app750\.webp|/line_bnr\.webp)", re.I)
 
 
 class Page(HTMLParser):
@@ -75,6 +77,17 @@ def main() -> None:
             reasons.append(f"former-brand links ({len(page.bad_links)})")
         if page.mail_or_phone_links:
             reasons.append(f"mailto/tel links ({len(page.mail_or_phone_links)})")
+        if OBSOLETE_ASSET.search(text):
+            reasons.append("obsolete brand/contact image")
+        if reasons:
+            failures.append({"path": path.relative_to(SITE).as_posix(), "reasons": reasons})
+    for path in SITE.rglob("*.js"):
+        text = path.read_text(encoding="utf-8")
+        reasons = []
+        if OLD_NAME.search(text) or OLD_PHONE.search(text):
+            reasons.append("former shop name or phone")
+        if OBSOLETE_ASSET.search(text):
+            reasons.append("obsolete brand/contact image")
         if reasons:
             failures.append({"path": path.relative_to(SITE).as_posix(), "reasons": reasons})
     result = {"pages_checked": len(pages), "failed_pages": len(failures),

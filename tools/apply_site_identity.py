@@ -98,6 +98,11 @@ def transform(text: str, is_html: bool) -> str:
     text = re.sub(r'<a\b[^>]*class="mv__slide swiper-slide"[^>]*>\s*<picture\b[^>]*>'
                   r'(?:(?!</picture>).)*?hctop_banner_lineyoyaku_PC\.webp(?:(?!</picture>).)*?'
                   r'</picture>\s*</a>\s*', '', text, flags=re.S)
+    text = re.sub(r'<a\b[^>]*class="pickup-card swiper-slide"[^>]*>\s*'
+                  r'<img\b[^>]*img-app750\.webp[^>]*>.*?</a>\s*', '', text, flags=re.S)
+    text = re.sub(r'<a\b[^>]*>\s*<img\b[^>]*'
+                  r'/assets/images/campaign/(?:aircon-all-year|aircon-multiple-units)/line_bnr\.webp'
+                  r'[^>]*>\s*</a>\s*', '', text, flags=re.S)
     text = re.sub(r'(<span class="c-brand-banner[^\r\n]*</span>)[ \t]+(?=\r?\n)',
                   r'\1', text)
     if is_html and '<h2 class="c-heading-level-2 contact__heading">株式会社HITOWA' in text:
@@ -165,7 +170,9 @@ def main() -> None:
             continue
         old = path.read_bytes()
         if path.suffix == ".js" and not any(marker in old for marker in
-                                           (b"logo.webp", b"0120241000", b"osoujihonpo", *(name.encode() for name in OLD_NAMES))):
+                                           (b"logo.webp", b"0120241000", b"osoujihonpo",
+                                            b"img-app750.webp", b"line_bnr.webp",
+                                            *(name.encode() for name in OLD_NAMES))):
             continue
         rel = path.relative_to(SITE).as_posix()
         new_text = transform(old.decode("utf-8"), path.suffix == ".html")
@@ -256,7 +263,10 @@ def main() -> None:
                 "assets/images/house-cleaning/top/about-link_sp.webp"]
     obsolete += ["assets/images/top/banner/campaign_banner_02v2_pc.webp",
                  "assets/images/top/banner/campaign_banner_02v2_sp.webp",
-                 "assets/images/house-cleaning/kv/hctop_banner_lineyoyaku_PC.webp"]
+                 "assets/images/house-cleaning/kv/hctop_banner_lineyoyaku_PC.webp",
+                 "assets/images/top/pickup/img-app750.webp",
+                 "assets/images/campaign/aircon-all-year/line_bnr.webp",
+                 "assets/images/campaign/aircon-multiple-units/line_bnr.webp"]
     obsolete += [p.relative_to(SITE).as_posix() for p in (SITE / "favicon").glob("*.png")]
     if args.check:
         if changed or missing_assets or unregistered_pages or any((SITE / p).exists() for p in obsolete):
