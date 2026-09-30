@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(){var e;null===(e=document.querySelector(".js-service-dropdown select"))||void 0===e||e.addEventListener("change",this.changeDropdown)}changeDropdown(e){const n=e.currentTarget.value;window.location.href=n}}})();
