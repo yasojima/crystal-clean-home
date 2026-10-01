@@ -46,6 +46,22 @@ for route,page in catalogue['pages'].items():
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')
+    voice_section = main.select_one('.c-voice-card').find_parent('section') if main.select_one('.c-voice-card') else None
+    if not voice_section or voice_section.select_one('h2').get_text(strip=True) != 'ご利用者様の声':
+        fail(route,'voice heading')
+    elif len(voice_section.select('.c-voice-card')) != 6 or voice_section.select_one('.mt20'):
+        fail(route,'voice card count or subtitle')
+    elif any(not card.select_one('h3').get_text(strip=True) or not card.select_one('p').get_text(strip=True)
+             for card in voice_section.select('.c-voice-card')):
+        fail(route,'empty voice card')
+    concerns = main.select('.c-issue-card__text')
+    if len(concerns) != 3 or any(len(node.select('br')) != 1 or not node.get_text().endswith('...') for node in concerns):
+        fail(route,'concerns not two lines ending ...')
+    for node in main.select('.c-product-additional-card__description'):
+        if node.select('br,p') or not node.get_text(strip=True): fail(route,'option description format')
+    for question in main.select('.c-faq-accordion__trigger'):
+        value = question.get_text(strip=True)
+        if value.endswith('か') or value.endswith(('。','、')): fail(route,'FAQ punctuation '+value)
     if len(main.select('.c-step-list__item')) != 5: fail(route,'flow count')
     if 'Visa' not in main.select_one('#service-faq').get_text() or 'Mastercard' not in main.select_one('#service-flow').get_text(): fail(route,'payments')
     for link in main.select('a[href^="#"]'):
@@ -82,6 +98,8 @@ for route,page in catalogue['pages'].items():
 
 target_paths = {f'/house-cleaning/{r}/' for r in catalogue['pages']}
 for path,doc in all_pages.items():
+    if doc.select('.c-footer-bottom-nav__copyright,.business-footer__copyright'):
+        fail(path,'footer site name remains')
     for a in doc.select('a[href]'):
         u = urlsplit(urljoin('https://yasojima.github.io'+path,a['href']))
         if u.netloc != 'yasojima.github.io' or not u.fragment or u.path not in target_paths: continue

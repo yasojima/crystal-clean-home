@@ -41,6 +41,39 @@
   object-fit: cover;
 }
 
+@media (min-width: 1280px) {
+  .c-service-page .c-lineup-card {
+    min-height: 482px;
+  }
+}
+
+.c-service-page .c-product-additional-card__description {
+  min-height: 3lh;
+  max-width: 320px;
+}
+
+.c-service-page .c-lineup-option-list__contents > .c-product-additional-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.c-service-page .c-product-additional-card__footer {
+  margin-top: auto;
+}
+
+.c-service-page .c-voice-card::before {
+  width: 74px;
+  height: 42px;
+  background: url("/assets/images/crystal-clean-home.png") center / contain no-repeat;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.c-service-page .c-voice-card::after {
+  display: none;
+}
+
 .c-service-page .c-service-single-tab {
   pointer-events: none;
 }
@@ -54,6 +87,10 @@
 }
 
 @media (max-width: 767.98px) {
+  .c-service-page .c-voice-card__heading {
+    padding-top: 28px;
+  }
+
   .c-service-page .c-house-cleaning-mv__image {
     width: 100%;
     -webkit-mask-image: linear-gradient(to right, #0003, #0006);

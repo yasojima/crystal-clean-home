@@ -58,10 +58,11 @@ def normalize_text(root):
         value = str(text)
         for old, new in replacements.items():
             value = value.replace(old, new)
-        value = value.replace('！', '').replace('!', '')
         if value != str(text):
             text.replace_with(value)
     for heading in root.select('h1,h2,h3,h4,h5'):
+        if 'c-faq-accordion__heading' in heading.get('class', []):
+            continue
         for text in list(heading.find_all(string=True)):
             if text.strip():
                 text.replace_with(str(text).replace('？', '').rstrip('。'))
@@ -167,8 +168,14 @@ def product(key, route, catalogue, copy):
     for node in block.select('.c-additional-option-card__description,.c-product-additional-card__description'):
         original = node.get_text(' ', strip=True)
         if original in option_copy:
-            lines(node, option_copy[original])
+            node['class'] = ['c-product-additional-card__description']
+            node.string = option_copy[original]
+        else:
+            raise ValueError(f'Option copy missing for {key}: {original}')
     remove_details(block)
+    for button in block.select('.c-lineup-card__foot > .js-add-cart'):
+        if 'c-product-additional-card__cart-button' not in button['class']:
+            button['class'].append('c-product-additional-card__cart-button')
     normalize_text(block)
     for node in block.select('[id]'):
         node['id'] = f'{key}-{node["id"]}'
@@ -245,10 +252,13 @@ def concerns(page, primary, category_copy, copy):
     n = template('concerns'); n['id'] = 'service-introduction'
     detail = '/' in page['route']
     content = copy['products'][primary]
-    issues = ([content['focus'] + 'をきれいにしたい','普段のお手入れでは汚れが残る','作業範囲と料金を先に確認したい'] if detail else category_copy['concerns'])
+    issues = category_copy['concerns']
     n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか'
-    for node, value in zip(n.select('.c-issue-card__text'), issues):
-        node.string = value
+    for node, (first, second) in zip(n.select('.c-issue-card__text'), issues):
+        node.clear()
+        node.append(first)
+        node.append(tag('br'))
+        node.append(second)
     heading = [content['short'] + 'を丁寧にお手入れ','気になる箇所を清潔に'] if detail else category_copy['heading']
     lines(n.select_one('.p-content-box__heading'), heading)
     subjects = [primary] if detail else category_copy['subjects']
@@ -289,18 +299,21 @@ def reasons(scene, shared):
     return n
 
 
-def voices(primary, copy):
+def voices(page, copy):
     n = template('voices')
-    p = copy['products'][primary]
-    n.select_one('h2').string = 'お客様の声'
-    n.select_one('.mt20').string = 'ご依頼から仕上がりの確認まで、ご利用時の様子をご紹介します。'
-    values = [
-        ('気になる場所を相談できました', f'{p["focus"]}が気になり、お願いしました。最初に汚れの状態と作業する範囲を説明していただけたので、気になることを確認してからお任せできました。'),
-        ('お手入れの方法も分かりました', f'{p["short"]}の仕上がりを一緒に見ながら、清掃した箇所を説明していただきました。普段のお手入れで気を付けたい点も聞けたので、きれいな状態を保っていきたいです。')]
+    n.select_one('h2').string = 'ご利用者様の声'
+    samples = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
+    subjects = list(dict.fromkeys(key for group in page['groups'] for key in group['products']))
+    if '/' in page['route']:
+        subjects = subjects[:1]
     cards = n.select('.c-voice-card')
-    for card, words in zip(cards, values):
-        card.select_one('h3').string = words[0]; card.select_one('p').string = words[1]
-    for card in cards[2:]: card.decompose()
+    assert len(cards) == 6
+    for index, card in enumerate(cards):
+        p = copy['products'][subjects[index % len(subjects)]]
+        mode = 'repair' if '補修' in p['short'] else 'coating' if ('コーティング' in p['short'] or '染色' in p['short']) else 'cleaning'
+        heading, body = samples[mode][index]
+        card.select_one('h3').string = heading.format(**p)
+        card.select_one('p').string = body.format(**p)
     return n
 
 
@@ -308,7 +321,8 @@ def faq(category_copy, shared, questions=None):
     n = template('faq'); n['id'] = 'service-faq'
     n.select_one('h2').string = 'よくある質問'
     for item, words in zip(n.select('.c-faq-accordion__item'), shared['faq'] + (questions or category_copy['faq'])):
-        item.select_one('button').string = words[0]
+        question = words[0].rstrip('。！？?')
+        item.select_one('button').string = question + ('？' if question.endswith('か') else '')
         item.select_one('.c-faq-accordion__text').string = words[1]
     return n
 
@@ -372,13 +386,15 @@ def render(route, page, catalogue, copy):
         detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
         if page['category'] != 'coating' or primary == '806':
             questions = detail_faq.get(primary, detail_faq.get(p['scene']))
-    main.append(voices(primary,copy)); main.append(faq(cat,copy['shared'],questions)); main.append(steps(copy['shared']))
+    main.append(voices(page,copy)); main.append(faq(cat,copy['shared'],questions)); main.append(steps(copy['shared']))
     main.append(template('categories')); main.append(template('cart-modal'))
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
     if '/assets/css/service-pages.css' not in output:
-        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=20261001"/>\n</head>')
+        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=20261002"/>\n</head>')
+    output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
+                    '/assets/css/service-pages.css?v=20261002', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')

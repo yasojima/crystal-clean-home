@@ -16218,28 +16218,6 @@ screen and (min-width: 768px) {
   }
 }
 
-.c-footer-bottom-nav__copyright {
-  display: flex;
-  justify-content: center
-}
-
-@media print,
-screen and (min-width: 768px) {
-  .c-footer-bottom-nav__copyright {
-    margin-top: 15px;
-    font-size: .75rem;
-    color: #fff
-  }
-}
-
-@media screen and (max-width: 767.98px) {
-  .c-footer-bottom-nav__copyright {
-    padding-block: 16px 10px;
-    font-size: .75rem;
-    color: #88929b
-  }
-}
-
 @media print,
 screen and (min-width: 768px) {
   .c-footer-bottom-links__item {

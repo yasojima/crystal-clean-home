@@ -128,6 +128,11 @@ def transform(text: str, is_html: bool) -> str:
     text = text.replace('placeholder="XXXXX@sample.com"', 'placeholder=""')
     text = text.replace('&copy; HITOWA Co., Ltd.', BRAND).replace('© HITOWA Co., Ltd.', BRAND)
     text = text.replace('&copy; HITOWA Life Partner Co., Ltd.', BRAND)
+    text = re.sub(r'(?:<!--\s*<small class="c-footer-bottom-nav__copyright">.*?</small>\s*-->\s*)?'
+                  r'<small class="c-footer-bottom-nav__copyright">.*?</small>\s*',
+                  '', text, flags=re.S)
+    text = re.sub(r'<!-- コピーライト -->\s*<p class="business-footer__copyright">.*?</p>\s*',
+                  '', text, flags=re.S)
     text = text.replace('HITOWAの強み', 'サービスの強み')
     text = text.replace('www.osoujihompo.com', 'yasojima.github.io')
     text = text.replace('/assets/images/campaign/m10/logo.png', '/assets/images/crystal-clean-home.png')
