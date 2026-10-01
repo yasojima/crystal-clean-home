@@ -260,7 +260,7 @@ def concerns(page, primary, category_copy, copy):
         node.append(tag('br'))
         node.append(second)
     heading = [content['short'] + 'を丁寧にお手入れ','気になる箇所を清潔に'] if detail else category_copy['heading']
-    lines(n.select_one('.p-content-box__heading'), heading)
+    lines(n.select_one('.p-content-box__heading'), [*heading[:-1], heading[-1].rstrip('！!') + '！'])
     subjects = [primary] if detail else category_copy['subjects']
     buttons = n.select_one('.c-tab__buttons'); panels = n.select_one('.c-tab__panels')
     button, panel = deepcopy(buttons.find('button')), deepcopy(panels.select_one('.c-tab__panel'))

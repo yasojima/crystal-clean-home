@@ -57,6 +57,9 @@ for route,page in catalogue['pages'].items():
     concerns = main.select('.c-issue-card__text')
     if len(concerns) != 3 or any(len(node.select('br')) != 1 or not node.get_text().endswith('...') for node in concerns):
         fail(route,'concerns not two lines ending ...')
+    introduction_heading = main.select_one('#service-introduction .p-content-box__heading')
+    if not introduction_heading or len(introduction_heading.select('br')) != 1 or not introduction_heading.get_text().endswith('！'):
+        fail(route,'introduction heading punctuation')
     for node in main.select('.c-product-additional-card__description'):
         if node.select('br,p') or not node.get_text(strip=True): fail(route,'option description format')
     for question in main.select('.c-faq-accordion__trigger'):
