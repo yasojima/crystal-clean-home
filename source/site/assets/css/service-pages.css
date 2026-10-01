@@ -1,0 +1,66 @@
+.c-service-page .c-house-cleaning-mv__image {
+  width: 62%;
+  height: 100%;
+  object-position: center;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 22%);
+  mask-image: linear-gradient(to right, transparent, #000 22%);
+}
+
+.c-service-page .c-house-cleaning-mv__text {
+  max-width: 62%;
+}
+
+.c-service-page .c-illust--set {
+  -webkit-mask-image: url("/assets/images/common-parts/illust/set.svg");
+  mask-image: url("/assets/images/common-parts/illust/set.svg");
+}
+
+.c-service-page .c-service-photo img,
+.c-service-page .c-lineup-card__image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.c-service-page .c-service-scope {
+  margin-top: 12px;
+}
+
+.c-service-page .c-lineup-heading__image {
+  object-fit: cover;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 45%);
+  mask-image: linear-gradient(to right, transparent, #000 45%);
+}
+
+.c-service-page .c-service-offers .c-set-plan-card__image {
+  width: calc(50% - 16px);
+  height: auto;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+}
+
+.c-service-page .c-service-single-tab {
+  pointer-events: none;
+}
+
+.c-service-page .c-tab__buttons {
+  flex-wrap: wrap;
+}
+
+.c-service-page [id] {
+  scroll-margin-top: 96px;
+}
+
+@media (max-width: 767.98px) {
+  .c-service-page .c-house-cleaning-mv__image {
+    width: 100%;
+    -webkit-mask-image: linear-gradient(to right, #0003, #0006);
+    mask-image: linear-gradient(to right, #0003, #0006);
+  }
+
+  .c-service-page .c-house-cleaning-mv__text {
+    max-width: none;
+  }
+}

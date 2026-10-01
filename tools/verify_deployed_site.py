@@ -1,5 +1,6 @@
 """Check representative Pages responses against the retained source bytes."""
 import hashlib
+import argparse
 import json
 import subprocess
 from concurrent.futures import ThreadPoolExecutor
@@ -65,6 +66,15 @@ def check(path):
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--all-pages', action='store_true')
+    args = parser.parse_args()
+    if args.all_pages:
+        site = ROOT / 'source/site'
+        PATHS += ['/' + p.relative_to(site).as_posix().removesuffix('index.html') for p in site.rglob('*.html')]
+        PATHS += ['/' + p.relative_to(site).as_posix() for p in (site / 'assets/images/service-scenes').glob('*.webp')]
+        PATHS += ['/assets/css/service-pages.css']
+        PATHS = list(dict.fromkeys(PATHS))
     with ThreadPoolExecutor(max_workers=4) as pool:
         checks = list(pool.map(check, PATHS + EXCLUDED))
     build = json.loads(subprocess.check_output(
@@ -76,7 +86,7 @@ if __name__ == "__main__":
             ["git", "-C", str(ROOT), "rev-parse", "HEAD:source/site"], text=True).strip(),
         "checks": checks,
         "passed": all(check["passed"] for check in checks) and build["status"] == "built",
-        "scope": "Representative HTTP responses and excluded paths; backend and all-page visual acceptance are not included."
+        "scope": "All published HTML and service photographs plus representative assets and exclusions; backend and all-page visual acceptance are not included." if args.all_pages else "Representative HTTP responses and excluded paths; backend and all-page visual acceptance are not included."
     }
     (ROOT / "source/deployment-verification.json").write_text(
         json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -1,0 +1,104 @@
+const fs = require('fs');
+const path = require('path');
+const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+
+const root = path.resolve(__dirname, '..');
+const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/catalogue.json'), 'utf8'));
+const origin = process.env.SITE_ORIGIN || 'http://127.0.0.1:8769';
+const screenshots = process.env.SCREENSHOT_DIR;
+const errors = [];
+const checks = [];
+const categories = Object.keys(catalogue.pages).filter(route => !route.includes('/'));
+const fail = (route, width, reason) => errors.push({ route, width, reason });
+
+(async () => {
+  const browser = await chromium.launch({ headless: true, channel: 'chrome' });
+  const page = await browser.newPage();
+  page.setDefaultTimeout(8000);
+  let current = {};
+  page.on('pageerror', error => fail(current.route, current.width, error.message));
+  page.on('dialog', dialog => dialog.dismiss());
+  if (screenshots) fs.mkdirSync(screenshots, { recursive: true });
+  const runs = Object.keys(catalogue.pages).flatMap(route => [390, 1440].map(width => ({ route, width })));
+  runs.push(...categories.flatMap(route => [320, 768].map(width => ({ route, width }))));
+  for (const run of runs) {
+    current = run;
+    const { route, width } = run;
+    try {
+      await page.setViewportSize({ width, height: width > 800 ? 1000 : 844 });
+      const response = await page.goto(`${origin}/house-cleaning/${route}/`, { waitUntil: 'load' });
+      if (response.status() !== 200) fail(route, width, `HTTP ${response.status()}`);
+      await page.evaluate(() => document.fonts.ready);
+      const layout = await page.evaluate(() => {
+        const outside = [...document.querySelectorAll('main *')].filter(n => {
+          const r = n.getBoundingClientRect();
+          return r.width && r.height && (r.left < -1 || r.right > innerWidth + 1) && getComputedStyle(n).position !== 'fixed';
+        }).map(n => n.className).slice(0, 12);
+        const broken = [...document.images].filter(i => i.complete && i.naturalWidth === 0).map(i => i.src);
+        const emptyIcons = [...document.querySelectorAll('.c-page-anchors .c-illust')].filter(n => getComputedStyle(n).maskImage === 'none').map(n => n.className);
+        return { viewport: innerWidth, scrollWidth: document.documentElement.scrollWidth, outside, broken, emptyIcons };
+      });
+      if (layout.scrollWidth > width + 1) fail(route, width, `horizontal overflow ${JSON.stringify(layout)}`);
+      if (layout.broken.length || layout.emptyIcons.length) fail(route, width, JSON.stringify(layout));
+      if (categories.includes(route) && [390, 1440].includes(width) && screenshots) {
+        await page.screenshot({ path: path.join(screenshots, `${route}-${width}-top.png`) });
+      }
+      if (width === 1440) {
+        const faq = page.locator('.c-faq-accordion__trigger').first();
+        await faq.click();
+        const faqId = await faq.getAttribute('aria-controls');
+        await page.waitForFunction(id => document.getElementById(id).getBoundingClientRect().height > 0, faqId);
+        const tabs = page.locator('.c-tab__buttons button');
+        if (await tabs.count() > 1) {
+          await tabs.nth(1).click();
+          if (await tabs.nth(1).getAttribute('aria-selected') !== 'true') fail(route, width, 'tab selection');
+        }
+        const option = page.locator('.c-lineup-options__accordion-trigger').first();
+        if (await option.count()) {
+          await option.click();
+          const id = await option.getAttribute('aria-controls');
+          await page.waitForFunction(id => document.getElementById(id).getBoundingClientRect().height > 0, id);
+        }
+        const variants = page.locator('.js-room-types');
+        for (let i = 0; i < await variants.count(); i++) {
+          const select = variants.nth(i);
+          const index = await select.locator('option').count() - 1;
+          await select.selectOption({ index });
+          const result = await select.evaluate((n, index) => {
+            const wrap = n.closest('.js-products');
+            const switched = [...wrap.querySelectorAll('[data-switch-target]')].map(box => ({ target: box.dataset.switchTarget, active: [...box.children].findIndex(child => child.classList.contains('is-active')) }));
+            return { product: wrap.querySelector('[data-product-card="parent"] input[name="product-id"]').value === n.value, switched, index };
+          }, index);
+          if (!result.product || result.switched.some(s => s.active !== index)) fail(route, width, `variant ${JSON.stringify(result)}`);
+          await select.selectOption({ index: 0 });
+        }
+        const quantity = page.locator('.c-lineup-card .js-product-quantity.is-active select').first();
+        if (await quantity.count() && await quantity.locator('option').count() > 1) {
+          await quantity.selectOption({ index: 1 });
+          if (await quantity.evaluate(n => n.selectedIndex) !== 1) fail(route, width, 'quantity');
+        }
+        if (categories.includes(route)) {
+          const anchor = page.locator('.c-page-anchors a').first();
+          const target = await anchor.getAttribute('href');
+          await anchor.click();
+          await page.waitForFunction(selector => {
+            const y = document.querySelector(selector).getBoundingClientRect().top;
+            return y >= 0 && y < 150;
+          }, target);
+        }
+      }
+      if (categories.includes(route) && [390, 1440].includes(width) && screenshots) {
+        await page.locator('.c-lineup-card').first().scrollIntoViewIfNeeded();
+        await page.screenshot({ path: path.join(screenshots, `${route}-${width}-product.png`) });
+      }
+      checks.push({ route, width, passed: !errors.some(e => e.route === route && e.width === width) });
+    } catch (error) {
+      fail(route, width, error.message);
+    }
+  }
+  await browser.close();
+  const report = { checked_at: new Date().toISOString(), origin, pages: Object.keys(catalogue.pages).length, viewport_runs: runs.length, checks, errors, passed: errors.length === 0 };
+  fs.writeFileSync(path.join(root, 'source/service-browser-verification.json'), JSON.stringify(report, null, 2) + '\n');
+  console.log(JSON.stringify({ pages: report.pages, viewport_runs: runs.length, passed: report.passed, errors }));
+  process.exitCode = errors.length ? 1 : 0;
+})().catch(error => { console.error(error); process.exitCode = 1; });

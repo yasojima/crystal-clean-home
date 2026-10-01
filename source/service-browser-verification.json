@@ -1,0 +1,550 @@
+{
+  "checked_at": "2026-10-01T14:59:37.834Z",
+  "origin": "http://127.0.0.1:8769",
+  "pages": 46,
+  "viewport_runs": 108,
+  "checks": [
+    {
+      "route": "aircon",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "aircon",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "pack",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "pack",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "washer",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "washer",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "kitchen",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "kitchen",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "others",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "others",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "aircon/ceil",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "aircon/ceil",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "aircon/wall",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "aircon/wall",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/bathroom",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/bathroom",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/floor",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/floor",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/kitchen",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/kitchen",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/lavatory",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/lavatory",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/repair",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/repair",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/toilet",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/toilet",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "coating/uv-coating",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "coating/uv-coating",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "kitchen/dishwasher",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "kitchen/dishwasher",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "kitchen/fan",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "kitchen/fan",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "kitchen/kitchen",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "kitchen/kitchen",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "kitchen/rei",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "kitchen/rei",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "others/exterior",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "others/exterior",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "others/grave",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "others/grave",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "others/outerwall",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "others/outerwall",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "others/photocatalyst",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "others/photocatalyst",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "pack/entirety",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "pack/entirety",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "pack/move",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "pack/move",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/air-cleaner",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/air-cleaner",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/carpet",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/carpet",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/cloth",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/cloth",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/duct",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/duct",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/entrance",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/entrance",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/flooring",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/flooring",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/glass",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/glass",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/mattress",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/mattress",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/sofa",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/sofa",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "room/wallpaper-dyeing",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "room/wallpaper-dyeing",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "washer/front",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "washer/front",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "washer/side",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "washer/side",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "washer/top",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "washer/top",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/bathroom",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/bathroom",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/drier",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/drier",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/lavatory",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/lavatory",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/pipe",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/pipe",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/toilet",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/toilet",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "water/ulblo",
+      "width": 390,
+      "passed": true
+    },
+    {
+      "route": "water/ulblo",
+      "width": 1440,
+      "passed": true
+    },
+    {
+      "route": "aircon",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "aircon",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "pack",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "pack",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "water",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "water",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "washer",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "washer",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "kitchen",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "kitchen",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "room",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "room",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "coating",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "coating",
+      "width": 768,
+      "passed": true
+    },
+    {
+      "route": "others",
+      "width": 320,
+      "passed": true
+    },
+    {
+      "route": "others",
+      "width": 768,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
