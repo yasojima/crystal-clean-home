@@ -1,9 +1,9 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-01T22:59:28.249600+00:00",
+  "verified_at": "2026-10-01T23:53:06.333250+00:00",
   "pages_build_status": "built",
-  "pages_commit": "a14961409c3fbb8a9affcdad47af67da47c2890e",
-  "source_tree": "c6f57d1220753612e70c3d56e72579ae093a32aa",
+  "pages_commit": "5c6a2dbd895961cee0b18616e6580f1356cd2b7e",
+  "source_tree": "5935d9f77866436eceec64d5401b20e5a7c86c84",
   "checks": [
     {
       "path": "/",
@@ -30,7 +30,7 @@
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "bd3d31e47f0946c9fe261e197d24d7156da3fadfe64b87e1600220dfdeeaf348",
+      "sha256": "df152a1cfca81586de070863b4c309374aadc94a3b6f537ac665effc51c9e934",
       "passed": true
     },
     {
@@ -1074,6 +1074,55 @@
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/reasons-navy.css",
       "sha256": "c79c49461707843821768c0384a027652cac8cc40b728beeea2bd3252e1fbb1d",
+      "passed": true
+    },
+    {
+      "path": "/assets/css/aircon-voice-bubbles.css",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/css/aircon-voice-bubbles.css",
+      "sha256": "ea69cdd27fa0f1739dbcb55944104a5a615bda5c6b4a68ddfd70feadab8ee1b1",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/woman-long.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/woman-long.svg",
+      "sha256": "460508d40589e2616a73d82e60ac01ff6fc52a7e0e1778c305475a36e62e3174",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/man-short.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/man-short.svg",
+      "sha256": "327ce26b0b82ef3250e87f853c56efd20426b566758be4d0f9e0d02a6e06b8ad",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/woman-bob.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/woman-bob.svg",
+      "sha256": "221e6bf98ca21e0dc0685cd34fe5469bc358121bf4b818f2a8299cb06afa0e7c",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/woman-senior.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/woman-senior.svg",
+      "sha256": "09e10e8ae99482a6ac75dfaeb226553a3139542171151473e02b5b3f51dce540",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/man-young.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/man-young.svg",
+      "sha256": "1ea4f9f1a1a8b0ed1e3bb5f1e016d64970872e2909ac257a793c68d60a30143f",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/voices/man-senior.svg",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/voices/man-senior.svg",
+      "sha256": "f623a555bf328fe754b1acee15d9b699c4d88aae66e1fe1da9bd7472f3183c39",
       "passed": true
     },
     {
