@@ -12111,6 +12111,11 @@ screen and (min-width: 768px) {
   border-top: solid 1px #edf2f8
 }
 
+.c-lineup-card__foot--no-detail,
+.c-product-additional-card__footer--no-detail {
+  justify-content: center
+}
+
 @media print,
 screen and (min-width: 768px) {
   .c-lineup-card__foot {
