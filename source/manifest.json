@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 172996,
-      "sha256": "670f4e10d903ff9abc64d798dded90d4a89c7d585d2d4f1d48ca1aef83ab2221",
+      "bytes": 173626,
+      "sha256": "93f995829b88da8a9b4bda37c11adb19865a9f8d558deaeb0a7ec2571a51773a",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 172996,
-      "sha256": "670f4e10d903ff9abc64d798dded90d4a89c7d585d2d4f1d48ca1aef83ab2221",
+      "bytes": 173626,
+      "sha256": "93f995829b88da8a9b4bda37c11adb19865a9f8d558deaeb0a7ec2571a51773a",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13033,8 +13033,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 4750,
-      "sha256": "5834769ec3ccb4fd705007db471f0ccbd7dcac8196ceab4d588e65bb425e246d",
+      "bytes": 5230,
+      "sha256": "52e61c49df906f7a4854279404cb722f287a729de7beebbdbc41196fcc574d47",
       "source_sha256": "dd4f31dd936343132db386c790bf084952010ae045a6e7d328b98e94c0e0bf4d"
     },
     "https://www.osoujihonpo.com/assets/images/service-scenes/reason-carpet-extractor.webp": {
@@ -13063,6 +13063,15 @@
       "origin_type": "local-service-page",
       "bytes": 318258,
       "sha256": "0fd9519748c347b7abbe4f5153f81c4b6aabdf62e205ddb7a19b3579c9034fe4"
+    },
+    "https://www.osoujihonpo.com/assets/images/reasons/navy-glass-vertical.png": {
+      "path": "assets/images/reasons/navy-glass-vertical.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/reasons/navy-glass-vertical.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 1164900,
+      "sha256": "4521bc73a40cccb4b59eadce789a711203d494309e8ef8471ebf1a64ddcc364c"
     }
   },
   "external_urls": [
@@ -15253,9 +15262,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1412,
-    "unique_paths": 1390,
-    "bytes": 121207786,
+    "urls": 1413,
+    "unique_paths": 1391,
+    "bytes": 122373796,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

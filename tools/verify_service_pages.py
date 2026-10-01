@@ -49,11 +49,12 @@ for route,page in catalogue['pages'].items():
     if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
         fail(route,'service voice profile')
     reason_images = [img.get('src') for img in main.select('.c-reasons__bg')]
+    glass_images = main.select('.c-reasons__glass-image')
     expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('mop-bucket','carpet-extractor','floor-polisher')]
     if route == 'aircon':
-        if reason_images or not main.select_one('.c-reasons--glass-preview'):
-            fail(route,'photo-free navy glass reason preview')
-    elif reason_images != expected_reasons or main.select_one('.c-reasons--glass-preview'):
+        if reason_images or not main.select_one('.c-reasons--glass-preview') or len(glass_images) != 3 or any(img.get('src') != '/assets/images/reasons/navy-glass-vertical.png' or img.get('alt') != '' for img in glass_images):
+            fail(route,'three textured navy glass panels')
+    elif reason_images != expected_reasons or main.select_one('.c-reasons--glass-preview') or glass_images:
         fail(route,'shared reason photographs')
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')

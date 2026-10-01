@@ -304,6 +304,10 @@ def reasons(shared, glass_preview=False):
         item.select_one('p').string = words[1]
         if glass_preview:
             item.select_one('img').decompose()
+            glass = tag('div', 'c-reasons__glass', **{'aria-hidden': 'true'})
+            texture = tag('img', 'c-reasons__glass-image', src='/assets/images/reasons/navy-glass-vertical.png', alt='', width='736', height='1309', loading='lazy', decoding='async')
+            glass.append(texture)
+            item.append(glass)
         else:
             image(item.select_one('img'), scenes[i], '')
     return n
@@ -431,7 +435,7 @@ def render(route, page, catalogue, copy):
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
-    css_version = '2026100207' if route == 'aircon' else '2026100202'
+    css_version = '2026100209' if route == 'aircon' else '2026100202'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
@@ -447,6 +451,7 @@ def sync_manifest(routes, check):
     manifest = json.loads(path.read_text(encoding='utf-8'))
     files = [SITE / 'house-cleaning' / route / 'index.html' for route in routes]
     files += list((SITE / 'assets/images/service-scenes').glob('*.webp'))
+    files += [SITE / 'assets/images/reasons/navy-glass-vertical.png']
     files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/common.css']
     changed = []
     for file in files:
@@ -457,7 +462,7 @@ def sync_manifest(routes, check):
         if not records:
             url = manifest['origin'].rstrip('/') + '/' + rel
             record = {'path':rel, 'effective_url':url, 'status':200,
-                      'content_type':'image/webp' if file.suffix == '.webp' else 'text/css',
+                      'content_type':{'.webp':'image/webp','.png':'image/png'}.get(file.suffix,'text/css'),
                       'origin_type':'local-service-page'}
             manifest['files'][url] = record
             records = [record]
