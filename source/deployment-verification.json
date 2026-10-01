@@ -1,9 +1,9 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-01T20:59:50.906678+00:00",
+  "verified_at": "2026-10-01T21:23:48.472520+00:00",
   "pages_build_status": "built",
-  "pages_commit": "23d61eea1f7f6ca37286caa52f61e46a0fcd0bd2",
-  "source_tree": "436d565d094ad971c28de31956c2ad3b755fe817",
+  "pages_commit": "3c2c3cbfe979a2b5ff3d2ca2a6d91b16550e76b0",
+  "source_tree": "ff617127c0e0648e4b22b5ee150ceecb00923058",
   "checks": [
     {
       "path": "/",
@@ -30,7 +30,7 @@
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "fbcf43113777631d663adaa3b5e046975fe8f0ba3557a6d018e79652f2b36494",
+      "sha256": "10c541ba57cd0359a26dee31a37658d12d5dc9d64756e88674b3a00af8386e2e",
       "passed": true
     },
     {
@@ -1066,7 +1066,7 @@
       "path": "/assets/css/service-pages.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/service-pages.css",
-      "sha256": "8fbc648032e1e8c11f9958a63ff487ba2ef9a35f66a622344c7f5e1a43a9bec1",
+      "sha256": "cb125f2af00b2454a583b2c20ca567c3c21c347886c590fd48ffa3f40375f4a6",
       "passed": true
     },
     {
