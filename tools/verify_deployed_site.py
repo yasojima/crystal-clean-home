@@ -16,6 +16,7 @@ PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
          "/assets/css/cart/complete.css", "/assets/js/common.js", "/assets/js/viewport-hud.js",
          "/assets/js/demo-contact.js", "/favicon/crystal-clean-home.svg",
          "/assets/images/crystal-clean-home.png",
+         "/assets/images/footer/footer-phone-demo-pc.svg",
          "/assets/images/footer/footer-phone-demo-sp.svg",
          "/assets/images/top/kv/slider-pc_business.jpg",
          "/assets/images/header/estimate.svg",
@@ -27,7 +28,11 @@ EXCLUDED = ["/shop/", "/area/chiba-kashiwa/", "/guide/", "/promotion/",
             "/assets/images/logo.webp", "/favicon.ico",
             "/assets/images/top/pickup/img-app750.webp",
             "/assets/images/campaign/aircon-all-year/line_bnr.webp",
-            "/assets/images/campaign/aircon-multiple-units/line_bnr.webp"]
+            "/assets/images/campaign/aircon-multiple-units/line_bnr.webp",
+            "/info/news/", "/info/media/", "/info/media/9_12_nikkei_1/",
+            "/business/partnership01/", "/campaign/super-sale/",
+            "/campaign/cm2026/", "/campaign/dishwasher-air-cleaner/",
+            "/campaign/policy-1/"]
 
 
 def check(path):
