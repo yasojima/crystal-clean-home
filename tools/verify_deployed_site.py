@@ -11,9 +11,12 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://yasojima.github.io"
 CATEGORIES = ["aircon", "pack", "water", "washer", "kitchen", "room", "coating", "others"]
-PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
+PATHS = ["/", "/about/", "/quick_cart/room/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
          "/house-cleaning/aircon/wall/", "/contact/", "/policy/", "/sitemap.xml",
-         "/assets/css/cart/complete.css", "/assets/js/common.js", "/assets/js/viewport-hud.js",
+         "/assets/css/cart/complete.css", "/assets/css/common.css",
+         *[f"/assets/images/common-parts/sns-icon/icon-{name}.png"
+           for name in ("x", "instagram", "tiktok", "youtube", "translate")],
+         "/assets/js/common.js", "/assets/js/viewport-hud.js",
          "/assets/js/demo-contact.js", "/favicon/crystal-clean-home.svg",
          "/assets/images/crystal-clean-home.png",
          "/assets/images/footer/footer-phone-demo-pc.svg",
@@ -32,6 +35,7 @@ EXCLUDED = ["/shop/", "/area/chiba-kashiwa/", "/guide/", "/promotion/",
             "/info/news/", "/info/media/", "/info/media/9_12_nikkei_1/",
             "/business/partnership01/", "/campaign/super-sale/",
             "/campaign/cm2026/", "/campaign/dishwasher-air-cleaner/",
+            "/house-cleaning/room/tatami/", "/house-cleaning/room/white-wood/",
             "/campaign/policy-1/"]
 
 
