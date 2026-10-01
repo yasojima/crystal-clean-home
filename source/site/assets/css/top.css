@@ -784,6 +784,23 @@ screen and (min-width: 768px) {
 
 
 /* スライダー画像最大1024px固定 */
+
+/* 差し替え予定ページの未リンク案内 */
+.c-pending-link.c-site-menu-link {
+  display: block;
+}
+
+.c-pending-link.c-site-menu-link::after {
+  content: none;
+}
+
+.c-pending-link__note {
+  margin-inline-start: .45em;
+  color: #b42318;
+  font-size: .8125rem;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 1024px) {
 
   #js-mv-slider.mv__inner {
