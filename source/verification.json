@@ -1,16 +1,16 @@
 {
   "source": "https://www.osoujihonpo.com",
-  "verified_at": "2026-10-01T02:12:35.101506+00:00",
-  "verified_files": 1928,
-  "html_files": 303,
-  "total_bytes": 176597813,
+  "verified_at": "2026-10-01T02:23:01.478731+00:00",
+  "verified_files": 1907,
+  "html_files": 299,
+  "total_bytes": 175432080,
   "matches_manifest": true,
-  "unchanged_source_files": 1595,
+  "unchanged_source_files": 1578,
   "local_authored_files": 16,
-  "approved_scope_edited_files": 319,
+  "approved_scope_edited_files": 315,
   "integrity_errors": [],
-  "sitemap_urls": 296,
-  "sitemap_saved": 294,
+  "sitemap_urls": 292,
+  "sitemap_saved": 290,
   "sitemap_unavailable": {
     "https://www.osoujihonpo.com/campaign/super-sale_2025/": "HTTP 404",
     "https://www.osoujihonpo.com/error/": "HTTP 403"
@@ -146,7 +146,7 @@
     "https://www.osoujihonpo.com/shop/detail/4811/": "HTTP 404"
   },
   "response_conflicts": [],
-  "committed_git_blobs_verified": true,
+  "committed_git_blobs_verified": false,
   "external_resources_remain_external": [
     "http://0120157257.com/",
     "http://btoptout.yahoo.co.jp/optout/preferences.html",
@@ -2209,6 +2209,5 @@
     "https://www.youtube.com/watch?v=4tFyUCUWd6I",
     "https://x.com/osoujihonpo?ref_src=twsrc%5Etfw",
     "https://zucks.co.jp/optout/"
-  ],
-  "verified_git_source_tree": "7e40b1dbc24b31b86b691c27bf766656b89fface"
+  ]
 }
