@@ -22,6 +22,8 @@ PATHS = ["/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
          "/assets/font/campaign/font-awesome/fontawesome-webfont.woff2"]
 EXCLUDED = ["/shop/", "/area/chiba-kashiwa/", "/guide/", "/promotion/",
             "/kajitatsu/", "/gift/", "/campaign/senzai02/",
+            "/eco/", "/house-cleaning/faq/", "/house-cleaning/faq/1/",
+            "/office/", "/business/", "/assets/images/about/eco-banner.webp",
             "/assets/images/logo.webp", "/favicon.ico",
             "/assets/images/top/pickup/img-app750.webp",
             "/assets/images/campaign/aircon-all-year/line_bnr.webp",

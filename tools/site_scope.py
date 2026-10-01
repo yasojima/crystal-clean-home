@@ -17,6 +17,8 @@ def excluded_url(value, base=ORIGIN):
     if parts.hostname in SCOPE['excluded_hosts']:
         return True
     if parts.hostname in {'www.osoujihonpo.com', 'osoujihonpo.com'}:
+        if parts.path.rstrip('/') + '/' in SCOPE.get('excluded_exact_paths', []):
+            return True
         return any(parts.path == p.rstrip('/') or parts.path.startswith(p) for p in SCOPE['excluded_path_prefixes'])
     return False
 
