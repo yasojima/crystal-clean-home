@@ -1,0 +1,15 @@
+.coating-hero{max-width:1440px;margin-inline:auto;background:linear-gradient(180deg,#c9effb 0%,#eaf8fd 63%,#075aa7 63%,#075aa7 100%);text-align:center;color:#005bac;overflow:hidden}
+.coating-hero__copy{padding:54px 20px 30px}
+.coating-hero__copy p{font-size:clamp(17px,2vw,27px);font-weight:700;margin:0 0 20px}
+.coating-hero__copy h1{font-size:clamp(28px,3vw,46px);line-height:1.45;margin:0 auto 22px;font-weight:800}
+.coating-hero__copy span{display:inline-block;background:#fff;border-radius:100px;padding:10px 28px;font-size:clamp(16px,1.7vw,22px);font-weight:700}
+.coating-hero__photos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));max-width:1120px;margin:10px auto 0}
+.coating-hero__photos img{display:block;width:100%;height:205px;object-fit:cover}
+.coating-hero__note{color:#fff;font-size:clamp(16px,1.7vw,22px);font-weight:700;margin:0;padding:25px 16px 29px}
+.coating-info{background:#fff;color:#173853;border-radius:16px;padding:32px;box-shadow:0 6px 20px #003d7620;min-height:210px;width:100%}
+.coating-info h3{color:#005bac;font-size:clamp(19px,2vw,25px);margin:0 0 18px;line-height:1.4}
+.coating-info p{font-size:16px;line-height:1.8;margin:0}
+.coating-video-note{display:flex;align-items:center;gap:24px;background:#fff;border-radius:16px;padding:24px;color:#005bac;font-size:20px;font-weight:700;text-align:left}
+.coating-video-note img{width:45%;height:160px;object-fit:cover;border-radius:10px}
+.coating-video-note p{margin:0;line-height:1.6}
+@media(max-width:767.98px){.coating-hero__copy{padding:28px 20px 20px}.coating-hero__copy p{font-size:16px;margin-bottom:14px}.coating-hero__copy h1{font-size:21px;margin-bottom:16px}.coating-hero__copy span{font-size:14px;padding:8px 16px}.coating-hero__photos{margin-top:0}.coating-hero__photos img{height:145px}.coating-hero__note{font-size:14px;padding:20px 14px}.coating-info{padding:22px;min-height:0}.coating-info p{font-size:14px}.coating-video-note{flex-direction:column;padding:18px;font-size:16px}.coating-video-note img{width:100%;height:130px}}

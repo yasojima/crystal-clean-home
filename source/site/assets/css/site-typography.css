@@ -1,0 +1,27 @@
+/* Shared typography for every existing and newly generated page. */
+:root {
+  --site-body-font: "Noto Sans JP", sans-serif;
+  --site-heading-font: "Zen Kaku Gothic New", "Noto Sans JP", sans-serif;
+}
+
+body {
+  font-family: var(--site-body-font) !important;
+}
+
+/* Legacy campaign pages sometimes set a separate font on prose elements. */
+body :is(p, li, dd, dt, blockquote, figcaption) {
+  font-family: var(--site-body-font) !important;
+}
+
+/* Keep the header logo and compact level-3/4 labels in their existing style. */
+body :is(
+  h1:not(.c-header__logo),
+  h2:not(.c-heading-level-3):not(.c-heading-level-4),
+  .c-heading-level-1,
+  .c-heading-level-2,
+  .c-double-line-heading,
+  .c-beside-line-heading--large,
+  .cch-home-slide__copy > strong
+) {
+  font-family: var(--site-heading-font) !important;
+}

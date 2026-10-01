@@ -14,11 +14,14 @@ import re
 import shutil
 from pathlib import Path
 
+from apply_site_typography import add_typography_links
+
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "source/site"
 MANIFEST = ROOT / "source/manifest.json"
 PUBLIC = "https://yasojima.github.io"
 BRAND = "クリスタルクリーンホーム"
+TAB_BRAND = "Crystal Clean Home"
 ICON = '<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon/crystal-clean-home.svg">'
 DEMO_SCRIPT = '<script src="/assets/js/demo-contact.js" defer></script>'
 BRAND_BANNER = ('<span class="c-brand-banner c-brand-banner--{kind}">'
@@ -36,6 +39,7 @@ CONTACT_URL = re.compile(
 FORMER_BRAND_URL = re.compile(
     r"^https?://(?:[^/]*\.)?(?:osoujihonpo\.com|osoujihonpo-fc\.com|"
     r"hitowa\.com)(?:[/:?]|$)|^https?://lin\.ee/|"
+    r"^https?://line\.me/R/ti/p/|"
     r"^https?://play\.google\.com/store/apps/details\?id=com\.osoujihonpo\.customer", re.I
 )
 OLD_SOCIAL = re.compile(
@@ -55,6 +59,16 @@ OLD_SOCIAL_ITEM = re.compile(
 )
 
 
+def tab_title(raw_title: str) -> str:
+    """Keep the page subject, with the shared English name visible first in tabs."""
+    title = re.sub(r"^Crystal Clean Home\s*(?:[|｜]\s*)?", "", raw_title.strip())
+    title = re.sub(r"(?:ハウスクリーニングの|お掃除のことなら)?クリスタルクリーンホーム(?:の)?", "", title)
+    title = re.sub(r"\s*[|｜]\s*", "｜", title)
+    title = title.strip(" \t\r\n　｜|・-")
+    title = re.sub(r"(?:のこと)?なら$", "", title).strip(" \t\r\n　｜|・-")
+    return TAB_BRAND + (f" | {title}" if title else "")
+
+
 def replace_link(match: re.Match[str]) -> str:
     tag, href = match.group(), match.group(1)
     if not (CONTACT_URL.match(href) or OLD_SOCIAL.match(href) or FORMER_BRAND_URL.match(href)
@@ -71,6 +85,10 @@ def transform(text: str, is_html: bool) -> str:
     for old_name in OLD_NAMES:
         text = text.replace(old_name, BRAND)
     text = text.replace("/assets/images/logo.webp", "/assets/images/crystal-clean-home.png")
+    text = text.replace('<span class="c-brand-banner__label">ハウスクリーニングについて</span>',
+                        '<span class="c-brand-banner__label">お掃除サービスのご案内</span>')
+    text = text.replace('<span class="c-brand-banner__label">ハウスクリーニングのご案内</span>',
+                        '<span class="c-brand-banner__label">お掃除サービスのご案内</span>')
     text = re.sub(r'(<img class="c-flex-image" )src="/assets/images/crystal-clean-home\.png"(?: style="[^"]*")?',
                   r'\1src="/assets/images/crystal-clean-home.png" style="width:160px;height:82px;object-fit:contain;object-position:left center"', text)
     text = re.sub(r'(<img class=\\"c-flex-image\\" )src=\\"/assets/images/crystal-clean-home\.png\\"(?: style=\\"[^\\]*\\")?',
@@ -88,7 +106,7 @@ def transform(text: str, is_html: bool) -> str:
     text = text.replace('/assets/images/campaign/ots/sec7_logo.png', '/assets/images/crystal-clean-home.png')
     text = re.sub(r'<picture\b[^>]*>(?:(?!</picture>).)*?about-link_pc\.webp(?:(?!</picture>).)*?</picture>',
                   BRAND_BANNER.format(kind='about', eyebrow='初めての方はこちら',
-                                      label='ハウスクリーニングについて'), text, flags=re.S)
+                                      label='お掃除サービスのご案内'), text, flags=re.S)
     text = re.sub(r'<picture\b[^>]*>(?:(?!</picture>).)*?prevention-link_pc\.webp(?:(?!</picture>).)*?</picture>',
                   BRAND_BANNER.format(kind='prevention', eyebrow='',
                                       label='感染予防への取り組み'), text, flags=re.S)
@@ -103,6 +121,7 @@ def transform(text: str, is_html: bool) -> str:
     text = re.sub(r'<a\b[^>]*>\s*<img\b[^>]*'
                   r'/assets/images/campaign/(?:aircon-all-year|aircon-multiple-units)/line_bnr\.webp'
                   r'[^>]*>\s*</a>\s*', '', text, flags=re.S)
+    text = re.sub(r'<a\b[^>]*class="c-line-inquiry"[^>]*>.*?</a>\s*', '', text, flags=re.S)
     text = re.sub(r'(<span class="c-brand-banner[^\r\n]*</span>)[ \t]+(?=\r?\n)',
                   r'\1', text)
     if is_html and '<h2 class="c-heading-level-2 contact__heading">株式会社HITOWA' in text:
@@ -133,12 +152,31 @@ def transform(text: str, is_html: bool) -> str:
     text = re.sub(r'^\s*<meta\b[^>]*name="twitter:site"[^>]*>\s*\r?\n', '', text, flags=re.I | re.M)
     if not is_html:
         return text
+    # Imported pages must not send demo visits to the former operator's
+    # review or analytics accounts.
+    text = re.sub(r'<script\b[^>]*>(?:(?!</script>).)*?api\.u-komi\.com(?:(?!</script>).)*?</script>\s*',
+                  '', text, flags=re.I | re.S)
+    text = re.sub(r'<!-- Google Tag Manager(?: \(noscript\))? -->.*?'
+                  r'<!-- End Google Tag Manager(?: \(noscript\))? -->\s*',
+                  '', text, flags=re.I | re.S)
+    text = re.sub(r'<script\b[^>]*src="/assets/ganalytics\.php[^"]*"[^>]*></script>',
+                  '', text, flags=re.I)
+    text = re.sub(r'<script\b[^>]*src="(?:https?:)?//(?:statics\.a8\.net|'
+                  r'110006162\.collect\.igodigital\.com|b92\.yahoo\.co\.jp|'
+                  r's\.yimg\.jp/images/listing/tool/cv|www\.googleadservices\.com|'
+                  r'www\.googletagmanager\.com/gtag|osoujihonpo\.com/lab/)[^"]*"[^>]*>'
+                  r'\s*</script>\s*', '', text, flags=re.I | re.S)
+    text = re.sub(r'<script\b[^>]*>(?:(?!</script>).)*?'
+                  r'(?:UA-2197051-1|GTM-KKMLGNX|google_conversion|yahoo_conversion|a8sales)'
+                  r'(?:(?!</script>).)*?</script>\s*', '', text, flags=re.I | re.S)
+    text = re.sub(r'<noscript\b[^>]*>(?:(?!</noscript>).)*?'
+                  r'(?:googleads\.g\.doubleclick\.net|googletagmanager\.com)'
+                  r'(?:(?!</noscript>).)*?</noscript>\s*', '', text, flags=re.I | re.S)
     text = ICON_LINKS.sub(lambda m: m.group() if ICON in m.group() else "", text)
     text = MANIFEST_LINK.sub("", text)
     if '<title>' in text:
         text = re.sub(r'(<title>)(.*?)(</title>)',
-                      lambda m: m.group(1) + (m.group(2) if BRAND in m.group(2)
-                                             else m.group(2).strip() + " | " + BRAND) + m.group(3),
+                      lambda m: m.group(1) + tab_title(m.group(2)) + m.group(3),
                       text, count=1, flags=re.I | re.S)
     else:
         raise ValueError("HTML page has no title")
@@ -146,7 +184,7 @@ def transform(text: str, is_html: bool) -> str:
         text = re.sub(r'</head\s*>', ICON + "\n</head>", text, count=1, flags=re.I)
     if DEMO_SCRIPT not in text:
         text = re.sub(r'</head\s*>', DEMO_SCRIPT + "\n</head>", text, count=1, flags=re.I)
-    return text
+    return add_typography_links(text)
 
 
 def main() -> None:
@@ -180,7 +218,7 @@ def main() -> None:
             title = legal_pages[rel]
             notice = (f'<main><section class="l-section l-section--limited u-pt-0 u-pb-96_80">'
                       f'<div class="l-section-inner"><h1 class="c-page-heading">{title}</h1>'
-                      '<p class="c-text">現在はデモ表示です。正式な規約・ポリシーは未掲載です。</p>'
+                      '<p class="c-text">現在はデモ画面です。正式な規約・ポリシーは掲載しておりません。</p>'
                       '</div></section></main>')
             new_text = re.sub(r'<main\b[^>]*>.*?</main>', notice, new_text,
                               count=1, flags=re.I | re.S)
@@ -190,11 +228,11 @@ def main() -> None:
                               '<main><section class="l-section l-section--limited u-pt-0 u-pb-96_80">'
                               '<div class="l-section-inner"><h1 class="c-page-heading">'
                               + ("アプリについて" if is_app else "ご予約について") + '</h1>'
-                              '<p class="c-text">デモ表示のため、'
-                              + ("アプリ連携" if is_app else "予約先") + 'は未設定です。</p>'
+                              '<p class="c-text">この画面はデモです。'
+                              + ("アプリとの連携" if is_app else "予約先") + 'は設定されておりません。</p>'
                               '</div></section></main>', new_text, count=1, flags=re.I | re.S)
             new_text = re.sub(r'<title>.*?</title>',
-                              f'<title>{"アプリについて" if is_app else "ご予約について"} | {BRAND}</title>',
+                              f'<title>{TAB_BRAND} | {"アプリについて" if is_app else "ご予約について"}</title>',
                               new_text, count=1, flags=re.I | re.S)
         if rel in ("campaign/outerwall_complete/index.html", "error/403/index.html",
                    "house-cleaning/room/mattress/index.html"):
@@ -243,7 +281,7 @@ def main() -> None:
         if new != old:
             changed[path.relative_to(SITE).as_posix()] = new
     app_manifest = SITE / "favicon/manifest.json"
-    app_data = {"name": BRAND, "short_name": BRAND,
+    app_data = {"name": TAB_BRAND, "short_name": TAB_BRAND,
                 "icons": [{"src": "/favicon/crystal-clean-home.svg", "sizes": "any", "type": "image/svg+xml"}]}
     new_manifest = (json.dumps(app_data, ensure_ascii=False, indent=2) + "\n").encode()
     if app_manifest.read_bytes() != new_manifest:

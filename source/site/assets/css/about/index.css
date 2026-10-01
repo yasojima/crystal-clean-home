@@ -203,6 +203,23 @@ screen and (min-width: 768px) {
     z-index: 3
 }
 
+.values-contents__label--text {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    padding: 1.2em;
+    background: #005bac;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    box-shadow: 0 5px 18px rgba(0, 50, 110, .18);
+}
+
 @media print,
 screen and (min-width: 768px) {
     .values-contents__label {
@@ -222,6 +239,7 @@ screen and (min-width: 768px) {
 
 @media screen and (max-width: 767.98px) {
     .values-contents__label {
+        width: min(66vw, 260px);
         max-width: 260px;
         margin: 24px auto -90px
     }

@@ -170,6 +170,7 @@ screen and (min-width: 768px) {
   height: auto;
   aspect-ratio: 4 / 3;
   object-fit: cover;
+  background: #234468;
 }
 
 .mv .movie .movie-txt {
@@ -195,6 +196,25 @@ screen and (min-width: 768px) {
 
 .mv .movie .movie-txt h2 img {
   width: 85vw;
+}
+
+.mv .movie .movie-txt h2 .mv-title {
+  display: block;
+  color: #fff;
+  font-size: clamp(1.5rem, 4.8vw, 3.5rem);
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.mv .movie .movie-txt h2 .mv-subtitle {
+  display: block;
+  margin-top: .9em;
+  color: #fff;
+  font-size: clamp(1rem, 2.3vw, 1.8rem);
+  font-weight: 700;
+  line-height: 1.6;
 }
 
 .mv .p-page-lead__button {

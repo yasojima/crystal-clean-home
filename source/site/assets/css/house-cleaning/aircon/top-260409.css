@@ -789,6 +789,18 @@
     margin-bottom: 16px;
   }
 
+  .fine-bubble_03.service-note {
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 1.2em 1.5em;
+    background: #06408c;
+    color: #fff;
+    font-size: clamp(1rem, 2vw, 1.4rem);
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+  }
+
   .fine-bubble .c-note {
     display: block;
   }
@@ -1310,3 +1322,10 @@
   sup {
     font-size: .5em;
   }
+
+#review .c-voice-card::before,#review .c-voice-card::after{display:none}
+
+.aircon-top-hero__copy{position:absolute;z-index:1;top:13%;left:54%;right:4%;display:flex;flex-direction:column;gap:.55em;color:#fff;text-shadow:0 2px 10px rgba(0,36,92,.55);line-height:1.45}
+.aircon-top-hero__copy strong{font-size:clamp(1.75rem,3.2vw,3.5rem);font-weight:700;letter-spacing:.03em}
+.aircon-top-hero__copy span{font-size:clamp(1rem,1.35vw,1.45rem);font-weight:500}
+@media screen and (max-width:767.98px){.aircon-top-hero__copy{top:5%;left:5%;right:5%;gap:.35em;text-align:center}.aircon-top-hero__copy strong{font-size:clamp(1.35rem,6vw,2rem)}.aircon-top-hero__copy span{font-size:clamp(.88rem,3.8vw,1.1rem)}}
