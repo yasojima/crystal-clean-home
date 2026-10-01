@@ -1,6 +1,6 @@
 {
   "decision_date": "2026-10-01",
-  "excluded_path_prefixes": ["/shop/", "/area/", "/guide/", "/promotion/", "/house-cleaning/voice/", "/kajitatsu/", "/gift/", "/campaign/senzai02/", "/campaign/kajitatsu-trial/", "/info/news/2024-1101-01/"],
+  "excluded_path_prefixes": ["/shop/", "/area/", "/guide/", "/promotion/", "/house-cleaning/voice/", "/kajitatsu/", "/gift/", "/campaign/senzai02/", "/campaign/kajitatsu-trial/", "/info/news/2024-1101-01/", "/eco/"],
   "excluded_hosts": ["osoujihonpo-fc.com", "www.osoujihonpo-fc.com", "osoujihonpo.saiyo-job.jp", "partner.racn.jp"],
   "excluded_navigation_groups": ["お役立ち情報", "関連サービス", "お役立ち関連サービス"],
   "reason": "ユーザー指定によりFCパートナー募集・店舗求人・関連サービス・お役立ち情報・店舗一覧と、その配下のページを除外する。"
