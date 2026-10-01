@@ -2996,7 +2996,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 172996,
-      "sha256": "92d8a440ab222e2f165d0c2f83a17a4c6e143072c6c3d65a8aeed1ef9ff9fc09",
+      "sha256": "670f4e10d903ff9abc64d798dded90d4a89c7d585d2d4f1d48ca1aef83ab2221",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5568,7 +5568,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 172996,
-      "sha256": "92d8a440ab222e2f165d0c2f83a17a4c6e143072c6c3d65a8aeed1ef9ff9fc09",
+      "sha256": "670f4e10d903ff9abc64d798dded90d4a89c7d585d2d4f1d48ca1aef83ab2221",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13033,8 +13033,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 4740,
-      "sha256": "d81d8886e5942aa8cac9c879dcac6b28a191df00cef1fc997725e1ab551e3614",
+      "bytes": 4750,
+      "sha256": "5834769ec3ccb4fd705007db471f0ccbd7dcac8196ceab4d588e65bb425e246d",
       "source_sha256": "dd4f31dd936343132db386c790bf084952010ae045a6e7d328b98e94c0e0bf4d"
     },
     "https://www.osoujihonpo.com/assets/images/service-scenes/reason-carpet-extractor.webp": {
@@ -15255,7 +15255,7 @@
   "counts": {
     "urls": 1412,
     "unique_paths": 1390,
-    "bytes": 121207776,
+    "bytes": 121207786,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
