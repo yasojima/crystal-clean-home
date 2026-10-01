@@ -22,6 +22,12 @@ const cases = [
       await page.evaluate(() => document.fonts.ready);
       const section = page.locator(item.selector).first();
       await section.scrollIntoViewIfNeeded();
+      const imageWidths = await section.locator('img').evaluateAll(images => Promise.all(images.map(async image => {
+        image.loading = 'eager';
+        await image.decode();
+        return image.naturalWidth;
+      })));
+      if (imageWidths.some(width => width === 0)) throw new Error(`Broken image in ${item.route}/${item.section}`);
       const file = path.join(output, `${item.route}-${item.section}-${width}.png`);
       await section.screenshot({ path: file });
       const metrics = await section.evaluate((node) => {
