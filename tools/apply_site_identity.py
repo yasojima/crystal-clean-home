@@ -67,9 +67,9 @@ FOOTER_SNS = '<ul class="c-footer-sns">' + ''.join(
                         ("facebook", "Facebook"))
 ) + '</ul>'
 FOOTER_PHONE_BUTTON = ('<button class="c-demo-phone" type="button" '
-                       'data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000。電話窓口は準備中">'
+                       'data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000">'
                        '<img src="/assets/images/footer/footer-phone-demo-{size}.svg" '
-                       'alt="電話番号 00-0000-0000。受付時間は準備中"></button>')
+                       'alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00"></button>')
 
 
 def tab_title(raw_title: str) -> str:
