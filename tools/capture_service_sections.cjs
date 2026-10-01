@@ -8,7 +8,7 @@ const cases = [
   { route: 'aircon', section: 'reasons', selector: 'section:has(.p-reasons)' },
   { route: 'aircon', section: 'plans', selector: '#service-sets' },
   { route: 'room', section: 'voices', selector: 'section:has(.c-voice-card)' },
-];
+].filter(item => !process.env.SECTION_FILTER || item.section === process.env.SECTION_FILTER);
 
 (async () => {
   fs.mkdirSync(output, { recursive: true });

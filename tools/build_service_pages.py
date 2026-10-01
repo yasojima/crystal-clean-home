@@ -296,7 +296,7 @@ def concerns(page, primary, category_copy, copy):
 
 def reasons(shared):
     n = template('reasons')
-    scenes = ('reason-preparation', 'reason-care', 'reason-finish')
+    scenes = ('reason-mop-bucket', 'reason-carpet-extractor', 'reason-floor-polisher')
     for i,(item,words) in enumerate(zip(n.select('.c-reasons__item'),shared['reasons'])):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]

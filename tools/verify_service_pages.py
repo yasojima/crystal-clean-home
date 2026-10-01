@@ -49,7 +49,7 @@ for route,page in catalogue['pages'].items():
     if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
         fail(route,'service voice profile')
     reason_images = [img.get('src') for img in main.select('.c-reasons__bg')]
-    expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('preparation','care','finish')]
+    expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('mop-bucket','carpet-extractor','floor-polisher')]
     if reason_images != expected_reasons: fail(route,'shared reason photographs')
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
