@@ -9,7 +9,25 @@ const screenshots = process.env.SCREENSHOT_DIR;
 const errors = [];
 const checks = [];
 const categories = Object.keys(catalogue.pages).filter(route => !route.includes('/'));
+const staticReasons = ['/', '/about/', '/quick_cart/option/', '/lab/online_store/detergent/product-303/'];
 const fail = (route, width, reason) => errors.push({ route, width, reason });
+
+async function navyState(page) {
+  return page.locator('.c-reasons--navy').evaluate(grid => {
+    const panels = [...grid.querySelectorAll('.c-reasons__navy')];
+    const bounds = panels.map(panel => panel.getBoundingClientRect());
+    const plain = panels.every(panel => {
+      const style = getComputedStyle(panel);
+      return !panel.querySelector('img') && style.backgroundColor === 'rgb(0, 0, 128)' &&
+        style.backgroundImage === 'none' && style.filter === 'none' &&
+        style.boxShadow === 'none' && (style.backdropFilter === 'none' || !style.backdropFilter);
+    });
+    const visible = bounds.every(rect => rect.width > 0 && rect.height > 0);
+    const separated = bounds.slice(1).every((rect, index) =>
+      innerWidth >= 768 ? rect.left >= bounds[index].right + 4 : rect.top >= bounds[index].bottom + 4);
+    return { count: panels.length, plain, visible, separated };
+  });
+}
 
 (async () => {
   const browser = await chromium.launch({ headless: true, channel: 'chrome' });
@@ -40,6 +58,8 @@ const fail = (route, width, reason) => errors.push({ route, width, reason });
       });
       if (layout.scrollWidth > width + 1) fail(route, width, `horizontal overflow ${JSON.stringify(layout)}`);
       if (layout.broken.length || layout.emptyIcons.length) fail(route, width, JSON.stringify(layout));
+      const navy = await navyState(page);
+      if (navy.count !== 3 || !navy.plain || !navy.visible || !navy.separated) fail(route, width, `reason navy ${JSON.stringify(navy)}`);
       const voiceOverlap = await page.locator('.c-voice-card').evaluateAll(cards => cards.flatMap((card, index) => {
         const logo = card.querySelector('img');
         const heading = card.querySelector('.c-voice-card__heading');
@@ -117,9 +137,25 @@ const fail = (route, width, reason) => errors.push({ route, width, reason });
       fail(route, width, error.message);
     }
   }
+  for (const route of staticReasons) {
+    for (const width of [390, 1440]) {
+      current = { route, width };
+      try {
+        await page.setViewportSize({ width, height: width > 800 ? 1000 : 844 });
+        const response = await page.goto(`${origin}${route}`, { waitUntil: 'load' });
+        if (response.status() !== 200) fail(route, width, `HTTP ${response.status()}`);
+        const navy = await navyState(page);
+        if (navy.count !== 3 || !navy.plain || !navy.visible || !navy.separated) fail(route, width, `reason navy ${JSON.stringify(navy)}`);
+        if (await page.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1)) fail(route, width, 'horizontal overflow');
+        checks.push({ route, width, passed: !errors.some(e => e.route === route && e.width === width) });
+      } catch (error) {
+        fail(route, width, error.message);
+      }
+    }
+  }
   await browser.close();
-  const report = { checked_at: new Date().toISOString(), origin, pages: Object.keys(catalogue.pages).length, viewport_runs: runs.length, checks, errors, passed: errors.length === 0 };
+  const report = { checked_at: new Date().toISOString(), origin, pages: Object.keys(catalogue.pages).length + staticReasons.length, viewport_runs: runs.length + staticReasons.length * 2, checks, errors, passed: errors.length === 0 };
   fs.writeFileSync(path.join(root, 'source/service-browser-verification.json'), JSON.stringify(report, null, 2) + '\n');
-  console.log(JSON.stringify({ pages: report.pages, viewport_runs: runs.length, passed: report.passed, errors }));
+  console.log(JSON.stringify({ pages: report.pages, viewport_runs: report.viewport_runs, passed: report.passed, errors }));
   process.exitCode = errors.length ? 1 : 0;
 })().catch(error => { console.error(error); process.exitCode = 1; });

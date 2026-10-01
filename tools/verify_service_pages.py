@@ -48,14 +48,12 @@ for route,page in catalogue['pages'].items():
     if -1 in positions or positions != sorted(positions): fail(route,'section order')
     if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
         fail(route,'service voice profile')
-    reason_images = [img.get('src') for img in main.select('.c-reasons__bg')]
-    glass_images = main.select('.c-reasons__glass-image')
-    expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('mop-bucket','carpet-extractor','floor-polisher')]
-    if route == 'aircon':
-        if reason_images or not main.select_one('.c-reasons--glass-preview') or len(glass_images) != 3 or any(img.get('src') != '/assets/images/reasons/navy-glass-vertical.png' or img.get('alt') != '' for img in glass_images):
-            fail(route,'three textured navy glass panels')
-    elif reason_images != expected_reasons or main.select_one('.c-reasons--glass-preview') or glass_images:
-        fail(route,'shared reason photographs')
+    reason_items = main.select('.c-reasons__item')
+    if len(reason_items) != 3 or not main.select_one('.c-reasons--navy') or any(
+        len(item.select('.c-reasons__navy')) != 1 or item.select_one('.c-reasons__bg') or
+        item.select_one('.c-reasons__navy img') for item in reason_items
+    ):
+        fail(route,'three plain navy panels')
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')
@@ -127,6 +125,16 @@ for route,page in catalogue['pages'].items():
 
 if set(voice_profiles) != set(catalogue['pages']): fail('voices','profile routes do not match pages')
 
+reason_pages = {path:doc for path,doc in all_pages.items() if doc.select_one('.p-reasons')}
+if len(reason_pages) != 50: fail('reasons','expected 50 pages with reason cards')
+for path,doc in reason_pages.items():
+    cards = doc.select('.c-reasons--navy .c-reasons__item')
+    if len(cards) != 3 or doc.select('.c-reasons__bg') or any(
+        len(card.select('.c-reasons__navy')) != 1 or card.select_one('.c-reasons__navy img')
+        for card in cards
+    ) or not doc.select_one('link[href="/assets/css/reasons-navy.css?v=2026100211"]'):
+        fail(path,'sitewide plain navy reason section')
+
 target_paths = {f'/house-cleaning/{r}/' for r in catalogue['pages']}
 for path,doc in all_pages.items():
     if doc.select('.c-footer-bottom-nav__copyright,.business-footer__copyright'):
@@ -137,7 +145,7 @@ for path,doc in all_pages.items():
         target = all_pages.get(u.path)
         if target and not target.find(id=unquote(u.fragment)): fail(path,'missing destination '+u.path+'#'+u.fragment)
 
-report = {'checked_at':datetime.now(timezone.utc).isoformat(),'pages':len(catalogue['pages']),'products':len(catalogue['products']),'errors':errors,'passed':not errors}
+report = {'checked_at':datetime.now(timezone.utc).isoformat(),'pages':len(catalogue['pages']),'reason_pages':len(reason_pages),'products':len(catalogue['products']),'errors':errors,'passed':not errors}
 (ROOT / 'source/service-pages-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False))
 raise SystemExit(bool(errors))

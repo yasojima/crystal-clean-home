@@ -1,0 +1,27 @@
+.c-grid.c-reasons--navy {
+  column-gap: 24px;
+}
+
+.c-reasons--navy .c-reasons__item {
+  --navy-height: 298px;
+  isolation: isolate;
+}
+
+.c-reasons--navy .c-reasons__navy {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--navy-height);
+  background-color: #000080;
+}
+
+.c-reasons--navy .c-reasons__card {
+  z-index: 2;
+}
+
+@media screen and (max-width: 767.98px) {
+  .c-reasons--navy .c-reasons__item {
+    --navy-height: 232px;
+  }
+}

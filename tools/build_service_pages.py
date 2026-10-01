@@ -10,6 +10,9 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
+STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
+                  'lab/online_store/detergent/product-303/index.html')
+NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
 
 
 def parse(value):
@@ -294,23 +297,43 @@ def concerns(page, primary, category_copy, copy):
     return n
 
 
-def reasons(shared, glass_preview=False):
+def reasons(shared):
     n = template('reasons')
-    if glass_preview:
-        n.select_one('.c-reasons')['class'].append('c-reasons--glass-preview')
-    scenes = ('reason-mop-bucket', 'reason-carpet-extractor', 'reason-floor-polisher')
-    for i,(item,words) in enumerate(zip(n.select('.c-reasons__item'),shared['reasons'])):
+    for item,words in zip(n.select('.c-reasons__item'),shared['reasons']):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
-        if glass_preview:
-            item.select_one('img').decompose()
-            glass = tag('div', 'c-reasons__glass', **{'aria-hidden': 'true'})
-            texture = tag('img', 'c-reasons__glass-image', src='/assets/images/reasons/navy-glass-vertical.png', alt='', width='736', height='1309', loading='lazy', decoding='async')
-            glass.append(texture)
-            item.append(glass)
-        else:
-            image(item.select_one('img'), scenes[i], '')
     return n
+
+
+def ensure_navy_stylesheet(output):
+    pattern = r'<link rel="stylesheet" href="/assets/css/reasons-(?:glass|navy)\.css\?v=\d+"\s*/?>'
+    if re.search(pattern, output):
+        return re.sub(pattern, NAVY_STYLESHEET, output)
+    linebreak = '\r\n' if '\r\n' in output else '\n'
+    return output.replace('</head>', NAVY_STYLESHEET + linebreak + '</head>', 1)
+
+
+def render_static_reasons(original):
+    output = original
+    grid_class = 'class="c-grid c-reasons p-reasons__contents"'
+    navy_class = 'class="c-grid c-reasons p-reasons__contents c-reasons--navy"'
+    if grid_class in output:
+        output = output.replace(grid_class, navy_class, 1)
+    else:
+        output = output.replace('c-reasons--glass', 'c-reasons--navy', 1)
+    photo_pattern = re.compile(r'<img\b[^>]*\bc-reasons__bg\b[^>]*>')
+    glass_pattern = re.compile(r'<div\b[^>]*class="c-reasons__glass"[^>]*>.*?</div>', re.S)
+    photo_count = len(photo_pattern.findall(output))
+    navy = str(template('reasons').select_one('.c-reasons__navy'))
+    if photo_count == 3:
+        output = photo_pattern.sub(lambda _: navy, output, count=3)
+    elif photo_count != 0:
+        raise ValueError('Unexpected reason image count')
+    elif len(glass_pattern.findall(output)) == 3:
+        output = glass_pattern.sub(lambda _: navy, output, count=3)
+    if output.count('class="c-reasons__navy"') != 3:
+        raise ValueError('Missing three reason navy panels')
+    return ensure_navy_stylesheet(output)
 
 
 def voices(page, copy):
@@ -402,7 +425,7 @@ def render(route, page, catalogue, copy):
     main.append(hero); main.append(template('floating'))
     main.append(navigation(page,primary,page['category'],copy))
     main.append(concerns(page,primary,cat,copy))
-    main.append(reasons(copy['shared'],route == 'aircon'))
+    main.append(reasons(copy['shared']))
     apply = tag('div', id='apply'); main.append(apply)
     for group in page['groups']:
         apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene']))
@@ -435,11 +458,12 @@ def render(route, page, catalogue, copy):
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
-    css_version = '2026100209' if route == 'aircon' else '2026100202'
+    css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
+    output = ensure_navy_stylesheet(output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
@@ -450,10 +474,16 @@ def sync_manifest(routes, check):
     path = ROOT / 'source/manifest.json'
     manifest = json.loads(path.read_text(encoding='utf-8'))
     files = [SITE / 'house-cleaning' / route / 'index.html' for route in routes]
+    files += [SITE / rel for rel in STATIC_REASONS]
     files += list((SITE / 'assets/images/service-scenes').glob('*.webp'))
-    files += [SITE / 'assets/images/reasons/navy-glass-vertical.png']
-    files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/common.css']
+    files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/reasons-navy.css',
+              SITE / 'assets/css/common.css']
     changed = []
+    obsolete = {'assets/images/reasons/navy-glass-vertical.png', 'assets/css/reasons-glass.css'}
+    obsolete_keys = [key for key, record in manifest['files'].items() if record['path'] in obsolete]
+    for key in obsolete_keys:
+        del manifest['files'][key]
+        changed.append(key)
     for file in files:
         rel = file.relative_to(SITE).as_posix()
         data = file.read_bytes()
@@ -495,6 +525,13 @@ def main():
         output = render(route,page,catalogue,copy)
         if output.encode('utf-8') != path.read_bytes():
             changed.append(route)
+            if not args.check: path.write_bytes(output.encode('utf-8'))
+    for rel in STATIC_REASONS:
+        path = SITE / rel
+        original = path.read_bytes().decode('utf-8')
+        output = render_static_reasons(original)
+        if output != original:
+            changed.append('/' + rel)
             if not args.check: path.write_bytes(output.encode('utf-8'))
     manifest_changes = sync_manifest(routes, args.check)
     print(json.dumps({'pages':len(routes),'changed':changed,'manifest_updates':len(manifest_changes),'check':args.check},ensure_ascii=False))
