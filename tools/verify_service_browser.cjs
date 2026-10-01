@@ -40,6 +40,27 @@ const fail = (route, width, reason) => errors.push({ route, width, reason });
       });
       if (layout.scrollWidth > width + 1) fail(route, width, `horizontal overflow ${JSON.stringify(layout)}`);
       if (layout.broken.length || layout.emptyIcons.length) fail(route, width, JSON.stringify(layout));
+      const voiceOverlap = await page.locator('.c-voice-card').evaluateAll(cards => cards.flatMap((card, index) => {
+        const logo = card.querySelector('img');
+        const heading = card.querySelector('.c-voice-card__heading');
+        if (!logo || !heading) return [];
+        const a = logo.getBoundingClientRect();
+        const b = heading.getBoundingClientRect();
+        return a.left < b.right && a.right > b.left && a.top < b.bottom && a.bottom > b.top ? [index] : [];
+      }));
+      if (voiceOverlap.length) fail(route, width, `voice heading/logo overlap: ${voiceOverlap.join(',')}`);
+      if (route === 'aircon') {
+        const plans = page.locator('#service-sets .c-tab__panel');
+        const counts = await plans.evaluateAll(nodes => nodes.map(node => node.querySelectorAll('.c-plan-card').length));
+        if (JSON.stringify(counts) !== '[2,1]') fail(route, width, `plan tab card counts: ${counts}`);
+        if (width === 1440) {
+          const second = page.locator('#service-sets .c-tab__button').nth(1);
+          await second.click();
+          if (await second.getAttribute('aria-selected') !== 'true' || !await plans.nth(1).isVisible()) {
+            fail(route, width, 'ceiling plan tab selection');
+          }
+        }
+      }
       if (categories.includes(route) && [390, 1440].includes(width) && screenshots) {
         await page.screenshot({ path: path.join(screenshots, `${route}-${width}-top.png`) });
       }

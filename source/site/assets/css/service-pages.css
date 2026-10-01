@@ -48,13 +48,43 @@
   left: 0;
   width: 100%;
   height: 298px;
-  background: rgba(96, 102, 109, .2);
+  background: rgba(80, 85, 90, .3);
   pointer-events: none;
 }
 
-.c-service-page .c-service-offers--aircon .c-plan-card:last-child:nth-child(odd) {
-  grid-column: 1 / -1;
-  justify-self: center;
+.recommend-plan__heading,
+.recommend-plan__text {
+  text-align: center;
+}
+
+.recommend-plan__heading {
+  color: #06408c;
+}
+
+.recommend-plan__text {
+  margin-top: 12px;
+}
+
+.recommend-plan__tab {
+  margin-top: 40px;
+}
+
+.recommend-plan-cards {
+  display: grid;
+  gap: 24px;
+  justify-content: center;
+}
+
+@media print, screen and (min-width: 768px) {
+  .recommend-plan-cards {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 384px));
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .recommend-plan-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -94,6 +124,13 @@
 
 .c-service-page .c-voice-card::after {
   display: none;
+}
+
+@media (min-width: 768px) {
+  .c-service-page .c-voice-card__heading {
+    padding-left: 64px;
+    text-align: left;
+  }
 }
 
 .c-service-page .c-service-single-tab {

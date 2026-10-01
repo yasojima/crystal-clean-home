@@ -64,6 +64,8 @@ for route,page in catalogue['pages'].items():
         fail(route,'empty voice card')
     else:
         for card in voice_section.select('.c-voice-card'):
+            if len(card.select_one('h3').get_text(strip=True)) > 22:
+                fail(route,'voice heading too long beside logo')
             for value, seen, kind in ((card.select_one('h3').get_text(strip=True),voice_headings,'heading'),
                                       (card.select_one('p').get_text(strip=True),voice_bodies,'body')):
                 if value in seen: fail(route,f'duplicate voice {kind} with {seen[value]}')
@@ -113,8 +115,9 @@ for route,page in catalogue['pages'].items():
         if new_offer is None or prices(old_offer) != prices(new_offer): fail(route,'set-plan prices changed '+key)
         elif [n['value'] for n in old_offer.select('input[name="product-id"]')] != [n['value'] for n in new_offer.select('input[name="product-id"]')]: fail(route,'set-plan products changed '+key)
     if route == 'aircon':
-        offers_grid = main.select_one('.c-service-offers--aircon')
-        if not offers_grid or '--grid-col-pc:repeat(2,1fr)' not in offers_grid.get('style','') or len(offers_grid.select(':scope > .c-recommend-plan__item')) != 3:
+        plan = main.select_one('#service-sets.l-section--blue-bubbles')
+        panels = plan.select('.recommend-plan__tab .c-tab__panel') if plan else []
+        if len(panels) != 2 or [len(panel.select('.recommend-plan-cards > .c-plan-card')) for panel in panels] != [2, 1]:
             fail(route,'offer card layout')
 
 if set(voice_profiles) != set(catalogue['pages']): fail('voices','profile routes do not match pages')

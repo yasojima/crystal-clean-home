@@ -195,6 +195,11 @@ OFFER_COPY = {
     'adapter': '浴室を丁寧に清掃し、対応する循環アダプターを取り付けます。給湯設備との適合を確認してから交換し、最後に動作を点検します。',
     'wall': 'トイレの清掃と壁紙の染色を組み合わせたサービスです。便器や床を清掃し、壁紙の状態を確認したうえで室内の色合いを整えます。',
 }
+AIRCON_OFFER_COPY = {
+    'aircon-offer-1': '通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。',
+    'aircon-offer-2': '完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。',
+    'aircon-offer-3': '天井埋め込みタイプの清掃に防カビコーティングを組み合わせます。機種や設置状況を確認し、対応できる作業を事前にご案内します。',
+}
 
 
 def offer(key, catalogue):
@@ -212,7 +217,7 @@ def offer(key, catalogue):
                  'lavatory' if '/sink.' in joined else 'adapter' if 'ulblo' in joined else 'wall' if 'wallpaper' in joined else 'bath-pipe')
         desc.string = OFFER_COPY[which]
     for desc in n.select('.c-plan-card__description'):
-        desc.string = 'エアコンクリーニングに、記載のオプションを組み合わせたプランです。機種と設置状況を確認し、必要な作業をご案内します。'
+        desc.string = AIRCON_OFFER_COPY[key]
     for label in n.select('.c-set-plan-card__label'):
         if '悪臭' in label.get_text():
             label.string = 'トイレと壁紙をまとめてお手入れ'
@@ -307,6 +312,9 @@ def voices(page, copy):
     titles = (f'{concern}を相談できました', f'{scope}が分かって安心',
               f'{work}まで見てもらえた', f'{finish}を一緒に確認！',
               f'{extra}相談できて助かりました', f'{care}を教わりました')
+    title_overrides = json.loads((DATA / 'voice-title-overrides.json').read_text(encoding='utf-8'))
+    titles = tuple(title_overrides.get(page['route'], {}).get(str(index), title)
+                   for index, title in enumerate(titles))
     variants = (
         (f'{concern}が気になって依頼しました。最初に状態を一緒に見て、お願いする範囲を決められたので、初めてでも迷いませんでした。',
          f'気になっていた{concern}について相談しました。作業前に現状を確認してもらい、どこまで頼めるかがはっきりしました。',
@@ -393,16 +401,21 @@ def render(route, page, catalogue, copy):
             apply.append(product(key,route,catalogue,copy))
     if page['offers']:
         offers_id = 'anchor00' if route == 'pack' else 'service-sets'
-        apply.append(lineup_heading('組み合わせてご利用いただけるプラン', offers_id, p['scene']))
-        section = tag('section','l-section l-section--limited')
-        inner = tag('div','l-section-inner l-section-inner--limited')
-        grid = tag('div','c-service-offers c-grid',style='--grid-col-pc:repeat(2,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;')
-        if page['category'] == 'aircon': grid['class'].append('c-service-offers--aircon')
-        for key in page['offers']:
-            card = offer(key,catalogue)
-            if page['category'] == 'aircon': card['class'].append('c-recommend-plan__item')
-            grid.append(card)
-        inner.append(grid); section.append(inner); apply.append(section)
+        if page['category'] == 'aircon':
+            section = template('aircon-offers')
+            panels = section.select('.c-tab__panel .recommend-plan-cards')
+            assert len(panels) == 2 and len(page['offers']) == 3
+            for index, key in enumerate(page['offers']):
+                panels[0 if index < 2 else 1].append(offer(key,catalogue))
+            apply.append(section)
+        else:
+            apply.append(lineup_heading('組み合わせてご利用いただけるプラン', offers_id, p['scene']))
+            section = tag('section','l-section l-section--limited')
+            inner = tag('div','l-section-inner l-section-inner--limited')
+            grid = tag('div','c-service-offers c-grid',style='--grid-col-pc:repeat(2,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;')
+            for key in page['offers']:
+                grid.append(offer(key,catalogue))
+            inner.append(grid); section.append(inner); apply.append(section)
     questions = None
     if '/' in route:
         detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
@@ -414,9 +427,9 @@ def render(route, page, catalogue, copy):
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
     if '/assets/css/service-pages.css' not in output:
-        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100201"/>\n</head>')
+        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100202"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
-                    '/assets/css/service-pages.css?v=2026100201', output)
+                    '/assets/css/service-pages.css?v=2026100202', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
