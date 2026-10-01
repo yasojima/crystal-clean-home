@@ -12827,6 +12827,10 @@ screen and (min-width: 768px) {
   background-color: #fff
 }
 
+.c-set-plan-card__foot--no-detail {
+  justify-content: center
+}
+
 @media print,
 screen and (min-width: 768px) {
   .c-set-plan-card__foot {
@@ -16132,6 +16136,13 @@ screen and (min-width: 768px) {
 }
 
 .c-footer-sns__link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
   transition: opacity .3s
 }
 
@@ -17108,10 +17119,7 @@ screen and (min-width: 768px) {
 .footer-tel-pc .c-demo-phone {
   display: block;
   width: 100%;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  cursor: pointer;
+  position: relative;
 }
 
 .footer-tel-sp .c-demo-phone img,
@@ -17119,6 +17127,24 @@ screen and (min-width: 768px) {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.c-demo-phone__number {
+  position: absolute;
+  top: 0;
+  left: 10.3%;
+  width: 41.3%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.footer-tel-sp .c-demo-phone__number {
+  left: 19.1%;
+  width: 80.9%;
+  height: 40%;
 }
 
 .footer-tel-sp .footer-tel-btn a {

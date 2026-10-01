@@ -58,18 +58,21 @@ OLD_SOCIAL_ITEM = re.compile(
     r'[^\"]*".*?</a>\s*</li>\s*', re.I | re.S
 )
 FOOTER_SNS = '<ul class="c-footer-sns">' + ''.join(
-    f'<li class="c-footer-sns__item"><span class="c-footer-sns__link">'
+    f'<li class="c-footer-sns__item"><button class="c-footer-sns__link" '
+    f'type="button" data-demo-dialog="" aria-label="{label}（デモ）">'
     f'<img class="c-flex-image c-flex-image--stretched c-footer-sns__image" '
-    f'src="/assets/images/common-parts/sns-icon/icon-{name}.webp" '
-    f'alt="{label}" width="40" height="40" loading="lazy"></span></li>'
-    for name, label in (("line", "LINE"), ("instagram", "Instagram"),
-                        ("youtube", "YouTube"), ("x", "X"),
-                        ("facebook", "Facebook"))
+    f'src="/assets/images/common-parts/sns-icon/icon-{name}.png" '
+    f'alt="" width="40" height="40" loading="lazy"></button></li>'
+    for name, label in (("x", "X"), ("instagram", "Instagram"),
+                        ("tiktok", "TikTok"), ("youtube", "YouTube"),
+                        ("translate", "翻訳"))
 ) + '</ul>'
-FOOTER_PHONE_BUTTON = ('<button class="c-demo-phone" type="button" '
-                       'data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000">'
+FOOTER_PHONE_MARKUP = ('<span class="c-demo-phone">'
                        '<img src="/assets/images/footer/footer-phone-demo-{size}.svg" '
-                       'alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00"></button>')
+                       'alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00">'
+                       '<button class="c-demo-phone__number" type="button" '
+                       'data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000"></button>'
+                       '</span>')
 
 
 def tab_title(raw_title: str) -> str:
@@ -140,19 +143,13 @@ def transform(text: str, is_html: bool) -> str:
     if is_html and '<h2 class="c-heading-level-2 contact__heading">株式会社HITOWA' in text:
         text = re.sub(r'<section\b[^>]*>(?:(?!</section>).)*株式会社HITOWA(?:(?!</section>).)*</section>\s*',
                       '', text, flags=re.S)
-    text = re.sub(r'<p class="footer-tel-img"><img (.*?)></p>',
-                  r'<p class="footer-tel-img"><button class="c-demo-phone" type="button" data-demo-dialog="" style="border:0;padding:0;background:transparent;cursor:pointer;display:block;max-width:100%"><img \1></button></p>',
-                  text)
-    text = re.sub(r'<p class="footer-tel-pc"><img (.*?)></p>',
-                  r'<p class="footer-tel-pc"><button class="c-demo-phone" type="button" data-demo-dialog="" style="border:0;padding:0;background:transparent;cursor:pointer;display:block;max-width:100%"><img \1></button></p>',
-                  text)
     text = OLD_SOCIAL_ITEM.sub("", text)
     text = re.sub(r'<ul class="c-footer-sns">.*?</ul>', FOOTER_SNS, text, flags=re.S)
     text = re.sub(r'<p class="footer-tel-img">.*?</p>',
-                  '<p class="footer-tel-img">' + FOOTER_PHONE_BUTTON.format(size='sp') + '</p>',
+                  '<p class="footer-tel-img">' + FOOTER_PHONE_MARKUP.format(size='sp') + '</p>',
                   text, flags=re.S)
     text = re.sub(r'<p class="footer-tel-pc">.*?</p>',
-                  '<p class="footer-tel-pc">' + FOOTER_PHONE_BUTTON.format(size='pc') + '</p>',
+                  '<p class="footer-tel-pc">' + FOOTER_PHONE_MARKUP.format(size='pc') + '</p>',
                   text, flags=re.S)
     text = text.replace('<p class="footer-tel-btn"><a href="#" data-demo-dialog="">今すぐ電話する</a></p>',
                         '<p class="footer-tel-btn"><a href="#" data-demo-dialog="">電話窓口について</a></p>')
@@ -313,6 +310,11 @@ def main() -> None:
     assets = {
         "assets/images/crystal-clean-home.png": ROOT / "assets/images/brand/crystal-clean-home.png",
         "favicon/crystal-clean-home.svg": ROOT / "assets/images/docs/brand/favicon.svg",
+        **{f"assets/images/common-parts/sns-icon/icon-{name}.png":
+           ROOT / f"assets/images/brand/shared-ui/social/{name}.png"
+           for name in ("x", "instagram", "tiktok", "youtube")},
+        "assets/images/common-parts/sns-icon/icon-translate.png":
+            ROOT / "assets/images/brand/header/translate-material-white-96.png",
     }
     missing_assets = [key for key, src in assets.items()
                       if not (SITE / key).exists() or (SITE / key).read_bytes() != src.read_bytes()]
