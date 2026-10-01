@@ -190,11 +190,11 @@
 <div class="c-menu-accordion js-accordion" data-simple-type="true">
 <p class="c-menu-accordion__heading"><a class="c-menu-accordion__link" href="/house-cleaning/coating/">コーティング</a><button class="c-menu-accordion__trigger js-accordion-trigger" aria-controls="menu-accordion_7" type="button"></button></p>
 <ul class="c-menu-accordion__content c-menu-accordion-content" id="menu-accordion_7">
-<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/op-coating/">お手入れ簡単コーティング</a></li>
-<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/bathroom/">浴室リニューアルコーティング</a></li>
-<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/kitchen/">キッチンリニューアルコーティング</a></li>
-<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/toilet/">トイレリニューアルコーティング</a></li>
-<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/lavatory/">洗面台リニューアルコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/#coating01">お手入れ簡単コーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/bathroom/">浴室コーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/kitchen/">キッチンコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/toilet/">トイレコーティング</a></li>
+<li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/lavatory/">洗面台コーティング</a></li>
 <li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/floor/">フロアコーティング（1帖あたり）</a></li>
 <li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/uv-coating/">UVコーティング（1帖あたり）</a></li>
 <li class="c-menu-accordion-content__item"><a class="c-site-menu-link" href="/house-cleaning/coating/repair/">フローリング補修（リペア）</a></li>
@@ -212,7 +212,7 @@
 </ul>
 </div>
 </li>
-<!-- <li class="c-house-cleaning-menu__item"><a class="c-site-menu-link" href="/house-cleaning/op-coating/">お手入れ簡単コーティング</a></li> --></ul>
+<!-- <li class="c-house-cleaning-menu__item"><a class="c-site-menu-link" href="/house-cleaning/coating/#coating01">お手入れ簡単コーティング</a></li> --></ul>
 <ul class="c-site-menu__bold-links c-bold-links c-bold-links--services">
 <li class="c-bold-links__item"><a class="c-bold-links__link" href="/shop/">店舗一覧</a></li>
 </ul>
@@ -372,7 +372,7 @@
                   <img class="c-flex-image c-flex-image--stretched" src="/assets/images/top/banner/bnr-washer-pc.webp" alt="洗濯機クリーニングなら完全分解洗浄" width="750" height="111" loading="lazy">
               </picture>
               </a>
-                <a id="Second_campaign_banner" class="c-banner" href="/house-cleaning/op-coating/">
+                <a id="Second_campaign_banner" class="c-banner" href="/house-cleaning/coating/#coating01">
               <span class="c-brand-banner c-brand-banner--coating"><img class="c-brand-banner__logo" src="/assets/images/crystal-clean-home.png" alt="クリスタルクリーンホーム"><span class="c-brand-banner__copy"><span class="c-brand-banner__eyebrow">水まわりを清潔に</span><span class="c-brand-banner__label">お手入れ簡単コーティング</span></span><span class="c-brand-banner__arrow" aria-hidden="true">›</span></span>
               </a>
       </div>
@@ -442,7 +442,7 @@
 <div class="c-issue-accordion__content" id="accordion_water_02">
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
-<a class="c-issue-accordion-card__contents" href="/house-cleaning/op-coating/">
+<a class="c-issue-accordion-card__contents" href="/house-cleaning/coating/#coating01">
 <div class="c-issue-accordion-card__icon-circle">
 <div class="c-icon c-icon--cleaning c-issue-accordion-card__icon"></div>
 </div>
@@ -696,7 +696,7 @@
                           <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_4.webp" alt="" width="280" height="186" loading="lazy">
                           <p class="pickup-card__text">外壁が汚れる原因とは？業者へ依頼するには</p>
                         </a>
-                        <a class="pickup-card swiper-slide" href="/house-cleaning/op-coating/">
+                        <a class="pickup-card swiper-slide" href="/house-cleaning/coating/#coating01">
                           <img class="c-flex-image c-flex-image--stretched pickup-card__image" src="/assets/images/top/pickup/feature_image_1.webp" alt="" width="280" height="186" loading="lazy">
                           <p class="pickup-card__text">キレイが続く！新発想のコーティング技術</p>
                         </a>
