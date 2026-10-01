@@ -289,31 +289,50 @@ def concerns(page, primary, category_copy, copy):
     return n
 
 
-def reasons(scene, shared):
+def reasons(shared):
     n = template('reasons')
+    scenes = ('reason-preparation', 'reason-care', 'reason-finish')
     for i,(item,words) in enumerate(zip(n.select('.c-reasons__item'),shared['reasons'])):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
-        finish_scene = 'finish-check' if scene == 'kitchen-sink' else scene
-        image(item.select_one('img'), ['tools',scene,finish_scene][i], '')
+        image(item.select_one('img'), scenes[i], '')
     return n
 
 
 def voices(page, copy):
     n = template('voices')
     n.select_one('h2').string = 'ご利用者様の声'
-    samples = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
-    subjects = list(dict.fromkeys(key for group in page['groups'] for key in group['products']))
-    if '/' in page['route']:
-        subjects = subjects[:1]
+    profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
+    concern, scope, work, finish, extra, care = profiles[page['route']]
+    titles = (f'{concern}を相談できました', f'{scope}が分かって安心',
+              f'{work}まで見てもらえた', f'{finish}を一緒に確認！',
+              f'{extra}相談できて助かりました', f'{care}を教わりました')
+    variants = (
+        (f'{concern}が気になって依頼しました。最初に状態を一緒に見て、お願いする範囲を決められたので、初めてでも迷いませんでした。',
+         f'気になっていた{concern}について相談しました。作業前に現状を確認してもらい、どこまで頼めるかがはっきりしました。',
+         f'{concern}について相談したくて申し込みました。実際の状態を見ながら話せたので、必要な作業をイメージできました。'),
+        (f'作業前に{scope}を説明してもらいました。料金と当日の流れを聞いてからお願いでき、安心してお任せできました。',
+         f'初めての依頼でしたが、{scope}を一つずつ確認できました。希望を伝えたうえで作業範囲と料金を決められてよかったです。',
+         f'{scope}が分からず質問しました。スタッフさんが気さくに答えてくれたので、作業の内容に納得してから頼めました。'),
+        (f'自分では難しい{work}。使う道具と手順を聞き、周囲を保護して進める様子を見て、丁寧さが伝わりました。',
+         f'{work}は自分でできず気になっていました。途中で作業箇所を教えてもらえたので、何をしているか分かりやすかったです。',
+         f'普段は手を付けにくい{work}をお願いしました。状態に合わせて道具を替えていることも聞けて、安心できました。'),
+        (f'作業後に{finish}を一緒に確かめました。気になっていた場所を自分で確認できて、お願いしてよかったです！',
+         f'{finish}を仕上げの説明と一緒に確認できました。毎日使う場所なので、変化が分かってうれしかったです！',
+         f'最後に{finish}を見ながら説明を受けました。どこを作業したのか分かり、仕上がりにも納得です。'),
+        (f'当日、{extra}相談しました。追加できる範囲と料金を先に聞けたので、その場で落ち着いて決められました。',
+         f'作業を見ていて{extra}お願いできるか尋ねました。対応できる内容と費用を説明してくれて、段取りがスムーズでした。',
+         f'予定外でしたが{extra}相談してみました。作業内容や支払いの流れを先に確認できたので、急なお願いでも安心でした。'),
+        (f'作業後に{care}を教わりました。対象箇所を見ながら聞けたので、家での手入れにも役立てられそうです。',
+         f'{care}について質問すると、無理なく続けられる方法を教えてくれました。仕上がりだけでなく、その後のことも分かって助かります。',
+         f'終わってから{care}を聞きました。日頃どこに気を付ければよいか具体的に分かり、頼んだ後も安心です。')
+    )
+    variant = sum(ord(char) for char in page['route']) % 3
     cards = n.select('.c-voice-card')
     assert len(cards) == 6
     for index, card in enumerate(cards):
-        p = copy['products'][subjects[index % len(subjects)]]
-        mode = 'repair' if '補修' in p['short'] else 'coating' if ('コーティング' in p['short'] or '染色' in p['short']) else 'cleaning'
-        heading, body = samples[mode][index]
-        card.select_one('h3').string = heading.format(**p)
-        card.select_one('p').string = body.format(**p)
+        card.select_one('h3').string = titles[index]
+        card.select_one('p').string = variants[index][variant]
     return n
 
 
@@ -366,7 +385,7 @@ def render(route, page, catalogue, copy):
     main.append(hero); main.append(template('floating'))
     main.append(navigation(page,primary,page['category'],copy))
     main.append(concerns(page,primary,cat,copy))
-    main.append(reasons(p['scene'],copy['shared']))
+    main.append(reasons(copy['shared']))
     apply = tag('div', id='apply'); main.append(apply)
     for group in page['groups']:
         apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene']))
@@ -378,8 +397,11 @@ def render(route, page, catalogue, copy):
         section = tag('section','l-section l-section--limited')
         inner = tag('div','l-section-inner l-section-inner--limited')
         grid = tag('div','c-service-offers c-grid',style='--grid-col-pc:repeat(2,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;')
-        if page['category'] == 'aircon': grid['style'] = '--grid-col-pc:repeat(1,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;'
-        for key in page['offers']: grid.append(offer(key,catalogue))
+        if page['category'] == 'aircon': grid['class'].append('c-service-offers--aircon')
+        for key in page['offers']:
+            card = offer(key,catalogue)
+            if page['category'] == 'aircon': card['class'].append('c-recommend-plan__item')
+            grid.append(card)
         inner.append(grid); section.append(inner); apply.append(section)
     questions = None
     if '/' in route:
@@ -392,9 +414,9 @@ def render(route, page, catalogue, copy):
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
     if '/assets/css/service-pages.css' not in output:
-        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=20261002"/>\n</head>')
+        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100201"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
-                    '/assets/css/service-pages.css?v=20261002', output)
+                    '/assets/css/service-pages.css?v=2026100201', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')

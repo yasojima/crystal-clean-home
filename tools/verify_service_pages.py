@@ -10,7 +10,10 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
 catalogue = json.loads((DATA / 'catalogue.json').read_text(encoding='utf-8'))
+voice_profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
 errors = []
+voice_headings = {}
+voice_bodies = {}
 
 
 def soup(value):
@@ -43,6 +46,11 @@ for route,page in catalogue['pages'].items():
     descendants = list(main.descendants)
     positions = [descendants.index(main.select_one(sel)) if main.select_one(sel) else -1 for sel in ordered]
     if -1 in positions or positions != sorted(positions): fail(route,'section order')
+    if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
+        fail(route,'service voice profile')
+    reason_images = [img.get('src') for img in main.select('.c-reasons__bg')]
+    expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('preparation','care','finish')]
+    if reason_images != expected_reasons: fail(route,'shared reason photographs')
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')
@@ -54,6 +62,12 @@ for route,page in catalogue['pages'].items():
     elif any(not card.select_one('h3').get_text(strip=True) or not card.select_one('p').get_text(strip=True)
              for card in voice_section.select('.c-voice-card')):
         fail(route,'empty voice card')
+    else:
+        for card in voice_section.select('.c-voice-card'):
+            for value, seen, kind in ((card.select_one('h3').get_text(strip=True),voice_headings,'heading'),
+                                      (card.select_one('p').get_text(strip=True),voice_bodies,'body')):
+                if value in seen: fail(route,f'duplicate voice {kind} with {seen[value]}')
+                seen[value] = route
     concerns = main.select('.c-issue-card__text')
     if len(concerns) != 3 or any(len(node.select('br')) != 1 or not node.get_text().endswith('...') for node in concerns):
         fail(route,'concerns not two lines ending ...')
@@ -98,6 +112,12 @@ for route,page in catalogue['pages'].items():
         new_offer = main.find(attrs={'data-service-offer':key})
         if new_offer is None or prices(old_offer) != prices(new_offer): fail(route,'set-plan prices changed '+key)
         elif [n['value'] for n in old_offer.select('input[name="product-id"]')] != [n['value'] for n in new_offer.select('input[name="product-id"]')]: fail(route,'set-plan products changed '+key)
+    if route == 'aircon':
+        offers_grid = main.select_one('.c-service-offers--aircon')
+        if not offers_grid or '--grid-col-pc:repeat(2,1fr)' not in offers_grid.get('style','') or len(offers_grid.select(':scope > .c-recommend-plan__item')) != 3:
+            fail(route,'offer card layout')
+
+if set(voice_profiles) != set(catalogue['pages']): fail('voices','profile routes do not match pages')
 
 target_paths = {f'/house-cleaning/{r}/' for r in catalogue['pages']}
 for path,doc in all_pages.items():

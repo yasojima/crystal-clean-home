@@ -41,6 +41,28 @@
   object-fit: cover;
 }
 
+.c-service-page .c-reasons__item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 298px;
+  background: rgba(96, 102, 109, .2);
+  pointer-events: none;
+}
+
+.c-service-page .c-service-offers--aircon .c-plan-card:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+@media (max-width: 767.98px) {
+  .c-service-page .c-reasons__item::after {
+    height: 232px;
+  }
+}
+
 @media (min-width: 1280px) {
   .c-service-page .c-lineup-card {
     min-height: 482px;
