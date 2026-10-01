@@ -1,99 +1,113 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-01T05:38:26.037523+00:00",
+  "verified_at": "2026-10-01T12:26:50.285022+00:00",
   "pages_build_status": "built",
-  "pages_commit": "d355ea6a18d38e63edbe72d73bfd06e7ecb73784",
-  "source_tree": "2799cdf72ea5a4f27078e8295c7d63f44094b397",
+  "pages_commit": "59c3d722e04805e50476e6d2cfd5fd3bb7fae89d",
+  "source_tree": "42fc960ddbadbdde40124398c962117eac694139",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "url": "https://yasojima.github.io/",
-      "sha256": "ddeb605418a6c3fd6b08e7de445fd0ccbea5aa7f35cad140fc8324a73e6fba14",
+      "sha256": "e827de41e2f9e93de14edc7ce974fb62a5231c9d93100b692917c6b23944db3d",
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "url": "https://yasojima.github.io/about/",
+      "sha256": "622320f0065995020c76bc50136647c163cd7b46a8938e564c5f9710c965d677",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/room/",
+      "status": 200,
+      "url": "https://yasojima.github.io/quick_cart/room/",
+      "sha256": "35618ac7e2875016e3cde3ac7e84479aec409324230c759ee95dbbceedf7db3a",
       "passed": true
     },
     {
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "628b355eea81c3af8fdd9b5700f17e8ba5b4e8bb213f84e9248bc1543c5f5776",
+      "sha256": "42171502cb9b6fe509f9c5b0e46c39026965d11d88966b27de6277cd8a983e36",
       "passed": true
     },
     {
       "path": "/house-cleaning/pack/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/pack/",
-      "sha256": "37421e8400b27e1bd437bd3ad40bed2b508c3bf2d267d669a312c3c63ff2d3a6",
+      "sha256": "77889a9e3d5fe9650a37d0dc4a7d1f513d3e26e9d1da23e5e03bd82b618e28b8",
       "passed": true
     },
     {
       "path": "/house-cleaning/water/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/water/",
-      "sha256": "6e8c07640380e53ffb27f7fdffbe1c7eb6c819128f40d99f87edd827647cc5b4",
+      "sha256": "a6539ec43f05ab0ff6f46f51d5c0cc69e2860b3c77fac06f165bf0df13ee2e39",
       "passed": true
     },
     {
       "path": "/house-cleaning/washer/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/washer/",
-      "sha256": "8c0a3e0ec9bd5c0e16e8b311122ad20244153cd42404b09766cbdb8bc78a3fe8",
+      "sha256": "435f7ef436565a38fb3bc4ea95a3e23ae163ab68939485d7021fdaf0abc85d17",
       "passed": true
     },
     {
       "path": "/house-cleaning/kitchen/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/kitchen/",
-      "sha256": "d8168fcc50c80cbe592864b0081d7694d5978d0b3014291d2dba444bd62478d3",
+      "sha256": "2e6f7b635bfb04e9ee3a387639782407698a3bdfbf43d6c35d92de47a1356f3c",
       "passed": true
     },
     {
       "path": "/house-cleaning/room/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/room/",
-      "sha256": "71720a7f1e0222e61b28e0c4c0534cc8947bff90a7d51656e54da6ef2eb6b74b",
+      "sha256": "a6e977e5d757f31fe5ec0bfc8677a29d0066ac9233c793831b80acc96c90cb44",
       "passed": true
     },
     {
       "path": "/house-cleaning/coating/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/coating/",
-      "sha256": "a2d595c5719d3eecbee8c5a46bda3f05dbaadef6adf333be9b01a7b76a74df44",
+      "sha256": "e2e7ec67780638b51053bef232b1e7c4984cfaf8e3c367de14bc8591842dba0f",
       "passed": true
     },
     {
       "path": "/house-cleaning/others/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/others/",
-      "sha256": "a5839535695e15e4af17a4744fd1d428d97cd65f2de834ae6a0b7f4549296815",
+      "sha256": "8066a0024087d4fcab60ea1b2ec2093d9f24802798fd06f30e83555e3dec6598",
       "passed": true
     },
     {
       "path": "/house-cleaning/aircon/wall/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/wall/",
-      "sha256": "ab609c127d2a9af2a7b1d1cec6badee21a814c15fa60a2b3d547b708f839dcd8",
+      "sha256": "c5b4b9f2ed73ac78f84183dbc9b250e0e92e4dce4e06cdee03869b5df4be630f",
       "passed": true
     },
     {
       "path": "/contact/",
       "status": 200,
       "url": "https://yasojima.github.io/contact/",
-      "sha256": "f3369bbf4442e3309e392ac60239b2a67d274bca79629b1504bd862463fb4288",
+      "sha256": "d197b7939408f31d1fdafc05d7261f4e2e7a442753b715f41222a4ca58001bdb",
       "passed": true
     },
     {
       "path": "/policy/",
       "status": 200,
       "url": "https://yasojima.github.io/policy/",
-      "sha256": "12b69f2c8b411acbe29ee501243c5d09af704407244f6b9e062f97648c3e4623",
+      "sha256": "22ea6023bb96c475951cbdb11808ac78df133e16da5f07674c6447c2ca0b5375",
       "passed": true
     },
     {
       "path": "/sitemap.xml",
       "status": 200,
       "url": "https://yasojima.github.io/sitemap.xml",
-      "sha256": "e5ce9afbf50b29078e17070ba46a15f75d36dca4ef7dcb2b6e9eb439c6ef2cca",
+      "sha256": "066f7cf96756af3d83783fb74381a4370c651993462f49a9eaa1efd72014eda4",
       "passed": true
     },
     {
@@ -101,6 +115,48 @@
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/cart/complete.css",
       "sha256": "85b4696a5f360fbe58317732d8936aaccadde33a48e81f6c5aa72fae2db56f03",
+      "passed": true
+    },
+    {
+      "path": "/assets/css/common.css",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/css/common.css",
+      "sha256": "393251b16d730f4f569ca73c2c517bc8168f25920b27ab9657df64146e3efe4d",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/common-parts/sns-icon/icon-x.png",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/common-parts/sns-icon/icon-x.png",
+      "sha256": "7d4a889ecb03998c0c560d3eead4b672fdd467aad191b61ed4abbd5686996630",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/common-parts/sns-icon/icon-instagram.png",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/common-parts/sns-icon/icon-instagram.png",
+      "sha256": "a85124ba546a41c04810d80053b3e617ba5615a1ba9f5cf2e585e61069adf6de",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/common-parts/sns-icon/icon-tiktok.png",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/common-parts/sns-icon/icon-tiktok.png",
+      "sha256": "999b26cb8f3f0086dbd995ba1342c386e1afd7d9666697bc49eec34f7e7749e3",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/common-parts/sns-icon/icon-youtube.png",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/common-parts/sns-icon/icon-youtube.png",
+      "sha256": "3679a088cc1e784f88b88963b2acf8ae3fda9a53402f50d01467b2f0642aa554",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/common-parts/sns-icon/icon-translate.png",
+      "status": 200,
+      "url": "https://yasojima.github.io/assets/images/common-parts/sns-icon/icon-translate.png",
+      "sha256": "9b3669c473e6b4e9a23b7fd574c8db539e41ee5ba0dc5db689925bc17c25fa1d",
       "passed": true
     },
     {
@@ -300,6 +356,16 @@
     },
     {
       "path": "/campaign/dishwasher-air-cleaner/",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/room/tatami/",
+      "status": 404,
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/room/white-wood/",
       "status": 404,
       "passed": true
     },
