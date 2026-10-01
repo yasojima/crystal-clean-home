@@ -1,0 +1,246 @@
+/* Aircon-only visual trial: six alternating speech panels based on the supplied sample. */
+.c-service-page .c-voice-section--bubble-preview {
+  background: #e3edf8;
+  isolation: isolate;
+}
+
+.c-service-page .c-voice-section--bubble-preview::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  border-radius: 50% / 64px;
+  background: #fff;
+  pointer-events: none;
+}
+
+.c-service-page .c-voice-section--bubble-preview > .l-section-inner {
+  position: relative;
+  z-index: 1;
+}
+
+.c-service-page .c-voice-bubbles.c-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: 28px;
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card {
+  align-self: flex-end;
+  width: min(830px, calc(100% - 130px));
+  min-height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 56px 30px 88px;
+  border-radius: 64px;
+  background: #dce7f3;
+  box-shadow: 0 12px 23px rgba(31, 80, 129, .14);
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even) {
+  align-self: flex-start;
+  padding-right: 88px;
+  padding-left: 56px;
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card::before {
+  display: block;
+  top: 50%;
+  left: -108px;
+  width: 166px;
+  height: 166px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: var(--voice-avatar) center / contain no-repeat;
+  box-shadow: 0 8px 17px rgba(31, 80, 129, .16);
+  -webkit-mask-image: none;
+  mask-image: none;
+  z-index: 2;
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(1) { --voice-avatar: url('/assets/images/voices/woman-long.svg'); }
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(2) { --voice-avatar: url('/assets/images/voices/man-short.svg'); }
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(3) { --voice-avatar: url('/assets/images/voices/woman-bob.svg'); }
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(4) { --voice-avatar: url('/assets/images/voices/woman-senior.svg'); }
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(5) { --voice-avatar: url('/assets/images/voices/man-young.svg'); }
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(6) { --voice-avatar: url('/assets/images/voices/man-senior.svg'); }
+
+.c-service-page .c-voice-bubbles > .c-voice-card::after {
+  display: block;
+  top: calc(50% - 28px);
+  left: -32px;
+  width: 62px;
+  height: 56px;
+  transform: none;
+  background: #dce7f3;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%);
+  -webkit-mask-image: none;
+  mask-image: none;
+  z-index: 0;
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even)::before {
+  right: -108px;
+  left: auto;
+}
+
+.c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even)::after {
+  right: -32px;
+  left: auto;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.c-service-page .c-voice-bubbles .c-voice-card__heading {
+  padding: 12px 0 0;
+  border: 0;
+  color: #244a79;
+  text-align: left;
+  font-size: .9375rem;
+  line-height: 1.5;
+}
+
+.c-service-page .c-voice-section--bubble-preview .p-content-box__heading::before,
+.c-service-page .c-voice-section--bubble-preview .p-content-box__heading::after {
+  content: '・・・';
+  display: inline-block;
+  margin-inline: .7em;
+  color: #52749f;
+  font-size: .65em;
+  letter-spacing: .12em;
+  vertical-align: middle;
+}
+
+.c-service-page .c-voice-bubbles .c-voice-card__text {
+  margin-top: 0;
+  padding-top: 4px;
+  border: 0;
+  color: #173354;
+  font-size: .875rem;
+  line-height: 1.8;
+}
+
+.c-service-page .c-voice-card__profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 10px;
+  border-bottom: 2px dotted #728eaf;
+}
+
+.c-service-page .c-voice-card__identity {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 12px;
+  min-width: 0;
+}
+
+.c-service-page .c-voice-card__nickname {
+  color: #244a79;
+  font-size: 1.125rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.c-service-page .c-voice-card__demographic {
+  border: 1px solid #728eaf;
+  border-radius: 100px;
+  padding: 1px 12px;
+  color: #244a79;
+  font-size: .75rem;
+  white-space: nowrap;
+}
+
+.c-service-page .c-voice-card__stars {
+  flex: none;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  font-size: 1.45rem;
+  line-height: 1;
+}
+
+.c-service-page .c-voice-card__stars-filled { color: #ffcb16; }
+.c-service-page .c-voice-card__stars-empty { color: #93a9c2; }
+
+.c-service-page .c-voice-bubbles__note {
+  margin-top: 26px;
+  color: #546b85;
+  font-size: .75rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 767.98px) {
+  .c-service-page .c-voice-section--bubble-preview::after {
+    border-radius: 50% / 28px;
+  }
+
+  .c-service-page .c-voice-bubbles.c-grid {
+    gap: 24px;
+    padding-inline: 24px;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card,
+  .c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even) {
+    width: calc(100% - 16px);
+    min-height: 205px;
+    border-radius: 34px;
+    padding: 22px 18px 22px 52px;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even) {
+    padding-right: 52px;
+    padding-left: 18px;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card::before {
+    left: -42px;
+    width: 84px;
+    height: 84px;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even)::before {
+    right: -42px;
+    left: auto;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card::after {
+    top: calc(50% - 20px);
+    left: -23px;
+    width: 42px;
+    height: 40px;
+  }
+
+  .c-service-page .c-voice-bubbles > .c-voice-card:nth-child(even)::after {
+    right: -23px;
+    left: auto;
+  }
+
+  .c-service-page .c-voice-bubbles .c-voice-card__heading {
+    font-size: .875rem;
+    padding-top: 10px;
+  }
+
+  .c-service-page .c-voice-section--bubble-preview .p-content-box__heading::before,
+  .c-service-page .c-voice-section--bubble-preview .p-content-box__heading::after {
+    margin-inline: .3em;
+    font-size: .55em;
+  }
+
+  .c-service-page .c-voice-bubbles .c-voice-card__text {
+    font-size: .8125rem;
+  }
+
+  .c-service-page .c-voice-card__profile {
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+
+  .c-service-page .c-voice-card__nickname { font-size: .9375rem; }
+  .c-service-page .c-voice-card__demographic { font-size: .6875rem; padding-inline: 8px; }
+  .c-service-page .c-voice-card__stars { font-size: 1.125rem; }
+}

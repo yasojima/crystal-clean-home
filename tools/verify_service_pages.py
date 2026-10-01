@@ -73,6 +73,20 @@ for route,page in catalogue['pages'].items():
                                       (card.select_one('p').get_text(strip=True),voice_bodies,'body')):
                 if value in seen: fail(route,f'duplicate voice {kind} with {seen[value]}')
                 seen[value] = route
+    preview = voice_section and 'c-voice-section--bubble-preview' in voice_section.get('class', [])
+    preview_css = doc.select_one('link[href="/assets/css/aircon-voice-bubbles.css?v=2026100212"]')
+    if route == 'aircon':
+        if not preview or not preview_css or not voice_section.select_one('.c-voice-bubbles'):
+            fail(route,'aircon-only voice bubble preview missing')
+        else:
+            profiles = voice_section.select('.c-voice-card__profile')
+            ratings = [node.get('aria-label') for node in voice_section.select('.c-voice-card__stars')]
+            if len(profiles) != 6 or ratings != [f'5つ星中{value}つ星' for value in (5, 5, 4, 5, 5, 3)]:
+                fail(route,'sample profile and rating layout')
+            if not voice_section.select_one('.c-voice-bubbles__note'):
+                fail(route,'sample disclosure missing')
+    elif preview or preview_css:
+        fail(route,'aircon voice bubble preview leaked to another page')
     concerns = main.select('.c-issue-card__text')
     if len(concerns) != 3 or any(len(node.select('br')) != 1 or not node.get_text().endswith('...') for node in concerns):
         fail(route,'concerns not two lines ending ...')

@@ -15,8 +15,10 @@ const cases = [
   ...reasonRoutes.map(route => ({ route, section: 'reasons', selector: 'section:has(.p-reasons)' })),
   ...staticReasons.map(item => ({ ...item, section: 'reasons', selector: 'section:has(.p-reasons)' })),
   { route: 'aircon', section: 'plans', selector: '#service-sets' },
+  { route: 'aircon', section: 'voices', selector: 'section.c-voice-section--bubble-preview' },
   { route: 'room', section: 'voices', selector: 'section:has(.c-voice-card)' },
-].filter(item => !process.env.SECTION_FILTER || item.section === process.env.SECTION_FILTER);
+].filter(item => (!process.env.SECTION_FILTER || item.section === process.env.SECTION_FILTER) &&
+  (!process.env.ROUTE_FILTER || item.route === process.env.ROUTE_FILTER));
 
 (async () => {
   fs.mkdirSync(output, { recursive: true });

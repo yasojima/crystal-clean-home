@@ -339,6 +339,10 @@ def render_static_reasons(original):
 def voices(page, copy):
     n = template('voices')
     n.select_one('h2').string = 'ご利用者様の声'
+    if page['route'] == 'aircon':
+        n['class'] = n.get('class', []) + ['c-voice-section--bubble-preview']
+        grid = n.select_one('.p-content-box__content > .c-grid')
+        grid['class'] = grid.get('class', []) + ['c-voice-bubbles']
     profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
     concern, scope, work, finish, extra, care = profiles[page['route']]
     titles = (f'{concern}を相談できました', f'{scope}が分かって安心',
@@ -373,6 +377,54 @@ def voices(page, copy):
     for index, card in enumerate(cards):
         card.select_one('h3').string = titles[index]
         card.select_one('p').string = variants[index][variant]
+    if page['route'] == 'aircon':
+        preview_profiles = (
+            ('みずきさん', '30代 女性', 5),
+            ('たけさん', '40代 男性', 5),
+            ('まどかさん', '50代 女性', 4),
+            ('みっちゃんさん', '70代 女性', 5),
+            ('けんさん', '20代 男性', 5),
+            ('ひろさん', '60代 男性', 3),
+        )
+        cards[0].select_one('p').string = (
+            'リビングと寝室のエアコンをまとめてお願いしました。寝室は風のにおい、'
+            'リビングは吹き出し口の黒ずみが気になっていたので、最初に2台を見てもらい、'
+            '作業範囲と料金を確認しました。家具のそばは養生してから進めてくれました。'
+            '終わってから内部の汚れを見せてもらうと、普段拭いていたつもりの場所にも'
+            '汚れがたまっていてびっくり。一度に相談できて助かりました！'
+        )
+        cards[2].select_one('p').string = (
+            '機種ごとのカバーと内部まで作業してもらえました。洗浄は丁寧でしたが、'
+            '部品の扱い方を作業前にもう少し詳しく聞けたら、さらに安心できたと思います。'
+        )
+        cards[4].select_one('p').string = (
+            '作業中に隣の部屋のエアコンも気になり、急きょ追加できるか相談しました。'
+            '当日は予定が詰まっていてすぐの追加は難しかったのですが、できる作業と料金、'
+            '別の日に頼む場合の段取りをその場で説明してくれました。支払い方法まで一緒に'
+            '確認できたので、慌てずに決められました。こちらの都合も聞きながら進めて'
+            'くれて、次もお願いしやすいと感じました。'
+        )
+        cards[5].select_one('h3').string = '仕上がりはきれい、時間は想定より長め'
+        cards[5].select_one('p').string = (
+            '仕上がりはきれいでした。ただ、思っていたより作業に時間がかかり、'
+            '後の予定を少しずらしました。所要時間の目安を早めに聞けると助かります。'
+        )
+        for card, (nickname, demographic, rating) in zip(cards, preview_profiles):
+            profile = tag('div', 'c-voice-card__profile')
+            identity = tag('div', 'c-voice-card__identity')
+            identity.append(tag('span', 'c-voice-card__nickname', nickname))
+            identity.append(tag('span', 'c-voice-card__demographic', demographic))
+            stars = tag('span', 'c-voice-card__stars', role='img', **{'aria-label': f'5つ星中{rating}つ星'})
+            stars.append(tag('span', 'c-voice-card__stars-filled', '★' * rating))
+            if rating < 5:
+                stars.append(tag('span', 'c-voice-card__stars-empty', '☆' * (5 - rating)))
+            profile.append(identity)
+            profile.append(stars)
+            card.insert(0, profile)
+        n.select_one('.p-content-box__content').append(tag(
+            'p', 'c-voice-bubbles__note',
+            '※ このページのニックネーム・年代・評価・ご利用者様の声は、デザイン確認用のサンプルです。'
+        ))
     return n
 
 
@@ -464,6 +516,15 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
+    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100212">'
+    bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
+    if route == 'aircon':
+        if re.search(bubble_pattern, output):
+            output = re.sub(bubble_pattern, bubble_css, output)
+        else:
+            output = output.replace('</head>', bubble_css + '\n</head>', 1)
+    else:
+        output = re.sub(bubble_pattern + r'\s*', '', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
@@ -477,9 +538,13 @@ def sync_manifest(routes, check):
     files += [SITE / rel for rel in STATIC_REASONS]
     files += list((SITE / 'assets/images/service-scenes').glob('*.webp'))
     files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/reasons-navy.css',
+              SITE / 'assets/css/aircon-voice-bubbles.css',
+              *(SITE / f'assets/images/voices/{name}.svg' for name in (
+                  'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),
               SITE / 'assets/css/common.css']
     changed = []
-    obsolete = {'assets/images/reasons/navy-glass-vertical.png', 'assets/css/reasons-glass.css'}
+    obsolete = {'assets/images/reasons/navy-glass-vertical.png', 'assets/css/reasons-glass.css',
+                'assets/images/voices/anonymous-person.svg'}
     obsolete_keys = [key for key, record in manifest['files'].items() if record['path'] in obsolete]
     for key in obsolete_keys:
         del manifest['files'][key]
@@ -492,7 +557,7 @@ def sync_manifest(routes, check):
         if not records:
             url = manifest['origin'].rstrip('/') + '/' + rel
             record = {'path':rel, 'effective_url':url, 'status':200,
-                      'content_type':{'.webp':'image/webp','.png':'image/png'}.get(file.suffix,'text/css'),
+                      'content_type':{'.webp':'image/webp','.png':'image/png','.svg':'image/svg+xml'}.get(file.suffix,'text/css'),
                       'origin_type':'local-service-page'}
             manifest['files'][url] = record
             records = [record]

@@ -70,6 +70,30 @@ async function navyState(page) {
       }));
       if (voiceOverlap.length) fail(route, width, `voice heading/logo overlap: ${voiceOverlap.join(',')}`);
       if (route === 'aircon') {
+        const sectionCurve = await page.locator('.c-voice-section--bubble-preview').evaluate(section => {
+          const edge = getComputedStyle(section, '::after');
+          return edge.backgroundColor === 'rgb(255, 255, 255)' &&
+            edge.borderTopLeftRadius.startsWith('50%') && edge.borderBottomLeftRadius.startsWith('50%');
+        });
+        if (!sectionCurve) fail(route, width, 'voice section top/bottom curves');
+        const bubbles = await page.locator('.c-voice-bubbles').evaluate(grid => {
+          const cards = [...grid.querySelectorAll('.c-voice-card')];
+          const rects = cards.map(card => card.getBoundingClientRect());
+          return {
+            count: cards.length,
+            vertical: rects.slice(1).every((rect, index) => rect.top >= rects[index].bottom + 8),
+            alternating: rects.every((rect, index) => index === 0 ||
+              (index % 2 ? rect.left < rects[index - 1].left : rect.left > rects[index - 1].left)),
+            silhouettes: new Set(cards.map(card => getComputedStyle(card, '::before').backgroundImage)).size === 6 &&
+              cards.every(card => getComputedStyle(card, '::before').backgroundImage.includes('/voices/')),
+            ratings: cards.map(card => card.querySelector('.c-voice-card__stars')?.getAttribute('aria-label')),
+            tone: cards.every(card => getComputedStyle(card).backgroundColor === 'rgb(220, 231, 243)')
+          };
+        });
+        if (bubbles.count !== 6 || !bubbles.vertical || !bubbles.alternating || !bubbles.silhouettes ||
+            !bubbles.tone || JSON.stringify(bubbles.ratings) !== JSON.stringify([5, 5, 4, 5, 5, 3].map(n => `5つ星中${n}つ星`))) {
+          fail(route, width, `voice bubble preview ${JSON.stringify(bubbles)}`);
+        }
         const plans = page.locator('#service-sets .c-tab__panel');
         const counts = await plans.evaluateAll(nodes => nodes.map(node => node.querySelectorAll('.c-plan-card').length));
         if (JSON.stringify(counts) !== '[2,1]') fail(route, width, `plan tab card counts: ${counts}`);

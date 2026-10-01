@@ -74,7 +74,10 @@ if __name__ == "__main__":
         site = ROOT / 'source/site'
         PATHS += ['/' + p.relative_to(site).as_posix().removesuffix('index.html') for p in site.rglob('*.html')]
         PATHS += ['/' + p.relative_to(site).as_posix() for p in (site / 'assets/images/service-scenes').glob('*.webp')]
-        PATHS += ['/assets/css/service-pages.css', '/assets/css/reasons-navy.css']
+        PATHS += ['/assets/css/service-pages.css', '/assets/css/reasons-navy.css',
+                  '/assets/css/aircon-voice-bubbles.css',
+                  *[f'/assets/images/voices/{name}.svg' for name in
+                    ('woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')]]
         PATHS = list(dict.fromkeys(PATHS))
     with ThreadPoolExecutor(max_workers=4) as pool:
         checks = list(pool.map(check, PATHS + EXCLUDED))
