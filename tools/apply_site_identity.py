@@ -24,6 +24,7 @@ BRAND = "クリスタルクリーンホーム"
 TAB_BRAND = "Crystal Clean Home"
 ICON = '<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon/crystal-clean-home.svg">'
 DEMO_SCRIPT = '<script src="/assets/js/demo-contact.js" defer></script>'
+TRANSLATION_SCRIPT = '<script type="module" src="/assets/js/shared-translation-control.js"></script>'
 BRAND_BANNER = ('<span class="c-brand-banner c-brand-banner--{kind}">'
                 '<img class="c-brand-banner__logo" src="/assets/images/crystal-clean-home.png" alt="クリスタルクリーンホーム">'
                 '<span class="c-brand-banner__copy"><span class="c-brand-banner__eyebrow">{eyebrow}</span>'
@@ -57,16 +58,32 @@ OLD_SOCIAL_ITEM = re.compile(
     r'lin\.ee/4PFvSTR|(?:www\.)?hitowa\.com/life-partner/company)'
     r'[^\"]*".*?</a>\s*</li>\s*', re.I | re.S
 )
-FOOTER_SNS = '<ul class="c-footer-sns">' + ''.join(
-    f'<li class="c-footer-sns__item"><button class="c-footer-sns__link" '
-    f'type="button" data-demo-dialog="" aria-label="{label}（デモ）">'
-    f'<img class="c-flex-image c-flex-image--stretched c-footer-sns__image" '
-    f'src="/assets/images/common-parts/sns-icon/icon-{name}.png" '
-    f'alt="" width="40" height="40" loading="lazy"></button></li>'
-    for name, label in (("x", "X"), ("instagram", "Instagram"),
-                        ("tiktok", "TikTok"), ("youtube", "YouTube"),
-                        ("translate", "翻訳"))
-) + '</ul>'
+def footer_sns(index: int) -> str:
+    items = ''.join(
+        f'<li class="c-footer-sns__item"><button class="c-footer-sns__link" '
+        f'type="button" data-demo-dialog="" aria-label="{label}（デモ）">'
+        f'<img class="c-flex-image c-flex-image--stretched c-footer-sns__image" '
+        f'src="/assets/images/common-parts/sns-icon/icon-{name}.png" '
+        f'alt="" width="40" height="40" loading="lazy"></button></li>'
+        for name, label in (("x", "X"), ("instagram", "Instagram"),
+                            ("tiktok", "TikTok"), ("youtube", "YouTube"))
+    )
+    menu_id = f'translate-menu-footer-{index}'
+    items += (
+        '<li class="c-footer-sns__item"><div class="translate-control">'
+        f'<button class="c-footer-sns__link translate-toggle" type="button" '
+        f'aria-expanded="false" aria-controls="{menu_id}" aria-label="表示言語を選択">'
+        '<img class="c-flex-image c-flex-image--stretched c-footer-sns__image" '
+        'src="/assets/images/common-parts/sns-icon/icon-translate.png" '
+        'alt="" width="40" height="40" loading="lazy"></button>'
+        f'<div id="{menu_id}" class="translate-menu" aria-hidden="true" inert>'
+        '<p>言語を選択</p>'
+        f'<div id="google-translate-footer-{index}" class="google-translate-widget" '
+        'data-google-translate></div>'
+        '<small>Google 翻訳でページ本文を切り替えます。</small>'
+        '</div></div></li>'
+    )
+    return '<ul class="c-footer-sns">' + items + '</ul>'
 FOOTER_PHONE_MARKUP = ('<span class="c-demo-phone">'
                        '<img src="/assets/images/footer/footer-phone-demo-{size}.svg" '
                        'alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00">'
@@ -75,14 +92,9 @@ FOOTER_PHONE_MARKUP = ('<span class="c-demo-phone">'
                        '</span>')
 
 
-def tab_title(raw_title: str) -> str:
-    """Keep the page subject, with the shared English name visible first in tabs."""
-    title = re.sub(r"^Crystal Clean Home\s*(?:[|｜]\s*)?", "", raw_title.strip())
-    title = re.sub(r"(?:ハウスクリーニングの|お掃除のことなら)?クリスタルクリーンホーム(?:の)?", "", title)
-    title = re.sub(r"\s*[|｜]\s*", "｜", title)
-    title = title.strip(" \t\r\n　｜|・-")
-    title = re.sub(r"(?:のこと)?なら$", "", title).strip(" \t\r\n　｜|・-")
-    return TAB_BRAND + (f" | {title}" if title else "")
+def tab_title(_raw_title: str) -> str:
+    """Show only the shared site name beside the logo in browser tabs."""
+    return TAB_BRAND
 
 
 def replace_link(match: re.Match[str]) -> str:
@@ -144,7 +156,21 @@ def transform(text: str, is_html: bool) -> str:
         text = re.sub(r'<section\b[^>]*>(?:(?!</section>).)*株式会社HITOWA(?:(?!</section>).)*</section>\s*',
                       '', text, flags=re.S)
     text = OLD_SOCIAL_ITEM.sub("", text)
-    text = re.sub(r'<ul class="c-footer-sns">.*?</ul>', FOOTER_SNS, text, flags=re.S)
+    sns_indexes = iter(range(1, 20))
+    text = re.sub(r'<ul class="c-footer-sns">.*?</ul>',
+                  lambda _: footer_sns(next(sns_indexes)), text, flags=re.S)
+    text = re.sub(r'<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" '
+                  r'href="/sitemap/">サイトマップ</a></li>\s*', '', text)
+    text = re.sub(r'<li><a href="/sitemap/">サイトマップ</a></li>\s*', '', text)
+    pending_note = '<span class="c-pending-link__note">※ページ作成後、リンク設定の予定</span>'
+    text = text.replace(
+        '<div class="c-footer-item-heading"><a class="link" aria-disabled="true">ハウスクリーニング</a></div>',
+        '<div class="c-footer-item-heading"><a class="link" aria-disabled="true">ハウスクリーニング</a>'
+        + pending_note + '</div>')
+    text = re.sub(
+        r'(<span class="c-footer-item-heading__text"><a aria-disabled="true">ハウスクリーニング</a></span>)'
+        r'(?!<span class="c-pending-link__note">)',
+        lambda match: match.group(1) + pending_note, text)
     text = re.sub(r'<p class="footer-tel-img">.*?</p>',
                   '<p class="footer-tel-img">' + FOOTER_PHONE_MARKUP.format(size='sp') + '</p>',
                   text, flags=re.S)
@@ -203,6 +229,9 @@ def transform(text: str, is_html: bool) -> str:
         text = re.sub(r'</head\s*>', ICON + "\n</head>", text, count=1, flags=re.I)
     if DEMO_SCRIPT not in text:
         text = re.sub(r'</head\s*>', DEMO_SCRIPT + "\n</head>", text, count=1, flags=re.I)
+    if TRANSLATION_SCRIPT not in text:
+        text = re.sub(r'</head\s*>', TRANSLATION_SCRIPT + "\n</head>", text,
+                      count=1, flags=re.I)
     return add_typography_links(text)
 
 
@@ -250,8 +279,7 @@ def main() -> None:
                               '<p class="c-text">この画面はデモです。'
                               + ("アプリとの連携" if is_app else "予約先") + 'は設定されておりません。</p>'
                               '</div></section></main>', new_text, count=1, flags=re.I | re.S)
-            new_text = re.sub(r'<title>.*?</title>',
-                              f'<title>{TAB_BRAND} | {"アプリについて" if is_app else "ご予約について"}</title>',
+            new_text = re.sub(r'<title>.*?</title>', f'<title>{TAB_BRAND}</title>',
                               new_text, count=1, flags=re.I | re.S)
         if rel in ("campaign/outerwall_complete/index.html", "error/403/index.html",
                    "house-cleaning/room/mattress/index.html"):
@@ -362,12 +390,15 @@ def main() -> None:
                                   "sha256": hashlib.sha256(data).hexdigest(),
                                   "origin_type": "local-site-page"}
     for rel in [*assets, "assets/images/footer/footer-phone-demo-sp.svg",
-                "assets/images/footer/footer-phone-demo-pc.svg", "assets/js/demo-contact.js"]:
+                "assets/images/footer/footer-phone-demo-pc.svg", "assets/js/demo-contact.js",
+                "assets/js/shared-translation-control.js", "assets/js/shared-translation.js",
+                "assets/js/shared-translation-layout.js", "assets/css/translation-layout.css"]:
         data = (SITE / rel).read_bytes()
         url = manifest["origin"].rstrip("/") + "/" + rel
         manifest["files"][url] = {"path": rel, "effective_url": url, "status": 200,
                                   "content_type": "image/svg+xml" if rel.endswith(".svg") else
-                                                  "image/png" if rel.endswith(".png") else "text/javascript",
+                                                  "image/png" if rel.endswith(".png") else
+                                                  "text/css" if rel.endswith(".css") else "text/javascript",
                                   "bytes": len(data), "sha256": hashlib.sha256(data).hexdigest(),
                                   "origin_type": "local-site-identity"}
     unique = {record["path"]: record for record in manifest["files"].values()}

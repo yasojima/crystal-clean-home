@@ -12,6 +12,7 @@ BRAND = "クリスタルクリーンホーム"
 TAB_BRAND = "Crystal Clean Home"
 ICON = "/favicon/crystal-clean-home.svg"
 SCRIPT = "/assets/js/demo-contact.js"
+TRANSLATION_SCRIPT = "/assets/js/shared-translation-control.js"
 OLD_NAME = re.compile(r"おそうじ本舗|お掃除本舗|オソウジホンポ")
 OLD_PHONE = re.compile(r"0120[-‐‑–—ー ]?24[-‐‑–—ー ]?1000|03[-‐‑–—ー ]?6630[-‐‑–—ー ]?6104|0120241000")
 EMAIL = re.compile(r"[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}", re.I)
@@ -62,12 +63,14 @@ def main() -> None:
         page = Page()
         page.feed(text)
         reasons = []
-        if not (page.title == TAB_BRAND or page.title.startswith(TAB_BRAND + " | ")):
+        if page.title != TAB_BRAND:
             reasons.append("tab title")
         if page.icons != [ICON]:
             reasons.append("favicon")
         if page.scripts.count(SCRIPT) != 1:
             reasons.append("demo script")
+        if page.scripts.count(TRANSLATION_SCRIPT) != 1:
+            reasons.append("translation script")
         if OLD_NAME.search(text):
             reasons.append("former shop name")
         if OLD_PHONE.search(text):

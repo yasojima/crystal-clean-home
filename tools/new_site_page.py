@@ -14,7 +14,7 @@ SITE = ROOT / "source/site"
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("route", help="URL path, for example: /new-service/")
-    parser.add_argument("title", help="Page title before the shared shop name")
+    parser.add_argument("title", help="Page heading; the browser tab uses the shared site name")
     args = parser.parse_args()
     route = args.route.strip("/")
     if not route or any(part in (".", "..") for part in Path(route).parts):

@@ -1,0 +1,25 @@
+/* Adapted from the MILKY VEIL translation layout. Japanese layout is untouched. */
+[data-translation-active] :is(h1,h2,h3,h4,p,dt,dd,label,summary,figcaption) {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  white-space: normal !important;
+  hyphens: auto;
+  letter-spacing: normal !important;
+}
+[data-translation-active] :is(h1,h2,h3) { text-wrap: balance; }
+[data-translation-active] :is(p,dd) { text-wrap: pretty; }
+[data-translation-active] :is(a,button,span,li) {
+  min-inline-size: 0;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  white-space: normal !important;
+}
+[data-translation-active] :is(.c-main-menu__link,.c-site-menu-link,.c-footer-global-links__link,.c-footer-bottom-links__link,.c-button__text,.c-footer-item-heading__text) {
+  line-height: 1.4;
+  letter-spacing: normal !important;
+}
+[data-translation-active] :is(.c-grid > *,.c-footer-bottom-links__item) { min-width: 0; }
+@media (min-width: 768px) {
+  [data-translation-active] .c-footer-bottom-nav__links { flex-wrap: wrap; }
+}

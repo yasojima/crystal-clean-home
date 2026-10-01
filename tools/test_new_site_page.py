@@ -21,9 +21,10 @@ def main() -> None:
                         "/__identity_probe__/", "検査用"], cwd=ROOT, check=True,
                        stdout=subprocess.DEVNULL)
         html = PAGE.read_text(encoding="utf-8")
-        assert "<title>Crystal Clean Home | 検査用</title>" in html
+        assert "<title>Crystal Clean Home</title>" in html
         assert 'href="/favicon/crystal-clean-home.svg"' in html
         assert 'src="/assets/js/demo-contact.js"' in html
+        assert 'src="/assets/js/shared-translation-control.js"' in html
         assert 'href="/assets/css/site-typography.css?v=20261001"' in html
         assert 'family=Zen+Kaku+Gothic+New:wght@400;500;700' in html
         print("new page identity generation: PASS")
