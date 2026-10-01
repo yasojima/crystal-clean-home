@@ -294,13 +294,18 @@ def concerns(page, primary, category_copy, copy):
     return n
 
 
-def reasons(shared):
+def reasons(shared, glass_preview=False):
     n = template('reasons')
+    if glass_preview:
+        n.select_one('.c-reasons')['class'].append('c-reasons--glass-preview')
     scenes = ('reason-mop-bucket', 'reason-carpet-extractor', 'reason-floor-polisher')
     for i,(item,words) in enumerate(zip(n.select('.c-reasons__item'),shared['reasons'])):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
-        image(item.select_one('img'), scenes[i], '')
+        if glass_preview:
+            item.select_one('img').decompose()
+        else:
+            image(item.select_one('img'), scenes[i], '')
     return n
 
 
@@ -393,7 +398,7 @@ def render(route, page, catalogue, copy):
     main.append(hero); main.append(template('floating'))
     main.append(navigation(page,primary,page['category'],copy))
     main.append(concerns(page,primary,cat,copy))
-    main.append(reasons(copy['shared']))
+    main.append(reasons(copy['shared'],route == 'aircon'))
     apply = tag('div', id='apply'); main.append(apply)
     for group in page['groups']:
         apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene']))
@@ -426,10 +431,11 @@ def render(route, page, catalogue, copy):
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
+    css_version = '2026100203' if route == 'aircon' else '2026100202'
     if '/assets/css/service-pages.css' not in output:
-        output = output.replace('</head>','<link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100202"/>\n</head>')
+        output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
-                    '/assets/css/service-pages.css?v=2026100202', output)
+                    f'/assets/css/service-pages.css?v={css_version}', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
@@ -472,19 +478,21 @@ def sync_manifest(routes, check):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--check',action='store_true')
+    parser.add_argument('--route')
     args = parser.parse_args()
     catalogue = json.loads((DATA / 'catalogue.json').read_text(encoding='utf-8'))
     copy = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))
-    if not args.check: enrich(catalogue)
+    routes = {args.route: catalogue['pages'][args.route]} if args.route else catalogue['pages']
+    if not args.check and not args.route: enrich(catalogue)
     changed = []
-    for route,page in catalogue['pages'].items():
+    for route,page in routes.items():
         path = SITE / 'house-cleaning' / route / 'index.html'
         output = render(route,page,catalogue,copy)
         if output.encode('utf-8') != path.read_bytes():
             changed.append(route)
             if not args.check: path.write_bytes(output.encode('utf-8'))
-    manifest_changes = sync_manifest(catalogue['pages'], args.check)
-    print(json.dumps({'pages':len(catalogue['pages']),'changed':changed,'manifest_updates':len(manifest_changes),'check':args.check},ensure_ascii=False))
+    manifest_changes = sync_manifest(routes, args.check)
+    print(json.dumps({'pages':len(routes),'changed':changed,'manifest_updates':len(manifest_changes),'check':args.check},ensure_ascii=False))
     if args.check and (changed or manifest_changes): raise SystemExit(1)
 
 
