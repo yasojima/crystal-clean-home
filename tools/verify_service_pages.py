@@ -50,11 +50,10 @@ for route,page in catalogue['pages'].items():
         fail(route,'service voice profile')
     reason_images = [img.get('src') for img in main.select('.c-reasons__bg')]
     expected_reasons = [f'/assets/images/service-scenes/reason-{name}.webp' for name in ('mop-bucket','carpet-extractor','floor-polisher')]
-    if route == 'aircon':
-        if reason_images or not main.select_one('.c-reasons--glass-preview'):
-            fail(route,'navy glass reason preview')
-    elif reason_images != expected_reasons:
+    if reason_images != expected_reasons:
         fail(route,'shared reason photographs')
+    if route == 'aircon' and not main.select_one('.c-reasons--glass-preview'):
+        fail(route,'navy glass reason preview')
     ids = [n['id'] for n in main.select('[id]')]
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')

@@ -302,10 +302,7 @@ def reasons(shared, glass_preview=False):
     for i,(item,words) in enumerate(zip(n.select('.c-reasons__item'),shared['reasons'])):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
-        if glass_preview:
-            item.select_one('img').decompose()
-        else:
-            image(item.select_one('img'), scenes[i], '')
+        image(item.select_one('img'), scenes[i], '')
     return n
 
 
@@ -431,7 +428,7 @@ def render(route, page, catalogue, copy):
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
-    css_version = '2026100203' if route == 'aircon' else '2026100202'
+    css_version = '2026100205' if route == 'aircon' else '2026100202'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
