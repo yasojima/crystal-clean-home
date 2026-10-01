@@ -17104,6 +17104,23 @@ screen and (min-width: 768px) {
   max-width: 100%;
 }
 
+.footer-tel-sp .c-demo-phone,
+.footer-tel-pc .c-demo-phone {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.footer-tel-sp .c-demo-phone img,
+.footer-tel-pc .c-demo-phone img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .footer-tel-sp .footer-tel-btn a {
   display: block;
   color: #fff;

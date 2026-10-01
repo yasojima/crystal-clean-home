@@ -1,15 +1,15 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-01T03:21:35.886409+00:00",
+  "verified_at": "2026-10-01T03:45:08.592837+00:00",
   "pages_build_status": "built",
-  "pages_commit": "c704ba7cd087faf568a1149f263818e9bc0e27c3",
-  "source_tree": "d76c1bf73e287316a404fecfaf889d478b863c51",
+  "pages_commit": "15fbb9f342634249c8a1200171bf75f9b31321fd",
+  "source_tree": "2e21ff1c83f7ef8a722e62d5f31c5ae1838465b1",
   "checks": [
     {
       "path": "/",
       "status": 200,
       "url": "https://yasojima.github.io/",
-      "sha256": "c19e68fe721ee4db93b2881ddcc17933b8c1fa87dbf671c2011c90e7641b13da",
+      "sha256": "5d3e01b880adc0002f4b2231bbec37bda65690349b25affa9de930b969283b6e",
       "passed": true
     },
     {
@@ -37,7 +37,7 @@
       "path": "/house-cleaning/washer/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/washer/",
-      "sha256": "514f360e57b6aa54449252fc03968e6e9d34c835b2d07d06fa33ad87430a97b3",
+      "sha256": "ef2a6dec2a943745c199796bc8a10c2fe11a901360b3aced270c2ee327e573b8",
       "passed": true
     },
     {
@@ -79,14 +79,14 @@
       "path": "/contact/",
       "status": 200,
       "url": "https://yasojima.github.io/contact/",
-      "sha256": "82e548ee3a07795dbf9cde2179d8580e11382cd23a9a8898bde9962b247d876e",
+      "sha256": "41f5898b7cafc707230f8fcfe840eeea9db33634ad14a8d5a71d84d1e2bb9fe0",
       "passed": true
     },
     {
       "path": "/policy/",
       "status": 200,
       "url": "https://yasojima.github.io/policy/",
-      "sha256": "ccde7cb2ac8fe182c72fe3833bd1dcb3ede96c50fada6d7a32975329aca2627e",
+      "sha256": "ac47981d6afb19a63b67bdd7f8fa3c3ccea587ee2f242595d2d744a1ea9695b1",
       "passed": true
     },
     {

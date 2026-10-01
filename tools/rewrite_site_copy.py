@@ -530,6 +530,23 @@ def replace_coating_art(html: str) -> str:
     return html
 
 
+TRADEMARK_TERMS = (
+    ("ウルブロビューラ", "浴室用の泡発生アダプター"),
+    ("ウルブロ", "浴室用アダプター"),
+    ("ウルトラファインバブル", "微細な泡"),
+)
+
+
+def generic_terms(data: str) -> tuple[str, int]:
+    changed = 0
+    for old, new in TRADEMARK_TERMS:
+        count = data.count(old)
+        if count:
+            data = data.replace(old, new)
+            changed += count
+    return data, changed
+
+
 def paraphrase(data: str) -> tuple[str, int]:
     repaired = data
     repair_count = 0
@@ -583,7 +600,7 @@ def paraphrase(data: str) -> tuple[str, int]:
 class CopyParser(HTMLParser):
     VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input",
             "link", "meta", "param", "source", "track", "wbr"}
-    SKIP = {"head", "script", "style", "noscript", "svg", "textarea", "template", "pre", "code"}
+    SKIP = {"script", "style", "noscript", "svg", "textarea", "template", "pre", "code"}
 
     def __init__(self, html: str) -> None:
         super().__init__(convert_charrefs=False)
@@ -607,7 +624,12 @@ class CopyParser(HTMLParser):
     def handle_data(self, data: str) -> None:
         if self.SKIP.intersection(self.stack):
             return
-        new, count = paraphrase(data)
+        normalized, terms = generic_terms(data)
+        if "head" in self.stack:
+            new, count = normalized, 0
+        else:
+            new, count = paraphrase(normalized)
+        count += terms
         if new == data:
             return
         line, column = self.getpos()
@@ -621,6 +643,12 @@ class CopyParser(HTMLParser):
 
 def transform(html: str) -> tuple[str, int, int]:
     html = replace_coating_art(html)
+    html = re.sub(
+        r'「ウルブロ」は、(?:<a\b[^>]*>株式会社ハタノ製作所</a>|株式会社ハタノ製作所)の登録商標です。',
+        '取り付け可能な機種は、事前にご確認ください。', html,
+    )
+    html = html.replace('「ウルトラファインバブル」は、一般社団法人ファインバブル産業会の登録商標です。',
+                        '泡の感じ方は、ご使用の環境によって異なります。')
     # Former-operator videos expose its logo and channel even when the page
     # itself has been renamed. Keep the reserved media area without loading it.
     def replace_video(match: re.Match[str]) -> str:
@@ -652,13 +680,22 @@ def transform(html: str) -> tuple[str, int, int]:
     parser.close()
     for start, end, replacement in reversed(parser.edits):
         html = html[:start] + replacement + html[end:]
+    attr_replacements = 0
+    def generic_attribute(match: re.Match[str]) -> str:
+        nonlocal attr_replacements
+        value, count = generic_terms(match.group(2))
+        attr_replacements += count
+        return match.group(1) + value + match.group(3)
+    html = re.sub(r'(\b(?:alt|title|aria-label|content|data-name)=["\'])(.*?)(["\'])',
+                  generic_attribute, html, flags=re.S | re.I)
     claim_replacements = 0
     for old, new in PROPRIETARY:
         hits = html.count(old)
         if hits:
             html = html.replace(old, new)
             claim_replacements += hits
-    return html, len(parser.edits) + claim_replacements, parser.replacements + claim_replacements
+    return (html, len(parser.edits) + claim_replacements + attr_replacements,
+            parser.replacements + claim_replacements + attr_replacements)
 
 
 def main() -> None:

@@ -57,6 +57,19 @@ OLD_SOCIAL_ITEM = re.compile(
     r'lin\.ee/4PFvSTR|(?:www\.)?hitowa\.com/life-partner/company)'
     r'[^\"]*".*?</a>\s*</li>\s*', re.I | re.S
 )
+FOOTER_SNS = '<ul class="c-footer-sns">' + ''.join(
+    f'<li class="c-footer-sns__item"><span class="c-footer-sns__link">'
+    f'<img class="c-flex-image c-flex-image--stretched c-footer-sns__image" '
+    f'src="/assets/images/common-parts/sns-icon/icon-{name}.webp" '
+    f'alt="{label}" width="40" height="40" loading="lazy"></span></li>'
+    for name, label in (("line", "LINE"), ("instagram", "Instagram"),
+                        ("youtube", "YouTube"), ("x", "X"),
+                        ("facebook", "Facebook"))
+) + '</ul>'
+FOOTER_PHONE_BUTTON = ('<button class="c-demo-phone" type="button" '
+                       'data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000。電話窓口は準備中">'
+                       '<img src="/assets/images/footer/footer-phone-demo-{size}.svg" '
+                       'alt="電話番号 00-0000-0000。受付時間は準備中"></button>')
 
 
 def tab_title(raw_title: str) -> str:
@@ -134,6 +147,15 @@ def transform(text: str, is_html: bool) -> str:
                   r'<p class="footer-tel-pc"><button class="c-demo-phone" type="button" data-demo-dialog="" style="border:0;padding:0;background:transparent;cursor:pointer;display:block;max-width:100%"><img \1></button></p>',
                   text)
     text = OLD_SOCIAL_ITEM.sub("", text)
+    text = re.sub(r'<ul class="c-footer-sns">.*?</ul>', FOOTER_SNS, text, flags=re.S)
+    text = re.sub(r'<p class="footer-tel-img">.*?</p>',
+                  '<p class="footer-tel-img">' + FOOTER_PHONE_BUTTON.format(size='sp') + '</p>',
+                  text, flags=re.S)
+    text = re.sub(r'<p class="footer-tel-pc">.*?</p>',
+                  '<p class="footer-tel-pc">' + FOOTER_PHONE_BUTTON.format(size='pc') + '</p>',
+                  text, flags=re.S)
+    text = text.replace('<p class="footer-tel-btn"><a href="#" data-demo-dialog="">今すぐ電話する</a></p>',
+                        '<p class="footer-tel-btn"><a href="#" data-demo-dialog="">電話窓口について</a></p>')
     text = LINK.sub(replace_link, text)
     text = re.sub(r'href=\\"https?://(?:twitter\.com/osoujihonpo|x\.com/osoujihonpo|'
                   r'(?:www\.)?facebook\.com/osoujihonpo|(?:www\.)?instagram\.com/osoujihonpo|'
@@ -252,7 +274,9 @@ def main() -> None:
     for rel in ("assets/css/common.css", "assets/css/campaign/legacy-common.css",
                 "assets/css/campaign/ac456_monthcp/common.css"):
         path = SITE / rel
-        data = changed.get(rel, path.read_bytes()).decode("utf-8")
+        if not path.is_file():
+            continue
+        data = changed[rel].decode("utf-8") if rel in changed else path.read_text(encoding="utf-8")
         data = data.replace(old_logo_css, "")
         if logo_css not in data:
             data += logo_css
