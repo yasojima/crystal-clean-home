@@ -1,11 +1,19 @@
-.c-header {
+html {
   --aircon-header-height: clamp(72px, 7.5vw, 108px);
+  scrollbar-gutter: stable;
+}
+
+.c-header,
+.c-menu-modal {
   --aircon-menu-black: #20252b;
   --aircon-menu-accent: #2d88ef;
   --aircon-menu-nav-accent: #005bac;
   --aircon-menu-gray: #BEBEBE;
   --aircon-menu-ease: cubic-bezier(.43, .05, .17, 1);
   --aircon-menu-material: cubic-bezier(.26, .16, .1, 1);
+}
+
+.c-header {
   position: sticky;
   top: 0;
   z-index: 120;
@@ -201,8 +209,8 @@
 
 .c-header__menu {
   flex: 0 0 auto;
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
 }
 
 .c-header__menu picture,
@@ -212,31 +220,39 @@
   height: 100%;
 }
 
+body.aircon-menu-open {
+  overflow: hidden;
+}
+
 body.aircon-menu-open .c-header__navigation {
-  display: none;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .c-menu-modal {
+  display: block;
   z-index: 110;
   box-sizing: border-box;
   width: 100%;
   height: 100dvh;
   background: #f5f5f5;
+  contain: layout paint;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  will-change: opacity;
+  transition: opacity .4s var(--aircon-menu-material), visibility 0s .4s;
 }
 
 .c-menu-modal.is-active {
-  animation: aircon-menu-in .4s cubic-bezier(.26, .16, .1, 1) both;
-}
-
-.c-menu-modal.is-hidden {
-  pointer-events: none;
-  animation: aircon-menu-out .4s cubic-bezier(.26, .16, .1, 1) both;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity .4s var(--aircon-menu-material), visibility 0s;
 }
 
 .c-menu-modal.is-active .c-menu-modal__backdrop,
-.c-menu-modal.is-active .c-menu-modal__main-content,
-.c-menu-modal.is-hidden .c-menu-modal__backdrop,
-.c-menu-modal.is-hidden .c-menu-modal__main-content {
+.c-menu-modal.is-active .c-menu-modal__main-content {
   animation: none;
 }
 
@@ -426,16 +442,6 @@ body.aircon-menu-open .c-header__navigation {
   content: none;
 }
 
-@keyframes aircon-menu-in {
-  from { opacity: 0; visibility: hidden; }
-  to { opacity: 1; visibility: visible; }
-}
-
-@keyframes aircon-menu-out {
-  from { opacity: 1; visibility: visible; }
-  to { opacity: 0; visibility: hidden; }
-}
-
 @media (max-width: 1399px) {
   .c-header__navigation {
     display: none;
@@ -463,7 +469,6 @@ body.aircon-menu-open .c-header__navigation {
 
 @media (max-width: 767.98px) {
   .c-header {
-    --aircon-header-height: 72px;
     padding-inline: 12px 0;
   }
 
@@ -478,8 +483,8 @@ body.aircon-menu-open .c-header__navigation {
   }
 
   .c-header__menu {
-    width: 48px;
-    height: 48px;
+    width: 44px;
+    height: 44px;
   }
 
   .c-menu-modal__main-content {
@@ -516,9 +521,9 @@ body.aircon-menu-open .c-header__navigation {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .c-menu-modal.is-active,
-  .c-menu-modal.is-hidden {
-    animation-duration: .01s;
+  .c-menu-modal,
+  .c-menu-modal.is-active {
+    transition: none;
   }
 
   .aircon-mega {

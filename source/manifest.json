@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 174562,
-      "sha256": "d2c3b7a359c62ca27ff3a84231f02ad1a723c1a9df8016629eb588587dad3c45",
+      "bytes": 176170,
+      "sha256": "8c28a685fedd4333e96b180990eb8a0e46a76ca419bfa1b2e2ba30ea68675039",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 174562,
-      "sha256": "d2c3b7a359c62ca27ff3a84231f02ad1a723c1a9df8016629eb588587dad3c45",
+      "bytes": 176170,
+      "sha256": "8c28a685fedd4333e96b180990eb8a0e46a76ca419bfa1b2e2ba30ea68675039",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13079,8 +13079,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 6229,
-      "sha256": "c93c2d84ef55abe12566d9cefbbe4d238d9c31a413633ce32ccbf3c88eb2dc35",
+      "bytes": 6380,
+      "sha256": "1071a06272e924197d56f16acdb2d81e951a870a5aa4fbfb7e08d7dd7946dad4",
       "source_sha256": "870726c887c2b0a6131dafee01def558d1db98ad6d4261d45495f2f7ef023ea8"
     },
     "https://www.osoujihonpo.com/assets/images/voices/woman-long.svg": {
@@ -13143,8 +13143,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 10725,
-      "sha256": "62dd1394f841ca7b7f2b9786bf0f49417d1c92a4615e93e07b049745d1bc219a"
+      "bytes": 10624,
+      "sha256": "0e7bee8fa94ef030af6d8dfb104fbdd1df2dbc77d893778ae0e84f40673d7e63"
     },
     "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
       "path": "assets/js/aircon-header.js",
@@ -13152,8 +13152,44 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-service-page",
-      "bytes": 9118,
-      "sha256": "65d90354ec2dbb08d82257ec394721baf5eddf4c282492f6594e7214dbea40af"
+      "bytes": 9082,
+      "sha256": "0b5553250f1b47213fae46563fe46c2f467d9c665b1222df8ddb113c7fb82240"
+    },
+    "https://www.osoujihonpo.com/assets/css/aircon-hero.css": {
+      "path": "assets/css/aircon-hero.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/aircon-hero.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-service-page",
+      "bytes": 1379,
+      "sha256": "ed1c426dbff45fca1b72d25073fb5b675737bac3b3fedcd5d116a430280f030a"
+    },
+    "https://www.osoujihonpo.com/assets/css/aircon-layout.css": {
+      "path": "assets/css/aircon-layout.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/aircon-layout.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-service-page",
+      "bytes": 1483,
+      "sha256": "52b0b4d6eb104bdf015ce24eea3ea291b7028a3734089a3a382c451d509c98d5"
+    },
+    "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-arrows-black.svg": {
+      "path": "assets/images/common-parts/decoration/section-arrows-black.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-arrows-black.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-service-page",
+      "bytes": 181,
+      "sha256": "485287022ab191f46c781eeb7599629fb35516728f40791e1c796ea307cf1258"
+    },
+    "https://www.osoujihonpo.com/assets/images/voices/reference-rating.webp": {
+      "path": "assets/images/voices/reference-rating.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/voices/reference-rating.webp",
+      "status": 200,
+      "content_type": "image/webp",
+      "origin_type": "local-service-page",
+      "bytes": 13020,
+      "sha256": "61189377ebc39283c76e9279c6a350a189fb36b3701219ba04c75ced93f736ac"
     }
   },
   "external_urls": [
@@ -15344,9 +15380,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1422,
-    "unique_paths": 1400,
-    "bytes": 121221664,
+    "urls": 1426,
+    "unique_paths": 1404,
+    "bytes": 121239349,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

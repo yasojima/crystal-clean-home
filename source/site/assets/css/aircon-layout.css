@@ -1,0 +1,63 @@
+.c-service-page .l-section--blue-bubbles::before {
+  background-image: url('/assets/images/common-parts/decoration/section-arrows-black.svg');
+}
+
+.c-service-page .c-reasons__navy {
+  background-color: #264574;
+}
+
+.c-service-page .p-reasons__heading {
+  position: relative;
+  width: fit-content;
+  max-width: calc(100% - 64px);
+  margin-inline: auto;
+  padding-inline: 10px;
+}
+
+.c-service-page .p-reasons__heading::after {
+  position: absolute;
+  right: -18px;
+  bottom: -14px;
+  left: -18px;
+  height: 24px;
+  border: 2px solid #264574;
+  border-top: 0;
+  border-radius: 0 0 20px 20px;
+  content: "";
+}
+
+.c-service-page .c-reasons__card {
+  width: 100%;
+  max-width: 352px;
+  height: auto;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1199.98px) {
+  .c-service-page .c-reasons__card { padding: 32px; }
+  .c-service-page .c-reason-card__heading { font-size: .9375rem; }
+  .c-service-page .c-reason-card__description { font-size: .875rem; }
+}
+
+@media (max-width: 1023.98px) {
+  .c-service-page .c-reasons {
+    grid-template-columns: 1fr;
+    row-gap: 24px;
+  }
+
+  .c-service-page .c-reasons__card {
+    width: 85.6%;
+    padding: 28px;
+  }
+
+  .c-service-page .c-reason-card__description { font-size: .875rem; }
+}
+
+@media (max-width: 375px) {
+  .c-service-page .c-reasons__card { width: calc(100% - 16px); }
+  .c-service-page .c-reason-card__heading { font-size: .9375rem; }
+}

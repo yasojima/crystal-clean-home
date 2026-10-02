@@ -64,7 +64,7 @@ def normalize_text(root):
         if value != str(text):
             text.replace_with(value)
     for heading in root.select('h1,h2,h3,h4,h5'):
-        if 'c-faq-accordion__heading' in heading.get('class', []):
+        if {'c-faq-accordion__heading', 'c-issue-list__heading'} & set(heading.get('class', [])):
             continue
         for text in list(heading.find_all(string=True)):
             if text.strip():
@@ -261,7 +261,7 @@ def concerns(page, primary, category_copy, copy):
     detail = '/' in page['route']
     content = copy['products'][primary]
     issues = category_copy['concerns']
-    n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか'
+    n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか' + ('？' if page['route'] == 'aircon' else '')
     for node, (first, second) in zip(n.select('.c-issue-card__text'), issues):
         node.clear()
         node.append(first)
@@ -415,9 +415,9 @@ def voices(page, copy):
             identity.append(tag('span', 'c-voice-card__nickname', nickname))
             identity.append(tag('span', 'c-voice-card__demographic', demographic))
             stars = tag('span', 'c-voice-card__stars', role='img', **{'aria-label': f'5つ星中{rating}つ星'})
-            stars.append(tag('span', 'c-voice-card__stars-filled', '★' * rating))
-            if rating < 5:
-                stars.append(tag('span', 'c-voice-card__stars-empty', '☆' * (5 - rating)))
+            for position in range(5):
+                star_class = 'c-voice-card__star' + (' c-voice-card__star--empty' if position >= rating else '')
+                stars.append(tag('span', star_class, **{'aria-hidden': 'true'}))
             profile.append(identity)
             profile.append(stars)
             card.insert(0, profile)
@@ -471,6 +471,9 @@ def render(route, page, catalogue, copy):
     lines(hero.select_one('p'),hero_words)
     for src in hero.select('source'): src.decompose()
     image(hero.select_one('img'),p['scene'],p['focus']+'の清掃イメージ',True)
+    if route == 'aircon':
+        hero['class'].append('c-house-cleaning-mv--check')
+        hero.append(tag('span', 'c-house-cleaning-mv__check', 'Check！'))
     main.append(hero); main.append(template('floating'))
     main.append(navigation(page,primary,page['category'],copy))
     main.append(concerns(page,primary,cat,copy))
@@ -516,15 +519,15 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100213">'
+    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100222">'
     bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
     if route == 'aircon':
         if re.search(bubble_pattern, output):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100218">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100217" defer></script>'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100219">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100219" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -535,6 +538,18 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100220">'
+        if '/assets/css/aircon-hero.css' in output:
+            output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
+                            hero_css, output)
+        else:
+            output = output.replace('</head>', hero_css + '\n</head>', 1)
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100221">'
+        if '/assets/css/aircon-layout.css' in output:
+            output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
+                            layout_css, output)
+        else:
+            output = output.replace('</head>', layout_css + '\n</head>', 1)
     else:
         output = re.sub(bubble_pattern + r'\s*', '', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
@@ -552,6 +567,10 @@ def sync_manifest(routes, check):
     files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/reasons-navy.css',
               SITE / 'assets/css/aircon-voice-bubbles.css',
               SITE / 'assets/css/aircon-header.css',
+              SITE / 'assets/css/aircon-hero.css',
+              SITE / 'assets/css/aircon-layout.css',
+              SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
+              SITE / 'assets/images/voices/reference-rating.webp',
               SITE / 'assets/js/aircon-header.js',
               *(SITE / f'assets/images/voices/{name}.svg' for name in (
                   'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),

@@ -1,0 +1,1201 @@
+{
+  "metrics": [
+    {
+      "phase": "hover",
+      "values": [
+        {
+          "name": "LayoutCount",
+          "delta": 1
+        },
+        {
+          "name": "RecalcStyleCount",
+          "delta": 10
+        },
+        {
+          "name": "LayoutDuration",
+          "delta": 0.00017000000000000348
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "delta": 0.0009399999999999964
+        },
+        {
+          "name": "ScriptDuration",
+          "delta": 0.0036589999999999956
+        },
+        {
+          "name": "TaskDuration",
+          "delta": 0.05746600000000002
+        }
+      ]
+    },
+    {
+      "phase": "open",
+      "values": [
+        {
+          "name": "LayoutCount",
+          "delta": 1
+        },
+        {
+          "name": "RecalcStyleCount",
+          "delta": 16
+        },
+        {
+          "name": "LayoutDuration",
+          "delta": 0.022202999999999973
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "delta": 0.02191
+        },
+        {
+          "name": "ScriptDuration",
+          "delta": 0.004465000000000004
+        },
+        {
+          "name": "TaskDuration",
+          "delta": 0.08507799999999999
+        }
+      ]
+    },
+    {
+      "phase": "close",
+      "values": [
+        {
+          "name": "LayoutCount",
+          "delta": 2
+        },
+        {
+          "name": "RecalcStyleCount",
+          "delta": 14
+        },
+        {
+          "name": "LayoutDuration",
+          "delta": 0.0009410000000000807
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "delta": 0.015838999999999992
+        },
+        {
+          "name": "ScriptDuration",
+          "delta": 0.0047719999999999985
+        },
+        {
+          "name": "TaskDuration",
+          "delta": 0.054729999999999945
+        }
+      ]
+    },
+    {
+      "phase": "reopen",
+      "values": [
+        {
+          "name": "LayoutCount",
+          "delta": 1
+        },
+        {
+          "name": "RecalcStyleCount",
+          "delta": 15
+        },
+        {
+          "name": "LayoutDuration",
+          "delta": 0.004148999999999958
+        },
+        {
+          "name": "RecalcStyleDuration",
+          "delta": 0.013244000000000006
+        },
+        {
+          "name": "ScriptDuration",
+          "delta": 0.0034269999999999995
+        },
+        {
+          "name": "TaskDuration",
+          "delta": 0.048875
+        }
+      ]
+    }
+  ],
+  "data": {
+    "phase": "reopen",
+    "frames": [
+      {
+        "p": "hover",
+        "dt": 25,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "hover",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "open",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal",
+        "body": ""
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "open",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "close",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active is-hidden",
+        "body": "is-fixed"
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "close",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-hidden",
+        "body": ""
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 34,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      },
+      {
+        "p": "reopen",
+        "dt": 33,
+        "x": 1355,
+        "y": 23.953125,
+        "w": 60,
+        "scrollY": 0,
+        "menu": "c-menu-modal js-menu-modal is-active",
+        "body": "is-fixed aircon-menu-open"
+      }
+    ],
+    "events": [],
+    "long": [],
+    "shifts": [],
+    "mutations": {
+      "open:attributes:c-menu-modal js-menu-modal is-active:class": 2,
+      "open:attributes:is-fixed:class": 1,
+      "open:attributes:c-menu-modal js-menu-modal is-active:aria-hidden": 1,
+      "open:attributes:aircon-mega:class": 1,
+      "open:attributes:aircon-mega:aria-hidden": 1,
+      "open:attributes:is-fixed aircon-menu-open:class": 1,
+      "open:attributes:c-header__menu js-menu-modal-opener is-open:class": 1,
+      "open:attributes:c-header__menu js-menu-modal-opener is-open:aria-expanded": 1,
+      "open:attributes:c-header__menu js-menu-modal-opener is-open:aria-label": 1,
+      "open:attributes:c-flex-image:src": 1,
+      "open:attributes:SOURCE:srcset": 1,
+      "open:attributes:c-footer-sns__link translate-toggle:aria-expanded": 2,
+      "open:attributes:translate-menu:aria-hidden": 2,
+      "open:attributes:translate-menu:inert": 2,
+      "close:attributes:c-menu-modal js-menu-modal is-active is-hidden:class": 1,
+      "close:attributes:c-menu-modal js-menu-modal is-active is-hidden:aria-hidden": 1,
+      "close:attributes:is-fixed:class": 1,
+      "close:attributes:c-header__menu js-menu-modal-opener:class": 1,
+      "close:attributes:c-header__menu js-menu-modal-opener:aria-expanded": 1,
+      "close:attributes:c-header__menu js-menu-modal-opener:aria-label": 1,
+      "close:attributes:c-flex-image:src": 1,
+      "close:attributes:SOURCE:srcset": 1,
+      "close:attributes:c-menu-modal js-menu-modal is-hidden:class": 1,
+      "close:attributes:BODY:class": 1,
+      "reopen:attributes:c-menu-modal js-menu-modal is-active:class": 2,
+      "reopen:attributes:is-fixed:class": 1,
+      "reopen:attributes:c-menu-modal js-menu-modal is-active:aria-hidden": 1,
+      "reopen:attributes:aircon-mega:class": 1,
+      "reopen:attributes:aircon-mega:aria-hidden": 1,
+      "reopen:attributes:is-fixed aircon-menu-open:class": 1,
+      "reopen:attributes:c-header__menu js-menu-modal-opener is-open:class": 1,
+      "reopen:attributes:c-header__menu js-menu-modal-opener is-open:aria-expanded": 1,
+      "reopen:attributes:c-header__menu js-menu-modal-opener is-open:aria-label": 1,
+      "reopen:attributes:c-flex-image:src": 1,
+      "reopen:attributes:SOURCE:srcset": 1,
+      "reopen:attributes:c-footer-sns__link translate-toggle:aria-expanded": 2,
+      "reopen:attributes:translate-menu:aria-hidden": 2,
+      "reopen:attributes:translate-menu:inert": 2,
+      "reopen:attributes:INPUT:style": 70
+    },
+    "raf": 112
+  },
+  "errs": []
+}

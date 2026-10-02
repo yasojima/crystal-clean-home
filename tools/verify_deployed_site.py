@@ -76,6 +76,10 @@ if __name__ == "__main__":
         PATHS += ['/' + p.relative_to(site).as_posix() for p in (site / 'assets/images/service-scenes').glob('*.webp')]
         PATHS += ['/assets/css/service-pages.css', '/assets/css/reasons-navy.css',
                   '/assets/css/aircon-voice-bubbles.css',
+                  '/assets/css/aircon-header.css', '/assets/js/aircon-header.js',
+                  '/assets/css/aircon-hero.css', '/assets/css/aircon-layout.css',
+                  '/assets/images/common-parts/decoration/section-arrows-black.svg',
+                  '/assets/images/voices/reference-rating.webp',
                   *[f'/assets/images/voices/{name}.svg' for name in
                     ('woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')]]
         PATHS = list(dict.fromkeys(PATHS))

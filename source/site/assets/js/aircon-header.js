@@ -7,7 +7,6 @@
 
   const image = button.querySelector('picture img');
   const source = button.querySelector('picture source');
-  const closer = menu.querySelector('.c-menu-modal__closer');
   const closeImage = '/assets/images/header/menu-close.webp';
   const openImage = '/assets/images/header/menu-open_pc.webp';
   const openSource = '/assets/images/header/menu-open_sp.webp';
@@ -59,6 +58,8 @@
   button.setAttribute('aria-controls', menu.id);
   button.setAttribute('aria-expanded', 'false');
   menu.setAttribute('aria-hidden', 'true');
+  menu.inert = true;
+  document.body.append(menu);
 
   const mega = document.createElement('div');
   mega.className = 'aircon-mega';
@@ -142,8 +143,15 @@
     if (!header.contains(event.relatedTarget)) closeMega();
   });
 
-  function update(open) {
+  let menuOpen = false;
+
+  function setMenuOpen(open) {
+    if (menuOpen === open) return;
+    menuOpen = open;
     if (open) closeMega();
+    menu.classList.toggle('is-active', open);
+    menu.setAttribute('aria-hidden', String(!open));
+    menu.inert = !open;
     document.body.classList.toggle('aircon-menu-open', open);
     button.classList.toggle('is-open', open);
     button.setAttribute('aria-expanded', String(open));
@@ -154,23 +162,21 @@
   }
 
   button.addEventListener('click', event => {
-    if (!menu.classList.contains('is-active') || menu.classList.contains('is-hidden')) return;
+    event.preventDefault();
     event.stopImmediatePropagation();
-    closer.click();
+    setMenuOpen(!menuOpen);
   }, true);
 
-  button.addEventListener('click', () => update(true));
-  menu.querySelectorAll('.js-menu-modal-closer').forEach(element => {
-    element.addEventListener('click', () => update(false));
-  });
-
-  menu.querySelector('.c-menu-modal__main-content').addEventListener('click', event => {
-    if (!event.target.closest('.aircon-full-menu__section')) closer.click();
-  });
+  menu.addEventListener('click', event => {
+    if (event.target.closest('.aircon-full-menu__section')) return;
+    event.preventDefault();
+    event.stopImmediatePropagation();
+    setMenuOpen(false);
+  }, true);
 
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && menu.classList.contains('is-active')) {
-      closer.click();
+    if (event.key === 'Escape' && menuOpen) {
+      setMenuOpen(false);
       button.focus();
     } else if (event.key === 'Escape' && mega.classList.contains('is-open')) {
       closeMega();
