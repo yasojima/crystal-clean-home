@@ -1,13 +1,15 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
-const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
+const { chromium, webkit } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 
 const origin = process.env.SITE_ORIGIN || 'http://127.0.0.1:8769';
 const widths = [320, 390, 600, 768, 1024, 1200, 1366, 1440, 1441, 1581, 1680, 1920];
 
 async function inspect(channel) {
-  const browser = await chromium.launch({ headless: true, channel });
+  const browser = channel === 'webkit'
+    ? await webkit.launch({ headless: true })
+    : await chromium.launch({ headless: true, channel });
   const results = [];
   try {
     const page = await browser.newPage();
