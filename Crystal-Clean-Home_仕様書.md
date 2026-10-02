@@ -37,4 +37,4 @@
 - 静的整合は `tools/build_service_pages.py --check`、`tools/verify_service_pages.py`、`tools/apply_site_identity.py --check`、`tools/verify_site_identity.py` で確認する。
 - ブラウザでは `tools/verify_service_browser.cjs` で46ページを390px・1440px、8カテゴリを320px・768pxでも確認する。画像破損、横はみ出し、声のロゴと見出しの重なり、FAQ・タブ・オプション・数量の操作を検査する。エアコンのプランタブは2件・1件の表示と切替を確認する。
 - PC 1581pxとスマホ390pxの代表画面は `evidence/2026-10-02/` に保存する。自動検査・画面確認・Gitコミット・Pages反映・公開HTTP照合・利用者の最終確認は別の判定として扱う。
-- 2026-10-02の現行記録：ソース実装 `0ef50cd`、公開Pages `54d808b`。Pages run `36953412018` は成功。46ページの生成・構造検査、97ページのサイトID検査、公開素材1400件の整合性検査、全公開対象198件のHTTP・ハッシュ照合が合格。エアコンのヘッダーと全画面メニューは公開先の1439px・390pxを非表示ブラウザーで確認し、画面を `evidence/2026-10-02/public/` に保存した。人間による最終的な意匠確認とサーバー側の購入処理検収は含まない。
+- 2026-10-02の現行記録：ソース実装 `95eacae`、公開Pages `d82a345`。Pages run `36955576709` は成功。46ページの生成・構造検査、97ページのサイトID検査、公開素材1400件の整合性検査、全公開対象198件のHTTP・ハッシュ照合が合格。エアコンのヘッダーは公開先の1439px・390pxを非表示ブラウザーで確認し、画面を `evidence/2026-10-02/public/aircon-header-balanced-1439.png` と `aircon-header-balanced-390.png` に保存した。人間による最終的な意匠確認とサーバー側の購入処理検収は含まない。
