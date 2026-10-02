@@ -238,6 +238,7 @@
   let scrollIdleTimer;
   let touchActive = false;
   const scrollIdleDelay = 450;
+  let footerPushFrame;
 
   function updateFooterPush() {
     if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
@@ -246,9 +247,20 @@
       return;
     }
     const headerHeight = header.getBoundingClientRect().height;
-    const overlap = Math.min(headerHeight + 1, Math.max(0, headerHeight - mobileFooterPhone.getBoundingClientRect().top));
+    const maxScrollY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+    const atPageEnd = maxScrollY > 0 && window.scrollY >= maxScrollY - 2;
+    const overlap = atPageEnd ? headerHeight + 1 :
+      Math.min(headerHeight + 1, Math.max(0, headerHeight - mobileFooterPhone.getBoundingClientRect().top));
     header.style.setProperty('--footer-push', `${overlap}px`);
     header.classList.toggle('is-footer-pushed', overlap > 0);
+  }
+
+  function queueFooterPush() {
+    if (footerPushFrame) return;
+    footerPushFrame = window.requestAnimationFrame(() => {
+      footerPushFrame = undefined;
+      updateFooterPush();
+    });
   }
 
   function showHeader() {
@@ -293,7 +305,9 @@
   document.addEventListener('touchend', endTouch, { passive: true });
   document.addEventListener('touchcancel', endTouch, { passive: true });
   mobileHeader.addEventListener('change', showHeader);
-  window.addEventListener('resize', updateFooterPush);
+  window.addEventListener('resize', queueFooterPush);
+  window.visualViewport?.addEventListener('resize', queueFooterPush, { passive: true });
+  window.visualViewport?.addEventListener('scroll', queueFooterPush, { passive: true });
 
   function setMenuOpen(open) {
     if (menuOpen === open) return;
