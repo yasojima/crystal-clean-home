@@ -60,7 +60,10 @@
     time.textContent = `受付時間 ${contactDetails[2]}`;
     const days = document.createElement('span');
     days.className = 'c-header-contact__days';
-    days.textContent = '年中無休（年末年始を除く）';
+    const daysNote = document.createElement('span');
+    daysNote.className = 'c-header-contact__days-note';
+    daysNote.textContent = '（年末年始を除く）';
+    days.append('年中無休', daysNote);
     hours.append(time, days);
     contact.append(phone, hours);
     header.append(contact);
