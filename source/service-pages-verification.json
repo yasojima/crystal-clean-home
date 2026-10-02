@@ -1,13 +1,8 @@
 {
-  "checked_at": "2026-10-02T03:48:00.551611+00:00",
+  "checked_at": "2026-10-02T03:49:19.504940+00:00",
   "pages": 46,
   "reason_pages": 50,
   "products": 46,
-  "errors": [
-    {
-      "page": "aircon",
-      "reason": "aircon-only voice bubble preview missing"
-    }
-  ],
-  "passed": false
+  "errors": [],
+  "passed": true
 }

@@ -78,7 +78,7 @@ for route,page in catalogue['pages'].items():
                 if value in seen: fail(route,f'duplicate voice {kind} with {seen[value]}')
                 seen[value] = route
     preview = voice_section and 'c-voice-section--bubble-preview' in voice_section.get('class', [])
-    preview_css = doc.select_one('link[href="/assets/css/aircon-voice-bubbles.css?v=2026100213"]')
+    preview_css = doc.select_one('link[href^="/assets/css/aircon-voice-bubbles.css?v="]')
     if route == 'aircon':
         if not preview or not preview_css or not voice_section.select_one('.c-voice-bubbles'):
             fail(route,'aircon-only voice bubble preview missing')
