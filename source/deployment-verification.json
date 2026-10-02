@@ -1,9 +1,9 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-01T23:53:06.333250+00:00",
+  "verified_at": "2026-10-02T00:09:02.289690+00:00",
   "pages_build_status": "built",
-  "pages_commit": "5c6a2dbd895961cee0b18616e6580f1356cd2b7e",
-  "source_tree": "5935d9f77866436eceec64d5401b20e5a7c86c84",
+  "pages_commit": "dd2e1c80904c111c89646a859e21f4f9d8201f95",
+  "source_tree": "c145795d7d6be7483c8f7519a8474fc671e9b1f9",
   "checks": [
     {
       "path": "/",
@@ -30,7 +30,7 @@
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "df152a1cfca81586de070863b4c309374aadc94a3b6f537ac665effc51c9e934",
+      "sha256": "58bd2708d00d189547d6eb500d717c56ce13a4cf9d4248e2d53e570e4a698ff4",
       "passed": true
     },
     {
@@ -1080,7 +1080,7 @@
       "path": "/assets/css/aircon-voice-bubbles.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/aircon-voice-bubbles.css",
-      "sha256": "ea69cdd27fa0f1739dbcb55944104a5a615bda5c6b4a68ddfd70feadab8ee1b1",
+      "sha256": "c93c2d84ef55abe12566d9cefbbe4d238d9c31a413633ce32ccbf3c88eb2dc35",
       "passed": true
     },
     {
