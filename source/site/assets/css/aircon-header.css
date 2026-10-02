@@ -5,7 +5,7 @@ html {
 
 .c-header,
 .c-menu-modal {
-  --aircon-menu-black: #20252b;
+  --aircon-menu-text: #005bac;
   --aircon-menu-accent: #2d88ef;
   --aircon-menu-nav-accent: #005bac;
   --aircon-menu-gray: #BEBEBE;
@@ -93,7 +93,7 @@ html {
 
 .c-header-contact__number {
   display: block;
-  color: #000;
+  color: var(--aircon-menu-nav-accent);
   font-family: "Arial Narrow", Arial, sans-serif;
   font-size: 28px;
   font-weight: 700;
@@ -109,13 +109,12 @@ html {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 400px auto;
-  filter: grayscale(1) contrast(10);
 }
 
 .c-header-contact__hours {
   display: grid;
   gap: 2px;
-  color: #20252b;
+  color: var(--aircon-menu-nav-accent);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.3;
@@ -144,7 +143,7 @@ html {
   gap: 15px;
   justify-content: space-between;
   padding: 0 4px 0 0;
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
   font-size: clamp(12px, .92vw, 14px);
   font-weight: 400;
   line-height: 1;
@@ -164,7 +163,7 @@ html {
 .c-main-menu__link:hover,
 .c-main-menu__link:focus-visible,
 .c-main-menu__item.is-open .c-main-menu__link {
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
   border-bottom-color: var(--aircon-menu-nav-accent);
   opacity: 1;
 }
@@ -208,7 +207,7 @@ html {
   flex-direction: column;
   align-self: start;
   padding-top: 16px;
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
   transition: color .4s var(--aircon-menu-material);
 }
 
@@ -260,7 +259,7 @@ html {
   justify-content: space-between;
   gap: 10px;
   padding: 16px 9px 16px 0;
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.8;
@@ -386,6 +385,7 @@ body.aircon-menu-open .c-header__navigation {
 .aircon-full-menu__head {
   min-width: 0;
   padding-top: 16px;
+  color: var(--aircon-menu-text);
 }
 
 .aircon-full-menu__body {
@@ -402,7 +402,7 @@ body.aircon-menu-open .c-header__navigation {
 .aircon-full-menu__head .c-site-menu__category {
   display: block;
   padding: 0;
-  color: #20252b;
+  color: var(--aircon-menu-text);
   font-size: 24px;
   font-weight: 500;
   line-height: 1.5;
@@ -412,7 +412,7 @@ body.aircon-menu-open .c-header__navigation {
 }
 
 .aircon-full-menu__section--business .c-site-menu__category {
-  color: #20252b;
+  color: var(--aircon-menu-text);
 }
 
 .aircon-full-menu__category:hover,
@@ -458,7 +458,7 @@ body.aircon-menu-open .c-header__navigation {
   width: 100%;
   min-height: 44px;
   padding: 11px 22px 11px 0;
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
@@ -498,7 +498,7 @@ body.aircon-menu-open .c-header__navigation {
 
 .aircon-full-menu__body a[href]:hover,
 .aircon-full-menu__body a[href]:focus-visible {
-  color: var(--aircon-menu-black);
+  color: var(--aircon-menu-text);
 }
 
 .aircon-full-menu__body a[href]:hover::before,

@@ -9,7 +9,7 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
   await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100252',{waitUntil:'networkidle'});
   await page.evaluate(()=>document.fonts.ready);
   const header=await page.evaluate(()=>{const contact=document.querySelector('.c-header-contact'),payments=[...contact.querySelectorAll('.c-header-contact__payment')],rect=e=>e.getBoundingClientRect();return {phoneColor:getComputedStyle(contact.querySelector('.c-header-contact__number')).color,markFilter:getComputedStyle(contact.querySelector('.c-header-contact__mark')).filter,paymentGap:rect(payments[1]).left-rect(payments[0]).right,contactBottom:rect(contact).bottom,headerBottom:rect(document.querySelector('.c-header')).bottom};});
-  assert.equal(header.phoneColor,'rgb(0, 0, 0)');assert.equal(header.markFilter,'grayscale(1) contrast(10)');assert.equal(header.paymentGap,0);assert(header.contactBottom<=header.headerBottom+1,JSON.stringify(header));
+  assert.equal(header.phoneColor,'rgb(0, 91, 172)');assert.equal(header.markFilter,'none');assert.equal(header.paymentGap,0);assert(header.contactBottom<=header.headerBottom+1,JSON.stringify(header));
   const capture=async selector=>{await page.locator(selector).evaluate(e=>scrollTo(0,e.getBoundingClientRect().top+scrollY-160));await page.waitForTimeout(700);await page.locator(selector+' img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode().catch(()=>{}))));};
   const photoSources=await page.locator('#product1 .c-lineup-card__image img,#product2 .c-lineup-card__image img,#product3 .c-lineup-card__image img').evaluateAll(imgs=>imgs.map(i=>i.getAttribute('src')));
   assert.equal(new Set(photoSources).size,3);
