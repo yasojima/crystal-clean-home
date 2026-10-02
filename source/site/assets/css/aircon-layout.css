@@ -42,10 +42,6 @@
   z-index: 3;
 }
 
-.c-lineup-heading.c-curved-section {
-  --section-curve-depth: clamp(18px, 2.25vw, 36px);
-}
-
 @media (max-width: 767.98px) {
   .c-service-page .l-section.c-curved-section--down {
     padding-top: calc(56px + var(--section-curve-depth));

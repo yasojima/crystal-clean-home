@@ -1,0 +1,207 @@
+{
+  "checked_at": "2026-10-02T05:18:57.605Z",
+  "public": false,
+  "http": [],
+  "results": [
+    {
+      "width": 1440,
+      "before": [
+        {
+          "section": {
+            "width": 1425,
+            "height": 220.796875
+          },
+          "title": {
+            "width": 1395,
+            "height": 34.796875
+          },
+          "image": {
+            "width": 262.1875,
+            "height": 174.796875
+          },
+          "label": {
+            "width": 200,
+            "height": 46
+          }
+        },
+        {
+          "section": {
+            "width": 1425,
+            "height": 220.796875
+          },
+          "title": {
+            "width": 1395,
+            "height": 34.796875
+          },
+          "image": {
+            "width": 262.1875,
+            "height": 174.796875
+          },
+          "label": {
+            "width": 200,
+            "height": 46
+          }
+        }
+      ],
+      "after": [
+        {
+          "section": {
+            "width": 1425,
+            "height": 220.796875
+          },
+          "title": {
+            "width": 1395,
+            "height": 34.796875
+          },
+          "image": {
+            "width": 262.1875,
+            "height": 174.796875
+          },
+          "label": {
+            "width": 200,
+            "height": 46
+          }
+        },
+        {
+          "section": {
+            "width": 1425,
+            "height": 220.796875
+          },
+          "title": {
+            "width": 1395,
+            "height": 34.796875
+          },
+          "image": {
+            "width": 262.1875,
+            "height": 174.796875
+          },
+          "label": {
+            "width": 200,
+            "height": 46
+          }
+        }
+      ],
+      "state": {
+        "remainingCurves": 7,
+        "lineups": [
+          {
+            "id": "lineup01",
+            "topCurve": false,
+            "curvedClass": false,
+            "bottomMask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+            "label": "lineup"
+          },
+          {
+            "id": "lineup02",
+            "topCurve": false,
+            "curvedClass": false,
+            "bottomMask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+            "label": "lineup"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 390,
+      "before": [
+        {
+          "section": {
+            "width": 375,
+            "height": 175.59375
+          },
+          "title": {
+            "width": 345,
+            "height": 27.59375
+          },
+          "image": {
+            "width": 209.390625,
+            "height": 139.59375
+          },
+          "label": {
+            "width": 150,
+            "height": 36
+          }
+        },
+        {
+          "section": {
+            "width": 375,
+            "height": 175.59375
+          },
+          "title": {
+            "width": 345,
+            "height": 27.59375
+          },
+          "image": {
+            "width": 209.390625,
+            "height": 139.59375
+          },
+          "label": {
+            "width": 150,
+            "height": 36
+          }
+        }
+      ],
+      "after": [
+        {
+          "section": {
+            "width": 375,
+            "height": 175.59375
+          },
+          "title": {
+            "width": 345,
+            "height": 27.59375
+          },
+          "image": {
+            "width": 209.390625,
+            "height": 139.59375
+          },
+          "label": {
+            "width": 150,
+            "height": 36
+          }
+        },
+        {
+          "section": {
+            "width": 375,
+            "height": 175.59375
+          },
+          "title": {
+            "width": 345,
+            "height": 27.59375
+          },
+          "image": {
+            "width": 209.390625,
+            "height": 139.59375
+          },
+          "label": {
+            "width": 150,
+            "height": 36
+          }
+        }
+      ],
+      "state": {
+        "remainingCurves": 7,
+        "lineups": [
+          {
+            "id": "lineup01",
+            "topCurve": false,
+            "curvedClass": false,
+            "bottomMask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+            "label": "lineup"
+          },
+          {
+            "id": "lineup02",
+            "topCurve": false,
+            "curvedClass": false,
+            "bottomMask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+            "label": "lineup"
+          }
+        ],
+        "overflow": false
+      }
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

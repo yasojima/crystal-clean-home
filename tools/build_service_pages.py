@@ -503,8 +503,6 @@ def decorate_aircon_sections(main):
     for selector, direction, color in (
         ('#service-introduction', 'down', '#fff'),
         ('.p-reasons', 'up', '#e3f1fc'),
-        ('#lineup01', 'down', '#fff'),
-        ('#lineup02', 'down', '#fff'),
         ('#service-sets', 'down', '#fff'),
         ('.c-voice-section--bubble-preview', 'up', '#e3f1fc'),
         ('#service-faq', 'down', '#fff'),
@@ -614,7 +612,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100236">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100239">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
