@@ -167,6 +167,8 @@
   .c-footer--aircon .u-sp-only .c-footer-item-heading > a.link + .c-footer-accordion__trigger {
     flex: 0 0 40px;
     min-width: 40px;
+    min-height: 52px;
+    align-self: stretch;
   }
 }
 
