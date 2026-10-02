@@ -455,7 +455,6 @@ def faq(category_copy, shared, questions=None, decorated=False):
     n.select_one('h2').string = 'よくある質問'
     if decorated:
         decorate_heading(n.select_one('h2'), 'Q&A', 'よくある質問')
-        n.select_one('h2')['class'].append('c-section-heading--qa')
     for item, words in zip(n.select('.c-faq-accordion__item'), shared['faq'] + (questions or category_copy['faq'])):
         question = words[0].rstrip('。！？?')
         item.select_one('button').string = question + ('？' if question.endswith('か') else '')
@@ -527,6 +526,8 @@ def render(route, page, catalogue, copy):
         offers_id = 'anchor00' if route == 'pack' else 'service-sets'
         if page['category'] == 'aircon':
             section = template('aircon-offers')
+            if route == 'aircon':
+                section.select_one('.recommend-plan__text').decompose()
             panels = section.select('.c-tab__panel .recommend-plan-cards')
             assert len(panels) == 2 and len(page['offers']) == 3
             for index, key in enumerate(page['offers']):
@@ -580,13 +581,13 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100226">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100231">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100229">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100235">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)

@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 177608,
-      "sha256": "d8af166979b8ccb3c5ec00cea7ab6bf57924138f6b8f568dcbd7a0d401e5cc86",
+      "bytes": 177477,
+      "sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 177608,
-      "sha256": "d8af166979b8ccb3c5ec00cea7ab6bf57924138f6b8f568dcbd7a0d401e5cc86",
+      "bytes": 177477,
+      "sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13161,8 +13161,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 2560,
-      "sha256": "32d5d36e0149e35c72cb09b1d233a1a64ae1bd777702ab630a53b15506358663"
+      "bytes": 2779,
+      "sha256": "5d4e0e0f5c7f5622fa1ba169149b44036911ac0c3a04e72910494161843e9f03"
     },
     "https://www.osoujihonpo.com/assets/css/aircon-layout.css": {
       "path": "assets/css/aircon-layout.css",
@@ -13170,8 +13170,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 4071,
-      "sha256": "548c3a66f3c653037a9abebb8f408f74959e8a0e05b551af2aa9f4804f1ac97a"
+      "bytes": 6341,
+      "sha256": "9f06348d25dcbd3d4eca7c858a5c79a60ba1530d26d5fce78c99765ebcb9e20c"
     },
     "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-arrows-black.svg": {
       "path": "assets/images/common-parts/decoration/section-arrows-black.svg",
@@ -15427,7 +15427,7 @@
   "counts": {
     "urls": 1431,
     "unique_paths": 1409,
-    "bytes": 121254738,
+    "bytes": 121257096,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

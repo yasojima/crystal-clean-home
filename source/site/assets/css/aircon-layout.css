@@ -6,7 +6,9 @@
   background-color: #264574;
 }
 
-.c-service-page .p-reasons__heading {
+.c-service-page .p-reasons__heading,
+.c-service-page .p-page-anchors__heading,
+.c-service-page .recommend-plan__heading {
   position: relative;
   width: fit-content;
   max-width: calc(100% - 64px);
@@ -14,16 +16,30 @@
   padding-inline: 10px;
 }
 
-.c-service-page .p-reasons__heading::after {
+.c-service-page .p-reasons__heading::after,
+.c-service-page .p-page-anchors__heading::after,
+.c-service-page .recommend-plan__heading::after {
   position: absolute;
   right: -18px;
   bottom: -14px;
   left: -18px;
+  width: auto;
   height: 24px;
-  border: 2px solid #264574;
+  border: 2px solid currentColor;
   border-top: 0;
   border-radius: 0 0 20px 20px;
+  background: none;
+  transform: none;
   content: "";
+}
+
+.c-service-page .p-page-anchors__heading {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.c-service-page .p-page-anchors__cards {
+  margin-top: 40px;
 }
 
 .c-service-page .c-reasons__card {
@@ -152,33 +168,117 @@
   --art-top: 83;
 }
 
-.c-section-heading--qa .c-section-heading__english {
-  font-family: "Times New Roman", serif;
-  letter-spacing: .035em;
+.c-service-page #service-faq {
+  --faq-accent: #5b9fcd;
 }
 
-.c-section-heading--qa .c-section-heading__english::after {
-  content: "";
-  display: block;
+.c-service-page #service-faq .c-faq-accordion__item + .c-faq-accordion__item {
+  margin-top: 20px;
+}
+
+.c-service-page #service-faq .c-faq-accordion__heading {
+  border-bottom: 2px solid var(--faq-accent);
+}
+
+.c-service-page #service-faq .c-faq-accordion__heading::before,
+.c-service-page #service-faq .c-faq-accordion__text::before {
+  width: 40px;
+  height: 40px;
+  background: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  color: var(--faq-accent);
+  font-family: Arial, sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.c-service-page #service-faq .c-faq-accordion__heading::before {
+  content: "Q.";
+}
+
+.c-service-page #service-faq .c-faq-accordion__trigger {
+  min-height: 76px;
+  padding: 14px 76px 14px 76px;
+  text-align: left;
+}
+
+.c-service-page #service-faq .c-faq-accordion__trigger::before {
+  top: 50%;
+  right: 20px;
   width: 32px;
-  margin: 10px auto 0;
-  border-bottom: 1px solid currentColor;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--faq-accent);
+  transform: translateY(-50%);
 }
 
-.c-section-heading--qa .c-section-heading__subtitle {
-  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
-  font-size: 16px;
-  letter-spacing: .2em;
+.c-service-page #service-faq .c-faq-accordion__trigger::after {
+  top: 50%;
+  right: 31px;
+  width: 10px;
+  height: 10px;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  background: none;
+  -webkit-mask-image: none;
+  mask-image: none;
+  transform: translateY(-70%) rotate(45deg);
 }
 
-.c-section-heading--qa .c-section-heading__subtitle::before,
-.c-section-heading--qa .c-section-heading__subtitle::after {
-  content: none;
+.c-service-page #service-faq .c-faq-accordion__trigger[aria-expanded=true]::after {
+  transform: translateY(-30%) rotate(225deg);
+}
+
+.c-service-page #service-faq .c-faq-accordion__trigger:focus-visible {
+  outline: 2px solid #264574;
+  outline-offset: 3px;
+}
+
+.c-service-page #service-faq .c-faq-accordion__content {
+  background: #fff;
+}
+
+.c-service-page #service-faq .c-faq-accordion__text {
+  color: #000;
+}
+
+.c-service-page #service-faq .c-faq-accordion__text::before {
+  margin-top: 0;
+  content: "A.";
 }
 
 @media (max-width: 767.98px) {
   .c-section-heading__subtitle {
     gap: 4px;
     font-size: clamp(12px, 3.4vw, 16px);
+  }
+
+  .c-service-page #service-faq .c-faq-accordion__item + .c-faq-accordion__item {
+    margin-top: 16px;
+  }
+
+  .c-service-page #service-faq .c-faq-accordion__heading::before,
+  .c-service-page #service-faq .c-faq-accordion__text::before {
+    width: 32px;
+    height: 32px;
+    font-size: 28px;
+  }
+
+  .c-service-page #service-faq .c-faq-accordion__trigger {
+    padding-inline: 60px;
+  }
+
+  .c-service-page #service-faq .c-faq-accordion__trigger::before {
+    right: 16px;
+    width: 28px;
+    height: 28px;
+  }
+
+  .c-service-page #service-faq .c-faq-accordion__trigger::after {
+    right: 26px;
+    width: 8px;
+    height: 8px;
   }
 }

@@ -22,6 +22,8 @@
 }
 
 .c-lineup-heading--round {
+  --hero-circle: clamp(150px, 14vw, 200px);
+  --hero-projection: clamp(36px, 3.2vw, 46px);
   padding-block: 70px calc(70px + var(--hero-projection));
 }
 
@@ -68,6 +70,11 @@
   text-box-trim: trim-both;
   text-box-edge: cap alphabetic;
   font-feature-settings: "palt";
+}
+
+.c-house-cleaning-mv__check-label,
+.c-lineup-heading__label {
+  transform: translateY(calc(var(--hero-projection) * -.125));
 }
 
 @media (max-width: 767.98px) {

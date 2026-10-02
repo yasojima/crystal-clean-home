@@ -1,0 +1,27 @@
+{
+  "sha": "826b41a5b99c3aa26d51e969f68fe8e9833bfdaf",
+  "run": 36965320639,
+  "files": [
+    {
+      "path": "assets/css/aircon-hero.css",
+      "status": 200,
+      "local_sha256": "5d4e0e0f5c7f5622fa1ba169149b44036911ac0c3a04e72910494161843e9f03",
+      "public_sha256": "5d4e0e0f5c7f5622fa1ba169149b44036911ac0c3a04e72910494161843e9f03",
+      "match": true
+    },
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "local_sha256": "9f06348d25dcbd3d4eca7c858a5c79a60ba1530d26d5fce78c99765ebcb9e20c",
+      "public_sha256": "9f06348d25dcbd3d4eca7c858a5c79a60ba1530d26d5fce78c99765ebcb9e20c",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "local_sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
+      "public_sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
+      "match": true
+    }
+  ]
+}

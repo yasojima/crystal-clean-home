@@ -1,0 +1,263 @@
+{
+  "sha": "826b41a5b99c3aa26d51e969f68fe8e9833bfdaf",
+  "results": [
+    {
+      "width": 1441,
+      "overflow": false,
+      "removedCopy": true,
+      "heroBottomGap": 24,
+      "checkOffsetY": -10.09478759765625,
+      "lineups": [
+        {
+          "id": "lineup01",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 613,
+            "y": 3407.890625,
+            "width": 200,
+            "height": 46,
+            "top": 3407.890625,
+            "right": 813,
+            "bottom": 3453.890625,
+            "left": 613
+          }
+        },
+        {
+          "id": "lineup02",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 613,
+            "y": 5112.28125,
+            "width": 200,
+            "height": 46,
+            "top": 5112.28125,
+            "right": 813,
+            "bottom": 5158.28125,
+            "left": 613
+          }
+        }
+      ],
+      "headings": [
+        {
+          "english": "USER'S VOICE",
+          "japanese": "ご利用いただいたお客様の声",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "Q&A",
+          "japanese": "よくある質問",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "HOW TO USE",
+          "japanese": "ご利用の流れ",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        }
+      ],
+      "ornaments": [
+        {
+          "text": "ご希望のサービスをお選びください",
+          "color": "rgb(0, 91, 172)",
+          "lineColor": "rgb(0, 91, 172)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "クリスタルクリーンホームが選ばれる理由",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "組み合わせてご利用いただけるプラン",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        }
+      ],
+      "faqToggle": true,
+      "planTabs": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "removedCopy": true,
+      "heroBottomGap": 24,
+      "checkOffsetY": -7,
+      "lineups": [
+        {
+          "id": "lineup01",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 112.5,
+            "y": 4107.734375,
+            "width": 150,
+            "height": 36,
+            "top": 4107.734375,
+            "right": 262.5,
+            "bottom": 4143.734375,
+            "left": 112.5
+          }
+        },
+        {
+          "id": "lineup02",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 112.5,
+            "y": 6113.953125,
+            "width": 150,
+            "height": 36,
+            "top": 6113.953125,
+            "right": 262.5,
+            "bottom": 6149.953125,
+            "left": 112.5
+          }
+        }
+      ],
+      "headings": [
+        {
+          "english": "USER'S VOICE",
+          "japanese": "ご利用いただいたお客様の声",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "Q&A",
+          "japanese": "よくある質問",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "HOW TO USE",
+          "japanese": "ご利用の流れ",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        }
+      ],
+      "ornaments": [
+        {
+          "text": "ご希望のサービスをお選びください",
+          "color": "rgb(0, 91, 172)",
+          "lineColor": "rgb(0, 91, 172)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "クリスタルクリーンホームが選ばれる理由",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "組み合わせてご利用いただけるプラン",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        }
+      ],
+      "faqToggle": true,
+      "planTabs": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "overflow": false,
+      "removedCopy": true,
+      "heroBottomGap": 24,
+      "checkOffsetY": -7,
+      "lineups": [
+        {
+          "id": "lineup01",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 77.5,
+            "y": 4208.140625,
+            "width": 150,
+            "height": 36,
+            "top": 4208.140625,
+            "right": 227.5,
+            "bottom": 4244.140625,
+            "left": 77.5
+          }
+        },
+        {
+          "id": "lineup02",
+          "diameter": "clamp(150px, 14vw, 200px)",
+          "label": {
+            "x": 77.5,
+            "y": 6254.78125,
+            "width": 150,
+            "height": 36,
+            "top": 6254.78125,
+            "right": 227.5,
+            "bottom": 6290.78125,
+            "left": 77.5
+          }
+        }
+      ],
+      "headings": [
+        {
+          "english": "USER'S VOICE",
+          "japanese": "ご利用いただいたお客様の声",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "Q&A",
+          "japanese": "よくある質問",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        },
+        {
+          "english": "HOW TO USE",
+          "japanese": "ご利用の流れ",
+          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+          "before": "\"・・・\"",
+          "after": "\"・・・\"",
+          "underEnglish": "none"
+        }
+      ],
+      "ornaments": [
+        {
+          "text": "ご希望のサービスをお選びください",
+          "color": "rgb(0, 91, 172)",
+          "lineColor": "rgb(0, 91, 172)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "クリスタルクリーンホームが選ばれる理由",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        },
+        {
+          "text": "組み合わせてご利用いただけるプラン",
+          "color": "rgb(6, 64, 140)",
+          "lineColor": "rgb(6, 64, 140)",
+          "radius": "0px 0px 20px 20px"
+        }
+      ],
+      "faqToggle": true,
+      "planTabs": true,
+      "errors": []
+    }
+  ]
+}
