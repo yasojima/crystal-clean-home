@@ -234,21 +234,18 @@
   const mobileHeader = window.matchMedia('(max-width: 767.98px)');
   const mobileFooter = document.querySelector('.c-footer--aircon');
   const mobileFooterPhone = mobileFooter?.querySelector('.footer-tel-sp');
+  const floatingCart = document.querySelector('#js-floating');
   let lastScrollY = window.scrollY;
   let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
   let touchActive = false;
   const scrollIdleDelay = 450;
   let footerPushFrame;
-  let footerViewportWidth = window.innerWidth;
-  let footerViewportHeight = window.innerHeight;
-  let footerAtPageEnd = false;
-  let footerResizeAnchor = false;
 
   function updateFooterPush() {
+    floatingCart?.classList.toggle('is-mobile-footer-hidden', mobileHeader.matches &&
+      mobileFooter && mobileFooter.getBoundingClientRect().top < window.innerHeight);
     if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
-      footerAtPageEnd = false;
-      footerResizeAnchor = false;
       header.classList.remove('is-footer-pushed');
       header.style.removeProperty('--footer-push');
       return;
@@ -256,7 +253,6 @@
     const headerHeight = header.getBoundingClientRect().height;
     const maxScrollY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
     const atPageEnd = maxScrollY > 0 && window.scrollY >= maxScrollY - 2;
-    footerAtPageEnd = atPageEnd;
     const overlap = atPageEnd ? headerHeight + 1 :
       Math.min(headerHeight + 1, Math.max(0, headerHeight - mobileFooterPhone.getBoundingClientRect().top));
     header.style.setProperty('--footer-push', `${overlap}px`);
@@ -264,25 +260,9 @@
   }
 
   function queueFooterPush() {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    if (width !== footerViewportWidth || height !== footerViewportHeight) {
-      footerResizeAnchor = mobileHeader.matches && !menuOpen &&
-        width === footerViewportWidth && footerAtPageEnd;
-      footerViewportWidth = width;
-      footerViewportHeight = height;
-    }
     if (footerPushFrame) return;
     footerPushFrame = window.requestAnimationFrame(() => {
       footerPushFrame = undefined;
-      if (footerResizeAnchor && mobileFooter) {
-        const maxScrollY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
-        window.scrollTo({ top: maxScrollY, behavior: 'instant' });
-        // WebKit can resize the viewport before the dvh footer has finished its layout.
-        if (mobileFooter.getBoundingClientRect().height >= window.innerHeight - 2) {
-          footerResizeAnchor = false;
-        }
-      }
       updateFooterPush();
     });
   }

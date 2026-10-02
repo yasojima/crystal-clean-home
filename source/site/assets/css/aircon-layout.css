@@ -33,7 +33,8 @@
     right: 12px;
   }
 
-  .c-footer--aircon .c-aircon-footer__coating-links {
+  .c-footer--aircon .c-aircon-footer__coating-links,
+  .c-footer--aircon .c-aircon-footer__other-links {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 12px;
@@ -42,16 +43,17 @@
   .c-footer--aircon .c-footer__top-nav {
     width: calc(100% - 80px);
     padding: 0 0 24px;
-    gap: 40px;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.1fr);
+    gap: 24px;
   }
 
   .c-footer--aircon .c-footer-global-links {
-    padding-block: 6px 14px;
+    padding-block: 8px 16px;
   }
 
   .c-footer--aircon .c-footer-global-links__item {
     font-size: 12px;
-    line-height: 1.7;
+    line-height: 1.9;
   }
 
   .c-footer--aircon .c-aircon-footer__support-start {
@@ -87,6 +89,12 @@
 }
 
 @media (max-width: 767.98px) {
+  .c-floating-buttons.is-footer-area,
+  .c-floating-buttons.is-mobile-footer-hidden {
+    visibility: hidden;
+    pointer-events: none;
+  }
+
   .c-footer--aircon {
     display: flex;
     flex-direction: column;

@@ -589,7 +589,7 @@ def refine_aircon_footer(output):
             mobile_content.append(coating_list())
             mobile_coating.insert_after(mobile_content)
         columns = footer.select('.u-pc-only .c-footer-top-nav__item')
-        for category, destination in (('coating', columns[2]), ('others', columns[1])):
+        for category, destination in (('coating', columns[2]), ('others', columns[2])):
             heading = columns[0].parent.select_one(f'.c-footer-item-heading a[href="/house-cleaning/{category}/"]').find_parent(class_='c-footer-item-heading')
             links = heading.find_next_sibling()
             if category == 'coating':
@@ -597,10 +597,13 @@ def refine_aircon_footer(output):
                 if links and 'c-footer-global-links' in links.get('class', []):
                     destination.insert(1, links.extract())
             else:
-                destination.append(heading.extract())
+                guide_heading = destination.select_one('a[href="/about/"]').find_parent('ul').find_previous_sibling(class_='c-footer-item-heading')
+                guide_heading.insert_before(heading.extract())
                 if links and 'c-footer-global-links' in links.get('class', []):
-                    destination.append(links.extract())
+                    links['class'] = list(dict.fromkeys(links.get('class', []) + ['c-aircon-footer__other-links']))
+                    guide_heading.insert_before(links.extract())
         coating_heading = columns[2].select_one('a[href="/house-cleaning/coating/"]').find_parent(class_='c-footer-item-heading')
+        coating_heading['class'] = [name for name in coating_heading.get('class', []) if name != 'c-footer-item-heading-mb']
         coating_links = coating_heading.find_next_sibling()
         if coating_links and 'c-footer-global-links' in coating_links.get('class', []):
             coating_links.replace_with(coating_list())
@@ -748,7 +751,7 @@ def render(route, page, catalogue, copy):
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
         header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100304">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100306" defer></script>'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100307" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -765,7 +768,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100305">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100306">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
