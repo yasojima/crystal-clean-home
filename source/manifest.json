@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 175055,
-      "sha256": "910a87a620a4135cd79a3aa64d53c6b5aced6859afb3b7f8bbce7e0ba9cf314b",
+      "bytes": 175200,
+      "sha256": "6ca45f9152027d57e3b83da0eb4ceac2dc71606b656ae6e2adc710582c9928d3",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 175055,
-      "sha256": "910a87a620a4135cd79a3aa64d53c6b5aced6859afb3b7f8bbce7e0ba9cf314b",
+      "bytes": 175200,
+      "sha256": "6ca45f9152027d57e3b83da0eb4ceac2dc71606b656ae6e2adc710582c9928d3",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13136,6 +13136,24 @@
       "origin_type": "local-service-page",
       "bytes": 610,
       "sha256": "f623a555bf328fe754b1acee15d9b699c4d88aae66e1fe1da9bd7472f3183c39"
+    },
+    "https://www.osoujihonpo.com/assets/css/aircon-header.css": {
+      "path": "assets/css/aircon-header.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/aircon-header.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-service-page",
+      "bytes": 7814,
+      "sha256": "0d6772a5839f1817366ab8ab0dbf2d0a6e6bce7d5f031b9af6ca683ff6abb1bf"
+    },
+    "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
+      "path": "assets/js/aircon-header.js",
+      "effective_url": "https://www.osoujihonpo.com/assets/js/aircon-header.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "origin_type": "local-service-page",
+      "bytes": 5949,
+      "sha256": "e6632cd08a8c72eac180c8cece20ab0207d8394fc1edd4a7079dcad3b9e55608"
     }
   },
   "external_urls": [
@@ -15326,9 +15344,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1420,
-    "unique_paths": 1398,
-    "bytes": 121202314,
+    "urls": 1422,
+    "unique_paths": 1400,
+    "bytes": 121216222,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

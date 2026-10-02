@@ -523,6 +523,12 @@ def render(route, page, catalogue, copy):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100214">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100214" defer></script>'
+        if '/assets/css/aircon-header.css' not in output:
+            output = output.replace('</head>', header_css + '\n</head>', 1)
+        if '/assets/js/aircon-header.js' not in output:
+            output = output.replace('</head>', header_js + '\n</head>', 1)
     else:
         output = re.sub(bubble_pattern + r'\s*', '', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
@@ -539,6 +545,8 @@ def sync_manifest(routes, check):
     files += list((SITE / 'assets/images/service-scenes').glob('*.webp'))
     files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/reasons-navy.css',
               SITE / 'assets/css/aircon-voice-bubbles.css',
+              SITE / 'assets/css/aircon-header.css',
+              SITE / 'assets/js/aircon-header.js',
               *(SITE / f'assets/images/voices/{name}.svg' for name in (
                   'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),
               SITE / 'assets/css/common.css']
@@ -557,13 +565,14 @@ def sync_manifest(routes, check):
         if not records:
             url = manifest['origin'].rstrip('/') + '/' + rel
             record = {'path':rel, 'effective_url':url, 'status':200,
-                      'content_type':{'.webp':'image/webp','.png':'image/png','.svg':'image/svg+xml'}.get(file.suffix,'text/css'),
+                      'content_type':{'.webp':'image/webp','.png':'image/png','.svg':'image/svg+xml',
+                                      '.js':'application/javascript'}.get(file.suffix,'text/css'),
                       'origin_type':'local-service-page'}
             manifest['files'][url] = record
             records = [record]
         for record in records:
             if record.get('sha256') != digest:
-                if record.get('sha256'):
+                if record.get('sha256') and not record.get('origin_type', '').startswith('local-'):
                     record.setdefault('source_sha256', record['sha256'])
                 record.update(bytes=len(data), sha256=digest)
                 changed.append(rel)
