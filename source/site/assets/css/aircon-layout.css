@@ -37,6 +37,19 @@
   text-align: center;
 }
 
+.c-service-page .c-reasons__card::before {
+  content: none;
+}
+
+.c-service-page .c-reasons__point {
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  width: auto;
+  height: 48px;
+  transform: translateX(-50%);
+}
+
 @media (min-width: 1024px) and (max-width: 1199.98px) {
   .c-service-page .c-reasons__card { padding: 32px; }
   .c-service-page .c-reason-card__heading { font-size: .9375rem; }
@@ -60,4 +73,112 @@
 @media (max-width: 375px) {
   .c-service-page .c-reasons__card { width: calc(100% - 16px); }
   .c-service-page .c-reason-card__heading { font-size: .9375rem; }
+}
+
+@media (max-width: 767.98px) {
+  .c-service-page .p-page-anchors__cards .c-category-simple-card__bottom {
+    padding-inline: 6px;
+  }
+
+  .c-service-page .p-page-anchors__cards .c-category-simple-card__text {
+    font-size: clamp(11px, 3.1vw, 13px);
+    white-space: nowrap;
+  }
+}
+
+.c-service-page .c-section-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.c-section-heading__english--art {
+  position: relative;
+  display: block;
+  width: calc(min(300px, 76vw) * var(--art-width) / 364);
+  aspect-ratio: var(--art-width) / 47;
+  overflow: hidden;
+}
+
+.c-section-heading__english img {
+  position: absolute;
+  width: calc(1200 / var(--art-width) * 100%);
+  max-width: none;
+  height: auto;
+  left: calc(-1 * var(--art-left) / var(--art-width) * 100%);
+  top: calc(-1 * var(--art-top) / 47 * 100%);
+}
+
+.c-section-heading__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #264574;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.c-section-heading__subtitle::before,
+.c-section-heading__subtitle::after {
+  content: '・・・';
+  font-size: 1em;
+}
+
+.c-section-heading__english {
+  display: block;
+  color: #264574;
+  font-family: Arial, sans-serif;
+  font-size: calc(min(300px, 76vw) * .16);
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 0;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+}
+
+.c-section-heading__english--voice {
+  --art-width: 364;
+  --art-left: 418;
+  --art-top: 29;
+}
+
+.c-section-heading__english--flow {
+  --art-width: 355;
+  --art-left: 422;
+  --art-top: 83;
+}
+
+.c-section-heading--qa .c-section-heading__english {
+  font-family: "Times New Roman", serif;
+  letter-spacing: .035em;
+}
+
+.c-section-heading--qa .c-section-heading__english::after {
+  content: "";
+  display: block;
+  width: 32px;
+  margin: 10px auto 0;
+  border-bottom: 1px solid currentColor;
+}
+
+.c-section-heading--qa .c-section-heading__subtitle {
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", "MS PMincho", serif;
+  font-size: 16px;
+  letter-spacing: .2em;
+}
+
+.c-section-heading--qa .c-section-heading__subtitle::before,
+.c-section-heading--qa .c-section-heading__subtitle::after {
+  content: none;
+}
+
+@media (max-width: 767.98px) {
+  .c-section-heading__subtitle {
+    gap: 4px;
+    font-size: clamp(12px, 3.4vw, 16px);
+  }
 }

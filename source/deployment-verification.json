@@ -1,8 +1,8 @@
 {
   "origin": "https://yasojima.github.io/",
-  "verified_at": "2026-10-02T03:51:42.636889+00:00",
+  "verified_at": "2026-10-02T04:25:29.511282+00:00",
   "pages_build_status": "built",
-  "pages_commit": "20f8462062e79baa32c34c3e682ac37d02ba9667",
+  "pages_commit": "863850aba7ae2c5acce08a33a023e4fdfe8f6f1a",
   "source_tree": "fd3358ce2fa77a1a33b96b91160e55d59b6f1ab5",
   "checks": [
     {
@@ -30,7 +30,7 @@
       "path": "/house-cleaning/aircon/",
       "status": 200,
       "url": "https://yasojima.github.io/house-cleaning/aircon/",
-      "sha256": "8c28a685fedd4333e96b180990eb8a0e46a76ca419bfa1b2e2ba30ea68675039",
+      "sha256": "d8af166979b8ccb3c5ec00cea7ab6bf57924138f6b8f568dcbd7a0d401e5cc86",
       "passed": true
     },
     {
@@ -1080,14 +1080,14 @@
       "path": "/assets/css/aircon-voice-bubbles.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/aircon-voice-bubbles.css",
-      "sha256": "1071a06272e924197d56f16acdb2d81e951a870a5aa4fbfb7e08d7dd7946dad4",
+      "sha256": "d0c7de2015dae3d126f9632c1c37f22a63fa02ceeac364c08e6d0936d40efed3",
       "passed": true
     },
     {
       "path": "/assets/css/aircon-header.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/aircon-header.css",
-      "sha256": "0e7bee8fa94ef030af6d8dfb104fbdd1df2dbc77d893778ae0e84f40673d7e63",
+      "sha256": "55120968ee774dc3c6da5d2c4ea503ee6da279e7c5cc1100f4941fae3aba5974",
       "passed": true
     },
     {
@@ -1101,14 +1101,14 @@
       "path": "/assets/css/aircon-hero.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/aircon-hero.css",
-      "sha256": "ed1c426dbff45fca1b72d25073fb5b675737bac3b3fedcd5d116a430280f030a",
+      "sha256": "32d5d36e0149e35c72cb09b1d233a1a64ae1bd777702ab630a53b15506358663",
       "passed": true
     },
     {
       "path": "/assets/css/aircon-layout.css",
       "status": 200,
       "url": "https://yasojima.github.io/assets/css/aircon-layout.css",
-      "sha256": "52b0b4d6eb104bdf015ce24eea3ea291b7028a3734089a3a382c451d509c98d5",
+      "sha256": "548c3a66f3c653037a9abebb8f408f74959e8a0e05b551af2aa9f4804f1ac97a",
       "passed": true
     },
     {

@@ -1,11 +1,8 @@
-.c-house-cleaning-mv--check {
+.c-house-cleaning-mv--check,
+.c-lineup-heading--round {
   --hero-circle: clamp(200px, 20vw, 312px);
   --hero-projection: clamp(56px, 5.6vw, 88px);
   box-sizing: border-box;
-  display: flex;
-  align-items: center;
-  height: calc(100svh - var(--aircon-header-height));
-  padding-block: 0 var(--hero-projection);
   -webkit-mask-image: linear-gradient(#000 0 0), radial-gradient(circle closest-side, #000 calc(100% - 1px), transparent 100%);
   mask-image: linear-gradient(#000 0 0), radial-gradient(circle closest-side, #000 calc(100% - 1px), transparent 100%);
   -webkit-mask-size: 100% calc(100% - var(--hero-projection)), var(--hero-circle) var(--hero-circle);
@@ -16,7 +13,34 @@
   mask-repeat: no-repeat;
 }
 
-.c-house-cleaning-mv__check {
+.c-house-cleaning-mv--check {
+  --hero-bottom-gap: 24px;
+  display: flex;
+  align-items: center;
+  height: calc(100svh - var(--aircon-header-height) - var(--hero-bottom-gap));
+  padding-block: 0 var(--hero-projection);
+}
+
+.c-lineup-heading--round {
+  padding-block: 70px calc(70px + var(--hero-projection));
+}
+
+.c-lineup-heading--round .c-lineup-heading__image {
+  height: calc(100% - var(--hero-projection));
+}
+
+.c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
+  width: min(55%, calc((100svh - var(--aircon-header-height) - var(--hero-bottom-gap) - var(--hero-projection) - 2 * clamp(16px, 4svh, 40px)) * 1.5));
+  height: auto;
+  top: calc((100% - var(--hero-projection)) / 2);
+  object-fit: contain;
+  object-position: right center;
+  transform: translateY(-50%);
+}
+
+.c-house-cleaning-mv__check,
+.c-lineup-heading--round > .c-lineup-heading__sub-text {
+  box-sizing: border-box;
   position: absolute;
   z-index: 2;
   bottom: 0;
@@ -26,16 +50,36 @@
   justify-content: center;
   width: var(--hero-circle);
   height: var(--hero-projection);
+  margin: 0;
   color: #fff;
-  font-size: clamp(20px, 1.8vw, 28px);
   font-weight: 700;
   line-height: 1;
   text-shadow: 0 1px 3px rgba(0, 39, 87, .4);
   transform: translateX(-50%);
 }
 
+.c-house-cleaning-mv__check {
+  font-size: clamp(28px, 2.5vw, 36px);
+}
+
+.c-house-cleaning-mv__check-label,
+.c-lineup-heading__label {
+  display: block;
+  text-box-trim: trim-both;
+  text-box-edge: cap alphabetic;
+  font-feature-settings: "palt";
+}
+
 @media (max-width: 767.98px) {
+  .c-lineup-heading--round {
+    padding-block: 56px calc(56px + var(--hero-projection));
+  }
+
   .c-house-cleaning-mv--check {
     justify-content: center;
+  }
+
+  .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
+    width: 100%;
   }
 }

@@ -42,6 +42,8 @@ const output = process.env.SCREENSHOT_DIR;
         return {
           heroBottom: hero.bottom,
           checkBottom: rect.bottom,
+          checkTop: rect.top,
+          photoBottom: document.querySelector('.c-house-cleaning-mv__image').getBoundingClientRect().bottom,
           checkCenter: rect.x + rect.width / 2,
           contentCenter: hero.x + hero.width / 2,
           label: check.textContent,
@@ -50,12 +52,13 @@ const output = process.env.SCREENSHOT_DIR;
           overflow: document.documentElement.scrollWidth > innerWidth + 1,
         };
       });
-      assert.ok(Math.abs(geometry.heroBottom - height) < 1, 'Hero ends at the viewport bottom');
-      assert.ok(Math.abs(geometry.checkBottom - height) < 1, 'Circular Check edge fits the viewport');
+      assert.ok(Math.abs(geometry.heroBottom - (height - 24)) < 1, 'Hero leaves 24px at the viewport bottom');
+      assert.ok(Math.abs(geometry.checkBottom - (height - 24)) < 1, 'Circular Check edge has breathing room');
+      assert.ok(geometry.photoBottom < geometry.checkTop, 'Photo stays above the straight edge; only the blue background projects into the circle');
       assert.ok(Math.abs(geometry.checkCenter - geometry.contentCenter) < 1, 'Check is centered');
       assert.equal(geometry.label, 'Check！');
       assert.ok(geometry.nextHeadingTop >= height, 'Service selector starts after the first view');
-      assert.equal(geometry.buttonSize, width < 768 ? 44 : 48);
+      assert.equal(geometry.buttonSize, width < 768 ? 44 : 56);
       assert.equal(geometry.overflow, false);
       assert.equal(await page.locator('.c-issue-list__heading').textContent(), 'こんなお悩みはありませんか？');
       assert.equal(await page.locator('.c-voice-card__star').count(), 30);

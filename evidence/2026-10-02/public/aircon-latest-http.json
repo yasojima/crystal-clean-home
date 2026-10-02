@@ -1,0 +1,57 @@
+{
+  "pages_commit": "863850aba7ae2c5acce08a33a023e4fdfe8f6f1a",
+  "run": 36964351210,
+  "checks": [
+    {
+      "file": "assets/css/aircon-header.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/css/aircon-hero.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/css/aircon-layout.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/css/aircon-voice-bubbles.css",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/images/reasons/reference-point-01.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/images/reasons/reference-point-02.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/images/reasons/reference-point-03.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/images/voices/reference-users-voice.webp",
+      "status": 200,
+      "match": true
+    },
+    {
+      "file": "assets/images/voices/reference-how-to-use.webp",
+      "status": 200,
+      "match": true
+    }
+  ],
+  "passed": true
+}

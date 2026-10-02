@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-02T03:51:35.253Z",
+  "checked_at": "2026-10-02T04:25:22.194Z",
   "origin": "https://yasojima.github.io",
   "local_overrides": false,
   "checks": [
@@ -7,13 +7,15 @@
       "width": 1441,
       "height": 799,
       "geometry": {
-        "heroBottom": 799,
-        "checkBottom": 799,
+        "heroBottom": 775,
+        "checkBottom": 775,
+        "checkTop": 694.3125,
+        "photoBottom": 662.328125,
         "checkCenter": 713,
         "contentCenter": 713,
         "label": "Check！",
-        "nextHeadingTop": 829,
-        "buttonSize": 48,
+        "nextHeadingTop": 805,
+        "buttonSize": 56,
         "overflow": false
       },
       "layout": {
@@ -90,13 +92,15 @@
       "width": 1581,
       "height": 1326,
       "geometry": {
-        "heroBottom": 1326,
-        "checkBottom": 1326,
+        "heroBottom": 1302,
+        "checkBottom": 1302,
+        "checkTop": 1214,
+        "photoBottom": 948.09375,
         "checkCenter": 783,
         "contentCenter": 783,
         "label": "Check！",
-        "nextHeadingTop": 1356,
-        "buttonSize": 48,
+        "nextHeadingTop": 1332,
+        "buttonSize": 56,
         "overflow": false
       },
       "layout": {
@@ -173,13 +177,15 @@
       "width": 1024,
       "height": 768,
       "geometry": {
-        "heroBottom": 767.984375,
-        "checkBottom": 767.984375,
+        "heroBottom": 743.984375,
+        "checkBottom": 743.984375,
+        "checkTop": 686.640625,
+        "photoBottom": 566.6796875,
         "checkCenter": 504.5,
         "contentCenter": 504.5,
         "label": "Check！",
-        "nextHeadingTop": 797.984375,
-        "buttonSize": 48,
+        "nextHeadingTop": 773.984375,
+        "buttonSize": 56,
         "overflow": false
       },
       "layout": {
@@ -256,12 +262,14 @@
       "width": 390,
       "height": 844,
       "geometry": {
-        "heroBottom": 844,
-        "checkBottom": 844,
+        "heroBottom": 820,
+        "checkBottom": 820,
+        "checkTop": 764,
+        "photoBottom": 543,
         "checkCenter": 187.5,
         "contentCenter": 187.5,
         "label": "Check！",
-        "nextHeadingTop": 874,
+        "nextHeadingTop": 850,
         "buttonSize": 44,
         "overflow": false
       },
@@ -339,12 +347,14 @@
       "width": 320,
       "height": 700,
       "geometry": {
-        "heroBottom": 700,
-        "checkBottom": 700,
+        "heroBottom": 676,
+        "checkBottom": 676,
+        "checkTop": 620,
+        "photoBottom": 447.6640625,
         "checkCenter": 152.5,
         "contentCenter": 152.5,
         "label": "Check！",
-        "nextHeadingTop": 730,
+        "nextHeadingTop": 706,
         "buttonSize": 44,
         "overflow": false
       },

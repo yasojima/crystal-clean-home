@@ -62,7 +62,8 @@ for route,page in catalogue['pages'].items():
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')
     voice_section = main.select_one('.c-voice-card').find_parent('section') if main.select_one('.c-voice-card') else None
-    if not voice_section or voice_section.select_one('h2').get_text(strip=True) != 'ご利用者様の声':
+    expected_voice_heading = 'ご利用いただいたお客様の声' if route == 'aircon' else 'ご利用者様の声'
+    if not voice_section or voice_section.select_one('h2').get_text(strip=True) != expected_voice_heading:
         fail(route,'voice heading')
     elif len(voice_section.select('.c-voice-card')) != 6 or voice_section.select_one('.mt20'):
         fail(route,'voice card count or subtitle')

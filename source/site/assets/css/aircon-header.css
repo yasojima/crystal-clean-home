@@ -19,7 +19,7 @@ html {
   z-index: 120;
   box-sizing: border-box;
   height: var(--aircon-header-height);
-  padding-inline: 24px;
+  padding-inline: 24px 8px;
   gap: 18px;
   background: rgba(255, 255, 255, .88);
   -webkit-backdrop-filter: blur(15px);
@@ -209,8 +209,8 @@ html {
 
 .c-header__menu {
   flex: 0 0 auto;
-  width: 48px;
-  height: 48px;
+  width: 56px;
+  height: 56px;
 }
 
 .c-header__menu picture,

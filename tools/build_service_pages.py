@@ -233,6 +233,8 @@ def navigation(page, primary, category, copy):
     n = template('navigation')
     n.select_one('h2').string = 'ご希望のサービスをお選びください' if '/' not in page['route'] else 'ご覧になりたい内容をお選びください'
     cards = n.select_one('.c-page-anchors')
+    if page['route'] == 'aircon':
+        cards['style'] = cards.get('style', '').replace('repeat(3,1fr)', 'repeat(2,minmax(0,1fr))')
     sample = deepcopy(cards.select_one('a'))
     cards.clear()
     items = page['anchors'][:]
@@ -245,7 +247,10 @@ def navigation(page, primary, category, copy):
     for item in items:
         a = deepcopy(sample)
         a['href'] = item['href']
-        a.select_one('h3').string = item['text']
+        label = item['text']
+        if page['route'] == 'aircon':
+            label = {'#lineup01': '壁掛けタイプ', '#lineup02': '天井埋め込みタイプ'}.get(item['href'], label)
+        a.select_one('h3').string = label
         icon = a.select_one('.c-illust')
         if icon:
             icon['class'] = item['icon'] or ['c-illust',f'c-illust--{icon_map[category]}','c-category-simple-card__icon']
@@ -297,11 +302,15 @@ def concerns(page, primary, category_copy, copy):
     return n
 
 
-def reasons(shared):
+def reasons(shared, route):
     n = template('reasons')
-    for item,words in zip(n.select('.c-reasons__item'),shared['reasons']):
+    for index, (item, words) in enumerate(zip(n.select('.c-reasons__item'), shared['reasons']), 1):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
+        if route == 'aircon':
+            label = tag('img', 'c-reasons__point', src=f'/assets/images/reasons/reference-point-{index:02d}.webp',
+                        alt=f'POINT {index:02d}', width='205', height='70', loading='lazy', decoding='async')
+            item.select_one('.c-reasons__card').insert(0, label)
     return n
 
 
@@ -336,11 +345,28 @@ def render_static_reasons(original):
     return ensure_navy_stylesheet(output)
 
 
+def decorate_heading(heading, english, japanese, artwork=None):
+    heading['class'] = heading.get('class', []) + ['c-section-heading']
+    heading.clear()
+    title = tag('span', 'c-section-heading__english')
+    if artwork:
+        kind, file, height = artwork
+        title['class'] += ['c-section-heading__english--art', f'c-section-heading__english--{kind}']
+        title.append(tag('img', src=f'/assets/images/voices/{file}', alt=english,
+                         width='1200', height=str(height), loading='lazy', decoding='async'))
+    else:
+        title.string = english
+    heading.append(title)
+    heading.append(tag('span', 'c-section-heading__subtitle', japanese))
+
+
 def voices(page, copy):
     n = template('voices')
     n.select_one('h2').string = 'ご利用者様の声'
     if page['route'] == 'aircon':
         n['class'] = n.get('class', []) + ['c-voice-section--bubble-preview']
+        decorate_heading(n.select_one('h2'), "USER'S VOICE", 'ご利用いただいたお客様の声',
+                         ('voice', 'reference-users-voice.webp', 85))
         grid = n.select_one('.p-content-box__content > .c-grid')
         grid['class'] = grid.get('class', []) + ['c-voice-bubbles']
     profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
@@ -424,9 +450,12 @@ def voices(page, copy):
     return n
 
 
-def faq(category_copy, shared, questions=None):
+def faq(category_copy, shared, questions=None, decorated=False):
     n = template('faq'); n['id'] = 'service-faq'
     n.select_one('h2').string = 'よくある質問'
+    if decorated:
+        decorate_heading(n.select_one('h2'), 'Q&A', 'よくある質問')
+        n.select_one('h2')['class'].append('c-section-heading--qa')
     for item, words in zip(n.select('.c-faq-accordion__item'), shared['faq'] + (questions or category_copy['faq'])):
         question = words[0].rstrip('。！？?')
         item.select_one('button').string = question + ('？' if question.endswith('か') else '')
@@ -434,9 +463,12 @@ def faq(category_copy, shared, questions=None):
     return n
 
 
-def steps(shared):
+def steps(shared, decorated=False):
     n = template('steps'); n['id'] = 'service-flow'
     n.select_one('h2').string = 'ご利用の流れ'
+    if decorated:
+        decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
+                         ('flow', 'reference-how-to-use.webp', 150))
     for item, words in zip(n.select('.c-step-list__item'),shared['steps']):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
         item.select_one('.c-step-list-item__text p').string = words[1]
@@ -444,14 +476,20 @@ def steps(shared):
     return n
 
 
-def lineup_heading(title, anchor, scene):
+def lineup_heading(title, anchor, scene, rounded=False):
     n = template('lineup-heading')
     n['id'] = anchor
     label = n.select_one('.c-lineup-heading__contain')
     subtitle = deepcopy(label.select_one('.c-lineup-heading__sub-text'))
     label.clear()
     label.append(title)
-    label.append(subtitle)
+    if rounded:
+        n['class'].append('c-lineup-heading--round')
+        subtitle.clear()
+        subtitle.append(tag('span', 'c-lineup-heading__label', 'lineup'))
+        n.append(subtitle)
+    else:
+        label.append(subtitle)
     image(n.select_one('img'), scene, '')
     return n
 
@@ -473,14 +511,16 @@ def render(route, page, catalogue, copy):
     image(hero.select_one('img'),p['scene'],p['focus']+'の清掃イメージ',True)
     if route == 'aircon':
         hero['class'].append('c-house-cleaning-mv--check')
-        hero.append(tag('span', 'c-house-cleaning-mv__check', 'Check！'))
+        check = tag('span', 'c-house-cleaning-mv__check')
+        check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
+        hero.append(check)
     main.append(hero); main.append(template('floating'))
     main.append(navigation(page,primary,page['category'],copy))
     main.append(concerns(page,primary,cat,copy))
-    main.append(reasons(copy['shared']))
+    main.append(reasons(copy['shared'], route))
     apply = tag('div', id='apply'); main.append(apply)
     for group in page['groups']:
-        apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene']))
+        apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene'], rounded=route == 'aircon'))
         for key in group['products']:
             apply.append(product(key,route,catalogue,copy))
     if page['offers']:
@@ -505,7 +545,9 @@ def render(route, page, catalogue, copy):
         detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
         if page['category'] != 'coating' or primary == '806':
             questions = detail_faq.get(primary, detail_faq.get(p['scene']))
-    main.append(voices(page,copy)); main.append(faq(cat,copy['shared'],questions)); main.append(steps(copy['shared']))
+    main.append(voices(page,copy))
+    main.append(faq(cat,copy['shared'],questions,decorated=route == 'aircon'))
+    main.append(steps(copy['shared'],decorated=route == 'aircon'))
     main.append(template('categories')); main.append(template('cart-modal'))
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
@@ -519,14 +561,14 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100222">'
+    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100228">'
     bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
     if route == 'aircon':
         if re.search(bubble_pattern, output):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100219">'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100224">'
         header_js = '<script src="/assets/js/aircon-header.js?v=2026100219" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
@@ -538,13 +580,13 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100220">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100226">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100221">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100229">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
@@ -571,6 +613,9 @@ def sync_manifest(routes, check):
               SITE / 'assets/css/aircon-layout.css',
               SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
               SITE / 'assets/images/voices/reference-rating.webp',
+              SITE / 'assets/images/voices/reference-users-voice.webp',
+              SITE / 'assets/images/voices/reference-how-to-use.webp',
+              *(SITE / f'assets/images/reasons/reference-point-{index:02d}.webp' for index in range(1, 4)),
               SITE / 'assets/js/aircon-header.js',
               *(SITE / f'assets/images/voices/{name}.svg' for name in (
                   'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),
