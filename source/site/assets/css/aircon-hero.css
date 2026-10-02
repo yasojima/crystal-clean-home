@@ -20,6 +20,18 @@
   scroll-margin-top: 108px;
 }
 
+.c-house-cleaning-mv--check .c-house-cleaning-mv__sr-heading {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  border: 0;
+}
+
 .c-service-page #lineup01,
 .c-service-page #lineup02 {
   scroll-margin-top: 108px;

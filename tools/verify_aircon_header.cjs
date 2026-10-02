@@ -64,7 +64,7 @@ const output = process.env.SCREENSHOT_DIR;
       assert.equal(geometry.label, 'Check！');
       assert.ok(geometry.nextHeadingTop > geometry.checkBottom, 'Service selector follows Check within the first view');
       assert.equal(geometry.buttonSize, width < 768 ? 44 : 56);
-      assert.equal(geometry.overflow, false);
+      assert.equal(geometry.overflow, false, `Unexpected horizontal overflow at ${width}px`);
       assert.equal(await page.locator('.c-issue-list__heading').textContent(), 'こんなお悩みはありませんか？');
       assert.equal(await page.locator('.c-voice-card__star').count(), 30);
       assert.equal(await page.locator('.c-voice-card__star--empty').count(), 3);

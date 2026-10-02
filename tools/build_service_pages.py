@@ -660,6 +660,7 @@ def render(route, page, catalogue, copy):
     image(hero.select_one('img'),p['scene'],p['focus']+'の清掃イメージ',True)
     if route == 'aircon':
         hero['class'].append('c-house-cleaning-mv--check')
+        hero.insert(0, tag('h1', 'c-house-cleaning-mv__sr-heading', page['title']))
         check = tag('span', 'c-house-cleaning-mv__check')
         check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
         hero.append(check)
@@ -669,7 +670,9 @@ def render(route, page, catalogue, copy):
         first_view.append(hero)
         first_view.append(nav)
         main.append(first_view)
-        main.append(template('floating'))
+        floating = template('floating')
+        floating['class'] = [name for name in floating['class'] if name != 'is-visible']
+        main.append(floating)
     else:
         main.append(hero); main.append(template('floating'))
         main.append(nav)
@@ -751,13 +754,13 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100246">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100302">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100253">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100302">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
