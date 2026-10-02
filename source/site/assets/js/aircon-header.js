@@ -67,7 +67,7 @@
   }
 
   const menuEnglish = {
-    '/about/': 'About Us',
+    '/about/': 'User Guide',
     '/house-cleaning/aircon/': 'Air Conditioning',
     '/house-cleaning/pack/': 'Pack Service',
     '/house-cleaning/water/': 'Water Areas',
@@ -145,13 +145,17 @@
 
   const mega = document.createElement('div');
   mega.className = 'aircon-mega';
+  mega.id = 'aircon-mega';
   mega.setAttribute('aria-hidden', 'true');
   header.append(mega);
 
   function closeMega() {
     mega.classList.remove('is-open');
     mega.setAttribute('aria-hidden', 'true');
-    navigation.querySelectorAll('.c-main-menu__item.is-open').forEach(item => item.classList.remove('is-open'));
+    navigation.querySelectorAll('.c-main-menu__item.is-open').forEach(item => {
+      item.classList.remove('is-open');
+      item.querySelector('.c-main-menu__link').setAttribute('aria-expanded', 'false');
+    });
   }
 
   function submenuLinks(href) {
@@ -162,14 +166,15 @@
   function openMega(item) {
     if (menu.classList.contains('is-active') || window.innerWidth < 1400) return;
     const parentLink = item.querySelector('.c-main-menu__link');
-    const links = submenuLinks(parentLink.getAttribute('href'));
+    const destination = parentLink.dataset.targetHref;
+    const links = submenuLinks(destination);
     if (!links.length) return closeMega();
 
     const heading = document.createElement('a');
     heading.className = 'aircon-mega__heading';
-    heading.href = parentLink.getAttribute('href');
+    heading.href = destination;
     const label = parentLink.querySelector('span').textContent.trim();
-    headingContent(heading, label, menuEnglish[heading.getAttribute('href')] || '', 'aircon-mega');
+    headingContent(heading, label, menuEnglish[destination] || '', 'aircon-mega');
 
     const list = document.createElement('div');
     list.className = 'aircon-mega__links';
@@ -185,23 +190,33 @@
     }
 
     mega.replaceChildren(heading, list);
-    navigation.querySelectorAll('.c-main-menu__item.is-open').forEach(openItem => openItem.classList.remove('is-open'));
+    navigation.querySelectorAll('.c-main-menu__item.is-open').forEach(openItem => {
+      openItem.classList.remove('is-open');
+      openItem.querySelector('.c-main-menu__link').setAttribute('aria-expanded', 'false');
+    });
     item.classList.add('is-open');
+    parentLink.setAttribute('aria-expanded', 'true');
     mega.classList.add('is-open');
     mega.setAttribute('aria-hidden', 'false');
   }
 
   navigation.querySelectorAll('.c-main-menu__item').forEach(item => {
     const link = item.querySelector('.c-main-menu__link');
+    link.setAttribute('aria-controls', mega.id);
+    link.setAttribute('aria-expanded', 'false');
     const label = document.createElement('span');
     label.textContent = link.textContent.trim();
     link.replaceChildren(label, arrow('down'));
     item.addEventListener('mouseenter', () => openMega(item));
     item.addEventListener('focusin', () => openMega(item));
+    link.addEventListener('click', () => openMega(item));
   });
   header.addEventListener('mouseleave', closeMega);
   header.addEventListener('focusout', event => {
     if (!header.contains(event.relatedTarget)) closeMega();
+  });
+  mega.addEventListener('click', event => {
+    if (event.target.closest('.aircon-mega__link')) closeMega();
   });
 
   let menuOpen = false;
@@ -229,6 +244,12 @@
   }, true);
 
   menu.addEventListener('click', event => {
+    const link = event.target.closest('.aircon-full-menu__body a[href]');
+    if (link) {
+      const destination = new URL(link.href);
+      if (destination.pathname === location.pathname && destination.hash) setMenuOpen(false);
+      return;
+    }
     if (event.target.closest('.aircon-full-menu__section')) return;
     event.preventDefault();
     event.stopImmediatePropagation();

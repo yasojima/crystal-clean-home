@@ -554,8 +554,11 @@ def decorate_aircon_sections(main):
 
 
 def refine_aircon_footer(output):
-    coating_menu = parse(output).select_one('#menu-accordion_7')
-    coating_items = [(link['href'], link.get_text(strip=True)) for link in coating_menu.select('a[href]')]
+    document = parse(output)
+    coating_links = document.select('footer .u-pc-only .c-aircon-footer__coating-links a[href]')
+    if not coating_links:
+        coating_links = document.select('#menu-accordion_7 a[href]')
+    coating_items = [(link['href'], link.get_text(strip=True)) for link in coating_links]
 
     def coating_list():
         links = tag('ul', 'c-footer-global-links c-aircon-footer__coating-links')
@@ -569,6 +572,9 @@ def refine_aircon_footer(output):
     def replace_footer(match):
         footer = parse(match.group()).select_one('footer')
         footer['class'] = list(dict.fromkeys(footer.get('class', []) + ['c-footer--aircon']))
+        page_top = footer.select_one('.c-footer__page-top')
+        page_top['href'] = '#first-view'
+        page_top['aria-label'] = 'ファーストビューへ戻る'
         for note in footer.select('.c-pending-link__note'):
             note.find_parent(class_='c-footer-item-heading').decompose()
         mobile_coating = footer.select_one('.u-sp-only a[href="/house-cleaning/coating/"]').find_parent(class_='c-footer-item-heading')
@@ -608,6 +614,35 @@ def refine_aircon_footer(output):
     return apply_site_identity(output, True)
 
 
+def refine_aircon_navigation(output, catalogue):
+    section_targets = {}
+    for route, page in catalogue['pages'].items():
+        if '/' not in route:
+            continue
+        category = route.split('/', 1)[0]
+        products = set(page['groups'][0]['products'])
+        group = next((group for group in catalogue['pages'][category]['groups']
+                      if products.intersection(group['products'])), None)
+        assert group is not None, route
+        section_targets[f'/house-cleaning/{route}/'] = f'/house-cleaning/{category}/#{group["id"]}'
+
+    def replace_header(match):
+        header = parse(match.group()).select_one('header')
+        for link in header.select('.c-main-menu__link'):
+            destination = link.get('data-target-href') or link.get('href')
+            label = 'ご利用ガイド' if destination == '/about/' else link.get_text(strip=True)
+            link.replace_with(tag('button', 'c-main-menu__link', label,
+                                  **{'data-target-href': destination, 'type': 'button'}))
+        header.select_one('.c-site-menu [data-guide] + ul a[href="/about/"]').string = 'ハウスクリーニングについて'
+        for link in header.select('.c-house-cleaning-menu .c-aircon-details a[href], .c-house-cleaning-menu .c-menu-accordion__content a[href]'):
+            destination = section_targets.get(link['href'])
+            if destination:
+                link['href'] = destination
+        return str(header)
+
+    return re.sub(r'<header\b[^>]*>.*?</header>', replace_header, output, count=1, flags=re.S)
+
+
 def render(route, page, catalogue, copy):
     path = SITE / 'house-cleaning' / route / 'index.html'
     original = path.read_text(encoding='utf-8')
@@ -630,7 +665,7 @@ def render(route, page, catalogue, copy):
         hero.append(check)
     nav = navigation(page,primary,page['category'],copy)
     if route == 'aircon':
-        first_view = tag('div', 'c-first-view', **{'data-floating-visibility-trigger': ''})
+        first_view = tag('div', 'c-first-view', id='first-view', **{'data-floating-visibility-trigger': ''})
         first_view.append(hero)
         first_view.append(nav)
         main.append(first_view)
@@ -676,7 +711,10 @@ def render(route, page, catalogue, copy):
     main.append(voices(page,copy))
     main.append(faq(cat,copy['shared'],questions,decorated=route == 'aircon'))
     main.append(steps(copy['shared'],decorated=route == 'aircon'))
-    main.append(template('categories')); main.append(template('cart-modal'))
+    categories = template('categories')
+    if route == 'aircon':
+        categories['style'] = '--bg-color: #e3f1fc;'
+    main.append(categories); main.append(template('cart-modal'))
     if route == 'aircon':
         decorate_aircon_sections(main)
     normalize_text(main)
@@ -686,6 +724,7 @@ def render(route, page, catalogue, copy):
         output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
                         '\n', output, count=1, flags=re.S)
         output = refine_aircon_footer(output)
+        output = refine_aircon_navigation(output, catalogue)
     css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
@@ -700,8 +739,8 @@ def render(route, page, catalogue, copy):
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100253">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100252" defer></script>'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100256">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100257" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -712,7 +751,7 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100244">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100246">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)

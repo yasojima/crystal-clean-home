@@ -13,10 +13,16 @@
   mask-repeat: no-repeat;
 }
 
-.c-first-view {
+.c-service-page .c-first-view {
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
   height: calc(min(100svh, 800px) - var(--aircon-header-height) - 24px);
+  scroll-margin-top: 108px;
+}
+
+.c-service-page #lineup01,
+.c-service-page #lineup02 {
+  scroll-margin-top: 108px;
 }
 
 .c-house-cleaning-mv--check {

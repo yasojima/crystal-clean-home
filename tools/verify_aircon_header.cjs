@@ -130,7 +130,7 @@ const output = process.env.SCREENSHOT_DIR;
       if (width >= 1400) {
         await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
         for (const item of await page.locator('.c-main-menu__item').all()) {
-          const href = await item.locator('a').getAttribute('href');
+          const href = await item.locator('.c-main-menu__link').getAttribute('data-target-href');
           const expected = await page.evaluate(href => {
             const section = href === '/about/'
               ? document.querySelector('.aircon-full-menu__section--guide')
@@ -141,6 +141,9 @@ const output = process.env.SCREENSHOT_DIR;
             }));
           }, href);
           await item.hover();
+          await item.locator('.c-main-menu__link').click();
+          assert.equal(new URL(page.url()).pathname, '/house-cleaning/aircon/');
+          assert.equal(await page.locator('.aircon-mega__heading').getAttribute('href'), href);
           const actual = await page.locator('.aircon-mega__link').evaluateAll(links => links.map(link => ({
             href: link.getAttribute('href'), text: link.textContent.replace(/\s+/g, ' ').trim(),
           })));
@@ -153,7 +156,7 @@ const output = process.env.SCREENSHOT_DIR;
         assert.equal(await page.locator('.c-main-menu__link svg').count(), 9);
         await page.locator('.aircon-mega__link').first().hover();
         await page.waitForTimeout(450);
-        assert.equal(await page.locator('.aircon-mega__link').first().evaluate(node => getComputedStyle(node).color), 'rgb(45, 136, 239)');
+        assert.equal(await page.locator('.aircon-mega__link').first().evaluate(node => getComputedStyle(node).color), 'rgb(0, 91, 172)');
         if (output) await page.screenshot({ path: path.join(output, `aircon-hover-position-${width}.png`) });
         await page.mouse.move(5, 400);
       }

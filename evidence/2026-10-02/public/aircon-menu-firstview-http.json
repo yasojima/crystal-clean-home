@@ -1,0 +1,33 @@
+{
+  "pages_commit": "17a9a49",
+  "files": [
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "source_sha256": "115cc39782814e567b2d2beeabda6183246f8053324d84c8b0ebb3ac424b3407",
+      "public_sha256": "115cc39782814e567b2d2beeabda6183246f8053324d84c8b0ebb3ac424b3407",
+      "match": true
+    },
+    {
+      "path": "assets/css/aircon-header.css",
+      "status": 200,
+      "source_sha256": "859fca36c93250e71dbcafa213e35522fd6d4c7c3b34f26ab6b2fbff11c7df86",
+      "public_sha256": "859fca36c93250e71dbcafa213e35522fd6d4c7c3b34f26ab6b2fbff11c7df86",
+      "match": true
+    },
+    {
+      "path": "assets/css/aircon-hero.css",
+      "status": 200,
+      "source_sha256": "44026bfe20287b3d4ce66a017cbd02f8f6cd220487a8fd6845671c94a29b72ee",
+      "public_sha256": "44026bfe20287b3d4ce66a017cbd02f8f6cd220487a8fd6845671c94a29b72ee",
+      "match": true
+    },
+    {
+      "path": "assets/js/aircon-header.js",
+      "status": 200,
+      "source_sha256": "93cb503da65678e028a950745f7d28461697672f14af585ad663d367962006c3",
+      "public_sha256": "93cb503da65678e028a950745f7d28461697672f14af585ad663d367962006c3",
+      "match": true
+    }
+  ]
+}
