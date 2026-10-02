@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 175170,
-      "sha256": "4506f62d49ba303202ac032b65646e5ad778df942a119f94d0a5aa5685953dd0",
+      "bytes": 174562,
+      "sha256": "d040bc8e49f3670644bed52eb5cb1d01786ff02cbde568097b15b93214507ac5",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 175170,
-      "sha256": "4506f62d49ba303202ac032b65646e5ad778df942a119f94d0a5aa5685953dd0",
+      "bytes": 174562,
+      "sha256": "d040bc8e49f3670644bed52eb5cb1d01786ff02cbde568097b15b93214507ac5",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13143,8 +13143,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 10184,
-      "sha256": "f5aca5812d8c04b852a24bb18adf50fd912a9f6b4411a21323ea13ff8d3f1dbc"
+      "bytes": 10353,
+      "sha256": "eb0e480b396f5720d8f0e0889105c99e3dca309e4e3ea8b61196084cef5d6982"
     },
     "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
       "path": "assets/js/aircon-header.js",
@@ -15346,7 +15346,7 @@
   "counts": {
     "urls": 1422,
     "unique_paths": 1400,
-    "bytes": 121218562,
+    "bytes": 121218123,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

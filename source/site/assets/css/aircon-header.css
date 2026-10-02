@@ -15,7 +15,11 @@
 .c-header__logo {
   position: relative;
   z-index: 130;
-  flex: 0 0 175px;
+  flex: 0 0 160px;
+}
+
+.c-header-logo__link {
+  padding-left: 0;
 }
 
 .c-header-logo__link img {
@@ -34,7 +38,7 @@
 .c-main-menu {
   display: grid;
   grid-template-columns: repeat(9, minmax(0, 1fr));
-  column-gap: 6px;
+  column-gap: 8px;
   width: 100%;
 }
 
@@ -46,6 +50,7 @@
   box-sizing: border-box;
   width: 100%;
   padding: 12px 15px 12px 0;
+  color: #20252b;
   font-size: clamp(12px, .92vw, 14px);
   text-align: center;
   white-space: nowrap;
@@ -188,11 +193,18 @@
 
 .c-header__menu {
   flex: 0 0 auto;
+  width: 60px;
+  height: 60px;
 }
 
-body.aircon-menu-open .c-header__navigation,
-body.aircon-menu-open .c-header__cart,
-body.aircon-menu-open .c-header__cart-popup {
+.c-header__menu picture,
+.c-header__menu img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+body.aircon-menu-open .c-header__navigation {
   display: none;
 }
 
@@ -453,6 +465,11 @@ body.aircon-menu-open .c-header__cart-popup {
   .c-header-logo__link img {
     width: 145px !important;
     height: 68px !important;
+  }
+
+  .c-header__menu {
+    width: 48px;
+    height: 48px;
   }
 
   .c-menu-modal__main-content {
