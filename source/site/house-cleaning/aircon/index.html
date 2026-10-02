@@ -32,7 +32,7 @@
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" as="style" fetchpriority="high">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&amp;family=Oswald:wght@400;600&amp;family=Noto+Serif+JP:wght@400;600&amp;display=swap" media="print" onload='this.media="all"'>
   <link rel="stylesheet" href="/assets/css/common.css?241126">
-  <script src="/assets/js/common.js?v=2026100247" defer=""></script>
+  <script src="/assets/js/common.js?v=2026100248" defer=""></script>
   <script src="/assets/js/shop/top.js" defer=""></script>
   <script src="/assets/js/viewport-hud.js" defer></script>
 <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon/crystal-clean-home.svg">
@@ -43,10 +43,10 @@
 <link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100210"/>
 <link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">
 <link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100236">
-<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100246">
-<script src="/assets/js/aircon-header.js?v=2026100246" defer></script>
+<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100248">
+<script src="/assets/js/aircon-header.js?v=2026100248" defer></script>
 <link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100244">
-<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100247">
+<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100248">
 </head>
   <body>
       <header class="c-header">
@@ -193,7 +193,7 @@
 </div>
 </div>
 </header>
-<main class="c-service-page" data-service-layout="shared-v1"><div class="c-first-view" data-floating-visibility-trigger=""><div class="c-house-cleaning-mv c-house-cleaning-mv--check">
+<main class="c-service-page" data-service-layout="shared-v1"><div class="c-first-view"><div class="c-house-cleaning-mv c-house-cleaning-mv--check">
 <p class="c-house-cleaning-mv__text">内部にたまる汚れを洗い流し<br/>お部屋の空気をすっきりと</p>
 <picture class="c-flex-picture">  <img alt="熱交換器や送風ファンの清掃イメージ" class="c-flex-image c-house-cleaning-mv__image" decoding="async" height="1024" loading="eager" src="/assets/images/service-scenes/aircon-wall.webp" width="1536"/> </picture><span class="c-house-cleaning-mv__check"><span class="c-house-cleaning-mv__check-label">Check！</span></span></div><div class="l-section l-section--limited c-service-selector"><div class="l-section-inner l-section-inner--limited"><div class="p-page-anchors">
 <h2 class="c-double-line-heading p-page-anchors__heading">ご希望のサービスをお選びください</h2>
@@ -208,7 +208,7 @@
 <h3 class="c-category-simple-card__text">天井埋め込みタイプ</h3>
 </div>
 </a></div>
-</div></div></div></div><div class="c-floating-buttons is-visible" id="js-floating">
+</div></div></div></div><div class="c-floating-buttons is-visible" data-floating-fixed="" id="js-floating">
 <a class="c-cart-confirm" href="/cart/">
 <p class="c-cart-confirm__icon" data-cart-count="0" id="js-floating-total-amount">
 <span class="c-icon c-icon--cart c-cart-confirm__cart-icon"></span>
@@ -2278,30 +2278,28 @@
 </div>
 </div>
 </dialog></main>
-  <footer class="c-footer" id="footer"><a class="c-footer__page-top" href="#"></a>
+  <footer class="c-footer c-footer--aircon" id="footer"><a class="c-footer__page-top" href="#"></a>
 <div class="u-sp-only">
 <div class="footer-tel-sp">
 <p class="footer-tel-img"><span class="c-demo-phone"><img src="/assets/images/footer/footer-phone-demo-sp.svg" alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00"><button class="c-demo-phone__number" type="button" data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000"></button></span></p>
-<p class="footer-tel-btn"><a href="#" data-demo-dialog="">電話窓口について</a></p>
+<p class="footer-tel-btn"><a data-demo-dialog="" href="#">電話窓口について</a></p>
 </div>
 <div class="js-accordion" data-simple-type="true">
-<div class="c-footer-item-heading"><a class="link" aria-disabled="true">ハウスクリーニング</a><span class="c-pending-link__note">※ページ作成後、リンク設定の予定</span></div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/aircon/">エアコンクリーニング</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_01"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/aircon/">エアコンクリーニング</a><button aria-controls="footer-accordion_01" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_01">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/wall/">壁掛けタイプエアコン</a></li>
-
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/ceil/">天井埋め込みタイプエアコン</a></li>
 </ul>
 </div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/pack/">パックサービス</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_02"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/pack/">パックサービス</a><button aria-controls="footer-accordion_02" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_02">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/move/">お引越し前・後まるごとクリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/pack/entirety/">在宅まるごとクリーニング</a></li>
 </ul>
 </div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/water/">水まわりのお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_04"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/water/">水まわりのお掃除</a><button aria-controls="footer-accordion_04" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_04">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/bathroom/">風呂・浴室クリーニング</a></li>
@@ -2312,7 +2310,7 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/water/lavatory/">洗面台クリーニング</a></li>
 </ul>
 </div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/washer/">洗濯機クリーニング</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_05"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/washer/">洗濯機クリーニング</a><button aria-controls="footer-accordion_05" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_05">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/top/">縦型洗濯機クリーニング</a></li>
@@ -2320,7 +2318,7 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/washer/side/">ドラム式乾燥機能分解クリーニング（一部機種限定）</a></li>
 </ul>
 </div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/kitchen/">キッチンのお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_06"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/kitchen/">キッチンのお掃除</a><button aria-controls="footer-accordion_06" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_06">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/fan/">レンジフード・換気扇クリーニング</a></li>
@@ -2329,7 +2327,7 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/kitchen/dishwasher/">食器洗い乾燥機クリーニング</a></li>
 </ul>
 </div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/room/">お部屋のお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_07"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/room/">お部屋のお掃除</a><button aria-controls="footer-accordion_07" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_07">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/flooring/">フローリングクリーニング</a></li>
@@ -2339,15 +2337,13 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/wallpaper-dyeing/">壁紙染色</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/cloth/">壁紙クリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/glass/">ガラス・サッシクリーニング</a></li>
-
-
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/entrance/">玄関床クリーニング＆コーティング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/duct/">換気ダクトクリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/air-cleaner/">空気清浄機クリーニング</a></li>
 </ul>
 </div>
 <div class="c-footer-item-heading"><a class="link" href="/house-cleaning/coating/">コーティング</a></div>
-<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/others/">その他のお掃除</a><button class="c-footer-accordion__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_08"></button></div>
+<div class="c-footer-item-heading"><a class="link" href="/house-cleaning/others/">その他のお掃除</a><button aria-controls="footer-accordion_08" class="c-footer-accordion__trigger js-accordion-trigger" type="button"></button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_08">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/outerwall/">外壁手洗い洗浄</a></li>
@@ -2356,29 +2352,18 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/grave/">お墓のお掃除</a></li>
 </ul>
 </div>
-
-<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_09">ご利用ガイド</button></div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button aria-controls="footer-accordion_09" class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button">ご利用ガイド</button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_09">
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/about/">クリスタルクリーンホームのハウスクリーニングとは</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/beginner/">はじめての方へ</a></li>
-
-
-
-
 </ul>
 </div>
-
-
-
-
-<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button" aria-controls="footer-accordion_12">ビジネス・法人向け</button></div>
+<div class="c-footer-item-heading c-footer-global-links__item--sp-bg-gray"><button aria-controls="footer-accordion_12" class="c-footer-accordion__trigger c-footer-accordion-no-link__trigger js-accordion-trigger" type="button">ビジネス・法人向け</button></div>
 <div class="c-footer-accordion__content" id="footer-accordion_12">
 <ul class="c-footer-global-links">
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" aria-disabled="true">店舗・オフィスクリーニング</a></li>
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" aria-disabled="true">法人のお客様へ</a></li>
-
-
+<li class="c-footer-global-links__item"><a aria-disabled="true" class="c-footer-global-links__link">店舗・オフィスクリーニング</a></li>
+<li class="c-footer-global-links__item"><a aria-disabled="true" class="c-footer-global-links__link">法人のお客様へ</a></li>
 </ul>
 </div>
 </div>
@@ -2390,11 +2375,9 @@
 <p class="footer-tel-pc"><span class="c-demo-phone"><img src="/assets/images/footer/footer-phone-demo-pc.svg" alt="仮の電話番号 00-0000-0000。受付時間 9:00〜18:00"><button class="c-demo-phone__number" type="button" data-demo-dialog="" aria-label="仮の電話番号 00-0000-0000"></button></span></p>
 <div class="c-footer__top-nav c-footer-top-nav">
 <div class="c-footer-top-nav__item">
-<div class="c-footer-item-heading c-footer-item-heading-mb"><!-- <img class="c-flex-image c-footer-item-heading__icon" src="/assets/images/footer/footer-icon_01.webp" alt="" width="15" height="15" loading="eager"> --> <span class="c-footer-item-heading__text"><a aria-disabled="true">ハウスクリーニング</a></span><span class="c-pending-link__note">※ページ作成後、リンク設定の予定</span></div>
 <div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/aircon/">エアコンクリーニング</a></span></div>
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/wall/">壁掛けタイプエアコン</a></li>
-
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/aircon/ceil/">天井埋め込みタイプエアコン</a></li>
 </ul>
 <div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/pack/">パックサービス</a></span></div>
@@ -2435,42 +2418,26 @@
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/wallpaper-dyeing/">壁紙染色</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/cloth/">壁紙クリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/glass/">ガラス・サッシクリーニング</a></li>
-
-
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/entrance/">玄関床クリーニング＆コーティング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/duct/">換気ダクトクリーニング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/room/air-cleaner/">空気清浄機クリーニング</a></li>
 </ul>
-<div class="c-footer-item-heading c-footer-item-heading-mb"><span class="c-footer-item-heading__text"><a href="/house-cleaning/coating/">コーティング</a></span></div>
-<div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/others/">その他のお掃除</a></span></div>
-<ul class="c-footer-global-links">
+</div>
+<div class="c-footer-top-nav__item"><div class="c-footer-item-heading c-footer-item-heading-mb"><span class="c-footer-item-heading__text"><a href="/house-cleaning/coating/">コーティング</a></span></div><div class="c-footer-item-heading"><span class="c-footer-item-heading__text"><a href="/house-cleaning/others/">その他のお掃除</a></span></div><ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/outerwall/">外壁手洗い洗浄</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/photocatalyst/">光触媒抗菌コーティング</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/exterior/">ベランダ・外回り高圧洗浄</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/house-cleaning/others/grave/">お墓のお掃除</a></li>
 </ul>
-
-</div>
-<div class="c-footer-top-nav__item">
-<div class="c-footer-item-heading"><span class="c-footer-item-heading__text">ご利用ガイド</span></div>
+<div class="c-footer-item-heading c-aircon-footer__support-start"><span class="c-footer-item-heading__text">ご利用ガイド</span></div>
 <ul class="c-footer-global-links">
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/about/">クリスタルクリーンホームのハウスクリーニングとは</a></li>
 <li class="c-footer-global-links__item"><a class="c-footer-global-links__link" href="/beginner/">はじめての方へ</a></li>
-
-
-
-
 </ul>
-
-
-
-
 <div class="c-footer-item-heading"><span class="c-footer-item-heading__text">ビジネス・法人向け</span></div>
 <ul class="c-footer-global-links">
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" aria-disabled="true">店舗・オフィスクリーニング</a></li>
-<li class="c-footer-global-links__item"><a class="c-footer-global-links__link" aria-disabled="true">法人のお客様へ</a></li>
-
-
+<li class="c-footer-global-links__item"><a aria-disabled="true" class="c-footer-global-links__link">店舗・オフィスクリーニング</a></li>
+<li class="c-footer-global-links__item"><a aria-disabled="true" class="c-footer-global-links__link">法人のお客様へ</a></li>
 </ul>
 <ul class="c-footer-sns"><li class="c-footer-sns__item"><button class="c-footer-sns__link" type="button" data-demo-dialog="" aria-label="X（デモ）"><img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-x.png" alt="" width="40" height="40" loading="lazy"></button></li><li class="c-footer-sns__item"><button class="c-footer-sns__link" type="button" data-demo-dialog="" aria-label="Instagram（デモ）"><img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-instagram.png" alt="" width="40" height="40" loading="lazy"></button></li><li class="c-footer-sns__item"><button class="c-footer-sns__link" type="button" data-demo-dialog="" aria-label="TikTok（デモ）"><img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-tiktok.png" alt="" width="40" height="40" loading="lazy"></button></li><li class="c-footer-sns__item"><button class="c-footer-sns__link" type="button" data-demo-dialog="" aria-label="YouTube（デモ）"><img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-youtube.png" alt="" width="40" height="40" loading="lazy"></button></li><li class="c-footer-sns__item"><div class="translate-control"><button class="c-footer-sns__link translate-toggle" type="button" aria-expanded="false" aria-controls="translate-menu-footer-2" aria-label="表示言語を選択"><img class="c-flex-image c-flex-image--stretched c-footer-sns__image" src="/assets/images/common-parts/sns-icon/icon-translate.png" alt="" width="40" height="40" loading="lazy"></button><div id="translate-menu-footer-2" class="translate-menu" aria-hidden="true" inert><p>言語を選択</p><div id="google-translate-footer-2" class="google-translate-widget" data-google-translate></div><small>Google 翻訳でページ本文を切り替えます。</small></div></div></li></ul>
 </div>
@@ -2479,9 +2446,8 @@
 <div class="c-footer__bottom-nav c-footer-bottom-nav">
 <ul class="c-footer-bottom-nav__links c-footer-bottom-links">
 <li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/">Home</a></li>
-
 <li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="/policy/">プライバシーポリシー</a></li>
-<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" href="#" data-demo-dialog="">お問い合わせ</a></li>
+<li class="c-footer-bottom-links__item"><a class="c-footer-bottom-links__link" data-demo-dialog="" href="#">お問い合わせ</a></li>
 </ul>
 </div>
 </footer>

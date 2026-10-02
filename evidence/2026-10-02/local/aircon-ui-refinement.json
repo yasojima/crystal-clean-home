@@ -1,0 +1,3643 @@
+{
+  "local": true,
+  "baseline": {
+    "header": {
+      "x": 0,
+      "y": 0,
+      "width": 1425,
+      "height": 108,
+      "top": 0,
+      "right": 1425,
+      "bottom": 108,
+      "left": 0
+    },
+    "nav": {
+      "x": 202,
+      "y": 46,
+      "width": 1141,
+      "height": 40,
+      "top": 46,
+      "right": 1343,
+      "bottom": 86,
+      "left": 202
+    },
+    "contact": {
+      "x": 971.484375,
+      "y": 12,
+      "width": 371.515625,
+      "height": 28,
+      "top": 12,
+      "right": 1343,
+      "bottom": 40,
+      "left": 971.484375
+    },
+    "flow": {
+      "x": 172.5,
+      "y": 9504.421875,
+      "width": 1080,
+      "height": 494.484375,
+      "top": 9504.421875,
+      "right": 1252.5,
+      "bottom": 9998.90625,
+      "left": 172.5
+    },
+    "visual": {
+      "x": 178.09375,
+      "y": 9628.15625,
+      "width": 176,
+      "height": 132,
+      "top": 9628.15625,
+      "right": 354.09375,
+      "bottom": 9760.15625,
+      "left": 178.09375
+    },
+    "steps": [
+      {
+        "width": 187.1875,
+        "height": 370.75
+      },
+      {
+        "width": 187.203125,
+        "height": 370.75
+      },
+      {
+        "width": 187.203125,
+        "height": 370.75
+      },
+      {
+        "width": 187.203125,
+        "height": 370.75
+      },
+      {
+        "width": 187.1875,
+        "height": 370.75
+      }
+    ]
+  },
+  "results": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "header": {
+        "rect": {
+          "x": 813.5,
+          "y": 10,
+          "width": 497.5,
+          "height": 33.828125,
+          "top": 10,
+          "right": 1311,
+          "bottom": 43.828125,
+          "left": 813.5
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "nav": {
+          "x": 202,
+          "y": 46,
+          "width": 1141,
+          "height": 40,
+          "top": 46,
+          "right": 1343,
+          "bottom": 86,
+          "left": 202
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 40,
+            "height": 28,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 40,
+            "height": 28,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 220,
+            "height": 22.515625,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "80px",
+        "paddingBottom": "40px",
+        "height": 614.484375,
+        "contentHeight": 494.484375
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9773,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9777,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 10719,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    },
+    {
+      "width": 1920,
+      "height": 1000,
+      "header": {
+        "rect": {
+          "x": 1293.5,
+          "y": 10,
+          "width": 497.5,
+          "height": 33.828125,
+          "top": 10,
+          "right": 1791,
+          "bottom": 43.828125,
+          "left": 1293.5
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "nav": {
+          "x": 202,
+          "y": 46,
+          "width": 1621,
+          "height": 40,
+          "top": 46,
+          "right": 1823,
+          "bottom": 86,
+          "left": 202
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 40,
+            "height": 28,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 40,
+            "height": 28,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 220,
+            "height": 22.515625,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "80px",
+        "paddingBottom": "40px",
+        "height": 614.484375,
+        "contentHeight": 494.484375
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9792,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9796,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 10738,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "height": 800,
+      "header": {
+        "rect": {
+          "x": 542,
+          "y": 24.390625,
+          "width": 385,
+          "height": 28,
+          "top": 24.390625,
+          "right": 927,
+          "bottom": 52.390625,
+          "left": 542
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 24,
+          "y": -2.59375,
+          "width": 160,
+          "height": 82,
+          "top": -2.59375,
+          "right": 184,
+          "bottom": 79.40625,
+          "left": 24
+        },
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 32,
+            "height": 24,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 32,
+            "height": 24,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 174,
+            "height": 17.8125,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "80px",
+        "paddingBottom": "40px",
+        "height": 625.828125,
+        "contentHeight": 505.828125
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9991,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 9995,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 10923,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "header": {
+        "rect": {
+          "x": 286,
+          "y": 22,
+          "width": 385,
+          "height": 28,
+          "top": 22,
+          "right": 671,
+          "bottom": 50,
+          "left": 286
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 24,
+          "y": -5,
+          "width": 160,
+          "height": 82,
+          "top": -5,
+          "right": 184,
+          "bottom": 77,
+          "left": 24
+        },
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 32,
+            "height": 24,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 32,
+            "height": 24,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 174,
+            "height": 17.8125,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "80px",
+        "paddingBottom": "40px",
+        "height": 1031.234375,
+        "contentHeight": 911.234375
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 65,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 12563,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 12567,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 13529,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "header": {
+        "rect": {
+          "x": 12,
+          "y": 72,
+          "width": 351,
+          "height": 28,
+          "top": 72,
+          "right": 363,
+          "bottom": 100,
+          "left": 12
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 155,
+          "height": 72,
+          "top": 0,
+          "right": 167,
+          "bottom": 72,
+          "left": 12
+        },
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 24,
+            "height": 18,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 24,
+            "height": 18,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 140,
+            "height": 14.328125,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "64px",
+        "paddingBottom": "40px",
+        "height": 2015.96875,
+        "contentHeight": 1911.96875
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 13378,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 13382,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 14820,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "header": {
+        "rect": {
+          "x": 12,
+          "y": 72,
+          "width": 281,
+          "height": 28,
+          "top": 72,
+          "right": 293,
+          "bottom": 100,
+          "left": 12
+        },
+        "hours": "受付時間 9:00〜18:00\n年中無休（年末年始を除く）",
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 155,
+          "height": 72,
+          "top": 0,
+          "right": 167,
+          "bottom": 72,
+          "left": 12
+        },
+        "nav": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/payments/visa.webp",
+            "width": 18,
+            "height": 18,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/common-parts/payments/master-card.webp",
+            "width": 18,
+            "height": 18,
+            "loaded": true
+          },
+          {
+            "src": "/assets/images/footer/footer-phone-demo-pc.svg",
+            "width": 118,
+            "height": 12.078125,
+            "loaded": true
+          }
+        ]
+      },
+      "flow": {
+        "paddingTop": "64px",
+        "paddingBottom": "40px",
+        "height": 2007.203125,
+        "contentHeight": 1903.203125
+      },
+      "menu": [
+        {
+          "title": "エアコンクリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/aircon/wall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/aircon/ceil/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "パックサービス",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/pack/move/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/pack/entirety/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "水回りのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/water/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/pipe/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/ulblo/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/drier/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/water/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "洗濯機クリーニング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/washer/top/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/front/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/washer/side/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "キッチンのお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/kitchen/fan/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/rei/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/kitchen/dishwasher/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "お部屋のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/room/flooring/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/mattress/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/sofa/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/carpet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/wallpaper-dyeing/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/cloth/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/glass/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/entrance/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/duct/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/room/air-cleaner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "コーティング",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/coating/#coating01",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/bathroom/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/kitchen/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/toilet/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/lavatory/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/floor/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/uv-coating/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/coating/repair/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "その他のお掃除",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/house-cleaning/others/outerwall/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/photocatalyst/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/exterior/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/house-cleaning/others/grave/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ご利用ガイド",
+          "topBorder": "0px",
+          "links": [
+            {
+              "href": "/about/",
+              "height": 65,
+              "labelHeight": 42,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "/beginner/",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            },
+            {
+              "href": "#",
+              "height": 44,
+              "labelHeight": 21,
+              "centerError": 0,
+              "lineHeight": "21px",
+              "border": "1px",
+              "liBorder": "0px"
+            }
+          ]
+        },
+        {
+          "title": "ビジネス・法人向け",
+          "topBorder": "0px",
+          "links": []
+        }
+      ],
+      "positions": [
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 700,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 2000,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 4200,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 14531,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 14535,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        },
+        {
+          "scroll": 15860,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible is-footer-area",
+          "transform": "none",
+          "visibility": "hidden",
+          "opacity": "0",
+          "hit": false,
+          "footerVisible": true
+        },
+        {
+          "scroll": 0,
+          "right": 0,
+          "bottom": 0,
+          "classes": "c-floating-buttons is-visible",
+          "transform": "none",
+          "visibility": "visible",
+          "opacity": "1",
+          "hit": true,
+          "footerVisible": false
+        }
+      ],
+      "cartNavigation": true,
+      "errors": []
+    }
+  ]
+}

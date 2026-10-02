@@ -54,18 +54,18 @@ html {
 .c-header-contact {
   position: absolute;
   z-index: 130;
-  top: 12px;
-  right: 82px;
+  top: 10px;
+  right: 114px;
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1;
 }
 
 .c-header-contact__payment {
-  width: 34px;
-  height: 24px;
+  width: 40px;
+  height: 28px;
   object-fit: contain;
 }
 
@@ -83,17 +83,27 @@ html {
   white-space: nowrap;
 }
 
-.c-header-contact__phone .c-icon {
-  --size: 20px;
-  --bg-color: currentColor;
+.c-header-contact__number {
+  display: block;
+  width: 220px;
+  height: auto;
+  aspect-ratio: 625 / 64;
+  object-fit: cover;
+  object-position: left center;
 }
 
 .c-header-contact__hours {
+  display: grid;
+  gap: 2px;
   color: #20252b;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.3;
   white-space: nowrap;
+}
+
+.c-header-contact__days {
+  font-size: 11.5px;
 }
 
 .c-main-menu {
@@ -360,6 +370,7 @@ body.aircon-menu-open .c-header__navigation {
 
 .aircon-full-menu__body {
   min-width: 0;
+  align-self: center;
 }
 
 .aircon-full-menu__head .aircon-full-menu__category,
@@ -393,6 +404,7 @@ body.aircon-menu-open .c-header__navigation {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 24px;
+  border: 0;
 }
 
 .aircon-full-menu__body .c-aircon-details__image {
@@ -409,16 +421,20 @@ body.aircon-menu-open .c-header__navigation {
 
 .aircon-full-menu__body .c-aircon-details__item,
 .aircon-full-menu__body .c-menu-accordion-content__item {
+  display: flex;
   width: 100%;
   margin: 0;
   padding: 0;
   list-style: none;
+  border: 0;
 }
 
-.aircon-full-menu__body a {
+.aircon-full-menu__body a,
+.aircon-full-menu__body .c-site-menu-link:last-child {
   position: relative;
   box-sizing: border-box;
-  display: block;
+  display: flex;
+  align-items: center;
   width: 100%;
   min-height: 44px;
   padding: 11px 22px 11px 0;
@@ -431,6 +447,10 @@ body.aircon-menu-open .c-header__navigation {
   border: 0;
   border-bottom: 1px solid var(--aircon-menu-gray);
   transition: color .4s var(--aircon-menu-material);
+}
+
+.aircon-full-menu__body a::after {
+  content: none;
 }
 
 .aircon-full-menu__body a[href]::before {
@@ -490,6 +510,28 @@ body.aircon-menu-open .c-header__navigation {
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {
+  .c-header-contact {
+    right: 82px;
+    gap: 10px;
+  }
+
+  .c-header-contact__payment {
+    width: 32px;
+    height: 24px;
+  }
+
+  .c-header-contact__number {
+    width: 174px;
+  }
+
+  .c-header-contact__hours {
+    font-size: 11px;
+  }
+
+  .c-header-contact__days {
+    font-size: 9px;
+  }
+
   .aircon-full-menu__section {
     grid-template-columns: 180px minmax(0, 1fr);
     gap: 24px;
@@ -521,7 +563,7 @@ body.aircon-menu-open .c-header__navigation {
   }
 
   .c-header-contact__payment {
-    width: 26px;
+    width: 24px;
     height: 18px;
   }
 
@@ -530,12 +572,17 @@ body.aircon-menu-open .c-header__navigation {
     font-size: 14px;
   }
 
-  .c-header-contact__phone .c-icon {
-    --size: 16px;
+  .c-header-contact__number {
+    width: 140px;
   }
 
   .c-header-contact__hours {
-    font-size: 10px;
+    gap: 1px;
+    font-size: 9.5px;
+  }
+
+  .c-header-contact__days {
+    font-size: 8.5px;
   }
 
   .c-header__logo {
@@ -589,19 +636,23 @@ body.aircon-menu-open .c-header__navigation {
 
 @media (max-width: 360px) {
   .c-header-contact {
-    gap: 6px;
+    gap: 4px;
   }
 
   .c-header-contact__payment {
-    width: 22px;
+    width: 18px;
   }
 
-  .c-header-contact__phone {
-    font-size: 13px;
+  .c-header-contact__number {
+    width: 118px;
   }
 
   .c-header-contact__hours {
-    font-size: 9px;
+    font-size: 8px;
+  }
+
+  .c-header-contact__days {
+    font-size: 7.5px;
   }
 }
 

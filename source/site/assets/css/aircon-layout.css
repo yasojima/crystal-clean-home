@@ -6,6 +6,74 @@
   --section-curve-depth: clamp(28px, 4vw, 64px);
 }
 
+.c-service-page .c-floating-buttons[data-floating-fixed] {
+  right: 0;
+  bottom: 0;
+  transform: none;
+  transition: none;
+}
+
+.c-service-page .c-floating-buttons[data-floating-fixed].is-footer-area {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (min-width: 768px) {
+  .c-footer--aircon .footer-tel-pc {
+    width: calc(100% - 160px);
+    padding: 32px 0 20px;
+  }
+
+  .c-footer--aircon .c-footer__page-top {
+    top: 32px;
+    right: 24px;
+  }
+
+  .c-footer--aircon .c-footer__top-nav {
+    width: calc(100% - 80px);
+    padding: 0 0 24px;
+    gap: 40px;
+  }
+
+  .c-footer--aircon .c-footer-global-links {
+    padding-block: 6px 14px;
+  }
+
+  .c-footer--aircon .c-footer-global-links__item {
+    font-size: 12px;
+    line-height: 1.6;
+  }
+
+  .c-footer--aircon .c-aircon-footer__support-start {
+    margin-top: auto;
+  }
+
+  .c-footer--aircon .c-footer-sns {
+    margin-top: 16px;
+    column-gap: 24px;
+  }
+
+  .c-footer--aircon .c-footer__bottom-nav {
+    padding: 12px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .c-footer--aircon .c-footer__top-nav {
+    gap: 24px;
+  }
+
+  .c-footer--aircon .c-footer-sns {
+    column-gap: 12px;
+  }
+
+  .c-footer--aircon .c-footer-sns__image {
+    width: 28px;
+    height: 28px;
+  }
+}
+
 .c-service-page .c-compare-image .icv__label {
   transform: none;
   transition: none;
@@ -289,6 +357,17 @@
 
 .c-service-page #service-faq {
   --faq-accent: #5b9fcd;
+}
+
+.c-service-page #service-flow {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 767.98px) {
+  .c-service-page #service-flow {
+    padding-top: 64px;
+  }
 }
 
 .c-howto-container {

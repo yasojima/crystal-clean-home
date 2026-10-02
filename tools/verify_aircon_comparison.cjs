@@ -6,7 +6,7 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
   const ctx=await browser.newContext({viewport:{width,height:width<768?844:800},hasTouch:width<768});
   const page=await ctx.newPage(), errors=[];page.on('pageerror',e=>errors.push(e.message));
   if(local)await page.route('https://yasojima.github.io/**',async route=>{let rel=decodeURIComponent(new URL(route.request().url()).pathname);if(rel.endsWith('/'))rel+='index.html';const file=path.join(root,rel);if(fs.existsSync(file)&&fs.statSync(file).isFile())return route.fulfill({path:file});return route.continue();});
-  await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100247',{waitUntil:'networkidle'});
+  await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100248',{waitUntil:'networkidle'});
   await page.evaluate(()=>document.fonts.ready);
   const capture=async selector=>{await page.locator(selector).evaluate(e=>scrollTo(0,e.getBoundingClientRect().top+scrollY-160));await page.waitForTimeout(700);await page.locator(selector+' img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode().catch(()=>{}))));};
   const photoSources=await page.locator('#product1 .c-lineup-card__image img,#product2 .c-lineup-card__image img,#product3 .c-lineup-card__image img').evaluateAll(imgs=>imgs.map(i=>i.getAttribute('src')));
@@ -32,10 +32,10 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
    }
    tabs.push({i,positions});
   }
-  const cart=[];for(const y of [0,900,1800,3500,5500,8000]){
+  const cart=[];for(const y of [0,900,1800,3500,5500,8000,99999,0]){
    await page.evaluate(y=>scrollTo(0,y),y);await page.waitForTimeout(650);
-   const state=await page.locator('#js-floating').evaluate(e=>{const r=e.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return {y:scrollY,classes:e.className,r:r.toJSON(),inside:r.x>=0&&r.right<=innerWidth&&r.bottom<=innerHeight,hit:hit&&e.contains(hit)};});
-   if(y>=900){assert(state.inside,JSON.stringify(state));assert(state.hit,JSON.stringify(state));}cart.push(state);
+   const state=await page.locator('#js-floating').evaluate(e=>{const r=e.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return {y:scrollY,classes:e.className,r:r.toJSON(),inside:r.x>=0&&r.right<=innerWidth&&r.bottom<=innerHeight,pinned:Math.abs(r.right-document.documentElement.getBoundingClientRect().right)<.5&&Math.abs(r.bottom-innerHeight)<.5,hit:hit&&e.contains(hit)};});
+   assert(state.inside,JSON.stringify(state));assert.equal(Boolean(state.hit),!state.classes.includes("is-footer-area"),JSON.stringify(state));assert(state.pinned,JSON.stringify(state));cart.push(state);
   }
   await page.locator('#js-floating a').click();await page.waitForURL('**/cart/**');assert(new URL(page.url()).pathname==='/cart/');
   await page.goBack({waitUntil:'networkidle'});

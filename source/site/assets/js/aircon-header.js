@@ -43,13 +43,18 @@
     }
     const phone = footerPhone.querySelector('button, a[href]').cloneNode(false);
     phone.className = 'c-header-contact__phone';
-    const phoneIcon = document.createElement('span');
-    phoneIcon.className = 'c-icon c-icon--phone';
-    phoneIcon.setAttribute('aria-hidden', 'true');
-    phone.append(phoneIcon, document.createTextNode(contactDetails[1]));
+    const phoneImage = footerPhone.querySelector('img').cloneNode(false);
+    phoneImage.className = 'c-header-contact__number';
+    phoneImage.alt = phone.getAttribute('aria-label') || contactDetails[1];
+    phone.append(phoneImage);
     const hours = document.createElement('span');
     hours.className = 'c-header-contact__hours';
-    hours.textContent = `受付時間 ${contactDetails[2]}`;
+    const time = document.createElement('span');
+    time.textContent = `受付時間 ${contactDetails[2]}`;
+    const days = document.createElement('span');
+    days.className = 'c-header-contact__days';
+    days.textContent = '年中無休（年末年始を除く）';
+    hours.append(time, days);
     contact.append(phone, hours);
     header.append(contact);
   }
@@ -118,7 +123,12 @@
     fullMenuSection('guide', guideHeading, guideLinks),
     fullMenuSection('business', businessHeading, businessLinks),
   );
-  menu.querySelectorAll('.aircon-full-menu__body a[href]').forEach(link => link.append(arrow('right')));
+  menu.querySelectorAll('.aircon-full-menu__body a[href]').forEach(link => {
+    const label = document.createElement('span');
+    label.className = 'aircon-full-menu__label';
+    label.append(...link.childNodes);
+    link.replaceChildren(label, arrow('right'));
+  });
 
   button.setAttribute('aria-controls', menu.id);
   button.setAttribute('aria-expanded', 'false');

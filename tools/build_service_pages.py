@@ -6,6 +6,7 @@ import hashlib
 import json
 import re
 from bs4 import BeautifulSoup
+from apply_site_identity import transform as apply_site_identity
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -548,6 +549,30 @@ def decorate_aircon_sections(main):
     add_section_curve(main.select_one('#service-flow').find_next_sibling('section'), 'down', '#fff')
 
 
+def refine_aircon_footer(output):
+    def replace_footer(match):
+        footer = parse(match.group()).select_one('footer')
+        footer['class'] = list(dict.fromkeys(footer.get('class', []) + ['c-footer--aircon']))
+        for note in footer.select('.c-pending-link__note'):
+            note.find_parent(class_='c-footer-item-heading').decompose()
+        columns = footer.select('.u-pc-only .c-footer-top-nav__item')
+        moved = []
+        for category in ('coating', 'others'):
+            heading = columns[0].parent.select_one(f'.c-footer-item-heading a[href="/house-cleaning/{category}/"]').find_parent(class_='c-footer-item-heading')
+            links = heading.find_next_sibling()
+            moved.append(heading.extract())
+            if links and 'c-footer-global-links' in links.get('class', []):
+                moved.append(links.extract())
+        for index, element in enumerate(moved):
+            columns[2].insert(index, element)
+        guide = columns[2].select_one('a[href="/about/"]').find_parent('ul').find_previous_sibling(class_='c-footer-item-heading')
+        guide['class'] = list(dict.fromkeys(guide.get('class', []) + ['c-aircon-footer__support-start']))
+        return re.sub(r'>\s+<', '>\n<', str(footer))
+
+    output = re.sub(r'<footer\b[^>]*>.*?</footer>', replace_footer, output, count=1, flags=re.S)
+    return apply_site_identity(output, True)
+
+
 def render(route, page, catalogue, copy):
     path = SITE / 'house-cleaning' / route / 'index.html'
     original = path.read_text(encoding='utf-8')
@@ -570,11 +595,13 @@ def render(route, page, catalogue, copy):
         hero.append(check)
     nav = navigation(page,primary,page['category'],copy)
     if route == 'aircon':
-        first_view = tag('div', 'c-first-view', **{'data-floating-visibility-trigger': ''})
+        first_view = tag('div', 'c-first-view')
         first_view.append(hero)
         first_view.append(nav)
         main.append(first_view)
-        main.append(template('floating'))
+        floating = template('floating')
+        floating['data-floating-fixed'] = ''
+        main.append(floating)
     else:
         main.append(hero); main.append(template('floating'))
         main.append(nav)
@@ -625,6 +652,7 @@ def render(route, page, catalogue, copy):
     if route == 'aircon':
         output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
                         '\n', output, count=1, flags=re.S)
+        output = refine_aircon_footer(output)
     css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
@@ -638,9 +666,9 @@ def render(route, page, catalogue, copy):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100247', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100246">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100246" defer></script>'
+        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100248', output)
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100248">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100248" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -657,7 +685,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100247">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100248">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
