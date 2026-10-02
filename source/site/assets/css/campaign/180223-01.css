@@ -58,12 +58,16 @@ button:focus {
   color: #2076d6;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .c-menu-accordion__link:hover {
   color: inherit;
 }
+}
 
+@media (hover: hover) and (pointer: fine) {
 .c-bold-links__link:hover {
   color: #fff;
+}
 }
 
 .c-menu-accordion__heading {
@@ -74,8 +78,10 @@ button:focus {
   font-size: 1.2rem;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .c-site-menu-link--gray:hover {
   color: #666;
+}
 }
 
 /* フッター */
@@ -128,12 +134,16 @@ screen and (min-width: 768px) {
     font-size: 1.2rem;
   }
 
-  .c-footer-global-links a:hover {
+  @media (hover: hover) and (pointer: fine) {
+.c-footer-global-links a:hover {
     color: inherit;
   }
+}
 
 }
 
+@media (hover: hover) and (pointer: fine) {
 .c-footer-bottom-links__link:hover {
   color: #fff;
+}
 }

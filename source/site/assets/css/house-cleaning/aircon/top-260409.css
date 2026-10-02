@@ -297,10 +297,12 @@
     align-items: center;
   }
 
-  .ac-atl .c-grid .c-feature a:hover {
+  @media (hover: hover) and (pointer: fine) {
+.ac-atl .c-grid .c-feature a:hover {
     opacity: .8;
     transition: opacity .3s;
   }
+}
 
   .ac-atl .c-grid .c-feature img {
     width: 96px;

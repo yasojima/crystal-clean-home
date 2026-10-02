@@ -604,9 +604,11 @@ screen and (min-width: 768px) {
   border: solid 1px #ed0e42;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .info-request-border__button:hover {
   color: #fff;
   background-color: #ed0e42;
+}
 }
 
 .c-button-border__icon {
@@ -934,10 +936,12 @@ screen and (max-width: 1299px) {
 
 }
 
+@media (hover: hover) and (pointer: fine) {
 .c-header__cv ul li .c-header__inquiry-link:hover {
   opacity: .75;
   /* color: #ed0e42;
   background-color: #fff; */
+}
 }
 
 .c-header__cv ul li .c-header__request-link {
@@ -945,10 +949,12 @@ screen and (max-width: 1299px) {
   background-color: #fff;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .c-header__cv ul li .c-header__request-link:hover {
   opacity: .75;
   /* color: #fff;
   background-color: #ed0e42; */
+}
 }
 
 .c-button--fill-red .c-button__icon {

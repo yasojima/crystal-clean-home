@@ -1,10 +1,15 @@
 
-.c-search-field__input:-webkit-autofill,
-.c-search-field__input:-webkit-autofill:hover,
-.c-search-field__input:-webkit-autofill:focus {
+.c-search-field__input:-webkit-autofill, .c-search-field__input:-webkit-autofill:focus{
   -webkit-text-fill-color: #333; /* 好きな文字色 */
   box-shadow: 0 0 0px 1000px #fff inset; /* 背景上書き */
   transition: background-color 9999s ease-in-out 0s;
+}
+@media (hover: hover) and (pointer: fine) {
+.c-search-field__input:-webkit-autofill:hover{
+  -webkit-text-fill-color: #333; /* 好きな文字色 */
+  box-shadow: 0 0 0px 1000px #fff inset; /* 背景上書き */
+  transition: background-color 9999s ease-in-out 0s;
+}
 } 
 
 @media print,

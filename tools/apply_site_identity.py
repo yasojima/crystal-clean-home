@@ -182,8 +182,8 @@ def transform(text: str, is_html: bool) -> str:
     text = re.sub(r'<p class="footer-tel-pc">.*?</p>',
                   '<p class="footer-tel-pc">' + FOOTER_PHONE_MARKUP.format(size='pc') + '</p>',
                   text, flags=re.S)
-    text = text.replace('<p class="footer-tel-btn"><a href="#" data-demo-dialog="">今すぐ電話する</a></p>',
-                        '<p class="footer-tel-btn"><a href="#" data-demo-dialog="">電話窓口について</a></p>')
+    text = text.replace('<p class="footer-tel-btn"><a href="#" data-demo-dialog="">電話窓口について</a></p>',
+                        '<p class="footer-tel-btn"><a href="#" data-demo-dialog="">今すぐ電話する</a></p>')
     text = LINK.sub(replace_link, text)
     text = re.sub(r'href=\\"https?://(?:twitter\.com/osoujihonpo|x\.com/osoujihonpo|'
                   r'(?:www\.)?facebook\.com/osoujihonpo|(?:www\.)?instagram\.com/osoujihonpo|'

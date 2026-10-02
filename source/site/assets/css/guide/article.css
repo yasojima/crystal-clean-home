@@ -337,10 +337,12 @@ screen and (min-width: 768px) {
 .article__main .guide__sns-area .x-follow-button img{
   margin-right: 5px;
 }
+@media (hover: hover) and (pointer: fine) {
 .article__main .guide__sns-area .x-follow-button:hover{
   color: #fff!important;
   transition: opacity .3s;
   opacity: .75;
+}
 }
 
 

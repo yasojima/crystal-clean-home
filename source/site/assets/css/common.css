@@ -1,3 +1,12 @@
+/* Keep touch feedback consistent across every service page without changing mouse hover. */
+@media (hover: none) and (pointer: coarse) {
+  *,
+  *::before,
+  *::after {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
 .icv {
   position: relative;
   overflow: hidden;
@@ -191,8 +200,10 @@
   transition: .25s cubic-bezier(0.68, 0.26, 0.58, 1.22)
 }
 
+@media (hover: hover) and (pointer: fine) {
 .icv:hover .icv__label.on-hover {
   transform: scale(1)
+}
 }
 
 .icv__label-before {
@@ -3037,9 +3048,11 @@ screen and (min-width: 768px) {
     color: #007bff;
   }
 
-  .c-text a.c-text-inner-link:hover {
+  @media (hover: hover) and (pointer: fine) {
+.c-text a.c-text-inner-link:hover {
     opacity: .75;
   }
+}
 
 }
 
@@ -3053,9 +3066,11 @@ screen and (min-width: 768px) {
     color: #007bff;
   }
 
-  .c-text a.c-text-inner-link:hover {
+  @media (hover: hover) and (pointer: fine) {
+.c-text a.c-text-inner-link:hover {
     opacity: .75;
   }
+}
 
 }
 
@@ -15686,8 +15701,10 @@ screen and (min-width: 768px) {
   width: fit-content
 }
 
+@media (hover: hover) and (pointer: fine) {
 a.c-site-menu-sns__link:hover {
   opacity: .8;
+}
 }
 
 .c-footer {

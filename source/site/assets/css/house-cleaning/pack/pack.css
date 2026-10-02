@@ -122,8 +122,10 @@
   margin-right: 2.5vw;
 }
 
+@media (hover: hover) and (pointer: fine) {
 .l-section--anchor li a:hover {
   opacity: .75;
+}
 }
 
 .cp-note {
