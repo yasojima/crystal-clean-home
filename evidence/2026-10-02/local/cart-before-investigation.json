@@ -1,0 +1,394 @@
+[
+  {
+    "y": 0,
+    "rect": {
+      "x": 1425,
+      "y": 663,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 600,
+    "rect": {
+      "x": 1425,
+      "y": 663,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 1400,
+    "rect": {
+      "x": 1425,
+      "y": 663,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 3000,
+    "rect": {
+      "x": 1425,
+      "y": 515,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons is-apply-area",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 5000,
+    "rect": {
+      "x": 1425,
+      "y": 515,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons is-apply-area",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 9000,
+    "rect": {
+      "x": 1425,
+      "y": 663,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  },
+  {
+    "y": 10921,
+    "rect": {
+      "x": 1425,
+      "y": 663,
+      "w": 280,
+      "h": 105
+    },
+    "style": {
+      "visibility": "visible",
+      "opacity": "1",
+      "display": "flex"
+    },
+    "parents": [
+      {
+        "tag": "DIV",
+        "c": "c-floating-buttons is-footer-area",
+        "z": "30",
+        "pos": "fixed",
+        "transform": "matrix(1, 0, 0, 1, 280, 0)",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "MAIN",
+        "c": "c-service-page",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "BODY",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      },
+      {
+        "tag": "HTML",
+        "c": "",
+        "z": "auto",
+        "pos": "static",
+        "transform": "none",
+        "overflow": "visible",
+        "isolation": "auto",
+        "opacity": "1"
+      }
+    ]
+  }
+]

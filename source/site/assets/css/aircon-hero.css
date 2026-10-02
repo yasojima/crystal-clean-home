@@ -13,13 +13,17 @@
   mask-repeat: no-repeat;
 }
 
+.c-first-view {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  height: calc(min(100svh, 800px) - var(--aircon-header-height) - 24px);
+}
+
 .c-house-cleaning-mv--check {
-  --hero-bottom-gap: 24px;
-  --hero-viewport-height: min(100svh, 800px);
-  --hero-height: calc(var(--hero-viewport-height) - var(--aircon-header-height) - var(--hero-bottom-gap));
   display: flex;
   align-items: center;
-  height: var(--hero-height);
+  min-height: 0;
+  height: 100%;
   padding-block: 0 var(--hero-projection);
 }
 
@@ -34,11 +38,11 @@
 }
 
 .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
-  width: min(55%, calc((var(--hero-height) - var(--hero-projection) - 2 * clamp(16px, calc(var(--hero-viewport-height) * .04), 40px)) * 1.5));
-  height: auto;
+  width: 55%;
+  height: calc(100% - var(--hero-projection) - 32px);
   top: calc((100% - var(--hero-projection)) / 2);
-  object-fit: contain;
-  object-position: right center;
+  object-fit: cover;
+  object-position: right 40%;
   transform: translateY(-50%);
 }
 

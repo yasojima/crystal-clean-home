@@ -1,0 +1,17 @@
+{
+  "1": {
+    "type": "wall",
+    "before": "/assets/images/service-scenes/aircon-wall-before.png",
+    "after": "/assets/images/service-scenes/aircon-wall-after.png"
+  },
+  "2": {
+    "type": "automatic",
+    "before": "/assets/images/service-scenes/aircon-automatic-before.png",
+    "after": "/assets/images/service-scenes/aircon-automatic-after.png"
+  },
+  "3": {
+    "type": "ceiling",
+    "before": "/assets/images/service-scenes/aircon-ceiling-before.png",
+    "after": "/assets/images/service-scenes/aircon-ceiling-after.png"
+  }
+}

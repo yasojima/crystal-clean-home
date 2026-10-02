@@ -1,0 +1,70 @@
+{
+  "verified_at": "2026-10-02T06:18:53.310437+00:00",
+  "pages_commit": "91ccd6fa277e2a2cb744da631163605ce241ea19",
+  "run": 36972796491,
+  "checks": [
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "bytes": 11447,
+      "sha256": "6caf0f1b2cb8da47839ae0aea19d557bfcacd6bd071674e2329bcc4dcd882a35",
+      "matches": true
+    },
+    {
+      "path": "assets/js/common.js",
+      "status": 200,
+      "bytes": 100050,
+      "sha256": "ff6a1d71cc871505208da34e09bf66cd6abc742b759651b545c419c6e5cdaf48",
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "bytes": 178934,
+      "sha256": "329088ea976c1a8b0e5cfb478b2fbc3c2a31192f0358124d3695a119c189102e",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-automatic-after.png",
+      "status": 200,
+      "bytes": 2434229,
+      "sha256": "41bfaf89df5f86c08fca2791196e21760fc052c97a067e1da016f7cbaed36815",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-automatic-before.png",
+      "status": 200,
+      "bytes": 2714424,
+      "sha256": "3b1f1fc86c89382ada46e7b7214c93c084ba75ef3c2d7819e1e451e634810079",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-ceiling-after.png",
+      "status": 200,
+      "bytes": 2518363,
+      "sha256": "f296f4c437302416371871a7782e6307b1e968274a5928901a108106fcabad9a",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-ceiling-before.png",
+      "status": 200,
+      "bytes": 2654325,
+      "sha256": "afff828a93baf5d2b74a0b394b46fca1200209de4deb9fb9fe60f2bff283d2f5",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-wall-after.png",
+      "status": 200,
+      "bytes": 2461959,
+      "sha256": "4c32290e678a8376c7f61416d155245283b52c0e85b623db9af69d661cb3a7b8",
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-scenes/aircon-wall-before.png",
+      "status": 200,
+      "bytes": 2857608,
+      "sha256": "f6f203079c96edc03e4e832afbe2138023b53a0ad23529814a4803b613a8ba7f",
+      "matches": true
+    }
+  ]
+}

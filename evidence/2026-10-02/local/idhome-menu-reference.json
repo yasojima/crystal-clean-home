@@ -1,0 +1,227 @@
+[
+  {
+    "html": "<a href=\"/business\" class=\"l-header__mega-wrapper\">\n\t\t\t\t\t\t\t\t<p class=\"l-header__mega-en\">Our Business</p>\n\t\t\t\t\t\t\t\t<p class=\"l-header__mega-title\">\n\t\t\t\t\t\t\t\t\t<span>事業紹介</span>\n\t\t\t\t\t\t\t\t\t<svg width=\"16\" height=\"16\">\n\t\t\t\t\t\t\t\t\t\t<use xlink:href=\"https://idhome.co.jp/cms/wp-content/themes/idhome_theme/img/common/icon/symbol.svg#arrow-right\"></use>\n\t\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t\t</p>\n\t\t\t\t\t\t\t</a>",
+    "styles": [
+      {
+        "tag": "A",
+        "cls": "l-header__mega-wrapper",
+        "text": "\n\t\t\t\t\t\t\t\tOur Business\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "28.8px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header__mega-en",
+        "text": "Our Business",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "16px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header__mega-title",
+        "text": "\n\t\t\t\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "事業紹介",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      }
+    ]
+  },
+  {
+    "html": "<a href=\"/business\" class=\"l-header-menu__wrapper\">\n\t\t\t\t\t<p class=\"l-header-menu__en\">Our Business</p>\n\t\t\t\t\t<p class=\"l-header-menu__title\">\n\t\t\t\t\t\t<span>事業紹介</span>\n\t\t\t\t\t\t<svg width=\"16\" height=\"16\">\n\t\t\t\t\t\t\t<use xlink:href=\"https://idhome.co.jp/cms/wp-content/themes/idhome_theme/img/common/icon/symbol.svg#arrow-right\"></use>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</p>\n\t\t\t\t</a>",
+    "styles": [
+      {
+        "tag": "A",
+        "cls": "l-header-menu__wrapper",
+        "text": "\n\t\t\t\t\tOur Business\n\t\t\t\t\t\n\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "28.8px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header-menu__en",
+        "text": "Our Business",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "16px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header-menu__title",
+        "text": "\n\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "事業紹介",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      }
+    ]
+  },
+  {
+    "html": "<a href=\"/lineup\" class=\"l-header-menu__wrapper\">\n\t\t\t\t\t<p class=\"l-header-menu__en\">What We Do</p>\n\t\t\t\t\t<p class=\"l-header-menu__title\">\n\t\t\t\t\t\t<span>商品ラインナップ</span>\n\t\t\t\t\t\t<svg width=\"16\" height=\"16\">\n\t\t\t\t\t\t\t<use xlink:href=\"https://idhome.co.jp/cms/wp-content/themes/idhome_theme/img/common/icon/symbol.svg#arrow-right\"></use>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</p>\n\t\t\t\t</a>",
+    "styles": [
+      {
+        "tag": "A",
+        "cls": "l-header-menu__wrapper",
+        "text": "\n\t\t\t\t\tWhat We Do\n\t\t\t\t\t\n\t\t\t\t\t\t商品ラインナップ\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "28.8px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header-menu__en",
+        "text": "What We Do",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "16px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "P",
+        "cls": "l-header-menu__title",
+        "text": "\n\t\t\t\t\t\t商品ラインナップ\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "商品ラインナップ",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "24px",
+        "line": "38.4px",
+        "spacing": "normal"
+      }
+    ]
+  },
+  {
+    "html": "<a href=\"/business\" class=\"l-header-drawer__section-wrapper\">\n\t\t\t\t\t<span class=\"l-header-drawer__section-en\">Our Business</span>\n\t\t\t\t\t<span class=\"l-header-drawer__section-title\">\n\t\t\t\t\t\t<span>事業紹介</span>\n\t\t\t\t\t\t<svg width=\"16\" height=\"16\">\n\t\t\t\t\t\t\t<use xlink:href=\"https://idhome.co.jp/cms/wp-content/themes/idhome_theme/img/common/icon/symbol.svg#arrow-right\"></use>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</span>\n\t\t\t\t</a>",
+    "styles": [
+      {
+        "tag": "A",
+        "cls": "l-header-drawer__section-wrapper",
+        "text": "\n\t\t\t\t\tOur Business\n\t\t\t\t\t\n\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "28.8px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "l-header-drawer__section-en",
+        "text": "Our Business",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "12px",
+        "line": "12px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "l-header-drawer__section-title",
+        "text": "\n\t\t\t\t\t\t事業紹介\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "16px",
+        "line": "25.6px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "事業紹介",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "16px",
+        "line": "25.6px",
+        "spacing": "normal"
+      }
+    ]
+  },
+  {
+    "html": "<a href=\"/lineup\" class=\"l-header-drawer__section-wrapper\">\n\t\t\t\t\t<span class=\"l-header-drawer__section-en\">What We Do</span>\n\t\t\t\t\t<span class=\"l-header-drawer__section-title\">\n\t\t\t\t\t\t<span>商品ラインナップ</span>\n\t\t\t\t\t\t<svg width=\"16\" height=\"16\">\n\t\t\t\t\t\t\t<use xlink:href=\"https://idhome.co.jp/cms/wp-content/themes/idhome_theme/img/common/icon/symbol.svg#arrow-right\"></use>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</span>\n\t\t\t\t</a>",
+    "styles": [
+      {
+        "tag": "A",
+        "cls": "l-header-drawer__section-wrapper",
+        "text": "\n\t\t\t\t\tWhat We Do\n\t\t\t\t\t\n\t\t\t\t\t\t商品ラインナップ\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "16px",
+        "line": "28.8px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "l-header-drawer__section-en",
+        "text": "What We Do",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "400",
+        "size": "12px",
+        "line": "12px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "l-header-drawer__section-title",
+        "text": "\n\t\t\t\t\t\t商品ラインナップ\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "16px",
+        "line": "25.6px",
+        "spacing": "normal"
+      },
+      {
+        "tag": "SPAN",
+        "cls": "",
+        "text": "商品ラインナップ",
+        "font": "\"Noto Sans JP\", sans-serif",
+        "weight": "500",
+        "size": "16px",
+        "line": "25.6px",
+        "spacing": "normal"
+      }
+    ]
+  }
+]

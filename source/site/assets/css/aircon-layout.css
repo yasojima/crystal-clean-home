@@ -6,6 +6,17 @@
   --section-curve-depth: clamp(28px, 4vw, 64px);
 }
 
+.c-service-page .c-compare-image .icv__label {
+  transform: none;
+  transition: none;
+  pointer-events: none;
+  background: rgba(0, 0, 0, .6);
+}
+
+.c-aircon-comparison-note {
+  margin-top: 8px;
+}
+
 .c-curved-section {
   isolation: isolate;
 }
@@ -102,20 +113,24 @@
 
 .c-service-page .recommend-plan__heading::before,
 .c-service-page .recommend-plan__heading::after {
-  box-sizing: border-box;
-  flex: 0 0 14px;
-  height: 56px;
-  border: 0 solid currentColor;
-  border-radius: 50%;
-  content: "";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 18px;
+  height: 52px;
+  font-family: Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1;
+  transform: translateY(-2px);
 }
 
 .c-service-page .recommend-plan__heading::before {
-  border-left-width: 1.5px;
+  content: "(";
 }
 
 .c-service-page .recommend-plan__heading::after {
-  border-right-width: 1.5px;
+  content: ")";
 }
 
 .c-bracket-heading__text {
@@ -130,14 +145,16 @@
 
   .c-service-page .recommend-plan__heading::before,
   .c-service-page .recommend-plan__heading::after {
-    flex-basis: 12px;
+    flex-basis: 20px;
     height: 64px;
+    font-size: 60px;
   }
 }
 
 .c-service-page .p-page-anchors__heading {
   padding-bottom: 0;
   border-bottom: 0;
+  text-wrap: balance;
 }
 
 .c-service-page .p-page-anchors__cards {
@@ -272,6 +289,144 @@
 
 .c-service-page #service-faq {
   --faq-accent: #5b9fcd;
+}
+
+.c-howto-container {
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+.c-howto {
+  --howto-gap: 36px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: var(--howto-gap);
+}
+
+.c-howto .c-howto__item {
+  min-width: 0;
+  margin-top: 0;
+}
+
+.c-howto__visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 176px;
+  aspect-ratio: 4 / 3;
+  margin-inline: auto;
+  border-radius: 14px;
+  background: #005bac;
+  box-shadow: 0 5px 14px rgb(31 114 208 / 16%);
+}
+
+.c-howto__icon {
+  --size: 64px;
+  --bg-color: #fff;
+}
+
+.c-howto__step {
+  position: relative;
+  margin: 20px 0 14px;
+  color: #264574;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.c-howto__step-label {
+  display: inline-block;
+  padding-bottom: 4px;
+  border-bottom: 1px solid currentColor;
+}
+
+.c-howto__number {
+  font-size: 24px;
+}
+
+.c-howto__item:not(:last-child) .c-howto__step::after {
+  position: absolute;
+  top: 50%;
+  right: calc(var(--howto-gap) / -2 - 6px);
+  width: 12px;
+  height: 22px;
+  background: #264574;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  transform: translateY(-50%);
+  content: "";
+}
+
+.c-howto__heading {
+  min-height: 3.2em;
+  margin-bottom: 10px;
+  color: #005bac;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.c-howto__description {
+  color: #000;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+@media (min-width: 1200px) {
+  .c-howto__heading {
+    min-height: 0;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1023.98px) {
+  .c-howto {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 48px 20px;
+    --howto-gap: 20px;
+  }
+
+  .c-howto__item {
+    grid-column: span 2;
+  }
+
+  .c-howto__item:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .c-howto__item:nth-child(3) .c-howto__step::after {
+    content: none;
+  }
+}
+
+@media (max-width: 599.98px) {
+  .c-howto {
+    grid-template-columns: minmax(0, 300px);
+    justify-content: center;
+    row-gap: 56px;
+  }
+
+  .c-howto__heading {
+    min-height: 0;
+  }
+
+  .c-howto__item:not(:last-child)::after {
+    position: absolute;
+    bottom: -38px;
+    left: calc(50% - 10px);
+    width: 20px;
+    height: 11px;
+    background: #264574;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    content: "";
+  }
+
+  .c-howto__item:not(:last-child) .c-howto__step::after {
+    content: none;
+  }
 }
 
 .c-service-page #service-faq .c-faq-accordion__item + .c-faq-accordion__item {

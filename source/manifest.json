@@ -1791,9 +1791,10 @@
       "effective_url": "https://www.osoujihonpo.com/assets/js/common.js",
       "status": 200,
       "content_type": "application/javascript",
-      "bytes": 99938,
-      "sha256": "96fc3b31508873288c197348a1064f39495bc168d1941c4e54694988bd02781d",
-      "retrieved_at": "2026-09-30T16:59:35.631951+00:00"
+      "bytes": 100050,
+      "sha256": "ff6a1d71cc871505208da34e09bf66cd6abc742b759651b545c419c6e5cdaf48",
+      "retrieved_at": "2026-09-30T16:59:35.631951+00:00",
+      "source_sha256": "96fc3b31508873288c197348a1064f39495bc168d1941c4e54694988bd02781d"
     },
     "https://www.osoujihonpo.com/assets/js/top.js?260210": {
       "path": "assets/js/top.js",
@@ -2995,8 +2996,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 178057,
-      "sha256": "5d939f819146e0ecbbb5478c39708341d551e6672e98ecc6ea5c8d7bbe8acf15",
+      "bytes": 178934,
+      "sha256": "329088ea976c1a8b0e5cfb478b2fbc3c2a31192f0358124d3695a119c189102e",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5568,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 178057,
-      "sha256": "5d939f819146e0ecbbb5478c39708341d551e6672e98ecc6ea5c8d7bbe8acf15",
+      "bytes": 178934,
+      "sha256": "329088ea976c1a8b0e5cfb478b2fbc3c2a31192f0358124d3695a119c189102e",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13143,8 +13144,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 9952,
-      "sha256": "4e2861b88e4b818b09f7487884ed3f75e91be20d06e86f8ae40726488b1e2b06"
+      "bytes": 11879,
+      "sha256": "933c76f07e81f88b6547f95c01292b33b899dc5f5bb6d1cee5cb31b1809930f1"
     },
     "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
       "path": "assets/js/aircon-header.js",
@@ -13152,8 +13153,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-service-page",
-      "bytes": 9309,
-      "sha256": "e507c17f90e2ddafec15ca566bb1073a23eb95f01191cfa1dd9604ed883377c1"
+      "bytes": 10932,
+      "sha256": "48863b2ebd26e3183adf344cc4ecfba233d7c88d17976cbddab6deaf7cfc73ba"
     },
     "https://www.osoujihonpo.com/assets/css/aircon-hero.css": {
       "path": "assets/css/aircon-hero.css",
@@ -13161,8 +13162,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 3002,
-      "sha256": "864e599e1c7b017f0f8a6c101419610d0f573258a72aeac63fc373eccbcb1ee8"
+      "bytes": 2881,
+      "sha256": "0d9b87ef6c6ccb8c96f106909a9f1e820b0821a8d68656ec29dd1637eae7f59b"
     },
     "https://www.osoujihonpo.com/assets/css/aircon-layout.css": {
       "path": "assets/css/aircon-layout.css",
@@ -13170,8 +13171,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 8698,
-      "sha256": "13ada18a4c6414aa26b418b903705c24573d2e35034371f558b49023f9e12bed"
+      "bytes": 11447,
+      "sha256": "6caf0f1b2cb8da47839ae0aea19d557bfcacd6bd071674e2329bcc4dcd882a35"
     },
     "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-arrows-black.svg": {
       "path": "assets/images/common-parts/decoration/section-arrows-black.svg",
@@ -13253,6 +13254,60 @@
       "origin_type": "local-service-page",
       "bytes": 138,
       "sha256": "044375a2999ac3e0c9b64d522feb03d7df55e739d305b2263f9b8d70e291646a"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-automatic-after.png": {
+      "path": "assets/images/service-scenes/aircon-automatic-after.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-automatic-after.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2434229,
+      "sha256": "41bfaf89df5f86c08fca2791196e21760fc052c97a067e1da016f7cbaed36815"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-automatic-before.png": {
+      "path": "assets/images/service-scenes/aircon-automatic-before.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-automatic-before.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2714424,
+      "sha256": "3b1f1fc86c89382ada46e7b7214c93c084ba75ef3c2d7819e1e451e634810079"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-ceiling-after.png": {
+      "path": "assets/images/service-scenes/aircon-ceiling-after.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-ceiling-after.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2518363,
+      "sha256": "f296f4c437302416371871a7782e6307b1e968274a5928901a108106fcabad9a"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-ceiling-before.png": {
+      "path": "assets/images/service-scenes/aircon-ceiling-before.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-ceiling-before.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2654325,
+      "sha256": "afff828a93baf5d2b74a0b394b46fca1200209de4deb9fb9fe60f2bff283d2f5"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-wall-after.png": {
+      "path": "assets/images/service-scenes/aircon-wall-after.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-wall-after.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2461959,
+      "sha256": "4c32290e678a8376c7f61416d155245283b52c0e85b623db9af69d661cb3a7b8"
+    },
+    "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-wall-before.png": {
+      "path": "assets/images/service-scenes/aircon-wall-before.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-scenes/aircon-wall-before.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-service-page",
+      "bytes": 2857608,
+      "sha256": "f6f203079c96edc03e4e832afbe2138023b53a0ad23529814a4803b613a8ba7f"
     }
   },
   "external_urls": [
@@ -15443,9 +15498,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1433,
-    "unique_paths": 1411,
-    "bytes": 121259575,
+    "urls": 1439,
+    "unique_paths": 1417,
+    "bytes": 136907650,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

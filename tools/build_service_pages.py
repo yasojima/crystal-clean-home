@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
+AIRCON_COMPARISONS = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='utf-8'))
 STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
                   'lab/online_store/detergent/product-303/index.html')
 NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
@@ -158,6 +159,8 @@ def product(key, route, catalogue, copy):
     description.string = content['description']
     for img in card.select('.c-lineup-card__image img'):
         image(img, content['scene'], content['focus'] + 'の清掃イメージ')
+        if route == 'aircon' and key in AIRCON_COMPARISONS:
+            img['src'] = AIRCON_COMPARISONS[key]['after']
     if record.get('scope') and not any(label in card.get_text() for label in ('サービス範囲', 'コーティング範囲')):
         scope = tag('p', 'c-note c-service-scope', 'サービス範囲：' + '／'.join(record['scope']))
         description.insert_after(scope)
@@ -287,16 +290,24 @@ def concerns(page, primary, category_copy, copy):
         b.string = p['short']
         box['id'], box['aria-labelledby'] = pid, bid
         box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
-        # Keep the existing tab and photograph frame; use one illustrative scene, without a fictitious comparison.
         photo = box.select_one('.c-compare-image')
-        photo['class'] = ['c-service-photo','c-compare-image-tab__compare-image']
         photo.clear()
-        img = tag('img', 'c-flex-image')
-        image(img, p['scene'], p['focus'] + 'の清掃イメージ')
-        photo.append(img)
+        if page['route'] == 'aircon':
+            for state, label in [('before', 'Before'), ('after', 'After')]:
+                photo.append(tag('img', 'c-flex-image c-compare-image__item',
+                                 src=AIRCON_COMPARISONS[key][state],
+                                 alt=p['short'] + ' ' + label + '（清掃イメージ）',
+                                 width='1536', height='1024', loading='lazy', decoding='async'))
+        else:
+            photo['class'] = ['c-service-photo','c-compare-image-tab__compare-image']
+            img = tag('img', 'c-flex-image')
+            image(img, p['scene'], p['focus'] + 'の清掃イメージ')
+            photo.append(img)
         box.select_one('.c-compare-image-tab__text').string = p['description']
         for note in box.select('.c-note,.c-compare-image-tab__link-container'):
             note.decompose()
+        if page['route'] == 'aircon':
+            photo.insert_after(tag('p', 'c-note c-aircon-comparison-note', '画像は清掃前後を表現したイメージです。'))
         buttons.append(b); panels.append(box)
     if len(subjects) == 1:
         buttons['class'].append('c-service-single-tab')
@@ -473,6 +484,26 @@ def steps(shared, decorated=False):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
         item.select_one('.c-step-list-item__text p').string = words[1]
     for note in n.select('.c-step-list-item__note'): note.decompose()
+    if decorated:
+        n.select_one('.u-width-pc-1024')['class'] = ['c-howto-container']
+        n.select_one('.c-step-list')['class'].append('c-howto')
+        for index, item in enumerate(n.select('.c-step-list__item'), 1):
+            heading = item.select_one('.c-step-list-item__heading-main').get_text()
+            description = item.select_one('.c-step-list-item__text p').get_text()
+            icon = item.select_one('.c-icon').extract()
+            icon['class'] = [c for c in icon['class'] if c != 'c-step-list-item__icon'] + ['c-howto__icon']
+            item.clear()
+            item['class'] = ['c-step-list__item', 'c-howto__item']
+            visual = tag('div', 'c-howto__visual', **{'aria-hidden': 'true'})
+            visual.append(icon)
+            item.append(visual)
+            step = tag('p', 'c-howto__step')
+            label = tag('span', 'c-howto__step-label', 'STEP ')
+            label.append(tag('span', 'c-howto__number', f'{index:02}'))
+            step.append(label)
+            item.append(step)
+            item.append(tag('h3', 'c-howto__heading', heading))
+            item.append(tag('p', 'c-howto__description', description))
     return n
 
 
@@ -537,8 +568,16 @@ def render(route, page, catalogue, copy):
         check = tag('span', 'c-house-cleaning-mv__check')
         check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
         hero.append(check)
-    main.append(hero); main.append(template('floating'))
-    main.append(navigation(page,primary,page['category'],copy))
+    nav = navigation(page,primary,page['category'],copy)
+    if route == 'aircon':
+        first_view = tag('div', 'c-first-view', **{'data-floating-visibility-trigger': ''})
+        first_view.append(hero)
+        first_view.append(nav)
+        main.append(first_view)
+        main.append(template('floating'))
+    else:
+        main.append(hero); main.append(template('floating'))
+        main.append(nav)
     main.append(concerns(page,primary,cat,copy))
     main.append(reasons(copy['shared'], route))
     apply = tag('div', id='apply'); main.append(apply)
@@ -599,8 +638,9 @@ def render(route, page, catalogue, copy):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100237">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100237" defer></script>'
+        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100247', output)
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100246">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100246" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -611,13 +651,13 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100241">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100244">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100242">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100247">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
@@ -637,6 +677,7 @@ def sync_manifest(routes, check):
     files = [SITE / 'house-cleaning' / route / 'index.html' for route in routes]
     files += [SITE / rel for rel in STATIC_REASONS]
     files += list((SITE / 'assets/images/service-scenes').glob('*.webp'))
+    files += list((SITE / 'assets/images/service-scenes').glob('aircon-*-*.png'))
     files += [SITE / 'assets/css/service-pages.css', SITE / 'assets/css/reasons-navy.css',
               SITE / 'assets/css/aircon-voice-bubbles.css',
               SITE / 'assets/css/aircon-header.css',
@@ -649,7 +690,7 @@ def sync_manifest(routes, check):
               SITE / 'assets/images/voices/reference-users-voice.webp',
               SITE / 'assets/images/voices/reference-how-to-use.webp',
               *(SITE / f'assets/images/reasons/reference-point-{index:02d}.webp' for index in range(1, 4)),
-              SITE / 'assets/js/aircon-header.js',
+              SITE / 'assets/js/aircon-header.js', SITE / 'assets/js/common.js',
               *(SITE / f'assets/images/voices/{name}.svg' for name in (
                   'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),
               SITE / 'assets/css/common.css']

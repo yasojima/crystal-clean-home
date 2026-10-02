@@ -43,6 +43,8 @@ const output = process.env.SCREENSHOT_DIR;
         const button = document.querySelector('.c-header__menu').getBoundingClientRect();
         return {
           heroBottom: hero.bottom,
+          groupBottom: document.querySelector('.c-first-view').getBoundingClientRect().bottom,
+          selectorBottom: document.querySelector('.p-page-anchors__cards').getBoundingClientRect().bottom,
           checkBottom: rect.bottom,
           checkTop: rect.top,
           photoBottom: document.querySelector('.c-house-cleaning-mv__image').getBoundingClientRect().bottom,
@@ -54,12 +56,13 @@ const output = process.env.SCREENSHOT_DIR;
           overflow: document.documentElement.scrollWidth > innerWidth + 1,
         };
       });
-      assert.ok(Math.abs(geometry.heroBottom - (Math.min(height, 800) - 24)) < 1, 'Hero uses an 800px viewport ceiling and keeps 24px of breathing room');
-      assert.ok(Math.abs(geometry.checkBottom - (Math.min(height, 800) - 24)) < 1, 'Circular Check edge follows the capped hero');
+      assert.ok(Math.abs(geometry.groupBottom - (Math.min(height, 800) - 24)) < 1, 'Banner and selector share the capped first view');
+      assert.ok(Math.abs(geometry.checkBottom - geometry.heroBottom) < 1, 'Circular Check edge follows the banner');
+      assert.ok(geometry.selectorBottom < geometry.groupBottom, 'Both service cards fit inside the first view');
       assert.ok(geometry.photoBottom < geometry.checkTop, 'Photo stays above the straight edge; only the blue background projects into the circle');
       assert.ok(Math.abs(geometry.checkCenter - geometry.contentCenter) < 1, 'Check is centered');
       assert.equal(geometry.label, 'Check！');
-      assert.ok(geometry.nextHeadingTop >= Math.min(height, 800), 'Service selector follows the capped first view');
+      assert.ok(geometry.nextHeadingTop > geometry.checkBottom, 'Service selector follows Check within the first view');
       assert.equal(geometry.buttonSize, width < 768 ? 44 : 56);
       assert.equal(geometry.overflow, false);
       assert.equal(await page.locator('.c-issue-list__heading').textContent(), 'こんなお悩みはありませんか？');
@@ -173,7 +176,7 @@ const output = process.env.SCREENSHOT_DIR;
         links: menu.querySelectorAll('.aircon-full-menu__section a[href]').length,
         inert: menu.inert,
         parent: menu.parentElement.tagName,
-        categories: [...menu.querySelectorAll('.aircon-full-menu__category')].map(node => node.textContent.trim()),
+        categories: [...menu.querySelectorAll('.aircon-full-menu__category')].map(node => node.getAttribute('aria-label')),
         sections: menu.querySelectorAll('.aircon-full-menu__section').length,
       }));
       assert.equal(state.visible, true, 'Reopening during close keeps the menu visible');

@@ -1,0 +1,730 @@
+{
+  "checks": [
+    {
+      "width": 1440,
+      "height": 800,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1425,
+        "height": 108,
+        "top": 0,
+        "right": 1425,
+        "bottom": 108,
+        "left": 0
+      },
+      "contact": {
+        "x": 971.484375,
+        "y": 12,
+        "width": 371.515625,
+        "height": 28,
+        "top": 12,
+        "right": 1343,
+        "bottom": 40,
+        "left": 971.484375
+      },
+      "logo": {
+        "x": 24,
+        "y": 13,
+        "width": 160,
+        "height": 82,
+        "top": 13,
+        "right": 184,
+        "bottom": 95,
+        "left": 24
+      },
+      "menu": {
+        "x": 1361,
+        "y": 26,
+        "width": 56,
+        "height": 56,
+        "top": 26,
+        "right": 1417,
+        "bottom": 82,
+        "left": 1361
+      },
+      "nav": {
+        "x": 202,
+        "y": 46,
+        "width": 1141,
+        "height": 40,
+        "top": 46,
+        "right": 1343,
+        "bottom": 86,
+        "left": 202
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 971.484375,
+            "y": 14,
+            "width": 34,
+            "height": 24,
+            "top": 14,
+            "right": 1005.484375,
+            "bottom": 38,
+            "left": 971.484375
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 1019.484375,
+            "y": 14,
+            "width": 34,
+            "height": 24,
+            "top": 14,
+            "right": 1053.484375,
+            "bottom": 38,
+            "left": 1019.484375
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 1067.484375,
+            "y": 12,
+            "width": 145.53125,
+            "height": 28,
+            "top": 12,
+            "right": 1213.015625,
+            "bottom": 40,
+            "left": 1067.484375
+          },
+          "text": "00-0000-0000",
+          "font": "18px"
+        },
+        {
+          "rect": {
+            "x": 1227.015625,
+            "y": 17,
+            "width": 115.984375,
+            "height": 18,
+            "top": 17,
+            "right": 1343,
+            "bottom": 35,
+            "left": 1227.015625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "12px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 776,
+      "cardsBottom": 753.8125,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1200,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1905,
+        "height": 108,
+        "top": 0,
+        "right": 1905,
+        "bottom": 108,
+        "left": 0
+      },
+      "contact": {
+        "x": 1451.484375,
+        "y": 12,
+        "width": 371.515625,
+        "height": 28,
+        "top": 12,
+        "right": 1823,
+        "bottom": 40,
+        "left": 1451.484375
+      },
+      "logo": {
+        "x": 24,
+        "y": 13,
+        "width": 160,
+        "height": 82,
+        "top": 13,
+        "right": 184,
+        "bottom": 95,
+        "left": 24
+      },
+      "menu": {
+        "x": 1841,
+        "y": 26,
+        "width": 56,
+        "height": 56,
+        "top": 26,
+        "right": 1897,
+        "bottom": 82,
+        "left": 1841
+      },
+      "nav": {
+        "x": 202,
+        "y": 46,
+        "width": 1621,
+        "height": 40,
+        "top": 46,
+        "right": 1823,
+        "bottom": 86,
+        "left": 202
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 1451.484375,
+            "y": 14,
+            "width": 34,
+            "height": 24,
+            "top": 14,
+            "right": 1485.484375,
+            "bottom": 38,
+            "left": 1451.484375
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 1499.484375,
+            "y": 14,
+            "width": 34,
+            "height": 24,
+            "top": 14,
+            "right": 1533.484375,
+            "bottom": 38,
+            "left": 1499.484375
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 1547.484375,
+            "y": 12,
+            "width": 145.53125,
+            "height": 28,
+            "top": 12,
+            "right": 1693.015625,
+            "bottom": 40,
+            "left": 1547.484375
+          },
+          "text": "00-0000-0000",
+          "font": "18px"
+        },
+        {
+          "rect": {
+            "x": 1707.015625,
+            "y": 17,
+            "width": 115.984375,
+            "height": 18,
+            "top": 17,
+            "right": 1823,
+            "bottom": 35,
+            "left": 1707.015625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "12px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 776,
+      "cardsBottom": 757,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 1009,
+        "height": 76.796875,
+        "top": 0,
+        "right": 1009,
+        "bottom": 76.796875,
+        "left": 0
+      },
+      "contact": {
+        "x": 555.484375,
+        "y": 24.390625,
+        "width": 371.515625,
+        "height": 28,
+        "top": 24.390625,
+        "right": 927,
+        "bottom": 52.390625,
+        "left": 555.484375
+      },
+      "logo": {
+        "x": 24,
+        "y": -2.59375,
+        "width": 160,
+        "height": 82,
+        "top": -2.59375,
+        "right": 184,
+        "bottom": 79.40625,
+        "left": 24
+      },
+      "menu": {
+        "x": 945,
+        "y": 10.390625,
+        "width": 56,
+        "height": 56,
+        "top": 10.390625,
+        "right": 1001,
+        "bottom": 66.390625,
+        "left": 945
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 555.484375,
+            "y": 26.390625,
+            "width": 34,
+            "height": 24,
+            "top": 26.390625,
+            "right": 589.484375,
+            "bottom": 50.390625,
+            "left": 555.484375
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 603.484375,
+            "y": 26.390625,
+            "width": 34,
+            "height": 24,
+            "top": 26.390625,
+            "right": 637.484375,
+            "bottom": 50.390625,
+            "left": 603.484375
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 651.484375,
+            "y": 24.390625,
+            "width": 145.53125,
+            "height": 28,
+            "top": 24.390625,
+            "right": 797.015625,
+            "bottom": 52.390625,
+            "left": 651.484375
+          },
+          "text": "00-0000-0000",
+          "font": "18px"
+        },
+        {
+          "rect": {
+            "x": 811.015625,
+            "y": 29.390625,
+            "width": 115.984375,
+            "height": 18,
+            "top": 29.390625,
+            "right": 927,
+            "bottom": 47.390625,
+            "left": 811.015625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "12px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 743.984375,
+      "cardsBottom": 713.46875,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 753,
+        "height": 72,
+        "top": 0,
+        "right": 753,
+        "bottom": 72,
+        "left": 0
+      },
+      "contact": {
+        "x": 299.484375,
+        "y": 22,
+        "width": 371.515625,
+        "height": 28,
+        "top": 22,
+        "right": 671,
+        "bottom": 50,
+        "left": 299.484375
+      },
+      "logo": {
+        "x": 24,
+        "y": -5,
+        "width": 160,
+        "height": 82,
+        "top": -5,
+        "right": 184,
+        "bottom": 77,
+        "left": 24
+      },
+      "menu": {
+        "x": 689,
+        "y": 8,
+        "width": 56,
+        "height": 56,
+        "top": 8,
+        "right": 745,
+        "bottom": 64,
+        "left": 689
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 299.484375,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "top": 24,
+            "right": 333.484375,
+            "bottom": 48,
+            "left": 299.484375
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 347.484375,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "top": 24,
+            "right": 381.484375,
+            "bottom": 48,
+            "left": 347.484375
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 395.484375,
+            "y": 22,
+            "width": 145.53125,
+            "height": 28,
+            "top": 22,
+            "right": 541.015625,
+            "bottom": 50,
+            "left": 395.484375
+          },
+          "text": "00-0000-0000",
+          "font": "18px"
+        },
+        {
+          "rect": {
+            "x": 555.015625,
+            "y": 27,
+            "width": 115.984375,
+            "height": 18,
+            "top": 27,
+            "right": 671,
+            "bottom": 45,
+            "left": 555.015625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "12px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 776,
+      "cardsBottom": 740.375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 375,
+        "height": 104,
+        "top": 0,
+        "right": 375,
+        "bottom": 104,
+        "left": 0
+      },
+      "contact": {
+        "x": 12,
+        "y": 72,
+        "width": 351,
+        "height": 28,
+        "top": 72,
+        "right": 363,
+        "bottom": 100,
+        "left": 12
+      },
+      "logo": {
+        "x": 12,
+        "y": 0,
+        "width": 155,
+        "height": 72,
+        "top": 0,
+        "right": 167,
+        "bottom": 72,
+        "left": 12
+      },
+      "menu": {
+        "x": 331,
+        "y": 14,
+        "width": 44,
+        "height": 44,
+        "top": 14,
+        "right": 375,
+        "bottom": 58,
+        "left": 331
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 44.6875,
+            "y": 77,
+            "width": 26,
+            "height": 18,
+            "top": 77,
+            "right": 70.6875,
+            "bottom": 95,
+            "left": 44.6875
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 78.6875,
+            "y": 77,
+            "width": 26,
+            "height": 18,
+            "top": 77,
+            "right": 104.6875,
+            "bottom": 95,
+            "left": 78.6875
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 112.6875,
+            "y": 72,
+            "width": 112.96875,
+            "height": 28,
+            "top": 72,
+            "right": 225.65625,
+            "bottom": 100,
+            "left": 112.6875
+          },
+          "text": "00-0000-0000",
+          "font": "14px"
+        },
+        {
+          "rect": {
+            "x": 233.65625,
+            "y": 78.5,
+            "width": 96.65625,
+            "height": 15,
+            "top": 78.5,
+            "right": 330.3125,
+            "bottom": 93.5,
+            "left": 233.65625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "10px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 776,
+      "cardsBottom": 747,
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "width": 305,
+        "height": 104,
+        "top": 0,
+        "right": 305,
+        "bottom": 104,
+        "left": 0
+      },
+      "contact": {
+        "x": 12,
+        "y": 72,
+        "width": 281,
+        "height": 28,
+        "top": 72,
+        "right": 293,
+        "bottom": 100,
+        "left": 12
+      },
+      "logo": {
+        "x": 12,
+        "y": 0,
+        "width": 155,
+        "height": 72,
+        "top": 0,
+        "right": 167,
+        "bottom": 72,
+        "left": 12
+      },
+      "menu": {
+        "x": 261,
+        "y": 14,
+        "width": 44,
+        "height": 44,
+        "top": 14,
+        "right": 305,
+        "bottom": 58,
+        "left": 261
+      },
+      "nav": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "top": 0,
+        "right": 0,
+        "bottom": 0,
+        "left": 0
+      },
+      "items": [
+        {
+          "rect": {
+            "x": 24.828125,
+            "y": 77,
+            "width": 22,
+            "height": 18,
+            "top": 77,
+            "right": 46.828125,
+            "bottom": 95,
+            "left": 24.828125
+          },
+          "text": "Visa",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 52.828125,
+            "y": 77,
+            "width": 22,
+            "height": 18,
+            "top": 77,
+            "right": 74.828125,
+            "bottom": 95,
+            "left": 52.828125
+          },
+          "text": "Mastercard",
+          "font": "16px"
+        },
+        {
+          "rect": {
+            "x": 80.828125,
+            "y": 72,
+            "width": 106.328125,
+            "height": 28,
+            "top": 72,
+            "right": 187.15625,
+            "bottom": 100,
+            "left": 80.828125
+          },
+          "text": "00-0000-0000",
+          "font": "13px"
+        },
+        {
+          "rect": {
+            "x": 193.15625,
+            "y": 79.25,
+            "width": 87,
+            "height": 13.5,
+            "top": 79.25,
+            "right": 280.15625,
+            "bottom": 92.75,
+            "left": 193.15625
+          },
+          "text": "受付時間 9:00〜18:00",
+          "font": "9px"
+        }
+      ],
+      "phoneAlt": "仮の電話番号 00-0000-0000",
+      "demo": true,
+      "footerAlt": "仮の電話番号 00-0000-0000。受付時間 9:00〜18:00",
+      "groupBottom": 676,
+      "cardsBottom": 647,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "http": [
+    {
+      "file": "assets/css/aircon-header.css",
+      "status": 200,
+      "sha256": "933c76f07e81f88b6547f95c01292b33b899dc5f5bb6d1cee5cb31b1809930f1"
+    },
+    {
+      "file": "assets/js/aircon-header.js",
+      "status": 200,
+      "sha256": "48863b2ebd26e3183adf344cc4ecfba233d7c88d17976cbddab6deaf7cfc73ba"
+    },
+    {
+      "file": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "e8463ce265964f1f0ead08c745cec7e4843296cb6555479f5e783f92bb8f145c"
+    }
+  ]
+}

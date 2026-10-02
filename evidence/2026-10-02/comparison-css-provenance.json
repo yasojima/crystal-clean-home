@@ -1,0 +1,18 @@
+{
+  "reference": "https://www.osoujihonpo.com/house-cleaning/water/",
+  "reference_browser_evidence": [
+    "local/water-comparison-reference-start.png",
+    "local/water-comparison-reference-drag.png"
+  ],
+  "reused_existing_files": [
+    "source/site/assets/css/common.css",
+    "source/site/assets/js/common.js"
+  ],
+  "reused_components": [
+    "ImageCompare .icv viewer",
+    ".c-compare-image arrow handle rules",
+    "two image comparison template"
+  ],
+  "aircon_override": "Always show Before and After labels, including without hover and at slider endpoints.",
+  "refetch_limitation": "A later direct stylesheet request returned HTTP 403; byte-for-byte equality with the current live stylesheet was not established. The existing imported CSS and viewer code were reused rather than replaced."
+}
