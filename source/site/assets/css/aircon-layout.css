@@ -52,6 +52,18 @@
   background-color: #264574;
 }
 
+.c-service-page .c-service-selector {
+  --selector-space: 51px;
+  padding-top: calc(var(--selector-space) + var(--section-curve-depth) / 2);
+  padding-bottom: calc(var(--selector-space) - var(--section-curve-depth) / 2);
+}
+
+@media (max-width: 767.98px) {
+  .c-service-page .c-service-selector {
+    --selector-space: 43px;
+  }
+}
+
 .c-service-page .p-reasons__heading,
 .c-service-page .p-page-anchors__heading,
 .c-service-page .recommend-plan__heading {

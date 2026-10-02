@@ -1,0 +1,1045 @@
+{
+  "checked_at": "2026-10-02T05:26:53.066Z",
+  "public": false,
+  "http": [],
+  "results": [
+    {
+      "width": 1440,
+      "before": {
+        "topGap": 30,
+        "bottomGap": 129.59375,
+        "selector": {
+          "top": 776,
+          "bottom": 1128.921875,
+          "width": 1425,
+          "height": 352.921875,
+          "centerX": 712.5
+        },
+        "cards": {
+          "top": 876,
+          "bottom": 1056.921875,
+          "width": 1200,
+          "height": 180.921875,
+          "centerX": 712.5
+        },
+        "heading": {
+          "top": 806,
+          "bottom": 836,
+          "width": 340,
+          "height": 30,
+          "centerX": 712.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3291.6875,
+              "bottom": 3512.484375,
+              "width": 1425,
+              "height": 220.796875,
+              "centerX": 712.5
+            },
+            "wrap": {
+              "top": 3466.484375,
+              "bottom": 3512.484375,
+              "width": 200,
+              "height": 46,
+              "centerX": 712.5
+            },
+            "label": {
+              "top": 3476.734375,
+              "bottom": 3490.734375,
+              "width": 68.140625,
+              "height": 14,
+              "centerX": 712.4921875
+            },
+            "font": "20px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 4996.078125,
+              "bottom": 5216.875,
+              "width": 1425,
+              "height": 220.796875,
+              "centerX": 712.5
+            },
+            "wrap": {
+              "top": 5170.875,
+              "bottom": 5216.875,
+              "width": 200,
+              "height": 46,
+              "centerX": 712.5
+            },
+            "label": {
+              "top": 5181.125,
+              "bottom": 5195.125,
+              "width": 68.140625,
+              "height": 14,
+              "centerX": 712.4921875
+            },
+            "font": "20px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      },
+      "after": {
+        "topGap": 79.796875,
+        "bottomGap": 79.78125,
+        "selector": {
+          "top": 776,
+          "bottom": 1128.90625,
+          "width": 1425,
+          "height": 352.90625,
+          "centerX": 712.5
+        },
+        "cards": {
+          "top": 925.796875,
+          "bottom": 1106.71875,
+          "width": 1200,
+          "height": 180.921875,
+          "centerX": 712.5
+        },
+        "heading": {
+          "top": 855.796875,
+          "bottom": 885.796875,
+          "width": 340,
+          "height": 30,
+          "centerX": 712.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3291.671875,
+              "bottom": 3512.46875,
+              "width": 1425,
+              "height": 220.796875,
+              "centerX": 712.5
+            },
+            "wrap": {
+              "top": 3466.46875,
+              "bottom": 3512.46875,
+              "width": 200,
+              "height": 46,
+              "centerX": 712.5
+            },
+            "label": {
+              "top": 3472.565673828125,
+              "bottom": 3487.971923828125,
+              "width": 74.96875,
+              "height": 15.40625,
+              "centerX": 712.5
+            },
+            "font": "22px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 4996.0625,
+              "bottom": 5216.859375,
+              "width": 1425,
+              "height": 220.796875,
+              "centerX": 712.5
+            },
+            "wrap": {
+              "top": 5170.859375,
+              "bottom": 5216.859375,
+              "width": 200,
+              "height": 46,
+              "centerX": 712.5
+            },
+            "label": {
+              "top": 5176.9560546875,
+              "bottom": 5192.3623046875,
+              "width": 74.96875,
+              "height": 15.40625,
+              "centerX": 712.5
+            },
+            "font": "22px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 1024,
+      "before": {
+        "topGap": 30,
+        "bottomGap": 112.953125,
+        "selector": {
+          "top": 775.984375,
+          "bottom": 1128.90625,
+          "width": 1009,
+          "height": 352.921875,
+          "centerX": 504.5
+        },
+        "cards": {
+          "top": 875.984375,
+          "bottom": 1056.90625,
+          "width": 929,
+          "height": 180.921875,
+          "centerX": 504.5
+        },
+        "heading": {
+          "top": 805.984375,
+          "bottom": 835.984375,
+          "width": 340,
+          "height": 30,
+          "centerX": 504.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3256.171875,
+              "bottom": 3466.96875,
+              "width": 1009,
+              "height": 210.796875,
+              "centerX": 504.5
+            },
+            "wrap": {
+              "top": 3430.96875,
+              "bottom": 3466.96875,
+              "width": 150,
+              "height": 36,
+              "centerX": 504.5
+            },
+            "label": {
+              "top": 3437.46875,
+              "bottom": 3451.46875,
+              "width": 68.140625,
+              "height": 14,
+              "centerX": 504.4921875
+            },
+            "font": "20px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 4926.859375,
+              "bottom": 5137.65625,
+              "width": 1009,
+              "height": 210.796875,
+              "centerX": 504.5
+            },
+            "wrap": {
+              "top": 5101.65625,
+              "bottom": 5137.65625,
+              "width": 150,
+              "height": 36,
+              "centerX": 504.5
+            },
+            "label": {
+              "top": 5108.15625,
+              "bottom": 5122.15625,
+              "width": 68.140625,
+              "height": 14,
+              "centerX": 504.4921875
+            },
+            "font": "20px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      },
+      "after": {
+        "topGap": 71.46875,
+        "bottomGap": 71.46875,
+        "selector": {
+          "top": 775.984375,
+          "bottom": 1128.890625,
+          "width": 1009,
+          "height": 352.90625,
+          "centerX": 504.5
+        },
+        "cards": {
+          "top": 917.453125,
+          "bottom": 1098.375,
+          "width": 929,
+          "height": 180.921875,
+          "centerX": 504.5
+        },
+        "heading": {
+          "top": 847.453125,
+          "bottom": 877.453125,
+          "width": 340,
+          "height": 30,
+          "centerX": 504.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3256.15625,
+              "bottom": 3466.953125,
+              "width": 1009,
+              "height": 210.796875,
+              "centerX": 504.5
+            },
+            "wrap": {
+              "top": 3430.953125,
+              "bottom": 3466.953125,
+              "width": 150,
+              "height": 36,
+              "centerX": 504.5
+            },
+            "label": {
+              "top": 3434.050048828125,
+              "bottom": 3449.456298828125,
+              "width": 74.96875,
+              "height": 15.40625,
+              "centerX": 504.5
+            },
+            "font": "22px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 4926.84375,
+              "bottom": 5137.640625,
+              "width": 1009,
+              "height": 210.796875,
+              "centerX": 504.5
+            },
+            "wrap": {
+              "top": 5101.640625,
+              "bottom": 5137.640625,
+              "width": 150,
+              "height": 36,
+              "centerX": 504.5
+            },
+            "label": {
+              "top": 5104.7373046875,
+              "bottom": 5120.1435546875,
+              "width": 74.96875,
+              "height": 15.40625,
+              "centerX": 504.5
+            },
+            "font": "22px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 390,
+      "before": {
+        "topGap": 30,
+        "bottomGap": 84,
+        "selector": {
+          "top": 776,
+          "bottom": 1088.515625,
+          "width": 375,
+          "height": 312.515625,
+          "centerX": 187.5
+        },
+        "cards": {
+          "top": 897,
+          "bottom": 1032.515625,
+          "width": 345,
+          "height": 135.515625,
+          "centerX": 187.5
+        },
+        "heading": {
+          "top": 806,
+          "bottom": 857,
+          "width": 281,
+          "height": 51,
+          "centerX": 187.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3952.140625,
+              "bottom": 4127.734375,
+              "width": 375,
+              "height": 175.59375,
+              "centerX": 187.5
+            },
+            "wrap": {
+              "top": 4091.734375,
+              "bottom": 4127.734375,
+              "width": 150,
+              "height": 36,
+              "centerX": 187.5
+            },
+            "label": {
+              "top": 4099.28125,
+              "bottom": 4111.1875,
+              "width": 57.921875,
+              "height": 11.90625,
+              "centerX": 187.4921875
+            },
+            "font": "17px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 5958.359375,
+              "bottom": 6133.953125,
+              "width": 375,
+              "height": 175.59375,
+              "centerX": 187.5
+            },
+            "wrap": {
+              "top": 6097.953125,
+              "bottom": 6133.953125,
+              "width": 150,
+              "height": 36,
+              "centerX": 187.5
+            },
+            "label": {
+              "top": 6105.5,
+              "bottom": 6117.40625,
+              "width": 57.921875,
+              "height": 11.90625,
+              "centerX": 187.4921875
+            },
+            "font": "17px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      },
+      "after": {
+        "topGap": 57,
+        "bottomGap": 57,
+        "selector": {
+          "top": 776,
+          "bottom": 1088.515625,
+          "width": 375,
+          "height": 312.515625,
+          "centerX": 187.5
+        },
+        "cards": {
+          "top": 924,
+          "bottom": 1059.515625,
+          "width": 345,
+          "height": 135.515625,
+          "centerX": 187.5
+        },
+        "heading": {
+          "top": 833,
+          "bottom": 884,
+          "width": 281,
+          "height": 51,
+          "centerX": 187.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 3952.140625,
+              "bottom": 4127.734375,
+              "width": 375,
+              "height": 175.59375,
+              "centerX": 187.5
+            },
+            "wrap": {
+              "top": 4091.734375,
+              "bottom": 4127.734375,
+              "width": 150,
+              "height": 36,
+              "centerX": 187.5
+            },
+            "label": {
+              "top": 4096.2373046875,
+              "bottom": 4108.8310546875,
+              "width": 61.328125,
+              "height": 12.59375,
+              "centerX": 187.4921875
+            },
+            "font": "18px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 5958.359375,
+              "bottom": 6133.953125,
+              "width": 375,
+              "height": 175.59375,
+              "centerX": 187.5
+            },
+            "wrap": {
+              "top": 6097.953125,
+              "bottom": 6133.953125,
+              "width": 150,
+              "height": 36,
+              "centerX": 187.5
+            },
+            "label": {
+              "top": 6102.4560546875,
+              "bottom": 6115.0498046875,
+              "width": 61.328125,
+              "height": 12.59375,
+              "centerX": 187.4921875
+            },
+            "font": "18px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      }
+    },
+    {
+      "width": 320,
+      "before": {
+        "topGap": 30,
+        "bottomGap": 84,
+        "selector": {
+          "top": 776,
+          "bottom": 1086.875,
+          "width": 305,
+          "height": 310.875,
+          "centerX": 152.5
+        },
+        "cards": {
+          "top": 897,
+          "bottom": 1030.875,
+          "width": 275,
+          "height": 133.875,
+          "centerX": 152.5
+        },
+        "heading": {
+          "top": 806,
+          "bottom": 857,
+          "width": 211,
+          "height": 51,
+          "centerX": 152.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 4052.546875,
+              "bottom": 4228.140625,
+              "width": 305,
+              "height": 175.59375,
+              "centerX": 152.5
+            },
+            "wrap": {
+              "top": 4192.140625,
+              "bottom": 4228.140625,
+              "width": 150,
+              "height": 36,
+              "centerX": 152.5
+            },
+            "label": {
+              "top": 4199.6875,
+              "bottom": 4211.59375,
+              "width": 57.921875,
+              "height": 11.90625,
+              "centerX": 152.4921875
+            },
+            "font": "17px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 6071.59375,
+              "bottom": 6274.78125,
+              "width": 305,
+              "height": 203.1875,
+              "centerX": 152.5
+            },
+            "wrap": {
+              "top": 6238.78125,
+              "bottom": 6274.78125,
+              "width": 150,
+              "height": 36,
+              "centerX": 152.5
+            },
+            "label": {
+              "top": 6246.328125,
+              "bottom": 6258.234375,
+              "width": 57.921875,
+              "height": 11.90625,
+              "centerX": 152.4921875
+            },
+            "font": "17px",
+            "images": 1,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      },
+      "after": {
+        "topGap": 57,
+        "bottomGap": 57,
+        "selector": {
+          "top": 776,
+          "bottom": 1086.875,
+          "width": 305,
+          "height": 310.875,
+          "centerX": 152.5
+        },
+        "cards": {
+          "top": 924,
+          "bottom": 1057.875,
+          "width": 275,
+          "height": 133.875,
+          "centerX": 152.5
+        },
+        "heading": {
+          "top": 833,
+          "bottom": 884,
+          "width": 211,
+          "height": 51,
+          "centerX": 152.5
+        },
+        "curves": 7,
+        "otherImages": [
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/reasons/reference-point-01.webp",
+          "/assets/images/reasons/reference-point-02.webp",
+          "/assets/images/reasons/reference-point-03.webp",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/service-scenes/aircon-wall.webp",
+          "/assets/images/product/aircon/disassemble.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/cap.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/steam.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/service-scenes/aircon-ceiling.webp",
+          "/assets/images/product/aircon/four-way-machine.png",
+          "/assets/images/product/aircon/four-way.png",
+          "/assets/images/product/aircon/ac-coat.png",
+          "/assets/images/product/aircon/outdoor-unit.png",
+          "/assets/images/product/aircon/eco.png",
+          "/assets/images/product/aircon/intake-exhaust-port.png",
+          "/assets/images/product/aircon/filter.png",
+          "/assets/images/product/aircon/air-cleaner.png",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-wall.webp",
+          "/assets/images/common-parts/product-icon/aircon-ceil.webp",
+          "/assets/images/voices/reference-users-voice.webp",
+          "/assets/images/voices/reference-how-to-use.webp"
+        ],
+        "lineups": [
+          {
+            "id": "lineup01",
+            "band": {
+              "top": 4052.546875,
+              "bottom": 4228.140625,
+              "width": 305,
+              "height": 175.59375,
+              "centerX": 152.5
+            },
+            "wrap": {
+              "top": 4192.140625,
+              "bottom": 4228.140625,
+              "width": 150,
+              "height": 36,
+              "centerX": 152.5
+            },
+            "label": {
+              "top": 4196.6435546875,
+              "bottom": 4209.2373046875,
+              "width": 61.328125,
+              "height": 12.59375,
+              "centerX": 152.4921875
+            },
+            "font": "18px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          },
+          {
+            "id": "lineup02",
+            "band": {
+              "top": 6071.59375,
+              "bottom": 6274.78125,
+              "width": 305,
+              "height": 203.1875,
+              "centerX": 152.5
+            },
+            "wrap": {
+              "top": 6238.78125,
+              "bottom": 6274.78125,
+              "width": 150,
+              "height": 36,
+              "centerX": 152.5
+            },
+            "label": {
+              "top": 6243.2841796875,
+              "bottom": 6255.8779296875,
+              "width": 61.328125,
+              "height": 12.59375,
+              "centerX": 152.4921875
+            },
+            "font": "18px",
+            "images": 0,
+            "topCurve": false,
+            "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)"
+          }
+        ],
+        "overflow": false
+      }
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -255,7 +255,8 @@ def navigation(page, primary, category, copy):
         if icon:
             icon['class'] = item['icon'] or ['c-illust',f'c-illust--{icon_map[category]}','c-category-simple-card__icon']
         cards.append(a)
-    container = tag('div', 'l-section l-section--limited u-py-48-72_40-56')
+    spacing = 'c-service-selector' if page['route'] == 'aircon' else 'u-py-48-72_40-56'
+    container = tag('div', f'l-section l-section--limited {spacing}')
     inner = tag('div', 'l-section-inner l-section-inner--limited')
     inner.append(n); container.append(inner)
     return container
@@ -487,9 +488,10 @@ def lineup_heading(title, anchor, scene, rounded=False):
         subtitle.clear()
         subtitle.append(tag('span', 'c-lineup-heading__label', 'lineup'))
         n.append(subtitle)
+        n.select_one('img').decompose()
     else:
         label.append(subtitle)
-    image(n.select_one('img'), scene, '')
+        image(n.select_one('img'), scene, '')
     return n
 
 
@@ -606,13 +608,13 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100238">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100241">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100239">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100240">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
