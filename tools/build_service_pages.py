@@ -493,6 +493,31 @@ def lineup_heading(title, anchor, scene, rounded=False):
     return n
 
 
+def add_section_curve(section, direction, previous_color):
+    section['class'] = section.get('class', []) + ['c-curved-section', f'c-curved-section--{direction}']
+    section.insert(0, tag('span', f'c-section-curve c-section-curve--{direction}',
+                          style=f'--curve-color: {previous_color};', **{'aria-hidden': 'true'}))
+
+
+def decorate_aircon_sections(main):
+    for selector, direction, color in (
+        ('#service-introduction', 'down', '#fff'),
+        ('.p-reasons', 'up', '#e3f1fc'),
+        ('#lineup01', 'down', '#fff'),
+        ('#lineup02', 'down', '#fff'),
+        ('#service-sets', 'down', '#fff'),
+        ('.c-voice-section--bubble-preview', 'up', '#e3f1fc'),
+        ('#service-faq', 'down', '#fff'),
+        ('#service-flow', 'up', '#e3f1fc'),
+    ):
+        section = main.select_one(selector)
+        if selector == '.p-reasons':
+            section = section.find_parent('section')
+        add_section_curve(section, direction, color)
+    main.select_one('.c-voice-section--bubble-preview')['style'] = '--bg-color: #fff;'
+    add_section_curve(main.select_one('#service-flow').find_next_sibling('section'), 'down', '#fff')
+
+
 def render(route, page, catalogue, copy):
     path = SITE / 'house-cleaning' / route / 'index.html'
     original = path.read_text(encoding='utf-8')
@@ -550,6 +575,8 @@ def render(route, page, catalogue, copy):
     main.append(faq(cat,copy['shared'],questions,decorated=route == 'aircon'))
     main.append(steps(copy['shared'],decorated=route == 'aircon'))
     main.append(template('categories')); main.append(template('cart-modal'))
+    if route == 'aircon':
+        decorate_aircon_sections(main)
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
@@ -562,7 +589,7 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100228">'
+    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100236">'
     bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
     if route == 'aircon':
         if re.search(bubble_pattern, output):
@@ -587,7 +614,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100235">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100236">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
@@ -613,6 +640,8 @@ def sync_manifest(routes, check):
               SITE / 'assets/css/aircon-hero.css',
               SITE / 'assets/css/aircon-layout.css',
               SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
+              SITE / 'assets/images/common-parts/decoration/section-curve-down.svg',
+              SITE / 'assets/images/common-parts/decoration/section-curve-up.svg',
               SITE / 'assets/images/voices/reference-rating.webp',
               SITE / 'assets/images/voices/reference-users-voice.webp',
               SITE / 'assets/images/voices/reference-how-to-use.webp',

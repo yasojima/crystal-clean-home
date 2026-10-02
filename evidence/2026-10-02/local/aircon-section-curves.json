@@ -1,0 +1,275 @@
+[
+  {
+    "width": 1441,
+    "overflow": false,
+    "heroGap": 24,
+    "curves": [
+      {
+        "parent": "service-introduction",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 104,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームが選ばれる理由",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 14.375,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "lineup01",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 32.421875,
+        "width": 1426,
+        "headingClearance": 37.578125,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "lineup02",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 32.421875,
+        "width": 1426,
+        "headingClearance": 37.578125,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-sets",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 72,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "ご利用いただいたお客様の声",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 14.375,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "service-faq",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 72,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-flow",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 14.375,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームのハウスクリーニング",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 57.625,
+        "width": 1426,
+        "headingClearance": 72,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      }
+    ],
+    "productCurves": 0,
+    "failedImages": [],
+    "errors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "heroGap": 24,
+    "curves": [
+      {
+        "parent": "service-introduction",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 80,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームが選ばれる理由",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "lineup01",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 18,
+        "width": 375,
+        "headingClearance": 38,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "lineup02",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 18,
+        "width": 375,
+        "headingClearance": 38,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-sets",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "ご利用いただいたお客様の声",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "service-faq",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-flow",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームのハウスクリーニング",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 375,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      }
+    ],
+    "productCurves": 0,
+    "failedImages": [],
+    "errors": []
+  },
+  {
+    "width": 320,
+    "overflow": false,
+    "heroGap": 24,
+    "curves": [
+      {
+        "parent": "service-introduction",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 80,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームが選ばれる理由",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "lineup01",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 18,
+        "width": 305,
+        "headingClearance": 38,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "lineup02",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 18,
+        "width": 305,
+        "headingClearance": 38,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-sets",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "ご利用いただいたお客様の声",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "service-faq",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      },
+      {
+        "parent": "service-flow",
+        "kind": "c-section-curve c-section-curve--up",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 28,
+        "color": "rgb(227, 241, 252)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-up.svg\")"
+      },
+      {
+        "parent": "クリスタルクリーンホームのハウスクリーニング",
+        "kind": "c-section-curve c-section-curve--down",
+        "height": 28,
+        "width": 305,
+        "headingClearance": 56,
+        "color": "rgb(255, 255, 255)",
+        "mask": "url(\"https://yasojima.github.io/assets/images/common-parts/decoration/section-curve-down.svg\")"
+      }
+    ],
+    "productCurves": 0,
+    "failedImages": [],
+    "errors": []
+  }
+]

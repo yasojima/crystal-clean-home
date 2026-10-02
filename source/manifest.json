@@ -2995,8 +2995,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 177477,
-      "sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
+      "bytes": 178794,
+      "sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5567,8 +5567,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 177477,
-      "sha256": "39983a774a4d56bb183d4496877fe4ad793a4c4c1f82964757bc38f902420c0e",
+      "bytes": 178794,
+      "sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13079,8 +13079,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 5832,
-      "sha256": "d0c7de2015dae3d126f9632c1c37f22a63fa02ceeac364c08e6d0936d40efed3",
+      "bytes": 5331,
+      "sha256": "b78cbcad4722597583f0c11f0989246d931f368abdd73ff1ecef404acd70b432",
       "source_sha256": "870726c887c2b0a6131dafee01def558d1db98ad6d4261d45495f2f7ef023ea8"
     },
     "https://www.osoujihonpo.com/assets/images/voices/woman-long.svg": {
@@ -13170,8 +13170,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 6341,
-      "sha256": "9f06348d25dcbd3d4eca7c858a5c79a60ba1530d26d5fce78c99765ebcb9e20c"
+      "bytes": 7636,
+      "sha256": "24301adf467296eec4cc9114b972ac01b1c8a126739a88104a20af00446382d5"
     },
     "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-arrows-black.svg": {
       "path": "assets/images/common-parts/decoration/section-arrows-black.svg",
@@ -13235,6 +13235,24 @@
       "origin_type": "local-service-page",
       "bytes": 2784,
       "sha256": "732898525e83f08b85bb064097f1256b7920d4e01103ea3c2df9d0122e858291"
+    },
+    "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-curve-down.svg": {
+      "path": "assets/images/common-parts/decoration/section-curve-down.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-curve-down.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-service-page",
+      "bytes": 131,
+      "sha256": "85eb825bc68c3d0f0e53847be2490b5d7ba2241b9d3636bd8c63758af3e4c585"
+    },
+    "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-curve-up.svg": {
+      "path": "assets/images/common-parts/decoration/section-curve-up.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/common-parts/decoration/section-curve-up.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-service-page",
+      "bytes": 138,
+      "sha256": "044375a2999ac3e0c9b64d522feb03d7df55e739d305b2263f9b8d70e291646a"
     }
   },
   "external_urls": [
@@ -15425,9 +15443,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1431,
-    "unique_paths": 1409,
-    "bytes": 121257096,
+    "urls": 1433,
+    "unique_paths": 1411,
+    "bytes": 121259476,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

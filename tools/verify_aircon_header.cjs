@@ -23,6 +23,8 @@ const output = process.env.SCREENSHOT_DIR;
       ['**/assets/css/aircon-voice-bubbles.css*', 'assets/css/aircon-voice-bubbles.css', 'text/css'],
       ['**/assets/images/voices/reference-rating.webp', 'assets/images/voices/reference-rating.webp', 'image/webp'],
       ['**/assets/images/common-parts/decoration/section-arrows-black.svg', 'assets/images/common-parts/decoration/section-arrows-black.svg', 'image/svg+xml'],
+      ['**/assets/images/common-parts/decoration/section-curve-down.svg', 'assets/images/common-parts/decoration/section-curve-down.svg', 'image/svg+xml'],
+      ['**/assets/images/common-parts/decoration/section-curve-up.svg', 'assets/images/common-parts/decoration/section-curve-up.svg', 'image/svg+xml'],
       ['**/assets/js/aircon-header.js*', 'assets/js/aircon-header.js', 'text/javascript'],
     ]) {
       await page.route(url, route => route.fulfill({ contentType, body: fs.readFileSync(path.join(root, 'source/site', file)) }));
@@ -69,7 +71,9 @@ const output = process.env.SCREENSHOT_DIR;
       const layout = await page.evaluate(() => ({
         markers: [...document.querySelectorAll('.c-service-page .l-section--blue-bubbles')].map(node => {
           const style = getComputedStyle(node, '::before');
-          return { width: style.width, height: style.height, top: style.top, image: style.backgroundImage };
+          const curve = node.querySelector(':scope > .c-section-curve--down');
+          return { width: style.width, height: style.height, top: style.top, image: style.backgroundImage,
+            boundaryOffset: curve ? curve.getBoundingClientRect().height : 0 };
         }),
         cards: [...document.querySelectorAll('.c-reasons__card')].map(card => {
           const rect = card.getBoundingClientRect();
@@ -87,7 +91,8 @@ const output = process.env.SCREENSHOT_DIR;
       for (const marker of layout.markers) {
         assert.equal(marker.width, '12px');
         assert.equal(marker.height, '36px');
-        assert.equal(marker.top, '-22px');
+        assert.ok(Math.abs(parseFloat(marker.top) - (marker.boundaryOffset - 22)) < 1,
+          'Section arrows follow the curved boundary at its center');
         assert.ok(marker.image.includes('section-arrows-black.svg'));
       }
       assert.equal(layout.cards.length, 3);

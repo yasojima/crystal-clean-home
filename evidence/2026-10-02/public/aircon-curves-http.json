@@ -1,0 +1,41 @@
+{
+  "sha": "16ca151bf1ba6c00647d1aec1d6f0f753fc83add",
+  "run": 36966735973,
+  "files": [
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "local_sha256": "24301adf467296eec4cc9114b972ac01b1c8a126739a88104a20af00446382d5",
+      "public_sha256": "24301adf467296eec4cc9114b972ac01b1c8a126739a88104a20af00446382d5",
+      "match": true
+    },
+    {
+      "path": "assets/css/aircon-voice-bubbles.css",
+      "status": 200,
+      "local_sha256": "b78cbcad4722597583f0c11f0989246d931f368abdd73ff1ecef404acd70b432",
+      "public_sha256": "b78cbcad4722597583f0c11f0989246d931f368abdd73ff1ecef404acd70b432",
+      "match": true
+    },
+    {
+      "path": "assets/images/common-parts/decoration/section-curve-down.svg",
+      "status": 200,
+      "local_sha256": "85eb825bc68c3d0f0e53847be2490b5d7ba2241b9d3636bd8c63758af3e4c585",
+      "public_sha256": "85eb825bc68c3d0f0e53847be2490b5d7ba2241b9d3636bd8c63758af3e4c585",
+      "match": true
+    },
+    {
+      "path": "assets/images/common-parts/decoration/section-curve-up.svg",
+      "status": 200,
+      "local_sha256": "044375a2999ac3e0c9b64d522feb03d7df55e739d305b2263f9b8d70e291646a",
+      "public_sha256": "044375a2999ac3e0c9b64d522feb03d7df55e739d305b2263f9b8d70e291646a",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "local_sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
+      "public_sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
+      "match": true
+    }
+  ]
+}
