@@ -6,19 +6,6 @@
   --section-curve-depth: clamp(28px, 4vw, 64px);
 }
 
-.c-service-page .c-floating-buttons[data-floating-fixed] {
-  right: 0;
-  bottom: 0;
-  transform: none;
-  transition: none;
-}
-
-.c-service-page .c-floating-buttons[data-floating-fixed].is-footer-area {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
-
 @media (min-width: 768px) {
   .c-footer--aircon .footer-tel-pc {
     width: calc(100% - 160px);

@@ -6,8 +6,10 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
   const ctx=await browser.newContext({viewport:{width,height:width<768?844:800},hasTouch:width<768});
   const page=await ctx.newPage(), errors=[];page.on('pageerror',e=>errors.push(e.message));
   if(local)await page.route('https://yasojima.github.io/**',async route=>{let rel=decodeURIComponent(new URL(route.request().url()).pathname);if(rel.endsWith('/'))rel+='index.html';const file=path.join(root,rel);if(fs.existsSync(file)&&fs.statSync(file).isFile())return route.fulfill({path:file});return route.continue();});
-  await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100250',{waitUntil:'networkidle'});
+  await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100252',{waitUntil:'networkidle'});
   await page.evaluate(()=>document.fonts.ready);
+  const header=await page.evaluate(()=>{const contact=document.querySelector('.c-header-contact'),payments=[...contact.querySelectorAll('.c-header-contact__payment')],rect=e=>e.getBoundingClientRect();return {phoneColor:getComputedStyle(contact.querySelector('.c-header-contact__number')).color,markFilter:getComputedStyle(contact.querySelector('.c-header-contact__mark')).filter,paymentGap:rect(payments[1]).left-rect(payments[0]).right,contactBottom:rect(contact).bottom,headerBottom:rect(document.querySelector('.c-header')).bottom};});
+  assert.equal(header.phoneColor,'rgb(0, 0, 0)');assert.equal(header.markFilter,'grayscale(1) contrast(10)');assert.equal(header.paymentGap,0);assert(header.contactBottom<=header.headerBottom+1,JSON.stringify(header));
   const capture=async selector=>{await page.locator(selector).evaluate(e=>scrollTo(0,e.getBoundingClientRect().top+scrollY-160));await page.waitForTimeout(700);await page.locator(selector+' img').evaluateAll(imgs=>Promise.all(imgs.map(i=>i.decode().catch(()=>{}))));};
   const photoSources=await page.locator('#product1 .c-lineup-card__image img,#product2 .c-lineup-card__image img,#product3 .c-lineup-card__image img').evaluateAll(imgs=>imgs.map(i=>i.getAttribute('src')));
   assert.equal(new Set(photoSources).size,3);
@@ -37,11 +39,21 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
    }
    tabs.push({i,positions});
   }
-  const cart=[];for(const y of [0,900,1800,3500,5500,8000,99999,0]){
+  const cart=[];
+  const firstViewEnd=await page.evaluate(()=>document.querySelector('.c-first-view').getBoundingClientRect().bottom+scrollY);
+  const applyTop=await page.evaluate(()=>document.querySelector('#apply').getBoundingClientRect().top+scrollY);
+  for(const [phase,y] of [['top',0],['following',firstViewEnd+150],['apply',applyTop+80],['footer',99999]]){
    await page.evaluate(y=>scrollTo(0,y),y);await page.waitForTimeout(650);
-   const state=await page.locator('#js-floating').evaluate(e=>{const r=e.getBoundingClientRect(),hit=document.elementFromPoint(r.x+r.width/2,r.y+r.height/2);return {y:scrollY,classes:e.className,r:r.toJSON(),inside:r.x>=0&&r.right<=innerWidth&&r.bottom<=innerHeight,pinned:Math.abs(r.right-document.documentElement.getBoundingClientRect().right)<.5&&Math.abs(r.bottom-innerHeight)<.5,hit:hit&&e.contains(hit)};});
-   assert(state.inside,JSON.stringify(state));assert.equal(Boolean(state.hit),!state.classes.includes("is-footer-area"),JSON.stringify(state));assert(state.pinned,JSON.stringify(state));cart.push(state);
+   const state=await page.locator('#js-floating').evaluate(e=>{const r=e.getBoundingClientRect(),s=getComputedStyle(e),hit=document.elementFromPoint(Math.min(innerWidth-1,r.x+r.width/2),Math.min(innerHeight-1,r.y+r.height/2));return {y:scrollY,classes:e.className,r:r.toJSON(),bottom:s.bottom,transition:s.transition,inside:r.x>=0&&r.right<=innerWidth&&r.bottom<=innerHeight,hit:hit&&e.contains(hit),fixed:e.hasAttribute('data-floating-fixed'),href:e.querySelector('a')?.getAttribute('href')};});
+   assert.equal(state.fixed,false);assert.equal(state.href,'/cart/');assert(state.transition.includes('transform 0.5s'),JSON.stringify(state));
+   if(phase==='top')assert(!state.inside&&!state.classes.includes('is-visible'),JSON.stringify(state));
+   if(phase==='following')assert(state.inside&&state.hit&&state.classes.includes('is-visible')&&state.bottom===(width>=768?'32px':'0px'),JSON.stringify(state));
+   if(phase==='apply')assert(state.inside&&state.hit&&state.classes.includes('is-apply-area')&&state.bottom===(width>=768?'180px':'0px'),JSON.stringify(state));
+   if(phase==='footer')assert(!state.inside&&state.classes.includes('is-footer-area'),JSON.stringify(state));
+   cart.push({phase,...state});
+   if(phase==='following'||phase==='footer')await page.screenshot({path:out+'/aircon-cart-'+phase+'-'+width+'.png'});
   }
+  await page.evaluate(y=>scrollTo(0,y),firstViewEnd+150);await page.waitForTimeout(650);
   await page.locator('#js-floating a').click();await page.waitForURL('**/cart/**');assert(new URL(page.url()).pathname==='/cart/');
   await page.goBack({waitUntil:'networkidle'});
   await page.locator('.c-header__menu').click();await page.waitForTimeout(450);
@@ -49,7 +61,7 @@ const fs=require('fs'),path=require('path'),assert=require('assert/strict'),{chr
   await capture('.recommend-plan');await page.screenshot({path:out+'/aircon-brackets-'+width+'.png'});
   const bracket=await page.locator('.recommend-plan__heading').evaluate(e=>({before:getComputedStyle(e,'::before').content,after:getComputedStyle(e,'::after').content,height:e.getBoundingClientRect().height,font:getComputedStyle(e,'::before').fontFamily}));
   assert.equal(bracket.before,'"("');assert.equal(bracket.after,'")"');assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);assert.deepEqual(errors,[]);
-  results.push({width,photoSources,tabs,cart,bracket,errors});await ctx.close();
+  results.push({width,header,photoSources,tabs,cart,bracket,errors});await ctx.close();
  }
  fs.writeFileSync(out+'/aircon-comparison-cart-brackets.json',JSON.stringify({local,results},null,2));console.log(JSON.stringify({local,viewports:results.length,tabs:12,mouseDrags:48,touchDrags:6,cartLinks:4,errors:[]}));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

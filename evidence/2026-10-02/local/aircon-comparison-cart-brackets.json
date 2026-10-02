@@ -3,6 +3,13 @@
   "results": [
     {
       "width": 1440,
+      "header": {
+        "phoneColor": "rgb(0, 0, 0)",
+        "markFilter": "grayscale(1) contrast(10)",
+        "paymentGap": 0,
+        "contactBottom": 43.828125,
+        "headerBottom": 108
+      },
       "photoSources": [
         "/assets/images/service-scenes/aircon-wall-after.png",
         "/assets/images/service-scenes/aircon-automatic-after.png",
@@ -303,140 +310,88 @@
       ],
       "cart": [
         {
+          "phase": "top",
           "y": 0,
+          "classes": "c-floating-buttons",
+          "r": {
+            "x": 1425,
+            "y": 663,
+            "width": 280,
+            "height": 105,
+            "top": 663,
+            "right": 1705,
+            "bottom": 768,
+            "left": 1425
+          },
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": null,
+          "fixed": false,
+          "href": "/cart/"
+        },
+        {
+          "phase": "following",
+          "y": 926,
           "classes": "c-floating-buttons is-visible",
           "r": {
             "x": 1145,
-            "y": 695,
+            "y": 663,
             "width": 280,
             "height": 105,
-            "top": 695,
+            "top": 663,
             "right": 1425,
-            "bottom": 800,
+            "bottom": 768,
             "left": 1145
           },
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 900,
-          "classes": "c-floating-buttons is-visible",
+          "phase": "apply",
+          "y": 3045,
+          "classes": "c-floating-buttons is-visible is-apply-area",
           "r": {
             "x": 1145,
-            "y": 695,
+            "y": 515,
             "width": 280,
             "height": 105,
-            "top": 695,
+            "top": 515,
             "right": 1425,
-            "bottom": 800,
+            "bottom": 620,
             "left": 1145
           },
+          "bottom": "180px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 1800,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 1145,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 3500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 1145,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 5500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 1145,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 8000,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 1145,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
+          "phase": "footer",
           "y": 10623,
           "classes": "c-floating-buttons is-visible is-footer-area",
           "r": {
-            "x": 1145,
-            "y": 695,
+            "x": 1425,
+            "y": 663,
             "width": 280,
             "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
+            "top": 663,
+            "right": 1705,
+            "bottom": 768,
+            "left": 1425
           },
-          "inside": true,
-          "pinned": true,
-          "hit": false
-        },
-        {
-          "y": 0,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 1145,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 1425,
-            "bottom": 800,
-            "left": 1145
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": null,
+          "fixed": false,
+          "href": "/cart/"
         }
       ],
       "bracket": {
@@ -449,6 +404,13 @@
     },
     {
       "width": 768,
+      "header": {
+        "phoneColor": "rgb(0, 0, 0)",
+        "markFilter": "grayscale(1) contrast(10)",
+        "paymentGap": 0,
+        "contactBottom": 50,
+        "headerBottom": 72
+      },
       "photoSources": [
         "/assets/images/service-scenes/aircon-wall-after.png",
         "/assets/images/service-scenes/aircon-automatic-after.png",
@@ -749,140 +711,88 @@
       ],
       "cart": [
         {
+          "phase": "top",
           "y": 0,
+          "classes": "c-floating-buttons",
+          "r": {
+            "x": 753,
+            "y": 663,
+            "width": 280,
+            "height": 105,
+            "top": 663,
+            "right": 1033,
+            "bottom": 768,
+            "left": 753
+          },
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": null,
+          "fixed": false,
+          "href": "/cart/"
+        },
+        {
+          "phase": "following",
+          "y": 926,
           "classes": "c-floating-buttons is-visible",
           "r": {
             "x": 473,
-            "y": 695,
+            "y": 663,
             "width": 280,
             "height": 105,
-            "top": 695,
+            "top": 663,
             "right": 753,
-            "bottom": 800,
+            "bottom": 768,
             "left": 473
           },
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 900,
-          "classes": "c-floating-buttons is-visible",
+          "phase": "apply",
+          "y": 4192,
+          "classes": "c-floating-buttons is-visible is-apply-area",
           "r": {
             "x": 473,
-            "y": 695,
+            "y": 515,
             "width": 280,
             "height": 105,
-            "top": 695,
+            "top": 515,
             "right": 753,
-            "bottom": 800,
+            "bottom": 620,
             "left": 473
           },
+          "bottom": "180px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 1800,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 473,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 3500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 473,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 5500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 473,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 8000,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 473,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
+          "phase": "footer",
           "y": 13463,
           "classes": "c-floating-buttons is-visible is-footer-area",
           "r": {
-            "x": 473,
-            "y": 695,
+            "x": 753,
+            "y": 663,
             "width": 280,
             "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
+            "top": 663,
+            "right": 1033,
+            "bottom": 768,
+            "left": 753
           },
-          "inside": true,
-          "pinned": true,
-          "hit": false
-        },
-        {
-          "y": 0,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 473,
-            "y": 695,
-            "width": 280,
-            "height": 105,
-            "top": 695,
-            "right": 753,
-            "bottom": 800,
-            "left": 473
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
+          "bottom": "32px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": null,
+          "fixed": false,
+          "href": "/cart/"
         }
       ],
       "bracket": {
@@ -895,6 +805,13 @@
     },
     {
       "width": 390,
+      "header": {
+        "phoneColor": "rgb(0, 0, 0)",
+        "markFilter": "grayscale(1) contrast(10)",
+        "paymentGap": 0,
+        "contactBottom": 100,
+        "headerBottom": 104
+      },
       "photoSources": [
         "/assets/images/service-scenes/aircon-wall-after.png",
         "/assets/images/service-scenes/aircon-automatic-after.png",
@@ -1195,7 +1112,29 @@
       ],
       "cart": [
         {
+          "phase": "top",
           "y": 0,
+          "classes": "c-floating-buttons",
+          "r": {
+            "x": 0,
+            "y": 844,
+            "width": 375,
+            "height": 84.5,
+            "top": 844,
+            "right": 375,
+            "bottom": 928.5,
+            "left": 0
+          },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": false,
+          "fixed": false,
+          "href": "/cart/"
+        },
+        {
+          "phase": "following",
+          "y": 926,
           "classes": "c-floating-buttons is-visible",
           "r": {
             "x": 0,
@@ -1207,128 +1146,54 @@
             "bottom": 844,
             "left": 0
           },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 900,
-          "classes": "c-floating-buttons is-visible",
+          "phase": "apply",
+          "y": 3746,
+          "classes": "c-floating-buttons is-visible is-apply-area",
           "r": {
             "x": 0,
-            "y": 759.5,
+            "y": 794.5,
             "width": 375,
-            "height": 84.5,
-            "top": 759.5,
+            "height": 49.5,
+            "top": 794.5,
             "right": 375,
             "bottom": 844,
             "left": 0
           },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 1800,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 375,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 375,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 3500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 375,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 375,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 5500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 375,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 375,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 8000,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 375,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 375,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
+          "phase": "footer",
           "y": 14765,
           "classes": "c-floating-buttons is-visible is-footer-area",
           "r": {
             "x": 0,
-            "y": 759.5,
+            "y": 844,
             "width": 375,
             "height": 84.5,
-            "top": 759.5,
+            "top": 844,
             "right": 375,
-            "bottom": 844,
+            "bottom": 928.5,
             "left": 0
           },
-          "inside": true,
-          "pinned": true,
-          "hit": false
-        },
-        {
-          "y": 0,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 375,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 375,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": false,
+          "fixed": false,
+          "href": "/cart/"
         }
       ],
       "bracket": {
@@ -1341,6 +1206,13 @@
     },
     {
       "width": 320,
+      "header": {
+        "phoneColor": "rgb(0, 0, 0)",
+        "markFilter": "grayscale(1) contrast(10)",
+        "paymentGap": 0,
+        "contactBottom": 100,
+        "headerBottom": 104
+      },
       "photoSources": [
         "/assets/images/service-scenes/aircon-wall-after.png",
         "/assets/images/service-scenes/aircon-automatic-after.png",
@@ -1641,7 +1513,29 @@
       ],
       "cart": [
         {
+          "phase": "top",
           "y": 0,
+          "classes": "c-floating-buttons",
+          "r": {
+            "x": 0,
+            "y": 844,
+            "width": 305,
+            "height": 84.5,
+            "top": 844,
+            "right": 305,
+            "bottom": 928.5,
+            "left": 0
+          },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": false,
+          "fixed": false,
+          "href": "/cart/"
+        },
+        {
+          "phase": "following",
+          "y": 926,
           "classes": "c-floating-buttons is-visible",
           "r": {
             "x": 0,
@@ -1653,128 +1547,54 @@
             "bottom": 844,
             "left": 0
           },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 900,
-          "classes": "c-floating-buttons is-visible",
+          "phase": "apply",
+          "y": 3890,
+          "classes": "c-floating-buttons is-visible is-apply-area",
           "r": {
             "x": 0,
-            "y": 759.5,
+            "y": 794.5,
             "width": 305,
-            "height": 84.5,
-            "top": 759.5,
+            "height": 49.5,
+            "top": 794.5,
             "right": 305,
             "bottom": 844,
             "left": 0
           },
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
           "inside": true,
-          "pinned": true,
-          "hit": true
+          "hit": true,
+          "fixed": false,
+          "href": "/cart/"
         },
         {
-          "y": 1800,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 305,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 305,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 3500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 305,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 305,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 5500,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 305,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 305,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
-          "y": 8000,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 305,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 305,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
-        },
-        {
+          "phase": "footer",
           "y": 15803,
           "classes": "c-floating-buttons is-visible is-footer-area",
           "r": {
             "x": 0,
-            "y": 759.5,
+            "y": 844,
             "width": 305,
             "height": 84.5,
-            "top": 759.5,
+            "top": 844,
             "right": 305,
-            "bottom": 844,
+            "bottom": 928.5,
             "left": 0
           },
-          "inside": true,
-          "pinned": true,
-          "hit": false
-        },
-        {
-          "y": 0,
-          "classes": "c-floating-buttons is-visible",
-          "r": {
-            "x": 0,
-            "y": 759.5,
-            "width": 305,
-            "height": 84.5,
-            "top": 759.5,
-            "right": 305,
-            "bottom": 844,
-            "left": 0
-          },
-          "inside": true,
-          "pinned": true,
-          "hit": true
+          "bottom": "0px",
+          "transition": "bottom 0.5s, transform 0.5s",
+          "inside": false,
+          "hit": false,
+          "fixed": false,
+          "href": "/cart/"
         }
       ],
       "bracket": {

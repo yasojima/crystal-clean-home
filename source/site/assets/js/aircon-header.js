@@ -34,13 +34,16 @@
   if (contactDetails) {
     const contact = document.createElement('div');
     contact.className = 'c-header-contact';
+    const payments = document.createElement('span');
+    payments.className = 'c-header-contact__payments';
     for (const [file, label] of [['visa', 'Visa'], ['master-card', 'Mastercard']]) {
       const logo = document.createElement('img');
       logo.className = 'c-header-contact__payment';
       logo.src = `/assets/images/common-parts/payments/${file}.webp`;
       logo.alt = label;
-      contact.append(logo);
+      payments.append(logo);
     }
+    contact.append(payments);
     const phone = footerPhone.querySelector('button, a[href]').cloneNode(false);
     phone.className = 'c-header-contact__phone';
     const phoneMark = document.createElement('span');

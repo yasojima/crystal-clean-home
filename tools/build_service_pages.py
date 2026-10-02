@@ -599,13 +599,11 @@ def render(route, page, catalogue, copy):
         hero.append(check)
     nav = navigation(page,primary,page['category'],copy)
     if route == 'aircon':
-        first_view = tag('div', 'c-first-view')
+        first_view = tag('div', 'c-first-view', **{'data-floating-visibility-trigger': ''})
         first_view.append(hero)
         first_view.append(nav)
         main.append(first_view)
-        floating = template('floating')
-        floating['data-floating-fixed'] = ''
-        main.append(floating)
+        main.append(template('floating'))
     else:
         main.append(hero); main.append(template('floating'))
         main.append(nav)
@@ -670,9 +668,9 @@ def render(route, page, catalogue, copy):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100248', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100250">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100249" defer></script>'
+        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100252">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100252" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -689,7 +687,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100250">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100252">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)

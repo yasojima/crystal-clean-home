@@ -69,6 +69,13 @@ html {
   object-fit: contain;
 }
 
+.c-header-contact__payments {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  flex: 0 0 auto;
+}
+
 .c-header-contact__phone {
   display: inline-flex;
   align-items: center;
@@ -102,6 +109,7 @@ html {
   background-repeat: no-repeat;
   background-position: left center;
   background-size: 400px auto;
+  filter: grayscale(1) contrast(10);
 }
 
 .c-header-contact__hours {
