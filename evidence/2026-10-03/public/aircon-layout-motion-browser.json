@@ -1,0 +1,564 @@
+{
+  "verified_at": "2026-10-02T22:18:55.578781+00:00",
+  "origin": "https://yasojima.github.io/house-cleaning/aircon/",
+  "source_commit": "08ea216",
+  "pages_commit": "1325962",
+  "passed": true,
+  "layout": [
+    {
+      "w": 320,
+      "geometry": {
+        "overflow": false,
+        "header": [
+          {
+            "class": "c-header__logo c-header-logo",
+            "x": 12,
+            "y": 0,
+            "w": 155,
+            "h": 72,
+            "bottom": 72
+          },
+          {
+            "class": "c-header__icons",
+            "x": 256,
+            "y": 4,
+            "w": 64,
+            "h": 64,
+            "bottom": 68
+          },
+          {
+            "class": "c-header-contact",
+            "x": 0,
+            "y": 77,
+            "w": 320,
+            "h": 57.375,
+            "bottom": 134.375
+          },
+          {
+            "class": "c-header-contact__phone",
+            "x": 128.078125,
+            "y": 77,
+            "w": 105.828125,
+            "h": 28,
+            "bottom": 105
+          },
+          {
+            "class": "c-header-contact__hours",
+            "x": 86.078125,
+            "y": 110,
+            "w": 147.828125,
+            "h": 24.375,
+            "bottom": 134.375
+          }
+        ],
+        "tabs": [
+          {
+            "text": "壁掛けタイプ",
+            "lines": 1,
+            "font": "14px",
+            "rect": {
+              "x": 15,
+              "y": 6284.171875,
+              "w": 142,
+              "h": 52,
+              "bottom": 6336.171875
+            }
+          },
+          {
+            "text": "天井埋め込みタイプ",
+            "lines": 1,
+            "font": "14px",
+            "rect": {
+              "x": 163,
+              "y": 6284.171875,
+              "w": 142,
+              "h": 52,
+              "bottom": 6336.171875
+            }
+          }
+        ],
+        "title": [
+          {
+            "text": "人気の組み合わせプラン",
+            "lines": 1,
+            "font": "20px",
+            "rect": {
+              "x": 50,
+              "y": 6200.171875,
+              "w": 220,
+              "h": 24,
+              "bottom": 6224.171875
+            }
+          }
+        ],
+        "featured": "注目のハウスクリーニング",
+        "ornament": [
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          },
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          }
+        ],
+        "circles": [
+          {
+            "diameter": 272,
+            "height": 272,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 40,
+              "y": 2308.5,
+              "w": 240,
+              "h": 22.5,
+              "bottom": 2331
+            },
+            "body": {
+              "x": 40,
+              "y": 2355,
+              "w": 240,
+              "h": 100.75,
+              "bottom": 2455.75
+            }
+          },
+          {
+            "diameter": 272,
+            "height": 272,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 40,
+              "y": 2693.90625,
+              "w": 240,
+              "h": 22.5,
+              "bottom": 2716.40625
+            },
+            "body": {
+              "x": 40,
+              "y": 2740.40625,
+              "w": 240,
+              "h": 125.9375,
+              "bottom": 2866.34375
+            }
+          },
+          {
+            "diameter": 272,
+            "height": 272,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 40,
+              "y": 3104.5,
+              "w": 240,
+              "h": 22.5,
+              "bottom": 3127
+            },
+            "body": {
+              "x": 40,
+              "y": 3151,
+              "w": 240,
+              "h": 100.75,
+              "bottom": 3251.75
+            }
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 414,
+      "geometry": {
+        "overflow": false,
+        "header": [
+          {
+            "class": "c-header__logo c-header-logo",
+            "x": 12,
+            "y": 12,
+            "w": 145,
+            "h": 72,
+            "bottom": 84
+          },
+          {
+            "class": "c-header__icons",
+            "x": 350,
+            "y": 16,
+            "w": 64,
+            "h": 64,
+            "bottom": 80
+          },
+          {
+            "class": "c-header-contact",
+            "x": 163,
+            "y": 8.328125,
+            "w": 181,
+            "h": 79.328125,
+            "bottom": 87.65625
+          },
+          {
+            "class": "c-header-contact__phone",
+            "x": 196.390625,
+            "y": 29.328125,
+            "w": 114.21875,
+            "h": 28,
+            "bottom": 57.328125
+          },
+          {
+            "class": "c-header-contact__hours",
+            "x": 191.75,
+            "y": 60.328125,
+            "w": 123.5,
+            "h": 27.328125,
+            "bottom": 87.65625
+          }
+        ],
+        "tabs": [
+          {
+            "text": "壁掛けタイプ",
+            "lines": 1,
+            "font": "14px",
+            "rect": {
+              "x": 15,
+              "y": 6009.4375,
+              "w": 189,
+              "h": 52,
+              "bottom": 6061.4375
+            }
+          },
+          {
+            "text": "天井埋め込みタイプ",
+            "lines": 1,
+            "font": "14px",
+            "rect": {
+              "x": 210,
+              "y": 6009.4375,
+              "w": 189,
+              "h": 52,
+              "bottom": 6061.4375
+            }
+          }
+        ],
+        "title": [
+          {
+            "text": "人気の組み合わせプラン",
+            "lines": 1,
+            "font": "20px",
+            "rect": {
+              "x": 97,
+              "y": 5925.4375,
+              "w": 220,
+              "h": 24,
+              "bottom": 5949.4375
+            }
+          }
+        ],
+        "featured": "注目のハウスクリーニング",
+        "ornament": [
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          },
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          }
+        ],
+        "circles": [
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 71,
+              "y": 2161.34375,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 2186.84375
+            },
+            "body": {
+              "x": 71,
+              "y": 2210.84375,
+              "w": 272,
+              "h": 100.75,
+              "bottom": 2311.59375
+            }
+          },
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 71,
+              "y": 2591.34375,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 2616.84375
+            },
+            "body": {
+              "x": 71,
+              "y": 2640.84375,
+              "w": 272,
+              "h": 100.75,
+              "bottom": 2741.59375
+            }
+          },
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 72,
+            "navyHeight": 160,
+            "heading": {
+              "x": 71,
+              "y": 3021.34375,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 3046.84375
+            },
+            "body": {
+              "x": 71,
+              "y": 3070.84375,
+              "w": 272,
+              "h": 100.75,
+              "bottom": 3171.59375
+            }
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "w": 1440,
+      "geometry": {
+        "overflow": false,
+        "header": [
+          {
+            "class": "c-header__logo c-header-logo",
+            "x": 24,
+            "y": 13,
+            "w": 160,
+            "h": 82,
+            "bottom": 95
+          },
+          {
+            "class": "c-header__icons",
+            "x": 1361,
+            "y": 26,
+            "w": 56,
+            "h": 56,
+            "bottom": 82
+          },
+          {
+            "class": "c-header-contact",
+            "x": 829.5,
+            "y": 10,
+            "w": 481.5,
+            "h": 33.828125,
+            "bottom": 43.828125
+          },
+          {
+            "class": "c-header-contact__phone",
+            "x": 925.5,
+            "y": 12.90625,
+            "w": 220,
+            "h": 28,
+            "bottom": 40.90625
+          },
+          {
+            "class": "c-header-contact__hours",
+            "x": 1161.5,
+            "y": 10,
+            "w": 149.5,
+            "h": 33.828125,
+            "bottom": 43.828125
+          }
+        ],
+        "tabs": [
+          {
+            "text": "壁掛けタイプ",
+            "lines": 1,
+            "font": "16px",
+            "rect": {
+              "x": 112.5,
+              "y": 5622.953125,
+              "w": 120,
+              "h": 28.796875,
+              "bottom": 5651.75
+            }
+          },
+          {
+            "text": "天井埋め込みタイプ",
+            "lines": 1,
+            "font": "16px",
+            "rect": {
+              "x": 244.5,
+              "y": 5622.953125,
+              "w": 168,
+              "h": 28.796875,
+              "bottom": 5651.75
+            }
+          }
+        ],
+        "title": [
+          {
+            "text": "人気の組み合わせプラン",
+            "lines": 1,
+            "font": "24px",
+            "rect": {
+              "x": 580.5,
+              "y": 5542.546875,
+              "w": 264,
+              "h": 28.796875,
+              "bottom": 5571.34375
+            }
+          }
+        ],
+        "featured": "注目のハウスクリーニング",
+        "ornament": [
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          },
+          {
+            "border": "",
+            "borderTop": "0px none rgb(6, 64, 140)",
+            "borderRadius": "0px 0px 20px 20px",
+            "color": "rgb(6, 64, 140)",
+            "height": "24px"
+          }
+        ],
+        "circles": [
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 89,
+            "navyHeight": 209,
+            "heading": {
+              "x": 93.5,
+              "y": 2408.421875,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 2433.921875
+            },
+            "body": {
+              "x": 93.5,
+              "y": 2457.921875,
+              "w": 272,
+              "h": 115.1875,
+              "bottom": 2573.109375
+            }
+          },
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 89,
+            "navyHeight": 209,
+            "heading": {
+              "x": 576.5,
+              "y": 2394.015625,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 2419.515625
+            },
+            "body": {
+              "x": 576.5,
+              "y": 2443.515625,
+              "w": 272,
+              "h": 143.984375,
+              "bottom": 2587.5
+            }
+          },
+          {
+            "diameter": 304,
+            "height": 304,
+            "bottomGap": 89,
+            "navyHeight": 209,
+            "heading": {
+              "x": 1059.5,
+              "y": 2408.421875,
+              "w": 272,
+              "h": 25.5,
+              "bottom": 2433.921875
+            },
+            "body": {
+              "x": 1059.5,
+              "y": 2457.921875,
+              "w": 272,
+              "h": 115.1875,
+              "bottom": 2573.109375
+            }
+          }
+        ]
+      },
+      "errors": []
+    }
+  ],
+  "motion": {
+    "base": "https://yasojima.github.io",
+    "start": {
+      "hidden": false,
+      "y": 0,
+      "bottom": 96,
+      "scrollY": 1800,
+      "transition": "0.45s"
+    },
+    "held": {
+      "hidden": true,
+      "y": -97,
+      "bottom": -1,
+      "scrollY": 1925,
+      "transition": "0.45s"
+    },
+    "shortlyAfter": {
+      "hidden": true,
+      "y": -97,
+      "bottom": -1,
+      "scrollY": 1925,
+      "transition": "0.45s"
+    },
+    "idle": {
+      "hidden": false,
+      "y": 0,
+      "bottom": 96,
+      "scrollY": 1925,
+      "transition": "0.45s"
+    },
+    "upward": {
+      "hidden": true,
+      "y": -60.9923095703125,
+      "bottom": 35.0076904296875,
+      "scrollY": 1745,
+      "transition": "0.45s"
+    },
+    "bottom": {
+      "hidden": false,
+      "y": -96.46875,
+      "bottom": -0.46875,
+      "scrollY": 12938,
+      "transition": "0.45s"
+    },
+    "pc": {
+      "y": 0,
+      "hidden": false
+    },
+    "errors": [],
+    "passed": true
+  }
+}

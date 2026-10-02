@@ -1,0 +1,32 @@
+{
+  "verified_at": "2026-10-02T22:17:17.225388+00:00",
+  "source_commit": "08ea216",
+  "pages_commit": "1325962",
+  "pages_run": 37071414947,
+  "checks": [
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "f0c30230ed32b114076ed5b46a8ac9be89e9e86f0a1c7a78dc7a54f20ab8de57",
+      "matches": true
+    },
+    {
+      "path": "assets/css/aircon-header.css",
+      "status": 200,
+      "sha256": "812b6043e920a73255bbb05536320d641eda6e15ea46ad3d271a1df9941c2fbe",
+      "matches": true
+    },
+    {
+      "path": "assets/js/aircon-header.js",
+      "status": 200,
+      "sha256": "e2f0a29253dcdf63bbc82cd5076b3f601a7fbad6031c63878265f76574722042",
+      "matches": true
+    },
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "sha256": "edbaa6c63578e4cc7fb7943666a338db5adf2cc09039b579d121478274f2e93b",
+      "matches": true
+    }
+  ]
+}
