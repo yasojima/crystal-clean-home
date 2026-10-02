@@ -143,6 +143,12 @@ const output = process.env.SCREENSHOT_DIR;
           await item.hover();
           await item.locator('.c-main-menu__link').click();
           assert.equal(new URL(page.url()).pathname, '/house-cleaning/aircon/');
+          const menuAlignment = await page.evaluate(() => ({
+            navStart: document.querySelector('.c-main-menu__item:nth-child(2) .c-main-menu__link').getBoundingClientRect().left,
+            detailStart: document.querySelector('.aircon-mega__link').getBoundingClientRect().left,
+          }));
+          assert.ok(Math.abs(menuAlignment.detailStart - menuAlignment.navStart) < 1,
+            'Expanded links begin at the second global navigation item');
           assert.equal(await page.locator('.aircon-mega__heading').getAttribute('href'), href);
           const actual = await page.locator('.aircon-mega__link').evaluateAll(links => links.map(link => ({
             href: link.getAttribute('href'), text: link.textContent.replace(/\s+/g, ' ').trim(),

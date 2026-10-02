@@ -163,6 +163,13 @@
     return serviceSubmenus.get(href) || [];
   }
 
+  function alignMegaLinks() {
+    const navStart = navigation.querySelector('.c-main-menu__item:nth-child(2) .c-main-menu__link')?.getBoundingClientRect().left;
+    const headingEnd = mega.querySelector('.aircon-mega__heading')?.getBoundingClientRect().right;
+    if (navStart == null || headingEnd == null) return;
+    mega.style.gap = `${Math.max(0, navStart - headingEnd)}px`;
+  }
+
   function openMega(item) {
     if (menu.classList.contains('is-active') || window.innerWidth < 1400) return;
     const parentLink = item.querySelector('.c-main-menu__link');
@@ -190,6 +197,7 @@
     }
 
     mega.replaceChildren(heading, list);
+    alignMegaLinks();
     navigation.querySelectorAll('.c-main-menu__item.is-open').forEach(openItem => {
       openItem.classList.remove('is-open');
       openItem.querySelector('.c-main-menu__link').setAttribute('aria-expanded', 'false');
@@ -217,6 +225,9 @@
   });
   mega.addEventListener('click', event => {
     if (event.target.closest('.aircon-mega__link')) closeMega();
+  });
+  window.addEventListener('resize', () => {
+    if (mega.classList.contains('is-open')) alignMegaLinks();
   });
 
   let menuOpen = false;
