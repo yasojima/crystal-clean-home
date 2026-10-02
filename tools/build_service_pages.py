@@ -464,7 +464,8 @@ def render(route, page, catalogue, copy):
     primary = page['groups'][0]['products'][0]
     p = copy['products'][primary]
     main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v1'})
-    main.append(tag('h1','c-page-heading',page['title']))
+    if route != 'aircon':
+        main.append(tag('h1','c-page-heading',page['title']))
     hero = template('hero')
     hero_words = cat['hero'] if '/' not in route else [p['short'] + 'を丁寧に','素材と状態に合わせたお手入れ']
     lines(hero.select_one('p'),hero_words)
@@ -506,6 +507,9 @@ def render(route, page, catalogue, copy):
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
+    if route == 'aircon':
+        output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
+                        '\n', output, count=1, flags=re.S)
     css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')

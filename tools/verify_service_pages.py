@@ -42,10 +42,14 @@ for route,page in catalogue['pages'].items():
     main = doc.select_one('main[data-service-layout="shared-v1"]')
     if not main:
         fail(route,'shared layout missing'); continue
-    ordered = ['.c-page-heading','.c-house-cleaning-mv','.p-page-anchors','.c-issue-list','.p-reasons','#apply','.c-voice-card','.c-faq-accordion','.c-step-list']
+    ordered = (['.c-page-heading'] if route != 'aircon' else []) + [
+        '.c-house-cleaning-mv','.p-page-anchors','.c-issue-list','.p-reasons',
+        '#apply','.c-voice-card','.c-faq-accordion','.c-step-list']
     descendants = list(main.descendants)
     positions = [descendants.index(main.select_one(sel)) if main.select_one(sel) else -1 for sel in ordered]
     if -1 in positions or positions != sorted(positions): fail(route,'section order')
+    if route == 'aircon' and (doc.select_one('.c-breadcrumbs') or main.select_one('.c-page-heading')):
+        fail(route,'aircon breadcrumb or pre-hero heading remains')
     if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
         fail(route,'service voice profile')
     reason_items = main.select('.c-reasons__item')
