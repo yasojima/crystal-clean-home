@@ -72,7 +72,8 @@ html {
 .c-header-contact__phone {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
+  width: 220px;
   min-height: 28px;
   padding: 0;
   border: 0;
@@ -85,11 +86,21 @@ html {
 
 .c-header-contact__number {
   display: block;
-  width: 220px;
-  height: auto;
-  aspect-ratio: 625 / 64;
-  object-fit: cover;
-  object-position: left center;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -.07em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.c-header-contact__mark {
+  flex: 0 0 40px;
+  width: 40px;
+  height: 22px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 400px auto;
 }
 
 .c-header-contact__hours {
@@ -520,8 +531,19 @@ body.aircon-menu-open .c-header__navigation {
     height: 24px;
   }
 
-  .c-header-contact__number {
+  .c-header-contact__phone {
     width: 174px;
+  }
+
+  .c-header-contact__mark {
+    flex-basis: 32px;
+    width: 32px;
+    height: 17px;
+    background-size: 320px auto;
+  }
+
+  .c-header-contact__number {
+    font-size: 22px;
   }
 
   .c-header-contact__hours {
@@ -569,11 +591,19 @@ body.aircon-menu-open .c-header__navigation {
 
   .c-header-contact__phone {
     gap: 4px;
+    width: 140px;
     font-size: 14px;
   }
 
+  .c-header-contact__mark {
+    flex-basis: 25px;
+    width: 25px;
+    height: 14px;
+    background-size: 250px auto;
+  }
+
   .c-header-contact__number {
-    width: 140px;
+    font-size: 18px;
   }
 
   .c-header-contact__hours {
@@ -643,8 +673,19 @@ body.aircon-menu-open .c-header__navigation {
     width: 18px;
   }
 
-  .c-header-contact__number {
+  .c-header-contact__phone {
     width: 118px;
+  }
+
+  .c-header-contact__mark {
+    flex-basis: 21px;
+    width: 21px;
+    height: 12px;
+    background-size: 210px auto;
+  }
+
+  .c-header-contact__number {
+    font-size: 15px;
   }
 
   .c-header-contact__hours {

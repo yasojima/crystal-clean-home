@@ -43,10 +43,14 @@
     }
     const phone = footerPhone.querySelector('button, a[href]').cloneNode(false);
     phone.className = 'c-header-contact__phone';
-    const phoneImage = footerPhone.querySelector('img').cloneNode(false);
-    phoneImage.className = 'c-header-contact__number';
-    phoneImage.alt = phone.getAttribute('aria-label') || contactDetails[1];
-    phone.append(phoneImage);
+    const phoneMark = document.createElement('span');
+    phoneMark.className = 'c-header-contact__mark';
+    phoneMark.setAttribute('aria-hidden', 'true');
+    phoneMark.style.backgroundImage = `url("${footerPhone.querySelector('img').getAttribute('src')}")`;
+    const phoneNumber = document.createElement('span');
+    phoneNumber.className = 'c-header-contact__number';
+    phoneNumber.textContent = contactDetails[1];
+    phone.append(phoneMark, phoneNumber);
     const hours = document.createElement('span');
     hours.className = 'c-header-contact__hours';
     const time = document.createElement('span');
