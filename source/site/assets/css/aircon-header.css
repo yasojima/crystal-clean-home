@@ -1,8 +1,8 @@
 .c-header {
   --aircon-header-height: clamp(72px, 7.5vw, 108px);
-  --aircon-menu-black: #231815;
-  --aircon-menu-yellow: #FFD400;
-  --aircon-menu-yellow-text: #EBC514;
+  --aircon-menu-black: #20252b;
+  --aircon-menu-accent: #2d88ef;
+  --aircon-menu-nav-accent: #005bac;
   --aircon-menu-gray: #BEBEBE;
   --aircon-menu-ease: cubic-bezier(.43, .05, .17, 1);
   --aircon-menu-material: cubic-bezier(.26, .16, .1, 1);
@@ -79,8 +79,8 @@
 .c-main-menu__link:hover,
 .c-main-menu__link:focus-visible,
 .c-main-menu__item.is-open .c-main-menu__link {
-  color: var(--aircon-menu-yellow-text);
-  border-bottom-color: var(--aircon-menu-yellow);
+  color: var(--aircon-menu-black);
+  border-bottom-color: var(--aircon-menu-nav-accent);
   opacity: 1;
 }
 
@@ -180,7 +180,7 @@
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--aircon-menu-yellow);
+  background: var(--aircon-menu-accent);
   content: "";
   transform: scaleX(.1);
   transform-origin: left center;
@@ -191,7 +191,7 @@
 .aircon-mega__link:focus-visible,
 .aircon-mega__heading:hover,
 .aircon-mega__heading:focus-visible {
-  color: var(--aircon-menu-yellow-text);
+  color: var(--aircon-menu-accent);
 }
 
 .aircon-mega__link:hover::after,
@@ -391,7 +391,7 @@ body.aircon-menu-open .c-header__navigation {
   left: 0;
   width: 100%;
   height: 2px;
-  background: var(--aircon-menu-yellow);
+  background: var(--aircon-menu-accent);
   content: "";
   transform: scaleX(.1);
   transform-origin: left center;
@@ -410,7 +410,7 @@ body.aircon-menu-open .c-header__navigation {
 
 .aircon-full-menu__body a[href]:hover,
 .aircon-full-menu__body a[href]:focus-visible {
-  color: var(--aircon-menu-yellow-text);
+  color: var(--aircon-menu-black);
 }
 
 .aircon-full-menu__body a[href]:hover::before,

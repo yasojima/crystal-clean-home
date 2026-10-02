@@ -2996,7 +2996,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 174562,
-      "sha256": "a088a63b71e7cd0db798b9e0c623b767c1a0f4a8e1ecdb8943b1a963a3476501",
+      "sha256": "d2c3b7a359c62ca27ff3a84231f02ad1a723c1a9df8016629eb588587dad3c45",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5568,7 +5568,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 174562,
-      "sha256": "a088a63b71e7cd0db798b9e0c623b767c1a0f4a8e1ecdb8943b1a963a3476501",
+      "sha256": "d2c3b7a359c62ca27ff3a84231f02ad1a723c1a9df8016629eb588587dad3c45",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13143,8 +13143,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 10739,
-      "sha256": "45001a6b1975e0e549f7a45c01d27ba2c4c04f1b607872e814fde1b8f0085170"
+      "bytes": 10725,
+      "sha256": "62dd1394f841ca7b7f2b9786bf0f49417d1c92a4615e93e07b049745d1bc219a"
     },
     "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
       "path": "assets/js/aircon-header.js",
@@ -15346,7 +15346,7 @@
   "counts": {
     "urls": 1422,
     "unique_paths": 1400,
-    "bytes": 121221678,
+    "bytes": 121221664,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
