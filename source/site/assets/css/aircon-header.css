@@ -86,6 +86,7 @@ html {
 
 .c-header-contact__number {
   display: block;
+  color: #000;
   font-family: "Arial Narrow", Arial, sans-serif;
   font-size: 28px;
   font-weight: 700;

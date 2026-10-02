@@ -294,6 +294,7 @@ def concerns(page, primary, category_copy, copy):
         photo = box.select_one('.c-compare-image')
         photo.clear()
         if page['route'] == 'aircon':
+            photo['class'] = ['c-compare-image', 'c-compare-image-tab__compare-image', 'c-aircon-compare']
             for state, label in [('before', 'Before'), ('after', 'After')]:
                 photo.append(tag('img', 'c-flex-image c-compare-image__item',
                                  src=AIRCON_COMPARISONS[key][state],
@@ -308,7 +309,10 @@ def concerns(page, primary, category_copy, copy):
         for note in box.select('.c-note,.c-compare-image-tab__link-container'):
             note.decompose()
         if page['route'] == 'aircon':
-            photo.insert_after(tag('p', 'c-note c-aircon-comparison-note', '画像は清掃前後を表現したイメージです。'))
+            photo.insert_after(
+                tag('p', 'c-note c-aircon-comparison-note', '汚れの状況により、完全に除去できない場合がございます。'),
+                tag('p', 'c-note c-aircon-comparison-note', '本比較画像は作業の一例です。'),
+            )
         buttons.append(b); panels.append(box)
     if len(subjects) == 1:
         buttons['class'].append('c-service-single-tab')
@@ -667,7 +671,7 @@ def render(route, page, catalogue, copy):
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100248', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100249">'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100250">'
         header_js = '<script src="/assets/js/aircon-header.js?v=2026100249" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
@@ -685,12 +689,18 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100248">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100250">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
         else:
             output = output.replace('</head>', layout_css + '\n</head>', 1)
+        comparison_js = '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>'
+        if '/assets/js/aircon-comparison.js' in output:
+            output = re.sub(r'<script src="/assets/js/aircon-comparison\.js\?v=\d+" defer></script>',
+                            comparison_js, output)
+        else:
+            output = output.replace('</head>', comparison_js + '\n</head>', 1)
     else:
         output = re.sub(bubble_pattern + r'\s*', '', output)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
@@ -718,7 +728,7 @@ def sync_manifest(routes, check):
               SITE / 'assets/images/voices/reference-users-voice.webp',
               SITE / 'assets/images/voices/reference-how-to-use.webp',
               *(SITE / f'assets/images/reasons/reference-point-{index:02d}.webp' for index in range(1, 4)),
-              SITE / 'assets/js/aircon-header.js', SITE / 'assets/js/common.js',
+              SITE / 'assets/js/aircon-header.js', SITE / 'assets/js/aircon-comparison.js', SITE / 'assets/js/common.js',
               *(SITE / f'assets/images/voices/{name}.svg' for name in (
                   'woman-long', 'man-short', 'woman-bob', 'woman-senior', 'man-young', 'man-senior')),
               SITE / 'assets/css/common.css']
