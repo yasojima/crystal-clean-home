@@ -232,16 +232,23 @@
 
   let menuOpen = false;
   const mobileHeader = window.matchMedia('(max-width: 767.98px)');
-  const mobileFooterPhone = document.querySelector('.c-footer--aircon .footer-tel-sp');
+  const mobileFooter = document.querySelector('.c-footer--aircon');
+  const mobileFooterPhone = mobileFooter?.querySelector('.footer-tel-sp');
   let lastScrollY = window.scrollY;
   let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
   let touchActive = false;
   const scrollIdleDelay = 450;
   let footerPushFrame;
+  let footerViewportWidth = window.innerWidth;
+  let footerViewportHeight = window.innerHeight;
+  let footerAtPageEnd = false;
+  let footerResizeAnchor = false;
 
   function updateFooterPush() {
     if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
+      footerAtPageEnd = false;
+      footerResizeAnchor = false;
       header.classList.remove('is-footer-pushed');
       header.style.removeProperty('--footer-push');
       return;
@@ -249,6 +256,7 @@
     const headerHeight = header.getBoundingClientRect().height;
     const maxScrollY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
     const atPageEnd = maxScrollY > 0 && window.scrollY >= maxScrollY - 2;
+    footerAtPageEnd = atPageEnd;
     const overlap = atPageEnd ? headerHeight + 1 :
       Math.min(headerHeight + 1, Math.max(0, headerHeight - mobileFooterPhone.getBoundingClientRect().top));
     header.style.setProperty('--footer-push', `${overlap}px`);
@@ -256,9 +264,25 @@
   }
 
   function queueFooterPush() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    if (width !== footerViewportWidth || height !== footerViewportHeight) {
+      footerResizeAnchor = mobileHeader.matches && !menuOpen &&
+        width === footerViewportWidth && footerAtPageEnd;
+      footerViewportWidth = width;
+      footerViewportHeight = height;
+    }
     if (footerPushFrame) return;
     footerPushFrame = window.requestAnimationFrame(() => {
       footerPushFrame = undefined;
+      if (footerResizeAnchor && mobileFooter) {
+        const maxScrollY = Math.max(0, document.documentElement.scrollHeight - window.innerHeight);
+        window.scrollTo({ top: maxScrollY, behavior: 'instant' });
+        // WebKit can resize the viewport before the dvh footer has finished its layout.
+        if (mobileFooter.getBoundingClientRect().height >= window.innerHeight - 2) {
+          footerResizeAnchor = false;
+        }
+      }
       updateFooterPush();
     });
   }
@@ -281,7 +305,7 @@
 
   window.addEventListener('scroll', () => {
     const currentY = Math.max(0, window.scrollY);
-    updateFooterPush();
+    queueFooterPush();
     if (!mobileHeader.matches || menuOpen) {
       showHeader();
       return;
@@ -308,6 +332,9 @@
   window.addEventListener('resize', queueFooterPush);
   window.visualViewport?.addEventListener('resize', queueFooterPush, { passive: true });
   window.visualViewport?.addEventListener('scroll', queueFooterPush, { passive: true });
+  if (mobileFooter && window.ResizeObserver) {
+    new ResizeObserver(queueFooterPush).observe(mobileFooter);
+  }
 
   function setMenuOpen(open) {
     if (menuOpen === open) return;
