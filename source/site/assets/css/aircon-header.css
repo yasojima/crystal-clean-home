@@ -45,6 +45,8 @@ html {
 }
 
 .c-header__navigation {
+  position: relative;
+  top: 12px;
   min-width: 0;
   flex: 1 1 auto;
 }
@@ -102,7 +104,7 @@ html {
   gap: 48px;
   width: calc(100% - 64px);
   max-height: calc(100dvh - var(--aircon-header-height));
-  padding: 24px 32px 48px;
+  padding: 8px 32px 48px;
   overflow-y: auto;
   visibility: hidden;
   background: #fff;
@@ -306,63 +308,40 @@ body.aircon-menu-open .c-header__navigation {
   min-width: 0;
 }
 
-.aircon-full-menu__head .c-site-menu__bold-links,
+.aircon-full-menu__head .aircon-full-menu__category,
 .aircon-full-menu__head .c-site-menu__category {
   margin: 0;
 }
 
-.aircon-full-menu__head .c-bold-links__link,
+.aircon-full-menu__head .aircon-full-menu__category,
 .aircon-full-menu__head .c-site-menu__category {
   display: block;
   padding: 0;
   color: #20252b;
   font-size: 24px;
+  font-weight: 700;
   line-height: 1.5;
+  text-decoration: none;
   background: transparent;
   border: 0;
-}
-
-.aircon-full-menu__head .c-bold-links__link::after {
-  content: none;
 }
 
 .aircon-full-menu__section--business .c-site-menu__category {
   color: #20252b;
 }
 
-.aircon-full-menu__body > ul:not(.c-house-cleaning-menu) {
-  display: grid;
+.aircon-full-menu__body > ul {
+  display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 24px;
 }
 
-.c-house-cleaning-menu {
-  display: block;
-  column-count: 3;
-  column-gap: 24px;
-}
-
-.c-house-cleaning-menu__item {
-  display: block;
-  margin: 0 0 24px;
-  border: 0 !important;
-  break-inside: avoid;
-  list-style: none;
-}
-
-.aircon-full-menu__body .c-menu-accordion__heading {
-  margin: 0;
-  border: 0;
-}
-
-.aircon-full-menu__body .c-menu-accordion__trigger,
 .aircon-full-menu__body .c-aircon-details__image {
   display: none !important;
 }
 
 .aircon-full-menu__body .c-menu-accordion__content,
 .aircon-full-menu__body .c-aircon-details {
-  display: block !important;
   height: auto !important;
   margin: 0;
   padding: 0;
@@ -393,12 +372,6 @@ body.aircon-menu-open .c-header__navigation {
   border: 0;
   border-bottom: 1px solid var(--aircon-menu-gray);
   transition: color .4s var(--aircon-menu-material);
-}
-
-.aircon-full-menu__body .c-house-cleaning-menu__link,
-.aircon-full-menu__body .c-menu-accordion__link {
-  font-size: 16px;
-  font-weight: 700;
 }
 
 .aircon-full-menu__body a[href]::before {
@@ -458,11 +431,7 @@ body.aircon-menu-open .c-header__navigation {
     gap: 24px;
   }
 
-  .c-house-cleaning-menu {
-    column-count: 2;
-  }
-
-  .aircon-full-menu__body > ul:not(.c-house-cleaning-menu) {
+  .aircon-full-menu__body > ul {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
@@ -506,17 +475,13 @@ body.aircon-menu-open .c-header__navigation {
     padding-bottom: 12px;
   }
 
-  .aircon-full-menu__head .c-bold-links__link,
+  .aircon-full-menu__head .aircon-full-menu__category,
   .aircon-full-menu__head .c-site-menu__category {
     font-size: 18px;
   }
 
-  .aircon-full-menu__body > ul:not(.c-house-cleaning-menu) {
-    display: block;
-  }
-
-  .c-house-cleaning-menu {
-    column-count: 1;
+  .aircon-full-menu__body > ul {
+    display: block !important;
   }
 }
 

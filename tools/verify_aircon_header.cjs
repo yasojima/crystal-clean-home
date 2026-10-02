@@ -125,6 +125,25 @@ const output = process.env.SCREENSHOT_DIR;
       }
 
       if (width >= 1400) {
+        await page.evaluate(() => window.scrollTo({ top: 0, behavior: 'instant' }));
+        for (const item of await page.locator('.c-main-menu__item').all()) {
+          const href = await item.locator('a').getAttribute('href');
+          const expected = await page.evaluate(href => {
+            const section = href === '/about/'
+              ? document.querySelector('.aircon-full-menu__section--guide')
+              : [...document.querySelectorAll('.aircon-full-menu__section--service')]
+                  .find(node => node.querySelector('.aircon-full-menu__category').getAttribute('href') === href);
+            return [...section.querySelectorAll('.aircon-full-menu__body a[href]')].map(link => ({
+              href: link.getAttribute('href'), text: link.textContent.replace(/\s+/g, ' ').trim(),
+            }));
+          }, href);
+          await item.hover();
+          const actual = await page.locator('.aircon-mega__link').evaluateAll(links => links.map(link => ({
+            href: link.getAttribute('href'), text: link.textContent.replace(/\s+/g, ' ').trim(),
+          })));
+          assert.ok(actual.length > 0 && actual.every(link => link.text.length > 0), 'Every hover menu keeps its visible labels while the full menu is hidden');
+          assert.deepEqual(actual, expected, 'Category restructuring preserves hover links and labels');
+        }
         await page.locator('.c-main-menu__item').nth(6).hover();
         await page.waitForTimeout(450);
         assert.equal(await page.locator('.aircon-mega').getAttribute('aria-hidden'), 'false');
@@ -132,6 +151,7 @@ const output = process.env.SCREENSHOT_DIR;
         await page.locator('.aircon-mega__link').first().hover();
         await page.waitForTimeout(450);
         assert.equal(await page.locator('.aircon-mega__link').first().evaluate(node => getComputedStyle(node).color), 'rgb(45, 136, 239)');
+        if (output) await page.screenshot({ path: path.join(output, `aircon-hover-position-${width}.png`) });
         await page.mouse.move(5, 400);
       }
 
@@ -150,13 +170,17 @@ const output = process.env.SCREENSHOT_DIR;
       const state = await page.locator('#menu').evaluate(menu => ({
         visible: getComputedStyle(menu).visibility === 'visible' && Number(getComputedStyle(menu).opacity) > .99,
         expanded: document.querySelector('.c-header__menu').getAttribute('aria-expanded'),
-        links: menu.querySelectorAll('.aircon-full-menu__body a[href]').length,
+        links: menu.querySelectorAll('.aircon-full-menu__section a[href]').length,
         inert: menu.inert,
         parent: menu.parentElement.tagName,
+        categories: [...menu.querySelectorAll('.aircon-full-menu__category')].map(node => node.textContent.trim()),
+        sections: menu.querySelectorAll('.aircon-full-menu__section').length,
       }));
       assert.equal(state.visible, true, 'Reopening during close keeps the menu visible');
       assert.equal(state.expanded, 'true');
       assert.equal(state.links, 50);
+      assert.equal(state.sections, 10);
+      assert.deepEqual(state.categories, ['エアコンクリーニング', 'パックサービス', '水回りのお掃除', '洗濯機クリーニング', 'キッチンのお掃除', 'お部屋のお掃除', 'コーティング', 'その他のお掃除']);
       assert.equal(state.inert, false);
       assert.equal(state.parent, 'BODY');
       const after = await button.boundingBox();

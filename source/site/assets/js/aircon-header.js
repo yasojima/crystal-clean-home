@@ -42,14 +42,23 @@
     return section;
   }
 
-  const serviceHeading = siteMenu.querySelector('.c-site-menu__bold-links');
   const serviceLinks = siteMenu.querySelector('.c-house-cleaning-menu');
   const guideHeading = siteMenu.querySelector('[data-guide]');
   const guideLinks = guideHeading.nextElementSibling;
   const businessHeading = siteMenu.querySelector('[data-others]');
   const businessLinks = businessHeading.nextElementSibling;
+  const serviceSubmenus = new Map();
+  const serviceSections = [...serviceLinks.children].map(group => {
+    const heading = group.querySelector('.c-house-cleaning-menu__link, .c-menu-accordion__link');
+    const content = group.querySelector('.c-aircon-details, .c-menu-accordion__content');
+    const href = heading.getAttribute('href');
+    serviceSubmenus.set(href, [...content.querySelectorAll('a[href]')]);
+    heading.className = 'aircon-full-menu__category';
+    if (href === '/house-cleaning/water/') heading.textContent = '水回りのお掃除';
+    return fullMenuSection('service', heading, content);
+  });
   siteMenu.replaceChildren(
-    fullMenuSection('services', serviceHeading, serviceLinks),
+    ...serviceSections,
     fullMenuSection('guide', guideHeading, guideLinks),
     fullMenuSection('business', businessHeading, businessLinks),
   );
@@ -74,9 +83,7 @@
 
   function submenuLinks(href) {
     if (href === '/about/') return [...menu.querySelectorAll('.aircon-full-menu__section--guide .aircon-full-menu__body a[href]')];
-    const group = [...menu.querySelectorAll('.c-house-cleaning-menu__item')].find(item =>
-      item.querySelector('.c-house-cleaning-menu__link, .c-menu-accordion__link')?.getAttribute('href') === href);
-    return group ? [...group.querySelectorAll('.c-aircon-details a[href], .c-menu-accordion__content a[href]')] : [];
+    return serviceSubmenus.get(href) || [];
   }
 
   function openMega(item) {
@@ -117,7 +124,7 @@
       link.className = 'aircon-mega__link';
       link.href = sourceLink.getAttribute('href');
       const text = document.createElement('span');
-      text.textContent = sourceLink.innerText.replace(/\s+/g, ' ').trim();
+      text.textContent = sourceLink.textContent.replace(/\s+/g, ' ').trim();
       link.append(text, arrow('right'));
       if (sourceLink.hasAttribute('data-demo-dialog')) link.setAttribute('data-demo-dialog', '');
       list.append(link);

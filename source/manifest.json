@@ -2996,7 +2996,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 178794,
-      "sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
+      "sha256": "e4153ce4c00b195277ab97ca27b2ac2ed57da4c9715405eb7a099cf1db8a400d",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5568,7 +5568,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 178794,
-      "sha256": "d799a739b36893f3f0ff2e893848fa9b216f372a24f818b76d47f7c863347301",
+      "sha256": "e4153ce4c00b195277ab97ca27b2ac2ed57da4c9715405eb7a099cf1db8a400d",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13143,8 +13143,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 10628,
-      "sha256": "55120968ee774dc3c6da5d2c4ea503ee6da279e7c5cc1100f4941fae3aba5974"
+      "bytes": 9952,
+      "sha256": "4e2861b88e4b818b09f7487884ed3f75e91be20d06e86f8ae40726488b1e2b06"
     },
     "https://www.osoujihonpo.com/assets/js/aircon-header.js": {
       "path": "assets/js/aircon-header.js",
@@ -13152,8 +13152,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-service-page",
-      "bytes": 9082,
-      "sha256": "0b5553250f1b47213fae46563fe46c2f467d9c665b1222df8ddb113c7fb82240"
+      "bytes": 9309,
+      "sha256": "e507c17f90e2ddafec15ca566bb1073a23eb95f01191cfa1dd9604ed883377c1"
     },
     "https://www.osoujihonpo.com/assets/css/aircon-hero.css": {
       "path": "assets/css/aircon-hero.css",
@@ -15445,7 +15445,7 @@
   "counts": {
     "urls": 1433,
     "unique_paths": 1411,
-    "bytes": 121259476,
+    "bytes": 121259027,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
