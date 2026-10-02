@@ -632,7 +632,7 @@ body.aircon-menu-open .c-header__navigation {
   .c-header {
     align-items: flex-start;
     padding: 0 0 0 12px;
-    transition: transform .24s cubic-bezier(.22, 1, .36, 1);
+    transition: transform .45s cubic-bezier(.4, 0, .2, 1);
   }
 
   .c-header.is-scroll-hidden {
@@ -708,7 +708,7 @@ body.aircon-menu-open .c-header__navigation {
 
   .c-header__icons {
     position: absolute;
-    top: 0;
+    top: 4px;
     right: 0;
   }
 
@@ -790,6 +790,67 @@ body.aircon-menu-open .c-header__navigation {
 
   .c-header-contact__days {
     font-size: 9px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767.98px) {
+  html {
+    --aircon-header-height: 96px;
+  }
+
+  .c-header {
+    display: grid;
+    grid-template-columns: 145px minmax(0, 1fr) 64px;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .c-header__logo {
+    grid-column: 1;
+    grid-row: 1;
+    width: 145px;
+  }
+
+  .c-header__icons {
+    position: static;
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .c-header-contact {
+    position: static;
+    grid-column: 2;
+    grid-row: 1;
+    grid-template-columns: minmax(0, 1fr);
+    justify-items: center;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .c-header-contact__phone {
+    gap: 3px;
+  }
+
+  .c-header-contact__number {
+    font-size: clamp(15px, 4vw, 17px);
+  }
+
+  .c-header-contact__mark {
+    flex-basis: 22px;
+    width: 22px;
+    height: 12px;
+    background-size: 220px auto;
+  }
+
+  .c-header-contact__hours {
+    display: grid;
+    gap: 1px;
+    text-align: center;
+    font-size: clamp(9.5px, 2.6vw, 11px);
+  }
+
+  .c-header-contact__days {
+    font-size: 9.5px;
   }
 }
 

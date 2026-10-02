@@ -717,6 +717,11 @@ def render(route, page, catalogue, copy):
     categories = template('categories')
     if route == 'aircon':
         categories['style'] = '--bg-color: #e3f1fc;'
+        featured_heading = categories.find('h2')
+        featured_heading['class'] = ['c-heading-level-2', 'p-reasons__heading', 'c-featured-cleaning__heading']
+        featured_heading.string = '注目のハウスクリーニング'
+        featured_cards = categories.select_one('.c-house-cleaning-links')
+        featured_cards['class'] = [name for name in featured_cards['class'] if name != 'u-mt-24']
     main.append(categories); main.append(template('cart-modal'))
     if route == 'aircon':
         decorate_aircon_sections(main)
@@ -742,8 +747,8 @@ def render(route, page, catalogue, copy):
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100256">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100301" defer></script>'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100304">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100304" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
@@ -760,7 +765,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100302">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100304">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)

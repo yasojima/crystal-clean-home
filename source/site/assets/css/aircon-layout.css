@@ -457,14 +457,18 @@
   margin-top: 40px;
 }
 
+.c-service-page .c-featured-cleaning__heading + .c-house-cleaning-links {
+  margin-top: 40px;
+}
+
 .c-service-page .c-reasons__card {
   width: 100%;
-  max-width: 352px;
+  max-width: 304px;
   height: auto;
   aspect-ratio: 1;
   border-radius: 50%;
   justify-content: center;
-  padding: 40px;
+  padding: 16px;
   text-align: center;
 }
 
@@ -482,7 +486,7 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1199.98px) {
-  .c-service-page .c-reasons__card { padding: 32px; }
+  .c-service-page .c-reasons__card { padding: 16px; }
   .c-service-page .c-reason-card__heading { font-size: .9375rem; }
   .c-service-page .c-reason-card__description { font-size: .875rem; }
 }
@@ -494,15 +498,14 @@
   }
 
   .c-service-page .c-reasons__card {
-    width: 85.6%;
-    padding: 28px;
+    width: calc(100% - 48px);
+    padding: 16px;
   }
 
   .c-service-page .c-reason-card__description { font-size: .875rem; }
 }
 
 @media (max-width: 375px) {
-  .c-service-page .c-reasons__card { width: calc(100% - 16px); }
   .c-service-page .c-reason-card__heading { font-size: .9375rem; }
 }
 
@@ -538,6 +541,15 @@
   .c-service-page .c-tab__button[aria-selected="true"]::after {
     top: auto;
     bottom: -9px;
+  }
+
+  .c-service-page .recommend-plan__tab .c-tab__buttons {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .c-service-page .recommend-plan__tab .c-tab__button {
+    font-size: 14px;
+    white-space: nowrap;
   }
 
   .c-service-page .p-page-anchors__cards .c-category-simple-card__bottom {

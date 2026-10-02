@@ -234,7 +234,10 @@
   const mobileHeader = window.matchMedia('(max-width: 767.98px)');
   const mobileFooterPhone = document.querySelector('.c-footer--aircon .footer-tel-sp');
   let lastScrollY = window.scrollY;
+  let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
+  let touchActive = false;
+  const scrollIdleDelay = 450;
 
   function updateFooterPush() {
     if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
@@ -252,23 +255,43 @@
     window.clearTimeout(scrollIdleTimer);
     header.classList.remove('is-scroll-hidden');
     updateFooterPush();
-    lastScrollY = window.scrollY;
+    lastScrollY = Math.max(0, window.scrollY);
+    visibleScrollY = lastScrollY;
+  }
+
+  function scheduleHeaderReturn() {
+    window.clearTimeout(scrollIdleTimer);
+    if (touchActive || !mobileHeader.matches || menuOpen) return;
+    scrollIdleTimer = window.setTimeout(() => {
+      if (!touchActive) showHeader();
+    }, scrollIdleDelay);
   }
 
   window.addEventListener('scroll', () => {
-    const currentY = window.scrollY;
-    const moved = Math.abs(currentY - lastScrollY) > 2;
-    lastScrollY = currentY;
+    const currentY = Math.max(0, window.scrollY);
     updateFooterPush();
-    if (!mobileHeader.matches || menuOpen || currentY <= 4) {
+    if (!mobileHeader.matches || menuOpen) {
       showHeader();
       return;
     }
-    if (!moved) return;
-    header.classList.add('is-scroll-hidden');
+    if (currentY === lastScrollY) return;
+    lastScrollY = currentY;
     window.clearTimeout(scrollIdleTimer);
-    scrollIdleTimer = window.setTimeout(showHeader, 140);
+    if (Math.abs(currentY - visibleScrollY) >= 8) header.classList.add('is-scroll-hidden');
+    scheduleHeaderReturn();
   }, { passive: true });
+  document.addEventListener('scrollend', scheduleHeaderReturn);
+  document.addEventListener('touchstart', event => {
+    if (!mobileHeader.matches || menuOpen) return;
+    touchActive = event.touches.length > 0;
+    window.clearTimeout(scrollIdleTimer);
+  }, { passive: true });
+  function endTouch(event) {
+    touchActive = event.touches.length > 0;
+    if (!touchActive) scheduleHeaderReturn();
+  }
+  document.addEventListener('touchend', endTouch, { passive: true });
+  document.addEventListener('touchcancel', endTouch, { passive: true });
   mobileHeader.addEventListener('change', showHeader);
   window.addEventListener('resize', updateFooterPush);
 
