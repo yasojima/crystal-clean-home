@@ -12,6 +12,23 @@
   const openImage = '/assets/images/header/menu-open_pc.webp';
   const openSource = '/assets/images/header/menu-open_sp.webp';
   const siteMenu = menu.querySelector('.c-site-menu');
+  const svgNamespace = 'http://www.w3.org/2000/svg';
+  const arrowPaths = {
+    down: 'M10.6306 0.630646L5.63065 5.63065C5.56033 5.70087 5.46502 5.74032 5.36565 5.74032C5.26627 5.74032 5.17096 5.70087 5.10065 5.63065L0.100646 0.630646C0.0344058 0.559559 -0.00165568 0.465536 5.84237e-05 0.368385C0.00177253 0.271235 0.0411284 0.178542 0.109835 0.109835C0.178541 0.0411289 0.271234 0.00177253 0.368385 5.84229e-05C0.465535 -0.00165569 0.559559 0.0344063 0.630646 0.100646L5.36565 4.83502L10.1006 0.100646C10.1717 0.0344063 10.2658 -0.00165569 10.3629 5.84229e-05C10.4601 0.00177253 10.5528 0.0411289 10.6215 0.109835C10.6902 0.178542 10.7295 0.271235 10.7312 0.368385C10.7329 0.465536 10.6969 0.559559 10.6306 0.630646Z',
+    right: 'M6.82893 4.25725L0.995977 7.89336C0.9144 7.94427 0.810425 7.97894 0.697217 7.993C0.584008 8.00705 0.466655 7.99985 0.360015 7.97231C0.253376 7.94476 0.162244 7.89811 0.0981569 7.83826C0.0340698 7.77842 -9.06601e-05 7.70806 1.80705e-07 7.6361V0.363897C-9.06601e-05 0.29194 0.0340698 0.221584 0.0981569 0.161736C0.162244 0.101888 0.253376 0.0552387 0.360015 0.0276944C0.466655 0.000149987 0.584008 -0.00705118 0.697217 0.00700251C0.810425 0.0210562 0.9144 0.0557328 0.995977 0.106642L6.82893 3.74275C6.88316 3.77652 6.92618 3.81662 6.95554 3.86076C6.98489 3.9049 7 3.95222 7 4C7 4.04778 6.98489 4.0951 6.95554 4.13924C6.92618 4.18338 6.88316 4.22348 6.82893 4.25725Z',
+  };
+
+  function arrow(direction) {
+    const svg = document.createElementNS(svgNamespace, 'svg');
+    svg.setAttribute('viewBox', direction === 'down' ? '0 0 11 6' : '0 0 7 8');
+    svg.setAttribute('aria-hidden', 'true');
+    svg.setAttribute('focusable', 'false');
+    const path = document.createElementNS(svgNamespace, 'path');
+    path.setAttribute('d', arrowPaths[direction]);
+    path.setAttribute('fill', 'currentColor');
+    svg.append(path);
+    return svg;
+  }
 
   function fullMenuSection(name, heading, content) {
     const section = document.createElement('div');
@@ -37,6 +54,7 @@
     fullMenuSection('guide', guideHeading, guideLinks),
     fullMenuSection('business', businessHeading, businessLinks),
   );
+  menu.querySelectorAll('.aircon-full-menu__body a[href]').forEach(link => link.append(arrow('right')));
 
   button.setAttribute('aria-controls', menu.id);
   button.setAttribute('aria-expanded', 'false');
@@ -69,7 +87,27 @@
     const heading = document.createElement('a');
     heading.className = 'aircon-mega__heading';
     heading.href = parentLink.getAttribute('href');
-    heading.textContent = parentLink.textContent.trim();
+    const label = parentLink.querySelector('span').textContent.trim();
+    heading.setAttribute('aria-label', label);
+    const english = document.createElement('span');
+    english.className = 'aircon-mega__en';
+    english.textContent = {
+      '/about/': 'About Us',
+      '/house-cleaning/aircon/': 'Air Conditioning',
+      '/house-cleaning/pack/': 'Pack Service',
+      '/house-cleaning/water/': 'Water Areas',
+      '/house-cleaning/washer/': 'Washing Machines',
+      '/house-cleaning/kitchen/': 'Kitchen',
+      '/house-cleaning/room/': 'Rooms',
+      '/house-cleaning/coating/': 'Coating',
+      '/house-cleaning/others/': 'Others',
+    }[heading.getAttribute('href')] || '';
+    const title = document.createElement('span');
+    title.className = 'aircon-mega__title';
+    const titleText = document.createElement('span');
+    titleText.textContent = label;
+    title.append(titleText, arrow('right'));
+    heading.append(english, title);
 
     const list = document.createElement('div');
     list.className = 'aircon-mega__links';
@@ -77,7 +115,9 @@
       const link = document.createElement('a');
       link.className = 'aircon-mega__link';
       link.href = sourceLink.getAttribute('href');
-      link.textContent = sourceLink.innerText.replace(/\s+/g, ' ').trim();
+      const text = document.createElement('span');
+      text.textContent = sourceLink.innerText.replace(/\s+/g, ' ').trim();
+      link.append(text, arrow('right'));
       if (sourceLink.hasAttribute('data-demo-dialog')) link.setAttribute('data-demo-dialog', '');
       list.append(link);
     }
@@ -90,6 +130,10 @@
   }
 
   navigation.querySelectorAll('.c-main-menu__item').forEach(item => {
+    const link = item.querySelector('.c-main-menu__link');
+    const label = document.createElement('span');
+    label.textContent = link.textContent.trim();
+    link.replaceChildren(label, arrow('down'));
     item.addEventListener('mouseenter', () => openMega(item));
     item.addEventListener('focusin', () => openMega(item));
   });

@@ -523,14 +523,17 @@ def render(route, page, catalogue, copy):
             output = re.sub(bubble_pattern, bubble_css, output)
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100216">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100214" defer></script>'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100217">'
+        header_js = '<script src="/assets/js/aircon-header.js?v=2026100217" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
                             header_css, output)
         else:
             output = output.replace('</head>', header_css + '\n</head>', 1)
-        if '/assets/js/aircon-header.js' not in output:
+        if '/assets/js/aircon-header.js' in output:
+            output = re.sub(r'<script src="/assets/js/aircon-header\.js\?v=\d+" defer></script>',
+                            header_js, output)
+        else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
     else:
         output = re.sub(bubble_pattern + r'\s*', '', output)
