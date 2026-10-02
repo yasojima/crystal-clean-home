@@ -1,0 +1,147 @@
+{
+  "base": "https://yasojima.github.io",
+  "checkedAt": "2026-10-02T23:47:27.785Z",
+  "checks": [
+    {
+      "engine": "chrome",
+      "width": 375,
+      "mobile": {
+        "phoneTop": -0.15625,
+        "footerHeight": 832,
+        "cartVisibility": "hidden",
+        "headerBottom": -1,
+        "overflow": false,
+        "forcedScrollCalls": []
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 414,
+      "mobile": {
+        "phoneTop": 0,
+        "footerHeight": 832,
+        "cartVisibility": "hidden",
+        "headerBottom": -1,
+        "overflow": false,
+        "forcedScrollCalls": []
+      }
+    },
+    {
+      "engine": "chrome",
+      "pc": {
+        "phoneTop": 132.1875,
+        "headerBottom": 108,
+        "bottom": 800.1875,
+        "coating": [
+          {
+            "text": "防汚コーティング",
+            "lines": 1
+          },
+          {
+            "text": "浴室コーティング",
+            "lines": 1
+          },
+          {
+            "text": "キッチンコーティング",
+            "lines": 1
+          },
+          {
+            "text": "トイレコーティング",
+            "lines": 1
+          },
+          {
+            "text": "洗面台コーティング",
+            "lines": 1
+          },
+          {
+            "text": "フロアコーティング（1帖あたり）",
+            "lines": 1
+          },
+          {
+            "text": "UVコーティング（1帖あたり）",
+            "lines": 1
+          },
+          {
+            "text": "フローリング補修（リペア）",
+            "lines": 1
+          }
+        ],
+        "spacing": "22.8px"
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 375,
+      "mobile": {
+        "phoneTop": -0.03125,
+        "footerHeight": 832,
+        "cartVisibility": "hidden",
+        "headerBottom": -1,
+        "overflow": false,
+        "forcedScrollCalls": []
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 414,
+      "mobile": {
+        "phoneTop": 0.0625,
+        "footerHeight": 832,
+        "cartVisibility": "hidden",
+        "headerBottom": -1,
+        "overflow": false,
+        "forcedScrollCalls": []
+      }
+    },
+    {
+      "engine": "webkit",
+      "pc": {
+        "phoneTop": 132.328125,
+        "headerBottom": 108,
+        "bottom": 800.328125,
+        "coating": [
+          {
+            "text": "防汚コーティング",
+            "lines": 1
+          },
+          {
+            "text": "浴室コーティング",
+            "lines": 1
+          },
+          {
+            "text": "キッチンコーティング",
+            "lines": 1
+          },
+          {
+            "text": "トイレコーティング",
+            "lines": 1
+          },
+          {
+            "text": "洗面台コーティング",
+            "lines": 1
+          },
+          {
+            "text": "フロアコーティング（1帖あたり）",
+            "lines": 1
+          },
+          {
+            "text": "UVコーティング（1帖あたり）",
+            "lines": 1
+          },
+          {
+            "text": "フローリング補修（リペア）",
+            "lines": 1
+          }
+        ],
+        "spacing": "22.799999px"
+      }
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "source_commit": "5fb0394",
+  "pages_commit": "0772c88",
+  "pages_run": 37079015228,
+  "physical_iphone_acceptance": "not_verified",
+  "viewport_resize_note": "Controlled browser viewport resize; not an actual iPhone toolbar or rubber-band gesture."
+}

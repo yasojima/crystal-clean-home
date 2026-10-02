@@ -1,0 +1,56 @@
+{
+  "base": "https://yasojima.github.io",
+  "start": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1800,
+    "transition": "0.45s"
+  },
+  "held": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s"
+  },
+  "shortlyAfter": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s"
+  },
+  "idle": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1925,
+    "transition": "0.45s"
+  },
+  "upward": {
+    "hidden": true,
+    "y": -67.4881591796875,
+    "bottom": 28.5118408203125,
+    "scrollY": 1745,
+    "transition": "0.45s"
+  },
+  "bottom": {
+    "hidden": false,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 12938,
+    "transition": "0.45s"
+  },
+  "pc": {
+    "y": 0,
+    "hidden": false
+  },
+  "errors": [],
+  "passed": true,
+  "source_commit": "5fb0394",
+  "pages_commit": "0772c88",
+  "pages_run": 37079015228,
+  "physical_iphone_acceptance": "not_verified",
+  "viewport_resize_note": "Controlled browser viewport resize; not an actual iPhone toolbar or rubber-band gesture."
+}
