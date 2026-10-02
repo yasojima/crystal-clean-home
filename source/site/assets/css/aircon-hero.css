@@ -15,9 +15,11 @@
 
 .c-house-cleaning-mv--check {
   --hero-bottom-gap: 24px;
+  --hero-viewport-height: min(100svh, 800px);
+  --hero-height: calc(var(--hero-viewport-height) - var(--aircon-header-height) - var(--hero-bottom-gap));
   display: flex;
   align-items: center;
-  height: calc(100svh - var(--aircon-header-height) - var(--hero-bottom-gap));
+  height: var(--hero-height);
   padding-block: 0 var(--hero-projection);
 }
 
@@ -32,7 +34,7 @@
 }
 
 .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
-  width: min(55%, calc((100svh - var(--aircon-header-height) - var(--hero-bottom-gap) - var(--hero-projection) - 2 * clamp(16px, 4svh, 40px)) * 1.5));
+  width: min(55%, calc((var(--hero-height) - var(--hero-projection) - 2 * clamp(16px, calc(var(--hero-viewport-height) * .04), 40px)) * 1.5));
   height: auto;
   top: calc((100% - var(--hero-projection)) / 2);
   object-fit: contain;

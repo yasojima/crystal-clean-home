@@ -54,12 +54,12 @@ const output = process.env.SCREENSHOT_DIR;
           overflow: document.documentElement.scrollWidth > innerWidth + 1,
         };
       });
-      assert.ok(Math.abs(geometry.heroBottom - (height - 24)) < 1, 'Hero leaves 24px at the viewport bottom');
-      assert.ok(Math.abs(geometry.checkBottom - (height - 24)) < 1, 'Circular Check edge has breathing room');
+      assert.ok(Math.abs(geometry.heroBottom - (Math.min(height, 800) - 24)) < 1, 'Hero uses an 800px viewport ceiling and keeps 24px of breathing room');
+      assert.ok(Math.abs(geometry.checkBottom - (Math.min(height, 800) - 24)) < 1, 'Circular Check edge follows the capped hero');
       assert.ok(geometry.photoBottom < geometry.checkTop, 'Photo stays above the straight edge; only the blue background projects into the circle');
       assert.ok(Math.abs(geometry.checkCenter - geometry.contentCenter) < 1, 'Check is centered');
       assert.equal(geometry.label, 'Check！');
-      assert.ok(geometry.nextHeadingTop >= height, 'Service selector starts after the first view');
+      assert.ok(geometry.nextHeadingTop >= Math.min(height, 800), 'Service selector follows the capped first view');
       assert.equal(geometry.buttonSize, width < 768 ? 44 : 56);
       assert.equal(geometry.overflow, false);
       assert.equal(await page.locator('.c-issue-list__heading').textContent(), 'こんなお悩みはありませんか？');

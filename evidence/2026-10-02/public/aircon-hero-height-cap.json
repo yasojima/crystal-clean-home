@@ -1,0 +1,197 @@
+{
+  "checked_at": "2026-10-02T05:14:52.452Z",
+  "commit": "5d7abc655dd693975c7a8fc4fa63092e4efed3f7",
+  "run": 36967991599,
+  "http": [
+    {
+      "file": "assets/css/aircon-hero.css",
+      "status": 200,
+      "sha256": "a1ad91a705a0628cc3e0139349bbcf15eb0bcd2ecd8550fe8b79be5a0c4c2abc",
+      "matches": true
+    },
+    {
+      "file": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "0fe251f78ed93614c8b40caceb93972d0b7c57093f26a52785de8f136cb38e8d",
+      "matches": true
+    }
+  ],
+  "results": [
+    {
+      "width": 1440,
+      "height": 800,
+      "hero": {
+        "top": 108,
+        "bottom": 776,
+        "width": 1425,
+        "height": 668
+      },
+      "photo": {
+        "top": 140.421875,
+        "bottom": 662.921875,
+        "width": 783.75,
+        "height": 522.5
+      },
+      "check": {
+        "top": 695.375,
+        "bottom": 776,
+        "width": 288,
+        "height": 80.625
+      },
+      "selector": {
+        "top": 806,
+        "bottom": 836,
+        "width": 340,
+        "height": 30
+      },
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 1200,
+      "hero": {
+        "top": 108,
+        "bottom": 776,
+        "width": 1425,
+        "height": 668
+      },
+      "photo": {
+        "top": 140.421875,
+        "bottom": 662.921875,
+        "width": 783.75,
+        "height": 522.5
+      },
+      "check": {
+        "top": 695.375,
+        "bottom": 776,
+        "width": 288,
+        "height": 80.625
+      },
+      "selector": {
+        "top": 806,
+        "bottom": 836,
+        "width": 340,
+        "height": 30
+      },
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "hero": {
+        "top": 108,
+        "bottom": 776,
+        "width": 1905,
+        "height": 668
+      },
+      "photo": {
+        "top": 140,
+        "bottom": 656,
+        "width": 774,
+        "height": 516
+      },
+      "check": {
+        "top": 688,
+        "bottom": 776,
+        "width": 312,
+        "height": 88
+      },
+      "selector": {
+        "top": 806,
+        "bottom": 836,
+        "width": 340,
+        "height": 30
+      },
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "hero": {
+        "top": 108,
+        "bottom": 776,
+        "width": 2545,
+        "height": 668
+      },
+      "photo": {
+        "top": 140,
+        "bottom": 656,
+        "width": 774,
+        "height": 516
+      },
+      "check": {
+        "top": 688,
+        "bottom": 776,
+        "width": 312,
+        "height": 88
+      },
+      "selector": {
+        "top": 806,
+        "bottom": 836,
+        "width": 340,
+        "height": 30
+      },
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "hero": {
+        "top": 72,
+        "bottom": 776,
+        "width": 375,
+        "height": 704
+      },
+      "photo": {
+        "top": 271,
+        "bottom": 521,
+        "width": 375,
+        "height": 250
+      },
+      "check": {
+        "top": 720,
+        "bottom": 776,
+        "width": 200,
+        "height": 56
+      },
+      "selector": {
+        "top": 806,
+        "bottom": 857,
+        "width": 281,
+        "height": 51
+      },
+      "overflow": false
+    },
+    {
+      "width": 320,
+      "height": 700,
+      "hero": {
+        "top": 72,
+        "bottom": 676,
+        "width": 305,
+        "height": 604
+      },
+      "photo": {
+        "top": 244.3359375,
+        "bottom": 447.6640625,
+        "width": 305,
+        "height": 203.328125
+      },
+      "check": {
+        "top": 620,
+        "bottom": 676,
+        "width": 200,
+        "height": 56
+      },
+      "selector": {
+        "top": 706,
+        "bottom": 757,
+        "width": 211,
+        "height": 51
+      },
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

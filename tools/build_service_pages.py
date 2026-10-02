@@ -608,7 +608,7 @@ def render(route, page, catalogue, copy):
                             header_js, output)
         else:
             output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100231">'
+        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100238">'
         if '/assets/css/aircon-hero.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
                             hero_css, output)
