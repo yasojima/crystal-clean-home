@@ -9,7 +9,7 @@
   position: absolute;
   inset: 0;
   z-index: 0;
-  border-radius: 50% / 64px;
+  border-radius: 50% / 88px;
   background: #fff;
   pointer-events: none;
 }
@@ -167,16 +167,9 @@
 .c-service-page .c-voice-card__stars-filled { color: #ffcb16; }
 .c-service-page .c-voice-card__stars-empty { color: #93a9c2; }
 
-.c-service-page .c-voice-bubbles__note {
-  margin-top: 26px;
-  color: #546b85;
-  font-size: .75rem;
-  text-align: center;
-}
-
 @media screen and (max-width: 767.98px) {
   .c-service-page .c-voice-section--bubble-preview::after {
-    border-radius: 50% / 28px;
+    border-radius: 50% / 40px;
   }
 
   .c-service-page .c-voice-bubbles.c-grid {

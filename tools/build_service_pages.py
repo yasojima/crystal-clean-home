@@ -421,10 +421,6 @@ def voices(page, copy):
             profile.append(identity)
             profile.append(stars)
             card.insert(0, profile)
-        n.select_one('.p-content-box__content').append(tag(
-            'p', 'c-voice-bubbles__note',
-            '※ このページのニックネーム・年代・評価・ご利用者様の声は、デザイン確認用のサンプルです。'
-        ))
     return n
 
 
@@ -516,7 +512,7 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100212">'
+    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100213">'
     bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
     if route == 'aircon':
         if re.search(bubble_pattern, output):
