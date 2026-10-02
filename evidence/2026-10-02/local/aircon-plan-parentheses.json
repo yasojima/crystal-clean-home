@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-10-02T05:33:50.532Z",
+  "public": false,
+  "http": [],
+  "results": [
+    {
+      "width": 1440,
+      "state": {
+        "text": "組み合わせてご利用いただけるプラン",
+        "topCurve": false,
+        "curves": 6,
+        "headingWidth": 484,
+        "headingHeight": 56,
+        "textWidth": 408,
+        "textHeight": 28.796875,
+        "textCenter": 712.5,
+        "headingCenter": 712.5,
+        "gap": "24px",
+        "left": {
+          "width": "14px",
+          "height": "56px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)"
+        },
+        "right": {
+          "width": "14px",
+          "height": "56px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)",
+          "bottom": "0px"
+        },
+        "arrowTop": "-22px",
+        "overflow": false
+      },
+      "tabs": true
+    },
+    {
+      "width": 390,
+      "state": {
+        "text": "組み合わせてご利用いただけるプラン",
+        "topCurve": false,
+        "curves": 6,
+        "headingWidth": 345,
+        "headingHeight": 64,
+        "textWidth": 293,
+        "textHeight": 48,
+        "textCenter": 187.5,
+        "headingCenter": 187.5,
+        "gap": "14px",
+        "left": {
+          "width": "12px",
+          "height": "64px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)"
+        },
+        "right": {
+          "width": "12px",
+          "height": "64px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)",
+          "bottom": "0px"
+        },
+        "arrowTop": "-22px",
+        "overflow": false
+      },
+      "tabs": true
+    },
+    {
+      "width": 320,
+      "state": {
+        "text": "組み合わせてご利用いただけるプラン",
+        "topCurve": false,
+        "curves": 6,
+        "headingWidth": 275,
+        "headingHeight": 64,
+        "textWidth": 223,
+        "textHeight": 48,
+        "textCenter": 152.5,
+        "headingCenter": 152.5,
+        "gap": "14px",
+        "left": {
+          "width": "12px",
+          "height": "64px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)"
+        },
+        "right": {
+          "width": "12px",
+          "height": "64px",
+          "border": "1px",
+          "color": "rgb(6, 64, 140)",
+          "bottom": "0px"
+        },
+        "arrowTop": "-22px",
+        "overflow": false
+      },
+      "tabs": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

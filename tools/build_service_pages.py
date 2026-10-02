@@ -505,7 +505,6 @@ def decorate_aircon_sections(main):
     for selector, direction, color in (
         ('#service-introduction', 'down', '#fff'),
         ('.p-reasons', 'up', '#e3f1fc'),
-        ('#service-sets', 'down', '#fff'),
         ('.c-voice-section--bubble-preview', 'up', '#e3f1fc'),
         ('#service-faq', 'down', '#fff'),
         ('#service-flow', 'up', '#e3f1fc'),
@@ -553,6 +552,10 @@ def render(route, page, catalogue, copy):
             section = template('aircon-offers')
             if route == 'aircon':
                 section.select_one('.recommend-plan__text').decompose()
+                heading = section.select_one('.recommend-plan__heading')
+                heading_text = heading.get_text()
+                heading.clear()
+                heading.append(tag('span', 'c-bracket-heading__text', heading_text))
             panels = section.select('.c-tab__panel .recommend-plan-cards')
             assert len(panels) == 2 and len(page['offers']) == 3
             for index, key in enumerate(page['offers']):
@@ -614,7 +617,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100240">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100242">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
