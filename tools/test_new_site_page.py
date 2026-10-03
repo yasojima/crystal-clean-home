@@ -5,6 +5,7 @@ from __future__ import annotations
 import subprocess
 import sys
 from pathlib import Path
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "source/manifest.json"
@@ -27,7 +28,14 @@ def main() -> None:
         assert 'src="/assets/js/shared-translation-control.js"' in html
         assert 'href="/assets/css/site-typography.css?v=20261001"' in html
         assert 'family=Zen+Kaku+Gothic+New:wght@400;500;700' in html
-        print("new page identity generation: PASS")
+        parsed = BeautifulSoup(html, 'html.parser')
+        assert len(parsed.select('#menu')) == 1
+        assert len(parsed.select('#footer')) == 1
+        assert 'src="/assets/js/aircon-header.js?v=2026100314"' in html
+        assert 'href="/assets/css/site-footer.css?v=2026100324"' in html
+        assert 'id="first-view"' in html
+        assert html.count('aircon-footer-menu__row js-accordion') == 5
+        print("new page identity and shared UI generation: PASS")
     finally:
         if PAGE.exists():
             PAGE.unlink()

@@ -409,7 +409,7 @@ def main() -> None:
     unique = {record["path"]: record for record in manifest["files"].values()}
     manifest["counts"].update(urls=len(manifest["files"]), unique_paths=len(unique),
                               bytes=sum(record["bytes"] for record in unique.values()))
-    MANIFEST.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+    MANIFEST.write_bytes(json.dumps(manifest, ensure_ascii=False, indent=2).encode("utf-8"))
     print(json.dumps({"pages": len(pages), "updated_files": len(changed),
                       "new_assets": len(missing_assets), "removed_assets": len(obsolete)}, ensure_ascii=False))
 

@@ -35,6 +35,8 @@ def main() -> None:
         '</main>\n</body>\n</html>\n', encoding="utf-8")
     subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools/apply_site_identity.py")],
                    cwd=ROOT, check=True)
+    subprocess.run([sys.executable, "-X", "utf8", str(ROOT / "tools/build_shared_ui.py")],
+                   cwd=ROOT, check=True)
     print(page)
 
 

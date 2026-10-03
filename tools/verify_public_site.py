@@ -73,6 +73,6 @@ report = {
 }
 if args.git:
     report['verified_git_source_tree'] = subprocess.check_output(['git', '-C', str(root), 'rev-parse', 'HEAD:source/site'], text=True).strip()
-(root / 'source' / 'verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+(root / 'source' / 'verification.json').write_bytes(json.dumps(report, ensure_ascii=False, indent=2).encode('utf-8'))
 print(json.dumps({k: v for k, v in report.items() if k not in {'unavailable_source_urls', 'response_conflicts', 'external_resources_remain_external'}}, ensure_ascii=False))
 raise SystemExit(1 if errors or missing or unfinished or manifest['conflicts'] else 0)

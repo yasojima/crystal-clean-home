@@ -26,6 +26,8 @@
 
 ## 対象と正本
 
+- [変更 2026-10-03 / CHG-2026-10-03-024] 全97公開ページのヘッダーは `source/shared-ui/header.html`、電話案内から最下段までのフッターは `source/shared-ui/footer.html` を単一の正本とする。`python -X utf8 tools/build_shared_ui.py` で全ページへ静的に反映する。ブラウザーでの後読み込みは使わない。ヘッダーの共通CSS／JSは既存の `aircon-header.css`／`aircon-header.js` を全ページから使用し、フッターCSSは `site-footer.css` に分離する。商品ページの生成処理と新規ページ作成も同じ正本を参照する。コミット前の `build_shared_ui.py --check` で取り残しを防ぐ。既存の97ページのmainは変更しない。本文に独立したfooter要素を持つ法人ページでは `.c-footer` のサイトフッターだけを置換する。
+
 - 公開ルートは `https://yasojima.github.io/`。確認用の画面であり、カート・予約・問い合わせのサーバー接続は対象外。
 - HTMLと配信素材の正本は `source/site/`、公開・除外範囲は `source/scope.json`、ファイル情報は `source/manifest.json`。公開ページの識別名は `Crystal Clean Home`。
 - 46サービスページは `tools/build_service_pages.py` で生成する。共通HTMLは `source/service-pages/templates/`、商品・価格・IDは `catalogue.json`、本文は `copy.json`、オプションとFAQは各専用JSON、声の短縮見出しは `voice-title-overrides.json`、画像の生成条件とファイル情報は `scenes.json`・`scene-assets.json` がそれぞれ正本。

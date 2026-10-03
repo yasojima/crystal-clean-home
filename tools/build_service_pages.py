@@ -6,7 +6,7 @@ import hashlib
 import json
 import re
 from bs4 import BeautifulSoup
-from apply_site_identity import transform as apply_site_identity
+from build_shared_ui import transform as shared_ui
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -553,146 +553,6 @@ def decorate_aircon_sections(main):
     add_section_curve(main.select_one('#service-flow').find_next_sibling('section'), 'down', '#fff')
 
 
-def refine_aircon_mobile_footer(output):
-    """Pair mobile headings before their full-width details; preserve the PC fragment."""
-    def replace_mobile(match):
-        mobile = parse(match.group()).select_one('.u-sp-only')
-        menu = mobile.select_one('.aircon-footer-menu') or mobile.select_one('.js-accordion')
-        headings = menu.select('.c-footer-item-heading')
-        pairs = []
-        for heading in headings:
-            trigger = heading.select_one('.js-accordion-trigger')
-            panel = menu.select_one('#' + trigger['aria-controls'])
-            label = heading.get_text(strip=True)
-            trigger['id'] = panel['id'] + '-trigger'
-            trigger['aria-expanded'] = 'false'
-            trigger['aria-label'] = label + 'の詳細'
-            panel['aria-hidden'] = 'true'
-            panel['role'] = 'region'
-            panel['aria-labelledby'] = trigger['id']
-            for extra_heading in panel.select('.aircon-footer-menu__detail-heading'):
-                extra_heading.decompose()
-            pairs.append((heading.extract(), panel.extract()))
-        grouped = tag('div', 'aircon-footer-menu')
-        for start in range(0, len(pairs), 2):
-            row = tag('div', 'aircon-footer-menu__row js-accordion', **{'data-simple-type': 'false'})
-            for heading, _ in pairs[start:start + 2]:
-                row.append(heading)
-            for _, panel in pairs[start:start + 2]:
-                row.append(panel)
-            grouped.append(row)
-        menu.replace_with(grouped)
-        phone = mobile.select_one('.footer-tel-sp')
-        if not phone.select_one('.aircon-footer-page-top--mobile'):
-            phone.select_one('.footer-tel-img').insert_after(tag(
-                'a', 'c-footer__page-top aircon-footer-page-top--mobile',
-                href='#first-view', **{'aria-label': 'ファーストビューへ戻る'}))
-        return re.sub(r'>\s+<', '>\n<', str(mobile)) + '\n'
-
-    output = re.sub(r'<div class="u-sp-only">.*?(?=<div class="u-pc-only">)',
-                    replace_mobile, output, count=1, flags=re.S)
-    output = output.replace('class="c-footer__page-top" href="#first-view"',
-                            'class="c-footer__page-top aircon-footer-page-top--desktop" href="#first-view"', 1)
-    return apply_site_identity(output, True)
-
-
-def refine_aircon_footer(output):
-    document = parse(output)
-    coating_links = document.select('footer .u-pc-only .c-aircon-footer__coating-links a[href]')
-    if not coating_links:
-        coating_links = document.select('#menu-accordion_7 a[href]')
-    coating_items = [(link['href'], link.get_text(strip=True)) for link in coating_links]
-
-    def coating_list():
-        links = tag('ul', 'c-footer-global-links c-aircon-footer__coating-links')
-        for href, label in coating_items:
-            item = tag('li', 'c-footer-global-links__item')
-            anchor = tag('a', 'c-footer-global-links__link', label, href=href)
-            item.append(anchor)
-            links.append(item)
-        return links
-
-    def replace_footer(match):
-        footer = parse(match.group()).select_one('footer')
-        footer['class'] = list(dict.fromkeys(footer.get('class', []) + ['c-footer--aircon']))
-        for href, label in (('/about/', 'ハウスクリーニングについて'),
-                            ('/beginner/', 'はじめての方へ')):
-            for link in footer.select(f'.c-footer-global-links a[href="{href}"]'):
-                link.string = label
-        page_top = footer.select_one('.c-footer__page-top')
-        page_top['href'] = '#first-view'
-        page_top['aria-label'] = 'ファーストビューへ戻る'
-        for note in footer.select('.c-pending-link__note'):
-            note.find_parent(class_='c-footer-item-heading').decompose()
-        mobile_coating = footer.select_one('.u-sp-only a[href="/house-cleaning/coating/"]').find_parent(class_='c-footer-item-heading')
-        if not mobile_coating.select_one('button'):
-            trigger = tag('button', 'c-footer-accordion__trigger js-accordion-trigger', **{'type': 'button', 'aria-controls': 'footer-accordion_coating'})
-            mobile_coating.append(trigger)
-        mobile_content = footer.select_one('#footer-accordion_coating')
-        if mobile_content:
-            mobile_content.select_one('ul').replace_with(coating_list())
-        else:
-            mobile_content = tag('div', 'c-footer-accordion__content', id='footer-accordion_coating')
-            mobile_content.append(coating_list())
-            mobile_coating.insert_after(mobile_content)
-        columns = footer.select('.u-pc-only .c-footer-top-nav__item')
-        for category, destination in (('coating', columns[2]), ('others', columns[2])):
-            heading = columns[0].parent.select_one(f'.c-footer-item-heading a[href="/house-cleaning/{category}/"]').find_parent(class_='c-footer-item-heading')
-            links = heading.find_next_sibling()
-            if category == 'coating':
-                destination.insert(0, heading.extract())
-                if links and 'c-footer-global-links' in links.get('class', []):
-                    destination.insert(1, links.extract())
-            else:
-                guide_heading = destination.select_one('a[href="/about/"]').find_parent('ul').find_previous_sibling(class_='c-footer-item-heading')
-                guide_heading.insert_before(heading.extract())
-                if links and 'c-footer-global-links' in links.get('class', []):
-                    links['class'] = list(dict.fromkeys(links.get('class', []) + ['c-aircon-footer__other-links']))
-                    guide_heading.insert_before(links.extract())
-        coating_heading = columns[2].select_one('a[href="/house-cleaning/coating/"]').find_parent(class_='c-footer-item-heading')
-        coating_heading['class'] = [name for name in coating_heading.get('class', []) if name != 'c-footer-item-heading-mb']
-        coating_links = coating_heading.find_next_sibling()
-        if coating_links and 'c-footer-global-links' in coating_links.get('class', []):
-            coating_links.replace_with(coating_list())
-        else:
-            coating_heading.insert_after(coating_list())
-        guide = columns[2].select_one('a[href="/about/"]').find_parent('ul').find_previous_sibling(class_='c-footer-item-heading')
-        guide['class'] = list(dict.fromkeys(guide.get('class', []) + ['c-aircon-footer__support-start']))
-        return re.sub(r'>\s+<', '>\n<', str(footer))
-
-    output = re.sub(r'<footer\b[^>]*>.*?</footer>', replace_footer, output, count=1, flags=re.S)
-    return refine_aircon_mobile_footer(apply_site_identity(output, True))
-
-
-def refine_aircon_navigation(output, catalogue):
-    section_targets = {}
-    for route, page in catalogue['pages'].items():
-        if '/' not in route:
-            continue
-        category = route.split('/', 1)[0]
-        products = set(page['groups'][0]['products'])
-        group = next((group for group in catalogue['pages'][category]['groups']
-                      if products.intersection(group['products'])), None)
-        assert group is not None, route
-        section_targets[f'/house-cleaning/{route}/'] = f'/house-cleaning/{category}/#{group["id"]}'
-
-    def replace_header(match):
-        header = parse(match.group()).select_one('header')
-        for link in header.select('.c-main-menu__link'):
-            destination = link.get('data-target-href') or link.get('href')
-            label = 'ご利用ガイド' if destination == '/about/' else link.get_text(strip=True)
-            link.replace_with(tag('button', 'c-main-menu__link', label,
-                                  **{'data-target-href': destination, 'type': 'button'}))
-        header.select_one('.c-site-menu [data-guide] + ul a[href="/about/"]').string = 'ハウスクリーニングについて'
-        for link in header.select('.c-house-cleaning-menu .c-aircon-details a[href], .c-house-cleaning-menu .c-menu-accordion__content a[href]'):
-            destination = section_targets.get(link['href'])
-            if destination:
-                link['href'] = destination
-        return str(header)
-
-    return re.sub(r'<header\b[^>]*>.*?</header>', replace_header, output, count=1, flags=re.S)
-
-
 def render(route, page, catalogue, copy):
     path = SITE / 'house-cleaning' / route / 'index.html'
     original = path.read_text(encoding='utf-8')
@@ -781,8 +641,6 @@ def render(route, page, catalogue, copy):
     if route == 'aircon':
         output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
                         '\n', output, count=1, flags=re.S)
-        output = refine_aircon_footer(output)
-        output = refine_aircon_navigation(output, catalogue)
     css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
@@ -832,7 +690,7 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
-    return output
+    return shared_ui(output)
 
 
 def sync_manifest(routes, check):
