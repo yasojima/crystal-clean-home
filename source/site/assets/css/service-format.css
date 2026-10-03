@@ -3,7 +3,7 @@
   height: auto;
 }
 
-.c-first-view--expanded .c-category-simple-card__text {
+.c-service-page .c-first-view--expanded .c-category-simple-card__text {
   white-space: normal;
   text-wrap: balance;
   overflow-wrap: anywhere;
@@ -23,15 +23,6 @@
 }
 
 @media (max-width: 767.98px) {
-  .c-first-view--expanded .c-category-simple-card__text {
-    font-size: clamp(12px, 3.5vw, 15px);
-    line-height: 1.55;
-  }
-
-  .c-first-view--expanded .c-category-simple-card__bottom {
-    padding: 12px 8px;
-  }
-
   .c-service-page .c-service-single-tab {
     grid-template-columns: 1fr;
   }
