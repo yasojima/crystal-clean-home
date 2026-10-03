@@ -15,5 +15,6 @@
     "mobile_414_footer_height": 987.15625
   },
   "structure": "Two headings, then two full-width panels in each row; same-row exclusive expansion; rows independent. All 43 labels/destinations retained. PC footer markup identical. No scroll locking or forced scroll added.",
-  "limits": "Small/large viewport heights coincide in desktop emulation; real iPhone toolbars and rubber-band need device acceptance."
+  "limits": "Small/large viewport heights coincide in desktop emulation; real iPhone toolbars and rubber-band need device acceptance.",
+  "header_display": "When the whole compact footer fits within the visible area, hide the header completely. Otherwise retain actual phone-overlap push. No page height/scroll position mutation."
 }

@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-03",
+  "initial_inspection": "Public WebKit header-hidden assertion failed twice. Second result at width 430 was not at page end: footer bottom 911.015625 while viewport height was 688. Header remaining visible was correct for that position. Individual widths 320/375/414/430 with load settled reached the actual end and all had header bottom -1.",
+  "cause": "Test fixture sampled after document height changed during loading, before reaching the current last scroll position. No evidence of a persistent header implementation error.",
+  "test_adjustment": "Position at the end once to load end-area content, wait, then explicitly place the test at the current end and check it is within 1px of the actual scroll limit. This is test setup only; no scroll correction added to production.",
+  "final_reinspection": {
+    "passed": true,
+    "conditions": 343,
+    "engines": [
+      "Chrome",
+      "WebKit"
+    ],
+    "narrow_320_all_panels": true
+  }
+}

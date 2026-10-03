@@ -1,0 +1,41 @@
+{
+  "source_commit": "8ba780481b5822978bf15fd9186fe50195b214c6",
+  "pages_commit": "8c14f25a7b0b18f0f43c9b93f143000afd09a178",
+  "deployment_run": 37091517861,
+  "deployment_status": "success",
+  "files": [
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "url": "https://yasojima.github.io/house-cleaning/aircon/",
+      "status": 200,
+      "local_sha256": "d70236e2380fe2cddac114e6fea96668a1ff8b1af1316c88ce36aabf16196131",
+      "public_sha256": "d70236e2380fe2cddac114e6fea96668a1ff8b1af1316c88ce36aabf16196131",
+      "matches": true
+    },
+    {
+      "path": "assets/css/aircon-layout.css",
+      "url": "https://yasojima.github.io/assets/css/aircon-layout.css",
+      "status": 200,
+      "local_sha256": "bbd38bf732e793a002bdb14546a42d697323c61e1cb9abd86d9a5e9f4a55e2d5",
+      "public_sha256": "bbd38bf732e793a002bdb14546a42d697323c61e1cb9abd86d9a5e9f4a55e2d5",
+      "matches": true
+    },
+    {
+      "path": "assets/js/aircon-header.js",
+      "url": "https://yasojima.github.io/assets/js/aircon-header.js",
+      "status": 200,
+      "local_sha256": "54bae7575e94f6692b32c281b16c51011d9dc7801ce9953ddc391ba1997a5204",
+      "public_sha256": "54bae7575e94f6692b32c281b16c51011d9dc7801ce9953ddc391ba1997a5204",
+      "matches": true
+    },
+    {
+      "path": "assets/css/aircon-header.css",
+      "url": "https://yasojima.github.io/assets/css/aircon-header.css",
+      "status": 200,
+      "local_sha256": "30d075e57a5c3083e462a217b2e6e684ff01e1c12a7a3c8f34baf56f53a088b4",
+      "public_sha256": "30d075e57a5c3083e462a217b2e6e684ff01e1c12a7a3c8f34baf56f53a088b4",
+      "matches": true
+    }
+  ],
+  "passed": true
+}
