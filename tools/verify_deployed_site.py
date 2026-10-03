@@ -78,6 +78,7 @@ if __name__ == "__main__":
                   '/assets/css/aircon-voice-bubbles.css',
                   '/assets/css/aircon-header.css', '/assets/js/aircon-header.js',
                   '/assets/css/aircon-hero.css', '/assets/css/aircon-layout.css',
+                  '/assets/css/service-format.css', '/assets/css/site-footer.css',
                   '/assets/images/common-parts/decoration/section-arrows-black.svg',
                   '/assets/images/voices/reference-rating.webp',
                   *[f'/assets/images/voices/{name}.svg' for name in
@@ -96,7 +97,8 @@ if __name__ == "__main__":
         "passed": all(check["passed"] for check in checks) and build["status"] == "built",
         "scope": "All published HTML, service photographs, plain navy stylesheet, representative assets and exclusions; backend and all-page visual acceptance are not included." if args.all_pages else "Representative HTTP responses and excluded paths; backend and all-page visual acceptance are not included."
     }
-    (ROOT / "source/deployment-verification.json").write_text(
-        json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps(report, ensure_ascii=False))
+    (ROOT / "source/deployment-verification.json").write_bytes(
+        json.dumps(report, ensure_ascii=False, indent=2).encode("utf-8"))
+    print(json.dumps({"checks": len(checks), "pages_commit": report["pages_commit"],
+                      "passed": report["passed"], "failures": [r for r in checks if not r["passed"]]}, ensure_ascii=False))
     raise SystemExit(0 if report["passed"] else 1)

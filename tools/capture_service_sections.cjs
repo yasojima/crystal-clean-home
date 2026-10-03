@@ -51,7 +51,7 @@ const cases = [
       })));
       if (imageWidths.some(width => width === 0)) throw new Error(`Broken image in ${item.route}/${item.section}`);
       const file = path.join(output, `${item.route}-${item.section}-${width}.png`);
-      await section.screenshot({ path: file });
+      await section.screenshot({ path: file, style: '.c-header, #js-floating, #viewport-hud { visibility: hidden !important; }' });
       const metrics = await section.evaluate((node) => {
         const rect = node.getBoundingClientRect();
         return { width: Math.round(rect.width), height: Math.round(rect.height) };
@@ -60,5 +60,6 @@ const cases = [
     }
   }
   await browser.close();
-  console.log(JSON.stringify({ origin, results }, null, 2));
+  fs.writeFileSync(path.join(output, 'service-section-screens.json'), JSON.stringify({ origin, results }, null, 2) + '\n');
+  console.log(JSON.stringify({ origin, screens: results.length }));
 })().catch(error => { console.error(error); process.exitCode = 1; });

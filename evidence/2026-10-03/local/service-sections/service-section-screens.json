@@ -1,0 +1,301 @@
+{
+  "origin": "http://127.0.0.1:8769",
+  "results": [
+    {
+      "route": "aircon",
+      "section": "top",
+      "viewport": true,
+      "width": 1581,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-top-1581.png",
+      "height": 1326
+    },
+    {
+      "route": "aircon",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "pack",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\pack-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "water",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\water-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "washer",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\washer-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "kitchen",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\kitchen-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "room",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\room-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "coating",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\coating-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "others",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\others-reasons-1581.png",
+      "height": 674
+    },
+    {
+      "route": "home",
+      "url": "/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\home-reasons-1581.png",
+      "height": 652
+    },
+    {
+      "route": "about",
+      "url": "/about/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\about-reasons-1581.png",
+      "height": 652
+    },
+    {
+      "route": "quick-cart-option",
+      "url": "/quick_cart/option/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\quick-cart-option-reasons-1581.png",
+      "height": 652
+    },
+    {
+      "route": "lab-product-303",
+      "url": "/lab/online_store/detergent/product-303/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\lab-product-303-reasons-1581.png",
+      "height": 652
+    },
+    {
+      "route": "aircon",
+      "section": "plans",
+      "selector": "#service-sets",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-plans-1581.png",
+      "height": 1181
+    },
+    {
+      "route": "aircon",
+      "section": "voices",
+      "selector": "section.c-voice-section--bubble-preview",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-voices-1581.png",
+      "height": 1832
+    },
+    {
+      "route": "room",
+      "section": "voices",
+      "selector": "section:has(.c-voice-card)",
+      "width": 1566,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\room-voices-1581.png",
+      "height": 1788
+    },
+    {
+      "route": "aircon",
+      "section": "top",
+      "viewport": true,
+      "width": 390,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-top-390.png",
+      "height": 844
+    },
+    {
+      "route": "aircon",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "pack",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\pack-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "water",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\water-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "washer",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\washer-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "kitchen",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\kitchen-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "room",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\room-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "coating",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\coating-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "others",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\others-reasons-390.png",
+      "height": 1454
+    },
+    {
+      "route": "home",
+      "url": "/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\home-reasons-390.png",
+      "height": 1461
+    },
+    {
+      "route": "about",
+      "url": "/about/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\about-reasons-390.png",
+      "height": 1461
+    },
+    {
+      "route": "quick-cart-option",
+      "url": "/quick_cart/option/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\quick-cart-option-reasons-390.png",
+      "height": 1461
+    },
+    {
+      "route": "lab-product-303",
+      "url": "/lab/online_store/detergent/product-303/",
+      "section": "reasons",
+      "selector": "section:has(.p-reasons)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\lab-product-303-reasons-390.png",
+      "height": 1461
+    },
+    {
+      "route": "aircon",
+      "section": "plans",
+      "selector": "#service-sets",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-plans-390.png",
+      "height": 1989
+    },
+    {
+      "route": "aircon",
+      "section": "voices",
+      "selector": "section.c-voice-section--bubble-preview",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\aircon-voices-390.png",
+      "height": 2299
+    },
+    {
+      "route": "room",
+      "section": "voices",
+      "selector": "section:has(.c-voice-card)",
+      "width": 375,
+      "status": 200,
+      "file": "evidence\\2026-10-03\\local\\service-sections\\room-voices-390.png",
+      "height": 1749
+    }
+  ]
+}

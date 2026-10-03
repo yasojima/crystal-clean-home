@@ -1,0 +1,152 @@
+{
+  "checked_at": "2026-10-03T15:49:09.410344+00:00",
+  "scope": {
+    "service_pages": 46,
+    "shared_ui_pages": 97,
+    "reviews": 276,
+    "active_service_photos": 31,
+    "preserved_comparison_photos": 6
+  },
+  "source_product_commit": "70a62fd",
+  "source_tree": "823432d07ad4bcff9675aff0fb4efa832af41da1",
+  "initial_publication": {
+    "source": "abb4285",
+    "pages": "297a4f9",
+    "run": 37130610554
+  },
+  "final_publication": {
+    "pages": "4e0204db4845efec13b1b96aface23e1044f701e",
+    "run": 37133808327,
+    "http_checks": 209,
+    "passed": true
+  },
+  "browser_operations": {
+    "local_initial_cases": 184,
+    "local_initial_timeouts": 22,
+    "local_pc_recheck_cases": 46,
+    "local_union_cases": 184,
+    "local_union_passed": true,
+    "public_cases": 184,
+    "public_passed": true,
+    "procedure_correction": "Fresh page per route; place controls clear of the fixed header and wait for transitions; no force-click or product motion change."
+  },
+  "final_content_display": {
+    "local_cases": 184,
+    "public_cases": 184,
+    "engines": [
+      "Chrome",
+      "WebKit"
+    ],
+    "widths": [
+      414,
+      1440
+    ],
+    "passed": true
+  },
+  "review_variety": {
+    "longest_positions": {
+      "1": 8,
+      "2": 13,
+      "3": 3,
+      "4": 4,
+      "5": 9,
+      "6": 9
+    },
+    "rating_distributions": [
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          4,
+          4,
+          5
+        ],
+        "pages": 4
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "pages": 8
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "pages": 5
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "pages": 8
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "pages": 7
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "pages": 6
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "pages": 8
+      }
+    ],
+    "names_titles_bodies_unique": true,
+    "demographic_orders_unique": true
+  },
+  "visual_checks": {
+    "active_photo_inventory": 31,
+    "public_saved_section_screens": 20,
+    "reviewed": [
+      "active-service-photo-inventory",
+      "washer-side-photo-414",
+      "water-ulblo-photo-414",
+      "room-wallpaper-dyeing-photo-414",
+      "room-wallpaper-dyeing-voices-414",
+      "coating-voices-1440",
+      "kitchen-voices-414"
+    ]
+  },
+  "passed": true,
+  "limits": "Browser size checks and native iPhone URL-bar, inertia and overscroll acceptance are separate. Native scrolling is retained; no forced end alignment."
+}

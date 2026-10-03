@@ -1,0 +1,2912 @@
+{
+  "checked_at": "2026-10-03T15:23:27.899Z",
+  "origin": "http://127.0.0.1:8769",
+  "mode": "all",
+  "pages": 46,
+  "cases": 46,
+  "passed": true,
+  "checks": [
+    {
+      "engine": "WebKit",
+      "route": "aircon",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": {
+          "text": "人気の組み合わせプラン",
+          "lines": 1
+        },
+        "voices": [
+          {
+            "name": "みずきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "たけさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "まどかさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "みっちゃんさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "けんさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "ひろさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "pack",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "和室の住人さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "こむぎさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あおばさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ゆきのさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "りょうたさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "K・Nさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "なぎささん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "すみれさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "たろう丸さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "のぶさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "makiさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "あずきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "washer",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "洗濯係さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ぽんずさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "まるこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "H・Sさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ちひろさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "かずえさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "kitchen",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "さくらもちさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "はるのさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "えつこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "JUNさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "みかんさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "キッチン男子さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "もくれんさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "週末ランナーさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "りりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "さとるさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "かえでさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ぎんさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ひなこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "住まい好きさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "せりなさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "うめさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ゆうぞうさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "あやめさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "others",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "こはるさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ふうたさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "S・Aさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "れおさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "つばきさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "庭いじりさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "aircon/ceil",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ちづるさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ことりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "きよさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "Naotoさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "まさしさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "まめたさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "aircon/wall",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ピスタチオさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "あかねさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "けいすけさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "はなえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "月見さん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "つねさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/bathroom",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ゆうかさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "浴室係さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "たえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "しろくまさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "けいこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "まどべさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/floor",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "いずみさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "まなぶさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "みさとさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ゆずさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "あんこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "おおたさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/kitchen",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "かなえさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "すずらんさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "きぬさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ねぎぼうずさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "いちごミルクさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ひでさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/lavatory",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "そらまめさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "あいりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "まつさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ゆりえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "水玉さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "T・Rさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/repair",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "やすさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ひろしげさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "しょうたさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "はつねさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "なつめさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "かりんさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/toilet",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ともえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "りくさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "トイレ当番さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "M・Yさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "りんごさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "さざんかさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "coating/uv-coating",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "陽だまりさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "I・Kさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "たまきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "はこべさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "そういちさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "おもちさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "kitchen/dishwasher",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "つゆくささん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "きよひこさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "皿洗い卒業さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ぴのさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "きのこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "修平さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "kitchen/fan",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "油と戦う人さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "さやかさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "しずさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "みつばさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "こずえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "えんどうさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "kitchen/kitchen",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "いぶきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "なほさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あきおさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "よしのさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "YUKIさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "つみきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "kitchen/rei",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ふささん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "かつらさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "しんじさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "さくらこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "こめつぶさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あさひさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "others/exterior",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ベランダ菜園さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "すいせんさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ほたるさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ぶんたさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "たかひささん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "まひろさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "others/grave",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "おかべさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "つとむさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "蓮さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "ちよさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "もみじさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ゆかりさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "others/outerwall",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "りえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ひよりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "さかきさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "みことさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "としこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "家守さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "others/photocatalyst",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ふみかさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ちえさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "みなとさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "てるおさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "まりんさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "こばとさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "pack/entirety",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "のえるさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "さちこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "けんじろうさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ひつじさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "やまとさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "家事ノートさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "pack/move",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "せなさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あさこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "おかださん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "みのるさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "わたるさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ひめさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/air-cleaner",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "さよさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ほのかさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "清志さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ひまわりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "はるまさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "えりなさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/carpet",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "りょうこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ありささん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "あおい月さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "TOMOさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ふじおさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "こたつさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/cloth",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "えみこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "まさえさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "はやとさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "さらさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "そよかぜさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "まさきさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/duct",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "まほさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "さつきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "かなこさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "しゅんさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "風の通り道さん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "しげさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/entrance",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "入口担当さん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "たんぽぽさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "くるみさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "たくみさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "たつさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ひなさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/flooring",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "こいずみさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "すばるさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "よつばさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "れいこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "たけひろさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "あまねさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/glass",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ゆきえさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ひのきさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "だいちさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "しほさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "窓辺の猫さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ともひささん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/mattress",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "かなたさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "さとみさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "まいこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ゆうとさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "菜の花さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "うたさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/sofa",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "リビング派さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "こよみさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "なおこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ゆめさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "まさのりさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "なつさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "room/wallpaper-dyeing",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "たかのりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "はるきさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "壁好きさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "もなかさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "さわこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "たまさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "washer/front",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "のりこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "じゅんこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "洗濯日和さん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "かいさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          },
+          {
+            "name": "そらいろさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "みよこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "washer/side",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "洗濯メモさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ほこり番さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ルカさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ちかさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "あつしさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "ひろなさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "washer/top",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "つばささん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "やよいさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "たえこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "せつこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "ゆきひろさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "たけるさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-young.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/bathroom",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ふわりさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あきなさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "しんやさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ひなぎくさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "まゆさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あきらさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/drier",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "ふみおさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "こうへいさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "なおみさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "あおさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "とみこさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "みずほさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/lavatory",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "えりさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "さぶろうさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "かのこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ことねさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ひさおさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "みほさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/pipe",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "えいこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "いっせいさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "ふたばさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "まつこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "おふろ好きさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "のどかさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/toilet",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "むぎちゃさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ひであきさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "たけこさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-senior.svg\")"
+          },
+          {
+            "name": "そうたさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "れなさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "ゆうこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "route": "water/ulblo",
+      "width": 1440,
+      "passed": true,
+      "layout": {
+        "viewport": 1440,
+        "scrollWidth": 1440,
+        "clippedLabels": [],
+        "broken": [],
+        "icons": [],
+        "profiles": 6,
+        "firstViews": 1,
+        "reasonColor": "rgb(38, 69, 116)",
+        "reasonSize": [
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          },
+          {
+            "width": 304,
+            "height": 304
+          }
+        ],
+        "plan": null,
+        "voices": [
+          {
+            "name": "よしおさん",
+            "rating": "5つ星中3つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "うさぎさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          },
+          {
+            "name": "お湯番さん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-short.svg\")"
+          },
+          {
+            "name": "じろうさん",
+            "rating": "5つ星中4つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/man-senior.svg\")"
+          },
+          {
+            "name": "かなでさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-long.svg\")"
+          },
+          {
+            "name": "ゆみこさん",
+            "rating": "5つ星中5つ星",
+            "avatar": "url(\"http://127.0.0.1:8769/assets/images/voices/woman-bob.svg\")"
+          }
+        ]
+      }
+    }
+  ],
+  "errors": []
+}

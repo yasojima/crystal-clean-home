@@ -5,10 +5,12 @@ const {chromium,webkit}=require(process.env.PLAYWRIGHT_MODULE||'C:/Users/yasoj/.
 const root=path.resolve(__dirname,'..');
 const catalogue=JSON.parse(fs.readFileSync(path.join(root,'source/service-pages/catalogue.json'),'utf8'));
 const voices=JSON.parse(fs.readFileSync(path.join(root,'source/service-pages/voices.json'),'utf8')).pages;
+const copy=JSON.parse(fs.readFileSync(path.join(root,'source/service-pages/copy.json'),'utf8'));
 const origin=process.argv[2]||'http://127.0.0.1:8769';
 const output=process.argv[3]||'evidence/2026-10-03/local/service-format';
 const mode=process.argv[4]||'all';
-const widths=mode==='breakpoints'?[320,375,768,1024]:[414,1440];
+assert(['all','reviews','breakpoints'].includes(mode),'unknown verification mode');
+const widths=process.env.SERVICE_WIDTHS?process.env.SERVICE_WIDTHS.split(',').map(Number):(mode==='breakpoints'?[320,375,768,1024]:[414,1440]);
 const routes=Object.keys(catalogue.pages).filter(r=>(mode!=='breakpoints'||!r.includes('/'))&&(!process.env.SERVICE_ROUTES||process.env.SERVICE_ROUTES.split(',').includes(r)));
 fs.mkdirSync(output,{recursive:true});
 async function settle(page){
@@ -22,13 +24,13 @@ async function bring(page,locator){
 }
 (async()=>{
  const checks=[],errors=[];
- for(const [engine,launch] of [['Chrome',()=>chromium.launch({channel:'chrome',headless:true})],['WebKit',()=>webkit.launch({headless:true})]]){
-  const browser=await launch();
-  try{
+ for(const [engine,launch] of [['Chrome',()=>chromium.launch({channel:'chrome',headless:true})],['WebKit',()=>webkit.launch({headless:true})]].filter(([engine])=>!process.env.SERVICE_ENGINES||process.env.SERVICE_ENGINES.split(',').includes(engine))){
    for(const width of widths){
+    const browser=await launch();
+    try{
     const context=await browser.newContext({viewport:{width,height:width<768?688:800},isMobile:width<768,hasTouch:width<768});
-    const page=await context.newPage();page.setDefaultTimeout(8000);await page.addInitScript(()=>localStorage.clear());
     for(const route of routes){
+     const page=await context.newPage();page.setDefaultTimeout(8000);await page.addInitScript(()=>localStorage.clear());
      const runtime=[],failedRequests=[];const listener=e=>runtime.push(e.message),requestListener=r=>failedRequests.push({url:r.url(),reason:r.failure()?.errorText});page.on('pageerror',listener);page.on('requestfailed',requestListener);
      const result={engine,route,width,passed:false};
      try{
@@ -44,7 +46,8 @@ async function bring(page,locator){
         reasonColor:getComputedStyle(main.querySelector('.c-reasons__navy')).backgroundColor,
         reasonSize:[...main.querySelectorAll('.c-reasons__card')].map(e=>{const r=e.getBoundingClientRect();return {width:r.width,height:r.height}}),
         plan:(()=>{const t=main.querySelector('.c-bracket-heading__text');if(!t)return null;const range=document.createRange();range.selectNodeContents(t);return {text:t.textContent,lines:[...range.getClientRects()].length}})(),
-        voices:[...main.querySelectorAll('.c-voice-card')].map(e=>({name:e.querySelector('.c-voice-card__nickname').textContent,rating:e.querySelector('.c-voice-card__stars').getAttribute('aria-label'),avatar:getComputedStyle(e,'::before').backgroundImage}))};
+        concerns:[...main.querySelectorAll('.c-issue-card__text')].map(e=>e.textContent.trim()),
+        voices:[...main.querySelectorAll('.c-voice-card')].map(e=>({name:e.querySelector('.c-voice-card__nickname').textContent,rating:e.querySelector('.c-voice-card__stars').getAttribute('aria-label'),demographic:e.querySelector('.c-voice-card__demographic').textContent,title:e.querySelector('h3').textContent,body:e.querySelector('p').textContent,avatar:getComputedStyle(e,'::before').backgroundImage}))};
       });
       result.layout=layout;
       assert(layout.scrollWidth<=layout.viewport+1,`horizontal overflow: ${layout.scrollWidth}`);
@@ -52,11 +55,14 @@ async function bring(page,locator){
       assert.equal(layout.profiles,6);assert.equal(layout.firstViews,1);assert.equal(layout.reasonColor,'rgb(38, 69, 116)');
       assert(layout.reasonSize.every(r=>r.width<=305&&Math.abs(r.width-r.height)<2),'reason circles');
       assert.deepEqual(layout.voices.map(v=>v.name),voices[route].map(v=>v.nickname));assert.deepEqual(layout.voices.map(v=>v.rating),voices[route].map(v=>`5つ星中${v.rating}つ星`));assert(layout.voices.every(v=>v.avatar.includes('/voices/')));
+      for(const key of ['demographic','title','body'])assert.deepEqual(layout.voices.map(v=>v[key].trim()),voices[route].map(v=>v[key]));
+      const concerns=route.includes('/')?copy.details[route].concerns:copy.categories[catalogue.pages[route].category].concerns;
+      assert.deepEqual(layout.concerns,concerns.map(pair=>pair.join('')),'service-specific concerns');
       if(layout.plan){assert.equal(layout.plan.text,'人気の組み合わせプラン');assert.equal(layout.plan.lines,1);}
-      if(!route.includes('/'))await page.screenshot({path:path.join(output,`${engine}-${width}-${route}-top.png`)});
+      if(!route.includes('/'))assert((await page.screenshot({path:path.join(output,`${engine}-${width}-${route}-top.png`)})).length>0,'empty browser screenshot');
       if(mode==='all'){
-       const anchor=page.locator('.c-page-anchors a').last(),target=await anchor.getAttribute('href');await anchor.click();await page.waitForFunction(id=>{const y=document.querySelector(id).getBoundingClientRect().top;return y>=-1&&y<180},target);
-       const faq=page.locator('.c-faq-accordion__trigger').first();await faq.click();assert.equal(await faq.getAttribute('aria-expanded'),'true');await page.waitForFunction(id=>document.getElementById(id).getBoundingClientRect().height>10,await faq.getAttribute('aria-controls'));await faq.click();
+       const anchor=page.locator('.c-page-anchors a').last(),target=await anchor.getAttribute('href');await bring(page,anchor);await anchor.click();await page.waitForFunction(id=>{const y=document.querySelector(id).getBoundingClientRect().top;return y>=-1&&y<180},target);
+       const faq=page.locator('.c-faq-accordion__trigger').first();await bring(page,faq);await faq.click();assert.equal(await faq.getAttribute('aria-expanded'),'true');await page.waitForFunction(id=>document.getElementById(id).getBoundingClientRect().height>10,await faq.getAttribute('aria-controls'));await page.waitForTimeout(350);await bring(page,faq);await faq.click();
        const tabs=page.locator('#service-introduction .c-tab__button'),tab=tabs.last();if(await tabs.count()>1){await bring(page,tab);await tab.click();}assert.equal(await tab.getAttribute('aria-selected'),'true');assert(await page.locator('#'+await tab.getAttribute('aria-controls')).isVisible());
        const variants=page.locator('.js-room-types');
        for(let i=0;i<await variants.count();i++){
@@ -64,7 +70,7 @@ async function bring(page,locator){
         const state=await select.evaluate(n=>{const wrap=n.closest('.js-products');return {index:n.selectedIndex,id:wrap.querySelector('[data-product-card="parent"] input[name="product-id"]').value,value:n.value,panels:[...wrap.querySelectorAll('[data-switch-target]')].map(box=>[...box.children].findIndex(child=>child.classList.contains('is-active')))}});
         assert.equal(state.id,state.value);assert(state.panels.every(p=>p===state.index));await select.selectOption({index:0});
        }
-       const option=page.locator('.c-lineup-options__accordion-trigger').first();if(await option.count()){await option.click();assert.equal(await option.getAttribute('aria-expanded'),'true');await page.waitForFunction(id=>document.getElementById(id).getBoundingClientRect().height>10,await option.getAttribute('aria-controls'));await option.click();}
+       const option=page.locator('.c-lineup-options__accordion-trigger').first();if(await option.count()){await bring(page,option);await option.click();assert.equal(await option.getAttribute('aria-expanded'),'true');await page.waitForFunction(id=>document.getElementById(id).getBoundingClientRect().height>10,await option.getAttribute('aria-controls'));await page.waitForTimeout(350);await bring(page,option);await option.click();}
        const quantity=page.locator('.c-lineup-card .js-product-quantity.is-active select').first();if(await quantity.count()&&await quantity.locator('option').count()>1){await quantity.selectOption({index:1});assert.equal(await quantity.evaluate(n=>n.selectedIndex),1);await quantity.selectOption({index:0});}
        const cart=page.locator('.c-lineup-card .js-add-cart').first();if(await cart.count())assert(await cart.isEnabled(),'cart control disabled');
        await page.evaluate(()=>scrollTo({top:document.documentElement.scrollHeight,behavior:'instant'}));await page.waitForTimeout(400);
@@ -80,11 +86,12 @@ async function bring(page,locator){
       }
       assert.deepEqual(runtime,[],'runtime errors');result.passed=true;
      }catch(e){const reason=e.message;errors.push({engine,route,width,reason,stack:e.stack,failedRequests});result.reason=reason;console.log(JSON.stringify({FAIL:route,engine,width,reason,stack:e.stack,failedRequests}));await page.screenshot({path:path.join(output,`FAIL-${engine}-${width}-${route.replaceAll('/','-')}.png`)}).catch(()=>{});}
-     page.off('pageerror',listener);page.off('requestfailed',requestListener);checks.push(result);
+     page.off('pageerror',listener);page.off('requestfailed',requestListener);checks.push(result);await page.close();
+     fs.writeFileSync(path.join(output,'service-browser-verification.json'),JSON.stringify({checked_at:new Date().toISOString(),origin,mode,pages:routes.length,cases:checks.length,complete:false,passed:!errors.length,checks,errors},null,2)+'\n');
     }
     await context.close();console.log(JSON.stringify({engine,width,completed:routes.length}));
+    }finally{await browser.close();}
    }
-  }finally{await browser.close();}
  }
- const report={checked_at:new Date().toISOString(),origin,mode,pages:routes.length,cases:checks.length,passed:!errors.length,checks,errors};fs.writeFileSync(path.join(output,'service-browser-verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({pages:routes.length,cases:checks.length,passed:report.passed,errors:errors.length}));process.exitCode=errors.length?1:0;
+ const report={checked_at:new Date().toISOString(),origin,mode,pages:routes.length,cases:checks.length,complete:true,passed:!errors.length,checks,errors};fs.writeFileSync(path.join(output,'service-browser-verification.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({pages:routes.length,cases:checks.length,passed:report.passed,errors:errors.length}));process.exitCode=errors.length?1:0;
 })().catch(e=>{console.error(e);process.exitCode=1});
