@@ -98,9 +98,6 @@
   .c-footer--aircon {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    min-height: 100vh;
-    min-height: 100lvh;
   }
 
   .c-footer--aircon > .u-sp-only {
