@@ -1,0 +1,3041 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "results": [
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "right": 320,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 306.359375,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 320,
+          "height": 57.375,
+          "right": 320,
+          "bottom": 145.375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 120.5,
+          "y": 88,
+          "width": 117,
+          "height": 28,
+          "right": 237.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 145.703125,
+          "y": 93.5,
+          "width": 91.59375,
+          "height": 17,
+          "right": 237.296875,
+          "bottom": 110.5,
+          "font": "17px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 120.5,
+          "y": 121,
+          "width": 117,
+          "height": 24.375,
+          "right": 237.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 120.5,
+          "y": 133.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 237.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 145.703125,
+          "y": 92.5,
+          "width": 91.59375,
+          "right": 237.296875,
+          "bottom": 111.5
+        },
+        "hoursText": {
+          "x": 120.5,
+          "y": 120,
+          "width": 117,
+          "right": 237.5,
+          "bottom": 145.6875
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 81.5,
+            "y": 116.6875,
+            "width": 34,
+            "height": 24,
+            "right": 115.5,
+            "bottom": 140.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 81.5,
+            "y": 92.6875,
+            "width": 34,
+            "height": 24,
+            "right": 115.5,
+            "bottom": 116.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 360,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 148,
+          "right": 360,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 300.640625,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 344.640625,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 360,
+          "height": 57.375,
+          "right": 360,
+          "bottom": 145.375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 140.5,
+          "y": 88,
+          "width": 117,
+          "height": 28,
+          "right": 257.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 165.703125,
+          "y": 93.5,
+          "width": 91.59375,
+          "height": 17,
+          "right": 257.296875,
+          "bottom": 110.5,
+          "font": "17px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 140.5,
+          "y": 121,
+          "width": 117,
+          "height": 24.375,
+          "right": 257.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 140.5,
+          "y": 133.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 257.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 165.703125,
+          "y": 92.5,
+          "width": 91.59375,
+          "right": 257.296875,
+          "bottom": 111.5
+        },
+        "hoursText": {
+          "x": 140.5,
+          "y": 120,
+          "width": 117,
+          "right": 257.5,
+          "bottom": 145.6875
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 101.5,
+            "y": 116.6875,
+            "width": 34,
+            "height": 24,
+            "right": 135.5,
+            "bottom": 140.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 101.5,
+            "y": 92.6875,
+            "width": 34,
+            "height": 24,
+            "right": 135.5,
+            "bottom": 116.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 374,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 374,
+          "height": 148,
+          "right": 374,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 314.046875,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 358.046875,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 374,
+          "height": 63.234375,
+          "right": 374,
+          "bottom": 151.234375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 136.5,
+          "y": 88,
+          "width": 143,
+          "height": 28,
+          "right": 279.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 174,
+          "y": 93,
+          "width": 96.984375,
+          "height": 18,
+          "right": 270.984375,
+          "bottom": 111,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 136.5,
+          "y": 121,
+          "width": 143,
+          "height": 30.234375,
+          "right": 279.5,
+          "bottom": 151.234375,
+          "font": "11.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 136.5,
+          "y": 136.9375,
+          "width": 143,
+          "height": 14.296875,
+          "right": 279.5,
+          "bottom": 151.234375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 174,
+          "y": 92,
+          "width": 96.984375,
+          "right": 270.984375,
+          "bottom": 112
+        },
+        "hoursText": {
+          "x": 136.5,
+          "y": 120,
+          "width": 143,
+          "right": 279.5,
+          "bottom": 151.9375
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 93.5,
+            "y": 119.609375,
+            "width": 34,
+            "height": 24,
+            "right": 127.5,
+            "bottom": 143.609375,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 93.5,
+            "y": 95.609375,
+            "width": 34,
+            "height": 24,
+            "right": 127.5,
+            "bottom": 119.609375,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 96,
+          "right": 375,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 315,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 359,
+          "bottom": 70,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 156,
+          "y": 19.8125,
+          "width": 155,
+          "height": 56.375,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 197.265625,
+          "y": 19.8125,
+          "width": 110.453125,
+          "height": 28,
+          "right": 307.71875,
+          "bottom": 47.8125,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 217.265625,
+          "y": 25.40625,
+          "width": 90.453125,
+          "height": 16.796875,
+          "right": 307.71875,
+          "bottom": 42.203125,
+          "font": "16.8px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 194,
+          "y": 51.8125,
+          "width": 117,
+          "height": 24.375,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 194,
+          "y": 64.5,
+          "width": 117,
+          "height": 11.6875,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 217.265625,
+          "y": 23.40625,
+          "width": 90.453125,
+          "right": 307.71875,
+          "bottom": 42.40625
+        },
+        "hoursText": {
+          "x": 194,
+          "y": 50.8125,
+          "width": 117,
+          "right": 311,
+          "bottom": 76.5
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 156,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 190,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 156,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 190,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 390,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 96,
+          "right": 390,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 145.46875,
+          "height": 88,
+          "right": 157.46875,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 329.375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 373.375,
+          "bottom": 70,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 161.46875,
+          "y": 19.8125,
+          "width": 163.90625,
+          "height": 56.375,
+          "right": 325.375,
+          "bottom": 76.1875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 206.1875,
+          "y": 19.8125,
+          "width": 112.453125,
+          "height": 28,
+          "right": 318.640625,
+          "bottom": 47.8125,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 226.1875,
+          "y": 25.234375,
+          "width": 92.453125,
+          "height": 17.15625,
+          "right": 318.640625,
+          "bottom": 42.390625,
+          "font": "17.16px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 203.921875,
+          "y": 51.8125,
+          "width": 117,
+          "height": 24.375,
+          "right": 320.921875,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 203.921875,
+          "y": 64.5,
+          "width": 117,
+          "height": 11.6875,
+          "right": 320.921875,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 226.1875,
+          "y": 23.234375,
+          "width": 92.453125,
+          "right": 318.640625,
+          "bottom": 43.234375
+        },
+        "hoursText": {
+          "x": 203.921875,
+          "y": 50.8125,
+          "width": 117,
+          "right": 320.921875,
+          "bottom": 76.5
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 161.46875,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 195.46875,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 161.46875,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 195.46875,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "right": 414,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 154.421875,
+          "height": 88,
+          "right": 166.421875,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 352.1875,
+          "y": 25.921875,
+          "width": 44.15625,
+          "height": 44.15625,
+          "right": 396.34375,
+          "bottom": 70.078125,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 170.421875,
+          "y": 19.140625,
+          "width": 177.765625,
+          "height": 57.71875,
+          "right": 348.1875,
+          "bottom": 76.859375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 219.25,
+          "y": 19.140625,
+          "width": 118.109375,
+          "height": 28,
+          "right": 337.359375,
+          "bottom": 47.140625,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 239.25,
+          "y": 24.03125,
+          "width": 98.109375,
+          "height": 18.21875,
+          "right": 337.359375,
+          "bottom": 42.25,
+          "font": "18.216px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 216.40625,
+          "y": 51.140625,
+          "width": 123.78125,
+          "height": 25.71875,
+          "right": 340.1875,
+          "bottom": 76.859375,
+          "font": "9.522px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 216.40625,
+          "y": 64.5,
+          "width": 123.78125,
+          "height": 12.359375,
+          "right": 340.1875,
+          "bottom": 76.859375,
+          "font": "9.522px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 239.25,
+          "y": 23.03125,
+          "width": 98.109375,
+          "right": 337.359375,
+          "bottom": 43.03125
+        },
+        "hoursText": {
+          "x": 216.40625,
+          "y": 50.140625,
+          "width": 123.78125,
+          "right": 340.1875,
+          "bottom": 77.5
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 170.421875,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 204.421875,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 170.421875,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 204.421875,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96,
+          "right": 430,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 160,
+          "height": 88,
+          "right": 172,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375,
+          "right": 411.65625,
+          "bottom": 70.921875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 176,
+          "y": 18.65625,
+          "width": 185.796875,
+          "height": 58.6875,
+          "right": 361.796875,
+          "bottom": 77.34375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 226.921875,
+          "y": 18.65625,
+          "width": 121.9375,
+          "height": 28,
+          "right": 348.859375,
+          "bottom": 46.65625,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 246.921875,
+          "y": 23.1875,
+          "width": 101.9375,
+          "height": 18.921875,
+          "right": 348.859375,
+          "bottom": 42.109375,
+          "font": "18.92px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 223.609375,
+          "y": 50.65625,
+          "width": 128.578125,
+          "height": 26.6875,
+          "right": 352.1875,
+          "bottom": 77.34375,
+          "font": "9.89px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 223.609375,
+          "y": 64.5,
+          "width": 128.578125,
+          "height": 12.84375,
+          "right": 352.1875,
+          "bottom": 77.34375,
+          "font": "9.89px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 246.921875,
+          "y": 21.1875,
+          "width": 101.9375,
+          "right": 348.859375,
+          "bottom": 42.1875
+        },
+        "hoursText": {
+          "x": 223.609375,
+          "y": 49.65625,
+          "width": 128.578125,
+          "right": 352.1875,
+          "bottom": 77.5
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 176,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 176,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 767,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 767,
+          "height": 96,
+          "right": 767,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 160,
+          "height": 88,
+          "right": 172,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 695,
+          "y": 22,
+          "width": 52,
+          "height": 52,
+          "right": 747,
+          "bottom": 74,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 176,
+          "y": 17.859375,
+          "width": 515,
+          "height": 60.28125,
+          "right": 691,
+          "bottom": 78.140625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 385.921875,
+          "y": 17.859375,
+          "width": 133.140625,
+          "height": 28,
+          "right": 519.0625,
+          "bottom": 45.859375,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 405.921875,
+          "y": 21.359375,
+          "width": 113.140625,
+          "height": 21,
+          "right": 519.0625,
+          "bottom": 42.359375,
+          "font": "21px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 384.25,
+          "y": 49.859375,
+          "width": 136.5,
+          "height": 28.28125,
+          "right": 520.75,
+          "bottom": 78.140625,
+          "font": "10.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 384.25,
+          "y": 64.5,
+          "width": 136.5,
+          "height": 13.640625,
+          "right": 520.75,
+          "bottom": 78.140625,
+          "font": "10.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 405.921875,
+          "y": 20.359375,
+          "width": 113.140625,
+          "right": 519.0625,
+          "bottom": 43.359375
+        },
+        "hoursText": {
+          "x": 384.25,
+          "y": 48.859375,
+          "width": 136.5,
+          "right": 520.75,
+          "bottom": 78.5
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 176,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 176,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "Chrome",
+      "width": 768,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 72,
+          "right": 753,
+          "bottom": 72,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "right": 184,
+          "bottom": 68,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 689,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "right": 745,
+          "bottom": 64,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 296,
+          "y": 22,
+          "width": 375,
+          "height": 28,
+          "right": 671,
+          "bottom": 50,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 370,
+          "y": 22,
+          "width": 174,
+          "height": 28,
+          "right": 544,
+          "bottom": 50,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 407,
+          "y": 25,
+          "width": 118.53125,
+          "height": 22,
+          "right": 525.53125,
+          "bottom": 47,
+          "font": "22px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 554,
+          "y": 22,
+          "width": 117,
+          "height": 27.984375,
+          "right": 671,
+          "bottom": 49.984375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 554,
+          "y": 38.296875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 671,
+          "bottom": 49.984375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 407,
+          "y": 23,
+          "width": 118.53125,
+          "right": 525.53125,
+          "bottom": 48
+        },
+        "hoursText": {
+          "x": 554,
+          "y": 21,
+          "width": 117,
+          "right": 671,
+          "bottom": 50.296875
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 296,
+            "y": 24,
+            "width": 32,
+            "height": 24,
+            "right": 328,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 328,
+            "y": 24,
+            "width": 32,
+            "height": 24,
+            "right": 360,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": -15,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    },
+    {
+      "engine": "Chrome",
+      "width": 1024,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 76.796875,
+          "right": 1009,
+          "bottom": 76.796875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 68.796875,
+          "right": 184,
+          "bottom": 72.796875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 945,
+          "y": 10.390625,
+          "width": 56,
+          "height": 56,
+          "right": 1001,
+          "bottom": 66.390625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 552,
+          "y": 24.390625,
+          "width": 375,
+          "height": 28,
+          "right": 927,
+          "bottom": 52.390625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 626,
+          "y": 24.390625,
+          "width": 174,
+          "height": 28,
+          "right": 800,
+          "bottom": 52.390625,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 663,
+          "y": 27.390625,
+          "width": 118.53125,
+          "height": 22,
+          "right": 781.53125,
+          "bottom": 49.390625,
+          "font": "22px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 810,
+          "y": 24.390625,
+          "width": 117,
+          "height": 27.984375,
+          "right": 927,
+          "bottom": 52.375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 810,
+          "y": 40.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 927,
+          "bottom": 52.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 663,
+          "y": 25.390625,
+          "width": 118.53125,
+          "right": 781.53125,
+          "bottom": 50.390625
+        },
+        "hoursText": {
+          "x": 810,
+          "y": 23.390625,
+          "width": 117,
+          "right": 927,
+          "bottom": 52.6875
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 552,
+            "y": 26.390625,
+            "width": 32,
+            "height": 24,
+            "right": 584,
+            "bottom": 50.390625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 584,
+            "y": 26.390625,
+            "width": 32,
+            "height": 24,
+            "right": 616,
+            "bottom": 50.390625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": -15,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    },
+    {
+      "engine": "Chrome",
+      "width": 1440,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108,
+          "right": 1425,
+          "bottom": 108,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "right": 184,
+          "bottom": 95,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 1361,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "right": 1417,
+          "bottom": 82,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 829.5,
+          "y": 10,
+          "width": 481.5,
+          "height": 33.828125,
+          "right": 1311,
+          "bottom": 43.828125,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 925.5,
+          "y": 12.90625,
+          "width": 220,
+          "height": 28,
+          "right": 1145.5,
+          "bottom": 40.90625,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 970.5,
+          "y": 12.90625,
+          "width": 150.859375,
+          "height": 28,
+          "right": 1121.359375,
+          "bottom": 40.90625,
+          "font": "28px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 1161.5,
+          "y": 10,
+          "width": 149.5,
+          "height": 33.828125,
+          "right": 1311,
+          "bottom": 43.828125,
+          "font": "13px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 1161.5,
+          "y": 28.890625,
+          "width": 149.5,
+          "height": 14.9375,
+          "right": 1311,
+          "bottom": 43.828125,
+          "font": "11.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 970.5,
+          "y": 10.90625,
+          "width": 150.859375,
+          "right": 1121.359375,
+          "bottom": 41.90625
+        },
+        "hoursText": {
+          "x": 1161.5,
+          "y": 8,
+          "width": 149.5,
+          "right": 1311,
+          "bottom": 43.890625
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 829.5,
+            "y": 12.90625,
+            "width": 40,
+            "height": 28,
+            "right": 869.5,
+            "bottom": 40.90625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 869.5,
+            "y": 12.90625,
+            "width": 40,
+            "height": 28,
+            "right": 909.5,
+            "bottom": 40.90625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": -15,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "right": 320,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 306.359375,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 320,
+          "height": 57.375,
+          "right": 320,
+          "bottom": 145.375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 120.5,
+          "y": 88,
+          "width": 117,
+          "height": 28,
+          "right": 237.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 145.703125,
+          "y": 93.5,
+          "width": 91.59375,
+          "height": 17,
+          "right": 237.296875,
+          "bottom": 110.5,
+          "font": "17px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 120.5,
+          "y": 121,
+          "width": 117,
+          "height": 24.375,
+          "right": 237.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 120.5,
+          "y": 133.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 237.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 145.703125,
+          "y": 92.5,
+          "width": 91.58816528320312,
+          "right": 237.29129028320312,
+          "bottom": 111.5
+        },
+        "hoursText": {
+          "x": 120.5,
+          "y": 120.34375,
+          "width": 117,
+          "right": 237.5,
+          "bottom": 146.03125
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 81.5,
+            "y": 116.6875,
+            "width": 34,
+            "height": 24,
+            "right": 115.5,
+            "bottom": 140.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 81.5,
+            "y": 92.6875,
+            "width": 34,
+            "height": 24,
+            "right": 115.5,
+            "bottom": 116.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 360,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 360,
+          "height": 148,
+          "right": 360,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 300.640625,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 344.640625,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 360,
+          "height": 57.375,
+          "right": 360,
+          "bottom": 145.375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 140.5,
+          "y": 88,
+          "width": 117,
+          "height": 28,
+          "right": 257.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 165.703125,
+          "y": 93.5,
+          "width": 91.59375,
+          "height": 17,
+          "right": 257.296875,
+          "bottom": 110.5,
+          "font": "17px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 140.5,
+          "y": 121,
+          "width": 117,
+          "height": 24.375,
+          "right": 257.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 140.5,
+          "y": 133.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 257.5,
+          "bottom": 145.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 165.703125,
+          "y": 92.5,
+          "width": 91.58816528320312,
+          "right": 257.2912902832031,
+          "bottom": 111.5
+        },
+        "hoursText": {
+          "x": 140.5,
+          "y": 120.34375,
+          "width": 117,
+          "right": 257.5,
+          "bottom": 146.03125
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 101.5,
+            "y": 116.6875,
+            "width": 34,
+            "height": 24,
+            "right": 135.5,
+            "bottom": 140.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 101.5,
+            "y": 92.6875,
+            "width": 34,
+            "height": 24,
+            "right": 135.5,
+            "bottom": 116.6875,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 374,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 374,
+          "height": 148,
+          "right": 374,
+          "bottom": 148,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 0,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 88,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 314.046875,
+          "y": 18,
+          "width": 44,
+          "height": 44,
+          "right": 358.046875,
+          "bottom": 62,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 0,
+          "y": 88,
+          "width": 374,
+          "height": 63.234375,
+          "right": 374,
+          "bottom": 151.234375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 136.5,
+          "y": 88,
+          "width": 143,
+          "height": 28,
+          "right": 279.5,
+          "bottom": 116,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 174,
+          "y": 93,
+          "width": 96.984375,
+          "height": 18,
+          "right": 270.984375,
+          "bottom": 111,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 136.5,
+          "y": 121,
+          "width": 143,
+          "height": 30.234375,
+          "right": 279.5,
+          "bottom": 151.234375,
+          "font": "11.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 136.5,
+          "y": 136.9375,
+          "width": 143,
+          "height": 14.296875,
+          "right": 279.5,
+          "bottom": 151.234375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 174,
+          "y": 92,
+          "width": 96.9757080078125,
+          "right": 270.9757080078125,
+          "bottom": 112
+        },
+        "hoursText": {
+          "x": 136.5,
+          "y": 120.46875,
+          "width": 143,
+          "right": 279.5,
+          "bottom": 152.0859375
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 93.5,
+            "y": 119.609375,
+            "width": 34,
+            "height": 24,
+            "right": 127.5,
+            "bottom": 143.609375,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 93.5,
+            "y": 95.609375,
+            "width": 34,
+            "height": 24,
+            "right": 127.5,
+            "bottom": 119.609375,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 375,
+          "height": 96,
+          "right": 375,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 140,
+          "height": 88,
+          "right": 152,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 315,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 359,
+          "bottom": 70,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 156,
+          "y": 19.8125,
+          "width": 155,
+          "height": 56.375,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 197.234375,
+          "y": 19.8125,
+          "width": 110.515625,
+          "height": 28,
+          "right": 307.75,
+          "bottom": 47.8125,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 217.234375,
+          "y": 25.40625,
+          "width": 90.515625,
+          "height": 16.796875,
+          "right": 307.75,
+          "bottom": 42.203125,
+          "font": "16.799999px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 194,
+          "y": 51.8125,
+          "width": 117,
+          "height": 24.375,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 194,
+          "y": 64.5,
+          "width": 117,
+          "height": 11.6875,
+          "right": 311,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 217.234375,
+          "y": 24.3046875,
+          "width": 90.51058959960938,
+          "right": 307.7449645996094,
+          "bottom": 43.3046875
+        },
+        "hoursText": {
+          "x": 194,
+          "y": 51.15625,
+          "width": 117,
+          "right": 311,
+          "bottom": 76.84375
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 156,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 190,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 156,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 190,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 390,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 390,
+          "height": 96,
+          "right": 390,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 145.46875,
+          "height": 88,
+          "right": 157.46875,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 329.375,
+          "y": 26,
+          "width": 44,
+          "height": 44,
+          "right": 373.375,
+          "bottom": 70,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 161.46875,
+          "y": 19.8125,
+          "width": 163.90625,
+          "height": 56.375,
+          "right": 325.375,
+          "bottom": 76.1875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 206.1875,
+          "y": 19.8125,
+          "width": 112.453125,
+          "height": 28,
+          "right": 318.640625,
+          "bottom": 47.8125,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 226.1875,
+          "y": 25.234375,
+          "width": 92.453125,
+          "height": 17.15625,
+          "right": 318.640625,
+          "bottom": 42.390625,
+          "font": "17.16px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 203.921875,
+          "y": 51.8125,
+          "width": 117,
+          "height": 24.375,
+          "right": 320.921875,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 203.921875,
+          "y": 64.5,
+          "width": 117,
+          "height": 11.6875,
+          "right": 320.921875,
+          "bottom": 76.1875,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 226.1875,
+          "y": 23.8125,
+          "width": 92.45004272460938,
+          "right": 318.6375427246094,
+          "bottom": 43.8125
+        },
+        "hoursText": {
+          "x": 203.921875,
+          "y": 51.15625,
+          "width": 117,
+          "right": 320.921875,
+          "bottom": 76.84375
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 161.46875,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 195.46875,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 161.46875,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 195.46875,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "right": 414,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 154.421875,
+          "height": 88,
+          "right": 166.421875,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 352.1875,
+          "y": 25.921875,
+          "width": 44.15625,
+          "height": 44.15625,
+          "right": 396.34375,
+          "bottom": 70.078125,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 170.421875,
+          "y": 19.140625,
+          "width": 177.765625,
+          "height": 57.71875,
+          "right": 348.1875,
+          "bottom": 76.859375,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 219.234375,
+          "y": 19.140625,
+          "width": 118.140625,
+          "height": 28,
+          "right": 337.375,
+          "bottom": 47.140625,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 239.234375,
+          "y": 24.03125,
+          "width": 98.140625,
+          "height": 18.203125,
+          "right": 337.375,
+          "bottom": 42.234375,
+          "font": "18.216px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 216.40625,
+          "y": 51.140625,
+          "width": 123.796875,
+          "height": 25.71875,
+          "right": 340.203125,
+          "bottom": 76.859375,
+          "font": "9.521999px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 216.40625,
+          "y": 64.5,
+          "width": 123.796875,
+          "height": 12.359375,
+          "right": 340.203125,
+          "bottom": 76.859375,
+          "font": "9.521999px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 239.234375,
+          "y": 23.1328125,
+          "width": 98.1392822265625,
+          "right": 337.3736572265625,
+          "bottom": 43.1328125
+        },
+        "hoursText": {
+          "x": 216.40625,
+          "y": 50.3203125,
+          "width": 123.796875,
+          "right": 340.203125,
+          "bottom": 77.6796875
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 170.421875,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 204.421875,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 170.421875,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 204.421875,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96,
+          "right": 430,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 160,
+          "height": 88,
+          "right": 172,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375,
+          "right": 411.65625,
+          "bottom": 70.921875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 176,
+          "y": 18.671875,
+          "width": 185.796875,
+          "height": 58.65625,
+          "right": 361.796875,
+          "bottom": 77.328125,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 226.921875,
+          "y": 18.671875,
+          "width": 121.9375,
+          "height": 28,
+          "right": 348.859375,
+          "bottom": 46.671875,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 246.921875,
+          "y": 23.21875,
+          "width": 101.9375,
+          "height": 18.90625,
+          "right": 348.859375,
+          "bottom": 42.125,
+          "font": "18.92px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 223.609375,
+          "y": 50.671875,
+          "width": 128.578125,
+          "height": 26.65625,
+          "right": 352.1875,
+          "bottom": 77.328125,
+          "font": "9.89px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 223.609375,
+          "y": 64.5,
+          "width": 128.578125,
+          "height": 12.828125,
+          "right": 352.1875,
+          "bottom": 77.328125,
+          "font": "9.89px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 246.921875,
+          "y": 22.171875,
+          "width": 101.93222045898438,
+          "right": 348.8540954589844,
+          "bottom": 43.171875
+        },
+        "hoursText": {
+          "x": 223.609375,
+          "y": 50.0859375,
+          "width": 128.578125,
+          "right": 352.1875,
+          "bottom": 77.9140625
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 176,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 176,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100310"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 767,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 767,
+          "height": 96,
+          "right": 767,
+          "bottom": 96,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 12,
+          "y": 4,
+          "width": 160,
+          "height": 88,
+          "right": 172,
+          "bottom": 92,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 695,
+          "y": 22,
+          "width": 52,
+          "height": 52,
+          "right": 747,
+          "bottom": 74,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 176,
+          "y": 17.859375,
+          "width": 515,
+          "height": 60.28125,
+          "right": 691,
+          "bottom": 78.140625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 385.921875,
+          "y": 17.859375,
+          "width": 133.140625,
+          "height": 28,
+          "right": 519.0625,
+          "bottom": 45.859375,
+          "font": "14px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 405.921875,
+          "y": 21.359375,
+          "width": 113.140625,
+          "height": 21,
+          "right": 519.0625,
+          "bottom": 42.359375,
+          "font": "21px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 384.25,
+          "y": 49.859375,
+          "width": 136.5,
+          "height": 28.28125,
+          "right": 520.75,
+          "bottom": 78.140625,
+          "font": "10.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 384.25,
+          "y": 64.5,
+          "width": 136.5,
+          "height": 13.640625,
+          "right": 520.75,
+          "bottom": 78.140625,
+          "font": "10.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 405.921875,
+          "y": 20.359375,
+          "width": 113.1383056640625,
+          "right": 519.0601806640625,
+          "bottom": 43.359375
+        },
+        "hoursText": {
+          "x": 384.25,
+          "y": 49.1796875,
+          "width": 136.5,
+          "right": 520.75,
+          "bottom": 78.8203125
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 176,
+            "y": 48,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 72,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 176,
+            "y": 24,
+            "width": 34,
+            "height": 24,
+            "right": 210,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100311"
+      },
+      "errors": [],
+      "menuTap": "passed"
+    },
+    {
+      "engine": "WebKit",
+      "width": 768,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "right": 768,
+          "bottom": 72,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "right": 184,
+          "bottom": 68,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 704,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "right": 760,
+          "bottom": 64,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 311,
+          "y": 22,
+          "width": 375,
+          "height": 28,
+          "right": 686,
+          "bottom": 50,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 385,
+          "y": 22,
+          "width": 174,
+          "height": 28,
+          "right": 559,
+          "bottom": 50,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 422,
+          "y": 25,
+          "width": 118.53125,
+          "height": 22,
+          "right": 540.53125,
+          "bottom": 47,
+          "font": "22px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 569,
+          "y": 22,
+          "width": 117,
+          "height": 27.984375,
+          "right": 686,
+          "bottom": 49.984375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 569,
+          "y": 38.296875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 686,
+          "bottom": 49.984375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 422,
+          "y": 23.5,
+          "width": 118.52587890625,
+          "right": 540.52587890625,
+          "bottom": 48.5
+        },
+        "hoursText": {
+          "x": 569,
+          "y": 21.1484375,
+          "width": 117,
+          "right": 686,
+          "bottom": 50.640625
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 311,
+            "y": 24,
+            "width": 32,
+            "height": 24,
+            "right": 343,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 343,
+            "y": 24,
+            "width": 32,
+            "height": 24,
+            "right": 375,
+            "bottom": 48,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100311"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    },
+    {
+      "engine": "WebKit",
+      "width": 1024,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1024,
+          "height": 76.796875,
+          "right": 1024,
+          "bottom": 76.796875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 68.796875,
+          "right": 184,
+          "bottom": 72.796875,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 960,
+          "y": 10.390625,
+          "width": 56,
+          "height": 56,
+          "right": 1016,
+          "bottom": 66.390625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 567,
+          "y": 24.390625,
+          "width": 375,
+          "height": 28,
+          "right": 942,
+          "bottom": 52.390625,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 641,
+          "y": 24.390625,
+          "width": 174,
+          "height": 28,
+          "right": 815,
+          "bottom": 52.390625,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 678,
+          "y": 27.390625,
+          "width": 118.53125,
+          "height": 22,
+          "right": 796.53125,
+          "bottom": 49.390625,
+          "font": "22px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 825,
+          "y": 24.390625,
+          "width": 117,
+          "height": 27.984375,
+          "right": 942,
+          "bottom": 52.375,
+          "font": "11px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 825,
+          "y": 40.6875,
+          "width": 117,
+          "height": 11.6875,
+          "right": 942,
+          "bottom": 52.375,
+          "font": "9px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 678,
+          "y": 25.890625,
+          "width": 118.52587890625,
+          "right": 796.52587890625,
+          "bottom": 50.890625
+        },
+        "hoursText": {
+          "x": 825,
+          "y": 23.5390625,
+          "width": 117,
+          "right": 942,
+          "bottom": 53.03125
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 567,
+            "y": 26.390625,
+            "width": 32,
+            "height": 24,
+            "right": 599,
+            "bottom": 50.390625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 599,
+            "y": 26.390625,
+            "width": 32,
+            "height": 24,
+            "right": 631,
+            "bottom": 50.390625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100311"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    },
+    {
+      "engine": "WebKit",
+      "width": 1440,
+      "actual": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 108,
+          "right": 1440,
+          "bottom": 108,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgb(255, 255, 255)"
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "right": 184,
+          "bottom": 95,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "menu": {
+          "x": 1376,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "right": 1432,
+          "bottom": 82,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "contact": {
+          "x": 844.5,
+          "y": 10,
+          "width": 481.5,
+          "height": 33.828125,
+          "right": 1326,
+          "bottom": 43.828125,
+          "font": "16px",
+          "color": "rgb(33, 37, 41)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phone": {
+          "x": 940.5,
+          "y": 12.90625,
+          "width": 220,
+          "height": 28,
+          "right": 1160.5,
+          "bottom": 40.90625,
+          "font": "18px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "number": {
+          "x": 985.5,
+          "y": 12.90625,
+          "width": 150.859375,
+          "height": 28,
+          "right": 1136.359375,
+          "bottom": 40.90625,
+          "font": "28px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "hours": {
+          "x": 1176.5,
+          "y": 10,
+          "width": 149.5,
+          "height": 33.828125,
+          "right": 1326,
+          "bottom": 43.828125,
+          "font": "13px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "days": {
+          "x": 1176.5,
+          "y": 28.890625,
+          "width": 149.5,
+          "height": 14.9375,
+          "right": 1326,
+          "bottom": 43.828125,
+          "font": "11.5px",
+          "color": "rgb(0, 91, 172)",
+          "background": "rgba(0, 0, 0, 0)"
+        },
+        "phoneText": {
+          "x": 985.5,
+          "y": 11.40625,
+          "width": 150.85107421875,
+          "right": 1136.35107421875,
+          "bottom": 42.40625
+        },
+        "hoursText": {
+          "x": 1176.5,
+          "y": 8.9453125,
+          "width": 149.5,
+          "right": 1326,
+          "bottom": 44.359375
+        },
+        "payments": [
+          {
+            "alt": "Visa",
+            "x": 844.5,
+            "y": 12.90625,
+            "width": 40,
+            "height": 28,
+            "right": 884.5,
+            "bottom": 40.90625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          },
+          {
+            "alt": "Mastercard",
+            "x": 884.5,
+            "y": 12.90625,
+            "width": 40,
+            "height": 28,
+            "right": 924.5,
+            "bottom": 40.90625,
+            "font": "16px",
+            "color": "rgb(33, 37, 41)",
+            "background": "rgba(0, 0, 0, 0)"
+          }
+        ],
+        "overflow": 0,
+        "cache": "http://127.0.0.1:8769/assets/css/aircon-header.css?v=2026100311"
+      },
+      "errors": [],
+      "menuTap": "PC unchanged"
+    }
+  ]
+}

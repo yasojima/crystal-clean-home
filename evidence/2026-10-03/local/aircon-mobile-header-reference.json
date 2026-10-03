@@ -1,0 +1,103 @@
+{
+  "url": "https://idhome.co.jp/",
+  "styles": [
+    "https://idhome.co.jp/cms/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6",
+    "https://cdn.jsdelivr.net/npm/@splidejs/splide@4/dist/css/splide-core.min.css?ver=7.0.2",
+    "https://idhome.co.jp/cms/wp-content/themes/idhome_theme/css/common.css?ver=1784075385",
+    "https://idhome.co.jp/cms/wp-content/themes/idhome_theme/css/top.css?ver=1786953409",
+    "https://idhome.co.jp/cms/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.7.8"
+  ],
+  "header": [
+    {
+      "tag": "HEADER",
+      "classes": "l-header js-header",
+      "text": "",
+      "box": {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 79.484375
+      },
+      "background": "rgba(255, 255, 255, 0.2)",
+      "position": "fixed"
+    },
+    {
+      "tag": "H1",
+      "classes": "l-header__logo js-header-logo",
+      "text": "",
+      "box": {
+        "x": 17.65625,
+        "y": 22.078125,
+        "width": 225.203125,
+        "height": 35.3125
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "position": "relative"
+    },
+    {
+      "tag": "A",
+      "classes": "",
+      "text": "",
+      "box": {
+        "x": 17.65625,
+        "y": 22.078125,
+        "width": 225.203125,
+        "height": 35.3125
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "position": "static"
+    },
+    {
+      "tag": "IMG",
+      "classes": "--black",
+      "text": "",
+      "box": {
+        "x": 17.65625,
+        "y": 22.078125,
+        "width": 225.203125,
+        "height": 35.3125
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "position": "static"
+    },
+    {
+      "tag": "IMG",
+      "classes": "--white",
+      "text": "",
+      "box": {
+        "x": 17.65625,
+        "y": 22.078125,
+        "width": 225.203125,
+        "height": 35.3125
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "position": "absolute"
+    },
+    {
+      "tag": "BUTTON",
+      "classes": "l-header__menu-btn js-header-menu-btn",
+      "text": "",
+      "box": {
+        "x": 352.1875,
+        "y": 17.65625,
+        "width": 44.15625,
+        "height": 44.15625
+      },
+      "background": "rgb(35, 24, 21)",
+      "position": "static"
+    },
+    {
+      "tag": "SPAN",
+      "classes": "l-header__menu-btn-icon",
+      "text": "",
+      "box": {
+        "x": 363.78125,
+        "y": 29.25,
+        "width": 20.96875,
+        "height": 20.96875
+      },
+      "background": "rgba(0, 0, 0, 0)",
+      "position": "relative"
+    }
+  ]
+}
