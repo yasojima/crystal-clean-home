@@ -1,0 +1,5223 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "passed": true,
+  "count": 78,
+  "results": [
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "closed-one-column",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.65625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 501.65625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.65625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -130.25,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 57.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 113.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 169.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 225.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 281.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 337.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 393.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 449.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 505.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 561.65625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -130.25,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 645.65625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 715.65625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.65625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 501.65625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.65625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.34375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.65625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.65625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -274.25,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 501.65625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.65625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 0,
+      "detail": {
+        "headingBottom": 370.65625,
+        "contentTop": 370.65625,
+        "contentBottom": 479.65625,
+        "nextTop": 479.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "壁掛けタイプエアコン",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "天井埋め込みタイプエアコン",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 1,
+      "detail": {
+        "headingBottom": 426.65625,
+        "contentTop": 426.65625,
+        "contentBottom": 535.65625,
+        "nextTop": 535.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "お引越し前・後まるごとクリーニング",
+            "left": 15,
+            "right": 270,
+            "height": 21
+          },
+          {
+            "label": "在宅まるごとクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 2,
+      "detail": {
+        "headingBottom": 482.65625,
+        "contentTop": 482.65625,
+        "contentBottom": 835.65625,
+        "nextTop": 835.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "風呂・浴室クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+            "left": 15,
+            "right": 300,
+            "height": 45
+          },
+          {
+            "label": "浴室用アダプター取り付け",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "浴室乾燥機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "トイレクリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 3,
+      "detail": {
+        "headingBottom": 538.65625,
+        "contentTop": 538.65625,
+        "contentBottom": 726.65625,
+        "nextTop": 726.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "縦型洗濯機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ドラム式洗濯機クリーニング",
+            "left": 15,
+            "right": 209.5625,
+            "height": 21
+          },
+          {
+            "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+            "left": 15,
+            "right": 299.5625,
+            "height": 45
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 4,
+      "detail": {
+        "headingBottom": 594.65625,
+        "contentTop": 594.65625,
+        "contentBottom": 813.65625,
+        "nextTop": 813.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "レンジフード・換気扇クリーニング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "キッチンクリーニング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "冷蔵庫クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "食器洗い乾燥機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 5,
+      "detail": {
+        "headingBottom": 650.65625,
+        "contentTop": 650.65625,
+        "contentBottom": 1199.65625,
+        "nextTop": 1199.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "フローリングクリーニング",
+            "left": 15,
+            "right": 194.703125,
+            "height": 21
+          },
+          {
+            "label": "マットレス除菌クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ソファ・椅子クリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "カーペットクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "壁紙染色",
+            "left": 15,
+            "right": 75,
+            "height": 21
+          },
+          {
+            "label": "壁紙クリーニング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "ガラス・サッシクリーニング",
+            "left": 15,
+            "right": 209.703125,
+            "height": 21
+          },
+          {
+            "label": "玄関床クリーニング＆コーティング",
+            "left": 15,
+            "right": 254.109375,
+            "height": 21
+          },
+          {
+            "label": "換気ダクトクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "空気清浄機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 6,
+      "detail": {
+        "headingBottom": 687.65625,
+        "contentTop": 687.65625,
+        "contentBottom": 1126.65625,
+        "nextTop": 1126.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "防汚コーティング",
+            "left": 15,
+            "right": 134.109375,
+            "height": 21
+          },
+          {
+            "label": "浴室コーティング",
+            "left": 15,
+            "right": 134.109375,
+            "height": 21
+          },
+          {
+            "label": "キッチンコーティング",
+            "left": 15,
+            "right": 164.109375,
+            "height": 21
+          },
+          {
+            "label": "トイレコーティング",
+            "left": 15,
+            "right": 149.109375,
+            "height": 21
+          },
+          {
+            "label": "洗面台コーティング",
+            "left": 15,
+            "right": 149.109375,
+            "height": 21
+          },
+          {
+            "label": "フロアコーティング（1帖あたり）",
+            "left": 15,
+            "right": 247.953125,
+            "height": 21
+          },
+          {
+            "label": "UVコーティング（1帖あたり）",
+            "left": 15,
+            "right": 223.25,
+            "height": 21
+          },
+          {
+            "label": "フローリング補修（リペア）",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 7,
+      "detail": {
+        "headingBottom": 370.65625,
+        "contentTop": 370.65625,
+        "contentBottom": 589.65625,
+        "nextTop": 589.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "外壁手洗い洗浄",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          },
+          {
+            "label": "光触媒抗菌コーティング",
+            "left": 15,
+            "right": 179.109375,
+            "height": 21
+          },
+          {
+            "label": "ベランダ・外回り高圧洗浄",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "お墓のお掃除",
+            "left": 15,
+            "right": 105,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 8,
+      "detail": {
+        "headingBottom": 426.65625,
+        "contentTop": 426.65625,
+        "contentBottom": 535.65625,
+        "nextTop": 535.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "ハウスクリーニングについて",
+            "left": 15,
+            "right": 209.5625,
+            "height": 21
+          },
+          {
+            "label": "はじめての方へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 9,
+      "detail": {
+        "headingBottom": 482.65625,
+        "contentTop": 482.65625,
+        "contentBottom": 592.65625,
+        "nextTop": 592.65625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "店舗・オフィスクリーニング",
+            "left": 15,
+            "right": 209.703125,
+            "height": 21
+          },
+          {
+            "label": "法人のお客様へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "stage": "closed-one-column",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.515625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 501.515625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.515625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -145.15625,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 57.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 113.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 169.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 225.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 281.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 337.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 393.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 449.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 505.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 561.515625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -145.15625,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 645.515625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 715.515625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.515625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 501.515625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.515625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.484375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.515625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.515625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -289.15625,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 501.515625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.515625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "closed-one-column",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.15625,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 502.15625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.15625,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -155,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 58.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 114.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 170.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.15625,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -155,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 646.15625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 716.15625,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.15625,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 502.15625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.15625,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.84375,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.15625,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.15625,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -299,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 502.15625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.15625,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 0,
+      "detail": {
+        "headingBottom": 371.15625,
+        "contentTop": 371.15625,
+        "contentBottom": 480.15625,
+        "nextTop": 480.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "壁掛けタイプエアコン",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "天井埋め込みタイプエアコン",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 1,
+      "detail": {
+        "headingBottom": 427.15625,
+        "contentTop": 427.15625,
+        "contentBottom": 536.15625,
+        "nextTop": 536.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "お引越し前・後まるごとクリーニング",
+            "left": 15,
+            "right": 270,
+            "height": 21
+          },
+          {
+            "label": "在宅まるごとクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 2,
+      "detail": {
+        "headingBottom": 483.15625,
+        "contentTop": 483.15625,
+        "contentBottom": 812.15625,
+        "nextTop": 812.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "風呂・浴室クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+            "left": 15,
+            "right": 345,
+            "height": 21
+          },
+          {
+            "label": "浴室用アダプター取り付け",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "浴室乾燥機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "トイレクリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 3,
+      "detail": {
+        "headingBottom": 539.15625,
+        "contentTop": 539.15625,
+        "contentBottom": 703.15625,
+        "nextTop": 703.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "縦型洗濯機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ドラム式洗濯機クリーニング",
+            "left": 15,
+            "right": 209.5625,
+            "height": 21
+          },
+          {
+            "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+            "left": 15,
+            "right": 374.5625,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 4,
+      "detail": {
+        "headingBottom": 595.15625,
+        "contentTop": 595.15625,
+        "contentBottom": 814.15625,
+        "nextTop": 814.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "レンジフード・換気扇クリーニング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "キッチンクリーニング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "冷蔵庫クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "食器洗い乾燥機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 5,
+      "detail": {
+        "headingBottom": 651.15625,
+        "contentTop": 651.15625,
+        "contentBottom": 1200.15625,
+        "nextTop": 1200.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "フローリングクリーニング",
+            "left": 15,
+            "right": 194.703125,
+            "height": 21
+          },
+          {
+            "label": "マットレス除菌クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ソファ・椅子クリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "カーペットクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "壁紙染色",
+            "left": 15,
+            "right": 75,
+            "height": 21
+          },
+          {
+            "label": "壁紙クリーニング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "ガラス・サッシクリーニング",
+            "left": 15,
+            "right": 209.703125,
+            "height": 21
+          },
+          {
+            "label": "玄関床クリーニング＆コーティング",
+            "left": 15,
+            "right": 254.109375,
+            "height": 21
+          },
+          {
+            "label": "換気ダクトクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "空気清浄機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 6,
+      "detail": {
+        "headingBottom": 688.15625,
+        "contentTop": 688.15625,
+        "contentBottom": 1127.15625,
+        "nextTop": 1127.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "防汚コーティング",
+            "left": 15,
+            "right": 134.109375,
+            "height": 21
+          },
+          {
+            "label": "浴室コーティング",
+            "left": 15,
+            "right": 134.109375,
+            "height": 21
+          },
+          {
+            "label": "キッチンコーティング",
+            "left": 15,
+            "right": 164.109375,
+            "height": 21
+          },
+          {
+            "label": "トイレコーティング",
+            "left": 15,
+            "right": 149.109375,
+            "height": 21
+          },
+          {
+            "label": "洗面台コーティング",
+            "left": 15,
+            "right": 149.109375,
+            "height": 21
+          },
+          {
+            "label": "フロアコーティング（1帖あたり）",
+            "left": 15,
+            "right": 247.953125,
+            "height": 21
+          },
+          {
+            "label": "UVコーティング（1帖あたり）",
+            "left": 15,
+            "right": 223.25,
+            "height": 21
+          },
+          {
+            "label": "フローリング補修（リペア）",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 7,
+      "detail": {
+        "headingBottom": 371.15625,
+        "contentTop": 371.15625,
+        "contentBottom": 590.15625,
+        "nextTop": 590.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "外壁手洗い洗浄",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          },
+          {
+            "label": "光触媒抗菌コーティング",
+            "left": 15,
+            "right": 179.109375,
+            "height": 21
+          },
+          {
+            "label": "ベランダ・外回り高圧洗浄",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "お墓のお掃除",
+            "left": 15,
+            "right": 105,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 8,
+      "detail": {
+        "headingBottom": 427.15625,
+        "contentTop": 427.15625,
+        "contentBottom": 536.15625,
+        "nextTop": 536.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "ハウスクリーニングについて",
+            "left": 15,
+            "right": 209.5625,
+            "height": 21
+          },
+          {
+            "label": "はじめての方へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 9,
+      "detail": {
+        "headingBottom": 483.15625,
+        "contentTop": 483.15625,
+        "contentBottom": 593.15625,
+        "nextTop": 593.15625,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "店舗・オフィスクリーニング",
+            "left": 15,
+            "right": 209.703125,
+            "height": 21
+          },
+          {
+            "label": "法人のお客様へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "stage": "boundary-and-normal-scroll",
+      "input": "wheel",
+      "passed": true
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "stage": "closed-one-column",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.046875,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 502.046875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.046875,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -159.40625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 58.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 114.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 170.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.046875,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -159.40625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 646.046875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 716.046875,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.046875,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 502.046875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.046875,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "rootX": "auto",
+        "rootY": "none",
+        "overscrollSupported": true,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+        "footer": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.953125,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.046875,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.046875,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -303.40625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 502.046875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.046875,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "width": 768,
+      "stage": "desktop-before-after-identical",
+      "passed": true
+    },
+    {
+      "engine": "Chrome",
+      "width": 1440,
+      "stage": "desktop-before-after-identical",
+      "passed": true
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "closed-one-column",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -273.84375,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.9375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.9375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.0625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -273.84375,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 502.0625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.0625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -17.84375,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 170.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 618.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 674.0625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -17.84375,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 758.0625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 828.0625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -217.84375,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -29.9375,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 474.0625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -217.84375,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 558.0625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 628.0625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -129.84375,
+          "width": 320,
+          "height": 961.90625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 58.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 114.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 170.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.0625,
+            "width": 320,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.0625,
+            "width": 320,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -129.84375,
+          "width": 320,
+          "height": 187.90625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 42,
+          "top": 646.0625,
+          "width": 236,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 716.0625,
+          "width": 320,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 0,
+      "detail": {
+        "headingBottom": 112.0625,
+        "contentTop": 112.0625,
+        "contentBottom": 221.0625,
+        "nextTop": 221.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "壁掛けタイプエアコン",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "天井埋め込みタイプエアコン",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 1,
+      "detail": {
+        "headingBottom": 168.0625,
+        "contentTop": 168.0625,
+        "contentBottom": 277.0625,
+        "nextTop": 277.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "お引越し前・後まるごとクリーニング",
+            "left": 15,
+            "right": 270,
+            "height": 21
+          },
+          {
+            "label": "在宅まるごとクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 2,
+      "detail": {
+        "headingBottom": 224.0625,
+        "contentTop": 224.0625,
+        "contentBottom": 577.0625,
+        "nextTop": 577.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "風呂・浴室クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+            "left": 15,
+            "right": 300,
+            "height": 45
+          },
+          {
+            "label": "浴室用アダプター取り付け",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "浴室乾燥機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "トイレクリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 3,
+      "detail": {
+        "headingBottom": 280.0625,
+        "contentTop": 280.0625,
+        "contentBottom": 468.0625,
+        "nextTop": 468.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "縦型洗濯機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ドラム式洗濯機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+            "left": 15,
+            "right": 300,
+            "height": 45
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 4,
+      "detail": {
+        "headingBottom": 336.0625,
+        "contentTop": 336.0625,
+        "contentBottom": 555.0625,
+        "nextTop": 555.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "レンジフード・換気扇クリーニング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "キッチンクリーニング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "冷蔵庫クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "食器洗い乾燥機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 5,
+      "detail": {
+        "headingBottom": 392.0625,
+        "contentTop": 392.0625,
+        "contentBottom": 941.0625,
+        "nextTop": 941.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "フローリングクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "マットレス除菌クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ソファ・椅子クリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "カーペットクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "壁紙染色",
+            "left": 15,
+            "right": 75,
+            "height": 21
+          },
+          {
+            "label": "壁紙クリーニング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "ガラス・サッシクリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "玄関床クリーニング＆コーティング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "換気ダクトクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "空気清浄機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 6,
+      "detail": {
+        "headingBottom": 448.0625,
+        "contentTop": 448.0625,
+        "contentBottom": 887.0625,
+        "nextTop": 887.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "防汚コーティング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "浴室コーティング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "キッチンコーティング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "トイレコーティング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台コーティング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "フロアコーティング（1帖あたり）",
+            "left": 15,
+            "right": 248.84999084472656,
+            "height": 21
+          },
+          {
+            "label": "UVコーティング（1帖あたり）",
+            "left": 15,
+            "right": 224.1443634033203,
+            "height": 21
+          },
+          {
+            "label": "フローリング補修（リペア）",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 7,
+      "detail": {
+        "headingBottom": 504.0625,
+        "contentTop": 504.0625,
+        "contentBottom": 723.0625,
+        "nextTop": 723.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "外壁手洗い洗浄",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          },
+          {
+            "label": "光触媒抗菌コーティング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ベランダ・外回り高圧洗浄",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "お墓のお掃除",
+            "left": 15,
+            "right": 105,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 8,
+      "detail": {
+        "headingBottom": 560.0625,
+        "contentTop": 560.0625,
+        "contentBottom": 669.0625,
+        "nextTop": 669.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "ハウスクリーニングについて",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "はじめての方へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "stage": "accordion-open",
+      "index": 9,
+      "detail": {
+        "headingBottom": 616.0625,
+        "contentTop": 616.0625,
+        "contentBottom": 726.0625,
+        "nextTop": 726.0625,
+        "width": 320,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "店舗・オフィスクリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "法人のお客様へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "stage": "closed-one-column",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -289.03125,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -86.359375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -30.359375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.640625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -289.03125,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 501.640625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 571.640625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -33.03125,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 169.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 225.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 281.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 337.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 393.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 449.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 505.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 561.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 617.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 673.640625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -33.03125,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 757.640625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 827.640625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -233.03125,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -30.359375,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 25.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 81.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 137.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 193.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 249.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 305.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 361.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 417.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 473.640625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -233.03125,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 557.640625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 627.640625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -145.03125,
+          "width": 375,
+          "height": 976.671875
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 57.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 113.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 169.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 225.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 281.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 337.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 393.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 449.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 505.640625,
+            "width": 375,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 561.640625,
+            "width": 375,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -145.03125,
+          "width": 375,
+          "height": 202.671875
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 25,
+          "top": 645.640625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 715.640625,
+          "width": 375,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "closed-one-column",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -298.9375,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.78125,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.78125,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.21875,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -298.9375,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 502.21875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.21875,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -42.9375,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 170.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 618.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 674.21875,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -42.9375,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 758.21875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 828.21875,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -242.9375,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -29.78125,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 474.21875,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -242.9375,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 558.21875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 628.21875,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -154.9375,
+          "width": 414,
+          "height": 987.15625
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 58.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 114.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 170.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.21875,
+            "width": 414,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.21875,
+            "width": 414,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -154.9375,
+          "width": 414,
+          "height": 213.15625
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 44.5,
+          "top": 646.21875,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 716.21875,
+          "width": 414,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 0,
+      "detail": {
+        "headingBottom": 112.21875,
+        "contentTop": 112.21875,
+        "contentBottom": 221.21875,
+        "nextTop": 221.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "壁掛けタイプエアコン",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "天井埋め込みタイプエアコン",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 1,
+      "detail": {
+        "headingBottom": 168.21875,
+        "contentTop": 168.21875,
+        "contentBottom": 277.21875,
+        "nextTop": 277.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "お引越し前・後まるごとクリーニング",
+            "left": 15,
+            "right": 270,
+            "height": 21
+          },
+          {
+            "label": "在宅まるごとクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 2,
+      "detail": {
+        "headingBottom": 224.21875,
+        "contentTop": 224.21875,
+        "contentBottom": 553.21875,
+        "nextTop": 553.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "風呂・浴室クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+            "left": 15,
+            "right": 345,
+            "height": 21
+          },
+          {
+            "label": "浴室用アダプター取り付け",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "浴室乾燥機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "トイレクリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 3,
+      "detail": {
+        "headingBottom": 280.21875,
+        "contentTop": 280.21875,
+        "contentBottom": 444.21875,
+        "nextTop": 444.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "縦型洗濯機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ドラム式洗濯機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+            "left": 15,
+            "right": 375,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 4,
+      "detail": {
+        "headingBottom": 336.21875,
+        "contentTop": 336.21875,
+        "contentBottom": 555.21875,
+        "nextTop": 555.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "レンジフード・換気扇クリーニング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "キッチンクリーニング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "冷蔵庫クリーニング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "食器洗い乾燥機クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 5,
+      "detail": {
+        "headingBottom": 392.21875,
+        "contentTop": 392.21875,
+        "contentBottom": 941.21875,
+        "nextTop": 941.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "フローリングクリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "マットレス除菌クリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "ソファ・椅子クリーニング",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "カーペットクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "壁紙染色",
+            "left": 15,
+            "right": 75,
+            "height": 21
+          },
+          {
+            "label": "壁紙クリーニング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "ガラス・サッシクリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "玄関床クリーニング＆コーティング",
+            "left": 15,
+            "right": 255,
+            "height": 21
+          },
+          {
+            "label": "換気ダクトクリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "空気清浄機クリーニング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 6,
+      "detail": {
+        "headingBottom": 448.21875,
+        "contentTop": 448.21875,
+        "contentBottom": 887.21875,
+        "nextTop": 887.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "防汚コーティング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "浴室コーティング",
+            "left": 15,
+            "right": 135,
+            "height": 21
+          },
+          {
+            "label": "キッチンコーティング",
+            "left": 15,
+            "right": 165,
+            "height": 21
+          },
+          {
+            "label": "トイレコーティング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "洗面台コーティング",
+            "left": 15,
+            "right": 150,
+            "height": 21
+          },
+          {
+            "label": "フロアコーティング（1帖あたり）",
+            "left": 15,
+            "right": 248.84999084472656,
+            "height": 21
+          },
+          {
+            "label": "UVコーティング（1帖あたり）",
+            "left": 15,
+            "right": 224.1443634033203,
+            "height": 21
+          },
+          {
+            "label": "フローリング補修（リペア）",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 7,
+      "detail": {
+        "headingBottom": 504.21875,
+        "contentTop": 504.21875,
+        "contentBottom": 723.21875,
+        "nextTop": 723.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "外壁手洗い洗浄",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          },
+          {
+            "label": "光触媒抗菌コーティング",
+            "left": 15,
+            "right": 180,
+            "height": 21
+          },
+          {
+            "label": "ベランダ・外回り高圧洗浄",
+            "left": 15,
+            "right": 195,
+            "height": 21
+          },
+          {
+            "label": "お墓のお掃除",
+            "left": 15,
+            "right": 105,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 8,
+      "detail": {
+        "headingBottom": 560.21875,
+        "contentTop": 560.21875,
+        "contentBottom": 669.21875,
+        "nextTop": 669.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "ハウスクリーニングについて",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "はじめての方へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "accordion-open",
+      "index": 9,
+      "detail": {
+        "headingBottom": 616.21875,
+        "contentTop": 616.21875,
+        "contentBottom": 726.21875,
+        "nextTop": 726.21875,
+        "width": 414,
+        "expanded": "true",
+        "display": "block",
+        "links": [
+          {
+            "label": "店舗・オフィスクリーニング",
+            "left": 15,
+            "right": 210,
+            "height": 21
+          },
+          {
+            "label": "法人のお客様へ",
+            "left": 15,
+            "right": 120,
+            "height": 21
+          }
+        ],
+        "overflow": 0,
+        "scrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "stage": "boundary-and-normal-scroll",
+      "input": "native-scroll-API-mobile-WebKit-wheel-unsupported",
+      "passed": true
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "stage": "closed-one-column",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -303.390625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -85.9375,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": -29.9375,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.0625,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -303.390625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 502.0625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 572.0625,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "height": 832,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -47.390625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 170.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 618.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 674.0625,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -47.390625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 758.0625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 828.0625,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "height": 600,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -247.390625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": -29.9375,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 26.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 82.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 138.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 194.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 250.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 306.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 362.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 418.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 474.0625,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -247.390625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 558.0625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 628.0625,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "height": 688,
+      "stage": "viewport-resize",
+      "measured": {
+        "overscrollSupported": false,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Safari/605.1.15",
+        "footer": {
+          "x": 0,
+          "top": -159.390625,
+          "width": 430,
+          "height": 991.453125
+        },
+        "footerMinHeight": "0px",
+        "mobileDisplay": "block",
+        "mobileGap": "normal",
+        "accordionDisplay": "block",
+        "headings": [
+          {
+            "x": 0,
+            "top": 58.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 114.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 170.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 226.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 282.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 338.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 394.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 450.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 506.0625,
+            "width": 430,
+            "height": 54
+          },
+          {
+            "x": 0,
+            "top": 562.0625,
+            "width": 430,
+            "height": 54
+          }
+        ],
+        "phone": {
+          "x": 0,
+          "top": -159.390625,
+          "width": 430,
+          "height": 217.453125
+        },
+        "phonePadding": "20px 15px",
+        "sns": {
+          "x": 52.5,
+          "top": 646.0625,
+          "width": 325,
+          "height": 40
+        },
+        "endNav": {
+          "x": 0,
+          "top": 716.0625,
+          "width": 430,
+          "height": 116
+        },
+        "headerBottom": -1,
+        "cartVisibility": "hidden",
+        "overflow": 0,
+        "scriptScrollCalls": []
+      }
+    },
+    {
+      "engine": "WebKit",
+      "width": 768,
+      "stage": "desktop-before-after-identical",
+      "passed": true
+    },
+    {
+      "engine": "WebKit",
+      "width": 1440,
+      "stage": "desktop-before-after-identical",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limits": "Headless Chrome/WebKit verifies CSS, gestures, natural flow and regressions; iPhone browser toolbar and native rubber-band acceptance require device confirmation."
+}

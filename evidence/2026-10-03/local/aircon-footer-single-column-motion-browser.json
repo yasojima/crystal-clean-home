@@ -1,0 +1,51 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "start": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1800,
+    "transition": "0.45s, 0.4s"
+  },
+  "held": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "shortlyAfter": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "idle": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "upward": {
+    "hidden": true,
+    "y": -61.0164794921875,
+    "bottom": 34.9835205078125,
+    "scrollY": 1745,
+    "transition": "0.45s, 0.4s"
+  },
+  "bottom": {
+    "hidden": false,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 13237,
+    "transition": "0.45s, 0.4s"
+  },
+  "pc": {
+    "y": 0,
+    "hidden": false
+  },
+  "errors": [],
+  "passed": true
+}

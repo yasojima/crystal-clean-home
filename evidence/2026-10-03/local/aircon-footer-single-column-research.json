@@ -1,0 +1,33 @@
+{
+  "reference_page": "https://www.osoujihonpo.com/house-cleaning/water/",
+  "reference_css": "https://www.osoujihonpo.com/assets/css/common.css?241126",
+  "reference_css_bytes": 341244,
+  "reference_css_sha256": "dc23ec96887b571db3da8a70aa5efeea9f48b753d5fe9a13e3226561d113b675",
+  "reference_footer": {
+    "mobile_categories": "one-column",
+    "phone_padding": "20px 15px",
+    "viewport_stretch_controls": false,
+    "overscroll_behavior_present": false
+  },
+  "one_column_git_baseline": "644985bf81e798d87a157435e75f0c584df0cd8d",
+  "two_column_introduced_in": "6943b18",
+  "header_overlap_baseline": "08ea216",
+  "scope": "Only mobile aircon footer layout and footer visibility logic restored; current PC/footer labels/header contact/menu colors/cart visibility retained.",
+  "official_sources": [
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/overscroll-behavior",
+      "use": "none suppresses the overscroll boundary effect; apply at html root, vertical axis only"
+    },
+    {
+      "url": "https://webkit.org/blog/13152/webkit-features-in-safari-16-0/",
+      "use": "Safari 16 overscroll behavior support"
+    },
+    {
+      "url": "https://webkit.org/blog/13966/webkit-features-in-safari-16-4/",
+      "use": "Safari 16.4 fixes the none setting on non-scrollable pages"
+    }
+  ],
+  "implementation": "html overscroll-behavior-y:none inside max-width:767.98px in aircon-only stylesheet",
+  "fallback": "Unsupported browsers keep native scrolling; no touchmove cancellation, body fixation, height redistribution or scroll correction.",
+  "verification_limits": "Windows Playwright WebKit reports CSS.supports false in this environment. Its checks establish layout/tap/fallback behavior, not Safari overscroll suppression. iPhone acceptance pending."
+}
