@@ -11,8 +11,8 @@ SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
     '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">',
-    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100324">',
-    '<script src="/assets/js/aircon-header.js?v=2026100314" defer></script>',
+    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100401">',
+    '<script src="/assets/js/aircon-header.js?v=2026100401" defer></script>',
 )
 
 
@@ -86,7 +86,7 @@ def main():
             changed.append(page.relative_to(SITE).as_posix())
             if not args.check:
                 page.write_bytes(output.encode('utf-8'))
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

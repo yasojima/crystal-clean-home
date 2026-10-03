@@ -236,3 +236,8 @@
   height: 0;
   scroll-margin-top: var(--aircon-header-height);
 }
+
+.c-corporate-floating.is-site-footer-hidden {
+  visibility: hidden;
+  pointer-events: none;
+}

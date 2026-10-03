@@ -241,6 +241,7 @@
   const mobileFooterSocial = mobileFooter?.querySelector('.u-sp-only > .c-footer-top-nav__item:last-child');
   const footerBottomNav = mobileFooter?.querySelector('.c-footer__bottom-nav');
   const floatingCart = document.querySelector('#js-floating');
+  const corporateFloating = document.querySelector('.c-corporate-floating');
   let lastScrollY = window.scrollY;
   let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
@@ -271,6 +272,9 @@
   sizeFooterRows();
 
   function updateFooterPush() {
+    const footerRect = mobileFooter?.getBoundingClientRect();
+    corporateFloating?.classList.toggle('is-site-footer-hidden', Boolean(footerRect &&
+      footerRect.top < window.innerHeight && footerRect.bottom > 0));
     floatingCart?.classList.toggle('is-mobile-footer-hidden', mobileHeader.matches &&
       mobileFooter && mobileFooter.getBoundingClientRect().top < window.innerHeight);
     if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
