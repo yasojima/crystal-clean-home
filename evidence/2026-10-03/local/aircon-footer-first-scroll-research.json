@@ -1,0 +1,152 @@
+{
+  "request": "First end arrival should not need a second gesture. Preserve phone and SNS spacing and PC.",
+  "video": "User recording ScreenRecording_10-03-2026 12-52-08_1.MP4 inspected at 0.5-second intervals.",
+  "observed": "HUD is 414x688 with browser bars expanded and 414x832 when collapsed. At 1.5-2.0 and 5.0 seconds preceding blue section remains above phone at the larger viewport; at 3.0 and 7.0 seconds phone starts at the expanded-bar content top.",
+  "inference": "A footer based on fixed 100svh cannot fill both visible heights. Toolbar geometry changing after arrival is relevant to the second-gesture symptom.",
+  "sources": [
+    {
+      "url": "https://web.dev/blog/viewport-units",
+      "finding": "svh is stable when browser UI retracts; dvh follows that UI, with throttled or delayed updates."
+    },
+    {
+      "url": "https://www.w3.org/TR/css-scroll-snap-1/#re-snap",
+      "finding": "A previously snapped target is re-snapped after layout changes. Proximity snapping may snap near its target; it is not mandatory."
+    }
+  ],
+  "comparison": [
+    {
+      "name": "WebKit",
+      "mode": "small",
+      "first": {
+        "y": 13538,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 0.0625,
+        "fb": 688.015625,
+        "vh": 688
+      },
+      "grow": {
+        "y": 13506,
+        "max": 13506,
+        "fh": 687.953125,
+        "ft": 144.0625,
+        "fb": 832.015625,
+        "vh": 832
+      },
+      "shrink": {
+        "y": 13506,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 32.0625,
+        "fb": 720.015625,
+        "vh": 688
+      },
+      "middle": {
+        "y": 1800,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 11738.0625,
+        "fb": 12426.015625,
+        "vh": 688
+      },
+      "middleGrow": {
+        "y": 1800,
+        "max": 13506,
+        "fh": 687.953125,
+        "ft": 11850.0625,
+        "fb": 12538.015625,
+        "vh": 832
+      }
+    },
+    {
+      "name": "WebKit",
+      "mode": "dynamic",
+      "first": {
+        "y": 13538,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 0.0625,
+        "fb": 688.015625,
+        "vh": 688
+      },
+      "grow": {
+        "y": 13394,
+        "max": 13650,
+        "fh": 831.9375,
+        "ft": 256.0625,
+        "fb": 1088,
+        "vh": 832
+      },
+      "shrink": {
+        "y": 13394,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 144.0625,
+        "fb": 832.015625,
+        "vh": 688
+      },
+      "middle": {
+        "y": 1800,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 11738.0625,
+        "fb": 12426.015625,
+        "vh": 688
+      },
+      "middleGrow": {
+        "y": 1800,
+        "max": 13650,
+        "fh": 831.9375,
+        "ft": 11850.0625,
+        "fb": 12682,
+        "vh": 832
+      }
+    },
+    {
+      "name": "WebKit",
+      "mode": "snap",
+      "first": {
+        "y": 13538,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 0.0625,
+        "fb": 688.015625,
+        "vh": 688
+      },
+      "grow": {
+        "y": 13650,
+        "max": 13650,
+        "fh": 831.9375,
+        "ft": 0.0625,
+        "fb": 832,
+        "vh": 832
+      },
+      "shrink": {
+        "y": 13538,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 0.0625,
+        "fb": 688.015625,
+        "vh": 688
+      },
+      "middle": {
+        "y": 1800,
+        "max": 13538,
+        "fh": 687.953125,
+        "ft": 11738.0625,
+        "fb": 12426.015625,
+        "vh": 688
+      },
+      "middleGrow": {
+        "y": 1800,
+        "max": 13650,
+        "fh": 831.9375,
+        "ft": 11850.0625,
+        "fb": 12682,
+        "vh": 832
+      }
+    }
+  ],
+  "implementation": "Mobile dynamic height for category panels and a single proximity snap target at the bottom nav only when all detail panels are closed. No JS scroll calls or viewport observers.",
+  "limits": "Desktop viewport resizing models geometry and delayed CSS updates, not native iPhone browser chrome. Device acceptance remains unconfirmed."
+}
