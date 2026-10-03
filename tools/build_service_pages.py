@@ -324,7 +324,7 @@ def concerns(page, primary, category_copy, copy):
         node.append(first)
         node.append(tag('br'))
         node.append(second)
-    heading = detail_copy.get('heading', [content['short'] + 'を丁寧にお手入れ','気になる箇所を清潔に']) if detail else category_copy['heading']
+    heading = detail_copy['heading'] if detail else category_copy['heading']
     lines(n.select_one('.p-content-box__heading'), [*heading[:-1], heading[-1].rstrip('！!') + '！'])
     subjects = [primary] if detail else category_copy['subjects']
     buttons = n.select_one('.c-tab__buttons'); panels = n.select_one('.c-tab__panels')
@@ -338,6 +338,14 @@ def concerns(page, primary, category_copy, copy):
         b.string = p['short']
         if page['route'] == 'aircon' and key in ('2', '3'):
             lines(b, ['お掃除機能付き', 'エアコン'] if key == '2' else ['天井埋め込み', 'エアコン'])
+            b.find('br')['class'] = ['u-sp-only']
+        mobile_tab_lines = {
+            'レンジフード・換気扇': ['レンジフード・', '換気扇'],
+            'キッチンコーティング': ['キッチン', 'コーティング'],
+            'ベランダ・外回り高圧洗浄': ['ベランダ・', '外回り高圧洗浄'],
+        }
+        if not detail and p['short'] in mobile_tab_lines:
+            lines(b, mobile_tab_lines[p['short']])
             b.find('br')['class'] = ['u-sp-only']
         box['id'], box['aria-labelledby'] = pid, bid
         box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
