@@ -1,0 +1,191 @@
+{
+  "base": "https://yasojima.github.io",
+  "passed": true,
+  "results": [
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "closed": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 687.9375,
+        "phoneTop": -0.25,
+        "navBottom": 687.6875,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 920.53125,
+        "phoneTop": -0.25,
+        "navBottom": 920.28125,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "closed": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": -0.15625,
+        "navBottom": 687.796875,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 920.546875,
+        "phoneTop": -0.15625,
+        "navBottom": 920.390625,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "closed": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": 0,
+        "navBottom": 687.953125,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 896.546875,
+        "phoneTop": 0,
+        "navBottom": 896.546875,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "closed": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": -0.40625,
+        "navBottom": 687.546875,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "auto",
+        "navSnap": "none",
+        "footerHeight": 896.546875,
+        "phoneTop": -0.40625,
+        "navBottom": 896.140625,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "closed": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 687.9375,
+        "phoneTop": -0.1875,
+        "navBottom": 687.75,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 920.53125,
+        "phoneTop": -0.1875,
+        "navBottom": 920.34375,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "closed": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": -0.03125,
+        "navBottom": 687.921875,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 920.546875,
+        "phoneTop": -0.03125,
+        "navBottom": 920.515625,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "closed": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": 0.0625,
+        "navBottom": 688.015625,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 896.546875,
+        "phoneTop": 0.0625,
+        "navBottom": 896.609375,
+        "overflow": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "closed": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 687.953125,
+        "phoneTop": -0.390625,
+        "navBottom": 687.5625,
+        "overflow": 0
+      },
+      "opened": {
+        "snap": "none",
+        "overscroll": "unsupported",
+        "navSnap": "none",
+        "footerHeight": 896.546875,
+        "phoneTop": -0.390625,
+        "navBottom": 896.15625,
+        "overflow": 0
+      },
+      "errors": []
+    }
+  ],
+  "limits": "Hidden desktop Chrome/WebKit verifies natural scroll settings and steady layout. Native iPhone overscroll and toolbar movement are left to the browser."
+}
