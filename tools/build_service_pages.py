@@ -572,6 +572,10 @@ def refine_aircon_footer(output):
     def replace_footer(match):
         footer = parse(match.group()).select_one('footer')
         footer['class'] = list(dict.fromkeys(footer.get('class', []) + ['c-footer--aircon']))
+        for href, label in (('/about/', 'ハウスクリーニングについて'),
+                            ('/beginner/', 'はじめての方へ')):
+            for link in footer.select(f'.c-footer-global-links a[href="{href}"]'):
+                link.string = label
         page_top = footer.select_one('.c-footer__page-top')
         page_top['href'] = '#first-view'
         page_top['aria-label'] = 'ファーストビューへ戻る'
@@ -750,7 +754,7 @@ def render(route, page, catalogue, copy):
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100308">'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100310">'
         header_js = '<script src="/assets/js/aircon-header.js?v=2026100308" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
