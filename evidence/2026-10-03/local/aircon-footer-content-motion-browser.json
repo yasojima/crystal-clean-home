@@ -1,0 +1,56 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "start": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1800,
+    "transition": "0.45s, 0.4s"
+  },
+  "held": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "shortlyAfter": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "idle": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "upward": {
+    "hidden": true,
+    "y": -60.9324951171875,
+    "bottom": 35.0675048828125,
+    "scrollY": 1745,
+    "transition": "0.45s, 0.4s"
+  },
+  "bottom": {
+    "hidden": false,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 12863,
+    "transition": "0.45s, 0.4s"
+  },
+  "pc": {
+    "y": 0,
+    "hidden": false
+  },
+  "errors": [],
+  "passed": true,
+  "source_base_commit": "ad8d5cb",
+  "trial": "CHG-2026-10-03-015",
+  "actual_iphone_toolbar_and_rubber_band": "not_simulated",
+  "rollback_target": "08ea216",
+  "source_commit": "12aacd1"
+}
