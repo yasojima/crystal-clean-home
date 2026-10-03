@@ -270,14 +270,15 @@ def concerns(page, primary, category_copy, copy):
     n = template('concerns'); n['id'] = 'service-introduction'
     detail = '/' in page['route']
     content = copy['products'][primary]
-    issues = category_copy['concerns']
+    detail_copy = copy['details'][page['route']] if detail else None
+    issues = detail_copy['concerns'] if detail else category_copy['concerns']
     n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか？'
     for node, (first, second) in zip(n.select('.c-issue-card__text'), issues):
         node.clear()
         node.append(first)
         node.append(tag('br'))
         node.append(second)
-    heading = [content['short'] + 'を丁寧にお手入れ','気になる箇所を清潔に'] if detail else category_copy['heading']
+    heading = detail_copy.get('heading', [content['short'] + 'を丁寧にお手入れ','気になる箇所を清潔に']) if detail else category_copy['heading']
     lines(n.select_one('.p-content-box__heading'), [*heading[:-1], heading[-1].rstrip('！!') + '！'])
     subjects = [primary] if detail else category_copy['subjects']
     buttons = n.select_one('.c-tab__buttons'); panels = n.select_one('.c-tab__panels')
