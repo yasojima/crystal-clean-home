@@ -98,16 +98,17 @@
   .c-footer--aircon {
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     min-height: 100vh;
-    min-height: 100svh;
-    min-height: 100dvh;
+    min-height: 100lvh;
   }
 
   .c-footer--aircon > .u-sp-only {
     display: flex;
-    flex: 1;
+    flex: 0 0 auto;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 24px;
   }
 
   .c-footer--aircon .footer-tel-sp {
