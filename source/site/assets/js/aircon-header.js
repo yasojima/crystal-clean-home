@@ -253,7 +253,12 @@
       return;
     }
     const headerHeight = header.getBoundingClientRect().height;
-    const overlap = Math.min(headerHeight + 1, Math.max(0, headerHeight - mobileFooterPhone.getBoundingClientRect().top));
+    const phoneTop = mobileFooterPhone.getBoundingClientRect().top;
+    // A compact closed footer can fit before its phone reaches the header.
+    // Finish hiding the header without moving or resizing the page.
+    const footerFullyVisible = phoneTop >= 0 && mobileFooter.getBoundingClientRect().bottom <= window.innerHeight + 1;
+    const overlap = footerFullyVisible ? headerHeight + 1 :
+      Math.min(headerHeight + 1, Math.max(0, headerHeight - phoneTop));
     header.style.setProperty('--footer-push', `${overlap}px`);
     header.classList.toggle('is-footer-pushed', overlap > 0);
   }
