@@ -1,0 +1,1285 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "results": [
+    {
+      "engine": "Chrome",
+      "width": 320,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 61,
+            "y": 6086.375,
+            "width": 198,
+            "height": 26
+          }
+        ],
+        "heading": {
+          "x": 30.125,
+          "width": 259.75,
+          "height": 64,
+          "font": "18px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "10.88px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 375,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 77.5,
+            "y": 5899.125,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 44.75,
+          "width": 285.5,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "12.75px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 97,
+            "y": 5810.4375,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 63,
+          "width": 288,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0,
+        "opened": [
+          {
+            "row": 0,
+            "side": 0,
+            "panelId": "footer-accordion_01",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              305.765625,
+              305.765625
+            ],
+            "links": [
+              {
+                "label": "壁掛けタイプエアコン",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "天井埋め込みタイプエアコン",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 0,
+            "side": 1,
+            "panelId": "footer-accordion_02",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              305.765625,
+              305.765625
+            ],
+            "links": [
+              {
+                "label": "お引越し前・後まるごとクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "在宅まるごとクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 1,
+            "side": 0,
+            "panelId": "footer-accordion_04",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              383.734375,
+              383.734375
+            ],
+            "links": [
+              {
+                "label": "風呂・浴室クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室用アダプター取り付け",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室乾燥機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "トイレクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "洗面台クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 1,
+            "side": 1,
+            "panelId": "footer-accordion_05",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              383.734375,
+              383.734375
+            ],
+            "links": [
+              {
+                "label": "縦型洗濯機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ドラム式洗濯機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 2,
+            "side": 0,
+            "panelId": "footer-accordion_06",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              461.703125,
+              461.703125
+            ],
+            "links": [
+              {
+                "label": "レンジフード・換気扇クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "キッチンクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "冷蔵庫クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "食器洗い乾燥機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 2,
+            "side": 1,
+            "panelId": "footer-accordion_07",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              461.703125,
+              461.703125
+            ],
+            "links": [
+              {
+                "label": "フローリングクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "マットレス除菌クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ソファ・椅子クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "カーペットクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "壁紙染色",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "壁紙クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ガラス・サッシクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "玄関床クリーニング＆コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "換気ダクトクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "空気清浄機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 3,
+            "side": 0,
+            "panelId": "footer-accordion_coating",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              539.671875,
+              539.671875
+            ],
+            "links": [
+              {
+                "label": "防汚コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "キッチンコーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "トイレコーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "洗面台コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "フロアコーティング（1帖あたり）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "UVコーティング（1帖あたり）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "フローリング補修（リペア）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 3,
+            "side": 1,
+            "panelId": "footer-accordion_08",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              539.671875,
+              539.671875
+            ],
+            "links": [
+              {
+                "label": "外壁手洗い洗浄",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "光触媒抗菌コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ベランダ・外回り高圧洗浄",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "お墓のお掃除",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 4,
+            "side": 0,
+            "panelId": "footer-accordion_09",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              611.640625,
+              611.640625
+            ],
+            "links": [
+              {
+                "label": "ハウスクリーニングについて",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "はじめての方へ",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 4,
+            "side": 1,
+            "panelId": "footer-accordion_12",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              611.640625,
+              611.640625
+            ],
+            "links": [
+              {
+                "label": "店舗・オフィスクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "法人のお客様へ",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 414,
+      "height": 832,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 97,
+            "y": 5922.4375,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 63,
+          "width": 288,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 430,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 105,
+            "y": 5831.921875,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 71,
+          "width": 288,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 768,
+      "height": 800,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 244.5,
+            "y": 6353.28125,
+            "width": 264,
+            "height": 35
+          }
+        ],
+        "heading": {
+          "x": 202.5,
+          "width": 348,
+          "height": 52,
+          "font": "24px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "24px"
+        },
+        "overflow": -15,
+        "extraHeadings": 0,
+        "pcUnchanged": true
+      },
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "width": 1440,
+      "height": 800,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 580.5,
+            "y": 5538.546875,
+            "width": 264,
+            "height": 35
+          }
+        ],
+        "heading": {
+          "x": 538.5,
+          "width": 348,
+          "height": 52,
+          "font": "24px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "24px"
+        },
+        "overflow": -15,
+        "extraHeadings": 0,
+        "pcUnchanged": true
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 320,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 61,
+            "y": 5922.375,
+            "width": 198,
+            "height": 26
+          }
+        ],
+        "heading": {
+          "x": 30.140625,
+          "width": 259.71875,
+          "height": 64,
+          "font": "18px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "10.88px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 375,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 77.5,
+            "y": 5901.53125,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 44.765625,
+          "width": 285.46875,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "12.75px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 97,
+            "y": 5812.84375,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 63.015625,
+          "width": 287.96875,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0,
+        "opened": [
+          {
+            "row": 0,
+            "side": 0,
+            "panelId": "footer-accordion_01",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              305.5,
+              305.5
+            ],
+            "links": [
+              {
+                "label": "壁掛けタイプエアコン",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "天井埋め込みタイプエアコン",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 0,
+            "side": 1,
+            "panelId": "footer-accordion_02",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              305.5,
+              305.5
+            ],
+            "links": [
+              {
+                "label": "お引越し前・後まるごとクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "在宅まるごとクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 1,
+            "side": 0,
+            "panelId": "footer-accordion_04",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              383.46875,
+              383.46875
+            ],
+            "links": [
+              {
+                "label": "風呂・浴室クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室用アダプター取り付け",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室乾燥機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "トイレクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "洗面台クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 1,
+            "side": 1,
+            "panelId": "footer-accordion_05",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              383.46875,
+              383.46875
+            ],
+            "links": [
+              {
+                "label": "縦型洗濯機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ドラム式洗濯機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ドラム式乾燥機能分解クリーニング（一部機種限定）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 2,
+            "side": 0,
+            "panelId": "footer-accordion_06",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              461.4375,
+              461.4375
+            ],
+            "links": [
+              {
+                "label": "レンジフード・換気扇クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "キッチンクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "冷蔵庫クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "食器洗い乾燥機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 2,
+            "side": 1,
+            "panelId": "footer-accordion_07",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              461.4375,
+              461.4375
+            ],
+            "links": [
+              {
+                "label": "フローリングクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "マットレス除菌クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ソファ・椅子クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "カーペットクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "壁紙染色",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "壁紙クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ガラス・サッシクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "玄関床クリーニング＆コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "換気ダクトクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "空気清浄機クリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 3,
+            "side": 0,
+            "panelId": "footer-accordion_coating",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              539.40625,
+              539.40625
+            ],
+            "links": [
+              {
+                "label": "防汚コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "浴室コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "キッチンコーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "トイレコーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "洗面台コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "フロアコーティング（1帖あたり）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "UVコーティング（1帖あたり）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "フローリング補修（リペア）",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 3,
+            "side": 1,
+            "panelId": "footer-accordion_08",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              539.40625,
+              539.40625
+            ],
+            "links": [
+              {
+                "label": "外壁手洗い洗浄",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "光触媒抗菌コーティング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "ベランダ・外回り高圧洗浄",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "お墓のお掃除",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 4,
+            "side": 0,
+            "panelId": "footer-accordion_09",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              611.375,
+              611.375
+            ],
+            "links": [
+              {
+                "label": "ハウスクリーニングについて",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "はじめての方へ",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          },
+          {
+            "row": 4,
+            "side": 1,
+            "panelId": "footer-accordion_12",
+            "panelWidth": 414,
+            "firstElement": "UL",
+            "visible": "false",
+            "headingYs": [
+              611.375,
+              611.375
+            ],
+            "links": [
+              {
+                "label": "店舗・オフィスクリーニング",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              },
+              {
+                "label": "法人のお客様へ",
+                "width": 0,
+                "scroll": 0,
+                "height": 21,
+                "ellipsis": "clip"
+              }
+            ]
+          }
+        ]
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 414,
+      "height": 832,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 97,
+            "y": 5924.84375,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 63.015625,
+          "width": 287.96875,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 430,
+      "height": 688,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 105,
+            "y": 5834.328125,
+            "width": 220,
+            "height": 29
+          }
+        ],
+        "heading": {
+          "x": 71.015625,
+          "width": 287.96875,
+          "height": 64,
+          "font": "20px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "14px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 768,
+      "height": 800,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 312,
+            "y": 6384.1015625,
+            "width": 144,
+            "height": 35
+          },
+          {
+            "x": 324,
+            "y": 6412.8984375,
+            "width": 120,
+            "height": 35
+          }
+        ],
+        "heading": {
+          "x": 212.015625,
+          "width": 343.96875,
+          "height": 57.59375,
+          "font": "24px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "24px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0,
+        "pcUnchanged": true
+      },
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "width": 1440,
+      "height": 800,
+      "actual": {
+        "title": "人気の組み合わせプラン",
+        "lines": [
+          {
+            "x": 648,
+            "y": 5529.0234375,
+            "width": 144,
+            "height": 35
+          },
+          {
+            "x": 660,
+            "y": 5557.8203125,
+            "width": 120,
+            "height": 35
+          }
+        ],
+        "heading": {
+          "x": 548.015625,
+          "width": 343.96875,
+          "height": 57.59375,
+          "font": "24px",
+          "color": "rgb(6, 64, 140)",
+          "gap": "24px"
+        },
+        "overflow": 0,
+        "extraHeadings": 0,
+        "pcUnchanged": true
+      },
+      "errors": []
+    }
+  ]
+}

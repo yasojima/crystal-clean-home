@@ -570,8 +570,8 @@ def refine_aircon_mobile_footer(output):
             panel['aria-hidden'] = 'true'
             panel['role'] = 'region'
             panel['aria-labelledby'] = trigger['id']
-            if not panel.select_one('.aircon-footer-menu__detail-heading'):
-                panel.insert(0, tag('p', 'aircon-footer-menu__detail-heading', label))
+            for extra_heading in panel.select('.aircon-footer-menu__detail-heading'):
+                extra_heading.decompose()
             pairs.append((heading.extract(), panel.extract()))
         grouped = tag('div', 'aircon-footer-menu')
         for start in range(0, len(pairs), 2):
@@ -815,7 +815,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100316">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100317">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
