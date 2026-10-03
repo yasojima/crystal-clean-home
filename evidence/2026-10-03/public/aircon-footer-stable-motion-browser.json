@@ -1,0 +1,56 @@
+{
+  "base": "https://yasojima.github.io",
+  "start": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1800,
+    "transition": "0.45s, 0.4s"
+  },
+  "held": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "shortlyAfter": {
+    "hidden": true,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "idle": {
+    "hidden": false,
+    "y": 0,
+    "bottom": 96,
+    "scrollY": 1925,
+    "transition": "0.45s, 0.4s"
+  },
+  "upward": {
+    "hidden": true,
+    "y": -60.9906005859375,
+    "bottom": 35.0093994140625,
+    "scrollY": 1745,
+    "transition": "0.45s, 0.4s"
+  },
+  "bottom": {
+    "hidden": false,
+    "y": -97,
+    "bottom": -1,
+    "scrollY": 12938,
+    "transition": "0.45s, 0.4s"
+  },
+  "pc": {
+    "y": 0,
+    "hidden": false
+  },
+  "errors": [],
+  "passed": true,
+  "source_commit": "2732f60",
+  "pages_commit": "471af92",
+  "pages_run": 37082422495,
+  "recorded_at": "2026-10-03T00:37:37.537191+00:00",
+  "actual_iphone_toolbar_and_rubber_band": "not_simulated"
+}

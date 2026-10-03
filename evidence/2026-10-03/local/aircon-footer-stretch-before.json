@@ -1,0 +1,122 @@
+[
+  {
+    "height": 688,
+    "footer": {
+      "x": 0,
+      "y": 0,
+      "width": 414,
+      "height": 688,
+      "top": 0,
+      "right": 414,
+      "bottom": 688,
+      "left": 0
+    },
+    "sp": {
+      "x": 0,
+      "y": 0,
+      "width": 414,
+      "height": 640,
+      "top": 0,
+      "right": 414,
+      "bottom": 640,
+      "left": 0
+    },
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 183.15625,
+        "top": 0,
+        "right": 414,
+        "bottom": 183.15625,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 244.578125,
+        "width": 414,
+        "height": 270,
+        "top": 244.578125,
+        "right": 414,
+        "bottom": 514.578125,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 576,
+        "width": 414,
+        "height": 64,
+        "top": 576,
+        "right": 414,
+        "bottom": 640,
+        "left": 0
+      }
+    ],
+    "gaps": [
+      61.421875,
+      61.421875
+    ],
+    "justify": "space-between"
+  },
+  {
+    "height": 832,
+    "footer": {
+      "x": 0,
+      "y": 0,
+      "width": 414,
+      "height": 832,
+      "top": 0,
+      "right": 414,
+      "bottom": 832,
+      "left": 0
+    },
+    "sp": {
+      "x": 0,
+      "y": 0,
+      "width": 414,
+      "height": 784,
+      "top": 0,
+      "right": 414,
+      "bottom": 784,
+      "left": 0
+    },
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 414,
+        "height": 183.15625,
+        "top": 0,
+        "right": 414,
+        "bottom": 183.15625,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 316.578125,
+        "width": 414,
+        "height": 270,
+        "top": 316.578125,
+        "right": 414,
+        "bottom": 586.578125,
+        "left": 0
+      },
+      {
+        "x": 0,
+        "y": 720,
+        "width": 414,
+        "height": 64,
+        "top": 720,
+        "right": 414,
+        "bottom": 784,
+        "left": 0
+      }
+    ],
+    "gaps": [
+      133.421875,
+      133.421875
+    ],
+    "justify": "space-between"
+  }
+]

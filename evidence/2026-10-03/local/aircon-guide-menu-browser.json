@@ -1,0 +1,978 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "checkedAt": "2026-10-03T00:29:17.030Z",
+  "checks": [
+    {
+      "engine": "chrome",
+      "width": 320,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "top": 0,
+          "right": 320,
+          "bottom": 148,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 2,
+          "width": 145,
+          "height": 68,
+          "top": 2,
+          "right": 157,
+          "bottom": 70,
+          "left": 12
+        },
+        "button": {
+          "x": 256,
+          "y": 4,
+          "width": 64,
+          "height": 64,
+          "top": 4,
+          "right": 320,
+          "bottom": 68,
+          "left": 256
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "top": 0,
+          "right": 320,
+          "bottom": 148,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 2,
+          "width": 145,
+          "height": 68,
+          "top": 2,
+          "right": 157,
+          "bottom": 70,
+          "left": 12
+        },
+        "button": {
+          "x": 256,
+          "y": 4,
+          "width": 64,
+          "height": 64,
+          "top": 4,
+          "right": 320,
+          "bottom": 68,
+          "left": 256
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 414,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "top": 0,
+          "right": 414,
+          "bottom": 96,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 14,
+          "width": 145,
+          "height": 68,
+          "top": 14,
+          "right": 157,
+          "bottom": 82,
+          "left": 12
+        },
+        "button": {
+          "x": 350,
+          "y": 16,
+          "width": 64,
+          "height": 64,
+          "top": 16,
+          "right": 414,
+          "bottom": 80,
+          "left": 350
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "top": 0,
+          "right": 414,
+          "bottom": 96,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 14,
+          "width": 145,
+          "height": 68,
+          "top": 14,
+          "right": 157,
+          "bottom": 82,
+          "left": 12
+        },
+        "button": {
+          "x": 350,
+          "y": 16,
+          "width": 64,
+          "height": 64,
+          "top": 16,
+          "right": 414,
+          "bottom": 80,
+          "left": 350
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 768,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 72,
+          "top": 0,
+          "right": 753,
+          "bottom": 72,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "top": 4,
+          "right": 184,
+          "bottom": 68,
+          "left": 24
+        },
+        "button": {
+          "x": 689,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "top": 8,
+          "right": 745,
+          "bottom": 64,
+          "left": 689
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 753,
+          "height": 72,
+          "top": 0,
+          "right": 753,
+          "bottom": 72,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "top": 4,
+          "right": 184,
+          "bottom": 68,
+          "left": 24
+        },
+        "button": {
+          "x": 689,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "top": 8,
+          "right": 745,
+          "bottom": 64,
+          "left": 689
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "chrome",
+      "width": 1440,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108,
+          "top": 0,
+          "right": 1425,
+          "bottom": 108,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "button": {
+          "x": 1361,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "top": 26,
+          "right": 1417,
+          "bottom": 82,
+          "left": 1361
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108,
+          "top": 0,
+          "right": 1425,
+          "bottom": 108,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "button": {
+          "x": 1361,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "top": 26,
+          "right": 1417,
+          "bottom": 82,
+          "left": 1361
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 320,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "top": 0,
+          "right": 320,
+          "bottom": 148,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 2,
+          "width": 145,
+          "height": 68,
+          "top": 2,
+          "right": 157,
+          "bottom": 70,
+          "left": 12
+        },
+        "button": {
+          "x": 256,
+          "y": 4,
+          "width": 64,
+          "height": 64,
+          "top": 4,
+          "right": 320,
+          "bottom": 68,
+          "left": 256
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148,
+          "top": 0,
+          "right": 320,
+          "bottom": 148,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 2,
+          "width": 145,
+          "height": 68,
+          "top": 2,
+          "right": 157,
+          "bottom": 70,
+          "left": 12
+        },
+        "button": {
+          "x": 256,
+          "y": 4,
+          "width": 64,
+          "height": 64,
+          "top": 4,
+          "right": 320,
+          "bottom": 68,
+          "left": 256
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 414,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "top": 0,
+          "right": 414,
+          "bottom": 96,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 14,
+          "width": 145,
+          "height": 68,
+          "top": 14,
+          "right": 157,
+          "bottom": 82,
+          "left": 12
+        },
+        "button": {
+          "x": 350,
+          "y": 16,
+          "width": 64,
+          "height": 64,
+          "top": 16,
+          "right": 414,
+          "bottom": 80,
+          "left": 350
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 414,
+          "height": 96,
+          "top": 0,
+          "right": 414,
+          "bottom": 96,
+          "left": 0
+        },
+        "logo": {
+          "x": 12,
+          "y": 14,
+          "width": 145,
+          "height": 68,
+          "top": 14,
+          "right": 157,
+          "bottom": 82,
+          "left": 12
+        },
+        "button": {
+          "x": 350,
+          "y": 16,
+          "width": 64,
+          "height": 64,
+          "top": 16,
+          "right": 414,
+          "bottom": 80,
+          "left": 350
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 768,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "top": 0,
+          "right": 768,
+          "bottom": 72,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "top": 4,
+          "right": 184,
+          "bottom": 68,
+          "left": 24
+        },
+        "button": {
+          "x": 704,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "top": 8,
+          "right": 760,
+          "bottom": 64,
+          "left": 704
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 768,
+          "height": 72,
+          "top": 0,
+          "right": 768,
+          "bottom": 72,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 4,
+          "width": 160,
+          "height": 64,
+          "top": 4,
+          "right": 184,
+          "bottom": 68,
+          "left": 24
+        },
+        "button": {
+          "x": 704,
+          "y": 8,
+          "width": 56,
+          "height": 56,
+          "top": 8,
+          "right": 760,
+          "bottom": 64,
+          "left": 704
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    },
+    {
+      "engine": "webkit",
+      "width": 1440,
+      "closed": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 108,
+          "top": 0,
+          "right": 1440,
+          "bottom": 108,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "button": {
+          "x": 1376,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "top": 26,
+          "right": 1432,
+          "bottom": 82,
+          "left": 1376
+        },
+        "headerBg": "rgb(255, 255, 255)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "opened": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1440,
+          "height": 108,
+          "top": 0,
+          "right": 1440,
+          "bottom": 108,
+          "left": 0
+        },
+        "logo": {
+          "x": 24,
+          "y": 13,
+          "width": 160,
+          "height": 82,
+          "top": 13,
+          "right": 184,
+          "bottom": 95,
+          "left": 24
+        },
+        "button": {
+          "x": 1376,
+          "y": 26,
+          "width": 56,
+          "height": 56,
+          "top": 26,
+          "right": 1432,
+          "bottom": 82,
+          "left": 1376
+        },
+        "headerBg": "rgb(245, 245, 245)",
+        "modalBg": "rgb(245, 245, 245)",
+        "surroundBg": "rgb(245, 245, 245)",
+        "cardBg": "rgb(255, 255, 255)",
+        "overflow": false
+      },
+      "names": {
+        "header": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          },
+          {
+            "name": "お問い合わせ",
+            "href": "#",
+            "demo": true
+          }
+        ],
+        "pc": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ],
+        "mobile": [
+          {
+            "name": "ハウスクリーニングについて",
+            "href": "/about/",
+            "demo": false
+          },
+          {
+            "name": "はじめての方へ",
+            "href": "/beginner/",
+            "demo": false
+          }
+        ]
+      }
+    }
+  ],
+  "errors": [],
+  "passed": true,
+  "source_commit": "2732f60",
+  "actual_iphone_toolbar_and_rubber_band": "not_simulated"
+}
