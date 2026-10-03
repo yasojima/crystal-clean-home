@@ -238,6 +238,14 @@ def offer(key, catalogue):
         n = tag('div', 'c-plan-card js-product-card', **{'data-product-card': 'plan', 'data-service-offer': key})
         title = source.select_one('.c-set-plan-card__heading').extract()
         title.name = 'h3'; title['class'] = ['c-plan-card__heading']
+        for br in title.select('br'):
+            br.attrs.clear()
+        if key == 'pack-offer-5':
+            title.clear()
+            for index, line in enumerate(('浴室クリーニング・', '浴室用アダプター', '取り付けセット')):
+                if index:
+                    title.append(tag('br'))
+                title.append(line)
         n.append(title)
         body = tag('div', 'c-plan-card__body')
         body.append(source.select_one('.c-set-plan-card__images').extract())
