@@ -503,10 +503,12 @@ def render(route, page, catalogue, copy):
     p = copy['products'][primary]
     main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v2'})
     hero = template('hero')
-    hero_words = cat['hero'] if '/' not in route else [p['short'] + 'を丁寧に','素材と状態に合わせたお手入れ']
-    lines(hero.select_one('p'),hero_words)
+    banner = copy['banners'][route]
+    lines(hero.select_one('p'), banner['lines'])
     for src in hero.select('source'): src.decompose()
-    image(hero.select_one('img'),p['scene'],p['focus']+'の清掃イメージ',True)
+    image(hero.select_one('img'), banner['scene'], banner['alt'], True)
+    if 'position' in banner:
+        hero.select_one('img')['style'] = '--banner-image-position: ' + banner['position'] + ';'
     hero['class'].append('c-house-cleaning-mv--check')
     hero.insert(0, tag('h1', 'c-house-cleaning-mv__sr-heading', page['title']))
     check = tag('span', 'c-house-cleaning-mv__check')
@@ -575,8 +577,8 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100302'),
-                          ('aircon-layout', '2026100325'), ('service-format', '2026100325')]:
+    for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100401'),
+                          ('aircon-layout', '2026100325'), ('service-format', '2026100401')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)

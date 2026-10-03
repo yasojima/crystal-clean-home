@@ -14,9 +14,11 @@
 }
 
 .c-service-page .c-first-view {
+  --first-view-height: calc(min(100svh, 800px) - var(--aircon-header-height) - 24px);
+  container: first-view / inline-size;
   display: grid;
   grid-template-rows: minmax(0, 1fr) auto;
-  height: calc(min(100svh, 800px) - var(--aircon-header-height) - 24px);
+  height: var(--first-view-height);
   scroll-margin-top: 108px;
 }
 
@@ -38,10 +40,12 @@
 }
 
 .c-house-cleaning-mv--check {
+  /* The banner keeps the reference selector's reserve regardless of the actual menu's length. */
+  --banner-selector-height: calc(102px + 30px + 40px + 32px + 100px * .7692307692 + 48px + 24px);
   display: flex;
   align-items: center;
   min-height: 0;
-  height: 100%;
+  height: calc(var(--first-view-height) - var(--banner-selector-height));
   padding-block: 0 var(--hero-projection);
 }
 
@@ -60,7 +64,7 @@
   height: calc(100% - var(--hero-projection) - 32px);
   top: calc((100% - var(--hero-projection)) / 2);
   object-fit: cover;
-  object-position: right 40%;
+  object-position: var(--banner-image-position, right 40%);
   transform: translateY(-50%);
 }
 
@@ -105,6 +109,11 @@
 }
 
 @media (max-width: 767.98px) {
+  .c-house-cleaning-mv--check {
+    --banner-selector-heading-height: 25.5px;
+    --banner-selector-height: calc(86px + var(--banner-selector-heading-height) + 40px + 28px + 72px * .7692307692 + 34px + clamp(11px, 3.1vw, 13px) * 1.5);
+  }
+
   .c-lineup-heading--round {
     padding-block: 56px calc(56px + var(--hero-projection));
   }
@@ -119,5 +128,11 @@
 
   .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
     width: 100%;
+  }
+}
+
+@container first-view (max-width: 385px) {
+  .c-house-cleaning-mv--check {
+    --banner-selector-heading-height: 51px;
   }
 }

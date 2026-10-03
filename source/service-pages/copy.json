@@ -59,10 +59,6 @@
   },
   "categories": {
     "aircon": {
-      "hero": [
-        "内部にたまる汚れを洗い流し",
-        "お部屋の空気をすっきりと"
-      ],
       "subjects": [
         "1",
         "2",
@@ -98,10 +94,6 @@
       ]
     },
     "pack": {
-      "hero": [
-        "気になる場所をまとめてお掃除",
-        "暮らしに合わせて住まいを清潔に"
-      ],
       "subjects": [
         "102",
         "105"
@@ -136,10 +128,6 @@
       ]
     },
     "water": {
-      "hero": [
-        "水アカや皮脂汚れを丁寧に落とし",
-        "毎日の水まわりを気持ちよく"
-      ],
       "subjects": [
         "4",
         "7",
@@ -175,10 +163,6 @@
       ]
     },
     "washer": {
-      "hero": [
-        "洗濯槽や乾燥経路の汚れをお掃除",
-        "毎日のお洗濯をすっきりと"
-      ],
       "subjects": [
         "8",
         "9",
@@ -214,10 +198,6 @@
       ]
     },
     "kitchen": {
-      "hero": [
-        "油汚れや水アカをすっきりと",
-        "お料理する場所を気持ちよく"
-      ],
       "subjects": [
         "666",
         "668",
@@ -253,10 +233,6 @@
       ]
     },
     "room": {
-      "hero": [
-        "床や窓の汚れを丁寧にお掃除",
-        "くつろぐお部屋を心地よく"
-      ],
       "subjects": [
         "689",
         "691",
@@ -292,10 +268,6 @@
       ]
     },
     "coating": {
-      "hero": [
-        "水まわりや床の表面を整え",
-        "日々のお手入れをしやすく"
-      ],
       "subjects": [
         "4_697",
         "668_701",
@@ -331,10 +303,6 @@
       ]
     },
     "others": {
-      "hero": [
-        "手の届きにくい場所も丁寧に",
-        "住まいの外まわりまで清潔に"
-      ],
       "subjects": [
         "others-estimate-0",
         "702",
@@ -767,6 +735,419 @@
       "scene": "outerwall",
       "focus": "外壁の表面や継ぎ目",
       "description": "外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。"
+    }
+  },
+  "banners": {
+    "aircon": {
+      "lines": [
+        "内部にたまる汚れを洗い流し",
+        "お部屋の空気をすっきりと"
+      ],
+      "scene": "aircon-wall",
+      "alt": "熱交換器や送風ファンの清掃イメージ"
+    },
+    "pack": {
+      "lines": [
+        "住まいをまとめてお掃除",
+        "暮らしに合う清潔なお部屋へ"
+      ],
+      "scene": "flooring",
+      "alt": "お得なパックサービスの作業イメージ",
+      "position": "right 70%"
+    },
+    "water": {
+      "lines": [
+        "水アカや皮脂汚れをお掃除",
+        "毎日の水まわりを清潔に"
+      ],
+      "scene": "bathroom",
+      "alt": "水まわりのお掃除の作業イメージ",
+      "position": "right 68%"
+    },
+    "washer": {
+      "lines": [
+        "洗濯槽の奥まで丁寧に洗浄",
+        "毎日のお洗濯をすっきりと"
+      ],
+      "scene": "washer-top",
+      "alt": "洗濯機のお掃除の作業イメージ",
+      "position": "right 62%"
+    },
+    "kitchen": {
+      "lines": [
+        "油汚れや水アカを洗い流し",
+        "お料理する場所を清潔に"
+      ],
+      "scene": "kitchen-fan",
+      "alt": "キッチンのお掃除の作業イメージ",
+      "position": "right 50%"
+    },
+    "room": {
+      "lines": [
+        "床や窓の汚れを丁寧にお掃除",
+        "くつろぐお部屋を心地よく"
+      ],
+      "scene": "flooring",
+      "alt": "お部屋のお掃除の作業イメージ",
+      "position": "right 70%"
+    },
+    "coating": {
+      "lines": [
+        "水まわりや床の表面を整え",
+        "日々のお手入れをしやすく"
+      ],
+      "scene": "bathroom",
+      "alt": "コーティングの作業イメージ",
+      "position": "right 68%"
+    },
+    "others": {
+      "lines": [
+        "手の届きにくい場所も丁寧に",
+        "住まいの外まわりまで清潔に"
+      ],
+      "scene": "outerwall",
+      "alt": "その他のお掃除の作業イメージ",
+      "position": "right 88%"
+    },
+    "aircon/ceil": {
+      "lines": [
+        "天井のエアコンを丁寧に洗浄",
+        "お部屋の空気をすっきりと"
+      ],
+      "scene": "aircon-ceiling",
+      "alt": "天井埋め込みタイプエアコンの作業イメージ"
+    },
+    "aircon/wall": {
+      "lines": [
+        "壁掛けエアコンを丁寧に洗浄",
+        "毎日使う空気をすっきりと"
+      ],
+      "scene": "aircon-wall",
+      "alt": "壁掛けタイプエアコンの作業イメージ"
+    },
+    "coating/bathroom": {
+      "lines": [
+        "浴室の表面を丁寧に整え",
+        "日々のお手入れをしやすく"
+      ],
+      "scene": "bathroom",
+      "alt": "浴室コーティングの作業イメージ",
+      "position": "right 68%"
+    },
+    "coating/floor": {
+      "lines": [
+        "床の表面を丁寧に整え",
+        "暮らしに合うコーティング"
+      ],
+      "scene": "wood-coating",
+      "alt": "フロアコーティング（1帖あたり）の作業イメージ",
+      "position": "right 60%"
+    },
+    "coating/kitchen": {
+      "lines": [
+        "キッチンの表面を丁寧に整え",
+        "油汚れのお手入れをしやすく"
+      ],
+      "scene": "finish-check",
+      "alt": "キッチンコーティングの作業イメージ",
+      "position": "right 55%"
+    },
+    "coating/lavatory": {
+      "lines": [
+        "洗面台の表面を丁寧に整え",
+        "毎日の水まわりを心地よく"
+      ],
+      "scene": "lavatory",
+      "alt": "洗面台コーティングの作業イメージ",
+      "position": "right 63%"
+    },
+    "coating/repair": {
+      "lines": [
+        "床の傷やへこみを丁寧に補修",
+        "素材に合わせて目立ちにくく"
+      ],
+      "scene": "wood-repair",
+      "alt": "フローリング補修（リペア）の作業イメージ",
+      "position": "right 48%"
+    },
+    "coating/toilet": {
+      "lines": [
+        "トイレの表面を丁寧に整え",
+        "日々のお手入れをしやすく"
+      ],
+      "scene": "toilet",
+      "alt": "トイレコーティングの作業イメージ",
+      "position": "right 55%"
+    },
+    "coating/uv-coating": {
+      "lines": [
+        "床の表面を丁寧に整え",
+        "素材に合うＵＶコーティング"
+      ],
+      "scene": "wood-coating",
+      "alt": "UVコーティング（1帖あたり）の作業イメージ",
+      "position": "right 60%"
+    },
+    "kitchen/dishwasher": {
+      "lines": [
+        "食洗機の庫内を丁寧にお掃除",
+        "毎日の食器洗いを気持ちよく"
+      ],
+      "scene": "dishwasher",
+      "alt": "食器洗い乾燥機クリーニングの作業イメージ",
+      "position": "right 55%"
+    },
+    "kitchen/fan": {
+      "lines": [
+        "換気扇にたまる油汚れを洗浄",
+        "お料理する場所をすっきりと"
+      ],
+      "scene": "kitchen-fan",
+      "alt": "レンジフード・換気扇クリーニングの作業イメージ",
+      "position": "right 50%"
+    },
+    "kitchen/kitchen": {
+      "lines": [
+        "シンクやコンロを丁寧に清掃",
+        "毎日のキッチンを清潔に"
+      ],
+      "scene": "kitchen-sink",
+      "alt": "キッチンクリーニングの作業イメージ",
+      "position": "right 57%"
+    },
+    "kitchen/rei": {
+      "lines": [
+        "冷蔵庫の棚や庫内をお掃除",
+        "食品をしまう場所を清潔に"
+      ],
+      "scene": "refrigerator",
+      "alt": "冷蔵庫クリーニングの作業イメージ",
+      "position": "right 55%"
+    },
+    "others/exterior": {
+      "lines": [
+        "外まわりの汚れを丁寧に洗浄",
+        "ベランダや玄関先を清潔に"
+      ],
+      "scene": "balcony",
+      "alt": "ベランダ・外回り高圧洗浄の作業イメージ",
+      "position": "right 67%"
+    },
+    "others/grave": {
+      "lines": [
+        "墓石の汚れを丁寧に落とし",
+        "大切な場所を清潔に整える"
+      ],
+      "scene": "grave",
+      "alt": "お墓のお掃除の作業イメージ",
+      "position": "right 70%"
+    },
+    "others/outerwall": {
+      "lines": [
+        "外壁の汚れを丁寧に手洗い",
+        "素材に合わせたお手入れ"
+      ],
+      "scene": "outerwall",
+      "alt": "外壁手洗い洗浄の作業イメージ",
+      "position": "right 88%"
+    },
+    "others/photocatalyst": {
+      "lines": [
+        "室内の表面を丁寧に整え",
+        "光触媒の抗菌コーティング"
+      ],
+      "scene": "wall",
+      "alt": "光触媒抗菌コーティング 10帖まで一律の作業イメージ",
+      "position": "right 82%"
+    },
+    "pack/entirety": {
+      "lines": [
+        "在宅の住まいをまとめて清掃",
+        "暮らしに合わせたお手入れ"
+      ],
+      "scene": "kitchen-sink",
+      "alt": "在宅まるごとクリーニングの作業イメージ",
+      "position": "right 57%"
+    },
+    "pack/move": {
+      "lines": [
+        "お引越し前後の住まいを清掃",
+        "新しい暮らしを気持ちよく"
+      ],
+      "scene": "flooring",
+      "alt": "お引越し前・後 まるごとクリーニングの作業イメージ",
+      "position": "right 70%"
+    },
+    "room/air-cleaner": {
+      "lines": [
+        "空気清浄機の内部をお掃除",
+        "部品にたまる汚れを洗い流す"
+      ],
+      "scene": "air-purifier",
+      "alt": "空気清浄機クリーニングの作業イメージ",
+      "position": "right 43%"
+    },
+    "room/carpet": {
+      "lines": [
+        "カーペットの汚れを洗浄",
+        "毎日過ごす足もとを清潔に"
+      ],
+      "scene": "carpet",
+      "alt": "カーペットクリーニング（10帖以下一律）の作業イメージ",
+      "position": "right 42%"
+    },
+    "room/cloth": {
+      "lines": [
+        "壁紙の汚れを丁寧にお掃除",
+        "お部屋の壁をすっきりと"
+      ],
+      "scene": "wall",
+      "alt": "壁紙クリーニング（20㎡以下一律）の作業イメージ",
+      "position": "right 82%"
+    },
+    "room/duct": {
+      "lines": [
+        "換気ダクトの内部をお掃除",
+        "たまったホコリを丁寧に除去"
+      ],
+      "scene": "duct",
+      "alt": "換気ダクトクリーニングの作業イメージ",
+      "position": "right 40%"
+    },
+    "room/entrance": {
+      "lines": [
+        "玄関床の洗浄とコーティング",
+        "毎日迎える場所を清潔に"
+      ],
+      "scene": "entrance",
+      "alt": "玄関床クリーニング＆コーティングの作業イメージ",
+      "position": "right 55%"
+    },
+    "room/flooring": {
+      "lines": [
+        "床の汚れを落としてワックス",
+        "素材に合わせて丁寧に仕上げ"
+      ],
+      "scene": "flooring",
+      "alt": "フローリングクリーニング（10帖以下一律料金）の作業イメージ",
+      "position": "right 70%"
+    },
+    "room/glass": {
+      "lines": [
+        "窓ガラスやサッシをお掃除",
+        "外の光が入る窓をすっきりと"
+      ],
+      "scene": "window",
+      "alt": "ガラス・サッシクリーニングの作業イメージ",
+      "position": "right 67%"
+    },
+    "room/mattress": {
+      "lines": [
+        "マットレスの表面を洗浄",
+        "毎日眠る場所を清潔に"
+      ],
+      "scene": "mattress",
+      "alt": "マットレス除菌クリーニングの作業イメージ",
+      "position": "right 40%"
+    },
+    "room/sofa": {
+      "lines": [
+        "ソファや椅子の汚れを洗浄",
+        "くつろぐ場所を心地よく"
+      ],
+      "scene": "sofa",
+      "alt": "ソファ・椅子クリーニングの作業イメージ",
+      "position": "right 70%"
+    },
+    "room/wallpaper-dyeing": {
+      "lines": [
+        "壁紙の色を丁寧に整え",
+        "貼り替えずにお部屋を明るく"
+      ],
+      "scene": "wallpaper-dyeing",
+      "alt": "壁紙染色（20㎡以下一律料金）の作業イメージ",
+      "position": "right 85%"
+    },
+    "washer/front": {
+      "lines": [
+        "ドラム式洗濯機の内部を洗浄",
+        "毎日のお洗濯をすっきりと"
+      ],
+      "scene": "washer-front",
+      "alt": "ドラム式洗濯機クリーニングの作業イメージ",
+      "position": "right 42%"
+    },
+    "washer/side": {
+      "lines": [
+        "乾燥経路のホコリをお掃除",
+        "機種に合わせて内部を清掃"
+      ],
+      "scene": "washer-drying-duct",
+      "alt": "ドラム式乾燥機能分解クリーニング （一部機種限定）の作業イメージ",
+      "position": "right 45%"
+    },
+    "washer/top": {
+      "lines": [
+        "縦型洗濯機の内部を洗浄",
+        "洗濯槽の奥まで丁寧にお掃除"
+      ],
+      "scene": "washer-top",
+      "alt": "縦型洗濯機クリーニングの作業イメージ",
+      "position": "right 62%"
+    },
+    "water/bathroom": {
+      "lines": [
+        "浴室の水アカや汚れを清掃",
+        "毎日使うお風呂を気持ちよく"
+      ],
+      "scene": "bathroom",
+      "alt": "風呂・浴室クリーニングの作業イメージ",
+      "position": "right 68%"
+    },
+    "water/drier": {
+      "lines": [
+        "浴室乾燥機の内部をお掃除",
+        "部品にたまるホコリを清掃"
+      ],
+      "scene": "bath-dryer",
+      "alt": "浴室乾燥機クリーニングの作業イメージ",
+      "position": "right 40%"
+    },
+    "water/lavatory": {
+      "lines": [
+        "洗面台の水アカをお掃除",
+        "毎朝使う場所をすっきりと"
+      ],
+      "scene": "lavatory",
+      "alt": "洗面台クリーニングの作業イメージ",
+      "position": "right 63%"
+    },
+    "water/pipe": {
+      "lines": [
+        "追い焚き配管の内部を洗浄",
+        "お風呂の見えない汚れを清掃"
+      ],
+      "scene": "bath-pipe",
+      "alt": "浴室（風呂釜）の 追い焚き配管除菌クリーニングの作業イメージ",
+      "position": "right 40%"
+    },
+    "water/toilet": {
+      "lines": [
+        "便器や床の汚れを丁寧に清掃",
+        "毎日使うトイレを清潔に"
+      ],
+      "scene": "toilet",
+      "alt": "トイレクリーニングの作業イメージ",
+      "position": "right 55%"
+    },
+    "water/ulblo": {
+      "lines": [
+        "浴槽の循環アダプターを設置",
+        "取り付け後の動作まで確認"
+      ],
+      "scene": "bath-adapter",
+      "alt": "浴室用アダプター取り付けの作業イメージ",
+      "position": "right 45%"
     }
   }
 }
