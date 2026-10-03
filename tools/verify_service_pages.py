@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
 catalogue = json.loads((DATA / 'catalogue.json').read_text(encoding='utf-8'))
-voice_profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
+voice_profiles = json.loads((DATA / 'voices.json').read_text(encoding='utf-8'))['pages']
 errors = []
 voice_headings = {}
 voice_bodies = {}
@@ -39,18 +39,20 @@ for path in SITE.rglob('*.html'):
 
 for route,page in catalogue['pages'].items():
     doc = all_pages[f'/house-cleaning/{route}/']
-    main = doc.select_one('main[data-service-layout="shared-v1"]')
+    main = doc.select_one('main[data-service-layout="shared-v2"]')
     if not main:
         fail(route,'shared layout missing'); continue
-    ordered = (['.c-page-heading'] if route != 'aircon' else []) + [
+    ordered = [
         '.c-house-cleaning-mv','.p-page-anchors','.c-issue-list','.p-reasons',
         '#apply','.c-voice-card','.c-faq-accordion','.c-step-list']
     descendants = list(main.descendants)
     positions = [descendants.index(main.select_one(sel)) if main.select_one(sel) else -1 for sel in ordered]
     if -1 in positions or positions != sorted(positions): fail(route,'section order')
-    if route == 'aircon' and (doc.select_one('.c-breadcrumbs') or main.select_one('.c-page-heading')):
-        fail(route,'aircon breadcrumb or pre-hero heading remains')
-    if route not in voice_profiles or len(voice_profiles[route]) != 6 or any(not fact.strip() for fact in voice_profiles[route]):
+    if doc.select_one('.c-breadcrumbs') or main.select_one('.c-page-heading'):
+        fail(route,'breadcrumb or pre-hero heading remains')
+    if len(doc.select('#first-view')) != 1 or not main.select_one('.c-house-cleaning-mv--check h1'):
+        fail(route,'first view or semantic page heading')
+    if route not in voice_profiles or len(voice_profiles[route]) != 6:
         fail(route,'service voice profile')
     reason_items = main.select('.c-reasons__item')
     if len(reason_items) != 3 or not main.select_one('.c-reasons--navy') or any(
@@ -62,8 +64,8 @@ for route,page in catalogue['pages'].items():
     if len(ids) != len(set(ids)): fail(route,'duplicate IDs')
     if len(main.select('.c-faq-accordion__item')) != 5: fail(route,'FAQ count')
     voice_section = main.select_one('.c-voice-card').find_parent('section') if main.select_one('.c-voice-card') else None
-    expected_voice_heading = 'ご利用いただいたお客様の声' if route == 'aircon' else 'ご利用者様の声'
-    if not voice_section or voice_section.select_one('h2').get_text(strip=True) != expected_voice_heading:
+    expected_voice_heading = 'ご利用いただいたお客様の声'
+    if not voice_section or voice_section.select_one('.c-section-heading__subtitle').get_text(strip=True) != expected_voice_heading:
         fail(route,'voice heading')
     elif len(voice_section.select('.c-voice-card')) != 6 or voice_section.select_one('.mt20'):
         fail(route,'voice card count or subtitle')
@@ -80,18 +82,18 @@ for route,page in catalogue['pages'].items():
                 seen[value] = route
     preview = voice_section and 'c-voice-section--bubble-preview' in voice_section.get('class', [])
     preview_css = doc.select_one('link[href^="/assets/css/aircon-voice-bubbles.css?v="]')
-    if route == 'aircon':
-        if not preview or not preview_css or not voice_section.select_one('.c-voice-bubbles'):
-            fail(route,'aircon-only voice bubble preview missing')
-        else:
-            profiles = voice_section.select('.c-voice-card__profile')
-            ratings = [node.get('aria-label') for node in voice_section.select('.c-voice-card__stars')]
-            if len(profiles) != 6 or ratings != [f'5つ星中{value}つ星' for value in (5, 5, 4, 5, 5, 3)]:
-                fail(route,'sample profile and rating layout')
-            if voice_section.select_one('.c-voice-bubbles__note'):
-                fail(route,'obsolete voice note remains')
-    elif preview or preview_css:
-        fail(route,'aircon voice bubble preview leaked to another page')
+    if not preview or not preview_css or not voice_section.select_one('.c-voice-bubbles'):
+        fail(route,'shared voice bubbles missing')
+    else:
+        profiles = voice_section.select('.c-voice-card__profile')
+        ratings = [node.get('aria-label') for node in voice_section.select('.c-voice-card__stars')]
+        if len(profiles) != 6 or ratings != [f"5つ星中{r['rating']}つ星" for r in voice_profiles[route]]:
+            fail(route,'sample profile and rating layout')
+        if voice_section.select_one('.c-voice-bubbles__note'):
+            fail(route,'obsolete voice note remains')
+        for card,record in zip(voice_section.select('.c-voice-card'),voice_profiles[route]):
+            if card.select_one('h3').get_text(strip=True) != record['title'] or card.select_one('p').get_text(strip=True) != record['body'] or card.select_one('.c-voice-card__nickname').get_text(strip=True) != record['nickname']:
+                fail(route,'voice source mismatch')
     concerns = main.select('.c-issue-card__text')
     if len(concerns) != 3 or any(len(node.select('br')) != 1 or not node.get_text().endswith('...') for node in concerns):
         fail(route,'concerns not two lines ending ...')
@@ -165,6 +167,6 @@ for path,doc in all_pages.items():
         if target and not target.find(id=unquote(u.fragment)): fail(path,'missing destination '+u.path+'#'+u.fragment)
 
 report = {'checked_at':datetime.now(timezone.utc).isoformat(),'pages':len(catalogue['pages']),'reason_pages':len(reason_pages),'products':len(catalogue['products']),'errors':errors,'passed':not errors}
-(ROOT / 'source/service-pages-verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(ROOT / 'source/service-pages-verification.json').write_bytes((json.dumps(report,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 print(json.dumps(report,ensure_ascii=False))
 raise SystemExit(bool(errors))

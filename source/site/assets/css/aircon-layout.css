@@ -250,19 +250,15 @@
 
 .c-bracket-heading__text {
   min-width: 0;
-  text-wrap: balance;
+  flex-shrink: 0;
+  white-space: nowrap;
+  text-wrap: nowrap;
 }
 
 @media (max-width: 767.98px) {
   .c-service-page .recommend-plan__heading {
     gap: clamp(8px, 3.4vw, 14px);
     font-size: clamp(18px, 5.5vw, 20px);
-  }
-
-  .c-service-page .recommend-plan__heading .c-bracket-heading__text {
-    flex-shrink: 0;
-    white-space: nowrap;
-    text-wrap: nowrap;
   }
 
   .c-service-page .recommend-plan__heading::before,

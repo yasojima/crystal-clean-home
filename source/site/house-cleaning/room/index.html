@@ -41,6 +41,10 @@
 <script type="module" src="/assets/js/shared-translation-control.js"></script>
 <link rel="stylesheet" href="/assets/css/service-pages.css?v=2026100210"/>
 <link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">
+<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100236">
+<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100302">
+<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100325">
+<link rel="stylesheet" href="/assets/css/service-format.css?v=2026100325">
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100324">
 <script src="/assets/js/aircon-header.js?v=2026100314" defer></script>
@@ -179,43 +183,11 @@
 </div>
 </div>
 </header>
-<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>
-      <ol class="c-breadcrumbs" itemscope="" itemtype="http://schema.org/BreadcrumbList">
-      <li class="c-breadcrumbs__item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-        <a class="c-breadcrumbs__link" itemprop="item" href="/">
-          <div itemprop="name">ホーム</div>
-        </a>
-        <meta itemprop="position" content="1">
-      </li>
-        <li class="c-breadcrumbs__item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-          <a class="c-breadcrumbs__link" itemprop="item" aria-disabled="true">
-            <div itemprop="name">ハウスクリーニング</div>
-          </a>
-          <meta itemprop="position" content="2">
-        </li>
-        <li class="c-breadcrumbs__item" itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-          <a class="c-breadcrumbs__link" itemprop="item" aria-current="location">
-            <div itemprop="name">お部屋のお掃除</div>
-          </a>
-          <meta itemprop="position" content="3">
-        </li>
-      </ol>
-      <main class="c-service-page" data-service-layout="shared-v1"><h1 class="c-page-heading">お部屋のお掃除</h1><div class="c-house-cleaning-mv">
+<main class="c-service-page" data-service-layout="shared-v2"><div class="c-first-view c-first-view--expanded" data-floating-visibility-trigger="" id="first-view"><div class="c-house-cleaning-mv c-house-cleaning-mv--check"><h1 class="c-house-cleaning-mv__sr-heading">お部屋のお掃除</h1>
 <p class="c-house-cleaning-mv__text">床や窓の汚れを丁寧にお掃除<br/>くつろぐお部屋を心地よく</p>
-<picture class="c-flex-picture">  <img alt="床の表面や継ぎ目の清掃イメージ" class="c-flex-image c-house-cleaning-mv__image" decoding="async" height="1024" loading="eager" src="/assets/images/service-scenes/flooring.webp" width="1536"/> </picture></div><div class="c-floating-buttons is-visible" id="js-floating">
-<a class="c-cart-confirm" href="/cart/">
-<p class="c-cart-confirm__icon" data-cart-count="0" id="js-floating-total-amount">
-<span class="c-icon c-icon--cart c-cart-confirm__cart-icon"></span>
-</p>
-<h2 class="c-cart-confirm__heading">カート確認・見積り予約</h2>
-<dl class="c-cart-confirm__total-amount">
-<dt class="c-cart-confirm__term">合計金額（税込）：</dt>
-<dd class="c-cart-confirm__price" id="js-floating-total-quantity">0</dd>
-</dl>
-</a>
-</div><div class="l-section l-section--limited u-py-48-72_40-56"><div class="l-section-inner l-section-inner--limited"><div class="p-page-anchors">
+<picture class="c-flex-picture">  <img alt="床の表面や継ぎ目の清掃イメージ" class="c-flex-image c-house-cleaning-mv__image" decoding="async" height="1024" loading="eager" src="/assets/images/service-scenes/flooring.webp" width="1536"/> </picture><span class="c-house-cleaning-mv__check"><span class="c-house-cleaning-mv__check-label">Check！</span></span></div><div class="l-section l-section--limited c-service-selector"><div class="l-section-inner l-section-inner--limited"><div class="p-page-anchors">
 <h2 class="c-double-line-heading p-page-anchors__heading">ご希望のサービスをお選びください</h2>
-<div class="c-grid c-page-anchors p-page-anchors__cards" style="--grid-col-pc: repeat(auto-fit, minmax(228px,228px)); --grid-gap-pc: 15px; --grid-col-sp: repeat(3,1fr); --grid-gap-sp: 12px;"><a class="c-category-simple-card c-category-simple-card--icon-down c-page-anchors__anchor" href="#anchor01">
+<div class="c-grid c-page-anchors p-page-anchors__cards" style="--grid-col-pc: repeat(auto-fit, minmax(228px,228px)); --grid-gap-pc: 15px; --grid-col-sp: repeat(2,minmax(0,1fr)); --grid-gap-sp: 12px;"><a class="c-category-simple-card c-category-simple-card--icon-down c-page-anchors__anchor" href="#anchor01">
 <div class="c-category-simple-card__top"><span class="c-illust c-illust--flooring c-category-simple-card__icon"></span></div>
 <div class="c-category-simple-card__bottom">
 <h3 class="c-category-simple-card__text">フローリング</h3>
@@ -266,11 +238,22 @@
 <h3 class="c-category-simple-card__text">空気清浄機</h3>
 </div>
 </a></div>
-</div></div></div><section class="l-section l-section--limited l-section--blue-wave l-section--blue-bubbles u-pb-96_64" id="service-introduction" style="--bg-color: #e3f1fc;">
+</div></div></div></div><div class="c-floating-buttons" id="js-floating">
+<a class="c-cart-confirm" href="/cart/">
+<p class="c-cart-confirm__icon" data-cart-count="0" id="js-floating-total-amount">
+<span class="c-icon c-icon--cart c-cart-confirm__cart-icon"></span>
+</p>
+<h2 class="c-cart-confirm__heading">カート確認・見積り予約</h2>
+<dl class="c-cart-confirm__total-amount">
+<dt class="c-cart-confirm__term">合計金額（税込）：</dt>
+<dd class="c-cart-confirm__price" id="js-floating-total-quantity">0</dd>
+</dl>
+</a>
+</div><section class="l-section l-section--limited l-section--blue-wave l-section--blue-bubbles u-pb-96_64 c-curved-section c-curved-section--down" id="service-introduction" style="--bg-color: #e3f1fc;"><span aria-hidden="true" class="c-section-curve c-section-curve--down" style="--curve-color: #fff;"></span>
 <div class="l-section-inner l-section-inner--limited">
 <div class="u-width-pc-1024">
 <div class="c-issue-list">
-<h2 class="c-heading-level-3 c-issue-list__heading">こんなお悩みはありませんか</h2>
+<h2 class="c-heading-level-3 c-issue-list__heading">こんなお悩みはありませんか？</h2>
 <div class="c-grid c-issue-list__cards" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 20px; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 16px;">
 <div class="c-issue-card">
 <div class="c-issue-card__inner">
@@ -329,25 +312,25 @@
 </div>
 </div>
 </div>
-</section><section class="l-section l-section--blue-bubbles u-pb-96_64">
+</section><section class="l-section l-section--blue-bubbles u-pb-96_64 c-curved-section c-curved-section--up"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
 <div class="l-section-inner">
 <div class="p-reasons">
-<h2 class="c-heading-level-2 p-reasons__heading" style="--color: #06408c;">クリスタルクリーンホームが選ばれる理由</h2>
+<h2 class="c-heading-level-2 p-reasons__heading" style="--color: #06408c;">お客様から選ばれる理由</h2>
 <div class="c-grid c-reasons p-reasons__contents c-reasons--navy" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 0; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 24px;">
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 01" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-01.webp" width="205"/>
 <h3 class="c-reason-card__heading">作業内容を分かりやすくご案内</h3>
 <p class="c-reason-card__description">気になる箇所やご希望を伺い、清掃する範囲と料金を事前にご案内します。素材や設置状況も確認し、当日の作業内容を一緒に確かめてから進めます。</p>
 </div>
 <div aria-hidden="true" class="c-reasons__navy"></div></div>
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 02" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-02.webp" width="205"/>
 <h3 class="c-reason-card__heading">素材に合わせた丁寧なお掃除</h3>
 <p class="c-reason-card__description">汚れの種類と素材の状態を見極め、洗剤や道具を使い分けます。周囲を保護したうえで作業し、普段のお手入れでは届きにくい部分まで丁寧に整えます。</p>
 </div>
 <div aria-hidden="true" class="c-reasons__navy"></div></div>
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 03" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-03.webp" width="205"/>
 <h3 class="c-reason-card__heading">仕上がりとお手入れを確認</h3>
 <p class="c-reason-card__description">作業を終えた箇所を一緒にご覧いただき、仕上がりをご説明します。汚れが付きやすい場所や日頃のお手入れの方法も、分かりやすくお伝えします。</p>
 </div>
@@ -355,7 +338,7 @@
 </div>
 </div>
 </div>
-</section><div id="apply"><h2 class="c-lineup-heading" id="anchor01"><span class="c-lineup-heading__contain">フローリングクリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/flooring.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product689">
+</section><div id="apply"><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor01"><span class="c-lineup-heading__contain">フローリングクリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product689">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/flooring/">
 <img alt="床の表面や継ぎ目の清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/flooring.webp" width="1536"/>
@@ -599,7 +582,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor12"><span class="c-lineup-heading__contain">マットレス除菌クリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/mattress.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product1203">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor12"><span class="c-lineup-heading__contain">マットレス除菌クリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product1203">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/mattress/">
 <img alt="マットレスの表面や縫い目の清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/mattress.webp" width="1536"/>
@@ -1159,7 +1142,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor02"><span class="c-lineup-heading__contain">ソファ・椅子クリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/sofa.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product691">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor02"><span class="c-lineup-heading__contain">ソファ・椅子クリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product691">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/sofa/">
 <img alt="座面や縫い目の汚れの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/sofa.webp" width="1536"/>
@@ -1224,7 +1207,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor03"><span class="c-lineup-heading__contain">カーペットクリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/carpet.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product692">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor03"><span class="c-lineup-heading__contain">カーペットクリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product692">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/carpet/">
 <img alt="毛足に入り込んだ汚れの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/carpet.webp" width="1536"/>
@@ -1288,10 +1271,10 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor04"><span class="c-lineup-heading__contain">壁紙染色<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/wall.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product694">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor04"><span class="c-lineup-heading__contain">壁紙染色</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product694">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/wallpaper-dyeing/">
-<img alt="壁紙のくすみや色むらの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/wall.webp" width="1536"/>
+<img alt="壁紙のくすみや色むらの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/wallpaper-dyeing.webp" width="1536"/>
 </a>
 <div class="c-lineup-card__contents">
 <div class="c-lineup-card__main">
@@ -1352,7 +1335,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor05"><span class="c-lineup-heading__contain">壁紙クリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/wall.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product695">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor05"><span class="c-lineup-heading__contain">壁紙クリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product695">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/cloth/">
 <img alt="壁紙の手アカや表面汚れの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/wall.webp" width="1536"/>
@@ -1416,7 +1399,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor06"><span class="c-lineup-heading__contain">ガラス・サッシクリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/window.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product696">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor06"><span class="c-lineup-heading__contain">ガラス・サッシクリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product696">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/glass/">
 <img alt="窓ガラスやサッシの溝の清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/window.webp" width="1536"/>
@@ -1583,7 +1566,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor11"><span class="c-lineup-heading__contain">玄関床クリーニング＆コーティング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/entrance.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product1071">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor11"><span class="c-lineup-heading__contain">玄関床クリーニング＆コーティング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product1071">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/entrance/">
 <img alt="玄関タイルや目地の清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/entrance.webp" width="1536"/>
@@ -1710,7 +1693,7 @@
 </div>
 </div>
 </div>
-</div></div></div><h2 class="c-lineup-heading" id="anchor07"><span class="c-lineup-heading__contain">換気ダクトクリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/duct.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product822">
+</div></div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor07"><span class="c-lineup-heading__contain">換気ダクトクリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product822">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/duct/">
 <img alt="換気ダクトの内側の清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/duct.webp" width="1536"/>
@@ -2587,7 +2570,7 @@
 </div>
 </div>
 </div>
-</div></div><h2 class="c-lineup-heading" id="anchor08"><span class="c-lineup-heading__contain">空気清浄機クリーニング<span class="c-lineup-heading__sub-text">lineup</span></span> <img alt="" class="c-flex-image c-lineup-heading__image" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/air-purifier.webp" width="1536"/></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product697">
+</div></div><h2 class="c-lineup-heading c-lineup-heading--round" id="anchor08"><span class="c-lineup-heading__contain">空気清浄機クリーニング</span> <span class="c-lineup-heading__sub-text"><span class="c-lineup-heading__label">lineup</span></span></h2><div class="c-lineup-products js-products"><div class="c-lineup-product" id="product697">
 <div class="c-lineup-card js-product-card c-lineup-product__parent" data-product-card="parent">
 <a class="c-banner c-lineup-card__image" href="/house-cleaning/room/air-cleaner/">
 <img alt="フィルターや内部のホコリの清掃イメージ" class="c-flex-image c-flex-image--stretched" decoding="async" height="1024" loading="lazy" src="/assets/images/service-scenes/air-purifier.webp" width="1536"/>
@@ -2807,45 +2790,45 @@
 </div>
 </div>
 </div>
-</div></div></div><section class="l-section l-section--limited l-section--blue-bubbles" style="--bg-color: #f5f8fa;">
+</div></div></div><section class="l-section l-section--limited l-section--blue-bubbles c-voice-section--bubble-preview c-curved-section c-curved-section--up" style="--bg-color: #fff;"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
 <div class="l-section-inner l-section-inner--limited">
 <div class="p-content-box">
-<h2 class="c-heading-level-2 p-content-box__heading">ご利用者様の声</h2>
+<h2 class="c-heading-level-2 p-content-box__heading c-section-heading"><span class="c-section-heading__english c-section-heading__english--art c-section-heading__english--voice"><img alt="USER'S VOICE" decoding="async" height="85" loading="lazy" src="/assets/images/voices/reference-users-voice.webp" width="1200"/></span><span class="c-section-heading__subtitle">ご利用いただいたお客様の声</span></h2>
 <div class="p-content-box__content">
-<div class="c-grid" style="--grid-col-pc: repeat(2, 1fr); --grid-gap-pc: 32px; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 16px;">
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">床と窓の汚れを相談できました</h3>
-<p class="c-voice-card__text">気になっていた床と窓の汚れをまとめて整えたい悩みについて相談しました。作業前に現状を確認してもらい、どこまで頼めるかがはっきりしました。</p>
+<div class="c-grid c-voice-bubbles" style="--grid-col-pc: repeat(2, 1fr); --grid-gap-pc: 32px; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 16px;">
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/woman-bob.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">もくれんさん</span><span class="c-voice-card__demographic">60代 女性</span></div><span aria-label="5つ星中4つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star c-voice-card__star--empty"></span></span></div>
+<h3 class="c-voice-card__heading">壁はこすらず相談して正解</h3>
+<p class="c-voice-card__text">自分で試したら跡になりそうだったのでお願いしました。素材に合う方法を選んでもらえました。</p>
 </div>
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">床材やガラスに合わせた作業範囲が分かって安心</h3>
-<p class="c-voice-card__text">初めての依頼でしたが、床材やガラスに合わせた作業範囲を一つずつ確認できました。希望を伝えたうえで作業範囲と料金を決められてよかったです。</p>
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/man-short.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">週末ランナーさん</span><span class="c-voice-card__demographic">30代 男性</span></div><span aria-label="5つ星中5つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span></span></div>
+<h3 class="c-voice-card__heading">寝具も頼めるんですね</h3>
+<p class="c-voice-card__text">マットレスは自分では難しいので依頼。乾燥するまで別の寝具を用意しておいて正解でした。</p>
 </div>
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">床の洗浄とサッシの溝の清掃まで見てもらえた</h3>
-<p class="c-voice-card__text">床の洗浄とサッシの溝の清掃は自分でできず気になっていました。途中で作業箇所を教えてもらえたので、何をしているか分かりやすかったです。</p>
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/woman-long.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">りりさん</span><span class="c-voice-card__demographic">20代 女性</span></div><span aria-label="5つ星中5つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span></span></div>
+<h3 class="c-voice-card__heading">ソファを捨てずに済んだ</h3>
+<p class="c-voice-card__text">布のソファをどう掃除すればいいか分からず相談しました。生地の表示を確認してから作業してくれ、使えるまでの乾燥時間も聞けました。目立つ汚れが薄くなってうれしい！全部が新品になるわけではない、という説明も分かりやすかったです。</p>
 </div>
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">室内のよく使う面の仕上がりを一緒に確認！</h3>
-<p class="c-voice-card__text">室内のよく使う面の仕上がりを仕上げの説明と一緒に確認できました。毎日使う場所なので、変化が分かってうれしかったです！</p>
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/man-short.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">さとるさん</span><span class="c-voice-card__demographic">50代 男性</span></div><span aria-label="5つ星中5つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span></span></div>
+<h3 class="c-voice-card__heading">窓際が明るくなった</h3>
+<p class="c-voice-card__text">ガラスだけでなくサッシの溝もお願いしたら、見た目がかなりすっきりしました。</p>
 </div>
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">玄関のタイルも相談できて助かりました</h3>
-<p class="c-voice-card__text">作業を見ていて玄関のタイルもお願いできるか尋ねました。対応できる内容と費用を説明してくれて、段取りがスムーズでした。</p>
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/woman-long.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">かえでさん</span><span class="c-voice-card__demographic">40代 女性</span></div><span aria-label="5つ星中4つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star c-voice-card__star--empty"></span></span></div>
+<h3 class="c-voice-card__heading">床の黒ずみを相談</h3>
+<p class="c-voice-card__text">よく歩く場所だけ色が違って見えていました。傷と汚れを分けて説明してくれたのがよかったです。</p>
 </div>
-<div class="c-voice-card">
-<h3 class="c-voice-card__heading">床と窓を普段から整える方法を教わりました</h3>
-<p class="c-voice-card__text">床と窓を普段から整える方法について質問すると、無理なく続けられる方法を教えてくれました。仕上がりだけでなく、その後のことも分かって助かります。</p>
-</div>
-</div>
+<div class="c-voice-card" style="--voice-avatar: url('/assets/images/voices/man-senior.svg');"><div class="c-voice-card__profile"><div class="c-voice-card__identity"><span class="c-voice-card__nickname">ぎんさん</span><span class="c-voice-card__demographic">70代 男性</span></div><span aria-label="5つ星中3つ星" class="c-voice-card__stars" role="img"><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star"></span><span aria-hidden="true" class="c-voice-card__star c-voice-card__star--empty"></span><span aria-hidden="true" class="c-voice-card__star c-voice-card__star--empty"></span></span></div>
+<h3 class="c-voice-card__heading">荷物の移動が必要でした</h3>
+<p class="c-voice-card__text">部屋に物が多く、作業場所を空けるのに時間がかかりました。事前準備をもう少ししておけばよかったです。</p>
 </div>
 </div>
 </div>
-</section><section class="l-section l-section--limited l-section--blue-bubbles" id="service-faq" style="--bg-color: #e3f1fc;">
+</div>
+</div>
+</section><section class="l-section l-section--limited l-section--blue-bubbles c-curved-section c-curved-section--down" id="service-faq" style="--bg-color: #e3f1fc;"><span aria-hidden="true" class="c-section-curve c-section-curve--down" style="--curve-color: #fff;"></span>
 <div class="l-section-inner l-section-inner--limited">
 <div class="u-width-pc-1024">
 <div class="p-content-box">
-<h2 class="c-heading-level-2 p-content-box__heading">よくある質問</h2>
+<h2 class="c-heading-level-2 p-content-box__heading c-section-heading"><span class="c-section-heading__english">Q&amp;A</span><span class="c-section-heading__subtitle">よくある質問</span></h2>
 <div class="p-content-box__content">
 <div class="c-faq-accordion js-accordion" data-simple-type="true">
 <div class="c-faq-accordion__item">
@@ -2884,78 +2867,27 @@
 </div>
 </div>
 </div>
-</section><section class="l-section l-section--limited l-section--blue-bubbles" id="service-flow">
+</section><section class="l-section l-section--limited l-section--blue-bubbles c-curved-section c-curved-section--up" id="service-flow"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
 <div class="l-section-inner l-section-inner--limited">
-<div class="u-width-pc-1024">
+<div class="c-howto-container">
 <div class="p-content-box">
-<h2 class="c-heading-level-2 p-content-box__heading">ご利用の流れ</h2>
+<h2 class="c-heading-level-2 p-content-box__heading c-section-heading"><span class="c-section-heading__english c-section-heading__english--art c-section-heading__english--flow"><img alt="HOW TO USE" decoding="async" height="150" loading="lazy" src="/assets/images/voices/reference-how-to-use.webp" width="1200"/></span><span class="c-section-heading__subtitle">ご利用の流れ</span></h2>
 <div class="p-content-box__content">
-<ol class="c-step-list">
-<li class="c-step-list__item c-step-list-item">
-<h3 class="c-step-list-item__heading"><span class="c-step-list-item__heading-step">step 01</span><span class="c-step-list-item__heading-main">お見積りのご相談</span></h3>
-<div class="c-step-list-item__contents">
-<div class="c-step-list-item__icon-box">
-<div class="c-icon c-icon--estimate c-step-list-item__icon"></div>
-</div>
-<div class="c-step-list-item__text">
-<p>ご希望のサービスと気になる箇所をお知らせください。設置状況や広さを伺い、清掃内容と料金の目安をご案内します。</p>
-</div>
-</div>
-</li>
-<li class="c-step-list__item c-step-list-item">
-<h3 class="c-step-list-item__heading"><span class="c-step-list-item__heading-step">step 02</span><span class="c-step-list-item__heading-main">作業内容と日時の調整</span></h3>
-<div class="c-step-list-item__contents">
-<div class="c-step-list-item__icon-box">
-<div class="c-icon c-icon--contact c-step-list-item__icon"></div>
-</div>
-<div class="c-step-list-item__text">
-<p>ご希望の日時を伺い、訪問日を調整します。作業時間や事前のご準備についても、分かりやすくお伝えします。</p>
-</div>
-</div>
-</li>
-<li class="c-step-list__item c-step-list-item">
-<h3 class="c-step-list-item__heading"><span class="c-step-list-item__heading-step">step 03</span><span class="c-step-list-item__heading-main">ご訪問と作業前の確認</span></h3>
-<div class="c-step-list-item__contents">
-<div class="c-step-list-item__icon-box">
-<div class="c-icon c-icon--visit c-step-list-item__icon"></div>
-</div>
-<div class="c-step-list-item__text">
-<p>担当スタッフが現地の状態を確認します。清掃範囲、所要時間、料金をご確認いただき、ご了承のうえで作業を始めます。</p>
-</div>
-</div>
-</li>
-<li class="c-step-list__item c-step-list-item">
-<h3 class="c-step-list-item__heading"><span class="c-step-list-item__heading-step">step 04</span><span class="c-step-list-item__heading-main">清掃と仕上がりの確認</span></h3>
-<div class="c-step-list-item__contents">
-<div class="c-step-list-item__icon-box">
-<div class="c-icon c-icon--cleaning c-step-list-item__icon"></div>
-</div>
-<div class="c-step-list-item__text">
-<p>周囲を保護し、素材に合った方法で清掃します。終了後は作業した箇所を一緒に確認し、お手入れの方法もご案内します。</p>
-</div>
-</div>
-</li>
-<li class="c-step-list__item c-step-list-item">
-<h3 class="c-step-list-item__heading"><span class="c-step-list-item__heading-step">step 05</span><span class="c-step-list-item__heading-main">お支払い</span></h3>
-<div class="c-step-list-item__contents">
-<div class="c-step-list-item__icon-box">
-<div class="c-icon c-icon--pay c-step-list-item__icon"></div>
-</div>
-<div class="c-step-list-item__text">
-<p>仕上がりをご確認いただいた後にお支払いとなります。現金、電子マネー、Visa、Mastercardをご利用いただけます。</p>
-</div>
-
-</div>
-</li>
+<ol class="c-step-list c-howto">
+<li class="c-step-list__item c-howto__item"><div aria-hidden="true" class="c-howto__visual"><div class="c-icon c-icon--estimate c-howto__icon"></div></div><p class="c-howto__step"><span class="c-howto__step-label">STEP <span class="c-howto__number">01</span></span></p><h3 class="c-howto__heading">お見積りのご相談</h3><p class="c-howto__description">ご希望のサービスと気になる箇所をお知らせください。設置状況や広さを伺い、清掃内容と料金の目安をご案内します。</p></li>
+<li class="c-step-list__item c-howto__item"><div aria-hidden="true" class="c-howto__visual"><div class="c-icon c-icon--contact c-howto__icon"></div></div><p class="c-howto__step"><span class="c-howto__step-label">STEP <span class="c-howto__number">02</span></span></p><h3 class="c-howto__heading">作業内容と日時の調整</h3><p class="c-howto__description">ご希望の日時を伺い、訪問日を調整します。作業時間や事前のご準備についても、分かりやすくお伝えします。</p></li>
+<li class="c-step-list__item c-howto__item"><div aria-hidden="true" class="c-howto__visual"><div class="c-icon c-icon--visit c-howto__icon"></div></div><p class="c-howto__step"><span class="c-howto__step-label">STEP <span class="c-howto__number">03</span></span></p><h3 class="c-howto__heading">ご訪問と作業前の確認</h3><p class="c-howto__description">担当スタッフが現地の状態を確認します。清掃範囲、所要時間、料金をご確認いただき、ご了承のうえで作業を始めます。</p></li>
+<li class="c-step-list__item c-howto__item"><div aria-hidden="true" class="c-howto__visual"><div class="c-icon c-icon--cleaning c-howto__icon"></div></div><p class="c-howto__step"><span class="c-howto__step-label">STEP <span class="c-howto__number">04</span></span></p><h3 class="c-howto__heading">清掃と仕上がりの確認</h3><p class="c-howto__description">周囲を保護し、素材に合った方法で清掃します。終了後は作業した箇所を一緒に確認し、お手入れの方法もご案内します。</p></li>
+<li class="c-step-list__item c-howto__item"><div aria-hidden="true" class="c-howto__visual"><div class="c-icon c-icon--pay c-howto__icon"></div></div><p class="c-howto__step"><span class="c-howto__step-label">STEP <span class="c-howto__number">05</span></span></p><h3 class="c-howto__heading">お支払い</h3><p class="c-howto__description">仕上がりをご確認いただいた後にお支払いとなります。現金、電子マネー、Visa、Mastercardをご利用いただけます。</p></li>
 </ol>
 </div>
 </div>
 </div>
 </div>
-</section><section class="l-section l-section--limited u-pb-72_80" style="--bg-color: #f5f8fa;">
+</section><section class="l-section l-section--limited u-pb-72_80 c-curved-section c-curved-section--down" style="--bg-color: #e3f1fc;"><span aria-hidden="true" class="c-section-curve c-section-curve--down" style="--curve-color: #fff;"></span>
 <div class="l-section-inner l-section-inner--limited">
-<h2 class="c-double-line-heading">クリスタルクリーンホームのハウスクリーニング</h2>
-<div class="c-grid c-house-cleaning-links u-mt-24" style="--grid-col-pc: repeat(4, 1fr); --grid-gap-pc: 16px; --grid-col-tablet: repeat(3, 1fr); --grid-gap-tablet: 16px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 13px;"><a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/aircon/">
+<h2 class="c-heading-level-2 p-reasons__heading c-featured-cleaning__heading">注目のハウスクリーニング</h2>
+<div class="c-grid c-house-cleaning-links" style="--grid-col-pc: repeat(4, 1fr); --grid-gap-pc: 16px; --grid-col-tablet: repeat(3, 1fr); --grid-gap-tablet: 16px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 13px;"><a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/aircon/">
 <div class="c-category-simple-card__top">
 <div aria-label="人気" class="c-ribbon-label-tag c-category-simple-card__label">人気</div>
 <span class="c-illust c-illust--aircon c-category-simple-card__icon"></span></div>

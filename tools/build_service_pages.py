@@ -193,7 +193,7 @@ def product(key, route, catalogue, copy):
     return wrapper
 
 
-OFFER_IMAGES = {'kitchen-fan':'kitchen-fan','kitchen':'kitchen-sink','bath':'bathroom','bath-fan':'bath-dryer','sink':'lavatory','pipe':'bath-pipe','ulblo':'bath-pipe','toilet':'toilet','wallpaper-dyeing-cloth':'wall'}
+OFFER_IMAGES = {'kitchen-fan':'kitchen-fan','kitchen':'kitchen-sink','bath':'bathroom','bath-fan':'bath-dryer','sink':'lavatory','pipe':'bath-pipe','ulblo':'bath-adapter','toilet':'toilet','wallpaper-dyeing-cloth':'wallpaper-dyeing'}
 OFFER_COPY = {
     '666_479': 'レンジフードの部品とキッチンをまとめて清掃します。換気扇の油汚れからシンクの水アカまで、それぞれに合う方法で丁寧に洗浄します。',
     'bath-dryer': '浴室と浴室乾燥機をまとめて清掃します。浴槽や床の水アカだけでなく、乾燥機の内部にたまったホコリも確認して取り除きます。',
@@ -259,8 +259,8 @@ def navigation(page, primary, category, copy):
         if icon:
             icon['class'] = item['icon'] or ['c-illust',f'c-illust--{icon_map[category]}','c-category-simple-card__icon']
         cards.append(a)
-    spacing = 'c-service-selector' if page['route'] == 'aircon' else 'u-py-48-72_40-56'
-    container = tag('div', f'l-section l-section--limited {spacing}')
+    cards['style'] = cards.get('style', '').replace('repeat(3,1fr)', 'repeat(2,minmax(0,1fr))')
+    container = tag('div', 'l-section l-section--limited c-service-selector')
     inner = tag('div', 'l-section-inner l-section-inner--limited')
     inner.append(n); container.append(inner)
     return container
@@ -271,7 +271,7 @@ def concerns(page, primary, category_copy, copy):
     detail = '/' in page['route']
     content = copy['products'][primary]
     issues = category_copy['concerns']
-    n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか' + ('？' if page['route'] == 'aircon' else '')
+    n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか？'
     for node, (first, second) in zip(n.select('.c-issue-card__text'), issues):
         node.clear()
         node.append(first)
@@ -289,6 +289,9 @@ def concerns(page, primary, category_copy, copy):
         bid, pid = f'service-tab-{index+1}', f'service-panel-{index+1}'
         b['id'], b['aria-controls'], b['aria-selected'], b['tabindex'] = bid, pid, str(index == 0).lower(), '0' if index == 0 else '-1'
         b.string = p['short']
+        if page['route'] == 'aircon' and key in ('2', '3'):
+            lines(b, ['お掃除機能付き', 'エアコン'] if key == '2' else ['天井埋め込み', 'エアコン'])
+            b.find('br')['class'] = ['u-sp-only']
         box['id'], box['aria-labelledby'] = pid, bid
         box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
         photo = box.select_one('.c-compare-image')
@@ -321,13 +324,13 @@ def concerns(page, primary, category_copy, copy):
 
 def reasons(shared, route):
     n = template('reasons')
+    n.select_one('h2').string = 'お客様から選ばれる理由'
     for index, (item, words) in enumerate(zip(n.select('.c-reasons__item'), shared['reasons']), 1):
         item.select_one('h3').string = words[0]
         item.select_one('p').string = words[1]
-        if route == 'aircon':
-            label = tag('img', 'c-reasons__point', src=f'/assets/images/reasons/reference-point-{index:02d}.webp',
-                        alt=f'POINT {index:02d}', width='205', height='70', loading='lazy', decoding='async')
-            item.select_one('.c-reasons__card').insert(0, label)
+        label = tag('img', 'c-reasons__point', src=f'/assets/images/reasons/reference-point-{index:02d}.webp',
+                    alt=f'POINT {index:02d}', width='205', height='70', loading='lazy', decoding='async')
+        item.select_one('.c-reasons__card').insert(0, label)
     return n
 
 
@@ -379,91 +382,28 @@ def decorate_heading(heading, english, japanese, artwork=None):
 
 def voices(page, copy):
     n = template('voices')
-    n.select_one('h2').string = 'ご利用者様の声'
-    if page['route'] == 'aircon':
-        n['class'] = n.get('class', []) + ['c-voice-section--bubble-preview']
-        decorate_heading(n.select_one('h2'), "USER'S VOICE", 'ご利用いただいたお客様の声',
-                         ('voice', 'reference-users-voice.webp', 85))
-        grid = n.select_one('.p-content-box__content > .c-grid')
-        grid['class'] = grid.get('class', []) + ['c-voice-bubbles']
-    profiles = json.loads((DATA / 'voice-copy.json').read_text(encoding='utf-8'))
-    concern, scope, work, finish, extra, care = profiles[page['route']]
-    titles = (f'{concern}を相談できました', f'{scope}が分かって安心',
-              f'{work}まで見てもらえた', f'{finish}を一緒に確認！',
-              f'{extra}相談できて助かりました', f'{care}を教わりました')
-    title_overrides = json.loads((DATA / 'voice-title-overrides.json').read_text(encoding='utf-8'))
-    titles = tuple(title_overrides.get(page['route'], {}).get(str(index), title)
-                   for index, title in enumerate(titles))
-    variants = (
-        (f'{concern}が気になって依頼しました。最初に状態を一緒に見て、お願いする範囲を決められたので、初めてでも迷いませんでした。',
-         f'気になっていた{concern}について相談しました。作業前に現状を確認してもらい、どこまで頼めるかがはっきりしました。',
-         f'{concern}について相談したくて申し込みました。実際の状態を見ながら話せたので、必要な作業をイメージできました。'),
-        (f'作業前に{scope}を説明してもらいました。料金と当日の流れを聞いてからお願いでき、安心してお任せできました。',
-         f'初めての依頼でしたが、{scope}を一つずつ確認できました。希望を伝えたうえで作業範囲と料金を決められてよかったです。',
-         f'{scope}が分からず質問しました。スタッフさんが気さくに答えてくれたので、作業の内容に納得してから頼めました。'),
-        (f'自分では難しい{work}。使う道具と手順を聞き、周囲を保護して進める様子を見て、丁寧さが伝わりました。',
-         f'{work}は自分でできず気になっていました。途中で作業箇所を教えてもらえたので、何をしているか分かりやすかったです。',
-         f'普段は手を付けにくい{work}をお願いしました。状態に合わせて道具を替えていることも聞けて、安心できました。'),
-        (f'作業後に{finish}を一緒に確かめました。気になっていた場所を自分で確認できて、お願いしてよかったです！',
-         f'{finish}を仕上げの説明と一緒に確認できました。毎日使う場所なので、変化が分かってうれしかったです！',
-         f'最後に{finish}を見ながら説明を受けました。どこを作業したのか分かり、仕上がりにも納得です。'),
-        (f'当日、{extra}相談しました。追加できる範囲と料金を先に聞けたので、その場で落ち着いて決められました。',
-         f'作業を見ていて{extra}お願いできるか尋ねました。対応できる内容と費用を説明してくれて、段取りがスムーズでした。',
-         f'予定外でしたが{extra}相談してみました。作業内容や支払いの流れを先に確認できたので、急なお願いでも安心でした。'),
-        (f'作業後に{care}を教わりました。対象箇所を見ながら聞けたので、家での手入れにも役立てられそうです。',
-         f'{care}について質問すると、無理なく続けられる方法を教えてくれました。仕上がりだけでなく、その後のことも分かって助かります。',
-         f'終わってから{care}を聞きました。日頃どこに気を付ければよいか具体的に分かり、頼んだ後も安心です。')
-    )
-    variant = sum(ord(char) for char in page['route']) % 3
+    n['class'] = n.get('class', []) + ['c-voice-section--bubble-preview']
+    decorate_heading(n.select_one('h2'), "USER'S VOICE", 'ご利用いただいたお客様の声',
+                     ('voice', 'reference-users-voice.webp', 85))
+    grid = n.select_one('.p-content-box__content > .c-grid')
+    grid['class'] = grid.get('class', []) + ['c-voice-bubbles']
+    records = json.loads((DATA / 'voices.json').read_text(encoding='utf-8'))['pages'][page['route']]
     cards = n.select('.c-voice-card')
-    assert len(cards) == 6
-    for index, card in enumerate(cards):
-        card.select_one('h3').string = titles[index]
-        card.select_one('p').string = variants[index][variant]
-    if page['route'] == 'aircon':
-        preview_profiles = (
-            ('みずきさん', '30代 女性', 5),
-            ('たけさん', '40代 男性', 5),
-            ('まどかさん', '50代 女性', 4),
-            ('みっちゃんさん', '70代 女性', 5),
-            ('けんさん', '20代 男性', 5),
-            ('ひろさん', '60代 男性', 3),
-        )
-        cards[0].select_one('p').string = (
-            'リビングと寝室のエアコンをまとめてお願いしました。寝室は風のにおい、'
-            'リビングは吹き出し口の黒ずみが気になっていたので、最初に2台を見てもらい、'
-            '作業範囲と料金を確認しました。家具のそばは養生してから進めてくれました。'
-            '終わってから内部の汚れを見せてもらうと、普段拭いていたつもりの場所にも'
-            '汚れがたまっていてびっくり。一度に相談できて助かりました！'
-        )
-        cards[2].select_one('p').string = (
-            '機種ごとのカバーと内部まで作業してもらえました。洗浄は丁寧でしたが、'
-            '部品の扱い方を作業前にもう少し詳しく聞けたら、さらに安心できたと思います。'
-        )
-        cards[4].select_one('p').string = (
-            '作業中に隣の部屋のエアコンも気になり、急きょ追加できるか相談しました。'
-            '当日は予定が詰まっていてすぐの追加は難しかったのですが、できる作業と料金、'
-            '別の日に頼む場合の段取りをその場で説明してくれました。支払い方法まで一緒に'
-            '確認できたので、慌てずに決められました。こちらの都合も聞きながら進めて'
-            'くれて、次もお願いしやすいと感じました。'
-        )
-        cards[5].select_one('h3').string = '仕上がりはきれい、時間は想定より長め'
-        cards[5].select_one('p').string = (
-            '仕上がりはきれいでした。ただ、思っていたより作業に時間がかかり、'
-            '後の予定を少しずらしました。所要時間の目安を早めに聞けると助かります。'
-        )
-        for card, (nickname, demographic, rating) in zip(cards, preview_profiles):
-            profile = tag('div', 'c-voice-card__profile')
-            identity = tag('div', 'c-voice-card__identity')
-            identity.append(tag('span', 'c-voice-card__nickname', nickname))
-            identity.append(tag('span', 'c-voice-card__demographic', demographic))
-            stars = tag('span', 'c-voice-card__stars', role='img', **{'aria-label': f'5つ星中{rating}つ星'})
-            for position in range(5):
-                star_class = 'c-voice-card__star' + (' c-voice-card__star--empty' if position >= rating else '')
-                stars.append(tag('span', star_class, **{'aria-hidden': 'true'}))
-            profile.append(identity)
-            profile.append(stars)
-            card.insert(0, profile)
+    assert len(records) == len(cards) == 6, page['route']
+    for card, record in zip(cards, records):
+        card['style'] = f"--voice-avatar: url('/assets/images/voices/{record['avatar']}.svg');"
+        card.select_one('h3').string = record['title']
+        card.select_one('p').string = record['body']
+        profile = tag('div', 'c-voice-card__profile')
+        identity = tag('div', 'c-voice-card__identity')
+        identity.append(tag('span', 'c-voice-card__nickname', record['nickname']))
+        identity.append(tag('span', 'c-voice-card__demographic', record['demographic']))
+        stars = tag('span', 'c-voice-card__stars', role='img',
+                    **{'aria-label': f"5つ星中{record['rating']}つ星"})
+        for position in range(5):
+            star_class = 'c-voice-card__star' + (' c-voice-card__star--empty' if position >= record['rating'] else '')
+            stars.append(tag('span', star_class, **{'aria-hidden': 'true'}))
+        profile.append(identity); profile.append(stars); card.insert(0, profile)
     return n
 
 
@@ -537,7 +477,7 @@ def add_section_curve(section, direction, previous_color):
                           style=f'--curve-color: {previous_color};', **{'aria-hidden': 'true'}))
 
 
-def decorate_aircon_sections(main):
+def decorate_sections(main):
     for selector, direction, color in (
         ('#service-introduction', 'down', '#fff'),
         ('.p-reasons', 'up', '#e3f1fc'),
@@ -560,56 +500,46 @@ def render(route, page, catalogue, copy):
     cat = copy['categories'][page['category']]
     primary = page['groups'][0]['products'][0]
     p = copy['products'][primary]
-    main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v1'})
-    if route != 'aircon':
-        main.append(tag('h1','c-page-heading',page['title']))
+    main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v2'})
     hero = template('hero')
     hero_words = cat['hero'] if '/' not in route else [p['short'] + 'を丁寧に','素材と状態に合わせたお手入れ']
     lines(hero.select_one('p'),hero_words)
     for src in hero.select('source'): src.decompose()
     image(hero.select_one('img'),p['scene'],p['focus']+'の清掃イメージ',True)
-    if route == 'aircon':
-        hero['class'].append('c-house-cleaning-mv--check')
-        hero.insert(0, tag('h1', 'c-house-cleaning-mv__sr-heading', page['title']))
-        check = tag('span', 'c-house-cleaning-mv__check')
-        check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
-        hero.append(check)
+    hero['class'].append('c-house-cleaning-mv--check')
+    hero.insert(0, tag('h1', 'c-house-cleaning-mv__sr-heading', page['title']))
+    check = tag('span', 'c-house-cleaning-mv__check')
+    check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
+    hero.append(check)
     nav = navigation(page,primary,page['category'],copy)
-    if route == 'aircon':
-        first_view = tag('div', 'c-first-view', id='first-view', **{'data-floating-visibility-trigger': ''})
-        first_view.append(hero)
-        first_view.append(nav)
-        main.append(first_view)
-        floating = template('floating')
-        floating['class'] = [name for name in floating['class'] if name != 'is-visible']
-        main.append(floating)
-    else:
-        main.append(hero); main.append(template('floating'))
-        main.append(nav)
+    first_classes = 'c-first-view' + (' c-first-view--expanded' if route != 'aircon' else '')
+    first_view = tag('div', first_classes, id='first-view', **{'data-floating-visibility-trigger': ''})
+    first_view.append(hero); first_view.append(nav); main.append(first_view)
+    floating = template('floating')
+    floating['class'] = [name for name in floating['class'] if name != 'is-visible']
+    main.append(floating)
     main.append(concerns(page,primary,cat,copy))
     main.append(reasons(copy['shared'], route))
     apply = tag('div', id='apply'); main.append(apply)
     for group in page['groups']:
-        apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene'], rounded=route == 'aircon'))
+        apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene'], rounded=True))
         for key in group['products']:
             apply.append(product(key,route,catalogue,copy))
     if page['offers']:
         offers_id = 'anchor00' if route == 'pack' else 'service-sets'
         if page['category'] == 'aircon':
             section = template('aircon-offers')
-            if route == 'aircon':
-                section.select_one('.recommend-plan__text').decompose()
-                heading = section.select_one('.recommend-plan__heading')
-                heading_text = heading.get_text()
-                heading.clear()
-                heading.append(tag('span', 'c-bracket-heading__text', heading_text))
+            section.select_one('.recommend-plan__text').decompose()
+            heading = section.select_one('.recommend-plan__heading')
+            heading.clear()
+            heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
             panels = section.select('.c-tab__panel .recommend-plan-cards')
             assert len(panels) == 2 and len(page['offers']) == 3
             for index, key in enumerate(page['offers']):
                 panels[0 if index < 2 else 1].append(offer(key,catalogue))
             apply.append(section)
         else:
-            apply.append(lineup_heading('組み合わせてご利用いただけるプラン', offers_id, p['scene']))
+            apply.append(lineup_heading('人気の組み合わせプラン', offers_id, p['scene'], rounded=True))
             section = tag('section','l-section l-section--limited')
             inner = tag('div','l-section-inner l-section-inner--limited')
             grid = tag('div','c-service-offers c-grid',style='--grid-col-pc:repeat(2,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;')
@@ -622,71 +552,35 @@ def render(route, page, catalogue, copy):
         if page['category'] != 'coating' or primary == '806':
             questions = detail_faq.get(primary, detail_faq.get(p['scene']))
     main.append(voices(page,copy))
-    main.append(faq(cat,copy['shared'],questions,decorated=route == 'aircon'))
-    main.append(steps(copy['shared'],decorated=route == 'aircon'))
+    main.append(faq(cat,copy['shared'],questions,decorated=True))
+    main.append(steps(copy['shared'],decorated=True))
     categories = template('categories')
-    if route == 'aircon':
-        categories['style'] = '--bg-color: #e3f1fc;'
-        featured_heading = categories.find('h2')
-        featured_heading['class'] = ['c-heading-level-2', 'p-reasons__heading', 'c-featured-cleaning__heading']
-        featured_heading.string = '注目のハウスクリーニング'
-        featured_cards = categories.select_one('.c-house-cleaning-links')
-        featured_cards['class'] = [name for name in featured_cards['class'] if name != 'u-mt-24']
+    categories['style'] = '--bg-color: #e3f1fc;'
+    featured_heading = categories.find('h2')
+    featured_heading['class'] = ['c-heading-level-2', 'p-reasons__heading', 'c-featured-cleaning__heading']
+    featured_heading.string = '注目のハウスクリーニング'
+    featured_cards = categories.select_one('.c-house-cleaning-links')
+    featured_cards['class'] = [name for name in featured_cards['class'] if name != 'u-mt-24']
     main.append(categories); main.append(template('cart-modal'))
-    if route == 'aircon':
-        decorate_aircon_sections(main)
+    decorate_sections(main)
     normalize_text(main)
     output, count = re.subn(r'<main\b[^>]*>.*?</main>',lambda _:str(main),original,count=1,flags=re.S)
     assert count == 1, route
-    if route == 'aircon':
-        output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
-                        '\n', output, count=1, flags=re.S)
+    output = re.sub(r'\s*<ol\b[^>]*class="c-breadcrumbs"[^>]*>.*?</ol>\s*(?=<main\b)',
+                    '\n', output, count=1, flags=re.S)
     css_version = '2026100210'
     if '/assets/css/service-pages.css' not in output:
         output = output.replace('</head>',f'<link rel="stylesheet" href="/assets/css/service-pages.css?v={css_version}"/>\n</head>')
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    bubble_css = '<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles.css?v=2026100236">'
-    bubble_pattern = r'<link rel="stylesheet" href="/assets/css/aircon-voice-bubbles\.css\?v=\d+"\s*/?>'
-    if route == 'aircon':
-        if re.search(bubble_pattern, output):
-            output = re.sub(bubble_pattern, bubble_css, output)
-        else:
-            output = output.replace('</head>', bubble_css + '\n</head>', 1)
-        output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">'
-        header_js = '<script src="/assets/js/aircon-header.js?v=2026100314" defer></script>'
-        if '/assets/css/aircon-header.css' in output:
-            output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
-                            header_css, output)
-        else:
-            output = output.replace('</head>', header_css + '\n</head>', 1)
-        if '/assets/js/aircon-header.js' in output:
-            output = re.sub(r'<script src="/assets/js/aircon-header\.js\?v=\d+" defer></script>',
-                            header_js, output)
-        else:
-            output = output.replace('</head>', header_js + '\n</head>', 1)
-        hero_css = '<link rel="stylesheet" href="/assets/css/aircon-hero.css?v=2026100302">'
-        if '/assets/css/aircon-hero.css' in output:
-            output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-hero\.css\?v=\d+">',
-                            hero_css, output)
-        else:
-            output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100317">'
-        if '/assets/css/aircon-layout.css' in output:
-            output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
-                            layout_css, output)
-        else:
-            output = output.replace('</head>', layout_css + '\n</head>', 1)
-        comparison_js = '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>'
-        if '/assets/js/aircon-comparison.js' in output:
-            output = re.sub(r'<script src="/assets/js/aircon-comparison\.js\?v=\d+" defer></script>',
-                            comparison_js, output)
-        else:
-            output = output.replace('</head>', comparison_js + '\n</head>', 1)
-    else:
-        output = re.sub(bubble_pattern + r'\s*', '', output)
+    for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100302'),
+                          ('aircon-layout', '2026100325'), ('service-format', '2026100325')]:
+        pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
+        output = re.sub(pattern, '', output)
+        output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
+    if route == 'aircon' and '/assets/js/aircon-comparison.js' not in output:
+        output = output.replace('</head>', '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>\n</head>', 1)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)
     output = output.replace('</body>','<script src="/assets/js/house-cleaning/product-top.js"></script>\n</body>')
@@ -704,7 +598,7 @@ def sync_manifest(routes, check):
               SITE / 'assets/css/aircon-voice-bubbles.css',
               SITE / 'assets/css/aircon-header.css',
               SITE / 'assets/css/aircon-hero.css',
-              SITE / 'assets/css/aircon-layout.css',
+              SITE / 'assets/css/aircon-layout.css', SITE / 'assets/css/service-format.css',
               SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-down.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-up.svg',
@@ -746,7 +640,7 @@ def sync_manifest(routes, check):
         unique = {r['path']:r for r in manifest['files'].values()}
         manifest['counts'].update(urls=len(manifest['files']), unique_paths=len(unique),
                                   bytes=sum(r['bytes'] for r in unique.values()))
-        path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding='utf-8')
+        path.write_bytes(json.dumps(manifest, ensure_ascii=False, indent=2).encode('utf-8'))
     return changed
 
 

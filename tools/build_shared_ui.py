@@ -18,6 +18,8 @@ ASSETS = (
 
 def transform(html):
     newline = '\r\n' if '\r\n' in html else '\n'
+    if re.search(r'<div\b[^>]*\bid="first-view"', html):
+        html = re.sub(r'\s*<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>', '', html)
     for name in ('header', 'footer'):
         fragment = (COMPONENTS / (name + '.html')).read_bytes().decode('utf-8').strip()
         pattern = r'<' + name + r'\b(?=[^>]*\bclass="[^"]*\bc-' + name + r'(?:\s|"))[^>]*>.*?</' + name + r'>'
@@ -32,7 +34,7 @@ def transform(html):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
-    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', '/assets/css/aircon-layout.css?v=2026100324', html)
+    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', '/assets/css/aircon-layout.css?v=2026100325', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)
