@@ -797,7 +797,7 @@ def render(route, page, catalogue, copy):
         else:
             output = output.replace('</head>', bubble_css + '\n</head>', 1)
         output = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', output)
-        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100311">'
+        header_css = '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">'
         header_js = '<script src="/assets/js/aircon-header.js?v=2026100314" defer></script>'
         if '/assets/css/aircon-header.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-header\.css\?v=\d+">',
