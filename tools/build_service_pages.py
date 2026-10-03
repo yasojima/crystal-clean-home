@@ -181,8 +181,11 @@ def product(key, route, catalogue, copy):
             raise ValueError(f'Option copy missing for {key}: {original}')
     remove_details(block)
     for button in block.select('.c-lineup-card__foot > .js-add-cart'):
-        if 'c-product-additional-card__cart-button' not in button['class']:
-            button['class'].append('c-product-additional-card__cart-button')
+        control_class = ('c-product-additional-card__detail-button'
+                         if button.name == 'a' and not button.parent.select_one('.js-product-quantity')
+                         else 'c-product-additional-card__cart-button')
+        if control_class not in button['class']:
+            button['class'].append(control_class)
     normalize_text(block)
     for node in block.select('[id]'):
         node['id'] = f'{key}-{node["id"]}'
