@@ -25,7 +25,7 @@ def fail(route, reason):
 
 
 def prices(node):
-    return [n.get_text(' ',strip=True) for n in node.select('.c-price__text')]
+    return [n.get_text(' ',strip=True) for n in node.select('.c-price__text,.c-plan-price__text')]
 
 
 def options(node):

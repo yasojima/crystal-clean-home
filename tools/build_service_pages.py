@@ -233,6 +233,41 @@ def offer(key, catalogue):
             label.string = 'トイレと壁紙をまとめてお手入れ'
     remove_details(n)
     normalize_text(n)
+    if n.select_one('.c-set-plan-card__heading'):
+        source = n
+        n = tag('div', 'c-plan-card js-product-card', **{'data-product-card': 'plan', 'data-service-offer': key})
+        title = source.select_one('.c-set-plan-card__heading').extract()
+        title.name = 'h3'; title['class'] = ['c-plan-card__heading']
+        n.append(title)
+        body = tag('div', 'c-plan-card__body')
+        body.append(source.select_one('.c-set-plan-card__images').extract())
+        description = source.select_one('.c-set-plan-card__description').extract()
+        description['class'] = ['c-plan-card__description']
+        body.append(description); n.append(body)
+        items = tag('ul', 'c-plan-card__list c-plan-card-list')
+        item = tag('li', 'c-plan-card__item c-plan-card-list-item js-product-card', **{'data-product-card': 'set-plan'})
+        label = source.select_one('.c-set-plan-card__label')
+        if label:
+            for br in label.select('br'):
+                br.replace_with('\n')
+            for line in label.get_text().splitlines():
+                if line.strip():
+                    item.append(tag('p', 'c-plan-card-list-item__discount', line.strip()))
+        head = tag('div', 'c-plan-card-list-item__head')
+        price = source.select_one('.c-set-plan-card__price').extract()
+        price['class'] = ['c-plan-card-list-item__price']
+        for node in price.select('.c-price,.c-price__text,.c-price__unit'):
+            node['class'] = [c.replace('c-price', 'c-plan-price', 1) for c in node['class']]
+        head.append(price); item.append(head)
+        controls = tag('div', 'c-plan-card-list-item__body')
+        quantity = source.select_one('.js-product-quantity').extract()
+        quantity['class'] = ['c-card-select', 'c-plan-card-list-item__quantity', 'js-product-quantity']
+        button = source.select_one('.js-add-cart').extract()
+        button['class'] = ['c-button', 'c-button--fill-red', 'c-plan-card-list-item__cart-button', 'js-add-cart']
+        controls.append(quantity); controls.append(button); item.append(controls)
+        for hidden in source.select('input[name="product-id"]'):
+            item.append(hidden.extract())
+        items.append(item); n.append(items)
     return n
 
 
@@ -545,13 +580,16 @@ def render(route, page, catalogue, copy):
                 panels[0 if index < 2 else 1].append(offer(key,catalogue))
             apply.append(section)
         else:
-            apply.append(lineup_heading('人気の組み合わせプラン', offers_id, p['scene'], rounded=True))
-            section = tag('section','l-section l-section--limited')
-            inner = tag('div','l-section-inner l-section-inner--limited')
-            grid = tag('div','c-service-offers c-grid',style='--grid-col-pc:repeat(2,1fr);--grid-gap-pc:32px;--grid-col-sp:repeat(1,1fr);--grid-gap-sp:24px;')
+            section = template('aircon-offers'); section['id'] = offers_id
+            section.select_one('.recommend-plan__text').decompose()
+            heading = section.select_one('.recommend-plan__heading'); heading.clear()
+            heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
+            content = section.select_one('.recommend-plan__tab'); content.clear()
+            content['class'] = ['recommend-plan__tab']
+            grid = tag('div', 'recommend-plan-cards c-service-offers')
             for key in page['offers']:
                 grid.append(offer(key,catalogue))
-            inner.append(grid); section.append(inner); apply.append(section)
+            content.append(grid); apply.append(section)
     questions = None
     if '/' in route:
         detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
