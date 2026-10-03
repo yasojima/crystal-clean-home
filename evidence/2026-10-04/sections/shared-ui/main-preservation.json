@@ -1,0 +1,10 @@
+{
+  "baseline": "public 3e5cafd",
+  "checks": [
+    {"route":"/business/racn/","viewport":{"width":1440,"height":800},"elements":120,"passed":true},
+    {"route":"/house-cleaning/aircon/2027problem/","viewport":{"width":1440,"height":800},"elements":140,"passed":true},
+    {"route":"/business/racn/","viewport":{"width":414,"height":688},"elements":120,"passed":true},
+    {"route":"/house-cleaning/aircon/2027problem/","viewport":{"width":414,"height":688},"elements":140,"passed":true}
+  ],
+  "passed": true
+}

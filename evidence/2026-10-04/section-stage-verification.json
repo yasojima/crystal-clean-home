@@ -1,0 +1,198 @@
+{
+  "canonical_route": "aircon",
+  "sequence": "one section across all pages, desktop then mobile",
+  "human_visual_acceptance": "pending",
+  "banner_record": "banner-stage-verification.json",
+  "sections": {
+    "selector": {
+      "complete": true,
+      "reports": [
+        "sections/selector/local-pc/verification.json",
+        "sections/selector/local-mobile/verification.json",
+        "sections/selector/public/verification.json"
+      ],
+      "cases": 460,
+      "source": "0e57a2d",
+      "pages_commit": "4a9ee453de215341724e032093f60db4452d0511",
+      "run": "37142779719"
+    },
+    "concerns": {
+      "complete": true,
+      "source": "030aff6",
+      "pages_commit": "8b9893c52d6aade0aeba617f52bd5f8d0baaab49",
+      "run": "37143872649",
+      "local_cases": 184,
+      "public_cases": 184,
+      "reports": [
+        "sections/concerns/local/verification.json",
+        "sections/concerns/pc/verification.json",
+        "sections/concerns/mobile-before/verification.json",
+        "sections/concerns/public-recheck/verification.json",
+        "sections/concerns/public-mobile-webkit/verification.json"
+      ],
+      "superseded_failures": "Two desktop washer/front cases are replaced by the final four-case recheck; all other public cases were unchanged."
+    },
+    "introduction": {
+      "complete": true,
+      "source": "1da3cde",
+      "pages_commit": "43230141469a050ef67101367de606b2ae9de325",
+      "run": "37144912408",
+      "public_cases": 184,
+      "local_recheck_cases": 44,
+      "reports": [
+        "sections/introduction/pc/verification.json",
+        "sections/introduction/mobile/verification.json",
+        "sections/introduction/local-recheck/verification.json",
+        "sections/introduction/public-recheck/verification.json"
+      ],
+      "superseded_failures": "Twenty-two mobile cases for 11 detail headings were corrected and replaced by the final local and public rechecks. Other pages were unchanged. All available photo tabs were exercised."
+    },
+    "reasons": {
+      "complete": true,
+      "public_cases": 184,
+      "reports": [
+        "sections/reasons/pc/verification.json",
+        "sections/reasons/mobile/verification.json"
+      ],
+      "result": "All circle, navy-panel, text, POINT and curve styles and section-relative geometry match aircon. No product change needed."
+    },
+    "lineup": {
+      "complete": true,
+      "public_cases": 184,
+      "reports": [
+        "sections/lineup/pc/verification.json",
+        "sections/lineup/mobile/verification.json"
+      ],
+      "result": "Full group titles, shared gradient, rounded LINEUP projection and spacing match aircon; text wraps naturally where the full mobile title requires it."
+    },
+    "products": {
+      "complete": true,
+      "source": "6308ace",
+      "pages_commit": "4c2ea5796dbe7bcdf912b5eb5ece9287f45cb960",
+      "run": "37147085131",
+      "public_cases": 184,
+      "local_recheck_cases": 8,
+      "public_recheck_cases": 8,
+      "reports": [
+        "sections/products/pc/verification.json",
+        "sections/products/mobile/verification.json",
+        "sections/products/local-recheck/verification.json",
+        "sections/products/public-recheck/verification.json"
+      ],
+      "result": "Shared product photo/frame/text styles; 248 option-panel open/close operations and 32 variant switches passed across desktop/mobile and both engines. Quantity-free quote CTA corrected on two routes, then local/public rechecked. Browser-native auto margin and the existing 16px gap following a variant selector are intentional."
+    },
+    "offers": {
+      "complete": true,
+      "source": "d3e8922",
+      "pages_commit": "ac061909c7dd7ca370e5a62e2ea3559e17ca0a93",
+      "run": "37147781578",
+      "local_cases": 24,
+      "public_cases": 24,
+      "reports": [
+        "sections/offers/local-final/verification.json",
+        "sections/offers/public/verification.json",
+        "sections/offers/breakpoints/verification.json"
+      ],
+      "result": "All four categories with existing offers reuse the accepted section and card components. Desktop, 414px and 320px checked in both engines, including all aircon tabs and quantity selections. Other pages have no catalogue offer and do not receive invented ones.",
+      "additional_breakpoint_cases": 16
+    },
+    "voices": {
+      "complete": true,
+      "source": "c4c356f",
+      "pages_commit": "3e5cafd56a8a31afcd4c089c6d914e6af92e63d0",
+      "run": "37148428858",
+      "local_cases": 184,
+      "public_cases": 184,
+      "reports": [
+        "sections/voices/local-pc/verification.json",
+        "sections/voices/local-mobile/verification.json",
+        "sections/voices/public/verification.json",
+        "sections/voices/order-balance.json"
+      ],
+      "result": "All 276 complete profiles, star labels and bubble styles checked. Nine whole-profile order swaps balance longest review positions to 8/8/8/8/7/7; accepted aircon profiles unchanged. No duplicated nickname, title or body."
+    },
+    "faq": {
+      "complete": true,
+      "public_cases": 184,
+      "answers_opened_and_closed": 920,
+      "reports": [
+        "sections/faq/pc/verification.json",
+        "sections/faq/mobile/verification.json"
+      ],
+      "result": "Shared closed-question styles and spacing match aircon; every answer opened and closed with aria states, visibility, full text and width verified. Service-specific questions and natural text wrapping preserved; opened desktop/mobile samples visually reviewed."
+    },
+    "flow": {
+      "complete": true,
+      "public_cases": 184,
+      "reports": [
+        "sections/flow/pc/verification.json",
+        "sections/flow/mobile/verification.json"
+      ],
+      "result": "Shared five steps, full text, SVG masks, header image, arrows, background, styles and section-relative geometry match aircon in both engines at desktop and mobile sizes. Representative full sections visually reviewed; no product changes required."
+    },
+    "featured": {
+      "complete": true,
+      "public_cases": 184,
+      "reports": [
+        "sections/featured/pc/verification.json",
+        "sections/featured/mobile/verification.json"
+      ],
+      "result": "Shared rounded heading decoration, eight complete category labels, SVG icons, cards, background, styles and section-relative geometry match aircon in both engines at desktop and mobile sizes. Representative full sections visually reviewed; no product change required."
+    },
+    "shared_ui": {
+      "complete": true,
+      "source": "4339b2662c52f52035fa10d037e829f085997590",
+      "pages_commit": "0d5b9e5c6065a777dc64106b695101f7d284e233",
+      "run": "37152560542",
+      "pages": 97,
+      "public_layout_cases": 194,
+      "public_operation_cases": 48,
+      "local_corporate_cases": 4,
+      "reports": [
+        "sections/shared-ui/static.json",
+        "sections/shared-ui/main-preservation.json",
+        "sections/shared-ui/local/all-pages-layout.json",
+        "sections/shared-ui/public/all-pages-layout-before.json",
+        "sections/shared-ui/public/all-pages-layout.json",
+        "sections/shared-ui/corporate-local/shared-ui-browser.json",
+        "sections/shared-ui/public-final/all-pages-layout.json",
+        "sections/shared-ui/public-final/shared-ui-browser.json"
+      ],
+      "superseded_failures": "Four legacy page/width cases in the initial layout check are replaced by the later 194-case checks. Two page-specific stylesheets were scoped or cleaned. Corporate floating actions are hidden only while the footer is visible, with all eight SNS/bottom links unobscured and restoration verified.",
+      "result": "All 97 static header/footer fragments and all menu destinations verified. All 194 final public layouts match the canonical aircon within 0.15px; 48 Chrome/WebKit desktop/mobile operation cases passed. Native page height and scrolling preserved."
+    }
+  },
+  "scope": {
+    "service_pages": 46,
+    "category_pages": 8,
+    "detail_pages": 38,
+    "shared_ui_pages": 97,
+    "non_service_main_changed": false
+  },
+  "publication": {
+    "source": "4339b2662c52f52035fa10d037e829f085997590",
+    "pages_commit": "0d5b9e5c6065a777dc64106b695101f7d284e233",
+    "run": "37152560542",
+    "origin": "https://yasojima.github.io/",
+    "http_report": "../../source/deployment-verification.json",
+    "http_checks": 211,
+    "passed": true,
+    "source_site_tree": "bee4c9d34bff2243824bc6fc6ff055c875d09b89"
+  },
+  "intentional_variations": [
+    "Service-specific photos, alt, two-line copy and crop position.",
+    "Selector rows, product and option counts follow catalogue; full names wrap at narrow widths.",
+    "Aircon retains its three Before/After tabs; other services use appropriate single photographs.",
+    "Only four categories have pre-existing combination offers; product IDs and prices preserved.",
+    "Six demo review profiles per page differ in content and length; natural bubble heights vary.",
+    "FAQ final two questions follow each service; full text wraps naturally."
+  ],
+  "device_acceptance": {
+    "iphone_physical": false,
+    "browser_chrome_and_webkit": true,
+    "native_elastic_scrolling": "preserved; not forced or suppressed"
+  },
+  "checked_at": "2026-10-03T20:54:07.236730+00:00",
+  "all_sections_complete": true,
+  "completion_scope": "Implementation, staged publication, source/browser verification and documentation complete; human visual adoption and physical iPhone acceptance remain separate."
+}

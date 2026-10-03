@@ -79,6 +79,7 @@ if __name__ == "__main__":
                   '/assets/css/aircon-header.css', '/assets/js/aircon-header.js',
                   '/assets/css/aircon-hero.css', '/assets/css/aircon-layout.css',
                   '/assets/css/service-format.css', '/assets/css/site-footer.css',
+                  '/assets/css/business/common.css', '/assets/css/2027problem/2027problem.css',
                   '/assets/images/common-parts/decoration/section-arrows-black.svg',
                   '/assets/images/voices/reference-rating.webp',
                   *[f'/assets/images/voices/{name}.svg' for name in

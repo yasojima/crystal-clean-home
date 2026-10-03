@@ -1,0 +1,31 @@
+{
+  "preserved": "All 276 profile objects and accepted aircon order; only nine page orders changed",
+  "before": {
+    "1": 8,
+    "2": 13,
+    "3": 3,
+    "4": 4,
+    "5": 9,
+    "6": 9
+  },
+  "after": {
+    "1": 8,
+    "2": 8,
+    "3": 8,
+    "4": 8,
+    "5": 7,
+    "6": 7
+  },
+  "changes": [
+    {"route":"aircon/ceil","from":2,"to":3},
+    {"route":"coating","from":2,"to":3},
+    {"route":"coating/toilet","from":6,"to":4},
+    {"route":"coating/bathroom","from":5,"to":3},
+    {"route":"coating/uv-coating","from":5,"to":4},
+    {"route":"kitchen/fan","from":6,"to":3},
+    {"route":"kitchen/rei","from":2,"to":4},
+    {"route":"pack/entirety","from":2,"to":3},
+    {"route":"pack/move","from":2,"to":4}
+  ],
+  "rating_orders": 41
+}
