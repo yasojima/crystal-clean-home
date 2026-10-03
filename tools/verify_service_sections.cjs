@@ -5,17 +5,20 @@ const {chromium, webkit} = require(process.env.PLAYWRIGHT_MODULE || 'C:/Users/ya
 const sharp = require('C:/Users/yasoj/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/sharp');
 const root = path.resolve(__dirname, '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/catalogue.json'), 'utf8'));
+const copy = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/copy.json'), 'utf8'));
 const origin = process.argv[2] || 'http://127.0.0.1:8769';
 const output = process.argv[3] || 'evidence/2026-10-04/sections/selector';
 const phase = process.argv[4] || 'selector';
 const sizes = (process.env.SECTION_SIZES || '1734x1321,414x688').split(',').map(s => {const [width, height] = s.split('x').map(Number); return {width, height};});
 const routes = Object.keys(catalogue.pages).filter(r => !process.env.SECTION_ROUTES || process.env.SECTION_ROUTES.split(',').includes(r));
 const inspectOnly = process.env.SECTION_INSPECT === '1';
-const styleKeys = ['fontFamily','fontSize','fontWeight','lineHeight','letterSpacing','color','backgroundColor','backgroundImage','padding','borderRadius','borderColor','borderWidth','boxShadow','alignItems','justifyContent'];
+const styleKeys = ['fontFamily','fontSize','fontWeight','lineHeight','letterSpacing','textAlign','color','backgroundColor','backgroundImage','padding','marginTop','marginBottom','rowGap','columnGap','borderRadius','borderColor','borderWidth','boxShadow','alignItems','justifyContent'];
 const definitions = {
  selector: {root: '.c-service-selector', components: {
   heading: '.p-page-anchors__heading', card: '.c-page-anchors__anchor', top: '.c-category-simple-card__top', bottom: '.c-category-simple-card__bottom', label: '.c-category-simple-card__text', icon: '.c-category-simple-card__icon'
  }},
+ concerns: {root:'#service-introduction .c-issue-list',components:{heading:'.c-issue-list__heading',card:'.c-issue-card',inner:'.c-issue-card__inner',icon:'.c-issue-card__icon-circle',text:'.c-issue-card__text'}},
+ introduction: {root:'#service-introduction .p-content-box',components:{heading:'.p-content-box__heading',content:'.p-content-box__content',tabs:'.c-tab__buttons',button:'.c-tab__button[aria-selected="true"]',photo:'.c-compare-image-tab__compare-image',text:'.c-compare-image-tab__text'}},
 };
 assert(definitions[phase], `Unknown phase ${phase}`);
 fs.mkdirSync(output, {recursive: true});
@@ -28,7 +31,8 @@ async function read(page) {
   const textOverflow = n => {if(!n.textContent.trim())return false;const range=document.createRange();range.selectNodeContents(n);const box=n.getBoundingClientRect();return [...range.getClientRects()].some(r=>r.left<box.left-1||r.right>box.right+1);};
   const components = {};
   for (const [key, selector] of Object.entries(definition.components)) components[key] = [...root.querySelectorAll(selector)].filter(n=>n.getBoundingClientRect().height>0).map(n=>({rect:rect(n),style:style(n),text:n.innerText||'',overflow:textOverflow(n),after:{...style(n,'::after'),content:getComputedStyle(n,'::after').content,mask:getComputedStyle(n,'::after').maskImage},mask:getComputedStyle(n).maskImage}));
-  return {rect:rect(root),style:style(root),components,images:[...root.querySelectorAll('img')].filter(i=>i.getBoundingClientRect().height>0).map(i=>({src:new URL(i.currentSrc||i.src).pathname,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight})),anchors:[...root.querySelectorAll('.c-page-anchors a')].map(a=>({href:a.getAttribute('href'),exists:!!document.querySelector(a.getAttribute('href')),text:a.textContent.trim()})),overflow:document.documentElement.scrollWidth>innerWidth+1};
+  const section=root.closest('section');
+  return {rect:rect(root),style:style(root),context:section?{style:style(section),before:{...style(section,'::before'),mask:getComputedStyle(section,'::before').maskImage},curves:[...section.querySelectorAll('.c-section-curve')].map(c=>({rect:rect(c),style:style(c),mask:getComputedStyle(c).maskImage}))}:null,components,images:[...root.querySelectorAll('img')].filter(i=>i.getBoundingClientRect().height>0).map(i=>({src:new URL(i.currentSrc||i.src).pathname,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight})),anchors:[...root.querySelectorAll('.c-page-anchors a')].map(a=>({href:a.getAttribute('href'),exists:!!document.querySelector(a.getAttribute('href')),text:a.textContent.trim()})),overflow:document.documentElement.scrollWidth>innerWidth+1};
  }, {definition:definitions[phase], styleKeys});
 }
 function checkSelector(actual, reference, route, viewport) {
@@ -51,6 +55,40 @@ function checkSelector(actual, reference, route, viewport) {
  }
  assert.equal(actual.style.padding, reference.style.padding, 'selector outside space differs');
 }
+function checkConcerns(actual,reference,route,viewport){
+ assert(actual && !actual.overflow,'concerns missing or page overflows');
+ const expected=(route.includes('/')?copy.details[route]:copy.categories[catalogue.pages[route].category]).concerns;
+ assert.deepEqual(actual.components.text.map(c=>c.text.split('\n').join('')),expected.map(p=>p.join('')),'concerns do not match this service');
+ assert.deepEqual(actual.context.style,reference.context.style,'section space or background differs');
+ assert.deepEqual(actual.context.before,reference.context.before,'wave or arrow decoration differs');
+ assert.equal(actual.context.curves.length,reference.context.curves.length);
+ for(let i=0;i<actual.context.curves.length;i++){
+  assert.deepEqual(actual.context.curves[i].style,reference.context.curves[i].style);
+  assert.equal(actual.context.curves[i].mask,reference.context.curves[i].mask);
+ }
+ for(const [key,items] of Object.entries(actual.components))for(const item of items){
+  const canonical=reference.components[key][0];
+  assert.deepEqual(item.style,canonical.style,`${key} styles differ from aircon`);
+  assert.deepEqual(item.after,canonical.after,`${key} decoration differs from aircon`);
+  assert(!item.overflow,`${key} clips full text`);
+  if(key!=='text')assert(Math.abs(item.rect.width-canonical.rect.width)<.1,`${key} width differs from aircon`);
+  if(key==='text')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'concern text wraps beyond the original two lines');
+  if(key==='card' || key==='icon')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,`${key} height differs from aircon`);
+ }
+}
+function checkIntroduction(actual,reference,route,viewport){
+ assert(actual && !actual.overflow,'introduction missing or page overflows');
+ for(const [key,items] of Object.entries(actual.components))for(const item of items){
+  const canonical=reference.components[key][0];
+  assert.deepEqual(item.style,canonical.style,`${key} styles differ from aircon`);
+  assert(!item.overflow,`${key} clips full text`);
+  if(['heading','content','photo'].includes(key))assert(Math.abs(item.rect.width-canonical.rect.width)<.1,`${key} width differs from aircon`);
+  if(key==='photo')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'photo ratio differs from aircon');
+  if(key==='heading')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'introductory heading adds unintended lines');
+ }
+ assert(actual.images.length && actual.images.every(i=>i.width===1536&&i.height===1024),'introduction photo missing');
+}
+const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction};
 async function capture(page, route, engine, viewport, items) {
  const file = `${engine}-${viewport.width}-${route.replaceAll('/','-')}.png`;
  const locator = page.locator(definitions[phase].root).first();
@@ -80,7 +118,7 @@ async function gallery(items, engine, viewport) {
    const context=await browser.newContext({viewport,isMobile:viewport.width<768,hasTouch:viewport.width<768});
    const page=await context.newPage();page.setDefaultTimeout(10000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
-   const settle=async()=>{await page.evaluate(async()=>{await document.fonts.ready;await Promise.all([...document.querySelectorAll('img')].filter(i=>i.closest('.c-service-selector')).map(i=>i.decode().catch(()=>{})));});};
+   const settle=async()=>{await page.evaluate(async({selector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section){section.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...section.querySelectorAll('img')].map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
    const captures=[];
@@ -89,7 +127,7 @@ async function gallery(items, engine, viewport) {
     try {
      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'load'});assert.equal(response.status(),200);await settle();
      result.measurement=await read(page);
-     if(!inspectOnly) checkSelector(result.measurement,reference,route,viewport);
+     if(!inspectOnly) checkPhase[phase](result.measurement,reference,route,viewport);
      assert.deepEqual(runtime,[],'runtime errors');result.passed=true;
      if(engine==='Chrome' && process.env.SECTION_SCREENSHOTS!=='none') await capture(page,route,engine,viewport,captures);
     }catch(e){result.reason=e.message;errors.push({engine,viewport,route,reason:e.message});console.log(JSON.stringify({FAIL:route,engine,viewport,reason:e.message}));}
