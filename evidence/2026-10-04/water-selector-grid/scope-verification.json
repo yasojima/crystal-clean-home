@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "baseline": "632c013",
+  "sourceCommit": "f090e69e582f3b2b9d85a8a3f8790be7d381a7fd",
+  "changedPublishedFiles": [
+    "source/site/house-cleaning/pack/index.html",
+    "source/site/house-cleaning/water/index.html"
+  ],
+  "onlyPackLabelAndWaterGridChanged": true,
+  "sharedCssAssetsUnchanged": true
+}
