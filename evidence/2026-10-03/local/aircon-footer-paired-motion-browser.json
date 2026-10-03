@@ -1,0 +1,234 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "passed": true,
+  "middleBefore": {
+    "scrollY": 1800,
+    "maxScrollY": 13438,
+    "headerHidden": false,
+    "headerBottom": 96,
+    "footerHeight": 588.109375,
+    "cartVisibility": "visible"
+  },
+  "normalTouch": {
+    "samples": [
+      {
+        "scrollY": 1813,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 1842,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": 70.894287109375,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 1870,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": 23.1632080078125,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 1898,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": 4.8067626953125,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 1927,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": -0.7099609375,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 1955,
+        "maxScrollY": 13438,
+        "headerHidden": true,
+        "headerBottom": -1,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      }
+    ],
+    "held": {
+      "scrollY": 1955,
+      "maxScrollY": 13438,
+      "headerHidden": true,
+      "headerBottom": -1,
+      "footerHeight": 588.109375,
+      "cartVisibility": "visible"
+    }
+  },
+  "after200": {
+    "scrollY": 1955,
+    "maxScrollY": 13438,
+    "headerHidden": true,
+    "headerBottom": -1,
+    "footerHeight": 588.109375,
+    "cartVisibility": "visible"
+  },
+  "idle": {
+    "scrollY": 1955,
+    "maxScrollY": 13438,
+    "headerHidden": false,
+    "headerBottom": 96,
+    "footerHeight": 588.109375,
+    "cartVisibility": "visible"
+  },
+  "endBefore": {
+    "scrollY": 13438,
+    "maxScrollY": 13438,
+    "headerHidden": false,
+    "headerBottom": 96,
+    "footerHeight": 588.109375,
+    "cartVisibility": "hidden"
+  },
+  "endDrag": {
+    "samples": [
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      },
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      },
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      },
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      },
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      },
+      {
+        "scrollY": 13438,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "hidden"
+      }
+    ],
+    "held": {
+      "scrollY": 13438,
+      "maxScrollY": 13438,
+      "headerHidden": false,
+      "headerBottom": 96,
+      "footerHeight": 588.109375,
+      "cartVisibility": "hidden"
+    }
+  },
+  "endAfter": {
+    "scrollY": 13438,
+    "maxScrollY": 13438,
+    "headerHidden": false,
+    "headerBottom": 96,
+    "footerHeight": 588.109375,
+    "cartVisibility": "hidden"
+  },
+  "topDrag": {
+    "samples": [
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      },
+      {
+        "scrollY": 0,
+        "maxScrollY": 13438,
+        "headerHidden": false,
+        "headerBottom": 96,
+        "footerHeight": 588.109375,
+        "cartVisibility": "visible"
+      }
+    ],
+    "held": {
+      "scrollY": 0,
+      "maxScrollY": 13438,
+      "headerHidden": false,
+      "headerBottom": 96,
+      "footerHeight": 588.109375,
+      "cartVisibility": "visible"
+    }
+  },
+  "topAfter": {
+    "scrollY": 0,
+    "maxScrollY": 13438,
+    "headerHidden": false,
+    "headerBottom": 96,
+    "footerHeight": 588.109375,
+    "cartVisibility": "visible"
+  },
+  "errors": [],
+  "limits": "Chrome CDP touch gestures on a hidden desktop browser; iPhone native rubber-band and browser toolbar movement are not reproduced."
+}

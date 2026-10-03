@@ -553,6 +553,49 @@ def decorate_aircon_sections(main):
     add_section_curve(main.select_one('#service-flow').find_next_sibling('section'), 'down', '#fff')
 
 
+def refine_aircon_mobile_footer(output):
+    """Pair mobile headings before their full-width details; preserve the PC fragment."""
+    def replace_mobile(match):
+        mobile = parse(match.group()).select_one('.u-sp-only')
+        menu = mobile.select_one('.aircon-footer-menu') or mobile.select_one('.js-accordion')
+        headings = menu.select('.c-footer-item-heading')
+        pairs = []
+        for heading in headings:
+            trigger = heading.select_one('.js-accordion-trigger')
+            panel = menu.select_one('#' + trigger['aria-controls'])
+            label = heading.get_text(strip=True)
+            trigger['id'] = panel['id'] + '-trigger'
+            trigger['aria-expanded'] = 'false'
+            trigger['aria-label'] = label + 'の詳細'
+            panel['aria-hidden'] = 'true'
+            panel['role'] = 'region'
+            panel['aria-labelledby'] = trigger['id']
+            if not panel.select_one('.aircon-footer-menu__detail-heading'):
+                panel.insert(0, tag('p', 'aircon-footer-menu__detail-heading', label))
+            pairs.append((heading.extract(), panel.extract()))
+        grouped = tag('div', 'aircon-footer-menu')
+        for start in range(0, len(pairs), 2):
+            row = tag('div', 'aircon-footer-menu__row js-accordion', **{'data-simple-type': 'false'})
+            for heading, _ in pairs[start:start + 2]:
+                row.append(heading)
+            for _, panel in pairs[start:start + 2]:
+                row.append(panel)
+            grouped.append(row)
+        menu.replace_with(grouped)
+        phone = mobile.select_one('.footer-tel-sp')
+        if not phone.select_one('.aircon-footer-page-top--mobile'):
+            phone.select_one('.footer-tel-img').insert_after(tag(
+                'a', 'c-footer__page-top aircon-footer-page-top--mobile',
+                href='#first-view', **{'aria-label': 'ファーストビューへ戻る'}))
+        return re.sub(r'>\s+<', '>\n<', str(mobile)) + '\n'
+
+    output = re.sub(r'<div class="u-sp-only">.*?(?=<div class="u-pc-only">)',
+                    replace_mobile, output, count=1, flags=re.S)
+    output = output.replace('class="c-footer__page-top" href="#first-view"',
+                            'class="c-footer__page-top aircon-footer-page-top--desktop" href="#first-view"', 1)
+    return apply_site_identity(output, True)
+
+
 def refine_aircon_footer(output):
     document = parse(output)
     coating_links = document.select('footer .u-pc-only .c-aircon-footer__coating-links a[href]')
@@ -618,7 +661,7 @@ def refine_aircon_footer(output):
         return re.sub(r'>\s+<', '>\n<', str(footer))
 
     output = re.sub(r'<footer\b[^>]*>.*?</footer>', replace_footer, output, count=1, flags=re.S)
-    return apply_site_identity(output, True)
+    return refine_aircon_mobile_footer(apply_site_identity(output, True))
 
 
 def refine_aircon_navigation(output, catalogue):
@@ -772,7 +815,7 @@ def render(route, page, catalogue, copy):
                             hero_css, output)
         else:
             output = output.replace('</head>', hero_css + '\n</head>', 1)
-        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100312">'
+        layout_css = '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100313">'
         if '/assets/css/aircon-layout.css' in output:
             output = re.sub(r'<link rel="stylesheet" href="/assets/css/aircon-layout\.css\?v=\d+">',
                             layout_css, output)
