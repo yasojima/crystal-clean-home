@@ -19,6 +19,8 @@ const definitions = {
  }},
  concerns: {root:'#service-introduction .c-issue-list',components:{heading:'.c-issue-list__heading',card:'.c-issue-card',inner:'.c-issue-card__inner',icon:'.c-issue-card__icon-circle',text:'.c-issue-card__text'}},
  introduction: {root:'#service-introduction .p-content-box',components:{heading:'.p-content-box__heading',content:'.p-content-box__content',tabs:'.c-tab__buttons',button:'.c-tab__button[aria-selected="true"]',photo:'.c-compare-image-tab__compare-image',text:'.c-compare-image-tab__text'}},
+ reasons: {root:'main > section:has(.p-reasons)',components:{heading:'.p-reasons__heading',grid:'.c-reasons',item:'.c-reasons__item',circle:'.c-reasons__card',point:'.c-reasons__point',title:'.c-reason-card__heading',text:'.c-reason-card__description',navy:'.c-reasons__navy'}},
+ lineup: {root:'#apply',capture:'.c-lineup-heading',needImages:false,components:{band:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00)',title:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__contain',label:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__label'}},
 };
 assert(definitions[phase], `Unknown phase ${phase}`);
 fs.mkdirSync(output, {recursive: true});
@@ -32,7 +34,7 @@ async function read(page) {
   const components = {};
   for (const [key, selector] of Object.entries(definition.components)) components[key] = [...root.querySelectorAll(selector)].filter(n=>n.getBoundingClientRect().height>0).map(n=>({rect:rect(n),style:style(n),text:n.innerText||'',overflow:textOverflow(n),after:{...style(n,'::after'),content:getComputedStyle(n,'::after').content,mask:getComputedStyle(n,'::after').maskImage},mask:getComputedStyle(n).maskImage}));
   const section=root.closest('section');
-  return {rect:rect(root),style:style(root),context:section?{style:style(section),before:{...style(section,'::before'),mask:getComputedStyle(section,'::before').maskImage},curves:[...section.querySelectorAll('.c-section-curve')].map(c=>({rect:rect(c),style:style(c),mask:getComputedStyle(c).maskImage}))}:null,components,images:[...root.querySelectorAll('img')].filter(i=>i.getBoundingClientRect().height>0).map(i=>({src:new URL(i.currentSrc||i.src).pathname,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight})),anchors:[...root.querySelectorAll('.c-page-anchors a')].map(a=>({href:a.getAttribute('href'),exists:!!document.querySelector(a.getAttribute('href')),text:a.textContent.trim()})),overflow:document.documentElement.scrollWidth>innerWidth+1};
+  return {rect:rect(root),style:style(root),context:section?{style:style(section),before:{...style(section,'::before'),mask:getComputedStyle(section,'::before').maskImage},curves:[...section.querySelectorAll('.c-section-curve')].map(c=>({rect:rect(c),style:style(c),mask:getComputedStyle(c).maskImage}))}:null,components,images:definition.needImages===false?[]:[...root.querySelectorAll('img')].filter(i=>i.getBoundingClientRect().height>0).map(i=>({src:new URL(i.currentSrc||i.src).pathname,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight})),anchors:[...root.querySelectorAll('.c-page-anchors a')].map(a=>({href:a.getAttribute('href'),exists:!!document.querySelector(a.getAttribute('href')),text:a.textContent.trim()})),overflow:document.documentElement.scrollWidth>innerWidth+1};
  }, {definition:definitions[phase], styleKeys});
 }
 function checkSelector(actual, reference, route, viewport) {
@@ -88,10 +90,63 @@ function checkIntroduction(actual,reference,route,viewport){
  }
  assert(actual.images.length && actual.images.every(i=>i.width===1536&&i.height===1024),'introduction photo missing');
 }
-const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction};
+function checkExactFrame(actual,reference){
+ assert(actual && !actual.overflow,'section missing or page overflows');
+ assert.deepEqual(actual.style,reference.style,'outer section styles differ');
+ assert(Math.abs(actual.rect.height-reference.rect.height)<.1,'outer section height differs');
+ for(const [key,items] of Object.entries(actual.components)){
+  assert.equal(items.length,reference.components[key].length,`${key} count differs`);
+  for(let i=0;i<items.length;i++){
+   const item=items[i],canonical=reference.components[key][i];
+   assert.deepEqual(item.style,canonical.style,`${key} styles differ from aircon`);
+   assert.deepEqual(item.after,canonical.after,`${key} decoration differs from aircon`);
+   for(const dimension of ['width','height'])assert(Math.abs(item.rect[dimension]-canonical.rect[dimension])<.1,`${key}.${dimension} differs`);
+   for(const axis of ['x','y'])assert(Math.abs((item.rect[axis]-actual.rect[axis])-(canonical.rect[axis]-reference.rect[axis]))<.1,`${key}.${axis} differs within this section`);
+   assert(!item.overflow,`${key} clips full text`);
+  }
+ }
+ if(actual.context){
+  assert.deepEqual(actual.context.style,reference.context.style,'section background or spacing differs');
+  assert.deepEqual(actual.context.before,reference.context.before,'section arrows differ');
+  assert.deepEqual(actual.context.curves.map(c=>({style:c.style,mask:c.mask})),reference.context.curves.map(c=>({style:c.style,mask:c.mask})),'section curves differ');
+ }
+}
+function checkLineup(actual,reference,route){
+ assert(actual && !actual.overflow,'lineup missing or page overflows');
+ assert.equal(actual.components.band.length,catalogue.pages[route].groups.length,'lineup heading count');
+ assert.deepEqual(actual.components.title.map(c=>c.text),catalogue.pages[route].groups.map(g=>g.title),'lineup title missing');
+ for(const [key,items] of Object.entries(actual.components))for(const item of items){
+  assert.deepEqual(item.style,reference.components[key][0].style,`${key} styles differ from aircon`);
+  assert.deepEqual(item.after,reference.components[key][0].after,`${key} decoration differs from aircon`);
+  assert(!item.overflow,`${key} clips title`);
+ }
+}
+const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup};
+async function interact(page,route,viewport){
+ if(phase!=='introduction')return;
+ const primary=catalogue.pages[route].groups[0].products[0];
+ const subjects=route.includes('/')?[primary]:copy.categories[catalogue.pages[route].category].subjects;
+ const buttons=page.locator('#service-introduction .c-tab__button');
+ assert.equal(await buttons.count(),subjects.length);
+ for(let i=0;i<subjects.length;i++){
+  const button=buttons.nth(i);
+  if(subjects.length>1){
+   await button.evaluate(e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-innerHeight*.35,behavior:'instant'}));
+   await button.click();
+  }
+  assert.equal(await button.getAttribute('aria-selected'),'true','photo tab did not activate');
+  const panel=page.locator('#'+await button.getAttribute('aria-controls'));
+  assert(await panel.isVisible(),'photo tab panel hidden');
+  const expected=copy.products[subjects[i]];
+  assert.equal((await panel.locator('.c-compare-image-tab__text').innerText()).trim(),expected.description);
+  if(route!=='aircon')assert((await panel.locator('.c-service-photo img').getAttribute('src')).endsWith('/'+expected.scene+'.webp'),'photo belongs to a different service');
+ }
+ if(subjects.length>1)await buttons.first().click();
+ return {photoTabsOpened:subjects.length};
+}
 async function capture(page, route, engine, viewport, items) {
  const file = `${engine}-${viewport.width}-${route.replaceAll('/','-')}.png`;
- const locator = page.locator(definitions[phase].root).first();
+ const locator = page.locator(definitions[phase].capture||definitions[phase].root).first();
  await locator.scrollIntoViewIfNeeded();
  const buffer = await locator.screenshot({animations:'disabled',style:'.c-header, #js-floating, #viewport-hud { visibility: hidden !important; }'});
  if(['aircon','pack','room','water'].includes(route))fs.writeFileSync(path.join(output,file),buffer);
@@ -118,7 +173,7 @@ async function gallery(items, engine, viewport) {
    const context=await browser.newContext({viewport,isMobile:viewport.width<768,hasTouch:viewport.width<768});
    const page=await context.newPage();page.setDefaultTimeout(10000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
-   const settle=async()=>{await page.evaluate(async({selector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section){section.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...section.querySelectorAll('img')].map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root});};
+   const settle=async()=>{await page.evaluate(async({selector,images})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){section.querySelectorAll('img').forEach(i=>i.loading='eager');await Promise.all([...section.querySelectorAll('img')].map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
    const captures=[];
@@ -128,8 +183,9 @@ async function gallery(items, engine, viewport) {
      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'load'});assert.equal(response.status(),200);await settle();
      result.measurement=await read(page);
      if(!inspectOnly) checkPhase[phase](result.measurement,reference,route,viewport);
+     if(!inspectOnly) result.operations=await interact(page,route,viewport);
      assert.deepEqual(runtime,[],'runtime errors');result.passed=true;
-     if(engine==='Chrome' && process.env.SECTION_SCREENSHOTS!=='none') await capture(page,route,engine,viewport,captures);
+   if(engine==='Chrome' && process.env.SECTION_SCREENSHOTS!=='none') await capture(page,route,engine,viewport,captures);
     }catch(e){result.reason=e.message;errors.push({engine,viewport,route,reason:e.message});console.log(JSON.stringify({FAIL:route,engine,viewport,reason:e.message}));}
     if(!inspectOnly && result.measurement)result.measurement={rect:result.measurement.rect,images:result.measurement.images,anchors:result.measurement.anchors,components:Object.fromEntries(Object.entries(result.measurement.components).map(([key,items])=>[key,items.map(({text,rect,overflow,mask})=>({text,rect,overflow,mask}))]))};
     checks.push(result);
