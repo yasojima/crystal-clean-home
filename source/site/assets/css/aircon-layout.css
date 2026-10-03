@@ -94,27 +94,7 @@
 
 @media (max-width: 767.98px) {
   .c-footer--aircon {
-    --aircon-footer-viewport-height: 100svh;
-    --aircon-footer-row-height: max(56px, calc((var(--aircon-footer-viewport-height) - var(--aircon-footer-fixed-height, 308px)) / var(--aircon-footer-row-count, 5)));
-  }
-
-  @supports (height: 100dvh) {
-    .c-footer--aircon {
-      --aircon-footer-viewport-height: 100dvh;
-    }
-
-    html {
-      scroll-snap-type: y proximity;
-      scroll-padding: 0;
-    }
-
-    .c-footer--aircon:not(:has(.c-footer-accordion__content[aria-hidden="false"])) .c-footer__bottom-nav {
-      scroll-snap-align: end;
-    }
-  }
-
-  html {
-    overscroll-behavior-y: none;
+    --aircon-footer-row-height: max(56px, calc((100svh - var(--aircon-footer-fixed-height, 308px)) / var(--aircon-footer-row-count, 5)));
   }
 
   .c-floating-buttons.is-footer-area,
