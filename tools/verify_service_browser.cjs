@@ -17,6 +17,14 @@ async function settle(page){
  await page.waitForLoadState('load');
  await page.evaluate(async()=>{document.querySelectorAll('main img').forEach(img=>img.loading='eager');await document.fonts.ready;await Promise.all([...document.querySelectorAll('main img')].map(img=>img.decode().catch(()=>{})));});
  await page.waitForFunction(()=>[...document.querySelectorAll('main img')].every(img=>img.complete));
+ const avatars=await page.evaluate(async()=>Promise.all([...document.querySelectorAll('main .c-voice-card')].map(async card=>{
+  const background=getComputedStyle(card,'::before').backgroundImage,match=background.match(/^url\(["']?(.*?)["']?\)$/);
+  if(!match)return {source:background,loaded:false};
+  const img=new Image();img.src=match[1];await img.decode().catch(()=>{});
+  return {source:img.src,loaded:img.naturalWidth>0&&img.naturalHeight>0};
+ })));
+ assert(avatars.length===6&&avatars.every(a=>a.loaded),'voice avatar image failed to decode');
+ return avatars;
 }
 async function bring(page,locator){
  await locator.evaluate(e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-innerHeight*.35,behavior:'instant'}));
@@ -30,11 +38,11 @@ async function bring(page,locator){
     try{
     const context=await browser.newContext({viewport:{width,height:width<768?688:800},isMobile:width<768,hasTouch:width<768});
     for(const route of routes){
-     const page=await context.newPage();page.setDefaultTimeout(8000);await page.addInitScript(()=>localStorage.clear());
+     const page=await context.newPage();page.setDefaultTimeout(8000);page.setDefaultNavigationTimeout(45000);await page.addInitScript(()=>localStorage.clear());
      const runtime=[],failedRequests=[];const listener=e=>runtime.push(e.message),requestListener=r=>failedRequests.push({url:r.url(),reason:r.failure()?.errorText});page.on('pageerror',listener);page.on('requestfailed',requestListener);
      const result={engine,route,width,passed:false};
      try{
-      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'domcontentloaded'});assert.equal(response.status(),200);await settle(page);
+      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'domcontentloaded'});assert.equal(response.status(),200);result.avatars=await settle(page);
       assert.equal(await page.locator('main[data-service-layout="shared-v2"]').count(),1);
       const layout=await page.evaluate(()=>{
        const main=document.querySelector('main'),labels=[...main.querySelectorAll('.c-category-simple-card__text,.c-tab__button,.c-voice-card__nickname')].filter(e=>e.getBoundingClientRect().height);
@@ -55,11 +63,12 @@ async function bring(page,locator){
       assert.equal(layout.profiles,6);assert.equal(layout.firstViews,1);assert.equal(layout.reasonColor,'rgb(38, 69, 116)');
       assert(layout.reasonSize.every(r=>r.width<=305&&Math.abs(r.width-r.height)<2),'reason circles');
       assert.deepEqual(layout.voices.map(v=>v.name),voices[route].map(v=>v.nickname));assert.deepEqual(layout.voices.map(v=>v.rating),voices[route].map(v=>`5つ星中${v.rating}つ星`));assert(layout.voices.every(v=>v.avatar.includes('/voices/')));
+      assert(layout.voices.every((v,i)=>v.avatar.includes(`/voices/${voices[route][i].avatar}.svg`)),'voice avatar differs from service profile');
       for(const key of ['demographic','title','body'])assert.deepEqual(layout.voices.map(v=>v[key].trim()),voices[route].map(v=>v[key]));
       const concerns=route.includes('/')?copy.details[route].concerns:copy.categories[catalogue.pages[route].category].concerns;
       assert.deepEqual(layout.concerns,concerns.map(pair=>pair.join('')),'service-specific concerns');
       if(layout.plan){assert.equal(layout.plan.text,'人気の組み合わせプラン');assert.equal(layout.plan.lines,1);}
-      if(!route.includes('/'))assert((await page.screenshot({path:path.join(output,`${engine}-${width}-${route}-top.png`)})).length>0,'empty browser screenshot');
+      if(!route.includes('/')&&process.env.SERVICE_SCREENSHOTS!=='none')assert((await page.screenshot({path:path.join(output,`${engine}-${width}-${route}-top.png`)})).length>0,'empty browser screenshot');
       if(mode==='all'){
        const anchor=page.locator('.c-page-anchors a').last(),target=await anchor.getAttribute('href');await bring(page,anchor);await anchor.click();await page.waitForFunction(id=>{const y=document.querySelector(id).getBoundingClientRect().top;return y>=-1&&y<180},target);
        const faq=page.locator('.c-faq-accordion__trigger').first();await bring(page,faq);await faq.click();assert.equal(await faq.getAttribute('aria-expanded'),'true');await page.waitForFunction(id=>document.getElementById(id).getBoundingClientRect().height>10,await faq.getAttribute('aria-controls'));await page.waitForTimeout(350);await bring(page,faq);await faq.click();

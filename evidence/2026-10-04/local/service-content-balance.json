@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-03T20:44:53.390565+00:00",
+  "checked_at": "2026-10-03T22:39:37.529974+00:00",
   "pages": 46,
   "reviews": 276,
   "purpose": "fictional-client-demo",
@@ -11,6 +11,18 @@
     "5": 7,
     "6": 7
   },
+  "first_long_review_positions": {
+    "1": 7,
+    "2": 7,
+    "3": 8,
+    "4": 6,
+    "5": 5,
+    "6": 6,
+    "none": 7
+  },
+  "long_review_threshold_characters": 90,
+  "unique_avatar_orders": 46,
+  "unique_rating_orders": 41,
   "rating_distributions": [
     {
       "ratings": [
@@ -328,6 +340,15 @@
         67
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "woman-long",
+        "man-short",
+        "woman-bob",
+        "woman-senior",
+        "man-young",
+        "man-senior"
+      ],
       "review_titles": [
         "複数台の吹き出し口の汚れを相談できました",
         "壁掛けと天井型の違いに安心",
@@ -416,6 +437,15 @@
         100
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "man-senior",
+        "woman-long",
+        "woman-long",
+        "woman-long",
+        "man-young",
+        "man-short"
+      ],
       "review_titles": [
         "相談しながら決められます",
         "住んだままで大丈夫でした",
@@ -499,6 +529,15 @@
         38
       ],
       "longest_position": 5,
+      "first_90_character_review_position": 5,
+      "avatar_order": [
+        "woman-senior",
+        "woman-long",
+        "man-young",
+        "man-senior",
+        "woman-bob",
+        "woman-long"
+      ],
       "review_titles": [
         "日程は早めがよさそう",
         "鏡が見やすくなりました",
@@ -605,6 +644,15 @@
         43
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "man-short",
+        "woman-bob",
+        "woman-long",
+        "man-senior",
+        "woman-long",
+        "woman-senior"
+      ],
       "review_titles": [
         "槽の中を見てびっくり",
         "中古の洗濯機を使う前に",
@@ -689,6 +737,15 @@
         35
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "woman-long",
+        "woman-senior",
+        "woman-bob",
+        "man-short",
+        "woman-bob",
+        "man-young"
+      ],
       "review_titles": [
         "換気扇とまとめてお願い",
         "冷蔵庫の棚だけでなく",
@@ -780,6 +837,15 @@
         49
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-bob",
+        "man-short",
+        "woman-long",
+        "man-short",
+        "woman-long",
+        "man-senior"
+      ],
       "review_titles": [
         "壁はこすらず相談して正解",
         "寝具も頼めるんですね",
@@ -945,6 +1011,15 @@
         46
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-long",
+        "woman-long",
+        "man-short",
+        "woman-senior",
+        "man-senior",
+        "woman-bob"
+      ],
       "review_titles": [
         "浴室のお手入れ用に",
         "掃除のしやすさを考えて",
@@ -1056,6 +1131,15 @@
         46
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-long",
+        "man-short",
+        "woman-long",
+        "man-young",
+        "woman-bob",
+        "man-senior"
+      ],
       "review_titles": [
         "天候で日程が変わりました",
         "ベランダを使いやすく",
@@ -1147,6 +1231,15 @@
         31
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-long",
+        "man-senior",
+        "woman-bob",
+        "man-short",
+        "man-short",
+        "man-young"
+      ],
       "review_titles": [
         "高さがあるので助かります",
         "古い設備でも相談できた",
@@ -1217,6 +1310,15 @@
         32
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-bob",
+        "woman-bob",
+        "man-short",
+        "woman-long",
+        "man-short",
+        "man-senior"
+      ],
       "review_titles": [
         "家具の近くでも安心でした",
         "二台それぞれ説明してくれた",
@@ -1293,6 +1395,15 @@
         48
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-bob",
+        "man-senior",
+        "woman-bob",
+        "man-short",
+        "woman-senior",
+        "woman-long"
+      ],
       "review_titles": [
         "お風呂の清掃に合わせて",
         "清掃の後に検討できた",
@@ -1363,6 +1474,15 @@
         38
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-senior",
+        "man-short",
+        "woman-bob",
+        "woman-bob",
+        "woman-bob",
+        "man-senior"
+      ],
       "review_titles": [
         "床の印象が明るく",
         "床材に合うか相談",
@@ -1433,6 +1553,15 @@
         41
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-bob",
+        "woman-long",
+        "woman-senior",
+        "man-short",
+        "woman-long",
+        "man-short"
+      ],
       "review_titles": [
         "天板の素材を確認してから",
         "清掃とセットで相談",
@@ -1503,6 +1632,15 @@
         95
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "man-short",
+        "woman-bob",
+        "woman-senior",
+        "woman-long",
+        "woman-long",
+        "man-short"
+      ],
       "review_titles": [
         "日程を合わせる必要あり",
         "洗面台をきれいに保ちたい",
@@ -1573,6 +1711,15 @@
         38
       ],
       "longest_position": 5,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "man-senior",
+        "man-senior",
+        "man-young",
+        "woman-long",
+        "woman-bob",
+        "woman-bob"
+      ],
       "review_titles": [
         "小さな傷から頼めました",
         "床材の違いも説明がありました",
@@ -1643,6 +1790,15 @@
         43
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "woman-long",
+        "man-young",
+        "man-short",
+        "woman-senior",
+        "woman-long",
+        "man-short"
+      ],
       "review_titles": [
         "縁まで見てもらえました",
         "水まわりの相談がしやすい",
@@ -1713,6 +1869,15 @@
         35
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "woman-bob",
+        "man-senior",
+        "woman-bob",
+        "man-short",
+        "woman-senior",
+        "woman-bob"
+      ],
       "review_titles": [
         "つやを見てから決めました",
         "準備が少し大変でした",
@@ -1783,6 +1948,15 @@
         33
       ],
       "longest_position": 1,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "woman-bob",
+        "man-senior",
+        "woman-bob",
+        "woman-long",
+        "woman-long",
+        "man-short"
+      ],
       "review_titles": [
         "外す部品を見せてもらいました",
         "予約時に時間を聞けばよかった",
@@ -1853,6 +2027,15 @@
         38
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "man-short",
+        "woman-bob",
+        "man-short",
+        "woman-long",
+        "woman-bob",
+        "woman-senior"
+      ],
       "review_titles": [
         "落ちない汚れも説明あり",
         "年末の大仕事をお任せ",
@@ -1923,6 +2106,15 @@
         114
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "man-young",
+        "woman-long",
+        "man-senior",
+        "woman-bob",
+        "woman-long",
+        "woman-long"
+      ],
       "review_titles": [
         "自炊の台所をリセット",
         "天板のくすみを相談",
@@ -1993,6 +2185,15 @@
         34
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "woman-senior",
+        "woman-bob",
+        "man-short",
+        "woman-bob",
+        "woman-long",
+        "man-young"
+      ],
       "review_titles": [
         "扉のパッキンがすっきり",
         "棚を全部出して清掃",
@@ -2063,6 +2264,15 @@
         41
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "woman-long",
+        "woman-senior",
+        "woman-long",
+        "man-senior",
+        "man-short",
+        "woman-long"
+      ],
       "review_titles": [
         "鉢の下の汚れを依頼",
         "外の掃除が楽になりました",
@@ -2133,6 +2343,15 @@
         41
       ],
       "longest_position": 4,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "man-short",
+        "man-senior",
+        "man-young",
+        "woman-senior",
+        "woman-bob",
+        "woman-long"
+      ],
       "review_titles": [
         "管理の確認に時間が必要",
         "帰省できない時に頼れました",
@@ -2203,6 +2422,15 @@
         95
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "woman-bob",
+        "woman-long",
+        "man-short",
+        "woman-long",
+        "woman-senior",
+        "man-senior"
+      ],
       "review_titles": [
         "窓の下の筋が気になって",
         "写真で相談できたのが便利",
@@ -2273,6 +2501,15 @@
         103
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "woman-bob",
+        "woman-bob",
+        "man-short",
+        "man-senior",
+        "woman-bob",
+        "woman-long"
+      ],
       "review_titles": [
         "説明を聞いてから選択",
         "素材を調べてくれました",
@@ -2343,6 +2580,15 @@
         42
       ],
       "longest_position": 3,
+      "first_90_character_review_position": 3,
+      "avatar_order": [
+        "woman-long",
+        "man-senior",
+        "woman-senior",
+        "woman-long",
+        "man-short",
+        "woman-bob"
+      ],
       "review_titles": [
         "片付けのきっかけになった",
         "作業範囲を先に決めた",
@@ -2413,6 +2659,15 @@
         47
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "woman-long",
+        "man-senior",
+        "man-short",
+        "woman-bob",
+        "man-short",
+        "woman-bob"
+      ],
       "review_titles": [
         "荷物を入れる前に清掃",
         "子どもと確認できました",
@@ -2483,6 +2738,15 @@
         50
       ],
       "longest_position": 5,
+      "first_90_character_review_position": 5,
+      "avatar_order": [
+        "woman-senior",
+        "woman-bob",
+        "man-senior",
+        "woman-bob",
+        "man-young",
+        "woman-bob"
+      ],
       "review_titles": [
         "重い部品を外さず済みました",
         "フィルターの奥を相談",
@@ -2553,6 +2817,15 @@
         38
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "woman-long",
+        "woman-bob",
+        "woman-long",
+        "man-short",
+        "man-senior",
+        "man-short"
+      ],
       "review_titles": [
         "敷き込みでも頼めました",
         "飲み物の跡を見てもらった",
@@ -2623,6 +2896,15 @@
         40
       ],
       "longest_position": 5,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "woman-bob",
+        "woman-senior",
+        "man-young",
+        "woman-bob",
+        "woman-long",
+        "man-short"
+      ],
       "review_titles": [
         "目立たない所で試してくれた",
         "こすりすぎずに済みました",
@@ -2693,6 +2975,15 @@
         37
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-long",
+        "woman-long",
+        "woman-long",
+        "man-young",
+        "man-senior",
+        "man-senior"
+      ],
       "review_titles": [
         "カバーの裏まで丁寧",
         "換気口の奥を見てもらえた",
@@ -2782,6 +3073,15 @@
         33
       ],
       "longest_position": 4,
+      "first_90_character_review_position": 4,
+      "avatar_order": [
+        "man-short",
+        "woman-bob",
+        "woman-bob",
+        "man-short",
+        "man-senior",
+        "woman-long"
+      ],
       "review_titles": [
         "靴を片付けておけばよかった",
         "玄関の床を相談しました",
@@ -2864,6 +3164,15 @@
         43
       ],
       "longest_position": 5,
+      "first_90_character_review_position": 5,
+      "avatar_order": [
+        "woman-senior",
+        "man-young",
+        "woman-long",
+        "woman-long",
+        "man-short",
+        "woman-long"
+      ],
       "review_titles": [
         "かがんで拭く負担が減りました",
         "傷は残ると先に聞けた",
@@ -2941,6 +3250,15 @@
         39
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-senior",
+        "woman-long",
+        "man-young",
+        "woman-bob",
+        "woman-long",
+        "man-senior"
+      ],
       "review_titles": [
         "無理をして拭かず済みました",
         "来客前にお願いしました",
@@ -3011,6 +3329,15 @@
         36
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "man-short",
+        "woman-long",
+        "woman-bob",
+        "man-young",
+        "woman-bob",
+        "woman-senior"
+      ],
       "review_titles": [
         "乾燥の段取りを先に相談",
         "生地を確認してから作業",
@@ -3087,6 +3414,15 @@
         39
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "man-short",
+        "woman-long",
+        "woman-bob",
+        "woman-long",
+        "man-short",
+        "woman-senior"
+      ],
       "review_titles": [
         "買い替えを考える前に",
         "乾燥中は別の席で",
@@ -3157,6 +3493,15 @@
         89
       ],
       "longest_position": 6,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "man-senior",
+        "man-young",
+        "woman-bob",
+        "woman-bob",
+        "woman-bob",
+        "woman-senior"
+      ],
       "review_titles": [
         "色を相談してから依頼",
         "賃貸の確認に時間がかかった",
@@ -3227,6 +3572,15 @@
         37
       ],
       "longest_position": 5,
+      "first_90_character_review_position": 5,
+      "avatar_order": [
+        "woman-long",
+        "woman-bob",
+        "man-short",
+        "man-young",
+        "woman-long",
+        "woman-senior"
+      ],
       "review_titles": [
         "扉まわりもすっきり",
         "パッキンの奥が気になって",
@@ -3297,6 +3651,15 @@
         35
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-bob",
+        "man-short",
+        "woman-bob",
+        "woman-senior",
+        "man-senior",
+        "woman-long"
+      ],
       "review_titles": [
         "いつもの掃除も見直せた",
         "乾燥の奥を見てもらいました",
@@ -3367,6 +3730,15 @@
         37
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "man-short",
+        "woman-long",
+        "woman-long",
+        "woman-senior",
+        "man-short",
+        "man-young"
+      ],
       "review_titles": [
         "底の方まで見てもらえました",
         "洗濯物の前に一度リセット",
@@ -3437,6 +3809,15 @@
         29
       ],
       "longest_position": 5,
+      "first_90_character_review_position": 5,
+      "avatar_order": [
+        "woman-long",
+        "woman-long",
+        "man-short",
+        "woman-long",
+        "woman-long",
+        "man-senior"
+      ],
       "review_titles": [
         "作業の間は使えません",
         "蛇口まわりがすっきり",
@@ -3507,6 +3888,15 @@
         35
       ],
       "longest_position": 2,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "man-senior",
+        "man-short",
+        "woman-long",
+        "woman-long",
+        "woman-senior",
+        "woman-bob"
+      ],
       "review_titles": [
         "音の相談もできました",
         "機種を確認してから予約",
@@ -3577,6 +3967,15 @@
         38
       ],
       "longest_position": 4,
+      "first_90_character_review_position": null,
+      "avatar_order": [
+        "woman-bob",
+        "man-senior",
+        "woman-bob",
+        "woman-long",
+        "man-senior",
+        "woman-long"
+      ],
       "review_titles": [
         "蛇口の根元が気になって",
         "収納内は別に確認でした",
@@ -3647,6 +4046,15 @@
         40
       ],
       "longest_position": 2,
+      "first_90_character_review_position": 2,
+      "avatar_order": [
+        "woman-senior",
+        "man-short",
+        "woman-long",
+        "woman-long",
+        "man-short",
+        "woman-bob"
+      ],
       "review_titles": [
         "使い方の注意も聞けました",
         "見えない配管を相談",
@@ -3717,6 +4125,15 @@
         35
       ],
       "longest_position": 1,
+      "first_90_character_review_position": 1,
+      "avatar_order": [
+        "woman-long",
+        "man-senior",
+        "woman-senior",
+        "man-short",
+        "woman-bob",
+        "woman-bob"
+      ],
       "review_titles": [
         "設備の違いも確認してくれた",
         "長く残った便器の跡を相談",
@@ -3787,6 +4204,15 @@
         112
       ],
       "longest_position": 6,
+      "first_90_character_review_position": 6,
+      "avatar_order": [
+        "man-senior",
+        "woman-bob",
+        "man-short",
+        "man-senior",
+        "woman-long",
+        "woman-bob"
+      ],
       "review_titles": [
         "部品確認に時間がかかりました",
         "浴室の掃除と一緒に",

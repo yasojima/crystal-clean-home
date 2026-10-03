@@ -74,7 +74,9 @@ if __name__ == "__main__":
         site = ROOT / 'source/site'
         PATHS += ['/' + p.relative_to(site).as_posix().removesuffix('index.html') for p in site.rglob('*.html')]
         PATHS += ['/' + p.relative_to(site).as_posix() for p in (site / 'assets/images/service-scenes').glob('*.webp')]
+        PATHS += ['/' + p.relative_to(site).as_posix() for p in (site / 'assets/images/service-scenes').glob('aircon-*-*.png')]
         PATHS += ['/assets/css/service-pages.css', '/assets/css/reasons-navy.css',
+                  '/assets/js/aircon-comparison.js',
                   '/assets/css/aircon-voice-bubbles.css',
                   '/assets/css/aircon-header.css', '/assets/js/aircon-header.js',
                   '/assets/css/aircon-hero.css', '/assets/css/aircon-layout.css',
@@ -96,7 +98,7 @@ if __name__ == "__main__":
             ["git", "-C", str(ROOT), "rev-parse", "HEAD:source/site"], text=True).strip(),
         "checks": checks,
         "passed": all(check["passed"] for check in checks) and build["status"] == "built",
-        "scope": "All published HTML, service photographs, plain navy stylesheet, representative assets and exclusions; backend and all-page visual acceptance are not included." if args.all_pages else "Representative HTTP responses and excluded paths; backend and all-page visual acceptance are not included."
+        "scope": "All published HTML, service photographs, six Aircon comparison photographs and slider script, plain navy stylesheet, representative assets and exclusions; backend and all-page visual acceptance are not included." if args.all_pages else "Representative HTTP responses and excluded paths; backend and all-page visual acceptance are not included."
     }
     (ROOT / "source/deployment-verification.json").write_bytes(
         json.dumps(report, ensure_ascii=False, indent=2).encode("utf-8"))

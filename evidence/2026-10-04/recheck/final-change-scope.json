@@ -1,0 +1,170 @@
+{
+  "checked_at": "2026-10-03T22:38:26.030012+00:00",
+  "baseline": "2250b1c154a48ada8cc442f3be837e446e363bfe",
+  "source_commit": "b41ca68e7cb95c65f3bc76ee262b14b1149a02ed",
+  "changed_published_html": [
+    "source/site/house-cleaning/aircon/wall/index.html",
+    "source/site/house-cleaning/coating/bathroom/index.html",
+    "source/site/house-cleaning/coating/index.html",
+    "source/site/house-cleaning/kitchen/dishwasher/index.html",
+    "source/site/house-cleaning/kitchen/index.html",
+    "source/site/house-cleaning/kitchen/kitchen/index.html",
+    "source/site/house-cleaning/kitchen/rei/index.html",
+    "source/site/house-cleaning/others/grave/index.html",
+    "source/site/house-cleaning/others/index.html",
+    "source/site/house-cleaning/others/outerwall/index.html",
+    "source/site/house-cleaning/pack/index.html",
+    "source/site/house-cleaning/room/air-cleaner/index.html",
+    "source/site/house-cleaning/room/carpet/index.html",
+    "source/site/house-cleaning/room/cloth/index.html",
+    "source/site/house-cleaning/room/duct/index.html",
+    "source/site/house-cleaning/room/glass/index.html",
+    "source/site/house-cleaning/room/mattress/index.html",
+    "source/site/house-cleaning/room/sofa/index.html",
+    "source/site/house-cleaning/washer/front/index.html",
+    "source/site/house-cleaning/washer/side/index.html",
+    "source/site/house-cleaning/washer/top/index.html",
+    "source/site/house-cleaning/water/bathroom/index.html",
+    "source/site/house-cleaning/water/drier/index.html",
+    "source/site/house-cleaning/water/index.html",
+    "source/site/house-cleaning/water/lavatory/index.html",
+    "source/site/house-cleaning/water/pipe/index.html",
+    "source/site/house-cleaning/water/toilet/index.html"
+  ],
+  "changed_pages": 27,
+  "asset_changes": [],
+  "preserved": [
+    {
+      "path": "source/site/house-cleaning/aircon/index.html",
+      "identical": true
+    },
+    {
+      "path": "source/shared-ui/header.html",
+      "identical": true
+    },
+    {
+      "path": "source/shared-ui/footer.html",
+      "identical": true
+    },
+    {
+      "path": "source/service-pages/voices.json",
+      "identical": true
+    },
+    {
+      "path": "source/service-pages/detail-faq.json",
+      "identical": true
+    }
+  ],
+  "scope": "Only photo-heading wording, three mobile tab breaks and three combination-plan heading breaks; source/manifest hashes change accordingly. The Aircon category baseline, shared UI, all existing photos/CSS/JS, reviews and FAQ remain byte-identical.",
+  "passed": true,
+  "purchase_control_checks": [
+    {
+      "path": "source/site/house-cleaning/aircon/wall/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/coating/bathroom/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/coating/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/dishwasher/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/kitchen/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/rei/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/grave/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/outerwall/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/pack/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/air-cleaner/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/carpet/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/cloth/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/duct/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/glass/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/mattress/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/sofa/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/front/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/side/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/top/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/bathroom/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/drier/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/lavatory/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/pipe/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/toilet/index.html",
+      "product_ids_prices_and_quantity_controls_identical": true
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "checked_at": "2026-10-03T23:02:12.725766+00:00",
+  "origin": "https://yasojima.github.io/",
+  "baseline_source_commit": "2250b1c154a48ada8cc442f3be837e446e363bfe",
+  "final_product_source_commit": "b41ca68e7cb95c65f3bc76ee262b14b1149a02ed",
+  "final_pages_commit": "eba6ce127e17a98005eff96cc5ebddfa82c7fc69",
+  "final_pages_run": {
+    "id": 37158921067,
+    "conclusion": "success",
+    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37158921067"
+  },
+  "method": "The Aircon category is the canonical frame. Each section was checked across all 46 pages, PC before mobile, in Chrome and WebKit. Font, color, spacing, dimensions, decoration, full text, image decoding and relevant controls are compared; variable service content and product count remain intentional.",
+  "sections": [
+    {
+      "section": "banner",
+      "cases": 184,
+      "passed": true,
+      "evidence": [
+        "banner/verification.json"
+      ]
+    },
+    {
+      "section": "selector",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "selector/1734x1321/verification.json",
+        "selector/414x688/verification.json",
+        "selector/navigation-recheck/verification.json"
+      ]
+    },
+    {
+      "section": "concerns",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "concerns/1734x1321/verification.json",
+        "concerns/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "introduction",
+      "cases": 234,
+      "passed": true,
+      "operations": {
+        "photoTabsOpened": 306
+      },
+      "evidence": [
+        "introduction/1734x1321/verification.json",
+        "introduction/414x688/verification.json",
+        "headings-public-final/verification.json"
+      ]
+    },
+    {
+      "section": "reasons",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "reasons/1734x1321/verification.json",
+        "reasons/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "lineup",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "lineup/1734x1321/verification.json",
+        "lineup/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "products",
+      "cases": 184,
+      "passed": true,
+      "operations": {
+        "variantsSwitched": 32,
+        "optionPanelsOpened": 248
+      },
+      "evidence": [
+        "products/1734x1321/verification.json",
+        "products/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "offers",
+      "cases": 24,
+      "passed": true,
+      "operations": {
+        "planTabsOpened": 12,
+        "quantitiesChanged": 84
+      },
+      "evidence": [
+        "offers/1734x1321/verification.json",
+        "offers/414x688/verification.json",
+        "plan-title-public/verification.json"
+      ]
+    },
+    {
+      "section": "voices",
+      "cases": 184,
+      "passed": true,
+      "operations": {
+        "reviewsChecked": 1104
+      },
+      "evidence": [
+        "voices/1734x1321/verification.json",
+        "voices/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "faq",
+      "cases": 184,
+      "passed": true,
+      "operations": {
+        "answersOpened": 920
+      },
+      "evidence": [
+        "faq/1734x1321/verification.json",
+        "faq/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "flow",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "flow/1734x1321/verification.json",
+        "flow/414x688/verification.json"
+      ]
+    },
+    {
+      "section": "featured",
+      "cases": 184,
+      "passed": true,
+      "operations": {},
+      "evidence": [
+        "featured/1734x1321/verification.json",
+        "featured/414x688/verification.json"
+      ]
+    }
+  ],
+  "final_section_cases": 2098,
+  "review_rendering": {
+    "cases": 184,
+    "passed": true,
+    "evidence": [
+      "reviews/service-browser-verification.json",
+      "reviews/navigation-recheck/service-browser-verification.json"
+    ],
+    "avatar_decode_checks": 1104
+  },
+  "review_content": {
+    "pages": 46,
+    "reviews": 276,
+    "longest_positions": {
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 8,
+      "5": 7,
+      "6": 7
+    },
+    "first_long_review_positions": {
+      "1": 7,
+      "2": 7,
+      "3": 8,
+      "4": 6,
+      "5": 5,
+      "6": 6,
+      "none": 7
+    },
+    "long_review_threshold_characters": 90,
+    "unique_avatar_orders": 46,
+    "unique_rating_orders": 41,
+    "rating_distributions": [
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          4,
+          4,
+          5
+        ],
+        "pages": 4
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "pages": 8
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "pages": 5
+      },
+      {
+        "ratings": [
+          3,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "pages": 8
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          4,
+          4,
+          5,
+          5
+        ],
+        "pages": 7
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          4,
+          5,
+          5,
+          5
+        ],
+        "pages": 6
+      },
+      {
+        "ratings": [
+          4,
+          4,
+          5,
+          5,
+          5,
+          5
+        ],
+        "pages": 8
+      }
+    ],
+    "body_length_range": [
+      25,
+      171
+    ]
+  },
+  "slider": {
+    "cases": 18,
+    "passed": true,
+    "mouse_drag_checks": 72,
+    "keyboard_cases": 126,
+    "chrome_mobile_touch_drags": 6,
+    "boundary_clamps_and_pointer_release_cases": 18,
+    "evidence": "sliders/verification.json"
+  },
+  "fixes": [
+    {
+      "issue": "Orphaned final characters in combination-plan names",
+      "pages": [
+        "pack",
+        "water",
+        "kitchen"
+      ],
+      "source_commit": "1bffdaa2b1560c4d8b6f14fdf05ed9b34850e8bd",
+      "pages_commit": "39d894b04bc21a65a89d240b16b1eb008b11dc42",
+      "public_cases": 24,
+      "evidence": "plan-title-public/verification.json"
+    },
+    {
+      "issue": "Generic or unnatural photo-heading wording",
+      "detail_pages": 22,
+      "all_details_explicit_headings": 38,
+      "common_css_preserved": true
+    },
+    {
+      "issue": "Mobile photo-tab wrapping splits words",
+      "categories": [
+        "kitchen",
+        "coating",
+        "others"
+      ],
+      "implementation": "Reuse existing Aircon br.u-sp-only; PC remains unchanged"
+    }
+  ],
+  "visual_review": {
+    "read_all_review_texts": 276,
+    "read_all_service_copy_and_product_descriptions": true,
+    "active_scene_photos_inspected": 31,
+    "comparison_photos_checked": 6,
+    "comparison_pairs_visually_inspected": "content-screens/comparison-photo-pairs.png",
+    "all_photo_frames_pc_and_mobile": {
+      "pages": 46,
+      "boards": 12,
+      "evidence": "photo-frames/screens.json"
+    },
+    "corrected_photo_frames_pc_and_mobile": {
+      "pages": 25,
+      "boards": 8,
+      "evidence": "corrected-photo-frames/screens.json"
+    },
+    "full_review_screens": {
+      "pages": 7,
+      "widths": [
+        1440,
+        414
+      ],
+      "screens": 14,
+      "evidence": "content-screens/service-content-screens.json"
+    },
+    "all_existing_plan_categories_pc_and_mobile": 4,
+    "post_fix_plan_names_pc_mobile_narrow": {
+      "widths": [
+        1734,
+        414,
+        320
+      ],
+      "evidence": "plan-title-public/verification.json"
+    }
+  },
+  "deployment": {
+    "http_and_sha256_checks": 218,
+    "passed": true,
+    "source_tree": "2ffed931903bb216dfe17d7c1f3c02db9d74b5dd",
+    "evidence": "source/deployment-verification.json"
+  },
+  "shared_ui": {
+    "pages": 97,
+    "fragments_and_destinations_checked": true,
+    "css_js_and_canonical_templates_identical_to_baseline": true,
+    "evidence": [
+      "evidence/2026-10-03/local/shared-ui-static.json",
+      "final-change-scope.json"
+    ]
+  },
+  "preserved": {
+    "Aircon_category_baseline": true,
+    "all_photos_css_js": true,
+    "shared_header_and_footer": true,
+    "product_ids_prices_quantities": true,
+    "native_mobile_scrolling_and_end_overscroll": true,
+    "evidence": "final-change-scope.json"
+  },
+  "resolved_check_conditions": [
+    "Two selector and two review checks originally hit the short navigation timeout; targeted repeat checks passed with sufficient navigation timeout. Original reports remain as evidence.",
+    "Initial local heading checks incorrectly required short 320px headings to occupy the same four rendered lines as Aircon. The common font size and frame are maintained; shorter complete wording may occupy two or three lines. Both revised local and public 150-case runs passed."
+  ],
+  "local_corrected_headings": {
+    "cases": 150,
+    "passed": true,
+    "evidence": "headings-local-final/verification.json"
+  },
+  "public_corrected_headings": {
+    "cases": 150,
+    "passed": true,
+    "evidence": "headings-public-final/verification.json"
+  },
+  "passed": true,
+  "real_iphone_acceptance": false,
+  "limits": "Automated desktop Chrome/WebKit and manually viewed browser screenshots support implementation verification. Native iPhone browser bars, inertia, rubber-band scrolling and human visual adoption are not claimed as accepted. Reviews and photorealistic scenes are approved client demonstration content."
+}

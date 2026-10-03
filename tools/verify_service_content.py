@@ -17,6 +17,7 @@ comparisons = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='
 errors, records = [], []
 image_uses = defaultdict(list)
 longest_positions, rating_distributions, demographic_orders = Counter(), Counter(), Counter()
+first_long_positions, avatar_orders, rating_orders = Counter(), Counter(), Counter()
 all_reviews = [review for page in voices['pages'].values() for review in page]
 
 if voices.get('purpose') != 'fictional-client-demo':
@@ -34,11 +35,18 @@ for route, page in catalogue['pages'].items():
     if len(reviews) != 6 or any(r['rating'] not in (3, 4, 5) for r in reviews):
         errors.append(f'{route}: review count or rating')
     lengths = [len(r['body']) for r in reviews]
+    first_long = next((i + 1 for i, length in enumerate(lengths) if length >= 90), None)
+    first_long_positions[str(first_long) if first_long is not None else 'none'] += 1
+    avatar_orders[tuple(r['avatar'] for r in reviews)] += 1
     longest = max(range(len(lengths)), key=lengths.__getitem__) + 1
     longest_positions[longest] += 1
     ratings = [r['rating'] for r in reviews]
+    rating_orders[tuple(ratings)] += 1
     rating_distributions[tuple(sorted(ratings))] += 1
     demographic_orders[tuple(r['demographic'] for r in reviews)] += 1
+    for review in reviews:
+        if not review['avatar'].startswith('woman-' if '女性' in review['demographic'] else 'man-'):
+            errors.append(f'{route}: avatar does not match review demographic')
     doc = BeautifulSoup((SITE / 'house-cleaning' / route / 'index.html').read_text(encoding='utf-8'), 'html.parser')
     main = doc.select_one('main[data-service-layout="shared-v2"]')
     photos = sorted({i['src'] for i in main.select('img[src*="/service-scenes/"]')})
@@ -55,11 +63,22 @@ for route, page in catalogue['pages'].items():
     actual_concerns = [n.get_text(strip=True) for n in main.select('.c-issue-card__text')]
     if actual_concerns != [''.join(pair) for pair in concerns]:
         errors.append(f'{route}: concern copy does not match the service')
+    if '/' in route:
+        heading = copy['details'][route].get('heading')
+        expected = ''.join([*heading[:-1], heading[-1].rstrip('！!') + '！']) if heading else ''
+        if not heading or len(heading) != 2 or main.select_one('.p-content-box__heading').get_text(strip=True) != expected:
+            errors.append(f'{route}: missing or mismatched service-specific photo heading')
+    primary = page['groups'][0]['products'][0]
+    subjects = [primary] if '/' in route else copy['categories'][page['category']]['subjects']
+    if [n.get_text(strip=True) for n in main.select('#service-introduction .c-tab__button')] != [copy['products'][key]['short'] for key in subjects]:
+        errors.append(f'{route}: photo tab omits part of the service name')
     records.append({
         'route': route, 'title': page['title'], 'concerns': concerns,
         'nickname_order': [r['nickname'] for r in reviews],
         'demographic_order': [r['demographic'] for r in reviews],
         'ratings': ratings, 'body_lengths': lengths, 'longest_position': longest,
+        'first_90_character_review_position': first_long,
+        'avatar_order': [r['avatar'] for r in reviews],
         'review_titles': [r['title'] for r in reviews], 'photos': photos,
         'product_scenes': [{
             'product_id': key, 'subject': copy['products'][key]['short'],
@@ -78,6 +97,10 @@ report = {
     'checked_at': datetime.now(timezone.utc).isoformat(), 'pages': len(records),
     'reviews': len(all_reviews), 'purpose': voices['purpose'],
     'longest_positions': dict(sorted(longest_positions.items())),
+    'first_long_review_positions': dict(sorted(first_long_positions.items())),
+    'long_review_threshold_characters': 90,
+    'unique_avatar_orders': len(avatar_orders),
+    'unique_rating_orders': len(rating_orders),
     'rating_distributions': [{'ratings': list(k), 'pages': v} for k, v in sorted(rating_distributions.items())],
     'demographics': dict(sorted(Counter(r['demographic'] for r in all_reviews).items())),
     'body_length_range': [min(len(r['body']) for r in all_reviews), max(len(r['body']) for r in all_reviews)],

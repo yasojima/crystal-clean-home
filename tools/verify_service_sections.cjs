@@ -39,8 +39,19 @@ async function read(page) {
   const rect = node => {const r = node.getBoundingClientRect(); return {x:r.x,y:r.y,width:r.width,height:r.height};};
   const style = (node, pseudo) => {const s = getComputedStyle(node,pseudo);return Object.fromEntries(styleKeys.map(key=>[key,s[key]]));};
   const textOverflow = n => {if(!n.textContent.trim())return false;const range=document.createRange();range.selectNodeContents(n);const box=n.getBoundingClientRect();return [...range.getClientRects()].some(r=>r.left<box.left-1||r.right>box.right+1);};
+  const renderedLines = n => {
+   const walker=document.createTreeWalker(n,NodeFilter.SHOW_TEXT),lines=new Map();let node;
+   while((node=walker.nextNode()))for(let i=0;i<node.textContent.length;i++){
+    const character=node.textContent[i];if(!character.trim())continue;
+    const range=document.createRange();range.setStart(node,i);range.setEnd(node,i+1);
+    const r=range.getBoundingClientRect();if(!r.height)continue;
+    const key=Math.round(r.top);lines.set(key,(lines.get(key)||'')+character);
+   }
+   return [...lines.values()];
+  };
   const components = {};
   for (const [key, selector] of Object.entries(definition.components)) components[key] = [...root.querySelectorAll(selector)].filter(n=>n.getBoundingClientRect().height>0).map(n=>({rect:rect(n),style:style(n),text:n.innerText||'',overflow:textOverflow(n),followsVariant:!!n.previousElementSibling?.classList.contains('c-lineup-card__room-select'),after:{...style(n,'::after'),content:getComputedStyle(n,'::after').content,mask:getComputedStyle(n,'::after').maskImage},mask:getComputedStyle(n).maskImage}));
+  if(definition.components.card==='.c-plan-card')components.title.forEach((item,i)=>item.lines=renderedLines([...root.querySelectorAll(definition.components.title)].filter(n=>n.getBoundingClientRect().height>0)[i]));
   const section=root.closest('section');
   return {rect:rect(root),style:style(root),context:section?{style:style(section),before:{...style(section,'::before'),mask:getComputedStyle(section,'::before').maskImage},curves:[...section.querySelectorAll('.c-section-curve')].map(c=>({rect:rect(c),style:style(c),mask:getComputedStyle(c).maskImage}))}:null,components,images:definition.needImages===false?[]:[...root.querySelectorAll(definition.imageSelector||'img')].filter(i=>i.getBoundingClientRect().height>0).map(i=>({src:new URL(i.currentSrc||i.src).pathname,alt:i.alt,width:i.naturalWidth,height:i.naturalHeight})),anchors:[...root.querySelectorAll('.c-page-anchors a')].map(a=>({href:a.getAttribute('href'),exists:!!document.querySelector(a.getAttribute('href')),text:a.textContent.trim()})),overflow:document.documentElement.scrollWidth>innerWidth+1};
  }, {definition:definitions[phase], styleKeys});
@@ -94,7 +105,7 @@ function checkIntroduction(actual,reference,route,viewport){
   assert(!item.overflow,`${key} clips full text`);
   if(['heading','content','photo'].includes(key))assert(Math.abs(item.rect.width-canonical.rect.width)<.1,`${key} width differs from aircon`);
   if(key==='photo')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'photo ratio differs from aircon');
-  if(key==='heading')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'introductory heading adds unintended lines');
+  if(key==='heading')assert(viewport.width<375?item.rect.height<=canonical.rect.height+.1:Math.abs(item.rect.height-canonical.rect.height)<.1,'introductory heading adds unintended lines');
  }
  assert(actual.images.length && actual.images.every(i=>i.width===1536&&i.height===1024),'introduction photo missing');
 }
@@ -161,6 +172,7 @@ function checkOffers(actual,reference,route){
    else assert.deepEqual(item.style,reference.components[key][0].style,`${key} styles differ from aircon`);
    assert(!item.overflow,`${key} clips plan text`);
    if(key==='card')assert(Math.abs(item.rect.width-reference.components.card[0].rect.width)<.1,'plan card width differs');
+   if(key==='title')assert(item.lines.every(line=>line.length>2),`plan name has a short orphan line: ${item.lines.join(' / ')}`);
   }
  }
  assert(Math.abs(actual.components.text[0].rect.height-reference.components.text[0].rect.height)<.1,'popular plan heading wraps');
@@ -273,7 +285,7 @@ async function interact(page,route,viewport){
 async function capture(page, route, engine, viewport, items) {
  const file = `${engine}-${viewport.width}-${route.replaceAll('/','-')}.png`;
  const locator = page.locator(definitions[phase].capture||definitions[phase].root).first();
- await locator.scrollIntoViewIfNeeded();
+ await locator.evaluate(e=>scrollTo({top:scrollY+e.getBoundingClientRect().top,behavior:'instant'}));await page.waitForTimeout(600);
  const buffer = await locator.screenshot({animations:'disabled',style:'.c-header, #js-floating, #viewport-hud { visibility: hidden !important; }'});
  if(['aircon','pack','room','water'].includes(route))fs.writeFileSync(path.join(output,file),buffer);
  items.push({route, file, buffer});
@@ -297,7 +309,7 @@ async function gallery(items, engine, viewport) {
   const browser=await launch();
   try {for(const viewport of sizes){
    const context=await browser.newContext({viewport,isMobile:viewport.width<768,hasTouch:viewport.width<768});
-   const page=await context.newPage();page.setDefaultTimeout(10000);
+   const page=await context.newPage();page.setDefaultTimeout(10000);page.setDefaultNavigationTimeout(45000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();

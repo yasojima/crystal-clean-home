@@ -1,0 +1,107 @@
+{
+  "base": "1bffdaa2b1560c4d8b6f14fdf05ed9b34850e8bd",
+  "pages": 25,
+  "checks": [
+    {
+      "path": "source/site/house-cleaning/aircon/wall/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/coating/bathroom/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/coating/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/dishwasher/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/kitchen/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/kitchen/rei/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/grave/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/others/outerwall/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/air-cleaner/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/carpet/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/cloth/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/duct/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/glass/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/mattress/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/room/sofa/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/front/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/side/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/washer/top/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/bathroom/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/drier/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/lavatory/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/pipe/index.html",
+      "only_heading_or_tab_text_changed": true
+    },
+    {
+      "path": "source/site/house-cleaning/water/toilet/index.html",
+      "only_heading_or_tab_text_changed": true
+    }
+  ],
+  "passed": true
+}
