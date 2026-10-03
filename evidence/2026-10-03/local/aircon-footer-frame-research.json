@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-03",
+  "previous_source": "0a2fe5c",
+  "sources": [
+    "https://web.dev/blog/viewport-units",
+    "https://www.w3.org/TR/css-values-4/#small-viewport-percentage-units"
+  ],
+  "failure_in_previous_acceptance": "At 414x688 the previous 588px footer left about 100px of the prior blue section visible. Containment was not the requested footer-only frame.",
+  "layout": "Use 100svh minus measured phone/social/end-nav/borders, divided among five heading rows, minimum 56px. Heading heights stay stable when details expand. Phone/social spacing remains unchanged. No body/scroll locking or page-position correction.",
+  "verification": "Exact phone-top and footer-bottom coordinates checked at page end, within 1 CSS px; Chrome/WebKit 320/375/414/430 widths and actual viewport sizes 600/688/832. PC unchanged.",
+  "limits": "Hidden desktop engines do not emulate native iPhone URL-bar/rubber-band movement. Small viewport is the specified browser-UI-expanded basis; short screens prioritize readable content and natural scrolling."
+}

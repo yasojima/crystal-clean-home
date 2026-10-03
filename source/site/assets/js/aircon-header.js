@@ -237,12 +237,38 @@
   const mobileHeader = window.matchMedia('(max-width: 767.98px)');
   const mobileFooter = document.querySelector('.c-footer--aircon');
   const mobileFooterPhone = mobileFooter?.querySelector('.footer-tel-sp');
+  const footerRows = [...(mobileFooter?.querySelectorAll('.aircon-footer-menu__row') || [])];
+  const mobileFooterSocial = mobileFooter?.querySelector('.u-sp-only > .c-footer-top-nav__item:last-child');
+  const footerBottomNav = mobileFooter?.querySelector('.c-footer__bottom-nav');
   const floatingCart = document.querySelector('#js-floating');
   let lastScrollY = window.scrollY;
   let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
   let touchActive = false;
   const scrollIdleDelay = 450;
+
+  function sizeFooterRows() {
+    if (!mobileHeader.matches || !mobileFooterPhone || !mobileFooterSocial || !footerBottomNav || !footerRows.length) return;
+    // Only measure the fixed blocks. Detail panels never affect the heading budget.
+    const fixedHeight = [mobileFooterPhone, mobileFooterSocial, footerBottomNav]
+      .reduce((sum, item) => sum + item.getBoundingClientRect().height, 0) +
+      footerRows.reduce((sum, row) => {
+        const style = getComputedStyle(row);
+        return sum + parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth);
+      }, 0);
+    mobileFooter.style.setProperty('--aircon-footer-fixed-height', `${fixedHeight}px`);
+    mobileFooter.style.setProperty('--aircon-footer-row-count', String(footerRows.length));
+  }
+
+  mobileFooterPhone?.querySelector('img')?.addEventListener('load', () => {
+    sizeFooterRows();
+    updateFooterPush();
+  }, { once: true });
+  document.fonts?.ready.then(() => {
+    sizeFooterRows();
+    updateFooterPush();
+  });
+  sizeFooterRows();
 
   function updateFooterPush() {
     floatingCart?.classList.toggle('is-mobile-footer-hidden', mobileHeader.matches &&
@@ -304,8 +330,14 @@
   }
   document.addEventListener('touchend', endTouch, { passive: true });
   document.addEventListener('touchcancel', endTouch, { passive: true });
-  mobileHeader.addEventListener('change', showHeader);
-  window.addEventListener('resize', updateFooterPush);
+  mobileHeader.addEventListener('change', () => {
+    sizeFooterRows();
+    showHeader();
+  });
+  window.addEventListener('resize', () => {
+    sizeFooterRows();
+    updateFooterPush();
+  });
 
   function setMenuOpen(open) {
     if (menuOpen === open) return;
