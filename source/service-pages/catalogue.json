@@ -545,7 +545,7 @@
         },
         {
           "href": "#anchor01",
-          "text": "お引越し前後の クリーニング",
+          "text": "お引越し前後",
           "icon": [
             "c-illust",
             "c-illust--moving",
@@ -564,6 +564,7 @@
       ]
     },
     "water": {
+      "selector_columns_pc": 3,
       "category": "water",
       "title": "水まわりのお掃除",
       "groups": [

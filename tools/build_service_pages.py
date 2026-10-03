@@ -283,6 +283,8 @@ def navigation(page, primary, category, copy):
     n = template('navigation')
     n.select_one('h2').string = 'ご希望のサービスをお選びください' if '/' not in page['route'] else 'ご覧になりたい内容をお選びください'
     cards = n.select_one('.c-page-anchors')
+    if page.get('selector_columns_pc'):
+        cards['style'] = cards.get('style', '').replace('repeat(auto-fit, minmax(228px,228px))', f"repeat({page['selector_columns_pc']}, minmax(0,228px))")
     if page['route'] == 'aircon':
         cards['style'] = cards.get('style', '').replace('repeat(3,1fr)', 'repeat(2,minmax(0,1fr))')
     sample = deepcopy(cards.select_one('a'))
