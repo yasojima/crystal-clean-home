@@ -1,26 +1,5 @@
 /* ナビゲーション */
 
-.c-site-menu {
-  padding: 20px !important;
-}
-
-
-/* ヘッダー */
-
-@media screen and (max-width: 1299px) {
-  .c-header__navigation {
-    display: none;
-  }
-}
-
-@media print,
-screen and (min-width: 1281px) {
-  .c-main-menu {
-    column-gap: 1em !important;
-  }
-}
-
-
 @media print,
 screen and (min-width: 768px) {
   .links__anchor-links {
@@ -891,13 +870,6 @@ screen and (min-width: 768px) {
 
   .c-header__cv ul {
     column-gap: .25em;
-  }
-}
-
-@media print,
-screen and (min-width: 1299px) {
-  .c-header__icons {
-    display: none;
   }
 }
 
@@ -2700,13 +2672,6 @@ screen and (min-width: 768px) {
 
 
 /* フッター */
-
-.footer-tel-sp,
-.footer-tel-pc,
-.c-footer,
-.js-accordion {
-  display: none !important;
-}
 
 /* =========================================
    フッター (法人専用)
