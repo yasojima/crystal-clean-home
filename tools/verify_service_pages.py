@@ -11,6 +11,7 @@ SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
 catalogue = json.loads((DATA / 'catalogue.json').read_text(encoding='utf-8'))
 voice_profiles = json.loads((DATA / 'voices.json').read_text(encoding='utf-8'))['pages']
+added_options = json.loads((DATA / 'additional-options.json').read_text(encoding='utf-8'))['products']
 errors = []
 voice_headings = {}
 voice_bodies = {}
@@ -124,7 +125,12 @@ for route,page in catalogue['pages'].items():
         old_card = before.select_one('[data-product-card="parent"]')
         new_card = n.select_one('[data-product-card="parent"]')
         if prices(old_card) != prices(new_card): fail(route,'parent prices changed '+key)
-        if options(before) != options(n) and key not in ['1071','1073','1074']: fail(route,'options changed '+key)
+        expected_options = options(before)
+        if key in added_options:
+            variants = len(n.select('.js-room-types option')) or 1
+            expected_options += [(record['id'], [f"{record['price']:,}"])
+                                 for _ in range(variants) for record in added_options[key]]
+        if expected_options != options(n) and key not in ['1071','1073','1074']: fail(route,'options changed '+key)
         old_types = before.select_one('.js-room-types'); new_types = n.select_one('.js-room-types')
         if bool(old_types) != bool(new_types) or (old_types and [(o.get('value'),o.get_text()) for o in old_types.select('option')] != [(o.get('value'),o.get_text()) for o in new_types.select('option')]): fail(route,'variants changed '+key)
         if old_types:
@@ -136,6 +142,11 @@ for route,page in catalogue['pages'].items():
     for key in page['offers']:
         old_offer = soup(catalogue['offers'][key])
         new_offer = main.find(attrs={'data-service-offer':key})
+        # CHG-035 keeps at most two product tabs; the legacy sets occupy a tab
+        # only when the page has fewer than two normal product choices.
+        if page['category'] != 'aircon' and len(set(expected)) >= 2:
+            if new_offer is not None: fail(route,'legacy sets exceed the two-tab limit '+key)
+            continue
         if new_offer is None or prices(old_offer) != prices(new_offer): fail(route,'set-plan prices changed '+key)
         elif [n['value'] for n in old_offer.select('input[name="product-id"]')] != [n['value'] for n in new_offer.select('input[name="product-id"]')]: fail(route,'set-plan products changed '+key)
     if route == 'aircon':

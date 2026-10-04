@@ -210,8 +210,32 @@ function checkFaq(actual,reference){
 }
 const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup,products:checkProducts,offers:checkOffers,voices:checkVoices,faq:checkFaq,flow:checkExactFrame,featured:checkExactFrame};
 async function interact(page,route,viewport){
+ if(phase==='flow'){
+  const flow=page.locator('#service-flow');
+  await flow.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top,behavior:'instant'}));
+  const geometry=await flow.evaluate(n=>{
+   const list=n.querySelector('.c-howto'),css=getComputedStyle(list),cart=document.querySelector('#js-floating'),c=cart?.getBoundingClientRect();
+   return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
+    descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
+  });
+  assert.deepEqual(geometry.descriptions.map(p=>p.text),copy.shared.steps.map(s=>s[1]),'flow summary differs from shared source');
+  assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
+  assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
+  if(viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
+  return geometry;
+ }
  if(phase==='voices'){
   assert.deepEqual(await page.locator('.c-voice-card__stars').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('aria-label'))),voiceProfiles[route].map(p=>`5つ星中${p.rating}つ星`),'voice star ratings differ');
+  const rendered=await page.locator('.c-voice-bubbles > .c-voice-card').evaluateAll(cards=>cards.map(card=>{
+   const box=card.getBoundingClientRect();
+   return {filled:card.querySelectorAll('.c-voice-card__star:not(.c-voice-card__star--empty)').length,avatar:getComputedStyle(card,'::before').backgroundImage,
+    inside:[...card.querySelectorAll('.c-voice-card__profile,.c-voice-card__heading,.c-voice-card__text')].every(n=>{const r=n.getBoundingClientRect();return r.top>=box.top&&r.bottom<=box.bottom+.5;})};
+  }));
+  for(let i=0;i<rendered.length;i++){
+   assert.equal(rendered[i].filled,voiceProfiles[route][i].rating,'visible stars differ from rating');
+   assert(rendered[i].avatar.includes('/'+voiceProfiles[route][i].avatar+'.svg'),'visible avatar differs from profile');
+   assert(rendered[i].inside,'review text extends outside bubble vertically');
+  }
   return {reviewsChecked:6};
  }
  if(phase==='faq'){

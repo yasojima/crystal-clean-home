@@ -14,11 +14,14 @@ copy = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))
 voices = json.loads((DATA / 'voices.json').read_text(encoding='utf-8'))
 assets = json.loads((DATA / 'scene-assets.json').read_text(encoding='utf-8'))
 comparisons = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='utf-8'))
+comparisons.update(json.loads((DATA / 'service-comparisons.json').read_text(encoding='utf-8')))
 errors, records = [], []
 image_uses = defaultdict(list)
 longest_positions, rating_distributions, demographic_orders = Counter(), Counter(), Counter()
 first_long_positions, avatar_orders, rating_orders = Counter(), Counter(), Counter()
 all_reviews = [review for page in voices['pages'].values() for review in page]
+long_counts, age_counts, gender_counts = Counter(), Counter(), Counter()
+low_reviews = []
 
 if voices.get('purpose') != 'fictional-client-demo':
     errors.append('review purpose is not the approved client demonstration')
@@ -32,10 +35,17 @@ known_images = {v['asset']: v for v in assets.values()}
 comparison_images = {v[state] for v in comparisons.values() for state in ('before', 'after')}
 for route, page in catalogue['pages'].items():
     reviews = voices['pages'][route]
-    if len(reviews) != 6 or any(r['rating'] not in (3, 4, 5) for r in reviews):
+    if len(reviews) != 6 or any(r['rating'] not in (1, 2, 3, 4, 5) for r in reviews):
         errors.append(f'{route}: review count or rating')
     lengths = [len(r['body']) for r in reviews]
-    first_long = next((i + 1 for i, length in enumerate(lengths) if length >= 90), None)
+    first_long = next((i + 1 for i, length in enumerate(lengths) if length >= 120), None)
+    long_counts[sum(length >= 120 for length in lengths)] += 1
+    age_counts[len({r['demographic'][:2] for r in reviews})] += 1
+    gender_counts[sum('男性' in r['demographic'] for r in reviews)] += 1
+    low_reviews.extend({'route': route, 'position': i + 1, 'rating': r['rating'], 'title': r['title'], 'body': r['body']}
+                       for i, r in enumerate(reviews) if r['rating'] < 3)
+    if not any(length >= 120 for length in lengths) or not any(length < 90 for length in lengths):
+        errors.append(f'{route}: missing contrast between substantial and short/medium reviews')
     first_long_positions[str(first_long) if first_long is not None else 'none'] += 1
     avatar_orders[tuple(r['avatar'] for r in reviews)] += 1
     longest = max(range(len(lengths)), key=lengths.__getitem__) + 1
@@ -77,7 +87,7 @@ for route, page in catalogue['pages'].items():
         'nickname_order': [r['nickname'] for r in reviews],
         'demographic_order': [r['demographic'] for r in reviews],
         'ratings': ratings, 'body_lengths': lengths, 'longest_position': longest,
-        'first_90_character_review_position': first_long,
+        'first_120_character_review_position': first_long,
         'avatar_order': [r['avatar'] for r in reviews],
         'review_titles': [r['title'] for r in reviews], 'photos': photos,
         'product_scenes': [{
@@ -92,13 +102,21 @@ if len(rating_distributions) < 3 or max(rating_distributions.values()) > len(rec
     errors.append('star distributions are concentrated in the same pattern')
 if max(demographic_orders.values()) > 1:
     errors.append('repeated demographic sequence')
+if not 1 <= len(low_reviews) <= 3:
+    errors.append('one to three low-rated demo examples required across the whole site')
+if len(long_counts) < 3 or len(age_counts) < 3 or len(gender_counts) < 3:
+    errors.append('review length counts or demographic mixes remain uniform')
 
 report = {
     'checked_at': datetime.now(timezone.utc).isoformat(), 'pages': len(records),
     'reviews': len(all_reviews), 'purpose': voices['purpose'],
     'longest_positions': dict(sorted(longest_positions.items())),
     'first_long_review_positions': dict(sorted(first_long_positions.items())),
-    'long_review_threshold_characters': 90,
+    'long_review_threshold_characters': 120,
+    'long_reviews_per_page_distribution': dict(sorted(long_counts.items())),
+    'distinct_age_groups_per_page_distribution': dict(sorted(age_counts.items())),
+    'male_reviews_per_page_distribution': dict(sorted(gender_counts.items())),
+    'low_rated_examples': low_reviews,
     'unique_avatar_orders': len(avatar_orders),
     'unique_rating_orders': len(rating_orders),
     'rating_distributions': [{'ratings': list(k), 'pages': v} for k, v in sorted(rating_distributions.items())],

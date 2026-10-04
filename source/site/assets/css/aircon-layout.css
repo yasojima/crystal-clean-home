@@ -477,7 +477,7 @@
 }
 
 .c-howto {
-  --howto-gap: 36px;
+  --howto-gap: 48px;
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: var(--howto-gap);
@@ -552,8 +552,9 @@
 
 .c-howto__description {
   color: #000;
-  font-size: 14px;
-  line-height: 1.9;
+  font-size: 15px;
+  line-height: 1.85;
+  overflow-wrap: break-word;
 }
 
 @media (min-width: 1200px) {
@@ -570,21 +571,20 @@
 
 @media (min-width: 1440px) and (max-width: 1689.98px) {
   .c-howto {
-    --howto-gap: 24px;
+    --howto-gap: 40px;
   }
 
   .c-howto__heading {
-    font-size: 14px;
-    letter-spacing: -.04em;
-    white-space: nowrap;
+    font-size: 15px;
+    letter-spacing: normal;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1439.98px) {
   .c-howto {
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 40px 20px;
-    --howto-gap: 20px;
+    gap: 56px 32px;
+    --howto-gap: 32px;
   }
 
   .c-howto__item {
@@ -609,8 +609,8 @@
 
   .c-howto {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 44px 24px;
-    --howto-gap: 24px;
+    gap: 56px 40px;
+    --howto-gap: 40px;
   }
 
   .c-howto__item:last-child {
@@ -627,8 +627,8 @@
 @media (min-width: 600px) and (max-width: 767.98px) {
   .c-howto {
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 48px 20px;
-    --howto-gap: 20px;
+    gap: 56px 28px;
+    --howto-gap: 28px;
   }
 
   .c-howto__item {
@@ -648,7 +648,7 @@
   .c-howto {
     grid-template-columns: minmax(0, 300px);
     justify-content: center;
-    row-gap: 56px;
+    row-gap: 64px;
   }
 
   .c-howto__heading {

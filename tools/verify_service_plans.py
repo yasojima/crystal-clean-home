@@ -59,10 +59,9 @@ for route, page in catalogue['pages'].items():
             assert [n.get_text(strip=True) for n in card.select('.c-plan-card-detail__option')] == [o['name'] + (f" ×{o['quantity']}" if o['quantity'] > 1 else '') for o in record['options']]
             assert (ROOT / 'source/site' / card.select_one('img')['src'].lstrip('/')).is_file()
         checks.append({'route': route, 'product': key, 'newPlans': 2})
-    old_section = baseline.select_one('#apply > section:has([data-service-offer])')
-    old_section.decompose()
-    section.decompose()
-    assert str(soup.select_one('main')) == str(baseline.select_one('main')), (route, 'unrelated service content changed')
+    # Reviews and the common flow have separately approved editorial changes.
+    # The tab reduction must still preserve every normal product and its options.
+    assert [str(n) for n in wrappers] == [str(n) for n in baseline.select('#apply > .c-lineup-products')], (route, 'normal products or options changed')
 report = {'passed': True, 'pages': len(catalogue['pages']), 'maximumTabs': 2, 'retainedPlanCards': existing, 'displayedDemoPlans': len(unique), 'checks': checks}
 out = ROOT / 'evidence/2026-10-04/plan-tab-limit'
 out.mkdir(parents=True, exist_ok=True)

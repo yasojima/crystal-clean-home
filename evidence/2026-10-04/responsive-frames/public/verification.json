@@ -1,0 +1,2060 @@
+{
+  "checkedAt": "2026-10-04T03:20:40.287Z",
+  "origin": "https://yasojima.github.io",
+  "engine": "chrome",
+  "passed": true,
+  "checks": [
+    {
+      "route": "pack",
+      "width": 1024,
+      "height": 600,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 76.796875
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 76.796875,
+          "width": 1009,
+          "height": 592.90625
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 76.796875,
+          "width": 1009,
+          "height": 240
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 454.0625,
+          "y": 92.7890625,
+          "width": 554.9375,
+          "height": 150.640625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 140.125,
+          "y": 127.53125,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 316.796875,
+          "width": 1009,
+          "height": 352.90625
+        },
+        ".c-issue-list": {
+          "x": 40,
+          "y": 782.65625,
+          "width": 929,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 129.5,
+          "y": 1335.4375,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2185.828125,
+          "width": 1009,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 40,
+          "y": 2963.625,
+          "width": 929,
+          "height": 451.890625
+        },
+        ".recommend-plan-cards": {
+          "x": 40,
+          "y": 4690.203125,
+          "width": 929,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 40,
+          "y": 5572.3125,
+          "width": 929,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 40,
+          "y": 7396.65625,
+          "width": 929,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 64,
+          "y": 8174.390625,
+          "width": 654,
+          "height": 1117.46875
+        },
+        ".c-house-cleaning-links": {
+          "x": 40,
+          "y": 9519.609375,
+          "width": 929,
+          "height": 568.890625
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 10231.296875,
+          "width": 1009,
+          "height": 523.1875
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 77.296875,
+        "height": 523.1875,
+        "bottom": 600.484375,
+        "headerHeight": 76.796875,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 28.421875
+      }
+    },
+    {
+      "route": "room",
+      "width": 1024,
+      "height": 600,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1009,
+          "height": 76.796875
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 76.796875,
+          "width": 1009,
+          "height": 1180.671875
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 76.796875,
+          "width": 1009,
+          "height": 240
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 454.0625,
+          "y": 92.7890625,
+          "width": 554.9375,
+          "height": 150.640625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 140.125,
+          "y": 127.53125,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 316.796875,
+          "width": 1009,
+          "height": 940.671875
+        },
+        ".c-issue-list": {
+          "x": 40,
+          "y": 1370.421875,
+          "width": 929,
+          "height": 327.1875
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 129.5,
+          "y": 1952,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2802.390625,
+          "width": 1009,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 40,
+          "y": 3580.1875,
+          "width": 929,
+          "height": 375.296875
+        },
+        ".recommend-plan-cards": {
+          "x": 40,
+          "y": 14491.703125,
+          "width": 929,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 40,
+          "y": 15402.609375,
+          "width": 929,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 40,
+          "y": 17226.953125,
+          "width": 929,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 64,
+          "y": 18004.6875,
+          "width": 654,
+          "height": 1117.46875
+        },
+        ".c-house-cleaning-links": {
+          "x": 40,
+          "y": 19349.90625,
+          "width": 929,
+          "height": 568.890625
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20061.59375,
+          "width": 1009,
+          "height": 523.1875
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 76.59375,
+        "height": 523.1875,
+        "bottom": 599.78125,
+        "headerHeight": 76.796875,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 28.421875
+      }
+    },
+    {
+      "route": "pack",
+      "width": 1280,
+      "height": 551,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 1265,
+          "height": 634.5
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 1265,
+          "height": 281.59375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 569.25,
+          "y": 112,
+          "width": 695.75,
+          "height": 177.90625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 175.6875,
+          "y": 160.359375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 377.59375,
+          "width": 1265,
+          "height": 352.90625
+        },
+        ".c-issue-list": {
+          "x": 120.5,
+          "y": 853.6875,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 257.5,
+          "y": 1406.46875,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2256.859375,
+          "width": 1265,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 40,
+          "y": 3039.609375,
+          "width": 1185,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 40,
+          "y": 4848.15625,
+          "width": 1185,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 82.5,
+          "y": 5730.265625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 120.5,
+          "y": 7564.84375,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 8342.578125,
+          "width": 670,
+          "height": 728.3125
+        },
+        ".c-house-cleaning-links": {
+          "x": 40,
+          "y": 9308.875,
+          "width": 1185,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 9836.265625,
+          "width": 1265,
+          "height": 455
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 96.265625,
+        "height": 455,
+        "bottom": 551.265625,
+        "headerHeight": 96,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 9.6875
+      }
+    },
+    {
+      "route": "room",
+      "width": 1280,
+      "height": 551,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 1265,
+          "height": 1026.34375
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 1265,
+          "height": 281.59375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 569.25,
+          "y": 112,
+          "width": 695.75,
+          "height": 177.90625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 175.6875,
+          "y": 160.359375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 377.59375,
+          "width": 1265,
+          "height": 744.75
+        },
+        ".c-issue-list": {
+          "x": 120.5,
+          "y": 1245.53125,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 257.5,
+          "y": 1798.3125,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2648.703125,
+          "width": 1265,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 40,
+          "y": 3431.453125,
+          "width": 1185,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 40,
+          "y": 15910.1875,
+          "width": 1185,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 82.5,
+          "y": 16821.09375,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 120.5,
+          "y": 18655.671875,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 19433.40625,
+          "width": 670,
+          "height": 728.3125
+        },
+        ".c-house-cleaning-links": {
+          "x": 40,
+          "y": 20399.703125,
+          "width": 1185,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20927.09375,
+          "width": 1265,
+          "height": 455
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 96.09375,
+        "height": 455,
+        "bottom": 551.09375,
+        "headerHeight": 96,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 9.6875
+      }
+    },
+    {
+      "route": "pack",
+      "width": 1366,
+      "height": 650,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1351,
+          "height": 102.4375
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 102.4375,
+          "width": 1351,
+          "height": 653.421875
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 102.4375,
+          "width": 1351,
+          "height": 300.515625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 607.953125,
+          "y": 118.4296875,
+          "width": 743.046875,
+          "height": 192.015625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 187.625,
+          "y": 173.859375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 402.953125,
+          "width": 1351,
+          "height": 352.90625
+        },
+        ".c-issue-list": {
+          "x": 163.5,
+          "y": 882.484375,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 300.5,
+          "y": 1435.265625,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2285.65625,
+          "width": 1351,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 75.5,
+          "y": 3071.15625,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 75.5,
+          "y": 4882.453125,
+          "width": 1200,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 125.5,
+          "y": 5764.5625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 163.5,
+          "y": 7602.578125,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 8380.3125,
+          "width": 756,
+          "height": 728.3125
+        },
+        ".c-house-cleaning-links": {
+          "x": 75.5,
+          "y": 9350.046875,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 9877.4375,
+          "width": 1351,
+          "height": 547.546875
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 102.4375,
+        "height": 547.546875,
+        "bottom": 649.984375,
+        "headerHeight": 102.4375,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 24.03125
+      }
+    },
+    {
+      "route": "room",
+      "width": 1366,
+      "height": 650,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1351,
+          "height": 102.4375
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 102.4375,
+          "width": 1351,
+          "height": 849.34375
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 102.4375,
+          "width": 1351,
+          "height": 300.515625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 607.953125,
+          "y": 118.4296875,
+          "width": 743.046875,
+          "height": 192.015625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 187.625,
+          "y": 173.859375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 402.953125,
+          "width": 1351,
+          "height": 548.828125
+        },
+        ".c-issue-list": {
+          "x": 163.5,
+          "y": 1078.40625,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 300.5,
+          "y": 1631.1875,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2481.578125,
+          "width": 1351,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 75.5,
+          "y": 3267.078125,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 75.5,
+          "y": 15770.5625,
+          "width": 1200,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 125.5,
+          "y": 16681.46875,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 163.5,
+          "y": 18519.484375,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 19297.21875,
+          "width": 756,
+          "height": 728.3125
+        },
+        ".c-house-cleaning-links": {
+          "x": 75.5,
+          "y": 20266.953125,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20794.34375,
+          "width": 1351,
+          "height": 547.546875
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 102.34375,
+        "height": 547.546875,
+        "bottom": 649.890625,
+        "headerHeight": 102.4375,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 24.03125
+      }
+    },
+    {
+      "route": "pack",
+      "width": 1440,
+      "height": 800,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 668
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 641.25,
+          "y": 123.9921875,
+          "width": 783.75,
+          "height": 202.421875
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 197.90625,
+          "y": 184.625,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1425,
+          "height": 352.90625
+        },
+        ".c-issue-list": {
+          "x": 200.5,
+          "y": 905.59375,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 337.5,
+          "y": 1458.375,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2308.765625,
+          "width": 1425,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 112.5,
+          "y": 3096.5625,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 112.5,
+          "y": 4910.15625,
+          "width": 1200,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 162.5,
+          "y": 5792.265625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 200.5,
+          "y": 7633.25,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 8410.984375,
+          "width": 830,
+          "height": 372.25
+        },
+        ".c-house-cleaning-links": {
+          "x": 112.5,
+          "y": 9027.625,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 9555.015625,
+          "width": 1425,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 108.015625,
+        "height": 692,
+        "bottom": 800.015625,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    },
+    {
+      "route": "room",
+      "width": 1440,
+      "height": 800,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 863.890625
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 641.25,
+          "y": 123.9921875,
+          "width": 783.75,
+          "height": 202.421875
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 197.90625,
+          "y": 184.625,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1425,
+          "height": 548.828125
+        },
+        ".c-issue-list": {
+          "x": 200.5,
+          "y": 1101.484375,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 337.5,
+          "y": 1654.265625,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2504.65625,
+          "width": 1425,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 112.5,
+          "y": 3292.453125,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 112.5,
+          "y": 15816.609375,
+          "width": 1200,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 162.5,
+          "y": 16727.515625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 200.5,
+          "y": 18568.5,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 19346.234375,
+          "width": 830,
+          "height": 372.25
+        },
+        ".c-house-cleaning-links": {
+          "x": 112.5,
+          "y": 19962.875,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20490.265625,
+          "width": 1425,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 108.265625,
+        "height": 692,
+        "bottom": 800.265625,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    },
+    {
+      "route": "pack",
+      "width": 1920,
+      "height": 1080,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1905,
+          "height": 668
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1905,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 857.25,
+          "y": 124,
+          "width": 1047.75,
+          "height": 195.0625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 264.578125,
+          "y": 180.9375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1905,
+          "height": 352.921875
+        },
+        ".c-issue-list": {
+          "x": 440.5,
+          "y": 912,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 577.5,
+          "y": 1464.78125,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 152.5,
+          "y": 2315.171875,
+          "width": 1600,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 352.5,
+          "y": 3102.96875,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 352.5,
+          "y": 4916.5625,
+          "width": 1200,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 402.5,
+          "y": 5798.671875,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 440.5,
+          "y": 7646.0625,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 412.5,
+          "y": 8423.796875,
+          "width": 1080,
+          "height": 370.75
+        },
+        ".c-house-cleaning-links": {
+          "x": 352.5,
+          "y": 9045.34375,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 9572.734375,
+          "width": 1905,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 387.734375,
+        "height": 692,
+        "bottom": 1079.734375,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    },
+    {
+      "route": "room",
+      "width": 1920,
+      "height": 1080,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1905,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1905,
+          "height": 863.90625
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1905,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 857.25,
+          "y": 124,
+          "width": 1047.75,
+          "height": 195.0625
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 264.578125,
+          "y": 180.9375,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1905,
+          "height": 548.84375
+        },
+        ".c-issue-list": {
+          "x": 440.5,
+          "y": 1107.90625,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 577.5,
+          "y": 1660.6875,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 152.5,
+          "y": 2511.078125,
+          "width": 1600,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 352.5,
+          "y": 3298.875,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 352.5,
+          "y": 15823.03125,
+          "width": 1200,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 402.5,
+          "y": 16733.9375,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 440.5,
+          "y": 18581.328125,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 412.5,
+          "y": 19359.0625,
+          "width": 1080,
+          "height": 370.75
+        },
+        ".c-house-cleaning-links": {
+          "x": 352.5,
+          "y": 19980.609375,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20508,
+          "width": 1905,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 388,
+        "height": 692,
+        "bottom": 1080,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    },
+    {
+      "route": "pack",
+      "width": 320,
+      "height": 568,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 148
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 148,
+          "width": 305,
+          "height": 676.75
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 148,
+          "width": 305,
+          "height": 220
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 164,
+          "width": 305,
+          "height": 132
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 35.5,
+          "y": 204.8125,
+          "width": 234,
+          "height": 50.375
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 368,
+          "width": 305,
+          "height": 456.75
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 908.75,
+          "width": 275,
+          "height": 470.6875
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 1670.8125,
+          "width": 275,
+          "height": 183.328125
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2254.875,
+          "width": 305,
+          "height": 1125
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 3687.0625,
+          "width": 275,
+          "height": 763.515625
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 5925.1875,
+          "width": 275,
+          "height": 1431.25
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 7559.828125,
+          "width": 275,
+          "height": 2134.453125
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 9922.15625,
+          "width": 275,
+          "height": 465.875
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 10623.421875,
+          "width": 275,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 12654.421875,
+          "width": 275,
+          "height": 703.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 13523.296875,
+          "width": 305,
+          "height": 567.96875
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 0.296875,
+        "height": 567.96875,
+        "bottom": 568.265625,
+        "headerHeight": 148,
+        "fitsBelowHeader": false,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "room",
+      "width": 320,
+      "height": 568,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 305,
+          "height": 148
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 148,
+          "width": 305,
+          "height": 1114.375
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 148,
+          "width": 305,
+          "height": 220
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 164,
+          "width": 305,
+          "height": 132
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 35.5,
+          "y": 204.8125,
+          "width": 234,
+          "height": 50.375
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 368,
+          "width": 305,
+          "height": 894.375
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 1346.375,
+          "width": 275,
+          "height": 495.875
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 2133.625,
+          "width": 275,
+          "height": 183.328125
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2717.6875,
+          "width": 305,
+          "height": 1125
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 4149.875,
+          "width": 275,
+          "height": 605.03125
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 17659.828125,
+          "width": 275,
+          "height": 1400.8125
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 19264.03125,
+          "width": 275,
+          "height": 2014.0625
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 21505.96875,
+          "width": 275,
+          "height": 465.875
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 22207.234375,
+          "width": 275,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 24238.234375,
+          "width": 275,
+          "height": 703.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 25107.109375,
+          "width": 305,
+          "height": 567.96875
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 0.109375,
+        "height": 567.96875,
+        "bottom": 568.078125,
+        "headerHeight": 148,
+        "fitsBelowHeader": false,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "pack",
+      "width": 414,
+      "height": 688,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 399,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 399,
+          "height": 716.578125
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 399,
+          "height": 279.859375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 111.9921875,
+          "width": 399,
+          "height": 191.859375
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 69.5,
+          "y": 179.921875,
+          "width": 260,
+          "height": 56
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 375.859375,
+          "width": 399,
+          "height": 436.71875
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 896.578125,
+          "width": 369,
+          "height": 371.125
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 1503.890625,
+          "width": 369,
+          "height": 246
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2081.046875,
+          "width": 399,
+          "height": 1266
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 3654.234375,
+          "width": 369,
+          "height": 700.203125
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 5780.4375,
+          "width": 369,
+          "height": 1183.9375
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 7178.21875,
+          "width": 369,
+          "height": 1513.640625
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 8929.359375,
+          "width": 369,
+          "height": 458.75
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 9633.953125,
+          "width": 369,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 11637.359375,
+          "width": 369,
+          "height": 687.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 12465.046875,
+          "width": 399,
+          "height": 687.984375
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 0.046875,
+        "height": 687.984375,
+        "bottom": 688.03125,
+        "headerHeight": 96,
+        "fitsBelowHeader": false,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "room",
+      "width": 414,
+      "height": 688,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 399,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 399,
+          "height": 1162.40625
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 399,
+          "height": 279.859375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 111.9921875,
+          "width": 399,
+          "height": 191.859375
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 69.5,
+          "y": 179.921875,
+          "width": 260,
+          "height": 56
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 375.859375,
+          "width": 399,
+          "height": 882.546875
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 1342.40625,
+          "width": 369,
+          "height": 371.125
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 1949.71875,
+          "width": 369,
+          "height": 246
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2526.875,
+          "width": 399,
+          "height": 1266
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 4072.46875,
+          "width": 369,
+          "height": 603.515625
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 17395.328125,
+          "width": 369,
+          "height": 1183.9375
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 18793.109375,
+          "width": 369,
+          "height": 1513.59375
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 20544.203125,
+          "width": 369,
+          "height": 458.75
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 21248.796875,
+          "width": 369,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 23252.203125,
+          "width": 369,
+          "height": 687.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 24079.890625,
+          "width": 399,
+          "height": 687.984375
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": -0.109375,
+        "height": 687.984375,
+        "bottom": 687.875,
+        "headerHeight": 96,
+        "fitsBelowHeader": false,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "pack",
+      "width": 430,
+      "height": 932,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 415,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 415,
+          "height": 828.859375
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 415,
+          "height": 391.609375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 111.9921875,
+          "width": 415,
+          "height": 303.609375
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 77.5,
+          "y": 235.796875,
+          "width": 260,
+          "height": 56
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 487.609375,
+          "width": 415,
+          "height": 437.25
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 1008.859375,
+          "width": 385,
+          "height": 371.125
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 1616.171875,
+          "width": 385,
+          "height": 256.65625
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2203.984375,
+          "width": 415,
+          "height": 1266
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 3777.171875,
+          "width": 385,
+          "height": 707.8125
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 5918.59375,
+          "width": 385,
+          "height": 1183.9375
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 7317.203125,
+          "width": 385,
+          "height": 1513.640625
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 9069.171875,
+          "width": 385,
+          "height": 458.75
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 9774.59375,
+          "width": 385,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 11778,
+          "width": 385,
+          "height": 687.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 12605.6875,
+          "width": 415,
+          "height": 799.9375
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 131.6875,
+        "height": 799.9375,
+        "bottom": 931.625,
+        "headerHeight": 96,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "room",
+      "width": 430,
+      "height": 932,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 415,
+          "height": 96
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 96,
+          "width": 415,
+          "height": 1275.484375
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 96,
+          "width": 415,
+          "height": 391.609375
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 0,
+          "y": 111.9921875,
+          "width": 415,
+          "height": 303.609375
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 77.5,
+          "y": 235.796875,
+          "width": 260,
+          "height": 56
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 487.609375,
+          "width": 415,
+          "height": 883.875
+        },
+        ".c-issue-list": {
+          "x": 15,
+          "y": 1455.484375,
+          "width": 385,
+          "height": 371.125
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 15,
+          "y": 2062.796875,
+          "width": 385,
+          "height": 256.65625
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2650.609375,
+          "width": 415,
+          "height": 1266
+        },
+        ".c-lineup-card": {
+          "x": 15,
+          "y": 4196.203125,
+          "width": 385,
+          "height": 611.125
+        },
+        ".recommend-plan-cards": {
+          "x": 15,
+          "y": 17545.90625,
+          "width": 385,
+          "height": 1183.9375
+        },
+        ".c-voice-bubbles": {
+          "x": 15,
+          "y": 18944.515625,
+          "width": 385,
+          "height": 1478.53125
+        },
+        ".c-faq-accordion": {
+          "x": 15,
+          "y": 20661.375,
+          "width": 385,
+          "height": 458.75
+        },
+        ".c-howto": {
+          "x": 15,
+          "y": 21366.796875,
+          "width": 385,
+          "height": 1811.8125
+        },
+        ".c-house-cleaning-links": {
+          "x": 15,
+          "y": 23370.203125,
+          "width": 385,
+          "height": 687.5
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 24197.890625,
+          "width": 415,
+          "height": 799.9375
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 131.890625,
+        "height": 799.9375,
+        "bottom": 931.828125,
+        "headerHeight": 96,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 0
+      }
+    },
+    {
+      "route": "pack",
+      "width": 1440,
+      "height": 1973,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 668
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 641.25,
+          "y": 123.9921875,
+          "width": 783.75,
+          "height": 202.421875
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 197.90625,
+          "y": 184.625,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1425,
+          "height": 352.90625
+        },
+        ".c-issue-list": {
+          "x": 200.5,
+          "y": 905.59375,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 337.5,
+          "y": 1458.375,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2308.765625,
+          "width": 1425,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 112.5,
+          "y": 3096.5625,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 112.5,
+          "y": 4910.15625,
+          "width": 1200,
+          "height": 614.375
+        },
+        ".c-voice-bubbles": {
+          "x": 162.5,
+          "y": 5792.265625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 200.5,
+          "y": 7633.25,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 8410.984375,
+          "width": 830,
+          "height": 372.25
+        },
+        ".c-house-cleaning-links": {
+          "x": 112.5,
+          "y": 9027.625,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 9555.015625,
+          "width": 1425,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 12,
+      "footer": {
+        "top": 1281.015625,
+        "height": 692,
+        "bottom": 1973.015625,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    },
+    {
+      "route": "room",
+      "width": 1440,
+      "height": 1973,
+      "sections": {
+        ".c-header": {
+          "x": 0,
+          "y": 0,
+          "width": 1425,
+          "height": 108
+        },
+        ".c-first-view": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 863.890625
+        },
+        ".c-house-cleaning-mv": {
+          "x": 0,
+          "y": 108,
+          "width": 1425,
+          "height": 315.0625
+        },
+        ".c-house-cleaning-mv__image": {
+          "x": 641.25,
+          "y": 123.9921875,
+          "width": 783.75,
+          "height": 202.421875
+        },
+        ".c-house-cleaning-mv__text": {
+          "x": 197.90625,
+          "y": 184.625,
+          "width": 377,
+          "height": 81.1875
+        },
+        ".c-service-selector": {
+          "x": 0,
+          "y": 423.0625,
+          "width": 1425,
+          "height": 548.828125
+        },
+        ".c-issue-list": {
+          "x": 200.5,
+          "y": 1101.484375,
+          "width": 1024,
+          "height": 298.390625
+        },
+        ".c-compare-image-tab__compare-image": {
+          "x": 337.5,
+          "y": 1654.265625,
+          "width": 750,
+          "height": 500
+        },
+        ".c-reasons": {
+          "x": 0,
+          "y": 2504.65625,
+          "width": 1425,
+          "height": 423
+        },
+        ".c-lineup-card": {
+          "x": 112.5,
+          "y": 3292.453125,
+          "width": 1200,
+          "height": 482
+        },
+        ".recommend-plan-cards": {
+          "x": 112.5,
+          "y": 15816.609375,
+          "width": 1200,
+          "height": 643.171875
+        },
+        ".c-voice-bubbles": {
+          "x": 162.5,
+          "y": 16727.515625,
+          "width": 1100,
+          "height": 1520
+        },
+        ".c-faq-accordion": {
+          "x": 200.5,
+          "y": 18568.5,
+          "width": 1024,
+          "height": 470
+        },
+        ".c-howto": {
+          "x": 297.5,
+          "y": 19346.234375,
+          "width": 830,
+          "height": 372.25
+        },
+        ".c-house-cleaning-links": {
+          "x": 112.5,
+          "y": 19962.875,
+          "width": 1200,
+          "height": 384.59375
+        },
+        ".c-footer--aircon": {
+          "x": 0,
+          "y": 20490.265625,
+          "width": 1425,
+          "height": 692
+        }
+      },
+      "issues": [],
+      "imageCount": 25,
+      "footer": {
+        "top": 1281.265625,
+        "height": 692,
+        "bottom": 1973.265625,
+        "headerHeight": 108,
+        "fitsBelowHeader": true,
+        "fitsViewport": true,
+        "supportGap": 19.03125
+      }
+    }
+  ]
+}

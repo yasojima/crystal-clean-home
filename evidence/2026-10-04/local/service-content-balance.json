@@ -1,29 +1,102 @@
 {
-  "checked_at": "2026-10-03T22:39:37.529974+00:00",
+  "checked_at": "2026-10-04T03:48:26.329760+00:00",
   "pages": 46,
   "reviews": 276,
   "purpose": "fictional-client-demo",
   "longest_positions": {
     "1": 8,
     "2": 8,
-    "3": 8,
+    "3": 12,
     "4": 8,
-    "5": 7,
-    "6": 7
+    "5": 6,
+    "6": 4
   },
   "first_long_review_positions": {
-    "1": 7,
-    "2": 7,
-    "3": 8,
+    "1": 11,
+    "2": 8,
+    "3": 11,
     "4": 6,
-    "5": 5,
-    "6": 6,
-    "none": 7
+    "5": 6,
+    "6": 4
   },
-  "long_review_threshold_characters": 90,
+  "long_review_threshold_characters": 120,
+  "long_reviews_per_page_distribution": {
+    "1": 29,
+    "2": 16,
+    "3": 1
+  },
+  "distinct_age_groups_per_page_distribution": {
+    "2": 1,
+    "3": 10,
+    "4": 27,
+    "5": 7,
+    "6": 1
+  },
+  "male_reviews_per_page_distribution": {
+    "2": 13,
+    "3": 25,
+    "4": 7,
+    "5": 1
+  },
+  "low_rated_examples": [
+    {
+      "route": "room/carpet",
+      "position": 5,
+      "rating": 2,
+      "title": "染みを落としたかったので残念",
+      "body": "飲み物の染みを取るのが目的でした。全体はさっぱりしたものの、肝心の跡がまだ見えます。落ちない場合もあると分かって頼んだつもりでしたが、期待が大きすぎたようです。"
+    },
+    {
+      "route": "washer/front",
+      "position": 4,
+      "rating": 2,
+      "title": "仕上がりより待ち時間が気になった",
+      "body": "洗濯機はきれいになりましたが、終了予定を過ぎてから時間が延びると聞き、外出の予定を変えました。もう少し早く知らせてほしかったです。初めての依頼だったので、その点が残念でした。"
+    },
+    {
+      "route": "water/bathroom",
+      "position": 1,
+      "rating": 1,
+      "title": "初めてでしたが、期待した変化はなく",
+      "body": "初めてプロに頼むので期待していましたが、一番気になっていた鏡の白い跡が思ったほど変わりませんでした。残る可能性があるとは聞いたものの、自分の想像とは差があり、すごく残念です。床などはきれいになりましたが、この金額を出すなら鏡を優先して別の方法を相談すればよかったです。"
+    }
+  ],
   "unique_avatar_orders": 46,
-  "unique_rating_orders": 41,
+  "unique_rating_orders": 39,
   "rating_distributions": [
+    {
+      "ratings": [
+        1,
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "pages": 1
+    },
+    {
+      "ratings": [
+        2,
+        3,
+        4,
+        4,
+        5,
+        5
+      ],
+      "pages": 1
+    },
+    {
+      "ratings": [
+        2,
+        4,
+        5,
+        5,
+        5,
+        5
+      ],
+      "pages": 1
+    },
     {
       "ratings": [
         3,
@@ -44,7 +117,7 @@
         5,
         5
       ],
-      "pages": 8
+      "pages": 6
     },
     {
       "ratings": [
@@ -77,7 +150,7 @@
         5,
         5
       ],
-      "pages": 7
+      "pages": 8
     },
     {
       "ratings": [
@@ -99,30 +172,33 @@
         5,
         5
       ],
-      "pages": 8
+      "pages": 6
     }
   ],
   "demographics": {
-    "20代 女性": 26,
-    "20代 男性": 20,
-    "30代 女性": 31,
-    "30代 男性": 15,
-    "40代 女性": 28,
-    "40代 男性": 18,
-    "50代 女性": 28,
-    "50代 男性": 18,
-    "60代 女性": 25,
-    "60代 男性": 21,
-    "70代 女性": 30,
-    "70代 男性": 16
+    "20代 女性": 11,
+    "20代 男性": 10,
+    "30代 女性": 34,
+    "30代 男性": 25,
+    "40代 女性": 27,
+    "40代 男性": 26,
+    "50代 女性": 23,
+    "50代 男性": 22,
+    "60代 女性": 29,
+    "60代 男性": 37,
+    "70代 女性": 18,
+    "70代 男性": 14
   },
   "body_length_range": [
     25,
-    171
+    195
   ],
-  "active_scene_photos": 31,
-  "preserved_comparison_photos": 6,
+  "active_scene_photos": 2,
+  "preserved_comparison_photos": 64,
   "photo_uses": {
+    "/assets/images/service-scenes/air-purifier-after.webp": [
+      "room/air-cleaner"
+    ],
     "/assets/images/service-scenes/air-purifier.webp": [
       "room",
       "room/air-cleaner"
@@ -134,69 +210,116 @@
       "aircon"
     ],
     "/assets/images/service-scenes/aircon-ceiling-after.png": [
-      "aircon"
+      "aircon",
+      "aircon/ceil"
     ],
     "/assets/images/service-scenes/aircon-ceiling-before.png": [
-      "aircon"
+      "aircon",
+      "aircon/ceil"
     ],
     "/assets/images/service-scenes/aircon-ceiling.webp": [
       "aircon/ceil"
     ],
     "/assets/images/service-scenes/aircon-wall-after.png": [
-      "aircon"
+      "aircon",
+      "aircon/wall"
     ],
     "/assets/images/service-scenes/aircon-wall-before.png": [
-      "aircon"
+      "aircon",
+      "aircon/wall"
     ],
     "/assets/images/service-scenes/aircon-wall.webp": [
       "aircon",
       "aircon/wall"
     ],
+    "/assets/images/service-scenes/balcony-after.webp": [
+      "others",
+      "others/exterior"
+    ],
     "/assets/images/service-scenes/balcony.webp": [
       "others",
       "others/exterior"
     ],
-    "/assets/images/service-scenes/bath-adapter.webp": [
-      "pack",
+    "/assets/images/service-scenes/bath-adapter-before.webp": [
       "water",
       "water/ulblo"
     ],
+    "/assets/images/service-scenes/bath-adapter.webp": [
+      "water",
+      "water/ulblo"
+    ],
+    "/assets/images/service-scenes/bath-dryer-after.webp": [
+      "coating",
+      "coating/bathroom",
+      "water/drier"
+    ],
     "/assets/images/service-scenes/bath-dryer.webp": [
-      "pack",
       "water",
       "water/drier"
     ],
+    "/assets/images/service-scenes/bath-pipe-after.webp": [
+      "water",
+      "water/pipe",
+      "water/ulblo"
+    ],
     "/assets/images/service-scenes/bath-pipe.webp": [
-      "pack",
       "water",
       "water/pipe"
     ],
-    "/assets/images/service-scenes/bathroom.webp": [
-      "pack",
+    "/assets/images/service-scenes/bathroom-after.webp": [
       "water",
       "coating",
       "coating/bathroom",
       "water/bathroom"
     ],
+    "/assets/images/service-scenes/bathroom.webp": [
+      "water",
+      "coating",
+      "coating/bathroom",
+      "water/bathroom"
+    ],
+    "/assets/images/service-scenes/carpet-after.webp": [
+      "room",
+      "room/carpet"
+    ],
     "/assets/images/service-scenes/carpet.webp": [
       "room",
       "room/carpet"
+    ],
+    "/assets/images/service-scenes/dishwasher-after.webp": [
+      "kitchen/dishwasher"
     ],
     "/assets/images/service-scenes/dishwasher.webp": [
       "kitchen",
       "kitchen/dishwasher"
     ],
+    "/assets/images/service-scenes/duct-after.webp": [
+      "room/duct"
+    ],
     "/assets/images/service-scenes/duct.webp": [
       "room",
       "room/duct"
+    ],
+    "/assets/images/service-scenes/entrance-after.webp": [
+      "room/entrance"
     ],
     "/assets/images/service-scenes/entrance.webp": [
       "room",
       "room/entrance"
     ],
+    "/assets/images/service-scenes/finish-check-before.webp": [
+      "coating",
+      "coating/kitchen"
+    ],
     "/assets/images/service-scenes/finish-check.webp": [
       "coating",
       "coating/kitchen"
+    ],
+    "/assets/images/service-scenes/flooring-before.webp": [
+      "pack",
+      "room",
+      "pack/move",
+      "room/flooring"
     ],
     "/assets/images/service-scenes/flooring.webp": [
       "pack",
@@ -204,45 +327,87 @@
       "pack/move",
       "room/flooring"
     ],
+    "/assets/images/service-scenes/grave-after.webp": [
+      "others",
+      "others/grave"
+    ],
     "/assets/images/service-scenes/grave.webp": [
       "others",
       "others/grave"
     ],
+    "/assets/images/service-scenes/kitchen-fan-after.webp": [
+      "kitchen",
+      "kitchen/fan"
+    ],
     "/assets/images/service-scenes/kitchen-fan.webp": [
-      "pack",
       "kitchen",
       "room",
       "kitchen/fan",
       "room/duct"
     ],
-    "/assets/images/service-scenes/kitchen-sink.webp": [
+    "/assets/images/service-scenes/kitchen-sink-after.webp": [
       "pack",
       "kitchen",
       "kitchen/kitchen",
       "pack/entirety"
     ],
-    "/assets/images/service-scenes/lavatory.webp": [
+    "/assets/images/service-scenes/kitchen-sink.webp": [
       "pack",
+      "kitchen",
+      "coating",
+      "coating/kitchen",
+      "kitchen/kitchen",
+      "pack/entirety"
+    ],
+    "/assets/images/service-scenes/lavatory-after.webp": [
       "water",
       "coating",
       "coating/lavatory",
       "water/lavatory"
     ],
+    "/assets/images/service-scenes/lavatory.webp": [
+      "water",
+      "coating",
+      "coating/lavatory",
+      "water/lavatory"
+    ],
+    "/assets/images/service-scenes/mattress-after.webp": [
+      "room",
+      "room/mattress"
+    ],
     "/assets/images/service-scenes/mattress.webp": [
       "room",
       "room/mattress"
+    ],
+    "/assets/images/service-scenes/outerwall-after.webp": [
+      "others",
+      "others/outerwall"
     ],
     "/assets/images/service-scenes/outerwall.webp": [
       "others",
       "others/outerwall"
     ],
+    "/assets/images/service-scenes/refrigerator-after.webp": [
+      "kitchen",
+      "kitchen/rei"
+    ],
     "/assets/images/service-scenes/refrigerator.webp": [
       "kitchen",
       "kitchen/rei"
     ],
+    "/assets/images/service-scenes/sofa-after.webp": [
+      "room",
+      "room/sofa"
+    ],
     "/assets/images/service-scenes/sofa.webp": [
       "room",
       "room/sofa"
+    ],
+    "/assets/images/service-scenes/toilet-before.webp": [
+      "water",
+      "coating",
+      "coating/toilet",
+      "water/toilet"
     ],
     "/assets/images/service-scenes/toilet.webp": [
       "water",
@@ -250,32 +415,63 @@
       "coating/toilet",
       "water/toilet"
     ],
+    "/assets/images/service-scenes/wall-after.webp": [
+      "room",
+      "others",
+      "others/photocatalyst",
+      "room/cloth",
+      "room/wallpaper-dyeing"
+    ],
     "/assets/images/service-scenes/wall.webp": [
       "room",
       "others",
       "others/photocatalyst",
-      "room/cloth"
+      "room/cloth",
+      "room/wallpaper-dyeing"
+    ],
+    "/assets/images/service-scenes/wallpaper-dyeing-before.webp": [
+      "room/wallpaper-dyeing"
     ],
     "/assets/images/service-scenes/wallpaper-dyeing.webp": [
-      "water",
       "room",
       "room/wallpaper-dyeing"
+    ],
+    "/assets/images/service-scenes/washer-drying-duct-after.webp": [
+      "washer",
+      "washer/side"
     ],
     "/assets/images/service-scenes/washer-drying-duct.webp": [
       "washer",
       "washer/side"
     ],
+    "/assets/images/service-scenes/washer-front-after.webp": [
+      "washer",
+      "washer/front"
+    ],
     "/assets/images/service-scenes/washer-front.webp": [
       "washer",
       "washer/front"
+    ],
+    "/assets/images/service-scenes/washer-top-after.webp": [
+      "washer",
+      "washer/top"
     ],
     "/assets/images/service-scenes/washer-top.webp": [
       "washer",
       "washer/top"
     ],
+    "/assets/images/service-scenes/window-after.webp": [
+      "room",
+      "room/glass"
+    ],
     "/assets/images/service-scenes/window.webp": [
       "room",
       "room/glass"
+    ],
+    "/assets/images/service-scenes/wood-coating-before.webp": [
+      "coating",
+      "coating/floor",
+      "coating/uv-coating"
     ],
     "/assets/images/service-scenes/wood-coating.webp": [
       "room",
@@ -283,6 +479,10 @@
       "coating/floor",
       "coating/uv-coating",
       "room/flooring"
+    ],
+    "/assets/images/service-scenes/wood-repair-after.webp": [
+      "coating",
+      "coating/repair"
     ],
     "/assets/images/service-scenes/wood-repair.webp": [
       "coating",
@@ -340,7 +540,7 @@
         67
       ],
       "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
         "woman-long",
         "man-short",
@@ -407,62 +607,58 @@
       "nickname_order": [
         "和室の住人さん",
         "こむぎさん",
+        "K・Nさん",
         "あおばさん",
         "ゆきのさん",
-        "りょうたさん",
-        "K・Nさん"
+        "りょうたさん"
       ],
       "demographic_order": [
-        "70代 男性",
-        "60代 女性",
+        "60代 男性",
+        "40代 男性",
+        "50代 男性",
+        "30代 女性",
         "40代 女性",
-        "50代 女性",
-        "20代 男性",
-        "30代 男性"
+        "20代 男性"
       ],
       "ratings": [
         4,
         5,
         5,
-        3,
         5,
+        3,
         5
       ],
       "body_lengths": [
         79,
-        43,
+        77,
+        175,
         31,
         52,
-        33,
-        100
+        33
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
-        "man-senior",
-        "woman-long",
-        "woman-long",
-        "woman-long",
+        "man-short",
+        "man-short",
         "man-young",
+        "woman-long",
+        "woman-bob",
         "man-short"
       ],
       "review_titles": [
         "相談しながら決められます",
         "住んだままで大丈夫でした",
+        "頼む場所を絞れた",
         "片付けに集中できました",
         "時間に余裕を持つべきでした",
-        "新生活の前にひと区切り",
-        "頼む場所を絞れた"
+        "新生活の前にひと区切り"
       ],
       "photos": [
-        "/assets/images/service-scenes/bath-adapter.webp",
-        "/assets/images/service-scenes/bath-dryer.webp",
-        "/assets/images/service-scenes/bath-pipe.webp",
-        "/assets/images/service-scenes/bathroom.webp",
+        "/assets/images/service-scenes/flooring-before.webp",
         "/assets/images/service-scenes/flooring.webp",
-        "/assets/images/service-scenes/kitchen-fan.webp",
-        "/assets/images/service-scenes/kitchen-sink.webp",
-        "/assets/images/service-scenes/lavatory.webp"
+        "/assets/images/service-scenes/kitchen-sink-after.webp",
+        "/assets/images/service-scenes/kitchen-sink.webp"
       ],
       "product_scenes": [
         {
@@ -501,59 +697,63 @@
         "すみれさん",
         "たろう丸さん",
         "のぶさん",
-        "makiさん",
-        "あずきさん"
+        "あずきさん",
+        "makiさん"
       ],
       "demographic_order": [
-        "70代 女性",
+        "60代 女性",
+        "50代 女性",
+        "50代 男性",
+        "70代 男性",
         "30代 女性",
-        "20代 男性",
-        "60代 男性",
-        "40代 女性",
-        "50代 女性"
+        "40代 男性"
       ],
       "ratings": [
         3,
         4,
         4,
         5,
-        5,
-        4
+        4,
+        5
       ],
       "body_lengths": [
         49,
-        50,
+        190,
         39,
-        39,
-        112,
-        38
+        83,
+        38,
+        181
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": 5,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
         "woman-senior",
-        "woman-long",
-        "man-young",
-        "man-senior",
         "woman-bob",
-        "woman-long"
+        "man-young",
+        "man-short",
+        "woman-bob",
+        "man-young"
       ],
       "review_titles": [
         "日程は早めがよさそう",
         "鏡が見やすくなりました",
         "退去前の掃除に",
         "腰に負担がかからず助かる",
-        "水まわりを一日で相談",
-        "気になっていた隅まで"
+        "気になっていた隅まで",
+        "水まわりを一日で相談"
       ],
       "photos": [
+        "/assets/images/service-scenes/bath-adapter-before.webp",
         "/assets/images/service-scenes/bath-adapter.webp",
         "/assets/images/service-scenes/bath-dryer.webp",
+        "/assets/images/service-scenes/bath-pipe-after.webp",
         "/assets/images/service-scenes/bath-pipe.webp",
+        "/assets/images/service-scenes/bathroom-after.webp",
         "/assets/images/service-scenes/bathroom.webp",
+        "/assets/images/service-scenes/lavatory-after.webp",
         "/assets/images/service-scenes/lavatory.webp",
-        "/assets/images/service-scenes/toilet.webp",
-        "/assets/images/service-scenes/wallpaper-dyeing.webp"
+        "/assets/images/service-scenes/toilet-before.webp",
+        "/assets/images/service-scenes/toilet.webp"
       ],
       "product_scenes": [
         {
@@ -621,11 +821,11 @@
       ],
       "demographic_order": [
         "40代 男性",
-        "20代 女性",
+        "30代 女性",
         "50代 女性",
         "60代 男性",
         "30代 女性",
-        "70代 女性"
+        "60代 女性"
       ],
       "ratings": [
         5,
@@ -636,21 +836,21 @@
         4
       ],
       "body_lengths": [
-        100,
-        79,
-        39,
+        176,
+        175,
+        180,
         39,
         38,
-        43
+        82
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "longest_position": 3,
+      "first_120_character_review_position": 1,
       "avatar_order": [
         "man-short",
         "woman-bob",
-        "woman-long",
+        "woman-bob",
         "man-senior",
-        "woman-long",
+        "woman-bob",
         "woman-senior"
       ],
       "review_titles": [
@@ -662,8 +862,11 @@
         "買い替え前に見てもらいました"
       ],
       "photos": [
+        "/assets/images/service-scenes/washer-drying-duct-after.webp",
         "/assets/images/service-scenes/washer-drying-duct.webp",
+        "/assets/images/service-scenes/washer-front-after.webp",
         "/assets/images/service-scenes/washer-front.webp",
+        "/assets/images/service-scenes/washer-top-after.webp",
         "/assets/images/service-scenes/washer-top.webp"
       ],
       "product_scenes": [
@@ -705,59 +908,62 @@
         ]
       ],
       "nickname_order": [
-        "さくらもちさん",
-        "はるのさん",
-        "えつこさん",
         "JUNさん",
+        "キッチン男子さん",
+        "はるのさん",
         "みかんさん",
-        "キッチン男子さん"
+        "さくらもちさん",
+        "えつこさん"
       ],
       "demographic_order": [
-        "30代 女性",
+        "60代 男性",
+        "50代 男性",
         "70代 女性",
-        "60代 女性",
-        "40代 男性",
-        "50代 女性",
-        "20代 男性"
+        "50代 男性",
+        "40代 女性",
+        "50代 女性"
       ],
       "ratings": [
-        5,
+        4,
+        4,
+        4,
         4,
         5,
-        4,
-        4,
-        4
+        5
       ],
       "body_lengths": [
-        104,
-        36,
-        47,
         41,
-        39,
-        35
+        35,
+        36,
+        182,
+        180,
+        83
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
+        "man-senior",
+        "man-young",
+        "woman-bob",
+        "man-young",
         "woman-long",
-        "woman-senior",
-        "woman-bob",
-        "man-short",
-        "woman-bob",
-        "man-young"
+        "woman-long"
       ],
       "review_titles": [
-        "換気扇とまとめてお願い",
-        "冷蔵庫の棚だけでなく",
-        "台所に立つのが楽しみです",
         "待ち時間が少し長かった",
+        "魚焼きグリルも確認",
+        "冷蔵庫の棚だけでなく",
         "五徳を洗う手間から解放",
-        "魚焼きグリルも確認"
+        "換気扇とまとめてお願い",
+        "台所に立つのが楽しみです"
       ],
       "photos": [
         "/assets/images/service-scenes/dishwasher.webp",
+        "/assets/images/service-scenes/kitchen-fan-after.webp",
         "/assets/images/service-scenes/kitchen-fan.webp",
+        "/assets/images/service-scenes/kitchen-sink-after.webp",
         "/assets/images/service-scenes/kitchen-sink.webp",
+        "/assets/images/service-scenes/refrigerator-after.webp",
         "/assets/images/service-scenes/refrigerator.webp"
       ],
       "product_scenes": [
@@ -805,66 +1011,72 @@
         ]
       ],
       "nickname_order": [
+        "りりさん",
         "もくれんさん",
         "週末ランナーさん",
-        "りりさん",
         "さとるさん",
         "かえでさん",
         "ぎんさん"
       ],
       "demographic_order": [
-        "60代 女性",
+        "30代 女性",
+        "50代 女性",
+        "40代 男性",
         "30代 男性",
-        "20代 女性",
         "50代 男性",
-        "40代 女性",
-        "70代 男性"
+        "60代 男性"
       ],
       "ratings": [
-        4,
         5,
+        4,
         5,
         5,
         5,
         4
       ],
       "body_lengths": [
-        44,
+        180,
+        179,
         42,
-        111,
         37,
         45,
-        49
+        86
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
+        "woman-long",
         "woman-bob",
+        "man-young",
         "man-short",
-        "woman-long",
-        "man-short",
-        "woman-long",
+        "man-young",
         "man-senior"
       ],
       "review_titles": [
+        "ソファを捨てずに済んだ",
         "壁はこすらず相談して正解",
         "寝具も頼めるんですね",
-        "ソファを捨てずに済んだ",
         "窓際が明るくなった",
         "床の黒ずみを相談",
         "荷物の移動が必要でした"
       ],
       "photos": [
         "/assets/images/service-scenes/air-purifier.webp",
+        "/assets/images/service-scenes/carpet-after.webp",
         "/assets/images/service-scenes/carpet.webp",
         "/assets/images/service-scenes/duct.webp",
         "/assets/images/service-scenes/entrance.webp",
+        "/assets/images/service-scenes/flooring-before.webp",
         "/assets/images/service-scenes/flooring.webp",
         "/assets/images/service-scenes/kitchen-fan.webp",
+        "/assets/images/service-scenes/mattress-after.webp",
         "/assets/images/service-scenes/mattress.webp",
+        "/assets/images/service-scenes/sofa-after.webp",
         "/assets/images/service-scenes/sofa.webp",
+        "/assets/images/service-scenes/wall-after.webp",
         "/assets/images/service-scenes/wall.webp",
         "/assets/images/service-scenes/wallpaper-dyeing.webp",
+        "/assets/images/service-scenes/window-after.webp",
         "/assets/images/service-scenes/window.webp",
         "/assets/images/service-scenes/wood-coating.webp"
       ],
@@ -979,61 +1191,69 @@
         ]
       ],
       "nickname_order": [
-        "ひなこさん",
-        "せりなさん",
-        "住まい好きさん",
         "うめさん",
+        "住まい好きさん",
+        "あやめさん",
         "ゆうぞうさん",
-        "あやめさん"
+        "ひなこさん",
+        "せりなさん"
       ],
       "demographic_order": [
-        "20代 女性",
-        "30代 女性",
+        "60代 女性",
         "50代 男性",
+        "50代 女性",
+        "70代 男性",
         "70代 女性",
-        "60代 男性",
         "40代 女性"
       ],
       "ratings": [
         4,
-        4,
+        5,
         5,
         4,
         4,
-        5
+        4
       ],
       "body_lengths": [
+        79,
+        180,
+        46,
+        183,
         47,
-        42,
-        104,
-        53,
-        47,
-        46
+        42
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 4,
+      "first_120_character_review_position": 2,
       "avatar_order": [
-        "woman-long",
+        "woman-bob",
+        "man-short",
         "woman-long",
         "man-short",
-        "woman-senior",
-        "man-senior",
+        "woman-bob",
         "woman-bob"
       ],
       "review_titles": [
-        "浴室のお手入れ用に",
-        "掃除のしやすさを考えて",
-        "家族と相談して選べました",
         "思ったより準備がありました",
+        "家族と相談して選べました",
+        "小さな補修も相談できた",
         "塗る前の確認が丁寧",
-        "小さな補修も相談できた"
+        "浴室のお手入れ用に",
+        "掃除のしやすさを考えて"
       ],
       "photos": [
+        "/assets/images/service-scenes/bath-dryer-after.webp",
+        "/assets/images/service-scenes/bathroom-after.webp",
         "/assets/images/service-scenes/bathroom.webp",
+        "/assets/images/service-scenes/finish-check-before.webp",
         "/assets/images/service-scenes/finish-check.webp",
+        "/assets/images/service-scenes/kitchen-sink.webp",
+        "/assets/images/service-scenes/lavatory-after.webp",
         "/assets/images/service-scenes/lavatory.webp",
+        "/assets/images/service-scenes/toilet-before.webp",
         "/assets/images/service-scenes/toilet.webp",
+        "/assets/images/service-scenes/wood-coating-before.webp",
         "/assets/images/service-scenes/wood-coating.webp",
+        "/assets/images/service-scenes/wood-repair-after.webp",
         "/assets/images/service-scenes/wood-repair.webp"
       ],
       "product_scenes": [
@@ -1099,59 +1319,63 @@
         ]
       ],
       "nickname_order": [
+        "S・Aさん",
         "こはるさん",
         "ふうたさん",
-        "S・Aさん",
         "れおさん",
-        "つばきさん",
-        "庭いじりさん"
+        "庭いじりさん",
+        "つばきさん"
       ],
       "demographic_order": [
-        "30代 女性",
+        "30代 男性",
+        "20代 女性",
+        "30代 男性",
         "40代 男性",
-        "60代 女性",
-        "20代 男性",
-        "50代 女性",
-        "70代 男性"
+        "60代 男性",
+        "60代 女性"
       ],
       "ratings": [
-        3,
         5,
+        3,
         5,
         5,
         4,
         4
       ],
       "body_lengths": [
-        37,
+        186,
+        78,
         47,
-        101,
         42,
-        42,
-        46
+        46,
+        42
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
+        "man-young",
         "woman-long",
         "man-short",
-        "woman-long",
-        "man-young",
-        "woman-bob",
-        "man-senior"
+        "man-short",
+        "man-short",
+        "woman-senior"
       ],
       "review_titles": [
+        "離れたお墓をお願いしました",
         "天候で日程が変わりました",
         "ベランダを使いやすく",
-        "離れたお墓をお願いしました",
         "範囲をはっきり決められた",
-        "外壁の気になる部分だけ",
-        "外回りはプロの道具が頼もしい"
+        "外回りはプロの道具が頼もしい",
+        "外壁の気になる部分だけ"
       ],
       "photos": [
+        "/assets/images/service-scenes/balcony-after.webp",
         "/assets/images/service-scenes/balcony.webp",
+        "/assets/images/service-scenes/grave-after.webp",
         "/assets/images/service-scenes/grave.webp",
+        "/assets/images/service-scenes/outerwall-after.webp",
         "/assets/images/service-scenes/outerwall.webp",
+        "/assets/images/service-scenes/wall-after.webp",
         "/assets/images/service-scenes/wall.webp"
       ],
       "product_scenes": [
@@ -1199,56 +1423,58 @@
         ]
       ],
       "nickname_order": [
-        "ちづるさん",
+        "まめたさん",
         "きよさん",
-        "ことりさん",
-        "Naotoさん",
+        "ちづるさん",
         "まさしさん",
-        "まめたさん"
+        "ことりさん",
+        "Naotoさん"
       ],
       "demographic_order": [
-        "60代 女性",
+        "20代 男性",
         "70代 男性",
         "30代 女性",
-        "40代 男性",
+        "30代 男性",
         "50代 男性",
         "20代 男性"
       ],
       "ratings": [
+        3,
+        4,
         4,
         4,
         5,
-        4,
-        4,
-        3
+        4
       ],
       "body_lengths": [
-        28,
+        31,
         50,
-        99,
-        34,
+        184,
         37,
-        31
+        175,
+        34
       ],
       "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
+        "man-young",
+        "man-short",
         "woman-long",
-        "man-senior",
-        "woman-bob",
         "man-short",
         "man-short",
-        "man-young"
+        "man-short"
       ],
       "review_titles": [
-        "高さがあるので助かります",
+        "時間は少し長め",
         "古い設備でも相談できた",
-        "養生がしっかりしていました",
-        "パネルの裏まできれい",
+        "高さがあるので助かります",
         "天井の機種も対応してもらえた",
-        "時間は少し長め"
+        "養生がしっかりしていました",
+        "パネルの裏まできれい"
       ],
       "photos": [
+        "/assets/images/service-scenes/aircon-ceiling-after.png",
+        "/assets/images/service-scenes/aircon-ceiling-before.png",
         "/assets/images/service-scenes/aircon-ceiling.webp"
       ],
       "product_scenes": [
@@ -1278,56 +1504,58 @@
         ]
       ],
       "nickname_order": [
-        "ピスタチオさん",
-        "あかねさん",
-        "けいすけさん",
-        "はなえさん",
         "月見さん",
-        "つねさん"
+        "けいすけさん",
+        "つねさん",
+        "あかねさん",
+        "はなえさん",
+        "ピスタチオさん"
       ],
       "demographic_order": [
-        "20代 女性",
-        "40代 女性",
-        "30代 男性",
-        "60代 女性",
-        "50代 男性",
-        "70代 男性"
+        "70代 男性",
+        "60代 男性",
+        "60代 男性",
+        "50代 女性",
+        "70代 女性",
+        "40代 女性"
       ],
       "ratings": [
-        5,
-        5,
-        5,
-        5,
         3,
-        4
+        5,
+        4,
+        5,
+        5,
+        5
       ],
       "body_lengths": [
-        42,
-        103,
+        86,
         39,
+        32,
+        184,
         38,
-        41,
-        32
+        42
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
-        "woman-bob",
-        "woman-bob",
         "man-short",
+        "man-short",
+        "man-senior",
         "woman-long",
-        "man-short",
-        "man-senior"
+        "woman-senior",
+        "woman-long"
       ],
       "review_titles": [
-        "家具の近くでも安心でした",
-        "二台それぞれ説明してくれた",
-        "機種の違いが分かった",
-        "夏前にお願いしました",
         "予約は早めがよいです",
-        "日頃の掃除も聞けました"
+        "機種の違いが分かった",
+        "日頃の掃除も聞けました",
+        "二台それぞれ説明してくれた",
+        "夏前にお願いしました",
+        "家具の近くでも安心でした"
       ],
       "photos": [
+        "/assets/images/service-scenes/aircon-wall-after.png",
+        "/assets/images/service-scenes/aircon-wall-before.png",
         "/assets/images/service-scenes/aircon-wall.webp"
       ],
       "product_scenes": [
@@ -1365,54 +1593,56 @@
       "nickname_order": [
         "ゆうかさん",
         "浴室係さん",
-        "けいこさん",
-        "しろくまさん",
         "たえさん",
-        "まどべさん"
+        "けいこさん",
+        "まどべさん",
+        "しろくまさん"
       ],
       "demographic_order": [
-        "30代 女性",
-        "60代 男性",
         "50代 女性",
-        "40代 男性",
-        "70代 女性",
-        "20代 女性"
+        "60代 男性",
+        "60代 女性",
+        "40代 女性",
+        "40代 女性",
+        "50代 男性"
       ],
       "ratings": [
         4,
         5,
-        4,
-        4,
         5,
+        4,
+        4,
         4
       ],
       "body_lengths": [
         44,
         35,
-        97,
-        30,
         48,
-        48
+        187,
+        81,
+        30
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
         "woman-bob",
         "man-senior",
         "woman-bob",
-        "man-short",
-        "woman-senior",
-        "woman-long"
+        "woman-bob",
+        "woman-bob",
+        "man-short"
       ],
       "review_titles": [
         "お風呂の清掃に合わせて",
         "清掃の後に検討できた",
-        "古い浴槽の状態も確認",
-        "つやの感じが自然でした",
         "お手入れを続けやすく",
-        "当日は入浴の調整を"
+        "古い浴槽の状態も確認",
+        "当日は入浴の調整を",
+        "つやの感じが自然でした"
       ],
       "photos": [
+        "/assets/images/service-scenes/bath-dryer-after.webp",
+        "/assets/images/service-scenes/bathroom-after.webp",
         "/assets/images/service-scenes/bathroom.webp"
       ],
       "product_scenes": [
@@ -1442,56 +1672,57 @@
         ]
       ],
       "nickname_order": [
-        "いずみさん",
-        "まなぶさん",
-        "みさとさん",
         "ゆずさん",
         "あんこさん",
-        "おおたさん"
+        "おおたさん",
+        "まなぶさん",
+        "みさとさん",
+        "いずみさん"
       ],
       "demographic_order": [
-        "70代 女性",
-        "40代 男性",
-        "50代 女性",
+        "30代 男性",
         "20代 女性",
-        "30代 女性",
-        "60代 男性"
+        "70代 男性",
+        "40代 男性",
+        "40代 女性",
+        "60代 女性"
       ],
       "ratings": [
         5,
+        5,
+        4,
         4,
         5,
-        5,
-        5,
-        4
+        5
       ],
       "body_lengths": [
-        43,
-        28,
-        99,
-        48,
+        186,
         33,
-        38
+        38,
+        28,
+        182,
+        43
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
-        "woman-senior",
         "man-short",
         "woman-bob",
-        "woman-bob",
-        "woman-bob",
-        "man-senior"
+        "man-senior",
+        "man-short",
+        "woman-long",
+        "woman-senior"
       ],
       "review_titles": [
-        "床の印象が明るく",
-        "床材に合うか相談",
-        "リビングだけお願いしました",
         "入居前に頼んで正解",
         "お掃除の方法も変えました",
-        "家具移動に時間を見て"
+        "家具移動に時間を見て",
+        "床材に合うか相談",
+        "リビングだけお願いしました",
+        "床の印象が明るく"
       ],
       "photos": [
+        "/assets/images/service-scenes/wood-coating-before.webp",
         "/assets/images/service-scenes/wood-coating.webp"
       ],
       "product_scenes": [
@@ -1521,57 +1752,59 @@
         ]
       ],
       "nickname_order": [
+        "いちごミルクさん",
+        "ひでさん",
         "かなえさん",
         "すずらんさん",
-        "きぬさん",
         "ねぎぼうずさん",
-        "いちごミルクさん",
-        "ひでさん"
+        "きぬさん"
       ],
       "demographic_order": [
-        "60代 女性",
-        "40代 女性",
-        "70代 女性",
+        "30代 女性",
         "30代 男性",
-        "20代 女性",
-        "50代 男性"
+        "30代 女性",
+        "40代 女性",
+        "20代 男性",
+        "60代 女性"
       ],
       "ratings": [
+        5,
+        4,
         4,
         5,
         5,
-        5,
-        5,
-        4
+        5
       ],
       "body_lengths": [
-        33,
-        100,
-        32,
-        45,
         39,
-        41
+        77,
+        33,
+        194,
+        45,
+        32
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
         "woman-bob",
+        "man-young",
         "woman-long",
-        "woman-senior",
+        "woman-long",
         "man-short",
-        "woman-long",
-        "man-short"
+        "woman-bob"
       ],
       "review_titles": [
+        "賃貸の台所で相談",
+        "使えるまで少し待ちます",
         "天板の素材を確認してから",
         "清掃とセットで相談",
-        "蛇口の根元まで丁寧でした",
         "シンクのお手入れ用に",
-        "賃貸の台所で相談",
-        "使えるまで少し待ちます"
+        "蛇口の根元まで丁寧でした"
       ],
       "photos": [
-        "/assets/images/service-scenes/finish-check.webp"
+        "/assets/images/service-scenes/finish-check-before.webp",
+        "/assets/images/service-scenes/finish-check.webp",
+        "/assets/images/service-scenes/kitchen-sink.webp"
       ],
       "product_scenes": [
         {
@@ -1600,56 +1833,57 @@
         ]
       ],
       "nickname_order": [
+        "ゆりえさん",
+        "まつさん",
         "そらまめさん",
         "あいりさん",
-        "まつさん",
-        "ゆりえさん",
         "水玉さん",
         "T・Rさん"
       ],
       "demographic_order": [
+        "30代 女性",
+        "70代 女性",
         "30代 男性",
         "20代 女性",
-        "70代 女性",
-        "60代 女性",
-        "50代 女性",
-        "40代 男性"
+        "70代 男性",
+        "30代 男性"
       ],
       "ratings": [
-        3,
         5,
         4,
+        3,
         5,
         5,
         5
       ],
       "body_lengths": [
+        30,
+        32,
         40,
         32,
-        32,
-        30,
-        41,
-        95
+        84,
+        180
       ],
       "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "first_120_character_review_position": 6,
       "avatar_order": [
-        "man-short",
+        "woman-long",
         "woman-bob",
-        "woman-senior",
+        "man-young",
         "woman-long",
-        "woman-long",
-        "man-short"
+        "man-short",
+        "man-young"
       ],
       "review_titles": [
+        "表面のつやがうれしい",
+        "一か所から頼めました",
         "日程を合わせる必要あり",
         "洗面台をきれいに保ちたい",
-        "一か所から頼めました",
-        "表面のつやがうれしい",
         "傷の説明がありました",
         "掃除とまとめて依頼"
       ],
       "photos": [
+        "/assets/images/service-scenes/lavatory-after.webp",
         "/assets/images/service-scenes/lavatory.webp"
       ],
       "product_scenes": [
@@ -1679,56 +1913,57 @@
         ]
       ],
       "nickname_order": [
-        "やすさん",
-        "ひろしげさん",
         "しょうたさん",
         "はつねさん",
-        "なつめさん",
-        "かりんさん"
+        "ひろしげさん",
+        "やすさん",
+        "かりんさん",
+        "なつめさん"
       ],
       "demographic_order": [
+        "40代 男性",
+        "20代 女性",
         "60代 男性",
-        "70代 男性",
-        "20代 男性",
-        "30代 女性",
-        "40代 女性",
-        "50代 女性"
+        "60代 男性",
+        "70代 女性",
+        "60代 男性"
       ],
       "ratings": [
-        5,
-        5,
         4,
         4,
         5,
-        4
+        5,
+        4,
+        5
       ],
       "body_lengths": [
-        32,
-        32,
         41,
-        33,
-        85,
-        38
+        88,
+        32,
+        32,
+        38,
+        181
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": null,
+      "longest_position": 6,
+      "first_120_character_review_position": 6,
       "avatar_order": [
-        "man-senior",
-        "man-senior",
-        "man-young",
-        "woman-long",
+        "man-short",
         "woman-bob",
-        "woman-bob"
+        "man-senior",
+        "man-senior",
+        "woman-senior",
+        "man-senior"
       ],
       "review_titles": [
-        "小さな傷から頼めました",
-        "床材の違いも説明がありました",
         "椅子の傷を相談",
         "色合わせに時間がかかりました",
-        "目立つ場所だったので助かる",
-        "ペットの引っかき傷に"
+        "床材の違いも説明がありました",
+        "小さな傷から頼めました",
+        "ペットの引っかき傷に",
+        "目立つ場所だったので助かる"
       ],
       "photos": [
+        "/assets/images/service-scenes/wood-repair-after.webp",
         "/assets/images/service-scenes/wood-repair.webp"
       ],
       "product_scenes": [
@@ -1758,56 +1993,57 @@
         ]
       ],
       "nickname_order": [
-        "ともえさん",
+        "M・Yさん",
         "りくさん",
+        "ともえさん",
         "トイレ当番さん",
         "さざんかさん",
-        "りんごさん",
-        "M・Yさん"
+        "りんごさん"
       ],
       "demographic_order": [
-        "60代 女性",
-        "20代 男性",
+        "50代 男性",
+        "30代 男性",
+        "50代 女性",
         "30代 男性",
         "70代 女性",
-        "40代 女性",
-        "50代 男性"
+        "40代 女性"
       ],
       "ratings": [
+        3,
         5,
         5,
         4,
         4,
-        4,
-        3
+        4
       ],
       "body_lengths": [
-        38,
+        89,
         42,
+        38,
         33,
-        91,
-        37,
-        43
+        187,
+        37
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
-        "woman-long",
-        "man-young",
         "man-short",
-        "woman-senior",
-        "woman-long",
-        "man-short"
+        "man-short",
+        "woman-bob",
+        "man-young",
+        "woman-bob",
+        "woman-bob"
       ],
       "review_titles": [
-        "縁まで見てもらえました",
+        "すぐ使えると思っていました",
         "水まわりの相談がしやすい",
+        "縁まで見てもらえました",
         "使えない時間を確認",
         "傷はそのままでも納得",
-        "清掃の後にお願いしました",
-        "すぐ使えると思っていました"
+        "清掃の後にお願いしました"
       ],
       "photos": [
+        "/assets/images/service-scenes/toilet-before.webp",
         "/assets/images/service-scenes/toilet.webp"
       ],
       "product_scenes": [
@@ -1837,56 +2073,57 @@
         ]
       ],
       "nickname_order": [
-        "陽だまりさん",
         "I・Kさん",
-        "たまきさん",
         "そういちさん",
-        "はこべさん",
-        "おもちさん"
+        "陽だまりさん",
+        "たまきさん",
+        "おもちさん",
+        "はこべさん"
       ],
       "demographic_order": [
-        "50代 女性",
-        "60代 男性",
-        "20代 女性",
         "40代 男性",
-        "70代 女性",
-        "30代 女性"
+        "50代 男性",
+        "30代 女性",
+        "60代 女性",
+        "30代 男性",
+        "60代 女性"
       ],
       "ratings": [
-        4,
         3,
         5,
-        5,
         4,
-        5
+        5,
+        5,
+        4
       ],
       "body_lengths": [
+        179,
+        191,
         31,
         44,
-        44,
-        95,
-        32,
-        35
+        35,
+        32
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 2,
+      "first_120_character_review_position": 1,
       "avatar_order": [
+        "man-short",
+        "man-short",
         "woman-bob",
-        "man-senior",
         "woman-bob",
         "man-short",
-        "woman-senior",
         "woman-bob"
       ],
       "review_titles": [
-        "つやを見てから決めました",
         "準備が少し大変でした",
-        "掃除の注意点も聞けた",
         "入居前の施工にしました",
-        "家族と一緒に相談しました",
-        "部屋が明るい印象に"
+        "つやを見てから決めました",
+        "掃除の注意点も聞けた",
+        "部屋が明るい印象に",
+        "家族と一緒に相談しました"
       ],
       "photos": [
+        "/assets/images/service-scenes/wood-coating-before.webp",
         "/assets/images/service-scenes/wood-coating.webp"
       ],
       "product_scenes": [
@@ -1916,56 +2153,57 @@
         ]
       ],
       "nickname_order": [
+        "ぴのさん",
+        "修平さん",
+        "きのこさん",
         "つゆくささん",
         "きよひこさん",
-        "皿洗い卒業さん",
-        "ぴのさん",
-        "きのこさん",
-        "修平さん"
+        "皿洗い卒業さん"
       ],
       "demographic_order": [
-        "60代 女性",
-        "70代 男性",
-        "50代 女性",
-        "20代 女性",
         "30代 女性",
-        "40代 男性"
+        "30代 男性",
+        "20代 女性",
+        "40代 男性",
+        "60代 男性",
+        "30代 女性"
       ],
       "ratings": [
-        5,
+        4,
         4,
         5,
-        4,
         5,
-        4
+        4,
+        5
       ],
       "body_lengths": [
-        89,
+        86,
         33,
-        39,
-        45,
         43,
-        33
+        179,
+        33,
+        39
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": null,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
         "woman-bob",
-        "man-senior",
-        "woman-bob",
+        "man-young",
         "woman-long",
-        "woman-long",
-        "man-short"
+        "man-short",
+        "man-short",
+        "woman-bob"
       ],
       "review_titles": [
+        "使う前に一度清掃",
+        "型番から相談できました",
+        "庫内の隅がすっきり",
         "外す部品を見せてもらいました",
         "予約時に時間を聞けばよかった",
-        "扉の縁も見てもらえた",
-        "使う前に一度清掃",
-        "庫内の隅がすっきり",
-        "型番から相談できました"
+        "扉の縁も見てもらえた"
       ],
       "photos": [
+        "/assets/images/service-scenes/dishwasher-after.webp",
         "/assets/images/service-scenes/dishwasher.webp"
       ],
       "product_scenes": [
@@ -1995,56 +2233,57 @@
         ]
       ],
       "nickname_order": [
-        "油と戦う人さん",
-        "さやかさん",
         "えんどうさん",
         "みつばさん",
+        "油と戦う人さん",
+        "しずさん",
         "こずえさん",
-        "しずさん"
+        "さやかさん"
       ],
       "demographic_order": [
-        "30代 男性",
-        "40代 女性",
         "50代 男性",
-        "20代 女性",
+        "40代 女性",
+        "40代 男性",
         "60代 女性",
-        "70代 女性"
+        "30代 女性",
+        "50代 女性"
       ],
       "ratings": [
-        4,
-        5,
         5,
         4,
+        4,
+        4,
         5,
-        4
+        5
       ],
       "body_lengths": [
-        39,
-        44,
-        111,
+        185,
         43,
         39,
-        38
+        38,
+        39,
+        176
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
-        "man-short",
-        "woman-bob",
-        "man-short",
+        "man-young",
         "woman-long",
+        "man-short",
         "woman-bob",
-        "woman-senior"
+        "woman-bob",
+        "woman-bob"
       ],
       "review_titles": [
-        "落ちない汚れも説明あり",
-        "年末の大仕事をお任せ",
         "外せる部品を確認できた",
         "台所が使えない時間に注意",
+        "落ちない汚れも説明あり",
+        "手際よく片付けまで",
         "上の方まで助かりました",
-        "手際よく片付けまで"
+        "年末の大仕事をお任せ"
       ],
       "photos": [
+        "/assets/images/service-scenes/kitchen-fan-after.webp",
         "/assets/images/service-scenes/kitchen-fan.webp"
       ],
       "product_scenes": [
@@ -2074,56 +2313,57 @@
         ]
       ],
       "nickname_order": [
-        "いぶきさん",
         "なほさん",
-        "あきおさん",
-        "よしのさん",
         "YUKIさん",
-        "つみきさん"
+        "よしのさん",
+        "いぶきさん",
+        "つみきさん",
+        "あきおさん"
       ],
       "demographic_order": [
+        "20代 女性",
+        "40代 女性",
+        "20代 女性",
         "20代 男性",
         "30代 女性",
-        "70代 男性",
-        "60代 女性",
-        "50代 女性",
-        "40代 女性"
+        "60代 男性"
       ],
       "ratings": [
         5,
-        5,
-        4,
-        5,
         3,
-        5
+        5,
+        5,
+        5,
+        4
       ],
       "body_lengths": [
-        32,
         40,
-        32,
+        85,
         31,
-        44,
-        114
+        32,
+        186,
+        32
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
-        "man-young",
         "woman-long",
-        "man-senior",
         "woman-bob",
         "woman-long",
-        "woman-long"
+        "man-young",
+        "woman-long",
+        "man-senior"
       ],
       "review_titles": [
-        "自炊の台所をリセット",
         "天板のくすみを相談",
-        "一人暮らしには助かります",
-        "コンロの部品が洗いやすく",
         "収納は別に相談でした",
-        "大掃除を手放せました"
+        "コンロの部品が洗いやすく",
+        "自炊の台所をリセット",
+        "大掃除を手放せました",
+        "一人暮らしには助かります"
       ],
       "photos": [
+        "/assets/images/service-scenes/kitchen-sink-after.webp",
         "/assets/images/service-scenes/kitchen-sink.webp"
       ],
       "product_scenes": [
@@ -2153,56 +2393,57 @@
         ]
       ],
       "nickname_order": [
-        "ふささん",
         "さくらこさん",
-        "しんじさん",
-        "かつらさん",
         "こめつぶさん",
+        "かつらさん",
+        "ふささん",
+        "しんじさん",
         "あさひさん"
       ],
       "demographic_order": [
-        "70代 女性",
         "40代 女性",
         "50代 男性",
         "60代 女性",
-        "30代 女性",
-        "20代 男性"
+        "70代 女性",
+        "40代 男性",
+        "30代 男性"
       ],
       "ratings": [
         4,
         4,
-        3,
         5,
         4,
+        3,
         4
       ],
       "body_lengths": [
+        43,
+        43,
+        184,
         31,
-        43,
-        44,
-        103,
-        43,
+        87,
         34
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
+        "woman-bob",
+        "man-young",
         "woman-senior",
-        "woman-bob",
+        "woman-senior",
         "man-short",
-        "woman-bob",
-        "woman-long",
-        "man-young"
+        "man-short"
       ],
       "review_titles": [
-        "扉のパッキンがすっきり",
         "棚を全部出して清掃",
-        "中身を出す準備は必要",
-        "引き出しの奥まで丁寧です",
         "食品の整理にもなりました",
+        "引き出しの奥まで丁寧です",
+        "扉のパッキンがすっきり",
+        "中身を出す準備は必要",
         "譲り受けた冷蔵庫に"
       ],
       "photos": [
+        "/assets/images/service-scenes/refrigerator-after.webp",
         "/assets/images/service-scenes/refrigerator.webp"
       ],
       "product_scenes": [
@@ -2232,56 +2473,57 @@
         ]
       ],
       "nickname_order": [
-        "ベランダ菜園さん",
         "すいせんさん",
         "ほたるさん",
-        "ぶんたさん",
         "たかひささん",
-        "まひろさん"
+        "ベランダ菜園さん",
+        "まひろさん",
+        "ぶんたさん"
       ],
       "demographic_order": [
-        "50代 女性",
         "70代 女性",
-        "30代 女性",
+        "70代 女性",
         "60代 男性",
-        "40代 男性",
-        "20代 女性"
+        "30代 女性",
+        "20代 女性",
+        "60代 男性"
       ],
       "ratings": [
+        5,
+        5,
         4,
-        5,
-        5,
         4,
         4,
         4
       ],
       "body_lengths": [
-        34,
         39,
         42,
-        101,
         37,
-        41
+        34,
+        88,
+        181
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 6,
+      "first_120_character_review_position": 6,
       "avatar_order": [
-        "woman-long",
         "woman-senior",
-        "woman-long",
+        "woman-senior",
         "man-senior",
-        "man-short",
-        "woman-long"
+        "woman-bob",
+        "woman-bob",
+        "man-senior"
       ],
       "review_titles": [
-        "鉢の下の汚れを依頼",
         "外の掃除が楽になりました",
         "洗濯物を干す前に",
-        "床材を見て方法を変えていました",
         "排水の流れも確認",
-        "天気で延期になりました"
+        "鉢の下の汚れを依頼",
+        "天気で延期になりました",
+        "床材を見て方法を変えていました"
       ],
       "photos": [
+        "/assets/images/service-scenes/balcony-after.webp",
         "/assets/images/service-scenes/balcony.webp"
       ],
       "product_scenes": [
@@ -2311,56 +2553,57 @@
         ]
       ],
       "nickname_order": [
-        "おかべさん",
-        "つとむさん",
-        "蓮さん",
         "ちよさん",
         "もみじさん",
-        "ゆかりさん"
+        "ゆかりさん",
+        "おかべさん",
+        "蓮さん",
+        "つとむさん"
       ],
       "demographic_order": [
-        "50代 男性",
-        "60代 男性",
-        "20代 男性",
         "70代 女性",
-        "30代 女性",
-        "40代 女性"
+        "60代 男性",
+        "40代 女性",
+        "40代 男性",
+        "70代 男性",
+        "60代 男性"
       ],
       "ratings": [
+        5,
+        5,
+        4,
         3,
         5,
-        5,
-        5,
-        5,
-        4
+        5
       ],
       "body_lengths": [
+        186,
+        181,
+        41,
         46,
-        29,
         42,
-        88,
-        39,
-        41
+        29
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": null,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
-        "man-short",
-        "man-senior",
-        "man-young",
-        "woman-senior",
         "woman-bob",
-        "woman-long"
+        "man-short",
+        "woman-bob",
+        "man-short",
+        "man-short",
+        "man-short"
       ],
       "review_titles": [
-        "管理の確認に時間が必要",
-        "帰省できない時に頼れました",
-        "祖父母と相談して依頼",
         "花立てまわりまで助かります",
         "家族にも写真を共有",
-        "石の状態を先に確認"
+        "石の状態を先に確認",
+        "管理の確認に時間が必要",
+        "祖父母と相談して依頼",
+        "帰省できない時に頼れました"
       ],
       "photos": [
+        "/assets/images/service-scenes/grave-after.webp",
         "/assets/images/service-scenes/grave.webp"
       ],
       "product_scenes": [
@@ -2390,56 +2633,57 @@
         ]
       ],
       "nickname_order": [
-        "りえさん",
-        "ひよりさん",
         "さかきさん",
-        "みことさん",
+        "ひよりさん",
+        "家守さん",
         "としこさん",
-        "家守さん"
+        "みことさん",
+        "りえさん"
       ],
       "demographic_order": [
+        "60代 男性",
         "40代 女性",
-        "20代 女性",
         "50代 男性",
-        "30代 女性",
-        "70代 女性",
-        "60代 男性"
+        "60代 女性",
+        "40代 女性",
+        "30代 女性"
       ],
       "ratings": [
+        4,
+        5,
         5,
         5,
         4,
-        4,
-        5,
         5
       ],
       "body_lengths": [
-        38,
-        40,
         29,
-        44,
+        78,
+        184,
         34,
-        95
+        44,
+        38
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
+        "man-senior",
         "woman-bob",
-        "woman-long",
         "man-short",
-        "woman-long",
         "woman-senior",
-        "man-senior"
+        "woman-bob",
+        "woman-bob"
       ],
       "review_titles": [
-        "窓の下の筋が気になって",
-        "写真で相談できたのが便利",
         "玄関側の一面をお願い",
-        "雨で予定が変わりました",
+        "写真で相談できたのが便利",
+        "強くこすらない説明に納得",
         "庭の近くも注意してくれました",
-        "強くこすらない説明に納得"
+        "雨で予定が変わりました",
+        "窓の下の筋が気になって"
       ],
       "photos": [
+        "/assets/images/service-scenes/outerwall-after.webp",
         "/assets/images/service-scenes/outerwall.webp"
       ],
       "product_scenes": [
@@ -2469,56 +2713,57 @@
         ]
       ],
       "nickname_order": [
-        "ふみかさん",
         "ちえさん",
-        "みなとさん",
         "てるおさん",
         "まりんさん",
-        "こばとさん"
+        "こばとさん",
+        "みなとさん",
+        "ふみかさん"
       ],
       "demographic_order": [
-        "50代 女性",
-        "60代 女性",
+        "40代 女性",
+        "60代 男性",
+        "30代 女性",
+        "30代 女性",
         "30代 男性",
-        "70代 男性",
-        "20代 女性",
         "40代 女性"
       ],
       "ratings": [
         5,
-        5,
-        4,
         3,
         4,
-        4
+        4,
+        4,
+        5
       ],
       "body_lengths": [
-        34,
         32,
-        41,
-        43,
+        80,
         37,
-        103
+        187,
+        41,
+        34
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "longest_position": 4,
+      "first_120_character_review_position": 4,
       "avatar_order": [
+        "woman-bob",
+        "man-senior",
         "woman-bob",
         "woman-bob",
         "man-short",
-        "man-senior",
-        "woman-bob",
         "woman-long"
       ],
       "review_titles": [
-        "説明を聞いてから選択",
         "素材を調べてくれました",
-        "施工する場所を絞れた",
         "効果の判断はこれからです",
         "施工後の注意が分かりやすい",
-        "家具の保護まで丁寧でした"
+        "家具の保護まで丁寧でした",
+        "施工する場所を絞れた",
+        "説明を聞いてから選択"
       ],
       "photos": [
+        "/assets/images/service-scenes/wall-after.webp",
         "/assets/images/service-scenes/wall.webp"
       ],
       "product_scenes": [
@@ -2548,56 +2793,57 @@
         ]
       ],
       "nickname_order": [
-        "のえるさん",
-        "けんじろうさん",
         "さちこさん",
-        "ひつじさん",
         "やまとさん",
+        "ひつじさん",
+        "けんじろうさん",
+        "のえるさん",
         "家事ノートさん"
       ],
       "demographic_order": [
-        "20代 女性",
-        "60代 男性",
-        "70代 女性",
-        "30代 女性",
+        "60代 女性",
+        "40代 男性",
         "50代 男性",
-        "40代 女性"
+        "60代 男性",
+        "30代 女性",
+        "30代 女性"
       ],
       "ratings": [
         5,
+        3,
+        5,
         4,
         5,
-        5,
-        3,
         5
       ],
       "body_lengths": [
-        41,
-        36,
-        91,
-        39,
+        188,
         43,
+        83,
+        36,
+        41,
         42
       ],
-      "longest_position": 3,
-      "first_90_character_review_position": 3,
+      "longest_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
-        "woman-long",
-        "man-senior",
         "woman-senior",
-        "woman-long",
         "man-short",
+        "man-young",
+        "man-senior",
+        "woman-bob",
         "woman-bob"
       ],
       "review_titles": [
-        "片付けのきっかけになった",
-        "作業範囲を先に決めた",
         "手の届かない所まで",
-        "子どもの予定と両立",
         "一日には余裕が必要",
+        "子どもの予定と両立",
+        "作業範囲を先に決めた",
+        "片付けのきっかけになった",
         "在宅のまま頼めました"
       ],
       "photos": [
+        "/assets/images/service-scenes/kitchen-sink-after.webp",
         "/assets/images/service-scenes/kitchen-sink.webp"
       ],
       "product_scenes": [
@@ -2627,56 +2873,57 @@
         ]
       ],
       "nickname_order": [
-        "せなさん",
-        "みのるさん",
-        "おかださん",
-        "あさこさん",
         "わたるさん",
-        "ひめさん"
+        "みのるさん",
+        "ひめさん",
+        "せなさん",
+        "あさこさん",
+        "おかださん"
       ],
       "demographic_order": [
-        "20代 女性",
-        "70代 男性",
-        "50代 男性",
-        "60代 女性",
-        "30代 男性",
-        "40代 女性"
+        "40代 男性",
+        "60代 男性",
+        "30代 女性",
+        "50代 女性",
+        "50代 女性",
+        "40代 男性"
       ],
       "ratings": [
+        4,
         5,
-        5,
+        3,
         5,
         4,
-        4,
-        3
+        5
       ],
       "body_lengths": [
-        42,
-        40,
-        48,
-        106,
         32,
-        47
+        40,
+        47,
+        42,
+        192,
+        186
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
+        "man-young",
+        "man-short",
         "woman-long",
-        "man-senior",
-        "man-short",
         "woman-bob",
-        "man-short",
-        "woman-bob"
+        "woman-long",
+        "man-young"
       ],
       "review_titles": [
-        "荷物を入れる前に清掃",
-        "子どもと確認できました",
-        "日程を合わせてくれました",
-        "空室のうちに頼んでよかった",
         "退去前に相談しました",
-        "鍵の受け渡しは要確認"
+        "子どもと確認できました",
+        "鍵の受け渡しは要確認",
+        "荷物を入れる前に清掃",
+        "空室のうちに頼んでよかった",
+        "日程を合わせてくれました"
       ],
       "photos": [
+        "/assets/images/service-scenes/flooring-before.webp",
         "/assets/images/service-scenes/flooring.webp"
       ],
       "product_scenes": [
@@ -2706,56 +2953,57 @@
         ]
       ],
       "nickname_order": [
-        "さよさん",
-        "ほのかさん",
         "清志さん",
         "ひまわりさん",
         "はるまさん",
+        "ほのかさん",
+        "さよさん",
         "えりなさん"
       ],
       "demographic_order": [
+        "70代 男性",
         "70代 女性",
-        "30代 女性",
         "60代 男性",
-        "50代 女性",
-        "20代 男性",
+        "40代 女性",
+        "60代 女性",
         "40代 女性"
       ],
       "ratings": [
         4,
         4,
-        4,
-        4,
         5,
+        4,
+        4,
         3
       ],
       "body_lengths": [
-        38,
-        44,
         25,
         32,
-        103,
-        50
+        190,
+        44,
+        38,
+        86
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": 5,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
+        "man-short",
         "woman-senior",
+        "man-short",
+        "woman-long",
         "woman-bob",
-        "man-senior",
-        "woman-bob",
-        "man-young",
-        "woman-bob"
+        "woman-long"
       ],
       "review_titles": [
-        "重い部品を外さず済みました",
-        "フィルターの奥を相談",
         "型番を調べてからお願い",
         "普段のお掃除箇所が分かった",
         "加湿タンクまわりがすっきり",
+        "フィルターの奥を相談",
+        "重い部品を外さず済みました",
         "買い替える部品もありました"
       ],
       "photos": [
+        "/assets/images/service-scenes/air-purifier-after.webp",
         "/assets/images/service-scenes/air-purifier.webp"
       ],
       "product_scenes": [
@@ -2785,56 +3033,57 @@
         ]
       ],
       "nickname_order": [
-        "りょうこさん",
-        "ありささん",
-        "あおい月さん",
-        "TOMOさん",
         "ふじおさん",
+        "TOMOさん",
+        "りょうこさん",
+        "あおい月さん",
+        "ありささん",
         "こたつさん"
       ],
       "demographic_order": [
-        "60代 女性",
+        "60代 男性",
+        "20代 男性",
         "20代 女性",
-        "40代 女性",
-        "30代 男性",
-        "70代 男性",
-        "50代 男性"
+        "60代 男性",
+        "70代 女性",
+        "30代 男性"
       ],
       "ratings": [
+        3,
         4,
         4,
         5,
-        4,
-        3,
+        2,
         5
       ],
       "body_lengths": [
-        103,
         35,
+        35,
+        191,
         38,
-        35,
-        35,
+        80,
         38
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
-        "woman-long",
-        "woman-bob",
-        "woman-long",
         "man-short",
+        "man-short",
+        "woman-bob",
         "man-senior",
+        "woman-senior",
         "man-short"
       ],
       "review_titles": [
-        "敷き込みでも頼めました",
-        "飲み物の跡を見てもらった",
-        "部屋の広さで相談できた",
-        "床に座るのが気持ちいい",
         "天気も考えて頼めばよかった",
+        "床に座るのが気持ちいい",
+        "敷き込みでも頼めました",
+        "部屋の広さで相談できた",
+        "染みを落としたかったので残念",
         "家具を寄せてから依頼"
       ],
       "photos": [
+        "/assets/images/service-scenes/carpet-after.webp",
         "/assets/images/service-scenes/carpet.webp"
       ],
       "product_scenes": [
@@ -2864,56 +3113,57 @@
         ]
       ],
       "nickname_order": [
-        "えみこさん",
-        "まさえさん",
         "はやとさん",
-        "さらさん",
         "そよかぜさん",
-        "まさきさん"
+        "さらさん",
+        "えみこさん",
+        "まさきさん",
+        "まさえさん"
       ],
       "demographic_order": [
-        "60代 女性",
-        "70代 女性",
-        "20代 男性",
-        "30代 女性",
-        "50代 女性",
-        "40代 男性"
+        "70代 男性",
+        "30代 男性",
+        "40代 女性",
+        "40代 女性",
+        "30代 男性",
+        "60代 女性"
       ],
       "ratings": [
-        4,
+        5,
         4,
         5,
-        5,
+        4,
         4,
         4
       ],
       "body_lengths": [
-        28,
-        37,
         33,
+        192,
         42,
-        87,
-        40
+        83,
+        40,
+        37
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": null,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
-        "woman-bob",
-        "woman-senior",
+        "man-short",
         "man-young",
         "woman-bob",
         "woman-long",
-        "man-short"
+        "man-young",
+        "woman-bob"
       ],
       "review_titles": [
-        "目立たない所で試してくれた",
-        "こすりすぎずに済みました",
         "退去前の壁まわりに",
-        "壁の手あかが気になって",
         "全部落ちるわけではない説明",
-        "大きな染みは残りました"
+        "壁の手あかが気になって",
+        "目立たない所で試してくれた",
+        "大きな染みは残りました",
+        "こすりすぎずに済みました"
       ],
       "photos": [
+        "/assets/images/service-scenes/wall-after.webp",
         "/assets/images/service-scenes/wall.webp"
       ],
       "product_scenes": [
@@ -2943,56 +3193,57 @@
         ]
       ],
       "nickname_order": [
-        "まほさん",
-        "さつきさん",
-        "かなこさん",
-        "しゅんさん",
         "風の通り道さん",
-        "しげさん"
+        "まほさん",
+        "しゅんさん",
+        "しげさん",
+        "かなこさん",
+        "さつきさん"
       ],
       "demographic_order": [
+        "40代 男性",
         "30代 女性",
-        "50代 女性",
+        "50代 男性",
+        "70代 男性",
         "40代 女性",
-        "20代 男性",
-        "60代 男性",
-        "70代 男性"
+        "60代 女性"
       ],
       "ratings": [
+        4,
         5,
+        4,
         5,
         3,
-        4,
-        4,
         5
       ],
       "body_lengths": [
-        36,
-        97,
-        37,
-        37,
         41,
-        37
+        84,
+        37,
+        37,
+        37,
+        187
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 6,
+      "first_120_character_review_position": 6,
       "avatar_order": [
-        "woman-long",
-        "woman-long",
-        "woman-long",
-        "man-young",
+        "man-short",
+        "woman-bob",
+        "man-short",
         "man-senior",
-        "man-senior"
+        "woman-long",
+        "woman-senior"
       ],
       "review_titles": [
-        "カバーの裏まで丁寧",
-        "換気口の奥を見てもらえた",
-        "作業音はそれなりにあります",
-        "マンションの換気口に",
         "届く範囲を説明してくれた",
-        "高い所に手を伸ばさず済んだ"
+        "カバーの裏まで丁寧",
+        "マンションの換気口に",
+        "高い所に手を伸ばさず済んだ",
+        "作業音はそれなりにあります",
+        "換気口の奥を見てもらえた"
       ],
       "photos": [
+        "/assets/images/service-scenes/duct-after.webp",
         "/assets/images/service-scenes/duct.webp",
         "/assets/images/service-scenes/kitchen-fan.webp"
       ],
@@ -3041,56 +3292,57 @@
         ]
       ],
       "nickname_order": [
+        "ひなさん",
+        "たくみさん",
+        "くるみさん",
         "入口担当さん",
         "たんぽぽさん",
-        "くるみさん",
-        "たくみさん",
-        "たつさん",
-        "ひなさん"
+        "たつさん"
       ],
       "demographic_order": [
+        "50代 女性",
         "50代 男性",
-        "40代 女性",
-        "60代 女性",
-        "30代 男性",
-        "70代 男性",
-        "20代 女性"
+        "40代 男性",
+        "40代 男性",
+        "30代 女性",
+        "60代 男性"
       ],
       "ratings": [
-        3,
-        4,
         4,
         5,
-        5,
-        4
+        4,
+        4,
+        4,
+        5
       ],
       "body_lengths": [
-        30,
-        46,
-        34,
-        95,
         33,
+        188,
+        34,
+        82,
+        46,
         33
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": 4,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
+        "woman-long",
+        "man-young",
+        "man-short",
         "man-short",
         "woman-bob",
-        "woman-bob",
-        "man-short",
-        "man-senior",
-        "woman-long"
+        "man-short"
       ],
       "review_titles": [
-        "靴を片付けておけばよかった",
-        "玄関の床を相談しました",
-        "雨の日の泥汚れに",
+        "入口が明るく見えます",
         "出入りの段取りまで分かった",
-        "素材の違いを説明してもらえた",
-        "入口が明るく見えます"
+        "雨の日の泥汚れに",
+        "荷物の受け取りと時間を調整",
+        "玄関の床を相談しました",
+        "素材の違いを説明してもらえた"
       ],
       "photos": [
+        "/assets/images/service-scenes/entrance-after.webp",
         "/assets/images/service-scenes/entrance.webp"
       ],
       "product_scenes": [
@@ -3132,56 +3384,57 @@
         ]
       ],
       "nickname_order": [
-        "こいずみさん",
-        "すばるさん",
         "よつばさん",
-        "れいこさん",
+        "こいずみさん",
         "たけひろさん",
+        "れいこさん",
+        "すばるさん",
         "あまねさん"
       ],
       "demographic_order": [
-        "70代 女性",
-        "20代 男性",
-        "40代 女性",
+        "50代 男性",
         "60代 女性",
+        "40代 男性",
+        "30代 女性",
         "50代 男性",
         "30代 女性"
       ],
       "ratings": [
-        5,
         4,
+        5,
         4,
         5,
         4,
         5
       ],
       "body_lengths": [
-        27,
-        26,
         39,
+        81,
+        194,
         31,
-        100,
+        26,
         43
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": 5,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
-        "woman-senior",
         "man-young",
-        "woman-long",
-        "woman-long",
+        "woman-senior",
         "man-short",
-        "woman-long"
+        "woman-bob",
+        "man-young",
+        "woman-bob"
       ],
       "review_titles": [
-        "かがんで拭く負担が減りました",
-        "傷は残ると先に聞けた",
         "部屋の使い方に準備が必要",
-        "床のべたつきが気になって",
+        "広い床の拭き掃除を任せられた",
         "床材に合わせた手入れでした",
+        "床のべたつきが気になって",
+        "傷は残ると先に聞けた",
         "歩く場所がすっきり"
       ],
       "photos": [
+        "/assets/images/service-scenes/flooring-before.webp",
         "/assets/images/service-scenes/flooring.webp",
         "/assets/images/service-scenes/wood-coating.webp"
       ],
@@ -3218,56 +3471,57 @@
         ]
       ],
       "nickname_order": [
-        "ゆきえさん",
-        "ひのきさん",
         "だいちさん",
+        "ひのきさん",
+        "ともひささん",
+        "ゆきえさん",
         "しほさん",
-        "窓辺の猫さん",
-        "ともひささん"
+        "窓辺の猫さん"
       ],
       "demographic_order": [
+        "40代 男性",
+        "60代 女性",
+        "60代 男性",
         "70代 女性",
-        "50代 女性",
-        "20代 男性",
-        "30代 女性",
         "40代 女性",
-        "60代 男性"
+        "30代 女性"
       ],
       "ratings": [
         4,
         5,
+        3,
         4,
         4,
-        5,
-        3
+        5
       ],
       "body_lengths": [
-        38,
-        106,
         26,
-        30,
+        186,
         39,
+        185,
+        30,
         39
       ],
       "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
-        "woman-senior",
-        "woman-long",
         "man-young",
         "woman-bob",
-        "woman-long",
-        "man-senior"
+        "man-short",
+        "woman-senior",
+        "woman-bob",
+        "woman-bob"
       ],
       "review_titles": [
-        "無理をして拭かず済みました",
-        "来客前にお願いしました",
         "外側の作業可否も確認",
+        "来客前にお願いしました",
+        "窓が多いと時間もかかります",
+        "無理をして拭かず済みました",
         "光が入る感じが変わりました",
-        "サッシの溝まできれい",
-        "窓が多いと時間もかかります"
+        "サッシの溝まできれい"
       ],
       "photos": [
+        "/assets/images/service-scenes/window-after.webp",
         "/assets/images/service-scenes/window.webp"
       ],
       "product_scenes": [
@@ -3297,56 +3551,57 @@
         ]
       ],
       "nickname_order": [
-        "かなたさん",
-        "さとみさん",
         "まいこさん",
+        "うたさん",
         "ゆうとさん",
         "菜の花さん",
-        "うたさん"
+        "さとみさん",
+        "かなたさん"
       ],
       "demographic_order": [
-        "30代 男性",
         "50代 女性",
-        "40代 女性",
-        "20代 男性",
+        "60代 男性",
+        "50代 男性",
         "60代 女性",
-        "70代 女性"
+        "60代 女性",
+        "70代 男性"
       ],
       "ratings": [
+        4,
         5,
-        4,
-        4,
         3,
+        4,
         4,
         5
       ],
       "body_lengths": [
-        108,
-        33,
         41,
+        190,
         37,
         27,
-        36
+        33,
+        185
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
-        "man-short",
-        "woman-long",
         "woman-bob",
+        "man-senior",
         "man-young",
+        "woman-senior",
         "woman-bob",
-        "woman-senior"
+        "man-short"
       ],
       "review_titles": [
-        "乾燥の段取りを先に相談",
-        "生地を確認してから作業",
         "子どもの寝具に依頼",
+        "重い寝具を動かさず頼めました",
         "乾くまでの時間に注意",
         "買い替える前に相談",
-        "重い寝具を動かさず頼めました"
+        "生地を確認してから作業",
+        "乾燥の段取りを先に相談"
       ],
       "photos": [
+        "/assets/images/service-scenes/mattress-after.webp",
         "/assets/images/service-scenes/mattress.webp"
       ],
       "product_scenes": [
@@ -3383,55 +3638,56 @@
       ],
       "nickname_order": [
         "リビング派さん",
-        "こよみさん",
+        "まさのりさん",
+        "なつさん",
         "なおこさん",
         "ゆめさん",
-        "まさのりさん",
-        "なつさん"
+        "こよみさん"
       ],
       "demographic_order": [
         "40代 男性",
+        "30代 男性",
+        "60代 女性",
         "30代 女性",
         "60代 女性",
-        "20代 女性",
-        "50代 男性",
-        "70代 女性"
+        "30代 男性"
       ],
       "ratings": [
         5,
         4,
+        3,
         4,
         4,
-        4,
-        3
+        4
       ],
       "body_lengths": [
-        102,
-        46,
+        188,
+        33,
+        39,
         30,
         31,
-        33,
-        39
+        85
       ],
       "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "first_120_character_review_position": 1,
       "avatar_order": [
         "man-short",
-        "woman-long",
+        "man-young",
+        "woman-senior",
         "woman-bob",
-        "woman-long",
-        "man-short",
-        "woman-senior"
+        "woman-senior",
+        "man-short"
       ],
       "review_titles": [
         "買い替えを考える前に",
-        "乾燥中は別の席で",
+        "生地の種類から相談",
+        "古い跡は少し残りました",
         "縫い目の所まで丁寧でした",
         "お気に入りを使い続けたい",
-        "生地の種類から相談",
-        "古い跡は少し残りました"
+        "乾燥中は別の席で"
       ],
       "photos": [
+        "/assets/images/service-scenes/sofa-after.webp",
         "/assets/images/service-scenes/sofa.webp"
       ],
       "product_scenes": [
@@ -3461,56 +3717,59 @@
         ]
       ],
       "nickname_order": [
-        "たかのりさん",
         "はるきさん",
-        "壁好きさん",
-        "もなかさん",
         "さわこさん",
-        "たまさん"
+        "たまさん",
+        "もなかさん",
+        "壁好きさん",
+        "たかのりさん"
       ],
       "demographic_order": [
-        "60代 男性",
         "20代 男性",
-        "40代 女性",
+        "70代 女性",
+        "70代 女性",
         "30代 女性",
-        "50代 女性",
-        "70代 女性"
+        "20代 女性",
+        "70代 男性"
       ],
       "ratings": [
-        5,
+        4,
         4,
         5,
         5,
-        4,
+        5,
         5
       ],
       "body_lengths": [
-        27,
         32,
-        53,
-        40,
         45,
-        89
+        185,
+        40,
+        86,
+        27
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": null,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
-        "man-senior",
         "man-young",
+        "woman-senior",
+        "woman-senior",
         "woman-bob",
-        "woman-bob",
-        "woman-bob",
-        "woman-senior"
+        "woman-long",
+        "man-senior"
       ],
       "review_titles": [
-        "色を相談してから依頼",
         "賃貸の確認に時間がかかった",
-        "張り替え以外の選択肢",
-        "廊下が明るい印象に",
         "補修が必要な所も分かった",
-        "家具の保護まで気を配ってくれた"
+        "家具の保護まで気を配ってくれた",
+        "廊下が明るい印象に",
+        "張り替え以外の選択肢",
+        "色を相談してから依頼"
       ],
       "photos": [
+        "/assets/images/service-scenes/wall-after.webp",
+        "/assets/images/service-scenes/wall.webp",
+        "/assets/images/service-scenes/wallpaper-dyeing-before.webp",
         "/assets/images/service-scenes/wallpaper-dyeing.webp"
       ],
       "product_scenes": [
@@ -3540,56 +3799,57 @@
         ]
       ],
       "nickname_order": [
-        "のりこさん",
-        "じゅんこさん",
         "洗濯日和さん",
-        "かいさん",
         "そらいろさん",
-        "みよこさん"
+        "みよこさん",
+        "かいさん",
+        "じゅんこさん",
+        "のりこさん"
       ],
       "demographic_order": [
-        "60代 女性",
-        "50代 女性",
+        "30代 男性",
         "40代 男性",
-        "20代 男性",
-        "30代 女性",
-        "70代 女性"
+        "60代 女性",
+        "30代 男性",
+        "50代 女性",
+        "20代 女性"
       ],
       "ratings": [
+        4,
         5,
         5,
-        4,
-        4,
+        2,
         5,
         5
       ],
       "body_lengths": [
-        29,
-        41,
         32,
-        26,
-        96,
-        37
+        191,
+        37,
+        87,
+        41,
+        29
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": 5,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
-        "woman-long",
-        "woman-bob",
         "man-short",
+        "man-short",
+        "woman-senior",
         "man-young",
         "woman-long",
-        "woman-senior"
+        "woman-long"
       ],
       "review_titles": [
-        "扉まわりもすっきり",
-        "パッキンの奥が気になって",
         "半日は空けた方がよさそう",
-        "設置場所も写真で確認",
         "型番から対応を調べてくれた",
-        "外す所を教えてもらえました"
+        "外す所を教えてもらえました",
+        "仕上がりより待ち時間が気になった",
+        "パッキンの奥が気になって",
+        "扉まわりもすっきり"
       ],
       "photos": [
+        "/assets/images/service-scenes/washer-front-after.webp",
         "/assets/images/service-scenes/washer-front.webp"
       ],
       "product_scenes": [
@@ -3619,56 +3879,57 @@
         ]
       ],
       "nickname_order": [
+        "ひろなさん",
+        "あつしさん",
+        "ルカさん",
         "洗濯メモさん",
         "ほこり番さん",
-        "ルカさん",
-        "ちかさん",
-        "あつしさん",
-        "ひろなさん"
+        "ちかさん"
       ],
       "demographic_order": [
-        "50代 女性",
-        "40代 男性",
-        "20代 女性",
-        "70代 女性",
+        "40代 女性",
         "60代 男性",
-        "30代 女性"
+        "70代 男性",
+        "50代 女性",
+        "60代 男性",
+        "60代 女性"
       ],
       "ratings": [
-        5,
-        5,
-        5,
-        5,
         4,
-        4
+        4,
+        5,
+        5,
+        5,
+        5
       ],
       "body_lengths": [
+        83,
+        36,
+        36,
         41,
-        107,
-        36,
-        47,
-        36,
-        35
+        188,
+        47
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
         "woman-bob",
         "man-short",
-        "woman-bob",
-        "woman-senior",
         "man-senior",
-        "woman-long"
+        "woman-long",
+        "man-senior",
+        "woman-senior"
       ],
       "review_titles": [
+        "型番の写真で相談",
+        "長めの時間が必要でした",
+        "手が届かない所をお願い",
         "いつもの掃除も見直せた",
         "乾燥の奥を見てもらいました",
-        "手が届かない所をお願い",
-        "機械を動かす必要も相談できた",
-        "長めの時間が必要でした",
-        "型番の写真で相談"
+        "機械を動かす必要も相談できた"
       ],
       "photos": [
+        "/assets/images/service-scenes/washer-drying-duct-after.webp",
         "/assets/images/service-scenes/washer-drying-duct.webp"
       ],
       "product_scenes": [
@@ -3699,55 +3960,56 @@
       ],
       "nickname_order": [
         "つばささん",
-        "やよいさん",
         "たえこさん",
+        "たけるさん",
         "せつこさん",
-        "ゆきひろさん",
-        "たけるさん"
+        "やよいさん",
+        "ゆきひろさん"
       ],
       "demographic_order": [
-        "50代 男性",
-        "30代 女性",
+        "30代 男性",
+        "50代 女性",
+        "30代 男性",
         "60代 女性",
-        "70代 女性",
-        "40代 男性",
-        "20代 男性"
+        "50代 女性",
+        "40代 男性"
       ],
       "ratings": [
         4,
         5,
+        3,
+        4,
         5,
-        4,
-        4,
-        3
+        4
       ],
       "body_lengths": [
         34,
-        113,
         39,
+        37,
         44,
-        42,
-        37
+        194,
+        179
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
         "man-short",
         "woman-long",
-        "woman-long",
+        "man-young",
         "woman-senior",
-        "man-short",
-        "man-young"
+        "woman-bob",
+        "man-short"
       ],
       "review_titles": [
         "底の方まで見てもらえました",
-        "洗濯物の前に一度リセット",
         "自分で分解せず頼めました",
+        "洗濯の予定はずらしておくと安心",
         "古い機種でも相談できた",
-        "洗濯槽の汚れを確認",
-        "洗濯の予定はずらしておくと安心"
+        "洗濯物の前に一度リセット",
+        "洗濯槽の汚れを確認"
       ],
       "photos": [
+        "/assets/images/service-scenes/washer-top-after.webp",
         "/assets/images/service-scenes/washer-top.webp"
       ],
       "product_scenes": [
@@ -3777,56 +4039,57 @@
         ]
       ],
       "nickname_order": [
-        "ふわりさん",
         "あきなさん",
         "しんやさん",
-        "ひなぎくさん",
+        "あきらさん",
         "まゆさん",
-        "あきらさん"
+        "ふわりさん",
+        "ひなぎくさん"
       ],
       "demographic_order": [
-        "20代 女性",
-        "40代 女性",
-        "30代 男性",
-        "60代 女性",
         "50代 女性",
-        "70代 男性"
+        "50代 男性",
+        "60代 男性",
+        "50代 女性",
+        "40代 男性",
+        "40代 女性"
       ],
       "ratings": [
+        1,
+        5,
         4,
         5,
-        5,
-        5,
-        5,
-        4
+        4,
+        5
       ],
       "body_lengths": [
-        44,
-        30,
+        134,
         38,
-        34,
-        106,
-        29
+        29,
+        195,
+        44,
+        34
       ],
-      "longest_position": 5,
-      "first_90_character_review_position": 5,
+      "longest_position": 4,
+      "first_120_character_review_position": 1,
       "avatar_order": [
-        "woman-long",
-        "woman-long",
+        "woman-bob",
+        "man-young",
         "man-short",
         "woman-long",
-        "woman-long",
-        "man-senior"
+        "man-short",
+        "woman-long"
       ],
       "review_titles": [
-        "作業の間は使えません",
-        "蛇口まわりがすっきり",
+        "初めてでしたが、期待した変化はなく",
         "鏡の状態を先に説明",
-        "床の隅まで助かりました",
+        "浴槽の素材に合わせていました",
         "一人では終わらなかった掃除",
-        "浴槽の素材に合わせていました"
+        "作業の間は使えません",
+        "床の隅まで助かりました"
       ],
       "photos": [
+        "/assets/images/service-scenes/bathroom-after.webp",
         "/assets/images/service-scenes/bathroom.webp"
       ],
       "product_scenes": [
@@ -3856,56 +4119,57 @@
         ]
       ],
       "nickname_order": [
-        "ふみおさん",
+        "とみこさん",
+        "みずほさん",
         "こうへいさん",
         "なおみさん",
         "あおさん",
-        "とみこさん",
-        "みずほさん"
+        "ふみおさん"
       ],
       "demographic_order": [
-        "60代 男性",
+        "60代 女性",
+        "30代 女性",
         "30代 男性",
-        "50代 女性",
-        "20代 女性",
-        "70代 女性",
-        "40代 女性"
+        "30代 女性",
+        "50代 男性",
+        "60代 男性"
       ],
       "ratings": [
+        3,
         5,
         5,
         4,
         5,
-        3,
         5
       ],
       "body_lengths": [
-        39,
-        87,
-        39,
-        39,
         38,
-        35
+        35,
+        178,
+        39,
+        79,
+        39
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": null,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
-        "man-senior",
+        "woman-senior",
+        "woman-bob",
         "man-short",
         "woman-long",
-        "woman-long",
-        "woman-senior",
-        "woman-bob"
+        "man-young",
+        "man-senior"
       ],
       "review_titles": [
-        "音の相談もできました",
+        "予約を早めにすればよかった",
+        "戻したカバーまで確認",
         "機種を確認してから予約",
         "フィルターの裏側まで",
         "高い所の掃除を任せられた",
-        "予約を早めにすればよかった",
-        "戻したカバーまで確認"
+        "音の相談もできました"
       ],
       "photos": [
+        "/assets/images/service-scenes/bath-dryer-after.webp",
         "/assets/images/service-scenes/bath-dryer.webp"
       ],
       "product_scenes": [
@@ -3935,56 +4199,57 @@
         ]
       ],
       "nickname_order": [
-        "えりさん",
-        "さぶろうさん",
         "かのこさん",
+        "えりさん",
         "ことねさん",
+        "さぶろうさん",
         "ひさおさん",
         "みほさん"
       ],
       "demographic_order": [
         "30代 女性",
-        "60代 男性",
         "50代 女性",
-        "20代 女性",
-        "70代 男性",
+        "50代 女性",
+        "60代 男性",
+        "60代 男性",
         "40代 女性"
       ],
       "ratings": [
-        5,
-        4,
         4,
         5,
+        5,
+        4,
         4,
         4
       ],
       "body_lengths": [
-        34,
-        39,
         32,
-        86,
+        82,
+        187,
+        39,
         37,
         38
       ],
-      "longest_position": 4,
-      "first_90_character_review_position": null,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
         "woman-bob",
-        "man-senior",
-        "woman-bob",
         "woman-long",
+        "woman-bob",
+        "man-short",
         "man-senior",
         "woman-long"
       ],
       "review_titles": [
-        "蛇口の根元が気になって",
-        "収納内は別に確認でした",
         "普段の手入れが分かりました",
+        "蛇口の根元が気になって",
         "引っ越し先の洗面台に",
+        "収納内は別に確認でした",
         "狭い隅までお願いしました",
         "素材を見てから作業"
       ],
       "photos": [
+        "/assets/images/service-scenes/lavatory-after.webp",
         "/assets/images/service-scenes/lavatory.webp"
       ],
       "product_scenes": [
@@ -4014,56 +4279,57 @@
         ]
       ],
       "nickname_order": [
+        "ふたばさん",
+        "のどかさん",
         "えいこさん",
         "いっせいさん",
-        "ふたばさん",
-        "まつこさん",
         "おふろ好きさん",
-        "のどかさん"
+        "まつこさん"
       ],
       "demographic_order": [
-        "70代 女性",
-        "40代 男性",
-        "30代 女性",
+        "20代 男性",
+        "40代 女性",
         "60代 女性",
+        "30代 男性",
         "50代 男性",
-        "20代 女性"
+        "50代 女性"
       ],
       "ratings": [
+        4,
+        4,
         5,
         5,
         4,
-        5,
-        4,
-        4
+        5
       ],
       "body_lengths": [
-        32,
-        103,
         37,
-        37,
+        40,
+        190,
+        190,
         47,
-        40
+        37
       ],
-      "longest_position": 2,
-      "first_90_character_review_position": 2,
+      "longest_position": 3,
+      "first_120_character_review_position": 3,
       "avatar_order": [
+        "man-young",
+        "woman-long",
         "woman-senior",
         "man-short",
-        "woman-long",
-        "woman-long",
         "man-short",
-        "woman-bob"
+        "woman-long"
       ],
       "review_titles": [
+        "給湯器の型番を先に確認",
+        "見えない所なので説明が大事",
         "使い方の注意も聞けました",
         "見えない配管を相談",
-        "給湯器の型番を先に確認",
-        "浴室と一緒にお願いしました",
         "水を使う時間は長めです",
-        "見えない所なので説明が大事"
+        "浴室と一緒にお願いしました"
       ],
       "photos": [
+        "/assets/images/service-scenes/bath-pipe-after.webp",
         "/assets/images/service-scenes/bath-pipe.webp"
       ],
       "product_scenes": [
@@ -4093,56 +4359,57 @@
         ]
       ],
       "nickname_order": [
-        "むぎちゃさん",
         "ひであきさん",
-        "たけこさん",
-        "そうたさん",
+        "むぎちゃさん",
         "れなさん",
+        "そうたさん",
+        "たけこさん",
         "ゆうこさん"
       ],
       "demographic_order": [
-        "40代 女性",
         "60代 男性",
-        "70代 女性",
-        "30代 男性",
-        "20代 女性",
-        "50代 女性"
+        "20代 男性",
+        "30代 女性",
+        "40代 男性",
+        "60代 女性",
+        "30代 女性"
       ],
       "ratings": [
+        4,
+        5,
         5,
         4,
         4,
-        4,
-        5,
         5
       ],
       "body_lengths": [
-        94,
         43,
-        36,
-        35,
+        182,
         33,
+        79,
+        36,
         35
       ],
-      "longest_position": 1,
-      "first_90_character_review_position": 1,
+      "longest_position": 2,
+      "first_120_character_review_position": 2,
       "avatar_order": [
+        "man-short",
+        "man-short",
         "woman-long",
-        "man-senior",
-        "woman-senior",
         "man-short",
         "woman-bob",
-        "woman-bob"
+        "woman-long"
       ],
       "review_titles": [
-        "設備の違いも確認してくれた",
         "長く残った便器の跡を相談",
-        "しゃがまなくて済みました",
-        "手が届きにくい所を依頼",
+        "設備の違いも確認してくれた",
         "一人では苦戦していた汚れに",
+        "手が届きにくい所を依頼",
+        "しゃがまなくて済みました",
         "来客前のトイレを整えられました"
       ],
       "photos": [
+        "/assets/images/service-scenes/toilet-before.webp",
         "/assets/images/service-scenes/toilet.webp"
       ],
       "product_scenes": [
@@ -4173,56 +4440,58 @@
       ],
       "nickname_order": [
         "よしおさん",
-        "うさぎさん",
-        "お湯番さん",
-        "じろうさん",
         "かなでさん",
-        "ゆみこさん"
+        "お湯番さん",
+        "うさぎさん",
+        "ゆみこさん",
+        "じろうさん"
       ],
       "demographic_order": [
-        "70代 男性",
-        "20代 女性",
-        "40代 男性",
         "60代 男性",
-        "30代 女性",
-        "50代 女性"
+        "60代 女性",
+        "60代 男性",
+        "70代 女性",
+        "70代 女性",
+        "70代 男性"
       ],
       "ratings": [
         3,
-        4,
+        5,
         5,
         4,
         5,
-        5
+        4
       ],
       "body_lengths": [
         50,
-        32,
-        39,
-        31,
         43,
-        112
+        39,
+        32,
+        191,
+        85
       ],
-      "longest_position": 6,
-      "first_90_character_review_position": 6,
+      "longest_position": 5,
+      "first_120_character_review_position": 5,
       "avatar_order": [
         "man-senior",
-        "woman-bob",
+        "woman-senior",
         "man-short",
-        "man-senior",
-        "woman-long",
-        "woman-bob"
+        "woman-bob",
+        "woman-bob",
+        "man-short"
       ],
       "review_titles": [
         "部品確認に時間がかかりました",
-        "浴室の掃除と一緒に",
-        "ふだん外す所も確認できました",
-        "部品の適合から相談しました",
         "取り付け後まで見てもらえた",
-        "小さな部品でも丁寧な説明"
+        "ふだん外す所も確認できました",
+        "浴室の掃除と一緒に",
+        "小さな部品でも丁寧な説明",
+        "部品の適合から相談しました"
       ],
       "photos": [
-        "/assets/images/service-scenes/bath-adapter.webp"
+        "/assets/images/service-scenes/bath-adapter-before.webp",
+        "/assets/images/service-scenes/bath-adapter.webp",
+        "/assets/images/service-scenes/bath-pipe-after.webp"
       ],
       "product_scenes": [
         {
