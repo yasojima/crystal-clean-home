@@ -684,9 +684,9 @@
   }
 
   .c-service-flow--aircon .c-howto__item:not(:last-child) .c-howto__step::after {
-    right: calc(var(--howto-gap) / -2 - 4.5px);
-    width: 9px;
-    height: 16px;
+    right: calc(var(--howto-gap) / -2 - 6px);
+    width: 12px;
+    height: 22px;
   }
 
   .c-service-flow--aircon .c-howto__item:nth-child(3) .c-howto__step::after {
