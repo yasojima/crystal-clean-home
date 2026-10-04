@@ -627,13 +627,13 @@
   }
 
   .c-service-flow--aircon .c-howto-container {
-    max-width: 900px;
+    max-width: 840px;
   }
 
   .c-service-flow--aircon .c-howto {
-    --howto-gap: 24px;
+    --howto-gap: 16px;
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 21px 24px;
+    gap: 21px 16px;
   }
 
   .c-service-flow--aircon .c-howto__item {
@@ -659,7 +659,7 @@
   }
 
   .c-service-flow--aircon .c-howto__step {
-    margin: 4px 0 0;
+    margin: 8px 0 4px;
     font-size: 16px;
     line-height: 1;
   }
@@ -674,7 +674,7 @@
 
   .c-service-flow--aircon .c-howto__heading {
     min-height: 0;
-    margin-bottom: 2px;
+    margin-bottom: 6px;
     line-height: 1.2;
   }
 

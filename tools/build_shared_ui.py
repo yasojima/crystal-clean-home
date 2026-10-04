@@ -34,7 +34,7 @@ def transform(html, is_aircon=False):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
-    layout_version = '2026100506' if is_aircon else '2026100402'
+    layout_version = '2026100507' if is_aircon else '2026100402'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
