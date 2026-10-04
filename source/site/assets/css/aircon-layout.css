@@ -610,13 +610,30 @@
 }
 
 @media (min-width: 1024px) {
+  .c-service-flow--aircon .c-section-heading {
+    gap: 8px;
+  }
+
+  .c-service-flow--aircon .c-section-heading__english--art {
+    width: calc(min(260px, 76vw) * var(--art-width) / 364);
+  }
+
+  .c-service-flow--aircon .c-section-heading__subtitle {
+    font-size: 16px;
+  }
+
   .c-service-flow--aircon .p-content-box__content {
-    margin-top: 24px;
+    margin-top: 12px;
+  }
+
+  .c-service-flow--aircon .c-howto-container {
+    max-width: 900px;
   }
 
   .c-service-flow--aircon .c-howto {
+    --howto-gap: 24px;
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 16px 36px;
+    gap: 12px 24px;
   }
 
   .c-service-flow--aircon .c-howto__item {
@@ -632,31 +649,36 @@
   }
 
   .c-service-flow--aircon .c-howto__visual {
-    max-width: 88px;
-    border-radius: 10px;
+    max-width: 128px;
+    border-radius: 12px;
   }
 
   .c-service-flow--aircon .c-howto__icon {
-    --size: 40px;
+    --size: 56px;
   }
 
   .c-service-flow--aircon .c-howto__step {
-    margin: 6px 0 2px;
-    font-size: 14px;
+    margin: 4px 0 0;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  .c-service-flow--aircon .c-howto__step-label {
+    padding-bottom: 1px;
   }
 
   .c-service-flow--aircon .c-howto__number {
-    font-size: 18px;
+    font-size: 20px;
   }
 
   .c-service-flow--aircon .c-howto__heading {
     min-height: 0;
     margin-bottom: 2px;
-    line-height: 1.4;
+    line-height: 1.2;
   }
 
   .c-service-flow--aircon .c-howto__description {
-    line-height: 1.6;
+    line-height: 1.4;
     text-align: center;
   }
 
