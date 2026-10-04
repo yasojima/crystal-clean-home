@@ -230,9 +230,10 @@ async function interact(page,route,viewport){
   });
   const conciseAirconCopy=['気になる箇所・範囲を確認。料金の目安をご案内します。','訪問日時と作業時間を調整。当日の準備をお伝えします。','現地で範囲・料金を確認。ご了承後に作業を始めます。','清掃後の仕上がりを確認。お手入れ方法もご案内します。','仕上がりを確認後にお支払い。現金・電子マネー・カードに対応。'];
   assert.deepEqual(geometry.descriptions.map(p=>p.text),route==='aircon'?conciseAirconCopy:copy.shared.steps.map(s=>s[1]),'flow summary differs from source');
-  assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
+  assert(geometry.descriptions.every(p=>p.size===(route==='aircon'&&viewport.width>=768?'14px':'15px')),'flow description size differs');
   if(route==='aircon')assert(geometry.descriptions.every(p=>p.lineBreaks===1),'aircon descriptions need one deliberate break');
-  assert(geometry.gap>=28&&geometry.rowGap>=(route==='aircon'&&viewport.width>=768?24:40),'flow steps remain crowded');
+  assert(geometry.gap>=28&&geometry.rowGap>=(route==='aircon'&&viewport.width>=768?20:40),'flow steps remain crowded');
+  if(route==='aircon'&&viewport.width===1440&&viewport.height===803)assert(geometry.sectionHeight<=viewport.height-geometry.headerHeight-120,'aircon flow hides the lower curve and following blue section');
   if(route==='aircon'&&viewport.width===1524&&viewport.height===901)assert(geometry.sectionHeight<=viewport.height-geometry.headerHeight,'aircon white flow section does not fit below header');
   if(route==='aircon'&&viewport.width>=768){
    assert(geometry.items.slice(0,3).every(i=>Math.abs(i.top-geometry.items[0].top)<1),'aircon upper row is not three steps');

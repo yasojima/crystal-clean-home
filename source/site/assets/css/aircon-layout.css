@@ -674,12 +674,17 @@
 /* Aircon preview: arrange the existing five steps in two centered rows. */
 @media (min-width: 768px) {
   .c-service-page #service-flow.c-service-flow--aircon {
-    padding-top: 56px;
-    padding-bottom: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    --section-curve-depth: clamp(56px, 5.6vw, 84px);
+  }
+
+  .c-service-page #service-flow.c-service-flow--aircon + .c-curved-section {
+    --section-curve-depth: clamp(56px, 5.6vw, 84px);
   }
 
   .c-service-flow--aircon .p-content-box__content {
-    margin-top: 24px;
+    margin-top: 16px;
   }
 }
 
@@ -693,7 +698,7 @@
   .c-howto.c-howto--aircon {
     --howto-gap: 28px;
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 24px var(--howto-gap);
+    gap: 20px var(--howto-gap);
   }
 
   .c-howto--aircon .c-howto__item {
@@ -716,21 +721,32 @@
   }
 
   .c-howto--aircon .c-howto__visual {
-    max-width: 152px;
+    max-width: 80px;
+  }
+
+  .c-howto--aircon .c-howto__icon {
+    --size: 38px;
   }
 
   .c-howto--aircon .c-howto__step {
-    margin-top: 16px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 6px;
+    font-size: 15px;
+  }
+
+  .c-howto--aircon .c-howto__number {
+    font-size: 18px;
   }
 
   .c-howto--aircon .c-howto__heading {
     min-height: 0;
-    font-size: 16px;
+    margin-bottom: 6px;
+    font-size: 14px;
   }
 
   .c-howto--aircon .c-howto__description {
-    line-height: 1.7;
+    font-size: 14px;
+    line-height: 1.5;
     text-align: center;
   }
 }

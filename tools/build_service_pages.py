@@ -776,7 +776,7 @@ def render(route, page, catalogue, copy):
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
                           ('aircon-layout', '2026100402'), ('service-format', '2026100403')]:
         if name == 'aircon-layout' and route == 'aircon':
-            version = '2026100404'
+            version = '2026100501'
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
