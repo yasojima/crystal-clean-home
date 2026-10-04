@@ -609,6 +609,68 @@
   }
 }
 
+@media (min-width: 1024px) {
+  .c-service-flow--aircon .p-content-box__content {
+    margin-top: 24px;
+  }
+
+  .c-service-flow--aircon .c-howto {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 16px 36px;
+  }
+
+  .c-service-flow--aircon .c-howto__item {
+    grid-column: span 2;
+  }
+
+  .c-service-flow--aircon .c-howto__item:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .c-service-flow--aircon .c-howto__item:nth-child(5) {
+    grid-column: 4 / span 2;
+  }
+
+  .c-service-flow--aircon .c-howto__visual {
+    max-width: 88px;
+    border-radius: 10px;
+  }
+
+  .c-service-flow--aircon .c-howto__icon {
+    --size: 40px;
+  }
+
+  .c-service-flow--aircon .c-howto__step {
+    margin: 6px 0 2px;
+    font-size: 14px;
+  }
+
+  .c-service-flow--aircon .c-howto__number {
+    font-size: 18px;
+  }
+
+  .c-service-flow--aircon .c-howto__heading {
+    min-height: 0;
+    margin-bottom: 2px;
+    line-height: 1.4;
+  }
+
+  .c-service-flow--aircon .c-howto__description {
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .c-service-flow--aircon .c-howto__item:not(:last-child) .c-howto__step::after {
+    right: calc(var(--howto-gap) / -2 - 4.5px);
+    width: 9px;
+    height: 16px;
+  }
+
+  .c-service-flow--aircon .c-howto__item:nth-child(3) .c-howto__step::after {
+    content: none;
+  }
+}
+
 .c-service-page #service-faq .c-faq-accordion__item + .c-faq-accordion__item {
   margin-top: 20px;
 }

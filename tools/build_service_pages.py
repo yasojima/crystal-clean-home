@@ -601,16 +601,18 @@ def faq(category_copy, shared, questions=None, decorated=False):
 
 
 AIRCON_STEPS = [
-    ('お見積りのご相談', '清掃内容と料金の目安を\nご案内します。'),
-    ('作業内容と日時の調整', '訪問日時と事前の準備を\nご案内します。'),
-    ('ご訪問と作業前の確認', '内容・料金のご了承後に\n作業を始めます。'),
-    ('清掃と仕上がりの確認', '清掃後の仕上がりを\n一緒に確認します。'),
-    ('お支払い', '現金・電子マネー・\nカードでお支払い。'),
+    ('お見積りのご相談', '清掃内容と料金の目安をご案内します。'),
+    ('作業内容と日時の調整', '訪問日時と事前の準備をご案内します。'),
+    ('ご訪問と作業前の確認', '内容・料金のご了承後に作業を始めます。'),
+    ('清掃と仕上がりの確認', '清掃後の仕上がりを一緒に確認します。'),
+    ('お支払い', '現金・電子マネー・カードでお支払い。'),
 ]
 
 
 def steps(shared, decorated=False, original_aircon=False):
     n = template('steps'); n['id'] = 'service-flow'
+    if original_aircon:
+        n['class'].append('c-service-flow--aircon')
     n.select_one('h2').string = 'ご利用の流れ'
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
@@ -775,7 +777,7 @@ def render(route, page, catalogue, copy):
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
-                          ('aircon-layout', '2026100503' if route == 'aircon' else '2026100402'), ('service-format', '2026100403')]:
+                          ('aircon-layout', '2026100504' if route == 'aircon' else '2026100402'), ('service-format', '2026100403')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
