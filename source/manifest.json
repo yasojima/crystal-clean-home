@@ -3012,8 +3012,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 184985,
-      "sha256": "45a9b8aa01fee472166f31252614f7aa948eaa632d4b487ee3a2fb7c1ad579e3",
+      "bytes": 184514,
+      "sha256": "55d951b98051329142bb6c6171027876f2def39b2266802c55f8710315f05d59",
       "retrieved_at": "2026-09-30T17:02:54.113274+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -5583,8 +5583,8 @@
       "effective_url": "https://www.osoujihonpo.com/house-cleaning/aircon/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 184985,
-      "sha256": "45a9b8aa01fee472166f31252614f7aa948eaa632d4b487ee3a2fb7c1ad579e3",
+      "bytes": 184514,
+      "sha256": "55d951b98051329142bb6c6171027876f2def39b2266802c55f8710315f05d59",
       "retrieved_at": "2026-09-30T17:03:55.187228+00:00",
       "source_sha256": "c5d27c17df2b4dbc73e5fe43f9fbadd1d49fcf45f13ceafa0c40ff0ceca133dc",
       "source_bytes": 344007,
@@ -13113,15 +13113,6 @@
       "origin_type": "local-service-page",
       "bytes": 378386,
       "sha256": "5c2a0712829dd8b05b628809fb80ed251c44e9a7253e087c09018f5739168af0"
-    },
-    "https://www.osoujihonpo.com/assets/css/aircon-flow.css": {
-      "path": "assets/css/aircon-flow.css",
-      "effective_url": "https://www.osoujihonpo.com/assets/css/aircon-flow.css",
-      "status": 200,
-      "content_type": "text/css",
-      "origin_type": "local-service-page",
-      "bytes": 1111,
-      "sha256": "2834861ce94c864b5f4fabd077fc9b8bd945b6ccc8b2648d71f6888a9da2e8de"
     }
   },
   "external_urls": [
@@ -15312,9 +15303,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1429,
-    "unique_paths": 1415,
-    "bytes": 144621266,
+    "urls": 1428,
+    "unique_paths": 1414,
+    "bytes": 144619684,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
