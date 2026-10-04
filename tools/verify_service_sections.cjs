@@ -139,22 +139,6 @@ function checkExactFrame(actual,reference){
   assert.deepEqual(actual.context.curves.map(c=>({style:c.style,mask:c.mask})),reference.context.curves.map(c=>({style:c.style,mask:c.mask})),'section curves differ');
  }
 }
-function checkAirconFlow(actual,reference,route,viewport){
- assert(actual && !actual.overflow,'aircon flow missing or page overflows');
- assert.equal(actual.components.item.length,5,'aircon flow must have five cards');
- const grid=actual.components.grid[0].rect;
- assert(Math.abs((grid.x+grid.width/2)-(actual.rect.x+actual.rect.width/2))<1,'aircon flow is shifted away from the page center');
- assert.deepEqual(actual.components.title.map(c=>c.text),copy.categories.aircon.flow.map(s=>s[0]),'aircon flow headings differ');
- assert.deepEqual(actual.components.text.map(c=>c.text),copy.categories.aircon.flow.map(s=>s[1]),'aircon flow summaries differ');
- for(const key of ['item','visual','icon','step','title','text'])for(const item of actual.components[key])assert(!item.overflow,`${key} clips text`);
- const items=actual.components.item, rows=[];
- for(const item of items){
-  const row=rows.find(r=>Math.abs(r.y-item.rect.y)<1);
-  if(row)row.count++;else rows.push({y:item.rect.y,count:1});
- }
- assert.deepEqual(rows.map(r=>r.count),viewport.width>=1000?[3,2]:viewport.width>=600?[2,2,1]:[1,1,1,1,1],'aircon flow rows differ from the responsive layout');
- assert.deepEqual(actual.images,reference.images,'flow heading artwork differs');
-}
 function checkLineup(actual,reference,route){
  assert(actual && !actual.overflow,'lineup missing or page overflows');
  assert.equal(actual.components.band.length,catalogue.pages[route].groups.length,'lineup heading count');
@@ -234,10 +218,10 @@ async function interact(page,route,viewport){
    return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
     descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
   });
-  assert.deepEqual(geometry.descriptions.map(p=>p.text),(route==='aircon'?copy.categories.aircon.flow:copy.shared.steps).map(s=>s[1]),'flow summary differs from source');
+  assert.deepEqual(geometry.descriptions.map(p=>p.text),copy.shared.steps.map(s=>s[1]),'flow summary differs from shared source');
   assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
-  assert(geometry.gap>=(route==='aircon'?20:28)&&geometry.rowGap>=40,'flow steps remain crowded');
-  if(route!=='aircon'&&viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
+  assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
+  if(viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
   return geometry;
  }
  if(phase==='voices'){
@@ -438,20 +422,13 @@ async function gallery(items, engine, viewport) {
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
-   let sharedFlowReference=null;
-   if(phase==='flow'){
-    await page.goto(`${origin}/house-cleaning/pack/`,{waitUntil:'load'});await settle();sharedFlowReference=await read(page);
-   }
    const captures=[];
    for(const route of routes){
     const result={engine,viewport,route,passed:false};runtime.length=0;
     try {
      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'load'});assert.equal(response.status(),200);await settle();
      result.measurement=await read(page);
-     if(!inspectOnly){
-      if(phase==='flow'&&route==='aircon')checkAirconFlow(result.measurement,reference,route,viewport);
-      else checkPhase[phase](result.measurement,phase==='flow'?sharedFlowReference:reference,route,viewport);
-     }
+     if(!inspectOnly) checkPhase[phase](result.measurement,reference,route,viewport);
      if(!inspectOnly) result.operations=await interact(page,route,viewport);
      assert.deepEqual(runtime,[],'runtime errors');result.passed=true;
    if(engine==='Chrome' && process.env.SECTION_SCREENSHOTS!=='none') await capture(page,route,engine,viewport,captures);
