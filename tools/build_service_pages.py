@@ -602,6 +602,8 @@ def faq(category_copy, shared, questions=None, decorated=False):
 
 def steps(shared, decorated=False, aircon_trial=False):
     n = template('steps'); n['id'] = 'service-flow'
+    if aircon_trial:
+        n['class'].append('c-service-flow--aircon')
     n.select_one('h2').string = 'ご利用の流れ'
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
@@ -616,11 +618,11 @@ def steps(shared, decorated=False, aircon_trial=False):
         if aircon_trial:
             n.select_one('.c-step-list')['class'].append('c-howto--aircon')
         concise_aircon_copy = [
-            '気になる箇所と清掃範囲、料金の目安を確認します。',
-            '訪問日時と作業時間を調整します。',
-            '現地で範囲と料金を確認し、ご了承後に作業します。',
-            '清掃後、仕上がりを一緒に確認します。',
-            '仕上がりの確認後にお支払いいただきます。',
+            ('気になる箇所・範囲を確認。', '料金の目安をご案内します。'),
+            ('訪問日時と作業時間を調整。', '当日の準備をお伝えします。'),
+            ('現地で範囲・料金を確認。', 'ご了承後に作業を始めます。'),
+            ('清掃後の仕上がりを確認。', 'お手入れ方法もご案内します。'),
+            ('仕上がりを確認後にお支払い。', '現金・電子マネー・カードに対応。'),
         ]
         for index, item in enumerate(n.select('.c-step-list__item'), 1):
             heading = item.select_one('.c-step-list-item__heading-main').get_text()
@@ -638,7 +640,12 @@ def steps(shared, decorated=False, aircon_trial=False):
             step.append(label)
             item.append(step)
             item.append(tag('h3', 'c-howto__heading', heading))
-            item.append(tag('p', 'c-howto__description', description))
+            paragraph = tag('p', 'c-howto__description')
+            if aircon_trial:
+                lines(paragraph, description)
+            else:
+                paragraph.append(description)
+            item.append(paragraph)
     return n
 
 
@@ -769,7 +776,7 @@ def render(route, page, catalogue, copy):
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
                           ('aircon-layout', '2026100402'), ('service-format', '2026100403')]:
         if name == 'aircon-layout' and route == 'aircon':
-            version = '2026100403'
+            version = '2026100404'
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)

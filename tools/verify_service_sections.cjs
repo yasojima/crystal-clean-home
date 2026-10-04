@@ -225,13 +225,15 @@ async function interact(page,route,viewport){
   await flow.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top,behavior:'instant'}));
   const geometry=await flow.evaluate(n=>{
    const list=n.querySelector('.c-howto'),css=getComputedStyle(list),cart=document.querySelector('#js-floating'),c=cart?.getBoundingClientRect();
-   return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
-    descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
+   return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),sectionHeight:n.getBoundingClientRect().height,headerHeight:document.querySelector('.c-header')?.getBoundingClientRect().height||0,items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
+    descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize,lineBreaks:p.querySelectorAll('br').length}))};
   });
-  const conciseAirconCopy=['気になる箇所と清掃範囲、料金の目安を確認します。','訪問日時と作業時間を調整します。','現地で範囲と料金を確認し、ご了承後に作業します。','清掃後、仕上がりを一緒に確認します。','仕上がりの確認後にお支払いいただきます。'];
+  const conciseAirconCopy=['気になる箇所・範囲を確認。料金の目安をご案内します。','訪問日時と作業時間を調整。当日の準備をお伝えします。','現地で範囲・料金を確認。ご了承後に作業を始めます。','清掃後の仕上がりを確認。お手入れ方法もご案内します。','仕上がりを確認後にお支払い。現金・電子マネー・カードに対応。'];
   assert.deepEqual(geometry.descriptions.map(p=>p.text),route==='aircon'?conciseAirconCopy:copy.shared.steps.map(s=>s[1]),'flow summary differs from source');
   assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
-  assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
+  if(route==='aircon')assert(geometry.descriptions.every(p=>p.lineBreaks===1),'aircon descriptions need one deliberate break');
+  assert(geometry.gap>=28&&geometry.rowGap>=(route==='aircon'&&viewport.width>=768?24:40),'flow steps remain crowded');
+  if(route==='aircon'&&viewport.width===1524&&viewport.height===901)assert(geometry.sectionHeight<=viewport.height-geometry.headerHeight,'aircon white flow section does not fit below header');
   if(route==='aircon'&&viewport.width>=768){
    assert(geometry.items.slice(0,3).every(i=>Math.abs(i.top-geometry.items[0].top)<1),'aircon upper row is not three steps');
    assert(geometry.items.slice(3).every(i=>Math.abs(i.top-geometry.items[3].top)<1),'aircon lower row is not two steps');
