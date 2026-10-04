@@ -671,6 +671,53 @@
   }
 }
 
+/* Aircon preview: arrange the existing five steps in two centered rows. */
+@media (min-width: 768px) {
+  .c-howto-container.c-howto-container--aircon {
+    width: min(1080px, 100%);
+    max-width: none;
+    margin-inline: auto;
+  }
+
+  .c-howto.c-howto--aircon {
+    --howto-gap: 28px;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 52px var(--howto-gap);
+  }
+
+  .c-howto--aircon .c-howto__item {
+    grid-column: span 2;
+    width: auto;
+    justify-self: stretch;
+  }
+
+  .c-howto--aircon .c-howto__item:nth-child(4) {
+    grid-column: 2 / span 2;
+  }
+
+  .c-howto--aircon .c-howto__item:nth-child(3) .c-howto__step::after {
+    content: none;
+  }
+
+  .c-howto--aircon .c-howto__item:nth-child(2) .c-howto__step::after,
+  .c-howto--aircon .c-howto__item:nth-child(4) .c-howto__step::after {
+    content: "";
+  }
+
+  .c-howto--aircon .c-howto__visual {
+    max-width: 208px;
+  }
+
+  .c-howto--aircon .c-howto__heading {
+    min-height: 0;
+    font-size: 16px;
+  }
+
+  .c-howto--aircon .c-howto__description {
+    text-align: center;
+  }
+}
+
 .c-service-page #service-faq .c-faq-accordion__item + .c-faq-accordion__item {
   margin-top: 20px;
 }

@@ -208,7 +208,17 @@ function checkFaq(actual,reference){
   assert(!item.overflow,`${key} clips question text`);
  }
 }
-const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup,products:checkProducts,offers:checkOffers,voices:checkVoices,faq:checkFaq,flow:checkExactFrame,featured:checkExactFrame};
+function checkFlow(actual, reference, route) {
+ if(route!=='aircon')return checkExactFrame(actual,reference);
+ assert(actual&&!actual.overflow,'aircon flow missing or page overflows');
+ assert.equal(actual.components.item.length,5,'aircon flow must reuse five steps');
+ assert.deepEqual(actual.images,reference.images,'aircon flow heading image changed');
+ for(const [key,items] of Object.entries(actual.components)){
+  assert.equal(items.length,reference.components[key].length,`${key} count differs`);
+  for(const item of items)assert(!item.overflow,`${key} clips full text`);
+ }
+}
+const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup,products:checkProducts,offers:checkOffers,voices:checkVoices,faq:checkFaq,flow:checkFlow,featured:checkExactFrame};
 async function interact(page,route,viewport){
  if(phase==='flow'){
   const flow=page.locator('#service-flow');
@@ -218,10 +228,17 @@ async function interact(page,route,viewport){
    return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
     descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
   });
-  assert.deepEqual(geometry.descriptions.map(p=>p.text),copy.shared.steps.map(s=>s[1]),'flow summary differs from shared source');
+  const conciseAirconCopy=['気になる箇所と清掃範囲、料金の目安を確認します。','訪問日時と作業時間を調整します。','現地で範囲と料金を確認し、ご了承後に作業します。','清掃後、仕上がりを一緒に確認します。','仕上がりの確認後にお支払いいただきます。'];
+  assert.deepEqual(geometry.descriptions.map(p=>p.text),route==='aircon'?conciseAirconCopy:copy.shared.steps.map(s=>s[1]),'flow summary differs from source');
   assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
   assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
-  if(viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
+  if(route==='aircon'&&viewport.width>=768){
+   assert(geometry.items.slice(0,3).every(i=>Math.abs(i.top-geometry.items[0].top)<1),'aircon upper row is not three steps');
+   assert(geometry.items.slice(3).every(i=>Math.abs(i.top-geometry.items[3].top)<1),'aircon lower row is not two steps');
+   assert(geometry.items[3].top>geometry.items[0].top+1,'aircon second row is missing');
+   assert(Math.abs((geometry.items[3].left+geometry.items[4].right)/2-(geometry.items[0].left+geometry.items[2].right)/2)<1,'aircon lower row is not centered');
+  }
+  if(route!=='aircon'&&viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
   return geometry;
  }
  if(phase==='voices'){
@@ -420,7 +437,7 @@ async function gallery(items, engine, viewport) {
    const page=await context.newPage();page.setDefaultTimeout(30000);page.setDefaultNavigationTimeout(45000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
-   await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
+   await page.goto(`${origin}/house-cleaning/${phase==='flow'?'pack':'aircon'}/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
    const captures=[];
    for(const route of routes){
