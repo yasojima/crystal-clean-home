@@ -623,7 +623,7 @@
   }
 
   .c-service-flow--aircon .p-content-box__content {
-    margin-top: 12px;
+    margin-top: 24px;
   }
 
   .c-service-flow--aircon .c-howto-container {
@@ -633,7 +633,7 @@
   .c-service-flow--aircon .c-howto {
     --howto-gap: 24px;
     grid-template-columns: repeat(6, minmax(0, 1fr));
-    gap: 12px 24px;
+    gap: 21px 24px;
   }
 
   .c-service-flow--aircon .c-howto__item {
@@ -650,6 +650,7 @@
 
   .c-service-flow--aircon .c-howto__visual {
     max-width: 128px;
+    aspect-ratio: 3 / 2;
     border-radius: 12px;
   }
 
