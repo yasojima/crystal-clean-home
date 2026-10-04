@@ -11,7 +11,7 @@ const out = path.resolve(process.argv[3] || 'evidence/2026-10-04/footer-height')
   const page = await browser.newPage();
   const checks = [];
   try {
-    for (const [width, height] of [[1440,800], [1440,1069], [1440,1973], [1280,1973], [1024,1973], [768,1973], [414,688], [414,832]]) {
+    for (const [width, height] of [[1440,800], [1440,1100], [1440,1973], [1280,1973], [1024,1973], [768,1973], [414,688], [414,1100]]) {
       await page.setViewportSize({width, height});
       await page.goto(origin + '/house-cleaning/pack/', {waitUntil: 'load'});
       await page.evaluate(async () => {
@@ -34,14 +34,14 @@ const out = path.resolve(process.argv[3] || 'evidence/2026-10-04/footer-height')
       assert(!measurement.overflow);
       assert(measurement.navBottom <= height + 1, 'footer bottom not visible');
       if (width >= 1200) {
-        assert(measurement.footerHeight <= 800, 'desktop footer stretched beyond content');
-        assert(measurement.supportGap < 200, 'support links separated by huge whitespace');
+        assert(measurement.footerHeight <= 1100, 'desktop footer stretched beyond height limit');
+        assert(measurement.supportGap <= (height > 800 ? 17 : 32), 'support links separated by whitespace');
       }
       checks.push(measurement);
       console.log(JSON.stringify(measurement));
       if ([800,1973,688].includes(height)) await page.screenshot({path: path.join(out, `${width}x${height}.png`)});
     }
-    assert(Math.abs(checks[0].footerHeight - checks[2].footerHeight) < 1, 'footer grows with tall window');
+    assert(Math.abs(checks[1].footerHeight - checks[2].footerHeight) < 1, 'footer grows beyond 1100px');
     fs.writeFileSync(path.join(out, 'verification.json'), JSON.stringify({checkedAt: new Date().toISOString(), origin, passed: true, checks}, null, 2));
   } finally {
     await browser.close();

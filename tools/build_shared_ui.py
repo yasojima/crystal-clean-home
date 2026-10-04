@@ -11,7 +11,7 @@ SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
     '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">',
-    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100403">',
+    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100513">',
     '<script src="/assets/js/aircon-header.js?v=2026100401" defer></script>',
 )
 

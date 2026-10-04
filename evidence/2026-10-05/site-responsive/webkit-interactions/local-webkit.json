@@ -1,0 +1,226 @@
+{
+  "checkedAt": "2026-10-04T22:05:34.013Z",
+  "phase": "local",
+  "engine": "webkit",
+  "passed": true,
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 1440,
+        "clientWidth": 1440,
+        "height": 992,
+        "top": 107.546875,
+        "bottom": 1099.546875,
+        "headerHeight": 108,
+        "supportGap": 16,
+        "phoneHeight": 148,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 688,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 688,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 687.953125,
+        "top": 0.40625,
+        "bottom": 688.359375,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 172.109375,
+        "minMobileHeight": 588.109375,
+        "rowHeights": [
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 1099.984375,
+        "top": 0.40625,
+        "bottom": 1100.390625,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 209.96875,
+        "minMobileHeight": 673.96875,
+        "rowHeights": [
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1440,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 1440,
+        "clientWidth": 1440,
+        "height": 992,
+        "top": 107.75,
+        "bottom": 1099.75,
+        "headerHeight": 108,
+        "supportGap": 16,
+        "phoneHeight": 148,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 12,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 414,
+      "height": 688,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 688,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 687.953125,
+        "top": 0.484375,
+        "bottom": 688.4375,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 172.109375,
+        "minMobileHeight": 588.109375,
+        "rowHeights": [
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 12,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 414,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 1099.984375,
+        "top": 0.484375,
+        "bottom": 1100.46875,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 209.96875,
+        "minMobileHeight": 673.96875,
+        "rowHeights": [
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 12,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    }
+  ],
+  "parity": [
+    {
+      "route": "/",
+      "desktopOnly": [],
+      "mobileOnly": [
+        "場所から探す"
+      ]
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "desktopOnly": [],
+      "mobileOnly": []
+    }
+  ]
+}
