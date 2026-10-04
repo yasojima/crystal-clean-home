@@ -11,7 +11,7 @@ SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
     '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">',
-    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100402">',
+    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100403">',
     '<script src="/assets/js/aircon-header.js?v=2026100401" defer></script>',
 )
 
@@ -34,7 +34,7 @@ def transform(html):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
-    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', '/assets/css/aircon-layout.css?v=2026100325', html)
+    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', '/assets/css/aircon-layout.css?v=2026100401', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)

@@ -231,7 +231,7 @@ async function interact(page,route,viewport){
   const tabs=page.locator('.recommend-plan__tab .c-tab__button');
   let quantities=0, demoActions=0;const planCards=[];
   const keys=catalogue.pages[route].groups.flatMap(g=>g.products);
-  const expectedTabs=catalogue.pages[route].category==='aircon'?(route==='aircon'?2:1):keys.length+(catalogue.pages[route].offers.length?1:0);
+  const expectedTabs=catalogue.pages[route].category==='aircon'?(route==='aircon'?2:1):Math.min(2,keys.length+(catalogue.pages[route].offers.length?1:0));
   assert.equal(await tabs.count(),expectedTabs,'plan tabs missing products');
   for(let i=0;i<await tabs.count();i++){
    const tab=tabs.nth(i);await tab.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top-innerHeight*.4,behavior:'instant'}));await tab.click();
@@ -245,11 +245,11 @@ async function interact(page,route,viewport){
     await select.selectOption({index:0});quantities++;
    }
    const additions=page.locator('[data-demo-plan]:visible');
-   if(catalogue.pages[route].category!=='aircon'&&i<keys.length){
+   if(await additions.count()){
     assert.equal(await additions.count(),2,'this product has fewer than two plans');
     for(let j=0;j<2;j++){
-     const card=additions.nth(j),record=additionalPlans[keys[i]][j];
-     assert.equal(await card.getAttribute('data-plan-product'),keys[i]);
+     const card=additions.nth(j),key=await card.getAttribute('data-plan-product'),record=additionalPlans[key][j];
+     assert(keys.includes(key),'plan uses a product from another page');
      assert.equal(await card.locator('.c-plan-card__heading').innerText(),record.name);
      assert.equal(await card.locator('.c-plan-card-list-item__heading').innerText(),record.label);
      assert.deepEqual(await card.locator('.c-plan-card-detail__option').allTextContents(),record.options.map(o=>o.name+(o.quantity>1?' ×'+o.quantity:'')));

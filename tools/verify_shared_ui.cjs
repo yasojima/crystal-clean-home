@@ -13,7 +13,7 @@ let activeCase;
   for (const [engine, launch] of [['Chrome', () => chromium.launch({channel: 'chrome', headless: true})], ['WebKit', () => webkit.launch({headless: true})]]) {
     const browser = await launch();
     try {
-      for (const [width, height] of [[414,688],[1440,800]]) {
+      for (const [width, height] of (process.env.SHARED_SIZES || '414x688,1440x800').split(',').map(s=>s.split('x').map(Number))) {
         for (const route of routes) {
           activeCase={engine,route,width,height};
           const page = await browser.newPage({viewport: {width,height}, isMobile: width < 768, hasTouch: width < 768});

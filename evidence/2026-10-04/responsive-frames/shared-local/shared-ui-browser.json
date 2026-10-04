@@ -1,0 +1,569 @@
+{
+  "base": "http://127.0.0.1:8769",
+  "results": [
+    {
+      "engine": "Chrome",
+      "route": "/",
+      "width": 320,
+      "height": 568,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 320,
+          "bottom": 567.84375
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "route": "/house-cleaning/room/",
+      "width": 320,
+      "height": 568,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 320,
+          "bottom": 568.21875
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "route": "/",
+      "width": 430,
+      "height": 932,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 430,
+          "bottom": 931.984375
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "route": "/house-cleaning/room/",
+      "width": 430,
+      "height": 932,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 430,
+          "bottom": 932.3125
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "route": "/",
+      "width": 1280,
+      "height": 551,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 96
+        },
+        "menu": {
+          "x": 1201,
+          "y": 20,
+          "width": 56,
+          "height": 56
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 1265,
+          "bottom": 550.546875
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "Chrome",
+      "route": "/house-cleaning/room/",
+      "width": 1280,
+      "height": 551,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1265,
+          "height": 96
+        },
+        "menu": {
+          "x": 1201,
+          "y": 20,
+          "width": 56,
+          "height": 56
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 1265,
+          "bottom": 551.09375
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/",
+      "width": 320,
+      "height": 568,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 320,
+          "bottom": 568.25
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/house-cleaning/room/",
+      "width": 320,
+      "height": 568,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 320,
+          "height": 148
+        },
+        "menu": {
+          "x": 262.359375,
+          "y": 18,
+          "width": 44,
+          "height": 44
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 320,
+          "bottom": 567.53125
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/",
+      "width": 430,
+      "height": 932,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 430,
+          "bottom": 932.390625
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/house-cleaning/room/",
+      "width": 430,
+      "height": 932,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 430,
+          "height": 96
+        },
+        "menu": {
+          "x": 365.796875,
+          "y": 25.0625,
+          "width": 45.859375,
+          "height": 45.859375
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 430,
+          "bottom": 931.640625
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/",
+      "width": 1280,
+      "height": 551,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 96
+        },
+        "menu": {
+          "x": 1216,
+          "y": 20,
+          "width": 56,
+          "height": 56
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 1280,
+          "bottom": 550.546875
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    },
+    {
+      "engine": "WebKit",
+      "route": "/house-cleaning/room/",
+      "width": 1280,
+      "height": 551,
+      "initial": {
+        "header": {
+          "x": 0,
+          "y": 0,
+          "width": 1280,
+          "height": 96
+        },
+        "menu": {
+          "x": 1216,
+          "y": 20,
+          "width": 56,
+          "height": 56
+        },
+        "phone": "00-0000-0000",
+        "guide": "ご利用ガイド",
+        "footerDetails": 43,
+        "footerRows": 5,
+        "footers": 1,
+        "menus": 1,
+        "corporateFloating": null
+      },
+      "menu": {
+        "sections": 10,
+        "header": "rgb(245, 245, 245)",
+        "labels": 44
+      },
+      "footer": {
+        "rect": {
+          "x": 0,
+          "width": 1280,
+          "bottom": 551.03125
+        },
+        "first": "UL",
+        "labels": [
+          "Home",
+          "プライバシーポリシー",
+          "お問い合わせ"
+        ]
+      },
+      "corporateFloating": null,
+      "errors": []
+    }
+  ]
+}

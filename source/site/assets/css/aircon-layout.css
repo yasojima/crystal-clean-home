@@ -184,6 +184,12 @@
   padding-bottom: calc(var(--selector-space) - var(--section-curve-depth) / 2);
 }
 
+@media (min-width: 768px) and (max-height: 720px) {
+  .c-service-page .c-floating-buttons.is-apply-area {
+    bottom: clamp(24px, calc(50svh - 220px), 180px);
+  }
+}
+
 @media (max-width: 767.98px) {
   .c-service-page .c-service-selector {
     --selector-space: 43px;

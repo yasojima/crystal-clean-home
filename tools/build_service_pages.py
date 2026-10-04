@@ -384,8 +384,11 @@ def additional_plans_section(page, route, catalogue, copy):
     button, panel = deepcopy(buttons.find('button')), deepcopy(panels.select_one('.c-tab__panel'))
     buttons.clear(); panels.clear()
     keys = list(dict.fromkeys(key for group in page['groups'] for key in group['products']))
+    if len(keys) > 2:
+        representatives = [group['products'][0] for group in page['groups']]
+        keys = list(dict.fromkeys(representatives + keys))[:2]
     subjects = [(ADDITIONAL_PLANS[key][0]['tab_lines'], [additional_plan(r, catalogue, copy) for r in ADDITIONAL_PLANS[key]]) for key in keys]
-    if page['offers']:
+    if page['offers'] and len(subjects) < 2:
         subjects.append((['お得なセット'], [offer(key, catalogue) for key in page['offers']]))
     for index, (labels, cards) in enumerate(subjects):
         b, box = deepcopy(button), deepcopy(panel)
@@ -761,8 +764,8 @@ def render(route, page, catalogue, copy):
     output = re.sub(r'/assets/css/service-pages\.css\?v=\d+',
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
-    for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100401'),
-                          ('aircon-layout', '2026100325'), ('service-format', '2026100402')]:
+    for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
+                          ('aircon-layout', '2026100401'), ('service-format', '2026100402')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
