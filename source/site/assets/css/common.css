@@ -1334,7 +1334,7 @@ screen and (min-width: 768px) {
 }
 
 .l-section--blue-bubbles::before {
-  background: url("/assets/images/common-parts/decoration/bubbles_blue.svg")
+  background: url("/assets/images/common-parts/decoration/section-arrows-black.svg")
 }
 
 .l-section--pink-bubbles::before {

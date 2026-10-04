@@ -9,17 +9,6 @@
   backdrop-filter: none;
 }
 
-.c-home:not(.is-past-home-first-view):not(.aircon-menu-open) .c-main-menu__link {
-  color: #fff;
-  border-bottom-color: rgb(255 255 255 / 35%);
-}
-
-.c-home:not(.is-past-home-first-view):not(.aircon-menu-open) .c-header-contact__phone,
-.c-home:not(.is-past-home-first-view):not(.aircon-menu-open) .c-header-contact__number,
-.c-home:not(.is-past-home-first-view):not(.aircon-menu-open) .c-header-contact__hours {
-  color: #fff;
-}
-
 .home-first-view {
   position: relative;
   width: 100%;

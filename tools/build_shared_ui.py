@@ -34,7 +34,8 @@ def transform(html, is_aircon=False):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
-    layout_version = '2026100512'
+    html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100522', html)
+    layout_version = '2026100522'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
@@ -87,7 +88,7 @@ def main():
             changed.append(page.relative_to(SITE).as_posix())
             if not args.check:
                 page.write_bytes(output.encode('utf-8'))
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

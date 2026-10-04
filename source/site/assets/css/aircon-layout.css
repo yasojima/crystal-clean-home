@@ -1,7 +1,3 @@
-.c-service-page .l-section--blue-bubbles::before {
-  background-image: url('/assets/images/common-parts/decoration/section-arrows-black.svg');
-}
-
 .c-service-page {
   --section-curve-depth: clamp(28px, 4vw, 64px);
 }
