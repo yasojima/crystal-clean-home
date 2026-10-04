@@ -600,25 +600,13 @@ def faq(category_copy, shared, questions=None, decorated=False):
     return n
 
 
-AIRCON_STEPS = [
-    ('お見積りのご相談', '清掃内容と料金の目安をご案内します。'),
-    ('作業内容と日時の調整', '訪問日時と事前の準備をご案内します。'),
-    ('ご訪問と作業前の確認', '内容・料金のご了承後に作業を始めます。'),
-    ('清掃と仕上がりの確認', '清掃後の仕上がりを一緒に確認します。'),
-    ('お支払い', '現金・電子マネー・カードでお支払い。'),
-]
-
-
-def steps(shared, decorated=False, original_aircon=False):
+def steps(shared, decorated=False):
     n = template('steps'); n['id'] = 'service-flow'
-    if original_aircon:
-        n['class'].append('c-service-flow--aircon')
     n.select_one('h2').string = 'ご利用の流れ'
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
                          ('flow', 'reference-how-to-use.webp', 150))
-    step_copy = AIRCON_STEPS if original_aircon else shared['steps']
-    for item, words in zip(n.select('.c-step-list__item'), step_copy):
+    for item, words in zip(n.select('.c-step-list__item'), shared['steps']):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
         item.select_one('.c-step-list-item__text p').string = words[1]
     for note in n.select('.c-step-list-item__note'): note.decompose()
@@ -641,14 +629,7 @@ def steps(shared, decorated=False, original_aircon=False):
             step.append(label)
             item.append(step)
             item.append(tag('h3', 'c-howto__heading', heading))
-            description_node = tag('p', 'c-howto__description', description)
-            if original_aircon:
-                description_node.clear()
-                for line in description.splitlines():
-                    if description_node.contents:
-                        description_node.append(tag('br'))
-                    description_node.append(line)
-            item.append(description_node)
+            item.append(tag('p', 'c-howto__description', description))
     return n
 
 
@@ -755,7 +736,7 @@ def render(route, page, catalogue, copy):
         apply.append(additional_plans_section(page, route, catalogue, copy))
     main.append(voices(page,copy))
     main.append(faq(cat,copy['shared'],decorated=True))
-    main.append(steps(copy['shared'],decorated=True,original_aircon=(route == 'aircon')))
+    main.append(steps(copy['shared'],decorated=True))
     categories = template('categories')
     categories['style'] = '--bg-color: #e3f1fc;'
     featured_heading = categories.find('h2')
@@ -777,7 +758,7 @@ def render(route, page, catalogue, copy):
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
-                          ('aircon-layout', '2026100511' if route == 'aircon' else '2026100402'), ('service-format', '2026100403')]:
+                          ('aircon-layout', '2026100512'), ('service-format', '2026100403')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
