@@ -35,7 +35,7 @@ const sizes = (process.env.SITE_SIZES || '1440x1100,390x844').split(',').map(siz
         if (fs.existsSync(file) && fs.statSync(file).isFile()) await request.fulfill({ body: fs.readFileSync(file), contentType: types[path.extname(file)] || 'application/octet-stream' });
         else await request.continue();
       });
-      const response = await page.goto(origin + route + '?responsive=2026100513', { waitUntil: 'domcontentloaded' });
+      const response = await page.goto(origin + route + '?responsive=2026100515', { waitUntil: 'domcontentloaded' });
       assert.equal(response.status(), 200, route);
       await page.evaluate(async () => {
         await document.fonts.ready;
@@ -100,11 +100,13 @@ const sizes = (process.env.SITE_SIZES || '1440x1100,390x844').split(',').map(siz
           const left = Math.max(0, r.left), right = Math.min(innerWidth, r.right), top = Math.max(0, r.top), bottom = Math.min(innerHeight, r.bottom);
           return [.1, .5, .9].every(x => [.1, .5, .9].every(y => !el.contains(document.elementFromPoint(left + (right - left) * x, top + (bottom - top) * y))));
         });
-        return { viewportHeight: innerHeight, viewportWidth: innerWidth, clientWidth: document.documentElement.clientWidth, height: f.height, top: f.top, bottom: f.bottom, headerHeight: header.height, supportGap: innerWidth >= 768 ? support.getBoundingClientRect().top - support.previousElementSibling.getBoundingClientRect().bottom : null, phoneHeight: phone.height, minMobileHeight: fixedHeight + 56 * 5, rowHeights: headings.map(el => el.getBoundingClientRect().height), cartHidden, ...(cartHidden ? {} : { cartDetails: [...document.querySelectorAll('.c-floating-buttons a,.c-floating-buttons button,.c-corporate-floating a')].map(el => { const r = el.getBoundingClientRect(); const p = el.closest('.c-floating-buttons,.c-corporate-floating'); return { text: el.textContent.trim(), x: r.x, y: r.y, width: r.width, height: r.height, parent: p.className, transform: getComputedStyle(p).transform }; }) }) };
+        const rowMin = parseFloat(getComputedStyle(footer).getPropertyValue('--aircon-footer-row-min')) || 56;
+        return { viewportHeight: innerHeight, viewportWidth: innerWidth, clientWidth: document.documentElement.clientWidth, height: f.height, top: f.top, bottom: f.bottom, headerHeight: header.height, headerTop: header.top, headerBottom: header.bottom, phoneTop: phone.top, supportGap: innerWidth >= 768 ? support.getBoundingClientRect().top - support.previousElementSibling.getBoundingClientRect().bottom : null, phoneHeight: phone.height, minMobileHeight: fixedHeight + rowMin * 5, rowHeights: headings.map(el => el.getBoundingClientRect().height), cartHidden, ...(cartHidden ? {} : { cartDetails: [...document.querySelectorAll('.c-floating-buttons a,.c-floating-buttons button,.c-corporate-floating a')].map(el => { const r = el.getBoundingClientRect(); const p = el.closest('.c-floating-buttons,.c-corporate-floating'); return { text: el.textContent.trim(), x: r.x, y: r.y, width: r.width, height: r.height, parent: p.className, transform: getComputedStyle(p).transform }; }) }) };
       });
       if (geometry.bottom > geometry.viewportHeight + 1) issues.push({ type: 'footer-bottom-clipped', ...geometry });
       if (width >= 1024 && geometry.height > Math.min(height, 1100) - geometry.headerHeight + 1) issues.push({ type: 'footer-exceeds-frame', ...geometry });
-      if (width < 768 && geometry.height > Math.max(Math.min(height, 1100), geometry.minMobileHeight) + 1) issues.push({ type: 'mobile-footer-stretched', ...geometry });
+      if (width < 768 && geometry.height > Math.max(Math.min(height, 1100) - geometry.headerHeight, geometry.minMobileHeight) + 1) issues.push({ type: 'mobile-footer-stretched', ...geometry });
+      if (width < 768 && (geometry.headerTop < -1 || geometry.phoneTop < geometry.headerBottom - 1 || geometry.height + geometry.headerHeight > Math.min(geometry.viewportHeight, 1100) + 1)) issues.push({ type: 'mobile-header-footer-exceeds-frame', ...geometry });
       if (height > 800 && width >= 768 && geometry.supportGap > 17) issues.push({ type: 'support-gap-stretched', ...geometry });
       if (!geometry.cartHidden) issues.push({ type: 'floating-ui-over-footer' });
       if (process.env.SITE_INTERACTIONS === '1' && width < 768) {
@@ -127,6 +129,32 @@ const sizes = (process.env.SITE_SIZES || '1440x1100,390x844').split(',').map(siz
         }
         await page.evaluate(() => scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' }));
         await page.waitForTimeout(500);
+        const header = page.locator('.c-header');
+        const touch = async type => page.evaluate(type => {
+          const event = new Event(type, { bubbles: true });
+          Object.defineProperty(event, 'touches', { value: type === 'touchstart' ? [{}] : [] });
+          document.dispatchEvent(event);
+        }, type);
+        await touch('touchstart');
+        await page.evaluate(() => scrollTo({ top: document.documentElement.scrollHeight / 3, behavior: 'instant' }));
+        await page.waitForTimeout(500);
+        assert.ok(await header.evaluate(el => el.classList.contains('is-scroll-hidden')), `${route}: moving header hides`);
+        await touch('touchend');
+        await page.waitForTimeout(500);
+        assert.ok(await header.evaluate(el => !el.classList.contains('is-scroll-hidden')), `${route}: idle header returns`);
+        await touch('touchstart');
+        await page.evaluate(() => scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' }));
+        await page.waitForTimeout(500);
+        assert.ok(await header.evaluate(el => el.classList.contains('is-footer-visible') && el.getBoundingClientRect().top >= -1 && getComputedStyle(el).pointerEvents === 'auto'), `${route}: footer header stays usable`);
+        await touch('touchend');
+        const menuButton = page.locator('.c-header__menu.js-menu-modal-opener');
+        await menuButton.click();
+        assert.equal(await menuButton.getAttribute('aria-expanded'), 'true', `${route}: footer menu opens`);
+        await menuButton.click();
+        await page.waitForTimeout(500);
+        assert.equal(await menuButton.getAttribute('aria-expanded'), 'false', `${route}: footer menu closes`);
+        const restored = await header.evaluate(el => ({ pinned: el.classList.contains('is-footer-visible'), headerBottom: el.getBoundingClientRect().bottom, footerTop: document.querySelector('footer.c-footer').getBoundingClientRect().top, footerBottom: document.querySelector('footer.c-footer').getBoundingClientRect().bottom, viewportHeight: innerHeight, scrollY }));
+        assert.ok(restored.pinned && restored.footerTop >= restored.headerBottom - 1, `${route}: closed footer fits below header ${JSON.stringify(restored)}`);
       }
       if (process.env.SITE_SCREENSHOTS === '1') await page.screenshot({ path: path.join(output, `${engine}-${width}x${height}-${route === '/' ? 'home' : route.replaceAll('/', '-').slice(1, -1)}.png`) });
       pairs[route] ||= {};

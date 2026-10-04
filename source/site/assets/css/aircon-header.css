@@ -647,9 +647,9 @@ body.aircon-menu-open .c-header__navigation {
     pointer-events: none;
   }
 
-  .c-header.is-footer-pushed:not(.is-scroll-hidden) {
-    transform: translateY(calc(0px - var(--footer-push, 0px)));
-    pointer-events: none;
+  .c-header.is-footer-visible {
+    transform: translateY(0);
+    pointer-events: auto;
   }
 
   .c-header-contact {

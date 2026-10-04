@@ -10,9 +10,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100312">',
-    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100514">',
-    "<script src=\"/assets/js/aircon-header.js?v=2026100514\" defer></script>",
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">',
+    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">',
+    "<script src=\"/assets/js/aircon-header.js?v=2026100515\" defer></script>",
 )
 
 

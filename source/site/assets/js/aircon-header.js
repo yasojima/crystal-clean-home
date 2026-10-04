@@ -319,42 +319,32 @@
 
   mobileFooterPhone?.querySelector('img')?.addEventListener('load', () => {
     sizeFooterRows();
-    updateFooterPush();
+    updateFooterVisibility();
   }, { once: true });
   document.fonts?.ready.then(() => {
     sizeDesktopFooterLinks();
     sizeFooterRows();
-    updateFooterPush();
+    updateFooterVisibility();
   });
   sizeFooterRows();
   sizeDesktopFooterLinks();
 
-  function updateFooterPush() {
+  function updateFooterVisibility() {
     const footerRect = mobileFooter?.getBoundingClientRect();
     corporateFloating?.classList.toggle('is-site-footer-hidden', Boolean(footerRect &&
       footerRect.top < window.innerHeight && footerRect.bottom > 0));
     floatingCart?.classList.toggle('is-mobile-footer-hidden', mobileHeader.matches &&
       mobileFooter && mobileFooter.getBoundingClientRect().top < window.innerHeight);
-    if (!mobileHeader.matches || !mobileFooterPhone || menuOpen) {
-      header.classList.remove('is-footer-pushed');
-      header.style.removeProperty('--footer-push');
-      return;
-    }
-    const headerHeight = header.getBoundingClientRect().height;
-    const phoneTop = mobileFooterPhone.getBoundingClientRect().top;
-    // A compact closed footer can fit before its phone reaches the header.
-    // Finish hiding the header without moving or resizing the page.
-    const footerFullyVisible = phoneTop >= 0 && mobileFooter.getBoundingClientRect().bottom <= window.innerHeight + 1;
-    const overlap = footerFullyVisible ? headerHeight + 1 :
-      Math.min(headerHeight + 1, Math.max(0, headerHeight - phoneTop));
-    header.style.setProperty('--footer-push', `${overlap}px`);
-    header.classList.toggle('is-footer-pushed', overlap > 0);
+    const atFooterEnd = mobileHeader.matches && !menuOpen && footerRect &&
+      footerRect.bottom <= window.innerHeight + 1 && footerRect.bottom > 0;
+    header.classList.toggle('is-footer-visible', Boolean(atFooterEnd));
+    if (atFooterEnd) header.classList.remove('is-scroll-hidden');
   }
 
   function showHeader() {
     window.clearTimeout(scrollIdleTimer);
     header.classList.remove('is-scroll-hidden');
-    updateFooterPush();
+    updateFooterVisibility();
     lastScrollY = Math.max(0, window.scrollY);
     visibleScrollY = lastScrollY;
   }
@@ -369,7 +359,7 @@
 
   window.addEventListener('scroll', () => {
     const currentY = Math.max(0, window.scrollY);
-    updateFooterPush();
+    updateFooterVisibility();
     if (!mobileHeader.matches || menuOpen) {
       showHeader();
       return;
@@ -377,7 +367,7 @@
     if (currentY === lastScrollY) return;
     lastScrollY = currentY;
     window.clearTimeout(scrollIdleTimer);
-    if (Math.abs(currentY - visibleScrollY) >= 8) header.classList.add('is-scroll-hidden');
+    if (!header.classList.contains('is-footer-visible') && Math.abs(currentY - visibleScrollY) >= 8) header.classList.add('is-scroll-hidden');
     scheduleHeaderReturn();
   }, { passive: true });
   document.addEventListener('scrollend', scheduleHeaderReturn);
@@ -399,7 +389,7 @@
   window.addEventListener('resize', () => {
     scheduleDesktopFooterLinks();
     sizeFooterRows();
-    updateFooterPush();
+    updateFooterVisibility();
   });
 
   function setMenuOpen(open) {
@@ -417,6 +407,7 @@
     if (image) image.src = open ? closeImage : openImage;
     if (source) source.srcset = open ? closeImage : openSource;
     if (open) menu.querySelector('.c-menu-modal__main-content').scrollTop = 0;
+    updateFooterVisibility();
   }
 
   button.addEventListener('click', event => {
