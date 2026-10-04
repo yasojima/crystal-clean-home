@@ -1,0 +1,362 @@
+{
+  "checkedAt": "2026-10-04T22:33:40.568Z",
+  "phase": "local",
+  "engine": "chrome",
+  "passed": true,
+  "results": [
+    {
+      "route": "/",
+      "width": 1440,
+      "height": 800,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 800,
+        "viewportWidth": 1440,
+        "clientWidth": 1440,
+        "height": 692,
+        "top": 107.546875,
+        "bottom": 799.546875,
+        "headerHeight": 108,
+        "supportGap": 0,
+        "phoneHeight": 100,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 1439,
+      "height": 803,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 803,
+        "viewportWidth": 1439,
+        "clientWidth": 1439,
+        "height": 695.0625,
+        "top": 107.46875,
+        "bottom": 802.53125,
+        "headerHeight": 107.921875,
+        "supportGap": 0,
+        "phoneHeight": 100.46875,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 1919,
+      "height": 1093,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1093,
+        "viewportWidth": 1919,
+        "clientWidth": 1919,
+        "height": 985,
+        "top": 107.546875,
+        "bottom": 1092.546875,
+        "headerHeight": 108,
+        "supportGap": 0,
+        "phoneHeight": 146.875,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 688,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 688,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 687.953125,
+        "top": 0,
+        "bottom": 687.953125,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 172.109375,
+        "minMobileHeight": 588.109375,
+        "rowHeights": [
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 1099.984375,
+        "top": 0,
+        "bottom": 1099.984375,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 209.96875,
+        "minMobileHeight": 673.96875,
+        "rowHeights": [
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 1,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1440,
+      "height": 800,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 800,
+        "viewportWidth": 1440,
+        "clientWidth": 1440,
+        "height": 692,
+        "top": 108.328125,
+        "bottom": 800.328125,
+        "headerHeight": 108,
+        "supportGap": 0,
+        "phoneHeight": 100,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 13,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1439,
+      "height": 803,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 803,
+        "viewportWidth": 1439,
+        "clientWidth": 1439,
+        "height": 695.0625,
+        "top": 108.171875,
+        "bottom": 803.234375,
+        "headerHeight": 107.921875,
+        "supportGap": 0,
+        "phoneHeight": 100.46875,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 13,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1919,
+      "height": 1093,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1093,
+        "viewportWidth": 1919,
+        "clientWidth": 1919,
+        "height": 985,
+        "top": 107.546875,
+        "bottom": 1092.546875,
+        "headerHeight": 108,
+        "supportGap": 0,
+        "phoneHeight": 146.875,
+        "minMobileHeight": 280,
+        "rowHeights": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 13,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 414,
+      "height": 688,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 688,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 687.953125,
+        "top": 0.46875,
+        "bottom": 688.421875,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 172.109375,
+        "minMobileHeight": 588.109375,
+        "rowHeights": [
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875,
+          75.96875
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 13,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 414,
+      "height": 1100,
+      "issues": [],
+      "geometry": {
+        "viewportHeight": 1100,
+        "viewportWidth": 414,
+        "clientWidth": 414,
+        "height": 1099.984375,
+        "top": 0.46875,
+        "bottom": 1100.453125,
+        "headerHeight": 96,
+        "supportGap": null,
+        "phoneHeight": 209.96875,
+        "minMobileHeight": 673.96875,
+        "rowHeights": [
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125,
+          141.203125
+        ],
+        "cartHidden": true
+      },
+      "mainImages": 13,
+      "desktopDetails": 43,
+      "mobileDetails": 43
+    }
+  ],
+  "parity": [
+    {
+      "route": "/",
+      "desktopOnly": [],
+      "mobileOnly": [
+        "場所から探す"
+      ]
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "desktopOnly": [],
+      "mobileOnly": []
+    }
+  ]
+}

@@ -248,6 +248,62 @@
   let touchActive = false;
   const scrollIdleDelay = 450;
 
+  function sizeDesktopFooterLinks() {
+    if (mobileHeader.matches || !mobileFooter || !footerBottomNav) return;
+    const nav = mobileFooter.querySelector('.c-footer__top-nav');
+    const column = nav?.lastElementChild;
+    const lists = column && [...column.querySelectorAll('.c-aircon-footer__coating-links, .c-aircon-footer__other-links')];
+    if (!lists?.length) return;
+    const outerHeight = element => {
+      const style = getComputedStyle(element);
+      return element.getBoundingClientRect().height + parseFloat(style.marginTop) + parseFloat(style.marginBottom);
+    };
+    const setRows = (list, rows) => {
+      list.style.setProperty('--footer-list-rows', String(Math.max(1, rows)));
+      list.classList.toggle('is-single-column', rows >= list.children.length);
+    };
+    const options = lists.map(list => {
+      const count = list.children.length;
+      const choices = [];
+      for (let rows = Math.max(1, Math.ceil(count / 2)); rows <= Math.max(1, count); rows++) {
+        setRows(list, rows);
+        choices.push({ rows, height: outerHeight(list) });
+      }
+      return choices;
+    });
+    const navStyle = getComputedStyle(nav);
+    const frameBudget = parseFloat(getComputedStyle(mobileFooter).minHeight) -
+      outerHeight(mobileFooter.querySelector('.footer-tel-pc')) - outerHeight(footerBottomNav) -
+      parseFloat(navStyle.paddingTop) - parseFloat(navStyle.paddingBottom);
+    const otherColumns = [...nav.children].slice(0, -1).map(item =>
+      [...item.children].reduce((sum, child) => sum + outerHeight(child), 0));
+    const budget = Math.max(frameBudget, ...otherColumns);
+    const fixedHeight = column.getBoundingClientRect().height - lists.reduce((sum, list) => sum + outerHeight(list), 0);
+    let selected = options.map(choices => choices[0]);
+    // Fill the smaller list vertically, then use the remaining height for the larger list.
+    const priority = lists.map((list, index) => index).sort((a, b) => lists[a].children.length - lists[b].children.length);
+    for (const index of priority) {
+      for (const option of options[index]) {
+        const total = fixedHeight + option.height + selected.reduce((sum, choice, other) => sum + (other === index ? 0 : choice.height), 0);
+        if (total <= budget + .5) selected[index] = option;
+      }
+    }
+    lists.forEach((list, index) => setRows(list, selected[index].rows));
+  }
+
+  let footerLayoutFrame = 0;
+  function scheduleDesktopFooterLinks() {
+    if (footerLayoutFrame) return;
+    footerLayoutFrame = requestAnimationFrame(() => {
+      footerLayoutFrame = 0;
+      sizeDesktopFooterLinks();
+    });
+  }
+  footerPhone?.querySelector('img')?.addEventListener('load', scheduleDesktopFooterLinks, { once: true });
+  const desktopFooterLists = mobileFooter?.querySelectorAll('.c-aircon-footer__coating-links, .c-aircon-footer__other-links');
+  desktopFooterLists?.forEach(list => new MutationObserver(scheduleDesktopFooterLinks)
+    .observe(list, { childList: true, subtree: true, characterData: true }));
+
   function sizeFooterRows() {
     if (!mobileHeader.matches || !mobileFooterPhone || !mobileFooterSocial || !footerBottomNav || !footerRows.length) return;
     // Only measure the fixed blocks. Detail panels never affect the heading budget.
@@ -266,10 +322,12 @@
     updateFooterPush();
   }, { once: true });
   document.fonts?.ready.then(() => {
+    sizeDesktopFooterLinks();
     sizeFooterRows();
     updateFooterPush();
   });
   sizeFooterRows();
+  sizeDesktopFooterLinks();
 
   function updateFooterPush() {
     const footerRect = mobileFooter?.getBoundingClientRect();
@@ -339,6 +397,7 @@
     showHeader();
   });
   window.addEventListener('resize', () => {
+    scheduleDesktopFooterLinks();
     sizeFooterRows();
     updateFooterPush();
   });
