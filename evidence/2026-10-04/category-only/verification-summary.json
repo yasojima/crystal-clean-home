@@ -1,0 +1,19 @@
+{
+  "source_commit": "d954519",
+  "pages_commit": "e4acd52bc595b6d95245cd681660b449e7f6de98",
+  "service_categories": 8,
+  "removed_details": 38,
+  "preserved_products": 44,
+  "static": "static.json",
+  "product_browser_cases": 24,
+  "product_browser": "local/verification.json",
+  "navigation_browser_cases": 32,
+  "navigation_browser": "navigation-local/verification.json",
+  "public_verified": true,
+  "public_navigation_browser_cases": 32,
+  "public_navigation_browser": "navigation-public/verification.json",
+  "public_http_checks": 252,
+  "removed_routes_404": 38,
+  "pages_action": 37177111994,
+  "pages_action_result": "success"
+}
