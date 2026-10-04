@@ -1,0 +1,254 @@
+{
+  "checkedAt": "2026-10-04T23:29:05.371Z",
+  "phase": "local",
+  "engine": "chrome",
+  "passed": true,
+  "results": [
+    {
+      "width": 320,
+      "height": 568,
+      "initial": {
+        "width": 320,
+        "height": 568,
+        "heroTop": 0,
+        "heroWidth": 320,
+        "heroHeight": 256,
+        "headerTop": 0,
+        "headerBottom": 148,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 158.40625,
+        "labelBottom": 187.203125,
+        "pageWidth": 320,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 148,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 147.90625,
+        "footerBottom": 567.890625,
+        "viewportHeight": 568,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "initial": {
+        "width": 390,
+        "height": 844,
+        "heroTop": 0,
+        "heroWidth": 390,
+        "heroHeight": 312,
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 160.40625,
+        "labelBottom": 189.203125,
+        "pageWidth": 390,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 95.6875,
+        "footerBottom": 843.671875,
+        "viewportHeight": 844,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "initial": {
+        "width": 414,
+        "height": 688,
+        "heroTop": 0,
+        "heroWidth": 414,
+        "heroHeight": 331.1875,
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 170,
+        "labelBottom": 198.796875,
+        "pageWidth": 414,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 96.1875,
+        "footerBottom": 688.140625,
+        "viewportHeight": 688,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 1439,
+      "height": 803,
+      "initial": {
+        "width": 1439,
+        "height": 803,
+        "heroTop": 0,
+        "heroWidth": 1424,
+        "heroHeight": 803,
+        "headerTop": 0,
+        "headerBottom": 107.921875,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 397.46875,
+        "labelBottom": 455.0625,
+        "pageWidth": 1424,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 107.921875,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 107.546875,
+        "footerBottom": 802.609375,
+        "viewportHeight": 803,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 1919,
+      "height": 1093,
+      "initial": {
+        "width": 1919,
+        "height": 1093,
+        "heroTop": 0,
+        "heroWidth": 1904,
+        "heroHeight": 1093,
+        "headerTop": 0,
+        "headerBottom": 108,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 542.5,
+        "labelBottom": 600.09375,
+        "pageWidth": 1904,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 108,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 107.546875,
+        "footerBottom": 1092.546875,
+        "viewportHeight": 1093,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 1973,
+      "initial": {
+        "width": 1440,
+        "height": 1973,
+        "heroTop": 0,
+        "heroWidth": 1425,
+        "heroHeight": 1152,
+        "headerTop": 0,
+        "headerBottom": 108,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 572,
+        "labelBottom": 629.59375,
+        "pageWidth": 1425,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 108,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 980.546875,
+        "footerBottom": 1972.546875,
+        "viewportHeight": 1973,
+        "pastHero": true
+      },
+      "passed": true
+    }
+  ]
+}

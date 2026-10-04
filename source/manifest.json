@@ -27,8 +27,8 @@
       "effective_url": "https://www.osoujihonpo.com/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 73433,
-      "sha256": "780241ad0a1c829e58a83dae1586f9364e13a7bdfc85322d806e7be42f3124d7",
+      "bytes": 74115,
+      "sha256": "1f0dfa8acc08c6843c7507b0785dbb8bfed43cad2c4656f73779daeb1907872d",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -13113,6 +13113,24 @@
       "origin_type": "local-service-page",
       "bytes": 378386,
       "sha256": "5c2a0712829dd8b05b628809fb80ed251c44e9a7253e087c09018f5739168af0"
+    },
+    "https://www.osoujihonpo.com/assets/css/home-first-view.css": {
+      "path": "assets/css/home-first-view.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/home-first-view.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-shared-ui",
+      "sha256": "a9ffcd051d1b1eb7ee726e7a1e8797873ded6e31caceeeb4ce5ab7a464b03739",
+      "bytes": 2272
+    },
+    "https://www.osoujihonpo.com/assets/js/home-first-view.js": {
+      "path": "assets/js/home-first-view.js",
+      "effective_url": "https://www.osoujihonpo.com/assets/js/home-first-view.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "origin_type": "local-shared-ui",
+      "sha256": "d318a24e1dde6c4191f668f5ff81f81c20eee8cd11aea0e249748f7c3939625f",
+      "bytes": 651
     }
   },
   "external_urls": [
@@ -15303,9 +15321,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1428,
-    "unique_paths": 1414,
-    "bytes": 144622968,
+    "urls": 1430,
+    "unique_paths": 1416,
+    "bytes": 144626573,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

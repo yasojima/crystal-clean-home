@@ -1,0 +1,90 @@
+{
+  "checkedAt": "2026-10-04T23:29:32.273Z",
+  "phase": "local",
+  "engine": "webkit",
+  "passed": true,
+  "results": [
+    {
+      "width": 414,
+      "height": 688,
+      "initial": {
+        "width": 414,
+        "height": 688,
+        "heroTop": 0,
+        "heroWidth": 414,
+        "heroHeight": 331.1875,
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 170,
+        "labelBottom": 198.796875,
+        "pageWidth": 414,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 96,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 95.59375,
+        "footerBottom": 687.546875,
+        "viewportHeight": 688,
+        "pastHero": true
+      },
+      "passed": true
+    },
+    {
+      "width": 1439,
+      "height": 803,
+      "initial": {
+        "width": 1439,
+        "height": 803,
+        "heroTop": 0,
+        "heroWidth": 1439,
+        "heroHeight": 803,
+        "headerTop": 0,
+        "headerBottom": 107.921875,
+        "headerPosition": "fixed",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "labelTop": 397.46875,
+        "labelBottom": 455.0625,
+        "pageWidth": 1439,
+        "menus": [
+          "ご利用ガイド",
+          "エアコン",
+          "パックサービス",
+          "水まわり",
+          "洗濯機",
+          "キッチン",
+          "お部屋",
+          "コーティング",
+          "その他"
+        ],
+        "videos": 0,
+        "anchors": 1
+      },
+      "footer": {
+        "headerTop": 0,
+        "headerBottom": 107.921875,
+        "headerBackground": "rgb(255, 255, 255)",
+        "footerTop": 107.546875,
+        "footerBottom": 802.609375,
+        "viewportHeight": 803,
+        "pastHero": true
+      },
+      "passed": true
+    }
+  ]
+}

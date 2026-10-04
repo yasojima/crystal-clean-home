@@ -62,11 +62,13 @@
 <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261001">
 <script type="module" src="/assets/js/shared-translation-control.js"></script>
 <link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">
+<link rel="stylesheet" href="/assets/css/home-first-view.css?v=2026100520">
+<script src="/assets/js/home-first-view.js?v=2026100520" defer></script>
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">
 <script src="/assets/js/aircon-header.js?v=2026100515" defer></script>
 </head>
-<body>
+<body class="c-home">
       <header class="c-header">
 <div class="c-header__logo c-header-logo"><a class="c-header-logo__link" href="/"> <img alt="クリスタルクリーンホーム" class="c-flex-image" height="55" src="/assets/images/crystal-clean-home.png" style="width:160px;height:82px;object-fit:contain;object-position:left center" width="160"/></a></div>
 <nav aria-label="主要ページメニュー" class="c-header__navigation">
@@ -200,9 +202,17 @@
 </div>
 </div>
 </header>
-<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>
   <main>
-      <section class="l-section l-section--limited l-section--limited-top" style="--bg-color:#f5f8fa;">
+      <section class="home-first-view" id="first-view" aria-label="ファーストビュー">
+        <div class="home-first-view__media" role="img" aria-label="動画の配置予定エリア">
+          <div class="home-first-view__placeholder">
+            <span class="home-first-view__label">NO VIDEO</span>
+            <p class="home-first-view__note">ここに動画が入ります</p>
+          </div>
+        </div>
+        <a class="home-first-view__scroll" href="#home-estimate" aria-label="無料お見積りへスクロール">SCROLL DOWN</a>
+      </section>
+      <section class="l-section l-section--limited l-section--limited-top" id="home-estimate" style="--bg-color:#f5f8fa;">
         <div class="l-section-inner l-section-inner--limited">
           <div class="head-area">
             <a class="c-double-icon-button c-double-icon-button--fill-red head-area__button" href="/quick_cart/"><span class="c-double-icon-button__inner"><span class="c-icon c-icon--calculator c-double-icon-button__left-icon c-double-icon-button__left-icon-top" style=""></span><span class="c-double-icon-button__text">&#92; 今すぐ簡単！ /<br><span class="btn-free">無料お見積り</span></span><span class="c-icon c-icon--circle-caret-right c-double-icon-button__right-icon" style=""></span></span></a>

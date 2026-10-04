@@ -87,7 +87,7 @@ def main():
             changed.append(page.relative_to(SITE).as_posix())
             if not args.check:
                 page.write_bytes(output.encode('utf-8'))
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)
