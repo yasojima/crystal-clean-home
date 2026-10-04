@@ -1,0 +1,392 @@
+{
+  "checkedAt": "2026-10-04T22:08:35.438657+00:00",
+  "sourceCommit": "d89e3d3a4977783e61d7a5cb4f80d8338e79b17e",
+  "pagesCommit": "9d88ee07ba540191b70d980f0b96cc8213c59326",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "9d88ee07ba540191b70d980f0b96cc8213c59326",
+    "status": "completed",
+    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37238764526"
+  },
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "a763547e2c47ed8b2c0016fa622e825726ae114a8986193126c85f9ccaf40ba4",
+      "passed": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "sha256": "ea5ef3c43ce70319924017a5defa8c570280699b2348e19444149dd5652a9fd5",
+      "passed": true
+    },
+    {
+      "path": "/beginner/",
+      "status": 200,
+      "sha256": "c27f0e5feaa92a49ffa8eb64ed02183fa9db4aba29c37f3e0c43e9e11305be4f",
+      "passed": true
+    },
+    {
+      "path": "/business/contact/",
+      "status": 200,
+      "sha256": "8d6ce55fd494bd6fb3a7f5769b1a52507b4a3bc61237cff3afdafa6504690196",
+      "passed": true
+    },
+    {
+      "path": "/business/racn/",
+      "status": 200,
+      "sha256": "1fd44c3756134de476c90fff7c5bc7a6ebcb748c89b3618d89cbbf0a5b37a7d5",
+      "passed": true
+    },
+    {
+      "path": "/cart/",
+      "status": 200,
+      "sha256": "8c4409e497294a6a3f2c8fdd185953f8ee3d19acd8b5e0af90d1e85de1cb9fc6",
+      "passed": true
+    },
+    {
+      "path": "/contact/",
+      "status": 200,
+      "sha256": "32d7cba701114d797b4a67f829065bcef580422a3c24cc681db0c72f94eaa3e3",
+      "passed": true
+    },
+    {
+      "path": "/contact/business/",
+      "status": 200,
+      "sha256": "3cc852c57e6136f39cf16edf3081d8b688e7d6ba6800dbde17bec48ea1770fea",
+      "passed": true
+    },
+    {
+      "path": "/contact/house-cleaning/",
+      "status": 200,
+      "sha256": "9e2838220e977ceadc35a30b17c55f5a9443bd2576e864b8d94d70d29e4f2f82",
+      "passed": true
+    },
+    {
+      "path": "/contact/shop/",
+      "status": 200,
+      "sha256": "e24e7304b93206dfc3bd30dd0061c6026659dc6578fa3da5b54f77b09c090b81",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/",
+      "status": 200,
+      "sha256": "33816960c69fb4456e5cb0448a906b99c3c79c3331a79a771c96670e0d82f4f8",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/aircon01/",
+      "status": 200,
+      "sha256": "463ed69addfcc7ac74a0f5d7d2b50d439b50357ef2d85f93e8867afd9ac2a0ac",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/aircon02/",
+      "status": 200,
+      "sha256": "25c7d8e33c7da70546e3158715899ac7acbfb08ee82da3091226f7978942173c",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/drier/",
+      "status": 200,
+      "sha256": "f6e11194d646dbf5985a03b68ef871dc148333de73c18a61956ed148236cbbf5",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/fridge/",
+      "status": 200,
+      "sha256": "3177d160ea75b5c74a357b514b1975a84894ad90ed8c829db7d745fb182f1762",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/kitchen/",
+      "status": 200,
+      "sha256": "12fd30bc11c30fe35858a285efd70deef18d257fa32ba2bd769e3f8b591c835d",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/office/",
+      "status": 200,
+      "sha256": "8d45dc0005b5bb04a4bd28525180897b3d15e3aec9cd3486ecc9d21f655bb1fe",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/office/air/",
+      "status": 200,
+      "sha256": "2abd70a30df914243babf5dc49b530b18d61ccb5d1ac66c5bb2d00e4ce6e9f46",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/office/kitchen/",
+      "status": 200,
+      "sha256": "94231b686dab4fb6ce95d100d294a59801615e88226fc68262c1370ccbf33757",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/office/light/",
+      "status": 200,
+      "sha256": "9d1a98385615d23f47c943ddba99d749457dc31310314d76fc8beeca93bc747b",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/office/oa/",
+      "status": 200,
+      "sha256": "c2445f5bbe5d92a8dff06c2aac736c9edd72f8f33b3bacb9cac78c4749748bd4",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/others/",
+      "status": 200,
+      "sha256": "b481cb4c99eca3a71a8f0134c3b7a7f1792eb0b77c474d4702a75509f6fc4707",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/summer/",
+      "status": 200,
+      "sha256": "064e6530d58fe543c49d2251fe967ff3c02bc92fd664ad45d9cb842cf2e2fa86",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/toilet/",
+      "status": 200,
+      "sha256": "5978ee982ab35f60c6df49fd51baee3bff1d5ce8c6d997c62aa3f9fa829692df",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/washer/",
+      "status": 200,
+      "sha256": "6f1315c597a665bc5a2690257f5c474a91f84fb2bce5e2ae6fb24b7870208fa2",
+      "passed": true
+    },
+    {
+      "path": "/energy-saving/winter/",
+      "status": 200,
+      "sha256": "4feaedbea5ee94f6008641a21e240c704b0fdc91ec69e31309f733b4f49ff584",
+      "passed": true
+    },
+    {
+      "path": "/error/403/",
+      "status": 200,
+      "sha256": "53fb53cf6bc71eb6e68e4a1e832a2233ca40d4867ea2eec2c3b15a6207bddf61",
+      "passed": true
+    },
+    {
+      "path": "/error/405/",
+      "status": 200,
+      "sha256": "b33bc395f48bc9d1e0ff61310861545c9b1fec43bf539b0efb473b8d8e82788b",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/aircon/",
+      "status": 200,
+      "sha256": "02ca386c456fb8ca54068dbee19ba9d02eb3606c822e40c79f04ef1d39971811",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/aircon/2027problem/",
+      "status": 200,
+      "sha256": "48a637a220460f0a5bdefba35ec91f0e3e2b159e2121ff89e89c717ffba92f2a",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/coating/",
+      "status": 200,
+      "sha256": "ae18b40b03a3c45a6bfe4dc45a75003457a1d1d800fb7970d57ebbb3cf860d8c",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/kitchen/",
+      "status": 200,
+      "sha256": "bf15902bb750908c357a8a6becca4c694d9b0a626c50f66c80d5ed319cef68cb",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/less-coating/",
+      "status": 200,
+      "sha256": "b952ef8c21c7b046618dbe470cbf536a179f8740ab3a2eed8966c956f9a73b07",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/others/",
+      "status": 200,
+      "sha256": "15fa2196ef0b8e8d984dc6bba8138d97a42fd4cdab4617d1a0ce8a8f5eeecd6a",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/pack/",
+      "status": 200,
+      "sha256": "fdedabbd749813f0d488c9c2e12eba8ea64fb951a7155ebf410893a218bad9bd",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/room/",
+      "status": 200,
+      "sha256": "b099dd7d1f34f792d64f1730bdfdd7f23fff922e670d5e1ff8deb74b88668b2b",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/washer/",
+      "status": 200,
+      "sha256": "2f3b3194fb16d5a2660f2b8f3578b71a672536465dff735bc3f31dd380d9e79b",
+      "passed": true
+    },
+    {
+      "path": "/house-cleaning/water/",
+      "status": 200,
+      "sha256": "ab5da623d8c205a5346a9fd2ed3751c3bb5437611376a72893fe1bbb39d4310e",
+      "passed": true
+    },
+    {
+      "path": "/lab/online_store/detergent/product-303/",
+      "status": 200,
+      "sha256": "41fa4a5bc6d4969b968501c272be6a964fbd0586619dfb6d39b56fef7860a92e",
+      "passed": true
+    },
+    {
+      "path": "/office/aircon_standard/",
+      "status": 200,
+      "sha256": "d5ff3d165e7a0706316d06f08d0f2873d6cd7135bc3e51ae39bed1a42d287bb6",
+      "passed": true
+    },
+    {
+      "path": "/office/carpet/",
+      "status": 200,
+      "sha256": "114990033cea8b3dce09a01ccc29a28e0a1b83138e1075df3bd014487cc0cca8",
+      "passed": true
+    },
+    {
+      "path": "/office/floor/",
+      "status": 200,
+      "sha256": "ed9063910d4650787069e0f71efb6f6c02ff0dfd5f0ecd8fcead972b86d4af23",
+      "passed": true
+    },
+    {
+      "path": "/office/fluorescent/",
+      "status": 200,
+      "sha256": "6278716bcc19bb853d0eedcef9e239932cbfb088bb01de79ec0fd3ea3268c92d",
+      "passed": true
+    },
+    {
+      "path": "/office/glass/",
+      "status": 200,
+      "sha256": "86f27ce4615236dfa7d81ef3b3d292f2eb94b5b9650b1b032af7604ef088699a",
+      "passed": true
+    },
+    {
+      "path": "/office/photocatalyst/",
+      "status": 200,
+      "sha256": "0420583a4e8be2d9f9c44e2488a8c2dce061102fc91f2c9cd0bc2a51d1cd8cce",
+      "passed": true
+    },
+    {
+      "path": "/office/space/",
+      "status": 200,
+      "sha256": "6cb791d688ed5b8367acc9ff31dafa83c112eb24cdd19a0975d317b4cc10e364",
+      "passed": true
+    },
+    {
+      "path": "/policy/",
+      "status": 200,
+      "sha256": "7f6f285aaf53d07bfda2a9f5064f28ff7c406561475f451e7e797f7719820ba6",
+      "passed": true
+    },
+    {
+      "path": "/policy-1/",
+      "status": 200,
+      "sha256": "55e15b22dff56502d4bbcfcba646aa7fdf9a65c513ec56219bd68816c43f7271",
+      "passed": true
+    },
+    {
+      "path": "/policy-2/",
+      "status": 200,
+      "sha256": "43fc02b9291ba457c0cd177565bd00fe2a2b9bb442c49745e142132675d3ea53",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/",
+      "status": 200,
+      "sha256": "4464e3bfc04a4d51f26d7a5ab591e883eab2efb608e9870d969b66bc1da98771",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/aircon/",
+      "status": 200,
+      "sha256": "2dd4a62ef28b805204d3c11b8f0e6cd8f7303a693497b690ce17324eba7db898",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/coating/",
+      "status": 200,
+      "sha256": "9a5d8d3194f5f899e2c40ad92a14039ae783828a3017d2270c190418c18cb8a9",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/kitchen/",
+      "status": 200,
+      "sha256": "dc5ae3c606a785253d83f95b323d27c0984f1bd16e0e9b3f3bf706d21d1ba885",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/option/",
+      "status": 200,
+      "sha256": "41fa4a5bc6d4969b968501c272be6a964fbd0586619dfb6d39b56fef7860a92e",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/others/",
+      "status": 200,
+      "sha256": "86e71cbb6d2b15b67cbaf08ab695bd166b3021be007cb8d91cbfa8a0b40cdde0",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/pack/",
+      "status": 200,
+      "sha256": "035724683b20c2c70dfededc1b82440b9fb752c5ccfa2b9e9e362f5e7b33bbde",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/room/",
+      "status": 200,
+      "sha256": "6366b15fa29eab9b087f9b86f580b0d7095407816b325829e27be94d652c7846",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/washer/",
+      "status": 200,
+      "sha256": "d7c707eb30484990ee1f7d69a9bd5e545c498f773e683b3831d641af3bac37d9",
+      "passed": true
+    },
+    {
+      "path": "/quick_cart/water/",
+      "status": 200,
+      "sha256": "c077eb3faa29dac43edbe3f03eb0bea941305b147e3b845b52a51027c95a3bfb",
+      "passed": true
+    },
+    {
+      "path": "/assets/css/site-footer.css",
+      "status": 200,
+      "sha256": "4697a0d4b1d545c7110a4dedbe771a75364478928753315a1f7e8ffa0b6ae3a6",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/house-cleaning/others/photocatalyst/security-step_01.webp",
+      "status": 200,
+      "sha256": "dcbe0a0ed2139976c5a5d910d687ccf05e35078a839f6d5893dccd3c8f6448e7",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/house-cleaning/others/photocatalyst/security-step_02.webp",
+      "status": 200,
+      "sha256": "2f2b6b51f2085c3404e9e9876aaf8c43ad963e48630f247689c0b328029add97",
+      "passed": true
+    },
+    {
+      "path": "/assets/images/house-cleaning/others/photocatalyst/security-step_03.webp",
+      "status": 200,
+      "sha256": "7a73ad864a2e7ec7210289d991d42ff536d9b8cd294537c3e18d2d70d30a6ba3",
+      "passed": true
+    }
+  ],
+  "passed": true
+}
