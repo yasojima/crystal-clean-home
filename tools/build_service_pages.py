@@ -600,12 +600,12 @@ def faq(category_copy, shared, questions=None, decorated=False):
     return n
 
 
-AIRCON_ORIGINAL_STEPS = [
-    ('お見積りのご相談', 'ご希望のサービスと気になる箇所をお知らせください。設置状況や広さを伺い、清掃内容と料金の目安をご案内します。'),
-    ('作業内容と日時の調整', 'ご希望の日時を伺い、訪問日を調整します。作業時間や事前のご準備についても、分かりやすくお伝えします。'),
-    ('ご訪問と作業前の確認', '担当スタッフが現地の状態を確認します。清掃範囲、所要時間、料金をご確認いただき、ご了承のうえで作業を始めます。'),
-    ('清掃と仕上がりの確認', '周囲を保護し、素材に合った方法で清掃します。終了後は作業した箇所を一緒に確認し、お手入れの方法もご案内します。'),
-    ('お支払い', '仕上がりをご確認いただいた後にお支払いとなります。現金、電子マネー、Visa、Mastercardをご利用いただけます。'),
+AIRCON_STEPS = [
+    ('お見積りのご相談', '清掃内容と料金の目安を\nご案内します。'),
+    ('作業内容と日時の調整', '訪問日時と事前の準備を\nご案内します。'),
+    ('ご訪問と作業前の確認', '内容・料金のご了承後に\n作業を始めます。'),
+    ('清掃と仕上がりの確認', '清掃後の仕上がりを\n一緒に確認します。'),
+    ('お支払い', '現金・電子マネー・\nカードでお支払い。'),
 ]
 
 
@@ -615,7 +615,7 @@ def steps(shared, decorated=False, original_aircon=False):
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
                          ('flow', 'reference-how-to-use.webp', 150))
-    step_copy = AIRCON_ORIGINAL_STEPS if original_aircon else shared['steps']
+    step_copy = AIRCON_STEPS if original_aircon else shared['steps']
     for item, words in zip(n.select('.c-step-list__item'), step_copy):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
         item.select_one('.c-step-list-item__text p').string = words[1]
@@ -639,7 +639,14 @@ def steps(shared, decorated=False, original_aircon=False):
             step.append(label)
             item.append(step)
             item.append(tag('h3', 'c-howto__heading', heading))
-            item.append(tag('p', 'c-howto__description', description))
+            description_node = tag('p', 'c-howto__description', description)
+            if original_aircon:
+                description_node.clear()
+                for line in description.splitlines():
+                    if description_node.contents:
+                        description_node.append(tag('br'))
+                    description_node.append(line)
+            item.append(description_node)
     return n
 
 
