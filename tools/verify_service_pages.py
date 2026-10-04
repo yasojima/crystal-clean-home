@@ -43,6 +43,8 @@ for route,page in catalogue['pages'].items():
     main = doc.select_one('main[data-service-layout="shared-v2"]')
     if not main:
         fail(route,'shared layout missing'); continue
+    if main.select('.c-lineup-card__image[href],.c-lineup-card__heading a[href]'):
+        fail(route,'product image or heading still links to another page')
     ordered = [
         '.c-house-cleaning-mv','.p-page-anchors','.c-issue-list','.p-reasons',
         '#apply','.c-voice-card','.c-faq-accordion','.c-step-list']
@@ -158,7 +160,7 @@ for route,page in catalogue['pages'].items():
 if set(voice_profiles) != set(catalogue['pages']): fail('voices','profile routes do not match pages')
 
 reason_pages = {path:doc for path,doc in all_pages.items() if doc.select_one('.p-reasons')}
-if len(reason_pages) != 50: fail('reasons','expected 50 pages with reason cards')
+if len(reason_pages) != len(catalogue['pages']) + 4: fail('reasons','service pages and four shared reason sections expected')
 for path,doc in reason_pages.items():
     cards = doc.select('.c-reasons--navy .c-reasons__item')
     if len(cards) != 3 or doc.select('.c-reasons__bg') or any(

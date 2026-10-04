@@ -18,6 +18,10 @@
   overflow-wrap: anywhere;
 }
 
+.c-service-page .c-lineup-card__heading > span {
+  color: #005bac;
+}
+
 .c-service-page .c-tab__buttons {
   row-gap: 12px;
 }

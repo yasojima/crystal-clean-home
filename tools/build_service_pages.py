@@ -211,7 +211,7 @@ def product(key, route, catalogue, copy):
         scope = tag('p', 'c-note c-service-scope', 'サービス範囲：' + '／'.join(record['scope']))
         description.insert_after(scope)
     for a in card.select('.c-lineup-card__image,.c-lineup-card__heading a'):
-        if a.name == 'a' and record.get('route', '').split('?')[0] == f'/house-cleaning/{route}/':
+        if a.name == 'a':
             a.name = 'span'
             a.attrs.pop('href', None)
     if key in ['1071', '1073', '1074']:
@@ -448,19 +448,17 @@ def navigation(page, primary, category, copy):
 
 def concerns(page, primary, category_copy, copy):
     n = template('concerns'); n['id'] = 'service-introduction'
-    detail = '/' in page['route']
     content = copy['products'][primary]
-    detail_copy = copy['details'][page['route']] if detail else None
-    issues = detail_copy['concerns'] if detail else category_copy['concerns']
+    issues = category_copy['concerns']
     n.select_one('.c-issue-list__heading').string = 'こんなお悩みはありませんか？'
     for node, (first, second) in zip(n.select('.c-issue-card__text'), issues):
         node.clear()
         node.append(first)
         node.append(tag('br'))
         node.append(second)
-    heading = detail_copy['heading'] if detail else category_copy['heading']
+    heading = category_copy['heading']
     lines(n.select_one('.p-content-box__heading'), [*heading[:-1], heading[-1].rstrip('！!') + '！'])
-    subjects = [primary] if detail else category_copy['subjects']
+    subjects = category_copy['subjects']
     buttons = n.select_one('.c-tab__buttons'); panels = n.select_one('.c-tab__panels')
     button, panel = deepcopy(buttons.find('button')), deepcopy(panels.select_one('.c-tab__panel'))
     buttons.clear(); panels.clear()
@@ -478,7 +476,7 @@ def concerns(page, primary, category_copy, copy):
             'キッチンコーティング': ['キッチン', 'コーティング'],
             'ベランダ・外回り高圧洗浄': ['ベランダ・', '外回り高圧洗浄'],
         }
-        if not detail and p['short'] in mobile_tab_lines:
+        if p['short'] in mobile_tab_lines:
             lines(b, mobile_tab_lines[p['short']])
             b.find('br')['class'] = ['u-sp-only']
         box['id'], box['aria-labelledby'] = pid, bid
@@ -736,13 +734,8 @@ def render(route, page, catalogue, copy):
         apply.append(section)
     else:
         apply.append(additional_plans_section(page, route, catalogue, copy))
-    questions = None
-    if '/' in route:
-        detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
-        if page['category'] != 'coating' or primary == '806':
-            questions = detail_faq.get(primary, detail_faq.get(p['scene']))
     main.append(voices(page,copy))
-    main.append(faq(cat,copy['shared'],questions,decorated=True))
+    main.append(faq(cat,copy['shared'],decorated=True))
     main.append(steps(copy['shared'],decorated=True))
     categories = template('categories')
     categories['style'] = '--bg-color: #e3f1fc;'
@@ -765,7 +758,7 @@ def render(route, page, catalogue, copy):
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
-                          ('aircon-layout', '2026100402'), ('service-format', '2026100402')]:
+                          ('aircon-layout', '2026100402'), ('service-format', '2026100403')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)

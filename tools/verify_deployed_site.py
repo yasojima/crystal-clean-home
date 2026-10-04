@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ORIGIN = "https://yasojima.github.io"
 CATEGORIES = ["aircon", "pack", "water", "washer", "kitchen", "room", "coating", "others"]
 PATHS = ["/", "/about/", "/quick_cart/room/", *[f"/house-cleaning/{name}/" for name in CATEGORIES],
-         "/house-cleaning/aircon/wall/", "/contact/", "/policy/", "/sitemap.xml",
+         "/contact/", "/policy/", "/sitemap.xml",
          "/assets/css/cart/complete.css", "/assets/css/common.css",
          "/assets/css/translation-layout.css",
          *[f"/assets/images/common-parts/sns-icon/icon-{name}.png"
@@ -45,6 +45,10 @@ EXCLUDED = ["/shop/", "/area/chiba-kashiwa/", "/guide/", "/promotion/",
             "/assets/css/sitemap/index.css", "/assets/css/oosouji/index.css",
             "/campaign/policy-1/", "/assets/css/reasons-glass.css",
             "/assets/images/reasons/navy-glass-vertical.png"]
+
+
+EXCLUDED += [path for path in json.loads((ROOT / 'source/scope.json').read_text(encoding='utf-8'))['excluded_exact_paths']
+             if path.startswith('/house-cleaning/') and len(path.strip('/').split('/')) == 3]
 
 
 def check(path):

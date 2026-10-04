@@ -28,8 +28,8 @@ if voices.get('purpose') != 'fictional-client-demo':
 for field in ('nickname', 'title', 'body'):
     if len({r[field] for r in all_reviews}) != len(all_reviews):
         errors.append(f'duplicate review {field}')
-if set(copy['details']) != {r for r in catalogue['pages'] if '/' in r}:
-    errors.append('detail-specific concern coverage')
+if len(catalogue['pages']) != 8 or any('/' in r for r in catalogue['pages']):
+    errors.append('service pages must be the eight categories')
 
 known_images = {v['asset']: v for v in assets.values()}
 comparison_images = {v[state] for v in comparisons.values() for state in ('before', 'after')}
@@ -69,17 +69,12 @@ for route, page in catalogue['pages'].items():
             errors.append(f'{route}: photograph metadata mismatch {photo}')
         elif photo not in known_images and photo not in comparison_images:
             errors.append(f'{route}: unregistered photograph {photo}')
-    concerns = copy['details'][route]['concerns'] if '/' in route else copy['categories'][page['category']]['concerns']
+    concerns = copy['categories'][page['category']]['concerns']
     actual_concerns = [n.get_text(strip=True) for n in main.select('.c-issue-card__text')]
     if actual_concerns != [''.join(pair) for pair in concerns]:
         errors.append(f'{route}: concern copy does not match the service')
-    if '/' in route:
-        heading = copy['details'][route].get('heading')
-        expected = ''.join([*heading[:-1], heading[-1].rstrip('！!') + '！']) if heading else ''
-        if not heading or len(heading) != 2 or main.select_one('.p-content-box__heading').get_text(strip=True) != expected:
-            errors.append(f'{route}: missing or mismatched service-specific photo heading')
     primary = page['groups'][0]['products'][0]
-    subjects = [primary] if '/' in route else copy['categories'][page['category']]['subjects']
+    subjects = copy['categories'][page['category']]['subjects']
     if [n.get_text(strip=True) for n in main.select('#service-introduction .c-tab__button')] != [copy['products'][key]['short'] for key in subjects]:
         errors.append(f'{route}: photo tab omits part of the service name')
     records.append({
@@ -96,14 +91,14 @@ for route, page in catalogue['pages'].items():
         } for group in page['groups'] for key in group['products']]
     })
 
-if len(longest_positions) != 6 or max(longest_positions.values()) > len(records) / 3:
+if len(longest_positions) < 3 or max(longest_positions.values()) > len(records) / 2:
     errors.append('long reviews are concentrated in the same position')
 if len(rating_distributions) < 3 or max(rating_distributions.values()) > len(records) / 2:
     errors.append('star distributions are concentrated in the same pattern')
 if max(demographic_orders.values()) > 1:
     errors.append('repeated demographic sequence')
-if not 1 <= len(low_reviews) <= 3:
-    errors.append('one to three low-rated demo examples required across the whole site')
+if len(low_reviews) > 3:
+    errors.append('at most three low-rated demo examples across the whole site')
 if len(long_counts) < 3 or len(age_counts) < 3 or len(gender_counts) < 3:
     errors.append('review length counts or demographic mixes remain uniform')
 

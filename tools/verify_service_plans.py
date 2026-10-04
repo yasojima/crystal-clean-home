@@ -61,6 +61,9 @@ for route, page in catalogue['pages'].items():
         checks.append({'route': route, 'product': key, 'newPlans': 2})
     # Reviews and the common flow have separately approved editorial changes.
     # The tab reduction must still preserve every normal product and its options.
+    for link in baseline.select('.c-lineup-card__image[href],.c-lineup-card__heading a[href]'):
+        link.name = 'span'
+        link.attrs.pop('href', None)
     assert [str(n) for n in wrappers] == [str(n) for n in baseline.select('#apply > .c-lineup-products')], (route, 'normal products or options changed')
 report = {'passed': True, 'pages': len(catalogue['pages']), 'maximumTabs': 2, 'retainedPlanCards': existing, 'displayedDemoPlans': len(unique), 'checks': checks}
 out = ROOT / 'evidence/2026-10-04/plan-tab-limit'

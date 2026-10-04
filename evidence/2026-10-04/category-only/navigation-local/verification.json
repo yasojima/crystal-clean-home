@@ -1,0 +1,358 @@
+{
+  "passed": true,
+  "cases": 32,
+  "checks": [
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "aircon",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/aircon/#lineup01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "pack",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/pack/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "water",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/water/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "washer",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/washer/#lineup01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "kitchen",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/kitchen/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "room",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/room/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "coating",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/coating/#coating01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "others",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/others/#anchor04"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "aircon",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/aircon/#lineup01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "pack",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/pack/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "water",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/water/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "washer",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/washer/#lineup01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "kitchen",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/kitchen/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/room/#anchor01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/coating/#coating01"
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "others",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/others/#anchor04"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "aircon",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/aircon/#lineup01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "pack",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/pack/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "water",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/water/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "washer",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/washer/#lineup01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "kitchen",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/kitchen/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "room",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/room/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "coating",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/coating/#coating01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 1440,
+        "height": 800
+      },
+      "route": "others",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/others/#anchor04"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "aircon",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/aircon/#lineup01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "pack",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/pack/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "water",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/water/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "washer",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/washer/#lineup01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "kitchen",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/kitchen/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/room/#anchor01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/coating/#coating01"
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "others",
+      "productImageAndTitleStayOnPage": true,
+      "quantityAndDemoCart": true,
+      "footerDestination": "/house-cleaning/others/#anchor04"
+    }
+  ]
+}
