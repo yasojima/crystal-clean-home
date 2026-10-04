@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
 AIRCON_COMPARISONS = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='utf-8'))
+SERVICE_COMPARISONS = json.loads((DATA / 'service-comparisons.json').read_text(encoding='utf-8'))
 STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
                   'lab/online_store/detergent/product-303/index.html')
 NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
@@ -353,11 +354,12 @@ def concerns(page, primary, category_copy, copy):
         box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
         photo = box.select_one('.c-compare-image')
         photo.clear()
-        if page['route'] == 'aircon':
+        comparison = AIRCON_COMPARISONS[key] if page['category'] == 'aircon' else SERVICE_COMPARISONS.get(p['scene'])
+        if comparison:
             photo['class'] = ['c-compare-image', 'c-compare-image-tab__compare-image', 'c-aircon-compare']
             for state, label in [('before', 'Before'), ('after', 'After')]:
                 photo.append(tag('img', 'c-flex-image c-compare-image__item',
-                                 src=AIRCON_COMPARISONS[key][state],
+                                 src=comparison[state],
                                  alt=p['short'] + ' ' + label + '（清掃イメージ）',
                                  width='1536', height='1024', loading='lazy', decoding='async'))
         else:
@@ -368,7 +370,7 @@ def concerns(page, primary, category_copy, copy):
         box.select_one('.c-compare-image-tab__text').string = p['description']
         for note in box.select('.c-note,.c-compare-image-tab__link-container'):
             note.decompose()
-        if page['route'] == 'aircon':
+        if comparison:
             photo.insert_after(
                 tag('p', 'c-note c-aircon-comparison-note', '汚れの状況により、完全に除去できない場合がございます。'),
                 tag('p', 'c-note c-aircon-comparison-note', '本比較画像は作業の一例です。'),
@@ -641,7 +643,7 @@ def render(route, page, catalogue, copy):
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
-    if route == 'aircon' and '/assets/js/aircon-comparison.js' not in output:
+    if '/assets/js/aircon-comparison.js' not in output:
         output = output.replace('</head>', '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>\n</head>', 1)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
     output = re.sub(r'<script\b[^>]*src="/assets/js/house-cleaning/[^\"]+"[^>]*>\s*</script>\s*','',output)

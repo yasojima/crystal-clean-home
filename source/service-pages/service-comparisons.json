@@ -1,0 +1,170 @@
+{
+  "flooring": {
+    "before": "/assets/images/service-scenes/flooring-before.webp",
+    "after": "/assets/images/service-scenes/flooring.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/flooring.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-72936d4e-2719-41be-9190-ad8914a9991b.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact oak floor BEFORE cleaning. Add a clearly visible but realistic film of ordinary gray household dirt, modest dull smudges and dusty residue along the board joints. The mop and its handle must remain exactly where they are. Preserve the original board grain, joints, camera and crop. Do not invent damage or excessive black grime.",
+    "sha256": "e4cc7abd13e79761a8a0735474e5ff703a0b0cd7049b45648bbb15673ea35e94",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "kitchen-sink": {
+    "before": "/assets/images/service-scenes/kitchen-sink.webp",
+    "after": "/assets/images/service-scenes/kitchen-sink-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/kitchen-sink.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-47d4d3af-2b88-4862-b584-ff6db47c5231.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact stainless sink AFTER thorough cleaning and rinsing. Remove the cooking residue, soap foam, cloudy water scale and grime around the faucet base and drain. Retain the fine natural metal scratches, all fitting shapes and exact locations of the strainer and gray cloth. A few clear water droplets are fine. Do not add mirror shine or redesign any item.",
+    "sha256": "30445d3ae8e0b3a5eb3ae87610089febde4e34586c7bb61cb1f7097d3efd3e3e",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "bathroom": {
+    "before": "/assets/images/service-scenes/bathroom.webp",
+    "after": "/assets/images/service-scenes/bathroom-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/bathroom.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-596deac8-b305-4313-9ad0-6436d682a943.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact bathtub corner AFTER cleaning. Remove the brown/gray residue and mildew along the corner seam and drain, and remove the cloudy soap foam. Preserve the original tub texture, curved shape, drain and exact brush position. Keep a few clean water droplets and ordinary existing wear.",
+    "sha256": "d86a990834acbcbfbfa12b3b0eaa984df45598faff844c1703255f31f2e09fb8",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "bath-pipe": {
+    "before": "/assets/images/service-scenes/bath-pipe.webp",
+    "after": "/assets/images/service-scenes/bath-pipe-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/bath-pipe.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-641011dd-f80b-4815-a704-6230fe28b9a5.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact bathtub circulation inlet AFTER cleaning. Remove the grime and pale scale from the exposed inlet rim and adjacent tub surface, rinse away cloudy bubbles. Preserve the exposed fitting mechanism and exact positions of the removed round metal cover and cloth. Keep the same water level, lighting and framing; do not install a different device.",
+    "sha256": "6efe1b7d93453acc07b5ba5b6a3565178e19d0a6012eb02ec641e2b1c1011aa5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "bath-dryer": {
+    "before": "/assets/images/service-scenes/bath-dryer.webp",
+    "after": "/assets/images/service-scenes/bath-dryer-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/bath-dryer.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-0ee79326-e65e-43d2-aafa-14393c7d85f5.png",
+    "prompt": "Use case: precise-object-edit. One 1536x1024 landscape documentary photo for a Before/After drag slider. Input is the exact edit target. Lock camera, perspective, crop, lighting, textures, room geometry and every object coordinate. Change only the specified surface condition across the whole photo. No split boundaries, text, labels, arrows, collage, people, hands or new objects. Keep ordinary real wear; do not make a luxury showroom or shiny render.\nPrimary request: The identical opened bathroom dryer after cleaning: remove all accumulated dust and lint from the filter, dark fan blades, vent frame and internal edges. Preserve every blade, screw, slot, grille, removed filter position and camera exactly.",
+    "sha256": "bd55253c80a45dfcbbd5b530401f52ae4da3c79eba4005b502511c9c112cd743",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "toilet": {
+    "before": "/assets/images/service-scenes/toilet-before.webp",
+    "after": "/assets/images/service-scenes/toilet.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/toilet.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-cb82aeb8-f418-4d35-824f-4f51e471c5f1.png",
+    "prompt": "Use case: precise-object-edit. One 1536x1024 landscape documentary photo for a Before/After drag slider. Input is the exact edit target. Lock camera, perspective, crop, lighting, textures, room geometry and every object coordinate. Change only the specified surface condition across the whole photo. No split boundaries, text, labels, arrows, collage, people, hands or new objects. Keep ordinary real wear; do not make a luxury showroom or shiny render.\nPrimary request: The identical toilet before cleaning: add a realistic visible dull tan waterline ring, modest pale mineral deposits beneath the inner rim and faint everyday residue around the hinge seam. Preserve bowl shape, water level, brush at left and reflections. Do not add feces, objects, heavy disgusting dirt, damage or change anything else.",
+    "sha256": "57c90e78592088910c976f5245b86844b0ac4ba9ca59ac7f82741734b1e1870b",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "lavatory": {
+    "before": "/assets/images/service-scenes/lavatory.webp",
+    "after": "/assets/images/service-scenes/lavatory-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/lavatory.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-084288c8-18f8-4d9b-8880-601af7c2edff.png",
+    "prompt": "Use case: precise-object-edit. One 1536x1024 landscape documentary photo for a Before/After drag slider. Input is the exact edit target. Lock camera, perspective, crop, lighting, textures, room geometry and every object coordinate. Change only the specified surface condition across the whole photo. No split boundaries, text, labels, arrows, collage, people, hands or new objects. Keep ordinary real wear; do not make a luxury showroom or shiny render.\nPrimary request: The identical vanity sink after cleaning: remove yellow grime around both faucet bases, basin joint, drain ring and overflow. Rinse away foam. Keep exact stopper and sponge positions, original scratches, basin shapes, faucet handles and reflections. A few clean water droplets are fine.",
+    "sha256": "bd40b86ce969e20b21a30badc4a1f3e99bc0998cb241980000161a2ec74fe773",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "bath-adapter": {
+    "before": "/assets/images/service-scenes/bath-adapter-before.webp",
+    "after": "/assets/images/service-scenes/bath-adapter.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/bath-adapter.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-1c92a0a3-83b2-4836-9be0-26e0cdd2f3b1.png",
+    "prompt": "Use case: precise-object-edit. One 1536x1024 landscape documentary photo for a Before/After drag slider. Input is the exact edit target. Lock camera, perspective, crop, lighting, textures, room geometry and every object coordinate. Change only the specified surface condition across the whole photo. No split boundaries, text, labels, arrows, collage, people, hands or new objects. Keep ordinary real wear; do not make a luxury showroom or shiny render.\nPrimary request: The identical bathtub adapter before replacement: show an older lightly discolored chrome circulation cover in exactly the same diameter, center position and perspective, with modest pale scale in perforations and around the rim. Keep all tub contours, screw location, water level, towel, screwdriver and camera unchanged. Do not remove cover, invent broken hardware or exaggerated rust.",
+    "sha256": "4dcb8949079cdc40e18abb18a7b771447dc92cfc89ce3a06df98c8241366b8dc",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "washer-top": {
+    "before": "/assets/images/service-scenes/washer-top.webp",
+    "after": "/assets/images/service-scenes/washer-top-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/washer-top.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-c090b9aa-036c-465b-80ba-0a56f6eec384.png",
+    "prompt": "Use case: precise-object-edit. Create one 1536x1024 3:2 photograph, the AFTER state of the exact input for a drag comparison. Lock camera, crop, perspective, lighting, mechanical geometry, screw positions, material textures and every tool position. Change only dirt/cleanliness; clean the WHOLE photograph with no dividing line. Keep natural wear, no new objects, people, hands, labels, text, arrows or collage. Photorealistic ordinary on-site Japanese home, not a product render.\nPrimary request: Remove visible residue and grime from the washing tub bottom, hub rim, perforated walls and plastic seams, leaving the exact opened washer and removed pulsator on the towel unchanged. Real clean metal, no artificial mirror shine.",
+    "sha256": "685cd60af6461c7aae211c27810059707743c7c5779a76c8c75b728d01ccf0ba",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "washer-front": {
+    "before": "/assets/images/service-scenes/washer-front.webp",
+    "after": "/assets/images/service-scenes/washer-front-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/washer-front.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-6decabd4-c3e4-4568-9c24-6ec84fa069b8.png",
+    "prompt": "Use case: precise-object-edit. Create one 1536x1024 3:2 photograph, the AFTER state of the exact input for a drag comparison. Lock camera, crop, perspective, lighting, mechanical geometry, screw positions, material textures and every tool position. Change only dirt/cleanliness; clean the WHOLE photograph with no dividing line. Keep natural wear, no new objects, people, hands, labels, text, arrows or collage. Photorealistic ordinary on-site Japanese home, not a product render.\nPrimary request: Remove black dirt and mildew from the rubber gasket groove, lower fold and drum edges; remove residue on the stainless perforations. Preserve door hinge, drum vanes, screws and detergent drawer on towel exactly.",
+    "sha256": "3fddda22b2c0158763e15e91568616f4e0443674aa5b5923dbc4d6e61502b616",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "washer-drying-duct": {
+    "before": "/assets/images/service-scenes/washer-drying-duct.webp",
+    "after": "/assets/images/service-scenes/washer-drying-duct-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/washer-drying-duct.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-6cfe11ce-92a5-4bae-a995-5a9528e19457.png",
+    "prompt": "Use case: precise-object-edit. Create one 1536x1024 3:2 photograph, the AFTER state of the exact input for a drag comparison. Lock camera, crop, perspective, lighting, mechanical geometry, screw positions, material textures and every tool position. Change only dirt/cleanliness; clean the WHOLE photograph with no dividing line. Keep natural wear, no new objects, people, hands, labels, text, arrows or collage. Photorealistic ordinary on-site Japanese home, not a product render.\nPrimary request: Remove all thick accumulated gray lint and dust from the opened black drying air passage, gasket rim and removed filter. Preserve the accessible duct interior, framework, screws, brush and towel at identical positions.",
+    "sha256": "f7fc74c40f5993a1788aa8d3ee4f1552d97f3bc4908a7a0afb5b8945ba105b16",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "kitchen-fan": {
+    "before": "/assets/images/service-scenes/kitchen-fan.webp",
+    "after": "/assets/images/service-scenes/kitchen-fan-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/kitchen-fan.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-bdd77d3a-de48-42de-ae9f-ea287f0b15d4.png",
+    "prompt": "Use case: precise-object-edit. Create one 1536x1024 3:2 photograph, the AFTER state of the exact input for a drag comparison. Lock camera, crop, perspective, lighting, mechanical geometry, screw positions, material textures and every tool position. Change only dirt/cleanliness; clean the WHOLE photograph with no dividing line. Keep natural wear, no new objects, people, hands, labels, text, arrows or collage. Photorealistic ordinary on-site Japanese home, not a product render.\nPrimary request: Remove the amber cooking grease and all soap foam from the cylindrical range hood blower and rectangular mesh filter in the sink. Every blade, mesh pattern, rim, brush and sink position must be exactly unchanged. A few clear rinse droplets are fine.",
+    "sha256": "b7b723af2fba85057361987728611f1a7bdf2db5242bcfe18b2a7baffbe50471",
+    "size": [
+      1536,
+      1024
+    ]
+  }
+}

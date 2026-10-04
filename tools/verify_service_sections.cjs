@@ -8,6 +8,8 @@ const root = path.resolve(__dirname, '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/catalogue.json'), 'utf8'));
 const copy = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/copy.json'), 'utf8'));
 const voiceProfiles = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/voices.json'), 'utf8')).pages;
+const airconComparisons = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/aircon-comparisons.json'), 'utf8'));
+const serviceComparisons = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/service-comparisons.json'), 'utf8'));
 const origin = process.argv[2] || 'http://127.0.0.1:8769';
 const output = process.argv[3] || 'evidence/2026-10-04/sections/selector';
 const phase = process.argv[4] || 'selector';
@@ -20,7 +22,7 @@ const definitions = {
   heading: '.p-page-anchors__heading', card: '.c-page-anchors__anchor', top: '.c-category-simple-card__top', bottom: '.c-category-simple-card__bottom', label: '.c-category-simple-card__text', icon: '.c-category-simple-card__icon'
  }},
  concerns: {root:'#service-introduction .c-issue-list',components:{heading:'.c-issue-list__heading',card:'.c-issue-card',inner:'.c-issue-card__inner',icon:'.c-issue-card__icon-circle',text:'.c-issue-card__text'}},
- introduction: {root:'#service-introduction .p-content-box',components:{heading:'.p-content-box__heading',content:'.p-content-box__content',tabs:'.c-tab__buttons',button:'.c-tab__button[aria-selected="true"]',photo:'.c-compare-image-tab__compare-image',text:'.c-compare-image-tab__text'}},
+ introduction: {root:'#service-introduction .p-content-box',components:{heading:'.p-content-box__heading',content:'.p-content-box__content',tabs:'.c-tab__buttons',button:'.c-tab__button[aria-selected="true"]',photo:'.c-compare-image-tab__compare-image',line:'.c-aircon-compare__line',handle:'.c-aircon-compare__handle',beforeLabel:'.c-aircon-compare__label--before',afterLabel:'.c-aircon-compare__label--after',text:'.c-compare-image-tab__text'}},
  reasons: {root:'main > section:has(.p-reasons)',components:{heading:'.p-reasons__heading',grid:'.c-reasons',item:'.c-reasons__item',circle:'.c-reasons__card',point:'.c-reasons__point',title:'.c-reason-card__heading',text:'.c-reason-card__description',navy:'.c-reasons__navy'}},
  lineup: {root:'#apply',capture:'.c-lineup-heading',needImages:false,components:{band:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00)',title:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__contain',label:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__label'}},
  products: {root:'#apply',capture:'.c-lineup-card',imageSelector:'.c-lineup-card__image img',components:{card:'.c-lineup-card',image:'.c-lineup-card__image',contents:'.c-lineup-card__contents',heading:'.c-lineup-card__heading',description:'.c-lineup-card__description',footer:'.c-lineup-card__foot'}},
@@ -99,15 +101,18 @@ function checkConcerns(actual,reference,route,viewport){
 }
 function checkIntroduction(actual,reference,route,viewport){
  assert(actual && !actual.overflow,'introduction missing or page overflows');
+ for(const key of ['photo','line','handle','beforeLabel','afterLabel'])assert.equal(actual.components[key].length,1,`missing comparison ${key}`);
  for(const [key,items] of Object.entries(actual.components))for(const item of items){
   const canonical=reference.components[key][0];
   assert.deepEqual(item.style,canonical.style,`${key} styles differ from aircon`);
   assert(!item.overflow,`${key} clips full text`);
   if(['heading','content','photo'].includes(key))assert(Math.abs(item.rect.width-canonical.rect.width)<.1,`${key} width differs from aircon`);
   if(key==='photo')assert(Math.abs(item.rect.height-canonical.rect.height)<.1,'photo ratio differs from aircon');
+  if(['line','handle','beforeLabel','afterLabel'].includes(key))for(const dimension of ['width','height'])assert(Math.abs(item.rect[dimension]-canonical.rect[dimension])<.1,`comparison ${key} ${dimension} differs from aircon`);
   if(key==='heading')assert(viewport.width<375?item.rect.height<=canonical.rect.height+.1:Math.abs(item.rect.height-canonical.rect.height)<.1,'introductory heading adds unintended lines');
  }
- assert(actual.images.length && actual.images.every(i=>i.width===1536&&i.height===1024),'introduction photo missing');
+ assert(actual.images.length===2 && actual.images.every(i=>i.width===1536&&i.height===1024),'Before/After image pair missing');
+ assert.notEqual(actual.images[0].src,actual.images[1].src,'Before/After use the same photo');
 }
 function checkExactFrame(actual,reference){
  assert(actual && !actual.overflow,'section missing or page overflows');
@@ -266,6 +271,7 @@ async function interact(page,route,viewport){
  const subjects=route.includes('/')?[primary]:copy.categories[catalogue.pages[route].category].subjects;
  const buttons=page.locator('#service-introduction .c-tab__button');
  assert.equal(await buttons.count(),subjects.length);
+ const comparisons=[];
  for(let i=0;i<subjects.length;i++){
   const button=buttons.nth(i);
   if(subjects.length>1){
@@ -277,10 +283,45 @@ async function interact(page,route,viewport){
   assert(await panel.isVisible(),'photo tab panel hidden');
   const expected=copy.products[subjects[i]];
   assert.equal((await panel.locator('.c-compare-image-tab__text').innerText()).trim(),expected.description);
-  if(route!=='aircon')assert((await panel.locator('.c-service-photo img').getAttribute('src')).endsWith('/'+expected.scene+'.webp'),'photo belongs to a different service');
+  const pair=catalogue.pages[route].category==='aircon'?airconComparisons[subjects[i]]:serviceComparisons[expected.scene];
+  assert(pair,'comparison image data missing for this service');
+  const photo=panel.locator('.c-aircon-compare');
+  assert.equal(await photo.count(),1,'service has no comparison slider');
+  assert.deepEqual(await photo.locator('img').evaluateAll(imgs=>imgs.map(i=>i.getAttribute('src'))),[pair.before,pair.after],'comparison belongs to a different service');
+  await photo.evaluate(async e=>{scrollTo({top:scrollY+e.getBoundingClientRect().top-120,behavior:'instant'});await Promise.all([...e.querySelectorAll('img')].map(i=>i.decode()));});
+  await page.waitForTimeout(400);
+  assert(await photo.locator('img').evaluateAll(imgs=>imgs.every(i=>i.naturalWidth===1536&&i.naturalHeight===1024)),'pair did not decode');
+  const control=photo.locator('.c-aircon-compare__handle'), rect=await photo.boundingBox(),positions=[];
+  for(const percent of [20,80,2,98]){
+   const handle=await control.boundingBox(),initialScroll=await page.evaluate(()=>scrollY);
+   await page.mouse.move(handle.x+handle.width/2,handle.y+handle.height/2);await page.mouse.down();
+   await page.mouse.move(rect.x+rect.width*percent/100,rect.y+rect.height/2,{steps:4});await page.mouse.up();
+   const value=Number(await control.getAttribute('aria-valuenow'));assert(Math.abs(value-percent)<=1,'drag does not change comparison');
+   assert(Math.abs(await page.evaluate(()=>scrollY)-initialScroll)<1,'drag moved the page');
+   const hidden=await photo.locator('.c-aircon-compare__label').evaluateAll(items=>items.map(n=>n.hidden));
+   if(percent===2)assert.deepEqual(hidden,[true,false]);if(percent===98)assert.deepEqual(hidden,[false,true]);
+   await page.mouse.move(rect.x+rect.width*.5,rect.y+rect.height/2);assert.equal(Number(await control.getAttribute('aria-valuenow')),value,'comparison follows after release');
+   positions.push(value);
+  }
+  await control.focus();await control.press('Home');assert.equal(await control.getAttribute('aria-valuenow'),'0');
+  await control.press('ArrowLeft');assert.equal(await control.getAttribute('aria-valuenow'),'0');
+  await control.press('End');assert.equal(await control.getAttribute('aria-valuenow'),'100');
+  await control.press('ArrowRight');assert.equal(await control.getAttribute('aria-valuenow'),'100');
+  await control.press('Home');await control.press('ArrowRight');assert.equal(await control.getAttribute('aria-valuenow'),'2');
+  let touch=false;
+  if(page.viewportSize().width<768&&page.context().browser().browserType().name()==='chromium'){
+   const session=await page.context().newCDPSession(page),handle=await control.boundingBox(),box=await photo.boundingBox(),y=box.y+box.height/2;
+   await session.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:Math.max(box.x+2,handle.x+handle.width/2),y}]});
+   await session.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x:box.x+box.width*.3,y}]});
+   await session.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});await session.detach();
+   assert(Math.abs(Number(await control.getAttribute('aria-valuenow'))-30)<=2,'touch drag does not change comparison');touch=true;
+  }
+  await control.press('Home');for(let k=0;k<5;k++)await control.press('Shift+ArrowRight');
+  assert.equal(await control.getAttribute('aria-valuenow'),'50');
+  comparisons.push({subject:subjects[i],before:pair.before,after:pair.after,mousePositions:positions,keyboardClamps:true,touch});
  }
  if(subjects.length>1)await buttons.first().click();
- return {photoTabsOpened:subjects.length};
+ return {photoTabsOpened:subjects.length,comparisons};
 }
 async function capture(page, route, engine, viewport, items) {
  const file = `${engine}-${viewport.width}-${route.replaceAll('/','-')}.png`;
