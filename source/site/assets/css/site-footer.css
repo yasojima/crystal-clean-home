@@ -2,7 +2,7 @@
   .c-footer--aircon {
     display: flex;
     flex-direction: column;
-    min-height: calc(100svh - var(--aircon-header-height));
+    min-height: calc(min(100svh, 800px) - var(--aircon-header-height));
   }
 
   .c-footer--aircon > .u-pc-only {

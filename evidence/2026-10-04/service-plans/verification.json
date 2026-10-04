@@ -1,0 +1,441 @@
+{
+  "passed": true,
+  "pages": 46,
+  "newProducts": 43,
+  "newPlans": 86,
+  "existingPurchasesPreserved": 11,
+  "checks": [
+    {
+      "route": "aircon",
+      "usesExistingAirconPlans": true
+    },
+    {
+      "route": "pack",
+      "product": "102",
+      "newPlans": 2
+    },
+    {
+      "route": "pack",
+      "product": "105",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "4",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "5",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "993",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "6",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "7",
+      "newPlans": 2
+    },
+    {
+      "route": "water",
+      "product": "142",
+      "newPlans": 2
+    },
+    {
+      "route": "washer",
+      "product": "8",
+      "newPlans": 2
+    },
+    {
+      "route": "washer",
+      "product": "9",
+      "newPlans": 2
+    },
+    {
+      "route": "washer",
+      "product": "664",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen",
+      "product": "666",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen",
+      "product": "668",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen",
+      "product": "670",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen",
+      "product": "671",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "689",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1008",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1203",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1209",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "691",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "692",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "694",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "695",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "696",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1071",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "822",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1309",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1308",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "1307",
+      "newPlans": 2
+    },
+    {
+      "route": "room",
+      "product": "697",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "4_697",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "668_701",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "7_700",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "142_699",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "804",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "805",
+      "newPlans": 2
+    },
+    {
+      "route": "coating",
+      "product": "806",
+      "newPlans": 2
+    },
+    {
+      "route": "others",
+      "product": "others-estimate-0",
+      "newPlans": 2
+    },
+    {
+      "route": "others",
+      "product": "700",
+      "newPlans": 2
+    },
+    {
+      "route": "others",
+      "product": "702",
+      "newPlans": 2
+    },
+    {
+      "route": "others",
+      "product": "703",
+      "newPlans": 2
+    },
+    {
+      "route": "aircon/ceil",
+      "usesExistingAirconPlans": true
+    },
+    {
+      "route": "aircon/wall",
+      "usesExistingAirconPlans": true
+    },
+    {
+      "route": "coating/bathroom",
+      "product": "4_697",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/floor",
+      "product": "804",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/kitchen",
+      "product": "668_701",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/lavatory",
+      "product": "142_699",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/repair",
+      "product": "806",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/toilet",
+      "product": "7_700",
+      "newPlans": 2
+    },
+    {
+      "route": "coating/uv-coating",
+      "product": "805",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen/dishwasher",
+      "product": "671",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen/fan",
+      "product": "666",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen/kitchen",
+      "product": "668",
+      "newPlans": 2
+    },
+    {
+      "route": "kitchen/rei",
+      "product": "670",
+      "newPlans": 2
+    },
+    {
+      "route": "others/exterior",
+      "product": "702",
+      "newPlans": 2
+    },
+    {
+      "route": "others/grave",
+      "product": "703",
+      "newPlans": 2
+    },
+    {
+      "route": "others/outerwall",
+      "product": "others-estimate-0",
+      "newPlans": 2
+    },
+    {
+      "route": "others/photocatalyst",
+      "product": "700",
+      "newPlans": 2
+    },
+    {
+      "route": "pack/entirety",
+      "product": "105",
+      "newPlans": 2
+    },
+    {
+      "route": "pack/move",
+      "product": "102",
+      "newPlans": 2
+    },
+    {
+      "route": "room/air-cleaner",
+      "product": "697",
+      "newPlans": 2
+    },
+    {
+      "route": "room/carpet",
+      "product": "692",
+      "newPlans": 2
+    },
+    {
+      "route": "room/cloth",
+      "product": "695",
+      "newPlans": 2
+    },
+    {
+      "route": "room/duct",
+      "product": "822",
+      "newPlans": 2
+    },
+    {
+      "route": "room/duct",
+      "product": "1309",
+      "newPlans": 2
+    },
+    {
+      "route": "room/duct",
+      "product": "1308",
+      "newPlans": 2
+    },
+    {
+      "route": "room/duct",
+      "product": "1307",
+      "newPlans": 2
+    },
+    {
+      "route": "room/entrance",
+      "product": "1071",
+      "newPlans": 2
+    },
+    {
+      "route": "room/entrance",
+      "product": "1073",
+      "newPlans": 2
+    },
+    {
+      "route": "room/entrance",
+      "product": "1074",
+      "newPlans": 2
+    },
+    {
+      "route": "room/flooring",
+      "product": "689",
+      "newPlans": 2
+    },
+    {
+      "route": "room/flooring",
+      "product": "1008",
+      "newPlans": 2
+    },
+    {
+      "route": "room/glass",
+      "product": "696",
+      "newPlans": 2
+    },
+    {
+      "route": "room/mattress",
+      "product": "1203",
+      "newPlans": 2
+    },
+    {
+      "route": "room/mattress",
+      "product": "1209",
+      "newPlans": 2
+    },
+    {
+      "route": "room/sofa",
+      "product": "691",
+      "newPlans": 2
+    },
+    {
+      "route": "room/wallpaper-dyeing",
+      "product": "694",
+      "newPlans": 2
+    },
+    {
+      "route": "washer/front",
+      "product": "9",
+      "newPlans": 2
+    },
+    {
+      "route": "washer/side",
+      "product": "664",
+      "newPlans": 2
+    },
+    {
+      "route": "washer/top",
+      "product": "8",
+      "newPlans": 2
+    },
+    {
+      "route": "water/bathroom",
+      "product": "4",
+      "newPlans": 2
+    },
+    {
+      "route": "water/drier",
+      "product": "6",
+      "newPlans": 2
+    },
+    {
+      "route": "water/lavatory",
+      "product": "142",
+      "newPlans": 2
+    },
+    {
+      "route": "water/pipe",
+      "product": "5",
+      "newPlans": 2
+    },
+    {
+      "route": "water/toilet",
+      "product": "7",
+      "newPlans": 2
+    },
+    {
+      "route": "water/ulblo",
+      "product": "993",
+      "newPlans": 2
+    }
+  ]
+}

@@ -1,0 +1,5473 @@
+{
+  "checkedAt": "2026-10-04T01:51:42.292Z",
+  "origin": "http://127.0.0.1:8769",
+  "phase": "offers",
+  "pages": 8,
+  "cases": 8,
+  "inspectOnly": false,
+  "complete": true,
+  "passed": true,
+  "errors": [],
+  "references": [
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "reference": {
+        "rect": {
+          "x": 0,
+          "y": 6012.171875,
+          "width": 320,
+          "height": 2155.96875
+        },
+        "style": {
+          "fontFamily": "\"Noto Sans JP\", sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "textAlign": "start",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(227, 241, 252)",
+          "backgroundImage": "none",
+          "padding": "56px 15px",
+          "marginTop": "0px",
+          "marginBottom": "0px",
+          "rowGap": "normal",
+          "columnGap": "normal",
+          "borderRadius": "0px",
+          "borderColor": "rgb(33, 37, 41)",
+          "borderWidth": "0px",
+          "boxShadow": "none",
+          "alignItems": "normal",
+          "justifyContent": "normal"
+        },
+        "context": {
+          "style": {
+            "fontFamily": "\"Noto Sans JP\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "color": "rgb(33, 37, 41)",
+            "backgroundColor": "rgb(227, 241, 252)",
+            "backgroundImage": "none",
+            "padding": "56px 15px",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "rowGap": "normal",
+            "columnGap": "normal",
+            "borderRadius": "0px",
+            "borderColor": "rgb(33, 37, 41)",
+            "borderWidth": "0px",
+            "boxShadow": "none",
+            "alignItems": "normal",
+            "justifyContent": "normal"
+          },
+          "before": {
+            "fontFamily": "\"Noto Sans JP\", sans-serif",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textAlign": "start",
+            "color": "rgb(33, 37, 41)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "backgroundImage": "url(\"http://127.0.0.1:8769/assets/images/common-parts/decoration/section-arrows-black.svg\")",
+            "padding": "0px",
+            "marginTop": "0px",
+            "marginBottom": "0px",
+            "rowGap": "normal",
+            "columnGap": "normal",
+            "borderRadius": "0px",
+            "borderColor": "rgb(33, 37, 41)",
+            "borderWidth": "0px",
+            "boxShadow": "none",
+            "alignItems": "normal",
+            "justifyContent": "normal",
+            "mask": "none"
+          },
+          "curves": []
+        },
+        "components": {
+          "heading": [
+            {
+              "rect": {
+                "x": 30.125,
+                "y": 6068.171875,
+                "width": 259.75,
+                "height": 64
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "lineHeight": "21.6px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "10.88px",
+                "columnGap": "10.88px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "center",
+                "justifyContent": "center"
+              },
+              "text": "人気の組み合わせプラン",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Arial, sans-serif",
+                "fontSize": "60px",
+                "fontWeight": "400",
+                "lineHeight": "60px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "center",
+                "justifyContent": "center",
+                "content": "\")\"",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "rect": {
+                "x": 61,
+                "y": 6089.375,
+                "width": 198,
+                "height": 21.59375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "lineHeight": "21.6px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "人気の組み合わせプラン",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "18px",
+                "fontWeight": "700",
+                "lineHeight": "21.6px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 1854.96875
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "24px",
+                "columnGap": "24px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "完全分解洗浄プラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加\n予防クリーニングプラン\n種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 902.65625
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄プラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7183.828125,
+                "width": 290,
+                "height": 928.3125
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "予防クリーニングプラン\n種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 90
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "20px",
+                "fontWeight": "700",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgb(187, 220, 249)",
+                "backgroundImage": "none",
+                "padding": "33px 8px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄プラン",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "20px",
+                "fontWeight": "700",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none",
+              "lines": [
+                "完全分解洗浄プラン"
+              ]
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7183.828125,
+                "width": 290,
+                "height": 90
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "20px",
+                "fontWeight": "700",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgb(187, 220, 249)",
+                "backgroundImage": "none",
+                "padding": "33px 8px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "予防クリーニングプラン",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "20px",
+                "fontWeight": "700",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(6, 64, 140)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(6, 64, 140)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none",
+              "lines": [
+                "予防クリーニングプラン"
+              ]
+            }
+          ],
+          "body": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6347.171875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "backgroundImage": "none",
+                "padding": "16px 20px 24px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7273.828125,
+                "width": 290,
+                "height": 244
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "backgroundImage": "none",
+                "padding": "16px 20px 24px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "rect": {
+                "x": 35,
+                "y": 6463.515625,
+                "width": 250,
+                "height": 78
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "24px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7415.828125,
+                "width": 250,
+                "height": 78
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "24px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6565.515625,
+                "width": 290,
+                "height": 594.3125
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7517.828125,
+                "width": 290,
+                "height": 594.3125
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgb(255, 255, 255)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 6566.515625,
+                "width": 290,
+                "height": 327.75
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "8px 20px 16px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 6894.265625,
+                "width": 290,
+                "height": 265.5625
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "8px 20px 16px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "お掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7518.828125,
+                "width": 290,
+                "height": 327.75
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "8px 20px 16px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 7846.578125,
+                "width": 290,
+                "height": 265.5625
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "8px 20px 16px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "お掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "rect": {
+                "x": 35,
+                "y": 6804.890625,
+                "width": 250,
+                "height": 73.375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7070.453125,
+                "width": 250,
+                "height": 73.375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7757.203125,
+                "width": 250,
+                "height": 73.375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 8022.765625,
+                "width": 250,
+                "height": 73.375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "1\n2\n3\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "rect": {
+                "x": 35,
+                "y": 6363.171875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "32px",
+                "columnGap": "32px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "種類\nオプション\n\n完全分解洗浄",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7289.828125,
+                "width": 250,
+                "height": 102
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "32px",
+                "columnGap": "32px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "rect": {
+                "x": 35,
+                "y": 6386.671875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7326.15625,
+                "width": 52.84375,
+                "height": 65.671875
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "rect": {
+                "x": 35,
+                "y": 6363.171875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "種類",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 6363.171875,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "オプション",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 35,
+                "y": 7289.828125,
+                "width": 52.84375,
+                "height": 32.328125
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "種類",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 7289.828125,
+                "width": 165.15625,
+                "height": 19.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "オプション",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(82, 90, 97)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(82, 90, 97)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 6401.34375,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 7313.328125,
+                "width": 165.15625,
+                "height": 78.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 6401.34375,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "linear-gradient(to left, rgb(174, 219, 249) 0%, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%)",
+                "padding": "2px 8px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "4px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 7313.328125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "linear-gradient(to left, rgb(174, 219, 249) 0%, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%)",
+                "padding": "2px 8px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "4px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "完全分解洗浄",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 7340.828125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "linear-gradient(to left, rgb(174, 219, 249) 0%, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%)",
+                "padding": "2px 8px",
+                "marginTop": "4px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "4px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "防虫キャップ",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 119.84375,
+                "y": 7368.328125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "style": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "linear-gradient(to left, rgb(174, 219, 249) 0%, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%)",
+                "padding": "2px 8px",
+                "marginTop": "4px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "4px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "防カビコーティング",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "\"Noto Sans JP\", sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "center",
+                "color": "rgb(255, 255, 255)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(255, 255, 255)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ]
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/product-icon/aircon-wall.webp",
+            "alt": "",
+            "width": 180,
+            "height": 180
+          },
+          {
+            "src": "/assets/images/common-parts/product-icon/aircon-wall.webp",
+            "alt": "",
+            "width": 180,
+            "height": 180
+          }
+        ],
+        "anchors": [],
+        "overflow": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "aircon",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 6012.171875,
+          "width": 320,
+          "height": 2155.96875
+        },
+        "images": [
+          {
+            "src": "/assets/images/common-parts/product-icon/aircon-wall.webp",
+            "alt": "",
+            "width": 180,
+            "height": 180
+          },
+          {
+            "src": "/assets/images/common-parts/product-icon/aircon-wall.webp",
+            "alt": "",
+            "width": 180,
+            "height": 180
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 6068.171875,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 6089.375,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "完全分解洗浄プラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加\n予防クリーニングプラン\n種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 1854.96875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "完全分解洗浄プラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 902.65625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "予防クリーニングプラン\n種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。\n\n2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7183.828125,
+                "width": 290,
+                "height": 928.3125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "完全分解洗浄プラン",
+              "rect": {
+                "x": 15,
+                "y": 6257.171875,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "予防クリーニングプラン",
+              "rect": {
+                "x": 15,
+                "y": 7183.828125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 6347.171875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング\n\n完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7273.828125,
+                "width": 290,
+                "height": 244
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "通常のお掃除に完全分解洗浄を加え、取り外せる部品と内部の汚れを丁寧に洗い流します。機種と設置状況を確認して作業範囲をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 6463.515625,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "完全分解洗浄に防虫キャップと防カビコーティングを組み合わせたプランです。洗浄後の状態を確認し、それぞれの施工内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 7415.828125,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6565.515625,
+                "width": 290,
+                "height": 594.3125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nお掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7517.828125,
+                "width": 290,
+                "height": 594.3125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n22,000\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6566.515625,
+                "width": 290,
+                "height": 327.75
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お掃除機能付き\n\n31,900\n(税込)／式\n\n29,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6894.265625,
+                "width": 290,
+                "height": 265.5625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2台以上ご注文でお得！\n\n \n\n【期間限定】通常より1,100円お得！\n\nお掃除機能なし\n\n26,400\n(税込)／式\n\n24,200\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7518.828125,
+                "width": 290,
+                "height": 327.75
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お掃除機能付き\n\n36,300\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7846.578125,
+                "width": 290,
+                "height": 265.5625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 6804.890625,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7070.453125,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7757.203125,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 8022.765625,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄",
+              "rect": {
+                "x": 35,
+                "y": 6363.171875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング",
+              "rect": {
+                "x": 35,
+                "y": 7289.828125,
+                "width": 250,
+                "height": 102
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 6386.671875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 7326.15625,
+                "width": 52.84375,
+                "height": 65.671875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 6363.171875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 6363.171875,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7289.828125,
+                "width": 52.84375,
+                "height": 32.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7289.828125,
+                "width": 165.15625,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "完全分解洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 6401.34375,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "完全分解洗浄\n\n防虫キャップ\n\n防カビコーティング",
+              "rect": {
+                "x": 119.84375,
+                "y": 7313.328125,
+                "width": 165.15625,
+                "height": 78.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "完全分解洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 6401.34375,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "完全分解洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 7313.328125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "防虫キャップ",
+              "rect": {
+                "x": 119.84375,
+                "y": 7340.828125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "防カビコーティング",
+              "rect": {
+                "x": 119.84375,
+                "y": 7368.328125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 2,
+        "quantitiesChanged": 6,
+        "demoActions": 0,
+        "planCards": []
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "pack",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 5507.046875,
+          "width": 320,
+          "height": 1729.375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/flooring.webp",
+            "alt": "お引越し前後のお掃除の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/flooring.webp",
+            "alt": "お引越し前後のお掃除の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 5563.046875,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 5584.25,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n壁紙染色5㎡以下\n\nお引越し前後のお掃除に壁紙染色5㎡以下を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n31,900\n(税込)／式\n\n30,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\nお引越し前後のお掃除にフローリング洗浄ワックス（10帖以下一律料金）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n39,600\n(税込)／式\n\n38,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5816.046875,
+                "width": 290,
+                "height": 1364.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n壁紙染色5㎡以下\n\nお引越し前後のお掃除に壁紙染色5㎡以下を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n31,900\n(税込)／式\n\n30,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5816.046875,
+                "width": 290,
+                "height": 670.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\nお引越し前後のお掃除にフローリング洗浄ワックス（10帖以下一律料金）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n39,600\n(税込)／式\n\n38,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6510.234375,
+                "width": 290,
+                "height": 670.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 5816.046875,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 6510.234375,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n壁紙染色5㎡以下\n\nお引越し前後のお掃除に壁紙染色5㎡以下を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 5906.046875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\nお引越し前後のお掃除にフローリング洗浄ワックス（10帖以下一律料金）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 6600.234375,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "お引越し前後のお掃除に壁紙染色5㎡以下を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 6022.390625,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お引越し前後のお掃除にフローリング洗浄ワックス（10帖以下一律料金）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 6716.578125,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n31,900\n(税込)／式\n\n30,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6124.390625,
+                "width": 290,
+                "height": 361.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n39,600\n(税込)／式\n\n38,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6818.578125,
+                "width": 290,
+                "height": 361.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n31,900\n(税込)／式\n\n30,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6125.390625,
+                "width": 290,
+                "height": 360.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nマンション・アパート1K/1DK（30㎡以下）\n\n39,600\n(税込)／式\n\n38,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6819.578125,
+                "width": 290,
+                "height": 360.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 6396.859375,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7091.046875,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n壁紙染色5㎡以下",
+              "rect": {
+                "x": 35,
+                "y": 5922.046875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（10帖以下一律料金）",
+              "rect": {
+                "x": 35,
+                "y": 6616.234375,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 5945.546875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 6639.734375,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 5922.046875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 5922.046875,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 6616.234375,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 6616.234375,
+                "width": 165.15625,
+                "height": 24.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "壁紙染色5㎡以下",
+              "rect": {
+                "x": 119.84375,
+                "y": 5960.21875,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング洗浄ワックス（10帖以下一律料金）",
+              "rect": {
+                "x": 119.84375,
+                "y": 6644.65625,
+                "width": 165.15625,
+                "height": 47.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "壁紙染色5㎡以下",
+              "rect": {
+                "x": 119.84375,
+                "y": 5960.21875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング洗浄ワックス（10帖以下一律料金）",
+              "rect": {
+                "x": 119.84375,
+                "y": 6644.65625,
+                "width": 165.15625,
+                "height": 43
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 3,
+        "quantitiesChanged": 9,
+        "demoActions": 4,
+        "planCards": [
+          "demo-plan-102-1",
+          "demo-plan-102-2",
+          "demo-plan-105-1",
+          "demo-plan-105-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "water",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 9039.125,
+          "width": 320,
+          "height": 1748.5
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bathroom-after.webp",
+            "alt": "風呂・浴室の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/bathroom-after.webp",
+            "alt": "風呂・浴室の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 9095.125,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 9116.328125,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n防汚コーティング\n\n風呂・浴室に防汚コーティングを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n28,600\n(税込)／式\n\n27,500\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\n鏡の水アカ除去＆曇り止めフィルム仕上げ\n\n風呂・浴室に鏡の水アカ除去＆曇り止めフィルム仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9476.125,
+                "width": 290,
+                "height": 1255.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n防汚コーティング\n\n風呂・浴室に防汚コーティングを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n28,600\n(税込)／式\n\n27,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9476.125,
+                "width": 290,
+                "height": 606
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\n鏡の水アカ除去＆曇り止めフィルム仕上げ\n\n風呂・浴室に鏡の水アカ除去＆曇り止めフィルム仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10106.125,
+                "width": 290,
+                "height": 625.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 9476.125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 10106.125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n防汚コーティング\n\n風呂・浴室に防汚コーティングを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 9566.125,
+                "width": 290,
+                "height": 198.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n鏡の水アカ除去＆曇り止めフィルム仕上げ\n\n風呂・浴室に鏡の水アカ除去＆曇り止めフィルム仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 10196.125,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "風呂・浴室に防汚コーティングを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 9682.46875,
+                "width": 250,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "風呂・浴室に鏡の水アカ除去＆曇り止めフィルム仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 10312.46875,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n28,600\n(税込)／式\n\n27,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9764.96875,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10414.46875,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n28,600\n(税込)／式\n\n27,500\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9765.96875,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n風呂・浴室クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10415.46875,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 9992.75,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 10642.25,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n防汚コーティング",
+              "rect": {
+                "x": 35,
+                "y": 9582.125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n鏡の水アカ除去＆曇り止めフィルム仕上げ",
+              "rect": {
+                "x": 35,
+                "y": 10212.125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 9605.625,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 10235.625,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 9582.125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 9582.125,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 10212.125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 10212.125,
+                "width": 165.15625,
+                "height": 24.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "防汚コーティング",
+              "rect": {
+                "x": 119.84375,
+                "y": 9620.296875,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "鏡の水アカ除去＆曇り止めフィルム仕上げ",
+              "rect": {
+                "x": 119.84375,
+                "y": 10240.546875,
+                "width": 165.15625,
+                "height": 47.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "防汚コーティング",
+              "rect": {
+                "x": 119.84375,
+                "y": 9620.296875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "鏡の水アカ除去＆曇り止めフィルム仕上げ",
+              "rect": {
+                "x": 119.84375,
+                "y": 10240.546875,
+                "width": 165.15625,
+                "height": 43
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 7,
+        "quantitiesChanged": 14,
+        "demoActions": 12,
+        "planCards": [
+          "demo-plan-4-1",
+          "demo-plan-4-2",
+          "demo-plan-5-1",
+          "demo-plan-5-2",
+          "demo-plan-993-1",
+          "demo-plan-993-2",
+          "demo-plan-6-1",
+          "demo-plan-6-2",
+          "demo-plan-7-1",
+          "demo-plan-7-2",
+          "demo-plan-142-1",
+          "demo-plan-142-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "washer",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 6031.359375,
+          "width": 320,
+          "height": 1601
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/washer-top-after.webp",
+            "alt": "縦型洗濯機の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/washer-top-after.webp",
+            "alt": "縦型洗濯機の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 6087.359375,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 6108.5625,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n縦型洗濯機に完全分解洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n20,900\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\n洗濯パン\n\n縦型洗濯機に洗濯パンを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n13,750\n(税込)／式\n\n12,650\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6340.359375,
+                "width": 290,
+                "height": 1236
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n完全分解洗浄\n\n縦型洗濯機に完全分解洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n20,900\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6340.359375,
+                "width": 290,
+                "height": 606
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\n洗濯パン\n\n縦型洗濯機に洗濯パンを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n13,750\n(税込)／式\n\n12,650\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6970.359375,
+                "width": 290,
+                "height": 606
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 6340.359375,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 6970.359375,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄\n\n縦型洗濯機に完全分解洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 6430.359375,
+                "width": 290,
+                "height": 198.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n洗濯パン\n\n縦型洗濯機に洗濯パンを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7060.359375,
+                "width": 290,
+                "height": 198.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "縦型洗濯機に完全分解洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 6546.703125,
+                "width": 250,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "縦型洗濯機に洗濯パンを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 7176.703125,
+                "width": 250,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n20,900\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6629.203125,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n13,750\n(税込)／式\n\n12,650\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7259.203125,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n20,900\n(税込)／式\n\n19,800\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6630.203125,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n縦型洗濯機クリーニング\n\n13,750\n(税込)／式\n\n12,650\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7260.203125,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 6856.984375,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7486.984375,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n完全分解洗浄",
+              "rect": {
+                "x": 35,
+                "y": 6446.359375,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n洗濯パン",
+              "rect": {
+                "x": 35,
+                "y": 7076.359375,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 6469.859375,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 7099.859375,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 6446.359375,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 6446.359375,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7076.359375,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7076.359375,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "完全分解洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 6484.53125,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗濯パン",
+              "rect": {
+                "x": 119.84375,
+                "y": 7114.53125,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "完全分解洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 6484.53125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗濯パン",
+              "rect": {
+                "x": 119.84375,
+                "y": 7114.53125,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 3,
+        "quantitiesChanged": 6,
+        "demoActions": 6,
+        "planCards": [
+          "demo-plan-8-1",
+          "demo-plan-8-2",
+          "demo-plan-9-1",
+          "demo-plan-9-2",
+          "demo-plan-664-1",
+          "demo-plan-664-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "kitchen",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 6877.703125,
+          "width": 320,
+          "height": 1704
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/kitchen-fan-after.webp",
+            "alt": "レンジフード・換気扇の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/kitchen-fan-after.webp",
+            "alt": "レンジフード・換気扇の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 6933.703125,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 6954.90625,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\nコンロセット\n\nレンジフード・換気扇にコンロセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\nキッチンクリーニングセット\n\nレンジフード・換気扇にキッチンクリーニングセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n34,100\n(税込)／式\n\n33,000\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7250.703125,
+                "width": 290,
+                "height": 1275
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\nコンロセット\n\nレンジフード・換気扇にコンロセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7250.703125,
+                "width": 290,
+                "height": 606
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\nキッチンクリーニングセット\n\nレンジフード・換気扇にキッチンクリーニングセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n34,100\n(税込)／式\n\n33,000\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7880.703125,
+                "width": 290,
+                "height": 645
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 7250.703125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 7880.703125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\nコンロセット\n\nレンジフード・換気扇にコンロセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7340.703125,
+                "width": 290,
+                "height": 198.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nキッチンクリーニングセット\n\nレンジフード・換気扇にキッチンクリーニングセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7970.703125,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "レンジフード・換気扇にコンロセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 7457.046875,
+                "width": 250,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "レンジフード・換気扇にキッチンクリーニングセットを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 8087.046875,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7539.546875,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n34,100\n(税込)／式\n\n33,000\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8189.046875,
+                "width": 290,
+                "height": 336.65625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n24,200\n(税込)／式\n\n23,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7540.546875,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nレンジフード・換気扇クリーニング\n\n34,100\n(税込)／式\n\n33,000\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8190.046875,
+                "width": 290,
+                "height": 335.65625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7767.328125,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 8436.328125,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\nコンロセット",
+              "rect": {
+                "x": 35,
+                "y": 7356.703125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nキッチンクリーニングセット",
+              "rect": {
+                "x": 35,
+                "y": 7986.703125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 7380.203125,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 8010.203125,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7356.703125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7356.703125,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7986.703125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7986.703125,
+                "width": 165.15625,
+                "height": 24.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "コンロセット",
+              "rect": {
+                "x": 119.84375,
+                "y": 7394.875,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンクリーニングセット",
+              "rect": {
+                "x": 119.84375,
+                "y": 8015.125,
+                "width": 165.15625,
+                "height": 47.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "コンロセット",
+              "rect": {
+                "x": 119.84375,
+                "y": 7394.875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンクリーニングセット",
+              "rect": {
+                "x": 119.84375,
+                "y": 8015.125,
+                "width": 165.15625,
+                "height": 43
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 5,
+        "quantitiesChanged": 9,
+        "demoActions": 8,
+        "planCards": [
+          "demo-plan-666-1",
+          "demo-plan-666-2",
+          "demo-plan-668-1",
+          "demo-plan-668-2",
+          "demo-plan-670-1",
+          "demo-plan-670-2",
+          "demo-plan-671-1",
+          "demo-plan-671-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "room",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 15543.46875,
+          "width": 320,
+          "height": 2074.375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/flooring.webp",
+            "alt": "フローリング洗浄・ワックスの作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/flooring.webp",
+            "alt": "フローリング洗浄・ワックスの作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 15599.46875,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 15620.671875,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\nフローリング洗浄ワックス（追加1帖）\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n14,520\n(税込)／式\n\n13,420\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\nフローリング洗浄ワックス（追加1帖） ×2\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n15,840\n(税込)／式\n\n14,740\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16236.46875,
+                "width": 290,
+                "height": 1325.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\nフローリング洗浄ワックス（追加1帖）\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n14,520\n(税込)／式\n\n13,420\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16236.46875,
+                "width": 290,
+                "height": 650.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\nフローリング洗浄ワックス（追加1帖） ×2\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n15,840\n(税込)／式\n\n14,740\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16911.15625,
+                "width": 290,
+                "height": 650.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 16236.46875,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 16911.15625,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（追加1帖）\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 16326.46875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（追加1帖） ×2\n\nフローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 17001.15625,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "フローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 16442.8125,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング洗浄・ワックスにフローリング洗浄ワックス（追加1帖）を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 17117.5,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n14,520\n(税込)／式\n\n13,420\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16544.8125,
+                "width": 290,
+                "height": 342.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n15,840\n(税込)／式\n\n14,740\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 17219.5,
+                "width": 290,
+                "height": 342.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n14,520\n(税込)／式\n\n13,420\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16545.8125,
+                "width": 290,
+                "height": 341.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\nフローリング洗浄ワックス（10帖以下一律料金）\n\n15,840\n(税込)／式\n\n14,740\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 17220.5,
+                "width": 290,
+                "height": 341.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 16797.78125,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 17472.46875,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（追加1帖）",
+              "rect": {
+                "x": 35,
+                "y": 16342.46875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\nフローリング洗浄ワックス（追加1帖） ×2",
+              "rect": {
+                "x": 35,
+                "y": 17017.15625,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 16365.96875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 17040.65625,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 16342.46875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 16342.46875,
+                "width": 165.15625,
+                "height": 24.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 17017.15625,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 17017.15625,
+                "width": 165.15625,
+                "height": 24.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "フローリング洗浄ワックス（追加1帖）",
+              "rect": {
+                "x": 119.84375,
+                "y": 16370.890625,
+                "width": 165.15625,
+                "height": 47.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング洗浄ワックス（追加1帖） ×2",
+              "rect": {
+                "x": 119.84375,
+                "y": 17045.578125,
+                "width": 165.15625,
+                "height": 47.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "フローリング洗浄ワックス（追加1帖）",
+              "rect": {
+                "x": 119.84375,
+                "y": 16370.890625,
+                "width": 165.15625,
+                "height": 43
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング洗浄ワックス（追加1帖） ×2",
+              "rect": {
+                "x": 119.84375,
+                "y": 17045.578125,
+                "width": 165.15625,
+                "height": 43
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 15,
+        "quantitiesChanged": 30,
+        "demoActions": 30,
+        "planCards": [
+          "demo-plan-689-1",
+          "demo-plan-689-2",
+          "demo-plan-1008-1",
+          "demo-plan-1008-2",
+          "demo-plan-1203-1",
+          "demo-plan-1203-2",
+          "demo-plan-1209-1",
+          "demo-plan-1209-2",
+          "demo-plan-691-1",
+          "demo-plan-691-2",
+          "demo-plan-692-1",
+          "demo-plan-692-2",
+          "demo-plan-694-1",
+          "demo-plan-694-2",
+          "demo-plan-695-1",
+          "demo-plan-695-2",
+          "demo-plan-696-1",
+          "demo-plan-696-2",
+          "demo-plan-1071-1",
+          "demo-plan-1071-2",
+          "demo-plan-822-1",
+          "demo-plan-822-2",
+          "demo-plan-1309-1",
+          "demo-plan-1309-2",
+          "demo-plan-1308-1",
+          "demo-plan-1308-2",
+          "demo-plan-1307-1",
+          "demo-plan-1307-2",
+          "demo-plan-697-1",
+          "demo-plan-697-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "coating",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 8941.421875,
+          "width": 320,
+          "height": 1768
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bathroom-after.webp",
+            "alt": "浴室コーティングの作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/bathroom-after.webp",
+            "alt": "浴室コーティングの作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 8997.421875,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 9018.625,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n浴室コーティング\n\n33,000\n(税込)／式\n\n31,900\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室換気カバー洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄と浴室換気カバー洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n浴室コーティング\n\n35,200\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9378.421875,
+                "width": 290,
+                "height": 1275
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n浴室コーティング\n\n33,000\n(税込)／式\n\n31,900\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9378.421875,
+                "width": 290,
+                "height": 625.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室換気カバー洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄と浴室換気カバー洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n浴室コーティング\n\n35,200\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10027.921875,
+                "width": 290,
+                "height": 625.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 9378.421875,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 10027.921875,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 9468.421875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室換気カバー洗浄\n\n浴室コーティングに浴室床・目地の追加洗浄と浴室換気カバー洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 10117.921875,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "浴室コーティングに浴室床・目地の追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 9584.765625,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室コーティングに浴室床・目地の追加洗浄と浴室換気カバー洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 10234.265625,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n浴室コーティング\n\n33,000\n(税込)／式\n\n31,900\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9686.765625,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n浴室コーティング\n\n35,200\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10336.265625,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n浴室コーティング\n\n33,000\n(税込)／式\n\n31,900\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9687.765625,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n浴室コーティング\n\n35,200\n(税込)／式\n\n34,100\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10337.265625,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 9914.546875,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 10564.046875,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n浴室床・目地の追加洗浄",
+              "rect": {
+                "x": 35,
+                "y": 9484.421875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n浴室床・目地の追加洗浄\n\n浴室換気カバー洗浄",
+              "rect": {
+                "x": 35,
+                "y": 10133.921875,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 9507.921875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 10157.421875,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 9484.421875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 9484.421875,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 10133.921875,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 10133.921875,
+                "width": 165.15625,
+                "height": 20.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "浴室床・目地の追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 9522.59375,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室床・目地の追加洗浄\n\n浴室換気カバー洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 10158.34375,
+                "width": 165.15625,
+                "height": 51.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "浴室床・目地の追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 9522.59375,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室床・目地の追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 10158.34375,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室換気カバー洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 10185.84375,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 7,
+        "quantitiesChanged": 14,
+        "demoActions": 14,
+        "planCards": [
+          "demo-plan-4_697-1",
+          "demo-plan-4_697-2",
+          "demo-plan-668_701-1",
+          "demo-plan-668_701-2",
+          "demo-plan-7_700-1",
+          "demo-plan-7_700-2",
+          "demo-plan-142_699-1",
+          "demo-plan-142_699-2",
+          "demo-plan-804-1",
+          "demo-plan-804-2",
+          "demo-plan-805-1",
+          "demo-plan-805-2",
+          "demo-plan-806-1",
+          "demo-plan-806-2"
+        ]
+      }
+    },
+    {
+      "engine": "Chrome",
+      "viewport": {
+        "width": 320,
+        "height": 688
+      },
+      "route": "others",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 6733.125,
+          "width": 320,
+          "height": 1659.5
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/outerwall-after.webp",
+            "alt": "外壁手洗い洗浄の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/outerwall-after.webp",
+            "alt": "外壁手洗い洗浄の作業イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "heading": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 30.125,
+                "y": 6789.125,
+                "width": 259.75,
+                "height": 64
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "text": [
+            {
+              "text": "人気の組み合わせプラン",
+              "rect": {
+                "x": 61,
+                "y": 6810.328125,
+                "width": 198,
+                "height": 21.59375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "grid": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n目地まわりの追加洗浄\n\n外壁手洗い洗浄に目地まわりの追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n47,300\n(税込)／式\n\n46,200\n(税込)／式\n\n1\n2\n3\nカートに追加\nまとめてお手入れプラン\n種類\nオプション\n\n目地まわりの追加洗浄\n\n防汚仕上げ\n\n外壁手洗い洗浄に目地まわりの追加洗浄と防汚仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n52,800\n(税込)／式\n\n51,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7042.125,
+                "width": 290,
+                "height": 1294.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "card": [
+            {
+              "text": "しっかりお手入れプラン\n\nオススメ\n\n種類\nオプション\n\n目地まわりの追加洗浄\n\n外壁手洗い洗浄に目地まわりの追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n47,300\n(税込)／式\n\n46,200\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7042.125,
+                "width": 290,
+                "height": 645
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン\n種類\nオプション\n\n目地まわりの追加洗浄\n\n防汚仕上げ\n\n外壁手洗い洗浄に目地まわりの追加洗浄と防汚仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。\n\n2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n52,800\n(税込)／式\n\n51,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7711.125,
+                "width": 290,
+                "height": 625.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "title": [
+            {
+              "text": "しっかりお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 7042.125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "まとめてお手入れプラン",
+              "rect": {
+                "x": 15,
+                "y": 7711.125,
+                "width": 290,
+                "height": 90
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "body": [
+            {
+              "text": "種類\nオプション\n\n目地まわりの追加洗浄\n\n外壁手洗い洗浄に目地まわりの追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7132.125,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n目地まわりの追加洗浄\n\n防汚仕上げ\n\n外壁手洗い洗浄に目地まわりの追加洗浄と防汚仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 15,
+                "y": 7801.125,
+                "width": 290,
+                "height": 218.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "外壁手洗い洗浄に目地まわりの追加洗浄を組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 7248.46875,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "外壁手洗い洗浄に目地まわりの追加洗浄と防汚仕上げを組み合わせたプランです。対象の状態を確認し、それぞれの作業内容をご案内します。",
+              "rect": {
+                "x": 35,
+                "y": 7917.46875,
+                "width": 250,
+                "height": 78
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "list": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n47,300\n(税込)／式\n\n46,200\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7350.46875,
+                "width": 290,
+                "height": 336.65625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n52,800\n(税込)／式\n\n51,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8019.46875,
+                "width": 290,
+                "height": 317.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "item": [
+            {
+              "text": "2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n47,300\n(税込)／式\n\n46,200\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7351.46875,
+                "width": 290,
+                "height": 335.65625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "2セット以上ご注文でお得！\n\n外壁１面（40㎡以下）\n\n52,800\n(税込)／式\n\n51,700\n(税込)／式\n\n1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8020.46875,
+                "width": 290,
+                "height": 316.15625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "controls": [
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 7597.75,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "1\n2\n3\nカートに追加",
+              "rect": {
+                "x": 35,
+                "y": 8247.25,
+                "width": 250,
+                "height": 73.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "detail": [
+            {
+              "text": "種類\nオプション\n\n目地まわりの追加洗浄",
+              "rect": {
+                "x": 35,
+                "y": 7148.125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類\nオプション\n\n目地まわりの追加洗浄\n\n防汚仕上げ",
+              "rect": {
+                "x": 35,
+                "y": 7817.125,
+                "width": 250,
+                "height": 76.34375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "type": [
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 7171.625,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 35,
+                "y": 7840.625,
+                "width": 52.84375,
+                "height": 52.84375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "term": [
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7148.125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7148.125,
+                "width": 165.15625,
+                "height": 34.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "種類",
+              "rect": {
+                "x": 35,
+                "y": 7817.125,
+                "width": 52.84375,
+                "height": 19.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "オプション",
+              "rect": {
+                "x": 119.84375,
+                "y": 7817.125,
+                "width": 165.15625,
+                "height": 20.421875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "options": [
+            {
+              "text": "目地まわりの追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 7186.296875,
+                "width": 165.15625,
+                "height": 38.171875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "目地まわりの追加洗浄\n\n防汚仕上げ",
+              "rect": {
+                "x": 119.84375,
+                "y": 7841.546875,
+                "width": 165.15625,
+                "height": 51.921875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "option": [
+            {
+              "text": "目地まわりの追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 7186.296875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "目地まわりの追加洗浄",
+              "rect": {
+                "x": 119.84375,
+                "y": 7841.546875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "防汚仕上げ",
+              "rect": {
+                "x": 119.84375,
+                "y": 7869.046875,
+                "width": 165.15625,
+                "height": 23.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "planTabsOpened": 4,
+        "quantitiesChanged": 8,
+        "demoActions": 8,
+        "planCards": [
+          "demo-plan-others-estimate-0-1",
+          "demo-plan-others-estimate-0-2",
+          "demo-plan-700-1",
+          "demo-plan-700-2",
+          "demo-plan-702-1",
+          "demo-plan-702-2",
+          "demo-plan-703-1",
+          "demo-plan-703-2"
+        ]
+      }
+    }
+  ]
+}

@@ -10,6 +10,7 @@ const copy = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/co
 const voiceProfiles = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/voices.json'), 'utf8')).pages;
 const airconComparisons = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/aircon-comparisons.json'), 'utf8'));
 const serviceComparisons = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/service-comparisons.json'), 'utf8'));
+const additionalPlans = JSON.parse(fs.readFileSync(path.join(root, 'source/service-pages/additional-plans.json'), 'utf8')).products;
 const origin = process.argv[2] || 'http://127.0.0.1:8769';
 const output = process.argv[3] || 'evidence/2026-10-04/sections/selector';
 const phase = process.argv[4] || 'selector';
@@ -26,7 +27,7 @@ const definitions = {
  reasons: {root:'main > section:has(.p-reasons)',components:{heading:'.p-reasons__heading',grid:'.c-reasons',item:'.c-reasons__item',circle:'.c-reasons__card',point:'.c-reasons__point',title:'.c-reason-card__heading',text:'.c-reason-card__description',navy:'.c-reasons__navy'}},
  lineup: {root:'#apply',capture:'.c-lineup-heading',needImages:false,components:{band:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00)',title:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__contain',label:'#apply > .c-lineup-heading:not(#service-sets):not(#anchor00) .c-lineup-heading__label'}},
  products: {root:'#apply',capture:'.c-lineup-card',imageSelector:'.c-lineup-card__image img',components:{card:'.c-lineup-card',image:'.c-lineup-card__image',contents:'.c-lineup-card__contents',heading:'.c-lineup-card__heading',description:'.c-lineup-card__description',footer:'.c-lineup-card__foot'}},
- offers: {root:'#apply > section:has([data-service-offer])',imageSelector:'.c-plan-card-detail__image,.c-set-plan-card__image',components:{heading:'.recommend-plan__heading',text:'.c-bracket-heading__text',grid:'.recommend-plan-cards',card:'.c-plan-card',title:'.c-plan-card__heading',body:'.c-plan-card__body',description:'.c-plan-card__description',list:'.c-plan-card__list',item:'.c-plan-card-list-item',controls:'.c-plan-card-list-item__body'}},
+ offers: {root:'#apply > section:has([data-service-offer])',imageSelector:'.c-plan-card-detail__image,.c-set-plan-card__image',components:{heading:'.recommend-plan__heading',text:'.c-bracket-heading__text',grid:'.recommend-plan-cards',card:'.c-plan-card',title:'.c-plan-card__heading',body:'.c-plan-card__body',description:'.c-plan-card__description',list:'.c-plan-card__list',item:'.c-plan-card-list-item',controls:'.c-plan-card-list-item__body',detail:'.c-plan-card-detail',type:'.c-plan-card-detail__type',term:'.c-plan-card-detail__term',options:'.c-plan-card-detail__options',option:'.c-plan-card-detail__option'}},
  voices: {root:'.c-voice-section--bubble-preview',capture:'.c-voice-card',imageSelector:'.c-section-heading img',components:{heading:'.c-section-heading',grid:'.c-voice-bubbles',card:'.c-voice-card',profile:'.c-voice-card__profile',name:'.c-voice-card__nickname',demographic:'.c-voice-card__demographic',title:'.c-voice-card__heading',text:'.c-voice-card__text',stars:'.c-voice-card__stars'}},
  faq: {root:'#service-faq',components:{heading:'.c-section-heading',grid:'.c-faq-accordion',item:'.c-faq-accordion__item',title:'.c-faq-accordion__heading',button:'.c-faq-accordion__trigger'}},
  flow: {root:'#service-flow',components:{heading:'.c-section-heading',grid:'.c-howto',item:'.c-howto__item',visual:'.c-howto__visual',icon:'.c-howto__icon',step:'.c-howto__step',title:'.c-howto__heading',text:'.c-howto__description'}},
@@ -169,14 +170,14 @@ function checkOffers(actual,reference,route){
  assert(actual&&!actual.overflow,'offers missing or page overflows');
  assert.deepEqual(actual.style,reference.style,'offer background or spacing differs');
  assert(actual.components.heading.length===1&&actual.components.text[0].text==='人気の組み合わせプラン','popular plan heading missing');
- assert.equal(actual.components.card.length,route==='aircon'?2:catalogue.pages[route].offers.length,'offer card count');
+ assert.equal(actual.components.card.length,route==='aircon/ceil'?1:2,'offer card count');
  for(const [key,items] of Object.entries(actual.components)){
   assert(items.length,`missing plan ${key}`);
   for(const item of items){
-   if(key==='item')assert(reference.components.item.some(c=>isDeepStrictEqual(c.style,item.style)),'plan item or divider styles differ');
+   if(['item','option'].includes(key))assert(reference.components[key].some(c=>isDeepStrictEqual(c.style,item.style)),`${key} styles differ from aircon`);
    else assert.deepEqual(item.style,reference.components[key][0].style,`${key} styles differ from aircon`);
    assert(!item.overflow,`${key} clips plan text`);
-   if(key==='card')assert(Math.abs(item.rect.width-reference.components.card[0].rect.width)<.1,'plan card width differs');
+   if(['card','type'].includes(key))assert(Math.abs(item.rect.width-reference.components[key][0].rect.width)<.1,`${key} width differs`);
    if(key==='title')assert(item.lines.every(line=>line.length>2),`plan name has a short orphan line: ${item.lines.join(' / ')}`);
   }
  }
@@ -228,9 +229,14 @@ async function interact(page,route,viewport){
  }
  if(phase==='offers'){
   const tabs=page.locator('.recommend-plan__tab .c-tab__button');
-  let quantities=0;
-  for(let i=0;i<Math.max(1,await tabs.count());i++){
-   if(await tabs.count())await tabs.nth(i).click();
+  let quantities=0, demoActions=0;const planCards=[];
+  const keys=catalogue.pages[route].groups.flatMap(g=>g.products);
+  const expectedTabs=catalogue.pages[route].category==='aircon'?(route==='aircon'?2:1):keys.length+(catalogue.pages[route].offers.length?1:0);
+  assert.equal(await tabs.count(),expectedTabs,'plan tabs missing products');
+  for(let i=0;i<await tabs.count();i++){
+   const tab=tabs.nth(i);await tab.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top-innerHeight*.4,behavior:'instant'}));await tab.click();
+   assert.equal(await tab.getAttribute('aria-selected'),'true');
+   assert(await tab.evaluate(n=>n.scrollWidth<=n.clientWidth+1),'plan tab text clipped');
    const selects=page.locator('[data-service-offer] .js-product-quantity select:visible');
    for(let j=0;j<await selects.count();j++){
     const select=selects.nth(j);await select.selectOption({index:1});
@@ -238,9 +244,30 @@ async function interact(page,route,viewport){
     assert(await select.evaluate(n=>!!n.closest('[data-product-card="set-plan"]').querySelector('input[name="product-id"]')?.value),'plan product ID missing');
     await select.selectOption({index:0});quantities++;
    }
+   const additions=page.locator('[data-demo-plan]:visible');
+   if(catalogue.pages[route].category!=='aircon'&&i<keys.length){
+    assert.equal(await additions.count(),2,'this product has fewer than two plans');
+    for(let j=0;j<2;j++){
+     const card=additions.nth(j),record=additionalPlans[keys[i]][j];
+     assert.equal(await card.getAttribute('data-plan-product'),keys[i]);
+     assert.equal(await card.locator('.c-plan-card__heading').innerText(),record.name);
+     assert.equal(await card.locator('.c-plan-card-list-item__heading').innerText(),record.label);
+     assert.deepEqual(await card.locator('.c-plan-card-detail__option').allTextContents(),record.options.map(o=>o.name+(o.quantity>1?' ×'+o.quantity:'')));
+     assert.deepEqual(await card.locator('.c-plan-price__text').allTextContents(),[record.price.toLocaleString('en-US'),record.multi_price.toLocaleString('en-US')]);
+     const img=card.locator('.c-plan-card-detail__image');await img.evaluate(async n=>{n.loading='eager';await n.decode();});
+     const picture=await img.evaluate(n=>({loaded:n.naturalWidth>0,width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));
+     assert(picture.loaded&&picture.width<=80.1&&Math.abs(picture.height-picture.width)<.1,'base product picture frame differs');
+     const button=card.locator('.js-add-cart');await button.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top-innerHeight*.5,behavior:'instant'}));
+     let message='';page.once('dialog',async d=>{message=d.message();await d.accept();});await button.click();assert.equal(message,'デモ表示のためリンク未設定です。');demoActions++;
+     const overflow=await card.locator('.c-plan-card__heading,.c-plan-card-list-item__heading,.c-plan-card-detail__option,.c-plan-card__description').evaluateAll(nodes=>nodes.filter(n=>n.scrollWidth>n.clientWidth+1).map(n=>n.innerText));
+     assert.deepEqual(overflow,[],'plan text is clipped');
+     planCards.push(record.id);
+    }
+   }
+   assert(await page.locator('[data-service-offer]:visible').evaluateAll(nodes=>nodes.every(n=>n.querySelector('.c-plan-card-detail')&&n.querySelector('.c-plan-card-detail__options'))),'plan type plus options structure missing');
   }
-  if(await tabs.count())await tabs.first().click();
-  return {planTabsOpened:await tabs.count(),quantitiesChanged:quantities};
+  await tabs.first().evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top-innerHeight*.4,behavior:'instant'}));await tabs.first().click();
+  return {planTabsOpened:await tabs.count(),quantitiesChanged:quantities,demoActions,planCards};
  }
  if(phase==='products'){
   const variants=page.locator('#apply .js-room-types');
@@ -366,7 +393,7 @@ async function gallery(items, engine, viewport) {
   const browser=await launch();
   try {for(const viewport of sizes){
    const context=await browser.newContext({viewport,isMobile:viewport.width<768,hasTouch:viewport.width<768});
-   const page=await context.newPage();page.setDefaultTimeout(10000);page.setDefaultNavigationTimeout(45000);
+   const page=await context.newPage();page.setDefaultTimeout(30000);page.setDefaultNavigationTimeout(45000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();

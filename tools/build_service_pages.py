@@ -14,6 +14,7 @@ DATA = ROOT / 'source/service-pages'
 AIRCON_COMPARISONS = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='utf-8'))
 SERVICE_COMPARISONS = json.loads((DATA / 'service-comparisons.json').read_text(encoding='utf-8'))
 ADDITIONAL_OPTIONS = json.loads((DATA / 'additional-options.json').read_text(encoding='utf-8'))['products']
+ADDITIONAL_PLANS = json.loads((DATA / 'additional-plans.json').read_text(encoding='utf-8'))['products']
 STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
                   'lab/online_store/detergent/product-303/index.html')
 NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
@@ -293,7 +294,17 @@ def offer(key, catalogue):
                 title.append(line)
         n.append(title)
         body = tag('div', 'c-plan-card__body')
-        body.append(source.select_one('.c-set-plan-card__images').extract())
+        detail = deepcopy(parse(catalogue['offers']['aircon-offer-1']).select_one('.c-plan-card-detail'))
+        picture = detail.select_one('img')
+        base_scene = OFFER_IMAGES[Path(old_sources[0]).stem]
+        picture['src'] = SERVICE_COMPARISONS[base_scene]['after']
+        picture['alt'] = title.get_text(' ', strip=True) + 'の基本サービス'
+        picture['style'] = 'width:80px;height:auto;aspect-ratio:1;object-fit:cover;'
+        option_labels = {'kitchen': 'キッチンクリーニング', 'bath-fan': '浴室乾燥機クリーニング',
+                         'sink': '洗面台クリーニング', 'pipe': '追い焚き配管クリーニング',
+                         'ulblo': '浴室用アダプター取り付け', 'wallpaper-dyeing-cloth': '壁紙染色'}
+        detail.select_one('.c-plan-card-detail__option').string = option_labels[Path(old_sources[1]).stem]
+        body.append(detail)
         description = source.select_one('.c-set-plan-card__description').extract()
         description['class'] = ['c-plan-card__description']
         body.append(description); n.append(body)
@@ -322,6 +333,79 @@ def offer(key, catalogue):
             item.append(hidden.extract())
         items.append(item); n.append(items)
     return n
+
+
+def additional_plan(record, catalogue, copy):
+    card = parse(catalogue['offers']['aircon-offer-1']).find()
+    card['data-service-offer'] = record['id']
+    card['data-demo-plan'] = record['id']
+    card['data-plan-product'] = record['product']
+    card.select_one('.c-plan-card__heading').string = record['name']
+    if record['id'].endswith('-2'):
+        card.select_one('.c-plan-card__label').decompose()
+    picture = card.select_one('.c-plan-card-detail__image')
+    picture['src'] = SERVICE_COMPARISONS[copy['products'][record['product']]['scene']]['after']
+    picture['alt'] = copy['products'][record['product']]['short'] + 'の作業イメージ'
+    picture['style'] = 'width:80px;height:auto;aspect-ratio:1;object-fit:cover;'
+    picture['decoding'] = 'async'
+    options = card.select_one('.c-plan-card-detail__options')
+    options.clear()
+    for option in record['options']:
+        suffix = f" ×{option['quantity']}" if option['quantity'] > 1 else ''
+        options.append(tag('p', 'c-plan-card-detail__option', option['name'] + suffix))
+    card.select_one('.c-plan-card__description').string = record['description']
+    items = card.select_one('.c-plan-card-list')
+    item = deepcopy(items.select_one('.c-plan-card-list-item'))
+    items.clear()
+    discounts = item.select('.c-plan-card-list-item__discount')
+    discounts[0].string = '2セット以上ご注文でお得！'
+    discounts[1].decompose()
+    item.select_one('.c-plan-card-list-item__heading').string = record['label']
+    for row, price, label in zip(item.select('.c-plan-multi-discount-price__item'),
+                                 [record['price'], record['multi_price']],
+                                 ['1セットご注文時', '2セット以上ご注文時']):
+        row['data-text'] = label
+        row.select_one('.c-plan-price__text').string = f'{price:,}'
+    item.select_one('input[name="product-id"]')['value'] = record['id']
+    item.select_one('.js-add-cart')['data-demo-dialog'] = ''
+    items.append(item)
+    return card
+
+
+def additional_plans_section(page, route, catalogue, copy):
+    section = template('aircon-offers')
+    section['id'] = 'anchor00' if route == 'pack' else 'service-sets'
+    section.select_one('.recommend-plan__text').decompose()
+    heading = section.select_one('.recommend-plan__heading')
+    heading.clear()
+    heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
+    buttons = section.select_one('.c-tab__buttons')
+    panels = section.select_one('.c-tab__panels')
+    button, panel = deepcopy(buttons.find('button')), deepcopy(panels.select_one('.c-tab__panel'))
+    buttons.clear(); panels.clear()
+    keys = list(dict.fromkeys(key for group in page['groups'] for key in group['products']))
+    subjects = [(ADDITIONAL_PLANS[key][0]['tab_lines'], [additional_plan(r, catalogue, copy) for r in ADDITIONAL_PLANS[key]]) for key in keys]
+    if page['offers']:
+        subjects.append((['お得なセット'], [offer(key, catalogue) for key in page['offers']]))
+    for index, (labels, cards) in enumerate(subjects):
+        b, box = deepcopy(button), deepcopy(panel)
+        bid, pid = f'service-plan-button-{index+1}', f'service-plan-panel-{index+1}'
+        b['id'], b['aria-controls'], b['aria-selected'], b['tabindex'] = bid, pid, str(index == 0).lower(), '0' if index == 0 else '-1'
+        b.clear()
+        span = tag('span')
+        lines(span, labels)
+        for br in span.select('br'):
+            br['class'] = ['u-sp-only']
+        b.append(span)
+        box['id'], box['aria-labelledby'] = pid, bid
+        box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
+        box['tabindex'] = '0' if index == 0 else '-1'
+        grid = box.select_one('.recommend-plan-cards')
+        grid.clear()
+        for card in cards:
+            grid.append(card)
+        buttons.append(b); panels.append(box)
+    return section
 
 
 def navigation(page, primary, category, copy):
@@ -623,30 +707,32 @@ def render(route, page, catalogue, copy):
         apply.append(lineup_heading(group['title'], group['id'], copy['products'][group['products'][0]]['scene'], rounded=True))
         for key in group['products']:
             apply.append(product(key,route,catalogue,copy))
-    if page['offers']:
-        offers_id = 'anchor00' if route == 'pack' else 'service-sets'
-        if page['category'] == 'aircon':
-            section = template('aircon-offers')
-            section.select_one('.recommend-plan__text').decompose()
-            heading = section.select_one('.recommend-plan__heading')
-            heading.clear()
-            heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
-            panels = section.select('.c-tab__panel .recommend-plan-cards')
-            assert len(panels) == 2 and len(page['offers']) == 3
+    if page['category'] == 'aircon':
+        section = template('aircon-offers')
+        section.select_one('.recommend-plan__text').decompose()
+        heading = section.select_one('.recommend-plan__heading')
+        heading.clear()
+        heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
+        panels = section.select('.c-tab__panel .recommend-plan-cards')
+        assert len(panels) == 2
+        if page['offers']:
+            assert len(page['offers']) == 3
             for index, key in enumerate(page['offers']):
                 panels[0 if index < 2 else 1].append(offer(key,catalogue))
-            apply.append(section)
         else:
-            section = template('aircon-offers'); section['id'] = offers_id
-            section.select_one('.recommend-plan__text').decompose()
-            heading = section.select_one('.recommend-plan__heading'); heading.clear()
-            heading.append(tag('span', 'c-bracket-heading__text', '人気の組み合わせプラン'))
-            content = section.select_one('.recommend-plan__tab'); content.clear()
-            content['class'] = ['recommend-plan__tab']
-            grid = tag('div', 'recommend-plan-cards c-service-offers')
-            for key in page['offers']:
-                grid.append(offer(key,catalogue))
-            content.append(grid); apply.append(section)
+            relevant = ['aircon-offer-3'] if primary == '3' else ['aircon-offer-1', 'aircon-offer-2']
+            chosen = 1 if primary == '3' else 0
+            for key in relevant:
+                panels[chosen].append(offer(key, catalogue))
+            section.select('.c-tab__button')[1 - chosen].decompose()
+            panels[1 - chosen].find_parent(class_='c-tab__panel').decompose()
+            button = section.select_one('.c-tab__button')
+            button['aria-selected'], button['tabindex'] = 'true', '0'
+            box = section.select_one('.c-tab__panel')
+            box['class'], box['tabindex'] = ['c-tab__panel', 'is-active'], '0'
+        apply.append(section)
+    else:
+        apply.append(additional_plans_section(page, route, catalogue, copy))
     questions = None
     if '/' in route:
         detail_faq = json.loads((DATA / 'detail-faq.json').read_text(encoding='utf-8'))
