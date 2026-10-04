@@ -684,9 +684,10 @@
   }
 
   .c-service-flow--aircon .c-howto__item:not(:last-child) .c-howto__step::after {
-    right: calc(var(--howto-gap) / -2 - 6px);
-    width: 12px;
-    height: 22px;
+    right: calc(var(--howto-gap) / -2 - 9px);
+    width: 18px;
+    height: 34px;
+    background: linear-gradient(90deg, #e1eaf2 0%, #a9bfd2 18%, #6382a3 27%, #355b86 32%, #244574 100%);
   }
 
   .c-service-flow--aircon .c-howto__item:nth-child(3) .c-howto__step::after {
