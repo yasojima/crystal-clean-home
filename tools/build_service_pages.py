@@ -777,7 +777,7 @@ def render(route, page, catalogue, copy):
                     f'/assets/css/service-pages.css?v={css_version}', output)
     output = ensure_navy_stylesheet(output)
     for name, version in [('aircon-voice-bubbles', '2026100236'), ('aircon-hero', '2026100402'),
-                          ('aircon-layout', '2026100509' if route == 'aircon' else '2026100402'), ('service-format', '2026100403')]:
+                          ('aircon-layout', '2026100510' if route == 'aircon' else '2026100402'), ('service-format', '2026100403')]:
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
