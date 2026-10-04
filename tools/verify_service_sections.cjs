@@ -251,6 +251,7 @@ async function interact(page,route,viewport){
   }
   const triggers=page.locator('#apply .c-lineup-options__accordion-trigger:visible');
   const checked=[];
+  const newOptions=[];
   for(let i=0;i<await triggers.count();i++){
    const button=triggers.nth(i);
    await button.evaluate(e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-innerHeight*.35,behavior:'instant'}));
@@ -261,10 +262,25 @@ async function interact(page,route,viewport){
    const overflow=await panel.locator('.c-product-additional-card__heading,.c-product-additional-card__description').evaluateAll(nodes=>nodes.filter(n=>n.getBoundingClientRect().height>0&&n.scrollWidth>n.clientWidth+1).map(n=>n.textContent));
    assert.deepEqual(overflow,[],'option text clipped');
    checked.push(await panel.locator('.c-product-additional-card').count());
+   const additions=panel.locator('[data-demo-option]:visible');
+   for(let j=0;j<await additions.count();j++){
+    const card=additions.nth(j);
+    const img=card.locator('img');
+    await img.evaluate(async n=>{n.loading='eager';await n.decode();});
+    const picture=await img.evaluate(n=>({loaded:n.naturalWidth>0,width:n.getBoundingClientRect().width,height:n.getBoundingClientRect().height}));
+    assert(picture.loaded&&Math.abs(picture.width-72)<.1&&Math.abs(picture.height-72)<.1,'new option image frame differs');
+    const quantity=card.locator('.js-product-quantity select');await quantity.selectOption({index:1});assert.equal(await quantity.evaluate(n=>n.selectedIndex),1);await quantity.selectOption({index:0});
+    const button=card.locator('.js-add-cart');
+    await button.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top-innerHeight*.5,behavior:'instant'}));
+    let dialogText='';page.once('dialog',async dialog=>{dialogText=dialog.message();await dialog.accept();});
+    await button.click();assert.equal(dialogText,'デモ表示のためリンク未設定です。','new option demo action failed');
+    newOptions.push(await card.getAttribute('data-demo-option'));
+   }
+   if(await additions.count() && process.env.SECTION_SCREENSHOTS!=='none')await panel.screenshot({path:path.join(output,`${viewport.width}-${route.replaceAll('/','-')}-options-${i}.png`)});
    await button.evaluate(e=>scrollTo({top:scrollY+e.getBoundingClientRect().top-innerHeight*.35,behavior:'instant'}));
    await button.click();assert.equal(await button.getAttribute('aria-expanded'),'false');await page.waitForTimeout(350);
   }
-  return {variantsSwitched:await variants.count(),optionPanelsOpened:checked.length,optionCardCounts:checked};
+  return {variantsSwitched:await variants.count(),optionPanelsOpened:checked.length,optionCardCounts:checked,newOptions};
  }
  if(phase!=='introduction')return;
  const primary=catalogue.pages[route].groups[0].products[0];

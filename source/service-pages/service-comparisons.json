@@ -166,5 +166,243 @@
       1536,
       1024
     ]
+  },
+  "refrigerator": {
+    "before": "/assets/images/service-scenes/refrigerator.webp",
+    "after": "/assets/images/service-scenes/refrigerator-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/refrigerator.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-5ac2b993-1e29-4240-9fc3-b3f35ab0e37e.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact refrigerator AFTER cleaning. Remove visible food residue and grime from the shelves, drawer seams and rails. Keep every drawer, transparent edge, rail, cloth and light at the same coordinates. Do not replace or rearrange anything.",
+    "sha256": "664e05e9d6a032558bb37d76743bcc179408c2ee833ddc73c29886cc6c4d4d5d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "dishwasher": {
+    "before": "/assets/images/service-scenes/dishwasher.webp",
+    "after": "/assets/images/service-scenes/dishwasher-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/dishwasher.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-e954c21e-a612-482f-bd49-2a3dbc601b1e.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact dishwasher interior AFTER cleaning. Remove trapped food particles, grease and mineral residue from the same filter mesh, drain and stainless tub. Preserve the filter, spray arm, all fasteners, angle and lighting.",
+    "sha256": "e2ae656e33b701c90171aecb2546555701131c2bcc2bfeeba7c5f3e5fd7674ca",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "finish-check": {
+    "before": "/assets/images/service-scenes/finish-check-before.webp",
+    "after": "/assets/images/service-scenes/finish-check.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/finish-check.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-260323fa-2e17-4f27-a67c-2e09746e53e2.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact stainless sink BEFORE cleaning. Add realistic dull water-scale film, modest grime around the faucet base, rim and drain. Keep the same cloth, sink grain, scratch marks, fittings and exact camera crop. Avoid exaggerated dirt.",
+    "sha256": "60b2ab765382f5392ee7df06e3e644ca9146232d51794159492c0952eebfbae6",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "wood-coating": {
+    "before": "/assets/images/service-scenes/wood-coating-before.webp",
+    "after": "/assets/images/service-scenes/wood-coating.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/wood-coating.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-ee55d05a-8fe9-4dc9-9ec8-32ae18c72c5f.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact wood floor BEFORE its surface is cleaned and coated. Make the wood finish visibly duller with ordinary light scuffs and uneven faded sheen. Preserve every grain, board joint, mop, tool and camera position. Do not add damage, change wood color, or create a dividing line.",
+    "sha256": "0dacebf4ec1fe331aa734eceaf70f9640ca2771f9199b733a559fa0f072c324d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "mattress": {
+    "before": "/assets/images/service-scenes/mattress.webp",
+    "after": "/assets/images/service-scenes/mattress-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/mattress.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-f5839e6b-3705-4fe9-8cc1-be43845f2973.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact mattress AFTER fabric extraction cleaning. Remove the faint yellowish patches and gray dust from the same quilted surface, while preserving stitching, pilling and natural textile texture. Keep the transparent extraction tool at its exact original coordinates and angle.",
+    "sha256": "8974ccc712ce9c5c10fdac88a9f7637b0aa01531fa03d115ac6ae698c359aec9",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "sofa": {
+    "before": "/assets/images/service-scenes/sofa.webp",
+    "after": "/assets/images/service-scenes/sofa-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/sofa.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-4b6b8dab-977b-4e45-93ef-6a7a757e5830.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact sofa AFTER fabric extraction cleaning. Remove dull greasy stains and household dirt on the same seat fabric and seam. Preserve the woven pattern, wrinkles, upholstery geometry and clear extraction nozzle position. Do not recolor or replace the fabric.",
+    "sha256": "474526dd84ccad91d0bffbe2ec3d940bff967bf4b103e8d5d3fccf89beec29a5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "carpet": {
+    "before": "/assets/images/service-scenes/carpet.webp",
+    "after": "/assets/images/service-scenes/carpet-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/carpet.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-03c12008-78a2-4f6a-881b-e327042d4f31.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact carpet AFTER extraction cleaning. Remove gray soil, dark traffic smudges and debris from the carpet fibers. Preserve the same pile, true beige color, natural worn areas, tool, hose, exact perspective and framing.",
+    "sha256": "a3e1ac732f3264b7b670869f44cfe9ff543d96ec538c3d7b767c69ed064db007",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "wallpaper-dyeing": {
+    "before": "/assets/images/service-scenes/wallpaper-dyeing-before.webp",
+    "after": "/assets/images/service-scenes/wallpaper-dyeing.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "before",
+    "reference": "/assets/images/service-scenes/wallpaper-dyeing.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-db94539b-441c-4bc5-8924-acd30bdf8357.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact wallpaper wall BEFORE surface recoloring. Add ordinary uneven age yellowing and faint gray smudges over the wall, retaining the same wallpaper texture, wall corner, skirting board, masking tape, plastic sheeting, paint tray and roller in the exact same positions. Do not create cracks or any new tools.",
+    "sha256": "c744e06f00e80b53e84f2ddf9142569b8534b4c12e8ca59959095072ba371626",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "wall": {
+    "before": "/assets/images/service-scenes/wall.webp",
+    "after": "/assets/images/service-scenes/wall-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/wall.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-cdab2ae7-6906-4be4-923a-6a2f44e74549.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact wallpaper wall AFTER careful surface cleaning. Remove the gray smudges and yellowish dirt along the skirting and seams, keeping wallpaper texture and any permanent wear. Keep the sponge, cloth, plastic sheet and corner geometry in their precise original coordinates.",
+    "sha256": "77825298d52901e2e18f2d8874c7760c104c0325a7d5dcb852e88871a5c1d37b",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "window": {
+    "before": "/assets/images/service-scenes/window.webp",
+    "after": "/assets/images/service-scenes/window-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/window.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-83ab8ad7-adbf-4d0d-87b1-7934060f0e4b.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact window and aluminum sash AFTER cleaning. Remove dark grime from sash tracks, frame seams and glass, and reduce cloudy water residue. Preserve screws, gasket, brush, track shape and every original object. Keep natural age marks.",
+    "sha256": "ee9a6f64f86e1ddb7c4a013c7d1e3bf019b4c2f9c0ff48c5cac3df3c970be61d",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "entrance": {
+    "before": "/assets/images/service-scenes/entrance.webp",
+    "after": "/assets/images/service-scenes/entrance-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/entrance.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-d21d6989-3f3b-4ad2-9c72-b4c76a87f8db.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact tiled entrance AFTER cleaning. Remove dirt film, soap foam and grime on the tiles and grout. Preserve stone speckles, every tile joint, brush, threshold and perspective. Leave a few clear water droplets rather than wet foam.",
+    "sha256": "b3db3115a7ac28a3e7cf9f1ae721c8cac88f3974024aa5b10ed464e674d3d2e0",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "duct": {
+    "before": "/assets/images/service-scenes/duct.webp",
+    "after": "/assets/images/service-scenes/duct-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/duct.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-0c08e1ba-e271-4e6f-afc1-d189edd04428.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact open ventilation duct AFTER cleaning. Remove dust from the inner duct ridges, circular opening rim and detached vent cover. Preserve all cover louvers, screws, brush, plastic sheet and camera angle. Do not replace or enlarge the duct.",
+    "sha256": "98282e3beaa44f83a01d4ab3eba87108006cf304dfa94ce8525475a904fa63f7",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "air-purifier": {
+    "before": "/assets/images/service-scenes/air-purifier.webp",
+    "after": "/assets/images/service-scenes/air-purifier-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/air-purifier.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-9a0e6166-b21b-403b-bb56-7a1c8aa65628.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact air purifier AFTER dust removal. Remove dust and loose lint from the same filter pleats and frame, while preserving all filter lines, housing, towel, brushes and original position. Do not imply replacement with a different filter.",
+    "sha256": "f94a8a8002b507581cb9aca29ad40b04bfc276ec88e19995d96672523fc08a9f",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "wood-repair": {
+    "before": "/assets/images/service-scenes/wood-repair.webp",
+    "after": "/assets/images/service-scenes/wood-repair-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/wood-repair.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-6a588f1b-7354-4bd4-a4c5-7d4dab65e8a5.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact wood floor AFTER the localized repair is finished. Blend the pale filled chip and rough gouge into the surrounding wood grain and matching warm brown surface. Keep every original board joint, natural scratch outside the repaired spot, towel and putty knife at the same coordinates. No glossy coating or changes to camera.",
+    "sha256": "5c2a0712829dd8b05b628809fb80ed251c44e9a7253e087c09018f5739168af0",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "outerwall": {
+    "before": "/assets/images/service-scenes/outerwall.webp",
+    "after": "/assets/images/service-scenes/outerwall-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/outerwall.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-636a58c5-e138-4c94-b58d-fbebe279220e.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact house exterior siding AFTER hand washing. Remove ordinary green-gray surface dirt and algae speckles, preserving the siding grain, every horizontal seam, age wear, brush, water ledge and camera crop.",
+    "sha256": "6c5cd91fd126da5f335b32b3c8261b6bd029af851477d33b92780ae6d120dfd5",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "balcony": {
+    "before": "/assets/images/service-scenes/balcony.webp",
+    "after": "/assets/images/service-scenes/balcony-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/balcony.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-dfb7caaf-8ade-4e39-9315-0972bef7cf27.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact balcony floor AFTER pressure washing. Remove the dark surface dirt, loose debris and muddy water while preserving the same floor pattern, drain, corners, wall and pressure-washer lance in exact positions. Leave a thin clear damp sheen.",
+    "sha256": "f1d5dad1dfaf971858170456c5d90ed48403ad61c4fd706867f66323fe475436",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "grave": {
+    "before": "/assets/images/service-scenes/grave.webp",
+    "after": "/assets/images/service-scenes/grave-after.webp",
+    "mode": "built-in image_gen edit",
+    "editState": "after",
+    "reference": "/assets/images/service-scenes/grave.webp",
+    "generatedOriginal": "C:\\Users\\yasoj\\.codex\\generated_images\\01a0f3b4-8faf-7aa2-8b67-f312ac4d617c\\exec-09d37ddf-cbce-4acb-bf97-36a7d76f465a.png",
+    "prompt": "Use case: precise-object-edit. Asset type: one 3:2 landscape photo for a website Before/After drag comparison, 1536x1024. The input is the exact edit target, not a loose style reference. Keep the exact camera position, perspective, crop, room geometry, material pattern, every object and tool at precisely the same coordinates and scale, and the same natural lighting. Photorealistic ordinary Japanese home, no people, no hands, no text, no lettering, no arrows, no labels, no collage, no split view. Change only the requested surface condition across the WHOLE frame; no dividing boundary. Preserve honest existing wear and scratches.\nPrimary request: Show this exact stone grave surface AFTER careful cleaning and rinsing. Remove the soap foam, ordinary surface grime and greenish dirt around stone joints. Keep granite grain, all edges, surrounding pebbles, brush and exact perspective. Do not add inscriptions or replace stones.",
+    "sha256": "419ae772e35db2269ee59560d7f70cb9f712bbb5322f73a3420dc40482b919d8",
+    "size": [
+      1536,
+      1024
+    ]
   }
 }

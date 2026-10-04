@@ -13,6 +13,7 @@ SITE = ROOT / 'source/site'
 DATA = ROOT / 'source/service-pages'
 AIRCON_COMPARISONS = json.loads((DATA / 'aircon-comparisons.json').read_text(encoding='utf-8'))
 SERVICE_COMPARISONS = json.loads((DATA / 'service-comparisons.json').read_text(encoding='utf-8'))
+ADDITIONAL_OPTIONS = json.loads((DATA / 'additional-options.json').read_text(encoding='utf-8'))['products']
 STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
                   'lab/online_store/detergent/product-303/index.html')
 NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
@@ -147,6 +148,48 @@ def entrance_options(block, key, catalogue):
     block.append(container)
 
 
+def add_missing_options(block, key, catalogue):
+    if block.select_one('.c-product-additional-card'):
+        assert key not in ADDITIONAL_OPTIONS, f'Existing options must remain unchanged: {key}'
+        return
+    options = ADDITIONAL_OPTIONS[key]
+    assert len(options) >= 2
+    source = parse(catalogue['products']['696']['html'])
+    container = deepcopy(source.select_one('.c-lineup-options'))
+    container.select_one('.c-lineup-options__accordion-trigger')['aria-controls'] = 'additional-options'
+    container.select_one('.c-lineup-options__accordion-contents')['id'] = 'additional-options'
+    grid = container.select_one('.c-lineup-option-list__contents')
+    original = deepcopy(grid.select_one('.c-product-additional-card'))
+    grid.clear()
+    for option in options:
+        card = deepcopy(original)
+        card['data-demo-option'] = option['id']
+        card.select_one('.c-product-additional-card__heading').string = option['name']
+        card.select_one('.c-price__text').string = f"{option['price']:,}"
+        card.select_one('.c-price__unit').string = ' (税込)／' + option['unit']
+        description = card.select_one('.c-additional-option-card__description')
+        description['class'] = ['c-product-additional-card__description']
+        description.string = option['description']
+        img = card.select_one('img')
+        img['src'] = SERVICE_COMPARISONS[option['scene']][option['state']]
+        img['alt'] = option['name'] + 'の作業イメージ'
+        img['width'], img['height'] = '72', '72'
+        img['style'] = 'width:72px;height:72px;object-fit:cover;'
+        img['decoding'] = 'async'
+        card.select_one('input[name="product-id"]')['value'] = option['id']
+        card.select_one('.js-add-cart')['data-demo-dialog'] = ''
+        grid.append(card)
+    variants = block.select('.js-room-types option')
+    option_list = container.select_one('.c-lineup-option-list')
+    for _ in variants[1:]:
+        other = deepcopy(option_list)
+        other['class'] = ['c-lineup-option-list']
+        option_list.parent.append(other)
+    for old in block.select('.c-lineup-options'):
+        old.decompose()
+    block.append(container)
+
+
 def product(key, route, catalogue, copy):
     record, content = catalogue['products'][key], copy['products'][key]
     block = parse(record['html']).find() if 'html' in record else extra_product(key, catalogue)
@@ -181,6 +224,7 @@ def product(key, route, catalogue, copy):
         else:
             raise ValueError(f'Option copy missing for {key}: {original}')
     remove_details(block)
+    add_missing_options(block, key, catalogue)
     for button in block.select('.c-lineup-card__foot > .js-add-cart'):
         control_class = ('c-product-additional-card__detail-button'
                          if button.name == 'a' and not button.parent.select_one('.js-product-quantity')
@@ -354,27 +398,20 @@ def concerns(page, primary, category_copy, copy):
         box['class'] = ['c-tab__panel'] + (['is-active'] if index == 0 else [])
         photo = box.select_one('.c-compare-image')
         photo.clear()
-        comparison = AIRCON_COMPARISONS[key] if page['category'] == 'aircon' else SERVICE_COMPARISONS.get(p['scene'])
-        if comparison:
-            photo['class'] = ['c-compare-image', 'c-compare-image-tab__compare-image', 'c-aircon-compare']
-            for state, label in [('before', 'Before'), ('after', 'After')]:
-                photo.append(tag('img', 'c-flex-image c-compare-image__item',
-                                 src=comparison[state],
-                                 alt=p['short'] + ' ' + label + '（清掃イメージ）',
-                                 width='1536', height='1024', loading='lazy', decoding='async'))
-        else:
-            photo['class'] = ['c-service-photo','c-compare-image-tab__compare-image']
-            img = tag('img', 'c-flex-image')
-            image(img, p['scene'], p['focus'] + 'の清掃イメージ')
-            photo.append(img)
+        comparison = AIRCON_COMPARISONS[key] if page['category'] == 'aircon' else SERVICE_COMPARISONS[p['scene']]
+        photo['class'] = ['c-compare-image', 'c-compare-image-tab__compare-image', 'c-aircon-compare']
+        for state, label in [('before', 'Before'), ('after', 'After')]:
+            photo.append(tag('img', 'c-flex-image c-compare-image__item',
+                             src=comparison[state],
+                             alt=p['short'] + ' ' + label + '（清掃イメージ）',
+                             width='1536', height='1024', loading='lazy', decoding='async'))
         box.select_one('.c-compare-image-tab__text').string = p['description']
         for note in box.select('.c-note,.c-compare-image-tab__link-container'):
             note.decompose()
-        if comparison:
-            photo.insert_after(
-                tag('p', 'c-note c-aircon-comparison-note', '汚れの状況により、完全に除去できない場合がございます。'),
-                tag('p', 'c-note c-aircon-comparison-note', '本比較画像は作業の一例です。'),
-            )
+        photo.insert_after(
+            tag('p', 'c-note c-aircon-comparison-note', '汚れの状況により、完全に除去できない場合がございます。'),
+            tag('p', 'c-note c-aircon-comparison-note', '本比較画像は作業の一例です。'),
+        )
         buttons.append(b); panels.append(box)
     if len(subjects) == 1:
         buttons['class'].append('c-service-single-tab')

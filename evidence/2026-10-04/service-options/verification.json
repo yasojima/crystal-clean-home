@@ -1,0 +1,549 @@
+{
+  "passed": true,
+  "pages": 46,
+  "newProducts": 14,
+  "newOptions": 28,
+  "existingListsPreserved": 62,
+  "checks": [
+    {
+      "route": "aircon",
+      "product": "1",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "aircon",
+      "product": "2",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "aircon",
+      "product": "3",
+      "existingPreserved": true,
+      "cards": 8
+    },
+    {
+      "route": "pack",
+      "product": "102",
+      "existingPreserved": true,
+      "cards": 48
+    },
+    {
+      "route": "pack",
+      "product": "105",
+      "existingPreserved": true,
+      "cards": 48
+    },
+    {
+      "route": "water",
+      "product": "4",
+      "existingPreserved": true,
+      "cards": 16
+    },
+    {
+      "route": "water",
+      "product": "5",
+      "existingPreserved": true,
+      "cards": 4
+    },
+    {
+      "route": "water",
+      "product": "993",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "water",
+      "product": "6",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "water",
+      "product": "7",
+      "existingPreserved": true,
+      "cards": 8
+    },
+    {
+      "route": "water",
+      "product": "142",
+      "existingPreserved": true,
+      "cards": 7
+    },
+    {
+      "route": "washer",
+      "product": "8",
+      "existingPreserved": true,
+      "cards": 6
+    },
+    {
+      "route": "washer",
+      "product": "9",
+      "existingPreserved": true,
+      "cards": 6
+    },
+    {
+      "route": "washer",
+      "product": "664",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "kitchen",
+      "product": "666",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "kitchen",
+      "product": "668",
+      "existingPreserved": true,
+      "cards": 10
+    },
+    {
+      "route": "kitchen",
+      "product": "670",
+      "existingPreserved": true,
+      "cards": 4
+    },
+    {
+      "route": "kitchen",
+      "product": "671",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room",
+      "product": "689",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room",
+      "product": "1008",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room",
+      "product": "1203",
+      "newCards": 2,
+      "variants": 6
+    },
+    {
+      "route": "room",
+      "product": "1209",
+      "newCards": 2,
+      "variants": 6
+    },
+    {
+      "route": "room",
+      "product": "691",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room",
+      "product": "692",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room",
+      "product": "694",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room",
+      "product": "695",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room",
+      "product": "696",
+      "existingPreserved": true,
+      "cards": 2
+    },
+    {
+      "route": "room",
+      "product": "1071",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room",
+      "product": "822",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room",
+      "product": "1309",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room",
+      "product": "1308",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room",
+      "product": "1307",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room",
+      "product": "697",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "coating",
+      "product": "4_697",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating",
+      "product": "668_701",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating",
+      "product": "7_700",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating",
+      "product": "142_699",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating",
+      "product": "804",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "coating",
+      "product": "805",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "coating",
+      "product": "806",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "others",
+      "product": "others-estimate-0",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "others",
+      "product": "700",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "others",
+      "product": "702",
+      "existingPreserved": true,
+      "cards": 2
+    },
+    {
+      "route": "others",
+      "product": "703",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "aircon/ceil",
+      "product": "3",
+      "existingPreserved": true,
+      "cards": 8
+    },
+    {
+      "route": "aircon/wall",
+      "product": "1",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "aircon/wall",
+      "product": "2",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "coating/bathroom",
+      "product": "4_697",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating/floor",
+      "product": "804",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "coating/kitchen",
+      "product": "668_701",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating/lavatory",
+      "product": "142_699",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating/repair",
+      "product": "806",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating/toilet",
+      "product": "7_700",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "coating/uv-coating",
+      "product": "805",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "kitchen/dishwasher",
+      "product": "671",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "kitchen/fan",
+      "product": "666",
+      "existingPreserved": true,
+      "cards": 9
+    },
+    {
+      "route": "kitchen/kitchen",
+      "product": "668",
+      "existingPreserved": true,
+      "cards": 10
+    },
+    {
+      "route": "kitchen/rei",
+      "product": "670",
+      "existingPreserved": true,
+      "cards": 4
+    },
+    {
+      "route": "others/exterior",
+      "product": "702",
+      "existingPreserved": true,
+      "cards": 2
+    },
+    {
+      "route": "others/grave",
+      "product": "703",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "others/outerwall",
+      "product": "others-estimate-0",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "others/photocatalyst",
+      "product": "700",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "pack/entirety",
+      "product": "105",
+      "existingPreserved": true,
+      "cards": 48
+    },
+    {
+      "route": "pack/move",
+      "product": "102",
+      "existingPreserved": true,
+      "cards": 48
+    },
+    {
+      "route": "room/air-cleaner",
+      "product": "697",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room/carpet",
+      "product": "692",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room/cloth",
+      "product": "695",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room/duct",
+      "product": "822",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room/duct",
+      "product": "1309",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room/duct",
+      "product": "1308",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room/duct",
+      "product": "1307",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "room/entrance",
+      "product": "1071",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room/entrance",
+      "product": "1073",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room/entrance",
+      "product": "1074",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room/flooring",
+      "product": "689",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room/flooring",
+      "product": "1008",
+      "existingPreserved": true,
+      "cards": 1
+    },
+    {
+      "route": "room/glass",
+      "product": "696",
+      "existingPreserved": true,
+      "cards": 2
+    },
+    {
+      "route": "room/mattress",
+      "product": "1203",
+      "newCards": 2,
+      "variants": 6
+    },
+    {
+      "route": "room/mattress",
+      "product": "1209",
+      "newCards": 2,
+      "variants": 6
+    },
+    {
+      "route": "room/sofa",
+      "product": "691",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "room/wallpaper-dyeing",
+      "product": "694",
+      "newCards": 2,
+      "variants": 1
+    },
+    {
+      "route": "washer/front",
+      "product": "9",
+      "existingPreserved": true,
+      "cards": 6
+    },
+    {
+      "route": "washer/side",
+      "product": "664",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "washer/top",
+      "product": "8",
+      "existingPreserved": true,
+      "cards": 6
+    },
+    {
+      "route": "water/bathroom",
+      "product": "4",
+      "existingPreserved": true,
+      "cards": 16
+    },
+    {
+      "route": "water/drier",
+      "product": "6",
+      "existingPreserved": true,
+      "cards": 3
+    },
+    {
+      "route": "water/lavatory",
+      "product": "142",
+      "existingPreserved": true,
+      "cards": 7
+    },
+    {
+      "route": "water/pipe",
+      "product": "5",
+      "existingPreserved": true,
+      "cards": 4
+    },
+    {
+      "route": "water/toilet",
+      "product": "7",
+      "existingPreserved": true,
+      "cards": 8
+    },
+    {
+      "route": "water/ulblo",
+      "product": "993",
+      "newCards": 2,
+      "variants": 1
+    }
+  ]
+}

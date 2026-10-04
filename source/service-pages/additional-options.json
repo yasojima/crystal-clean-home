@@ -1,0 +1,285 @@
+{
+  "pricing": "client demo",
+  "products": {
+    "691": [
+      {
+        "id": "30001",
+        "name": "布地の部分シミ洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "sofa",
+        "state": "before",
+        "description": "気になるシミを１箇所ずつ確認し、布地に合う方法で部分洗浄します。"
+      },
+      {
+        "id": "30002",
+        "name": "消臭仕上げ",
+        "price": 2200,
+        "unit": "式",
+        "scene": "sofa",
+        "state": "after",
+        "description": "座面や背もたれの生地を確認し、洗浄後に消臭処理を行います。"
+      }
+    ],
+    "692": [
+      {
+        "id": "30003",
+        "name": "部分シミ抜き",
+        "price": 3300,
+        "unit": "式",
+        "scene": "carpet",
+        "state": "before",
+        "description": "食べこぼしなどの部分的なシミを確認し、繊維に合う方法で洗浄します。"
+      },
+      {
+        "id": "30004",
+        "name": "消臭仕上げ",
+        "price": 2200,
+        "unit": "式",
+        "scene": "carpet",
+        "state": "after",
+        "description": "清掃後のカーペットに消臭処理を行い、日常の生活臭を整えます。"
+      }
+    ],
+    "694": [
+      {
+        "id": "30005",
+        "name": "汚れ部分の下地清掃",
+        "price": 2200,
+        "unit": "式",
+        "scene": "wall",
+        "state": "after",
+        "description": "染色前に目立つ汚れを部分清掃し、壁紙の下地を整えます。"
+      },
+      {
+        "id": "30006",
+        "name": "巾木クリーニング",
+        "price": 1650,
+        "unit": "式",
+        "scene": "wall",
+        "state": "before",
+        "description": "壁紙と床の境目にある巾木のホコリや黒ずみを丁寧に拭き取ります。"
+      }
+    ],
+    "695": [
+      {
+        "id": "30007",
+        "name": "壁紙の部分シミ除去",
+        "price": 3300,
+        "unit": "式",
+        "scene": "wall",
+        "state": "before",
+        "description": "目立つシミの状態を確認し、壁紙を傷めない範囲で部分清掃します。"
+      },
+      {
+        "id": "30008",
+        "name": "巾木クリーニング",
+        "price": 1650,
+        "unit": "式",
+        "scene": "wall",
+        "state": "after",
+        "description": "壁紙の清掃とあわせて、巾木のホコリと汚れを丁寧に取り除きます。"
+      }
+    ],
+    "703": [
+      {
+        "id": "30009",
+        "name": "目地・すき間の念入り洗浄",
+        "price": 2200,
+        "unit": "式",
+        "scene": "grave",
+        "state": "before",
+        "description": "石材の継ぎ目やすき間に残る汚れを、素材を確認して丁寧に洗浄します。"
+      },
+      {
+        "id": "30010",
+        "name": "石材の撥水仕上げ",
+        "price": 4400,
+        "unit": "式",
+        "scene": "grave",
+        "state": "after",
+        "description": "清掃後の石材の状態を確認し、対応できる表面に撥水処理を行います。"
+      }
+    ],
+    "806": [
+      {
+        "id": "30011",
+        "name": "追加１箇所の補修",
+        "price": 2200,
+        "unit": "式",
+        "scene": "wood-repair",
+        "state": "before",
+        "description": "基本の補修箇所に加えて、床のキズや小さな欠けを１箇所補修します。"
+      },
+      {
+        "id": "30012",
+        "name": "補修部の保護仕上げ",
+        "price": 3300,
+        "unit": "式",
+        "scene": "wood-repair",
+        "state": "after",
+        "description": "補修した部分の状態を確認し、表面の保護仕上げを行います。"
+      }
+    ],
+    "993": [
+      {
+        "id": "30013",
+        "name": "循環口まわりの水アカ除去",
+        "price": 2200,
+        "unit": "式",
+        "scene": "bath-adapter",
+        "state": "before",
+        "description": "循環口のまわりに付着した水アカを、素材を確認して丁寧に取り除きます。"
+      },
+      {
+        "id": "30014",
+        "name": "浴槽内側の追加洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "bath-pipe",
+        "state": "after",
+        "description": "アダプターの取り付けとあわせて、浴槽内側の皮脂汚れや水アカを清掃します。"
+      }
+    ],
+    "1203": [
+      {
+        "id": "30015",
+        "name": "側面・縫い目の追加洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "mattress",
+        "state": "before",
+        "description": "マットレスの側面や縫い目にたまったホコリと汚れも丁寧に洗浄します。"
+      },
+      {
+        "id": "30016",
+        "name": "消臭仕上げ",
+        "price": 2200,
+        "unit": "式",
+        "scene": "mattress",
+        "state": "after",
+        "description": "洗浄後の生地に消臭処理を行い、寝具に残る生活臭を整えます。"
+      }
+    ],
+    "1209": [
+      {
+        "id": "30017",
+        "name": "側面・縫い目の追加洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "mattress",
+        "state": "before",
+        "description": "プレミアム洗浄に加えて、側面や細かな縫い目まで汚れを確認して清掃します。"
+      },
+      {
+        "id": "30018",
+        "name": "消臭仕上げ",
+        "price": 2200,
+        "unit": "式",
+        "scene": "mattress",
+        "state": "after",
+        "description": "生地の状態を確認し、洗浄後に残る生活臭へ消臭処理を行います。"
+      }
+    ],
+    "4_697": [
+      {
+        "id": "30019",
+        "name": "浴室床・目地の追加洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "bathroom",
+        "state": "before",
+        "description": "床の目地やすみの汚れを確認し、コーティング前に丁寧に洗浄します。"
+      },
+      {
+        "id": "30020",
+        "name": "浴室換気カバー洗浄",
+        "price": 2200,
+        "unit": "式",
+        "scene": "bath-dryer",
+        "state": "after",
+        "description": "取り外せる換気カバーのホコリを洗浄し、浴室まわりを整えます。"
+      }
+    ],
+    "668_701": [
+      {
+        "id": "30021",
+        "name": "シンク研磨仕上げ",
+        "price": 4400,
+        "unit": "式",
+        "scene": "finish-check",
+        "state": "after",
+        "description": "シンクの素材を確認して表面を磨き、コーティング前の状態を整えます。"
+      },
+      {
+        "id": "30022",
+        "name": "蛇口まわりの水アカ除去",
+        "price": 2200,
+        "unit": "式",
+        "scene": "kitchen-sink",
+        "state": "before",
+        "description": "蛇口の根元や継ぎ目に残る水アカを丁寧に取り除きます。"
+      }
+    ],
+    "7_700": [
+      {
+        "id": "30023",
+        "name": "便座・ヒンジの追加洗浄",
+        "price": 1650,
+        "unit": "式",
+        "scene": "toilet",
+        "state": "after",
+        "description": "便座の裏側やヒンジまわりの汚れを、手が届く範囲で丁寧に清掃します。"
+      },
+      {
+        "id": "30024",
+        "name": "便器の水アカ除去",
+        "price": 3300,
+        "unit": "式",
+        "scene": "toilet",
+        "state": "before",
+        "description": "便器内側の水アカを確認し、素材に合う方法で取り除きます。"
+      }
+    ],
+    "142_699": [
+      {
+        "id": "30025",
+        "name": "排水口・オーバーフロー洗浄",
+        "price": 1650,
+        "unit": "式",
+        "scene": "lavatory",
+        "state": "before",
+        "description": "排水口やオーバーフローまわりの汚れを確認して清掃します。"
+      },
+      {
+        "id": "30026",
+        "name": "蛇口まわりの水アカ除去",
+        "price": 2200,
+        "unit": "式",
+        "scene": "lavatory",
+        "state": "after",
+        "description": "蛇口の根元やボウルの継ぎ目に残る水アカを丁寧に取り除きます。"
+      }
+    ],
+    "others-estimate-0": [
+      {
+        "id": "30027",
+        "name": "目地まわりの追加洗浄",
+        "price": 3300,
+        "unit": "式",
+        "scene": "outerwall",
+        "state": "before",
+        "description": "外壁の継ぎ目や目地まわりの汚れを確認し、丁寧に追加洗浄します。"
+      },
+      {
+        "id": "30028",
+        "name": "防汚仕上げ",
+        "price": 5500,
+        "unit": "式",
+        "scene": "outerwall",
+        "state": "after",
+        "description": "洗浄した外壁の素材を確認し、対応できる面に防汚仕上げを行います。"
+      }
+    ]
+  }
+}
