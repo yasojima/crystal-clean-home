@@ -16,7 +16,7 @@ ASSETS = (
 )
 
 
-def transform(html):
+def transform(html, is_aircon=False):
     newline = '\r\n' if '\r\n' in html else '\n'
     if re.search(r'<div\b[^>]*\bid="first-view"', html):
         html = re.sub(r'\s*<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>', '', html)
@@ -34,7 +34,8 @@ def transform(html):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
-    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', '/assets/css/aircon-layout.css?v=2026100402', html)
+    layout_version = '2026100503' if is_aircon else '2026100402'
+    html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)
@@ -81,7 +82,7 @@ def main():
     pages = sorted(SITE.rglob('*.html'))
     for page in pages:
         original = page.read_bytes().decode('utf-8')
-        output = transform(original)
+        output = transform(original, is_aircon=(page == SITE / 'house-cleaning/aircon/index.html'))
         if output != original:
             changed.append(page.relative_to(SITE).as_posix())
             if not args.check:
