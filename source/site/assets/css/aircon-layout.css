@@ -656,6 +656,7 @@
     max-width: 144px;
     aspect-ratio: 3 / 2;
     border-radius: 12px;
+    transform: scale(1.125);
   }
 
   .c-service-flow--aircon .c-howto__icon {
@@ -688,9 +689,9 @@
   }
 
   .c-service-flow--aircon .c-howto__item:not(:last-child) .c-howto__step::after {
-    right: calc(var(--howto-gap) / -2 - 10px);
-    width: 20px;
-    height: 38px;
+    right: calc(var(--howto-gap) / -2 - 12px);
+    width: 24px;
+    height: 46px;
     background: linear-gradient(90deg, #e1eaf2 0%, #a9bfd2 18%, #6382a3 27%, #355b86 32%, #244574 100%);
   }
 
