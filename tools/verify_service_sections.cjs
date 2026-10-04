@@ -208,40 +208,20 @@ function checkFaq(actual,reference){
   assert(!item.overflow,`${key} clips question text`);
  }
 }
-function checkFlow(actual, reference, route) {
- if(route!=='aircon')return checkExactFrame(actual,reference);
- assert(actual&&!actual.overflow,'aircon flow missing or page overflows');
- assert.equal(actual.components.item.length,5,'aircon flow must reuse five steps');
- assert.deepEqual(actual.images,reference.images,'aircon flow heading image changed');
- for(const [key,items] of Object.entries(actual.components)){
-  assert.equal(items.length,reference.components[key].length,`${key} count differs`);
-  for(const item of items)assert(!item.overflow,`${key} clips full text`);
- }
-}
-const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup,products:checkProducts,offers:checkOffers,voices:checkVoices,faq:checkFaq,flow:checkFlow,featured:checkExactFrame};
+const checkPhase = {selector:checkSelector,concerns:checkConcerns,introduction:checkIntroduction,reasons:checkExactFrame,lineup:checkLineup,products:checkProducts,offers:checkOffers,voices:checkVoices,faq:checkFaq,flow:checkExactFrame,featured:checkExactFrame};
 async function interact(page,route,viewport){
  if(phase==='flow'){
   const flow=page.locator('#service-flow');
   await flow.evaluate(n=>scrollTo({top:scrollY+n.getBoundingClientRect().top,behavior:'instant'}));
   const geometry=await flow.evaluate(n=>{
    const list=n.querySelector('.c-howto'),css=getComputedStyle(list),cart=document.querySelector('#js-floating'),c=cart?.getBoundingClientRect();
-   return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),sectionHeight:n.getBoundingClientRect().height,headerHeight:document.querySelector('.c-header')?.getBoundingClientRect().height||0,items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
-    descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize,lineBreaks:p.querySelectorAll('br').length}))};
+   return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
+    descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
   });
-  const conciseAirconCopy=['気になる箇所・範囲を確認。料金の目安をご案内します。','訪問日時と作業時間を調整。当日の準備をお伝えします。','現地で範囲・料金を確認。ご了承後に作業を始めます。','清掃後の仕上がりを確認。お手入れ方法もご案内します。','仕上がりを確認後にお支払い。現金・電子マネー・カードに対応。'];
-  assert.deepEqual(geometry.descriptions.map(p=>p.text),route==='aircon'?conciseAirconCopy:copy.shared.steps.map(s=>s[1]),'flow summary differs from source');
-  assert(geometry.descriptions.every(p=>p.size===(route==='aircon'&&viewport.width>=768?'14px':'15px')),'flow description size differs');
-  if(route==='aircon')assert(geometry.descriptions.every(p=>p.lineBreaks===1),'aircon descriptions need one deliberate break');
-  assert(geometry.gap>=28&&geometry.rowGap>=(route==='aircon'&&viewport.width>=768?20:40),'flow steps remain crowded');
-  if(route==='aircon'&&viewport.width===1440&&viewport.height===803)assert(geometry.sectionHeight<=viewport.height-geometry.headerHeight-120,'aircon flow hides the lower curve and following blue section');
-  if(route==='aircon'&&viewport.width===1524&&viewport.height===901)assert(geometry.sectionHeight<=viewport.height-geometry.headerHeight,'aircon white flow section does not fit below header');
-  if(route==='aircon'&&viewport.width>=768){
-   assert(geometry.items.slice(0,3).every(i=>Math.abs(i.top-geometry.items[0].top)<1),'aircon upper row is not three steps');
-   assert(geometry.items.slice(3).every(i=>Math.abs(i.top-geometry.items[3].top)<1),'aircon lower row is not two steps');
-   assert(geometry.items[3].top>geometry.items[0].top+1,'aircon second row is missing');
-   assert(Math.abs((geometry.items[3].left+geometry.items[4].right)/2-(geometry.items[0].left+geometry.items[2].right)/2)<1,'aircon lower row is not centered');
-  }
-  if(route!=='aircon'&&viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
+  assert.deepEqual(geometry.descriptions.map(p=>p.text),copy.shared.steps.map(s=>s[1]),'flow summary differs from shared source');
+  assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
+  assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
+  if(viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
   return geometry;
  }
  if(phase==='voices'){
@@ -440,7 +420,7 @@ async function gallery(items, engine, viewport) {
    const page=await context.newPage();page.setDefaultTimeout(30000);page.setDefaultNavigationTimeout(45000);
    const runtime=[];page.on('pageerror',e=>runtime.push(e.message));
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
-   await page.goto(`${origin}/house-cleaning/${phase==='flow'?'pack':'aircon'}/`,{waitUntil:'load'});await settle();
+   await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
    const captures=[];
    for(const route of routes){

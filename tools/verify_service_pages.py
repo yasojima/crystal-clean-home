@@ -109,9 +109,7 @@ for route,page in catalogue['pages'].items():
         value = question.get_text(strip=True)
         if value.endswith('か') or value.endswith(('。','、')): fail(route,'FAQ punctuation '+value)
     if len(main.select('.c-step-list__item')) != 5: fail(route,'flow count')
-    faq_text = main.select_one('#service-faq').get_text()
-    flow_text = main.select_one('#service-flow').get_text()
-    if not all(method in faq_text for method in ('Visa', 'Mastercard')) or 'お支払い' not in flow_text: fail(route,'payments')
+    if 'Visa' not in main.select_one('#service-faq').get_text() or 'Mastercard' not in main.select_one('#service-flow').get_text(): fail(route,'payments')
     for link in main.select('a[href^="#"]'):
         if link['href'] != '#' and link['href'][1:] not in ids: fail(route,'missing anchor '+link['href'])
     for node in main.select('a,button'):
