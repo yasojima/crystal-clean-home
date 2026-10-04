@@ -1,0 +1,75 @@
+{
+  "url": "https://www.osoujihonpo.com/house-cleaning/others/#anchor04",
+  "checks": [
+    {
+      "viewport": [
+        1440,
+        800
+      ],
+      "height": 1058.5,
+      "minHeight": "0px",
+      "display": "block",
+      "children": [
+        {
+          "class": "c-footer__page-top",
+          "height": 48,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "u-sp-only",
+          "height": 0,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "u-pc-only",
+          "height": 939.5,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "c-footer__bottom-nav c-footer-bottom-nav",
+          "height": 119,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        }
+      ]
+    },
+    {
+      "viewport": [
+        1440,
+        1973
+      ],
+      "height": 1058.5,
+      "minHeight": "0px",
+      "display": "block",
+      "children": [
+        {
+          "class": "c-footer__page-top",
+          "height": 48,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "u-sp-only",
+          "height": 0,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "u-pc-only",
+          "height": 939.5,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        },
+        {
+          "class": "c-footer__bottom-nav c-footer-bottom-nav",
+          "height": 119,
+          "minHeight": "0px",
+          "flex": "0 1 auto"
+        }
+      ]
+    }
+  ]
+}

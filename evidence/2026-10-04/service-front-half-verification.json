@@ -1,0 +1,124 @@
+{
+  "checkedAt": "2026-10-04T02:14:23.292840+00:00",
+  "passed": true,
+  "scope": "CHG-030 comparison sliders, CHG-031 missing options, CHG-032 combination plans on all 46 service pages; CHG-033 shared desktop footer height checked last. This does not certify future image-style requests or real-device acceptance.",
+  "sourceCommit": "3979fbb958da95b96484c0461521380f6819f873",
+  "pagesCommit": "4ad948ea74609d7a420bc1529d309ea97bf7dd2d",
+  "pagesActionsRun": 37169796518,
+  "counts": {
+    "servicePages": 46,
+    "comparisonScenePairsAdded": 29,
+    "newOptionProducts": 14,
+    "newOptions": 28,
+    "existingOptionListsPreserved": 62,
+    "newPlanProducts": 43,
+    "newPlans": 86,
+    "existingPurchaseOccurrencesPreserved": 11
+  },
+  "reports": {
+    "comparisonLocal": {
+      "path": "evidence/2026-10-04/service-comparisons/all-local/verification.json",
+      "checkedAt": "2026-10-04T01:13:02.547Z",
+      "origin": "http://127.0.0.1:8769",
+      "pages": 46,
+      "cases": 184
+    },
+    "comparisonPublic": {
+      "path": "evidence/2026-10-04/service-comparisons/all-public/verification.json",
+      "checkedAt": "2026-10-04T01:56:46.260Z",
+      "origin": "https://yasojima.github.io",
+      "pages": 46,
+      "cases": 184
+    },
+    "optionsCoverage": {
+      "path": "evidence/2026-10-04/service-options/verification.json",
+      "pages": 46,
+      "newProducts": 14,
+      "newOptions": 28,
+      "existingListsPreserved": 62
+    },
+    "optionsPublicChrome": {
+      "path": "evidence/2026-10-04/service-options/added-public/verification.json",
+      "checkedAt": "2026-10-04T01:46:43.382Z",
+      "origin": "https://yasojima.github.io",
+      "pages": 17,
+      "cases": 34
+    },
+    "optionsLocalWebKitMobile": {
+      "path": "evidence/2026-10-04/service-options/webkit-mobile/verification.json",
+      "checkedAt": "2026-10-04T02:05:15.023Z",
+      "origin": "http://127.0.0.1:8769",
+      "pages": 17,
+      "cases": 17
+    },
+    "optionsPublicWebKitMobile": {
+      "path": "evidence/2026-10-04/service-options/webkit-mobile-public/verification.json",
+      "checkedAt": "2026-10-04T02:08:20.647Z",
+      "origin": "https://yasojima.github.io",
+      "pages": 17,
+      "cases": 17
+    },
+    "plansCoverage": {
+      "path": "evidence/2026-10-04/service-plans/verification.json",
+      "pages": 46,
+      "newProducts": 43,
+      "newPlans": 86,
+      "existingPurchasesPreserved": 11
+    },
+    "plansLocal": {
+      "path": "evidence/2026-10-04/service-plans/all-local/verification.json",
+      "checkedAt": "2026-10-04T01:58:00.325Z",
+      "origin": "http://127.0.0.1:8769",
+      "pages": 46,
+      "cases": 184
+    },
+    "plansPublic": {
+      "path": "evidence/2026-10-04/service-plans/all-public/verification.json",
+      "checkedAt": "2026-10-04T02:08:17.279Z",
+      "origin": "https://yasojima.github.io",
+      "pages": 46,
+      "cases": 92
+    },
+    "plansNarrow": {
+      "path": "evidence/2026-10-04/service-plans/narrow-local/verification.json",
+      "checkedAt": "2026-10-04T01:51:42.292Z",
+      "origin": "http://127.0.0.1:8769",
+      "pages": 8,
+      "cases": 8
+    },
+    "footerPublicHeight": {
+      "path": "evidence/2026-10-04/footer-height/height-public/verification.json",
+      "checkedAt": "2026-10-04T02:11:41.502Z",
+      "origin": "https://yasojima.github.io"
+    },
+    "footerPublicOperations": {
+      "path": "evidence/2026-10-04/footer-height/shared-public/shared-ui-browser.json",
+      "cases": 8,
+      "engines": [
+        "Chrome",
+        "WebKit"
+      ],
+      "routes": [
+        "/",
+        "/house-cleaning/pack/"
+      ]
+    },
+    "deployment": {
+      "path": "source/deployment-verification.json",
+      "checks": 247,
+      "pages_commit": "4ad948ea74609d7a420bc1529d309ea97bf7dd2d",
+      "source_tree": "95e83fdfb713c670551477ca5850856ff9f4c603"
+    }
+  },
+  "visualInspection": [
+    "All 46 comparison sections in PC/mobile saved galleries",
+    "All 46 plan sections in PC/mobile saved galleries",
+    "Public pack/coating plan sections at 1440/414px",
+    "Public footer at 1440x1973 and 414x688"
+  ],
+  "retainedLimits": [
+    "Real iPhone browser-bar expansion and native overscroll are not emulated by these viewport checks.",
+    "Demo purchase buttons show the existing demo notice; server checkout is outside scope."
+  ],
+  "initialRetry": "An earlier WebKit mobile option run stopped responding during automated clicks. The 17 affected pages were rechecked locally and publicly without changing product interaction code, and passed."
+}

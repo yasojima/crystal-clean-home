@@ -1,0 +1,5261 @@
+{
+  "checkedAt": "2026-10-04T02:05:15.023Z",
+  "origin": "http://127.0.0.1:8769",
+  "phase": "products",
+  "pages": 17,
+  "cases": 17,
+  "inspectOnly": false,
+  "complete": true,
+  "passed": true,
+  "errors": [],
+  "references": [
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "reference": {
+        "rect": {
+          "x": 0,
+          "y": 3273.25,
+          "width": 414,
+          "height": 4900.4375
+        },
+        "style": {
+          "fontFamily": "Noto Sans JP, sans-serif",
+          "fontSize": "16px",
+          "fontWeight": "400",
+          "lineHeight": "24px",
+          "letterSpacing": "normal",
+          "textAlign": "start",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "backgroundImage": "none",
+          "padding": "0px",
+          "marginTop": "0px",
+          "marginBottom": "0px",
+          "rowGap": "normal",
+          "columnGap": "normal",
+          "borderRadius": "0px",
+          "borderColor": "rgb(33, 37, 41)",
+          "borderWidth": "0px",
+          "boxShadow": "none",
+          "alignItems": "normal",
+          "justifyContent": "normal"
+        },
+        "context": null,
+        "components": {
+          "card": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 3488.84375,
+                "width": 384,
+                "height": 729.6875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能なし）\n\nカバーやフィルターを取り外し、熱交換器や送風ファンに付いたホコリと汚れを洗浄します。周囲を保護して作業し、手が届きにくい内部まで丁寧に清掃します。\n\nサービス範囲：エアコン本体／アルミフィン／送風ファン／外装パネル／フィルター\n\nサービス時間\n約2時間／台\nキャンペーン価格\n\n13,200\n(税込)／台\n\n11,000\n(税込)／台\n\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 4359.53125,
+                "width": 384,
+                "height": 729.6875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能付き）\n\nお掃除ユニットの構造を確認し、取り外せる部品とエアコン内部を洗浄します。自動お掃除では落とせない汚れにも目を配り、機種に合わせて作業します。\n\nサービス範囲：エアコン本体／アルミフィン／送風ファン／外装パネル／フィルター／お掃除ユニット\n\nサービス時間\n3～4時間／台\nキャンペーン価格\n\n23,100\n(税込)／台\n\n20,900\n(税込)／台\n\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 5445.8125,
+                "width": 384,
+                "height": 599.1875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "天井埋め込みタイプエアコン\n\nパネルやファンなどの部品を取り外し、内部にたまったホコリと汚れを洗い流します。設置状況を確認して周囲を保護し、洗浄後は動作を確かめます。\n\nサービス範囲：エアコン本体／外装パネル／フィルター／送風ファン／アルミフィン／ドレンパン\n\nサービス時間\n約3時間／台\n27,500\n(税込)／台\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "rect": {
+                "x": 19.5,
+                "y": 3508.84375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px 20px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 19.5,
+                "y": 4379.53125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px 20px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 19.5,
+                "y": 5465.8125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px 20px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 3732.171875,
+                "width": 384,
+                "height": 466.359375
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "flex-start"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能なし）\n\nカバーやフィルターを取り外し、熱交換器や送風ファンに付いたホコリと汚れを洗浄します。周囲を保護して作業し、手が届きにくい内部まで丁寧に清掃します。\n\nサービス範囲：エアコン本体／アルミフィン／送風ファン／外装パネル／フィルター\n\nサービス時間\n約2時間／台\nキャンペーン価格\n\n13,200\n(税込)／台\n\n11,000\n(税込)／台\n\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 4602.859375,
+                "width": 384,
+                "height": 466.359375
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "flex-start"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能付き）\n\nお掃除ユニットの構造を確認し、取り外せる部品とエアコン内部を洗浄します。自動お掃除では落とせない汚れにも目を配り、機種に合わせて作業します。\n\nサービス範囲：エアコン本体／アルミフィン／送風ファン／外装パネル／フィルター／お掃除ユニット\n\nサービス時間\n3～4時間／台\nキャンペーン価格\n\n23,100\n(税込)／台\n\n20,900\n(税込)／台\n\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 5689.140625,
+                "width": 384,
+                "height": 335.859375
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "flex-start"
+              },
+              "text": "天井埋め込みタイプエアコン\n\nパネルやファンなどの部品を取り外し、内部にたまったホコリと汚れを洗い流します。設置状況を確認して周囲を保護し、洗浄後は動作を確かめます。\n\nサービス範囲：エアコン本体／外装パネル／フィルター／送風ファン／アルミフィン／ドレンパン\n\nサービス時間\n約3時間／台\n27,500\n(税込)／台\nカートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "rect": {
+                "x": 39,
+                "y": 3744.171875,
+                "width": 336,
+                "height": 25.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能なし）",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 39,
+                "y": 4614.859375,
+                "width": 336,
+                "height": 25.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "壁掛けタイプエアコン（お掃除機能付き）",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 39,
+                "y": 5701.140625,
+                "width": 336,
+                "height": 25.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "天井埋め込みタイプエアコン",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "17px",
+                "fontWeight": "700",
+                "lineHeight": "25.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "rect": {
+                "x": 39,
+                "y": 3781.671875,
+                "width": 336,
+                "height": 58.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "カバーやフィルターを取り外し、熱交換器や送風ファンに付いたホコリと汚れを洗浄します。周囲を保護して作業し、手が届きにくい内部まで丁寧に清掃します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 39,
+                "y": 4652.359375,
+                "width": 336,
+                "height": 58.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "お掃除ユニットの構造を確認し、取り外せる部品とエアコン内部を洗浄します。自動お掃除では落とせない汚れにも目を配り、機種に合わせて作業します。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 39,
+                "y": 5738.640625,
+                "width": 336,
+                "height": 58.5
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal"
+              },
+              "text": "パネルやファンなどの部品を取り外し、内部にたまったホコリと汚れを洗い流します。設置状況を確認して周囲を保護し、洗浄後は動作を確かめます。",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "13px",
+                "fontWeight": "400",
+                "lineHeight": "19.5px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "rect": {
+                "x": 15,
+                "y": 4129.34375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 20px 0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "カートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 5000.03125,
+                "width": 384,
+                "height": 69.1875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 20px 0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "カートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            },
+            {
+              "rect": {
+                "x": 15,
+                "y": 5955.8125,
+                "width": 384,
+                "height": 69.1875
+              },
+              "style": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "20px 20px 0px",
+                "marginTop": "12px",
+                "marginBottom": "0px",
+                "rowGap": "12px",
+                "columnGap": "12px",
+                "borderRadius": "0px",
+                "borderColor": "rgb(237, 242, 248) rgb(33, 37, 41) rgb(33, 37, 41)",
+                "borderWidth": "1px 0px 0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "center"
+              },
+              "text": "カートに追加",
+              "overflow": false,
+              "followsVariant": false,
+              "after": {
+                "fontFamily": "Noto Sans JP, sans-serif",
+                "fontSize": "16px",
+                "fontWeight": "400",
+                "lineHeight": "24px",
+                "letterSpacing": "normal",
+                "textAlign": "start",
+                "color": "rgb(33, 37, 41)",
+                "backgroundColor": "rgba(0, 0, 0, 0)",
+                "backgroundImage": "none",
+                "padding": "0px",
+                "marginTop": "0px",
+                "marginBottom": "0px",
+                "rowGap": "normal",
+                "columnGap": "normal",
+                "borderRadius": "0px",
+                "borderColor": "rgb(33, 37, 41)",
+                "borderWidth": "0px",
+                "boxShadow": "none",
+                "alignItems": "normal",
+                "justifyContent": "normal",
+                "content": "none",
+                "mask": "none"
+              },
+              "mask": "none"
+            }
+          ]
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/aircon-wall-after.png",
+            "alt": "熱交換器や送風ファンの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/aircon-automatic-after.png",
+            "alt": "お掃除ユニットと内部の汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/aircon-ceiling-after.png",
+            "alt": "天井内のファンや熱交換器の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "overflow": false
+      }
+    }
+  ],
+  "checks": [
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "water",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3570.4375,
+          "width": 414,
+          "height": 7523.28125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bathroom.webp",
+            "alt": "浴槽の隅や水アカの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/bath-pipe.webp",
+            "alt": "循環口や配管内部の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/bath-adapter.webp",
+            "alt": "浴槽の循環アダプターの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/bath-dryer.webp",
+            "alt": "乾燥機のフィルターやファンの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/toilet.webp",
+            "alt": "便器の縁や尿石汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/lavatory.webp",
+            "alt": "洗面ボウルや蛇口まわりの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "風呂・浴室クリーニング\n\n浴槽や壁、床などに付いた水アカ、皮脂汚れ、石けんカスを清掃します。素材に合う洗剤と道具を使い分け、継ぎ目や排水口まわりも丁寧に洗います。\n\nサービス範囲：浴槽／天井／照明／窓（室内側のみ）／蛇口／シャワー／壁面／床／扉／鏡／換気扇フィルター／換気扇カバー（内部は含まず）\n\nサービス時間\n約2時間／式\n\n18,700\n(税込)／式\n\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3786.03125,
+                "width": 384,
+                "height": 635.46875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング\n\n浴槽の循環口から洗浄剤を循環させ、普段は見えない追い焚き配管の汚れを洗い流します。給湯設備の種類と動作を確認し、洗浄後は十分にすすぎます。\n\nサービス範囲：浴室追い焚き配管\n\n全ての菌や汚れを除去するものではございません。\n\nサービス時間\n約2時間／式\n25,300\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4805.6875,
+                "width": 384,
+                "height": 631.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室用アダプター取り付け\n\n浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。\n\nサービス範囲：浴槽部分の循環アダプター\n\n取り付け可能な機種は、事前にお確かめください。\n※泡の感じ方は、ご使用の環境によって異なります。\n\nサービス時間\n約1.5時間／式\n62,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5793.6875,
+                "width": 384,
+                "height": 625.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室乾燥機クリーニング\n\nカバーやフィルターを取り外し、湿気とともにたまるホコリや汚れを落とします。機種に応じて内部のファンも清掃し、組み立て後に動作を確認します。\n\nサービス範囲：カバー／フィルター／アルミフィン／ファン\n\n全ての菌や汚れを除去するものではございません。\n\nサービス時間\n約1時間／台\n11,000\n(税込)／台\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6775.6875,
+                "width": 384,
+                "height": 605.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレクリーニング\n\n便器の縁や水ぎわの汚れを確認し、尿石や水アカを素材に合った方法で落とします。便器だけでなく、床や壁などの汚れにも目を配って清掃します。\n\nサービス範囲：便器／便座／天井／壁面／照明／床／扉／窓（内側のみ）／換気扇カバー（内部を含まず）\n\nサービス時間\n約1.5時間／式\n9,900\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7738.1875,
+                "width": 384,
+                "height": 599.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台クリーニング\n\n洗面ボウルの水アカや化粧品の汚れを落とし、蛇口や鏡も清掃します。細かな継ぎ目を確認しながら、日々のお手入れでは残りやすい汚れを整えます。\n\nサービス範囲：照明／鏡／洗面ボウル／蛇口／収納庫表面\n\nサービス時間\n約1時間\n9,350\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8693.96875,
+                "width": 384,
+                "height": 582.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3806.03125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4825.6875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 5813.6875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 6795.6875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 7758.1875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 8713.96875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "風呂・浴室クリーニング\n\n浴槽や壁、床などに付いた水アカ、皮脂汚れ、石けんカスを清掃します。素材に合う洗剤と道具を使い分け、継ぎ目や排水口まわりも丁寧に洗います。\n\nサービス範囲：浴槽／天井／照明／窓（室内側のみ）／蛇口／シャワー／壁面／床／扉／鏡／換気扇フィルター／換気扇カバー（内部は含まず）\n\nサービス時間\n約2時間／式\n\n18,700\n(税込)／式\n\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4029.359375,
+                "width": 384,
+                "height": 372.140625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング\n\n浴槽の循環口から洗浄剤を循環させ、普段は見えない追い焚き配管の汚れを洗い流します。給湯設備の種類と動作を確認し、洗浄後は十分にすすぎます。\n\nサービス範囲：浴室追い焚き配管\n\n全ての菌や汚れを除去するものではございません。\n\nサービス時間\n約2時間／式\n25,300\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5049.015625,
+                "width": 384,
+                "height": 368.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室用アダプター取り付け\n\n浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。\n\nサービス範囲：浴槽部分の循環アダプター\n\n取り付け可能な機種は、事前にお確かめください。\n※泡の感じ方は、ご使用の環境によって異なります。\n\nサービス時間\n約1.5時間／式\n62,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6037.015625,
+                "width": 384,
+                "height": 362.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室乾燥機クリーニング\n\nカバーやフィルターを取り外し、湿気とともにたまるホコリや汚れを落とします。機種に応じて内部のファンも清掃し、組み立て後に動作を確認します。\n\nサービス範囲：カバー／フィルター／アルミフィン／ファン\n\n全ての菌や汚れを除去するものではございません。\n\nサービス時間\n約1時間／台\n11,000\n(税込)／台\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7019.015625,
+                "width": 384,
+                "height": 342.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレクリーニング\n\n便器の縁や水ぎわの汚れを確認し、尿石や水アカを素材に合った方法で落とします。便器だけでなく、床や壁などの汚れにも目を配って清掃します。\n\nサービス範囲：便器／便座／天井／壁面／照明／床／扉／窓（内側のみ）／換気扇カバー（内部を含まず）\n\nサービス時間\n約1.5時間／式\n9,900\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7981.515625,
+                "width": 384,
+                "height": 335.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台クリーニング\n\n洗面ボウルの水アカや化粧品の汚れを落とし、蛇口や鏡も清掃します。細かな継ぎ目を確認しながら、日々のお手入れでは残りやすい汚れを整えます。\n\nサービス範囲：照明／鏡／洗面ボウル／蛇口／収納庫表面\n\nサービス時間\n約1時間\n9,350\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8937.296875,
+                "width": 384,
+                "height": 319.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "風呂・浴室クリーニング",
+              "rect": {
+                "x": 39,
+                "y": 4041.359375,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング",
+              "rect": {
+                "x": 39,
+                "y": 5061.015625,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室用アダプター取り付け",
+              "rect": {
+                "x": 39,
+                "y": 6049.015625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴室乾燥機クリーニング",
+              "rect": {
+                "x": 39,
+                "y": 7031.015625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレクリーニング",
+              "rect": {
+                "x": 39,
+                "y": 7993.515625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台クリーニング",
+              "rect": {
+                "x": 39,
+                "y": 8949.296875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "浴槽や壁、床などに付いた水アカ、皮脂汚れ、石けんカスを清掃します。素材に合う洗剤と道具を使い分け、継ぎ目や排水口まわりも丁寧に洗います。",
+              "rect": {
+                "x": 39,
+                "y": 4078.859375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴槽の循環口から洗浄剤を循環させ、普段は見えない追い焚き配管の汚れを洗い流します。給湯設備の種類と動作を確認し、洗浄後は十分にすすぎます。",
+              "rect": {
+                "x": 39,
+                "y": 5124.015625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。",
+              "rect": {
+                "x": 39,
+                "y": 6086.515625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カバーやフィルターを取り外し、湿気とともにたまるホコリや汚れを落とします。機種に応じて内部のファンも清掃し、組み立て後に動作を確認します。",
+              "rect": {
+                "x": 39,
+                "y": 7068.515625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "便器の縁や水ぎわの汚れを確認し、尿石や水アカを素材に合った方法で落とします。便器だけでなく、床や壁などの汚れにも目を配って清掃します。",
+              "rect": {
+                "x": 39,
+                "y": 8031.015625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面ボウルの水アカや化粧品の汚れを落とし、蛇口や鏡も清掃します。細かな継ぎ目を確認しながら、日々のお手入れでは残りやすい汚れを整えます。",
+              "rect": {
+                "x": 39,
+                "y": 8986.796875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4332.3125,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5347.90625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6329.90625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7292.40625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8248.1875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9187.1875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 6,
+        "optionCardCounts": [
+          16,
+          4,
+          2,
+          3,
+          8,
+          7
+        ],
+        "newOptions": [
+          "30013",
+          "30014"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3867.65625,
+          "width": 414,
+          "height": 15246.59375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/flooring.webp",
+            "alt": "床の表面や継ぎ目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wood-coating.webp",
+            "alt": "古いワックスの黒ずみの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/mattress.webp",
+            "alt": "マットレスの表面や縫い目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/mattress.webp",
+            "alt": "寝具に染み込んだ汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/sofa.webp",
+            "alt": "座面や縫い目の汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/carpet.webp",
+            "alt": "毛足に入り込んだ汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wallpaper-dyeing.webp",
+            "alt": "壁紙のくすみや色むらの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wall.webp",
+            "alt": "壁紙の手アカや表面汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/window.webp",
+            "alt": "窓ガラスやサッシの溝の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/entrance.webp",
+            "alt": "玄関タイルや目地の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/duct.webp",
+            "alt": "換気ダクトの内側の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/duct.webp",
+            "alt": "24時間換気のファンと経路の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/kitchen-fan.webp",
+            "alt": "換気扇から続く排気経路の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/duct.webp",
+            "alt": "換気扇と24時間換気の経路の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/air-purifier.webp",
+            "alt": "フィルターや内部のホコリの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "フローリング洗浄ワックス（10帖以下一律料金）\n\n床材に合った方法で表面の汚れを洗浄し、乾燥後にワックスを塗布します。床の状態と既存の塗膜を確認し、日常のお手入れがしやすい表面に整えます。\n\nサービス範囲：フローリング床\n\nサービス時間\n約2時間\n13,200\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4083.25,
+                "width": 384,
+                "height": 607.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリングハクリ＆ワックス（10帖以下一律料金）\n\n古いワックスに蓄積した汚れや黒ずみを、塗膜ごと取り除きます。床材への適合を確認し、洗浄と乾燥を行った後、新しいワックスで仕上げます。\n\nサービス範囲：フローリング床\n\nサービス時間\n約7時間\n46,200\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4832.15625,
+                "width": 384,
+                "height": 607.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）\n\nマットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2時間　※サイズ・片面両面の範囲によって異なります。\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5796.65625,
+                "width": 384,
+                "height": 703.203125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）\n\nマットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2.5時間　※サイズ・片面両面の範囲によって異なります。\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6640.859375,
+                "width": 384,
+                "height": 703.203125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）\n\n座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。\n\nサービス範囲：座面／背もたれ部／肘掛部（通常2人掛け）\n\n全てのカビ、汚れやシミ、ハウスダストを除去するものではありません。\n\n5,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7700.65625,
+                "width": 384,
+                "height": 585.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）\n\n毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。\n\nサービス範囲：カーペット ※天然素材は含まず（10帖以下一律）\n\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8643.15625,
+                "width": 384,
+                "height": 585.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）\n\n壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。\n\nサービス範囲：壁紙／ジプトーン（天井）\n\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9584.9375,
+                "width": 384,
+                "height": 568.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）\n\n壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。\n\nサービス範囲：壁紙（20㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10509.9375,
+                "width": 384,
+                "height": 542.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ガラス・サッシクリーニング\n\nガラスの手アカや水汚れを拭き上げ、サッシの溝にたまった砂やホコリも取り除きます。細かな隅まで道具を使い分け、窓まわりを清潔に整えます。\n\nサービス範囲：ガラス面／サッシ枠の内側・外側（10㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 11409.4375,
+                "width": 384,
+                "height": 559.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "玄関床クリーニング＆コーティング（2㎡以下は一律）\n\n玄関床の土砂汚れや黒ずみを落とし、素材に合ったコーティングで仕上げます。表面の状態を確認し、日々の拭き掃除がしやすい床に整えます。\n\nサービス範囲：玄関床面\n\nサービス時間\n約2時間／式\n19,800〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 12325.71875,
+                "width": 384,
+                "height": 607.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気ダクトクリーニング（1経路）\n\n換気ダクトの構造を確認し、内部にたまったホコリや汚れを専用機材で取り除きます。接続するファンや経路の状態も確認し、作業範囲をご案内します。\n\nサービス範囲：給気口カバー／各種ダクト\n\nサービス時間\n約1.5時間\n12,100〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 13290.21875,
+                "width": 384,
+                "height": 582.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "24時間換気・24時間換気ダクトセット\n\n24時間換気の本体と接続するダクトをまとめて清掃します。フィルターやファン、通気経路を確認し、たまったホコリを丁寧に取り除きます。\n\nサービス範囲：24時間換気／換気口カバー／各種ダクト\n\nサービス時間\n約2.5時間\n33,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 14013.625,
+                "width": 384,
+                "height": 582.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気扇・換気扇ダクトセット\n\n換気扇の部品と接続するダクトをまとめて清掃します。ファンの油汚れや通気経路のホコリを確認し、それぞれに合った方法で洗浄します。\n\nサービス範囲：換気扇／換気口カバー／各種ダクト\n\nサービス時間\n約3時間\n36,300〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 14737.03125,
+                "width": 384,
+                "height": 582.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フルセット（換気扇・換気扇ダクト・24時間換気・24時間換気ダクト）\n\n換気扇と24時間換気、それぞれにつながるダクトをまとめて清掃します。設備の配置と経路を確認し、本体から内部まで順に汚れを取り除きます。\n\nサービス範囲：換気扇／24時間換気／換気口カバー／各種ダクト\n\nサービス時間\n約5時間\n63,800〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 15460.4375,
+                "width": 384,
+                "height": 624.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "空気清浄機クリーニング\n\nカバーやフィルターにたまったホコリを取り除き、洗浄できる部品を清掃します。加湿機能付きの場合はトレーの状態も確認し、機種に合ったお手入れを行います。\n\nサービス範囲：各種フィルター／加湿トレー／加湿フィルター／化粧パネル\n\nサービス時間\n約1.5時間\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16441.71875,
+                "width": 384,
+                "height": 599.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4103.25,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4852.15625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 5816.65625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 6660.859375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 7720.65625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 8663.15625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 9604.9375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 10529.9375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 11429.4375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 12345.71875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 13310.21875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 14033.625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 14757.03125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 15480.4375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 16461.71875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "フローリング洗浄ワックス（10帖以下一律料金）\n\n床材に合った方法で表面の汚れを洗浄し、乾燥後にワックスを塗布します。床の状態と既存の塗膜を確認し、日常のお手入れがしやすい表面に整えます。\n\nサービス範囲：フローリング床\n\nサービス時間\n約2時間\n13,200\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4326.578125,
+                "width": 384,
+                "height": 344.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリングハクリ＆ワックス（10帖以下一律料金）\n\n古いワックスに蓄積した汚れや黒ずみを、塗膜ごと取り除きます。床材への適合を確認し、洗浄と乾燥を行った後、新しいワックスで仕上げます。\n\nサービス範囲：フローリング床\n\nサービス時間\n約7時間\n46,200\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5075.484375,
+                "width": 384,
+                "height": 344.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）\n\nマットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2時間　※サイズ・片面両面の範囲によって異なります。\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6039.984375,
+                "width": 384,
+                "height": 439.875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）\n\nマットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2.5時間　※サイズ・片面両面の範囲によって異なります。\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6884.1875,
+                "width": 384,
+                "height": 439.875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）\n\n座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。\n\nサービス範囲：座面／背もたれ部／肘掛部（通常2人掛け）\n\n全てのカビ、汚れやシミ、ハウスダストを除去するものではありません。\n\n5,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7943.984375,
+                "width": 384,
+                "height": 322.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）\n\n毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。\n\nサービス範囲：カーペット ※天然素材は含まず（10帖以下一律）\n\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8886.484375,
+                "width": 384,
+                "height": 321.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）\n\n壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。\n\nサービス範囲：壁紙／ジプトーン（天井）\n\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9828.265625,
+                "width": 384,
+                "height": 305.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）\n\n壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。\n\nサービス範囲：壁紙（20㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10753.265625,
+                "width": 384,
+                "height": 279.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ガラス・サッシクリーニング\n\nガラスの手アカや水汚れを拭き上げ、サッシの溝にたまった砂やホコリも取り除きます。細かな隅まで道具を使い分け、窓まわりを清潔に整えます。\n\nサービス範囲：ガラス面／サッシ枠の内側・外側（10㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 11652.765625,
+                "width": 384,
+                "height": 296.359375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "玄関床クリーニング＆コーティング（2㎡以下は一律）\n\n玄関床の土砂汚れや黒ずみを落とし、素材に合ったコーティングで仕上げます。表面の状態を確認し、日々の拭き掃除がしやすい床に整えます。\n\nサービス範囲：玄関床面\n\nサービス時間\n約2時間／式\n19,800〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 12569.046875,
+                "width": 384,
+                "height": 344.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気ダクトクリーニング（1経路）\n\n換気ダクトの構造を確認し、内部にたまったホコリや汚れを専用機材で取り除きます。接続するファンや経路の状態も確認し、作業範囲をご案内します。\n\nサービス範囲：給気口カバー／各種ダクト\n\nサービス時間\n約1.5時間\n12,100〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 13533.546875,
+                "width": 384,
+                "height": 319.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "24時間換気・24時間換気ダクトセット\n\n24時間換気の本体と接続するダクトをまとめて清掃します。フィルターやファン、通気経路を確認し、たまったホコリを丁寧に取り除きます。\n\nサービス範囲：24時間換気／換気口カバー／各種ダクト\n\nサービス時間\n約2.5時間\n33,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 14256.953125,
+                "width": 384,
+                "height": 319.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気扇・換気扇ダクトセット\n\n換気扇の部品と接続するダクトをまとめて清掃します。ファンの油汚れや通気経路のホコリを確認し、それぞれに合った方法で洗浄します。\n\nサービス範囲：換気扇／換気口カバー／各種ダクト\n\nサービス時間\n約3時間\n36,300〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 14980.359375,
+                "width": 384,
+                "height": 319.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フルセット（換気扇・換気扇ダクト・24時間換気・24時間換気ダクト）\n\n換気扇と24時間換気、それぞれにつながるダクトをまとめて清掃します。設備の配置と経路を確認し、本体から内部まで順に汚れを取り除きます。\n\nサービス範囲：換気扇／24時間換気／換気口カバー／各種ダクト\n\nサービス時間\n約5時間\n63,800〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 15703.765625,
+                "width": 384,
+                "height": 361.359375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "空気清浄機クリーニング\n\nカバーやフィルターにたまったホコリを取り除き、洗浄できる部品を清掃します。加湿機能付きの場合はトレーの状態も確認し、機種に合ったお手入れを行います。\n\nサービス範囲：各種フィルター／加湿トレー／加湿フィルター／化粧パネル\n\nサービス時間\n約1.5時間\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16685.046875,
+                "width": 384,
+                "height": 335.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "フローリング洗浄ワックス（10帖以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 4338.578125,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリングハクリ＆ワックス（10帖以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 5087.484375,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）",
+              "rect": {
+                "x": 39,
+                "y": 6051.984375,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）",
+              "rect": {
+                "x": 39,
+                "y": 6896.1875,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）",
+              "rect": {
+                "x": 39,
+                "y": 7955.984375,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 8898.484375,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）",
+              "rect": {
+                "x": 39,
+                "y": 9840.265625,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 10765.265625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ガラス・サッシクリーニング",
+              "rect": {
+                "x": 39,
+                "y": 11664.765625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "玄関床クリーニング＆コーティング（2㎡以下は一律）",
+              "rect": {
+                "x": 39,
+                "y": 12581.046875,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気ダクトクリーニング（1経路）",
+              "rect": {
+                "x": 39,
+                "y": 13545.546875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "24時間換気・24時間換気ダクトセット",
+              "rect": {
+                "x": 39,
+                "y": 14268.953125,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気扇・換気扇ダクトセット",
+              "rect": {
+                "x": 39,
+                "y": 14992.359375,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フルセット（換気扇・換気扇ダクト・24時間換気・24時間換気ダクト）",
+              "rect": {
+                "x": 39,
+                "y": 15715.765625,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "空気清浄機クリーニング",
+              "rect": {
+                "x": 39,
+                "y": 16697.046875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "床材に合った方法で表面の汚れを洗浄し、乾燥後にワックスを塗布します。床の状態と既存の塗膜を確認し、日常のお手入れがしやすい表面に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 4401.578125,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "古いワックスに蓄積した汚れや黒ずみを、塗膜ごと取り除きます。床材への適合を確認し、洗浄と乾燥を行った後、新しいワックスで仕上げます。",
+              "rect": {
+                "x": 39,
+                "y": 5150.484375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。",
+              "rect": {
+                "x": 39,
+                "y": 6190.78125,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。",
+              "rect": {
+                "x": 39,
+                "y": 7034.984375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。",
+              "rect": {
+                "x": 39,
+                "y": 7993.484375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。",
+              "rect": {
+                "x": 39,
+                "y": 8961.484375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。",
+              "rect": {
+                "x": 39,
+                "y": 9903.265625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。",
+              "rect": {
+                "x": 39,
+                "y": 10802.765625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ガラスの手アカや水汚れを拭き上げ、サッシの溝にたまった砂やホコリも取り除きます。細かな隅まで道具を使い分け、窓まわりを清潔に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 11702.265625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "玄関床の土砂汚れや黒ずみを落とし、素材に合ったコーティングで仕上げます。表面の状態を確認し、日々の拭き掃除がしやすい床に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 12644.046875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気ダクトの構造を確認し、内部にたまったホコリや汚れを専用機材で取り除きます。接続するファンや経路の状態も確認し、作業範囲をご案内します。",
+              "rect": {
+                "x": 39,
+                "y": 13583.046875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "24時間換気の本体と接続するダクトをまとめて清掃します。フィルターやファン、通気経路を確認し、たまったホコリを丁寧に取り除きます。",
+              "rect": {
+                "x": 39,
+                "y": 14306.453125,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気扇の部品と接続するダクトをまとめて清掃します。ファンの油汚れや通気経路のホコリを確認し、それぞれに合った方法で洗浄します。",
+              "rect": {
+                "x": 39,
+                "y": 15029.859375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "換気扇と24時間換気、それぞれにつながるダクトをまとめて清掃します。設備の配置と経路を確認し、本体から内部まで順に汚れを取り除きます。",
+              "rect": {
+                "x": 39,
+                "y": 15778.765625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カバーやフィルターにたまったホコリを取り除き、洗浄できる部品を清掃します。加湿機能付きの場合はトレーの状態も確認し、機種に合ったお手入れを行います。",
+              "rect": {
+                "x": 39,
+                "y": 16734.546875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4601.96875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5350.875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6410.671875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7254.875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8197.375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 9139.15625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10064.15625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 10963.65625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 11879.9375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 12844.4375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 13783.4375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 14506.84375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 15230.25,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 15995.9375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 16951.71875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 2,
+        "optionPanelsOpened": 15,
+        "optionCardCounts": [
+          1,
+          1,
+          12,
+          12,
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "newOptions": [
+          "30015",
+          "30016",
+          "30017",
+          "30018",
+          "30001",
+          "30002",
+          "30003",
+          "30004",
+          "30005",
+          "30006",
+          "30007",
+          "30008"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3273.21875,
+          "width": 414,
+          "height": 7485.3125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bathroom.webp",
+            "alt": "浴槽や浴室の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/finish-check.webp",
+            "alt": "シンクや作業台の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/toilet.webp",
+            "alt": "便器などの清掃後の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/lavatory.webp",
+            "alt": "洗面ボウルや天板の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wood-coating.webp",
+            "alt": "床材を保護する塗膜の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wood-coating.webp",
+            "alt": "床表面の保護と光沢の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wood-repair.webp",
+            "alt": "床の小さな傷やへこみの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "浴室コーティング\n\n浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。\n\n【コーティング範囲】浴槽、シャンプー台、壁面、水栓金具、扉（内側）\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3488.8125,
+                "width": 384,
+                "height": 575.015625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンコーティング\n\nキッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。\n\n【コーティング範囲】壁面（キッチンパネル）、シンク、天板\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4204.828125,
+                "width": 384,
+                "height": 575.015625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレコーティング\n\n便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。\n\n【コーティング範囲】便器、タンク\n※施工できる素材や範囲は現地で確認します。\n\n15,400\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4920.84375,
+                "width": 384,
+                "height": 555.515625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台コーティング\n\n洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。\n\n【コーティング範囲】洗面ボウル、天板\n※施工できる素材や範囲は現地で確認します。\n\n14,850\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5617.359375,
+                "width": 384,
+                "height": 555.515625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フロアコーティング（1帖あたり）\n\n床面を清掃して状態を整え、保護用のコーティングを施工します。床材との相性や光沢の見え方をご説明し、ご希望に合わせて仕上げます。\n\nサービス範囲：フローリング床\n\nクリスタルクリーンホーム使用ワックスのうち1種との比較。\n※既にワックスを塗布されている床面は剥離が必要となり別途1帖あたり3,300円追加となります。\n※光沢がある・光沢がないタイプ コーティング剤2種よりお選び頂けます。詳細はお見積り時にお問い合わせください。\n※什器の移動が多い場合、別途料金が発生する場合がございます。\n\nサービス時間\n約7時間（20帖の場合）\n8,800\n(税込)／帖\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6529.46875,
+                "width": 384,
+                "height": 761.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "UVコーティング（1帖あたり）\n\n床の表面を整え、紫外線で硬化する塗膜を施工します。床材と既存の塗装を確認し、仕上がりの光沢や日頃のお手入れについてご案内します。\n\nサービス範囲：フローリング床\n\n強い光沢が苦手なお客様には、光沢を控えめにした仕上がりにすることも可能です。\n※フロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約8時間（20帖の場合）\n12,100\n(税込)／帖\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7432.375,
+                "width": 384,
+                "height": 703.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング補修（リペア）5箇所\n\n床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。\n\nサービス範囲：フローリング床\n\nフロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※ キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約20分（1箇所）\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8276.78125,
+                "width": 384,
+                "height": 664.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3508.8125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4224.828125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4940.84375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 5637.359375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 6549.46875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 7452.375,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 8296.78125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "浴室コーティング\n\n浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。\n\n【コーティング範囲】浴槽、シャンプー台、壁面、水栓金具、扉（内側）\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3732.140625,
+                "width": 384,
+                "height": 311.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンコーティング\n\nキッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。\n\n【コーティング範囲】壁面（キッチンパネル）、シンク、天板\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4448.15625,
+                "width": 384,
+                "height": 311.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレコーティング\n\n便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。\n\n【コーティング範囲】便器、タンク\n※施工できる素材や範囲は現地で確認します。\n\n15,400\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5164.171875,
+                "width": 384,
+                "height": 292.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台コーティング\n\n洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。\n\n【コーティング範囲】洗面ボウル、天板\n※施工できる素材や範囲は現地で確認します。\n\n14,850\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5860.6875,
+                "width": 384,
+                "height": 292.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フロアコーティング（1帖あたり）\n\n床面を清掃して状態を整え、保護用のコーティングを施工します。床材との相性や光沢の見え方をご説明し、ご希望に合わせて仕上げます。\n\nサービス範囲：フローリング床\n\nクリスタルクリーンホーム使用ワックスのうち1種との比較。\n※既にワックスを塗布されている床面は剥離が必要となり別途1帖あたり3,300円追加となります。\n※光沢がある・光沢がないタイプ コーティング剤2種よりお選び頂けます。詳細はお見積り時にお問い合わせください。\n※什器の移動が多い場合、別途料金が発生する場合がございます。\n\nサービス時間\n約7時間（20帖の場合）\n8,800\n(税込)／帖\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6772.796875,
+                "width": 384,
+                "height": 498.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "UVコーティング（1帖あたり）\n\n床の表面を整え、紫外線で硬化する塗膜を施工します。床材と既存の塗装を確認し、仕上がりの光沢や日頃のお手入れについてご案内します。\n\nサービス範囲：フローリング床\n\n強い光沢が苦手なお客様には、光沢を控えめにした仕上がりにすることも可能です。\n※フロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約8時間（20帖の場合）\n12,100\n(税込)／帖\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7675.703125,
+                "width": 384,
+                "height": 440.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング補修（リペア）5箇所\n\n床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。\n\nサービス範囲：フローリング床\n\nフロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※ キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約20分（1箇所）\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8520.109375,
+                "width": 384,
+                "height": 401.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "浴室コーティング",
+              "rect": {
+                "x": 39,
+                "y": 3744.140625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンコーティング",
+              "rect": {
+                "x": 39,
+                "y": 4460.15625,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "トイレコーティング",
+              "rect": {
+                "x": 39,
+                "y": 5176.171875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台コーティング",
+              "rect": {
+                "x": 39,
+                "y": 5872.6875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フロアコーティング（1帖あたり）",
+              "rect": {
+                "x": 39,
+                "y": 6784.796875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "UVコーティング（1帖あたり）",
+              "rect": {
+                "x": 39,
+                "y": 7687.703125,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "フローリング補修（リペア）5箇所",
+              "rect": {
+                "x": 39,
+                "y": 8532.109375,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 3781.640625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "キッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 4497.65625,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。",
+              "rect": {
+                "x": 39,
+                "y": 5213.671875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。",
+              "rect": {
+                "x": 39,
+                "y": 5910.1875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "床面を清掃して状態を整え、保護用のコーティングを施工します。床材との相性や光沢の見え方をご説明し、ご希望に合わせて仕上げます。",
+              "rect": {
+                "x": 39,
+                "y": 6822.296875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "床の表面を整え、紫外線で硬化する塗膜を施工します。床材と既存の塗装を確認し、仕上がりの光沢や日頃のお手入れについてご案内します。",
+              "rect": {
+                "x": 39,
+                "y": 7725.203125,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。",
+              "rect": {
+                "x": 39,
+                "y": 8569.609375,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3974.640625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4690.65625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5387.171875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6083.6875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 7202.1875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8046.59375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 8852,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 7,
+        "optionCardCounts": [
+          2,
+          2,
+          2,
+          2,
+          1,
+          1,
+          2
+        ],
+        "newOptions": [
+          "30019",
+          "30020",
+          "30021",
+          "30022",
+          "30023",
+          "30024",
+          "30025",
+          "30026",
+          "30011",
+          "30012"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "others",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 5231.15625
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/outerwall.webp",
+            "alt": "外壁の表面や継ぎ目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/wall.webp",
+            "alt": "室内の壁や対象面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/balcony.webp",
+            "alt": "ベランダの隅や排水口の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/grave.webp",
+            "alt": "墓石の台座や継ぎ目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "外壁手洗い洗浄\n\n外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。\n\n44,000\n(税込)／外壁1面（40㎡以下）\n※追加1㎡あたり990円（税込）\nお見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 530.375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "光触媒抗菌コーティング 10帖まで一律\n\n室内の対象となる壁面などを確認し、対応するコーティング剤を塗布します。素材と使用環境に応じて施工範囲を決め、施工後のお手入れもご案内します。\n\nサービス範囲：10帖まで一律。ご希望の個所の施工となります。\n\n全ての菌を除去するものではありません。\n\n33,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4524.390625,
+                "width": 384,
+                "height": 583.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ベランダ・外回り高圧洗浄\n\nベランダや外回りの土砂汚れ、コケなどを水圧で洗い流します。床や壁の材質を確認し、排水と周囲への飛散に気を配りながら清掃します。\n\nサービス範囲：ベランダ／カーポート／外壁／玄関ポーチ／エントランス／外構 など（10㎡まで）\n\n全ての汚れを除去するものではありません。\n\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5464.171875,
+                "width": 384,
+                "height": 583.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お墓のお掃除\n\n墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。\n\nサービス範囲：石碑／塔婆立て／燈籠／花立て／香立て／線香皿／拝石／手水鉢／外柵／墓誌／物置台／名刺受 など\n\n19,800\n(税込)／基\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6403.953125,
+                "width": 384,
+                "height": 559.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4544.390625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 5484.171875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 6423.953125,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "外壁手洗い洗浄\n\n外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。\n\n44,000\n(税込)／外壁1面（40㎡以下）\n※追加1㎡あたり990円（税込）\nお見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 267.046875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "光触媒抗菌コーティング 10帖まで一律\n\n室内の対象となる壁面などを確認し、対応するコーティング剤を塗布します。素材と使用環境に応じて施工範囲を決め、施工後のお手入れもご案内します。\n\nサービス範囲：10帖まで一律。ご希望の個所の施工となります。\n\n全ての菌を除去するものではありません。\n\n33,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4767.71875,
+                "width": 384,
+                "height": 319.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ベランダ・外回り高圧洗浄\n\nベランダや外回りの土砂汚れ、コケなどを水圧で洗い流します。床や壁の材質を確認し、排水と周囲への飛散に気を配りながら清掃します。\n\nサービス範囲：ベランダ／カーポート／外壁／玄関ポーチ／エントランス／外構 など（10㎡まで）\n\n全ての汚れを除去するものではありません。\n\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5707.5,
+                "width": 384,
+                "height": 319.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お墓のお掃除\n\n墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。\n\nサービス範囲：石碑／塔婆立て／燈籠／花立て／香立て／線香皿／拝石／手水鉢／外柵／墓誌／物置台／名刺受 など\n\n19,800\n(税込)／基\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6647.28125,
+                "width": 384,
+                "height": 296.359375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "外壁手洗い洗浄",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "光触媒抗菌コーティング 10帖まで一律",
+              "rect": {
+                "x": 39,
+                "y": 4779.71875,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ベランダ・外回り高圧洗浄",
+              "rect": {
+                "x": 39,
+                "y": 5719.5,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "お墓のお掃除",
+              "rect": {
+                "x": 39,
+                "y": 6659.28125,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "室内の対象となる壁面などを確認し、対応するコーティング剤を塗布します。素材と使用環境に応じて施工範囲を決め、施工後のお手入れもご案内します。",
+              "rect": {
+                "x": 39,
+                "y": 4817.21875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "ベランダや外回りの土砂汚れ、コケなどを水圧で洗い流します。床や壁の材質を確認し、排水と周囲への飛散に気を配りながら清掃します。",
+              "rect": {
+                "x": 39,
+                "y": 5757,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。",
+              "rect": {
+                "x": 39,
+                "y": 6696.78125,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "お見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 4075,
+                "width": 384,
+                "height": 72.796875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5018.390625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5958.171875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 6874.453125,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 4,
+        "optionCardCounts": [
+          2,
+          1,
+          2,
+          2
+        ],
+        "newOptions": [
+          "30027",
+          "30028",
+          "30009",
+          "30010"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating/bathroom",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2415.953125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bathroom.webp",
+            "alt": "浴槽や浴室の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "浴室コーティング\n\n浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。\n\n【コーティング範囲】浴槽、シャンプー台、壁面、水栓金具、扉（内側）\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 575.015625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "浴室コーティング\n\n浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。\n\n【コーティング範囲】浴槽、シャンプー台、壁面、水栓金具、扉（内側）\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 311.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "浴室コーティング",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "浴室を清掃した後、素材に合うコーティング剤で表面を保護します。施工する箇所を確認し、水アカや汚れのお手入れがしやすい状態に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4123.25,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30019",
+          "30020"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating/kitchen",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2415.953125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/finish-check.webp",
+            "alt": "シンクや作業台の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "キッチンコーティング\n\nキッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。\n\n【コーティング範囲】壁面（キッチンパネル）、シンク、天板\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 575.015625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "キッチンコーティング\n\nキッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。\n\n【コーティング範囲】壁面（キッチンパネル）、シンク、天板\n※施工できる素材や範囲は現地で確認します。\n\n29,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 311.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "キッチンコーティング",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "キッチンの汚れを落とした後、対応する箇所へコーティング剤を塗布します。素材と仕上がりを確認し、日々の拭き掃除がしやすい表面に整えます。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4123.25,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30021",
+          "30022"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating/lavatory",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2396.453125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/lavatory.webp",
+            "alt": "洗面ボウルや天板の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "洗面台コーティング\n\n洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。\n\n【コーティング範囲】洗面ボウル、天板\n※施工できる素材や範囲は現地で確認します。\n\n14,850\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 555.515625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "洗面台コーティング\n\n洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。\n\n【コーティング範囲】洗面ボウル、天板\n※施工できる素材や範囲は現地で確認します。\n\n14,850\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 292.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "洗面台コーティング",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "洗面台の水アカや汚れを取り除き、対象となるボウルや天板へコーティング剤を塗布します。使用素材を確認し、清潔な状態を保ちやすく整えます。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4103.75,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30025",
+          "30026"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating/repair",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2505.34375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/wood-repair.webp",
+            "alt": "床の小さな傷やへこみの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "フローリング補修（リペア）5箇所\n\n床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。\n\nサービス範囲：フローリング床\n\nフロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※ キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約20分（1箇所）\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 664.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "フローリング補修（リペア）5箇所\n\n床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。\n\nサービス範囲：フローリング床\n\nフロアコーティングまたは他のハウスクリーニングメニュー11,000円以上とのセットでのご注文に限ります。\n※ キズの深さ、大きさによって対応できない場合がございます。\n\nサービス時間\n約20分（1箇所）\n11,000\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 401.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "フローリング補修（リペア）5箇所",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "床に付いた小さな傷やへこみを確認し、補修材で形と色を整えます。木目や周囲の色合いに配慮し、傷が目立ちにくいよう丁寧に仕上げます。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4212.640625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30011",
+          "30012"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "coating/toilet",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2396.453125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/toilet.webp",
+            "alt": "便器などの清掃後の表面の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "トイレコーティング\n\n便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。\n\n【コーティング範囲】便器、タンク\n※施工できる素材や範囲は現地で確認します。\n\n15,400\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 555.515625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "トイレコーティング\n\n便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。\n\n【コーティング範囲】便器、タンク\n※施工できる素材や範囲は現地で確認します。\n\n15,400\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 292.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "トイレコーティング",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "便器などの対象箇所を清掃し、素材に合ったコーティングで仕上げます。汚れが付きやすい場所の状態を確認し、普段のお手入れをしやすくします。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4103.75,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30023",
+          "30024"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "others/grave",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2400.625
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/grave.webp",
+            "alt": "墓石の台座や継ぎ目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "お墓のお掃除\n\n墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。\n\nサービス範囲：石碑／塔婆立て／燈籠／花立て／香立て／線香皿／拝石／手水鉢／外柵／墓誌／物置台／名刺受 など\n\n19,800\n(税込)／基\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 559.6875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "お墓のお掃除\n\n墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。\n\nサービス範囲：石碑／塔婆立て／燈籠／花立て／香立て／線香皿／拝石／手水鉢／外柵／墓誌／物置台／名刺受 など\n\n19,800\n(税込)／基\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 296.359375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "お墓のお掃除",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "墓石の表面や台座に付いた汚れを、石材に合った方法で清掃します。敷地内の落ち葉なども整え、作業した箇所と仕上がりをご報告します。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4107.921875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30009",
+          "30010"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "others/outerwall",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2371.3125
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/outerwall.webp",
+            "alt": "外壁の表面や継ぎ目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "外壁手洗い洗浄\n\n外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。\n\n44,000\n(税込)／外壁1面（40㎡以下）\n※追加1㎡あたり990円（税込）\nお見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 530.375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "外壁手洗い洗浄\n\n外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。\n\n44,000\n(税込)／外壁1面（40㎡以下）\n※追加1㎡あたり990円（税込）\nお見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 267.046875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "外壁手洗い洗浄",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "外壁の材質と汚れの状態を確認し、洗剤とブラシで丁寧に手洗いします。周辺への水はねに配慮しながら、表面に付いた汚れを洗い流します。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "お見積り（無料）はこちら",
+              "rect": {
+                "x": 15,
+                "y": 4075,
+                "width": 384,
+                "height": 72.796875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30027",
+          "30028"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room/carpet",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2406.625
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/carpet.webp",
+            "alt": "毛足に入り込んだ汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）\n\n毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。\n\nサービス範囲：カーペット ※天然素材は含まず（10帖以下一律）\n\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 585.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）\n\n毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。\n\nサービス範囲：カーペット ※天然素材は含まず（10帖以下一律）\n\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 321.859375
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "カーペットクリーニング（10帖以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "毛足に入り込んだホコリを取り除き、専用機材でカーペットを洗浄します。シミの状態と素材を確かめながら作業し、洗浄後は汚水を丁寧に吸引します。",
+              "rect": {
+                "x": 39,
+                "y": 3955.75,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4133.421875,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30003",
+          "30004"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room/cloth",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2364.34375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/wall.webp",
+            "alt": "壁紙の手アカや表面汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）\n\n壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。\n\nサービス範囲：壁紙（20㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 542.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）\n\n壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。\n\nサービス範囲：壁紙（20㎡以下一律）\n\n11,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 279.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "壁紙クリーニング（20㎡以下一律料金）",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "壁紙に付いたホコリや手アカなどを、素材に合った方法で落とします。目立たない箇所で状態を確認し、壁面を傷めないよう丁寧に清掃します。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4091.140625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30007",
+          "30008"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room/mattress",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 3388.34375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/mattress.webp",
+            "alt": "マットレスの表面や縫い目の清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          },
+          {
+            "src": "/assets/images/service-scenes/mattress.webp",
+            "alt": "寝具に染み込んだ汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）\n\nマットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2時間　※サイズ・片面両面の範囲によって異なります。\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 703.203125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）\n\nマットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2.5時間　※サイズ・片面両面の範囲によって異なります。\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4481.625,
+                "width": 384,
+                "height": 703.203125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 4501.625,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）\n\nマットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2時間　※サイズ・片面両面の範囲によって異なります。\n16,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 439.875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）\n\nマットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。\n\nサービス範囲：マットレス\n\nサービス時間\nシングル片面：約2.5時間　※サイズ・片面両面の範囲によって異なります。\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4724.953125,
+                "width": 384,
+                "height": 439.875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "マットレス除菌クリーニング（スタンダード）",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレス除菌クリーニング（プレミアム）",
+              "rect": {
+                "x": 39,
+                "y": 4736.953125,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "マットレスの表面と縫い目にたまるホコリを取り除き、専用機材で洗浄します。布地の状態を確認し、汗や皮脂による汚れを丁寧に吸い出します。",
+              "rect": {
+                "x": 39,
+                "y": 4031.546875,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "マットレスの素材と汚れの状態に合わせ、洗浄と吸引を丁寧に行います。気になる箇所を事前に伺い、仕上がりと乾燥に必要な時間をご案内します。",
+              "rect": {
+                "x": 39,
+                "y": 4875.75,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4251.4375,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            },
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 5095.640625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 2,
+        "optionPanelsOpened": 2,
+        "optionCardCounts": [
+          12,
+          12
+        ],
+        "newOptions": [
+          "30015",
+          "30016",
+          "30017",
+          "30018"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room/sofa",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2426.84375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/sofa.webp",
+            "alt": "座面や縫い目の汚れの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）\n\n座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。\n\nサービス範囲：座面／背もたれ部／肘掛部（通常2人掛け）\n\n全てのカビ、汚れやシミ、ハウスダストを除去するものではありません。\n\n5,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 585.90625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）\n\n座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。\n\nサービス範囲：座面／背もたれ部／肘掛部（通常2人掛け）\n\n全てのカビ、汚れやシミ、ハウスダストを除去するものではありません。\n\n5,500〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 322.578125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "ソファ・椅子クリーニング（通常2人掛け）",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "座面や背もたれに付いた皮脂汚れ、食べこぼしなどを清掃します。布地の種類を確認し、専用機材で洗浄と吸引を行い、普段洗いにくい部分まで整えます。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4134.140625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30001",
+          "30002"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "room/wallpaper-dyeing",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2409.34375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/wallpaper-dyeing.webp",
+            "alt": "壁紙のくすみや色むらの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）\n\n壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。\n\nサービス範囲：壁紙／ジプトーン（天井）\n\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 568.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）\n\n壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。\n\nサービス範囲：壁紙／ジプトーン（天井）\n\n22,000〜\n（税込）／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 305.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "壁紙染色（20㎡以下一律料金 / 天井を除く壁面のみ）",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 51
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "壁紙の状態を確認し、対応する壁面を染色して色合いを整えます。床や家具を保護して施工し、貼り替えずにお部屋の印象を明るくするお手伝いをします。",
+              "rect": {
+                "x": 39,
+                "y": 3955.75,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4116.640625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30005",
+          "30006"
+        ]
+      }
+    },
+    {
+      "engine": "WebKit",
+      "viewport": {
+        "width": 414,
+        "height": 688
+      },
+      "route": "water/ulblo",
+      "passed": true,
+      "measurement": {
+        "rect": {
+          "x": 0,
+          "y": 3421.828125,
+          "width": 414,
+          "height": 2466.34375
+        },
+        "images": [
+          {
+            "src": "/assets/images/service-scenes/bath-adapter.webp",
+            "alt": "浴槽の循環アダプターの清掃イメージ",
+            "width": 1536,
+            "height": 1024
+          }
+        ],
+        "anchors": [],
+        "components": {
+          "card": [
+            {
+              "text": "浴室用アダプター取り付け\n\n浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。\n\nサービス範囲：浴槽部分の循環アダプター\n\n取り付け可能な機種は、事前にお確かめください。\n※泡の感じ方は、ご使用の環境によって異なります。\n\nサービス時間\n約1.5時間／式\n62,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3637.421875,
+                "width": 384,
+                "height": 625.40625
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "image": [
+            {
+              "text": "",
+              "rect": {
+                "x": 19.5,
+                "y": 3657.421875,
+                "width": 375,
+                "height": 223.328125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "contents": [
+            {
+              "text": "浴室用アダプター取り付け\n\n浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。\n\nサービス範囲：浴槽部分の循環アダプター\n\n取り付け可能な機種は、事前にお確かめください。\n※泡の感じ方は、ご使用の環境によって異なります。\n\nサービス時間\n約1.5時間／式\n62,700\n(税込)／式\nカートに追加",
+              "rect": {
+                "x": 15,
+                "y": 3880.75,
+                "width": 384,
+                "height": 362.078125
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "heading": [
+            {
+              "text": "浴室用アダプター取り付け",
+              "rect": {
+                "x": 39,
+                "y": 3892.75,
+                "width": 336,
+                "height": 25.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "description": [
+            {
+              "text": "浴槽に付いている循環アダプターを、微細な泡を発生させるタイプに交換します。給湯設備との適合を確認し、取り付け後は水漏れや動作を点検します。",
+              "rect": {
+                "x": 39,
+                "y": 3930.25,
+                "width": 336,
+                "height": 58.5
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ],
+          "footer": [
+            {
+              "text": "カートに追加",
+              "rect": {
+                "x": 15,
+                "y": 4173.640625,
+                "width": 384,
+                "height": 69.1875
+              },
+              "overflow": false,
+              "mask": "none"
+            }
+          ]
+        }
+      },
+      "operations": {
+        "variantsSwitched": 0,
+        "optionPanelsOpened": 1,
+        "optionCardCounts": [
+          2
+        ],
+        "newOptions": [
+          "30013",
+          "30014"
+        ]
+      }
+    }
+  ]
+}
