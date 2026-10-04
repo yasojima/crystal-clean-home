@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-10-04T06:04:52.067251+00:00",
+  "source_commit": "ea86173a8976df4ba69eb44c939394b68cb5f19c",
+  "pages_commit": "19195273bb460ddc8a36b1fc92c84a165037c073",
+  "actions_run": 37181649792,
+  "actions_conclusion": "success",
+  "passed": true,
+  "checks": [
+    {
+      "path": "house-cleaning/aircon/",
+      "status": 200,
+      "bytes": 184985,
+      "sha256": "45a9b8aa01fee472166f31252614f7aa948eaa632d4b487ee3a2fb7c1ad579e3",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/pack/",
+      "status": 200,
+      "bytes": 449054,
+      "sha256": "acaf5111a400bbc44df43700f17c1f5ff659007a6ed446b033677d71a4af2bf2",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/water/",
+      "status": 200,
+      "bytes": 235302,
+      "sha256": "126c9a1c2178c7b9d298893dce7c4aa2925142ce66e42a158e8e40b6908d82f4",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/washer/",
+      "status": 200,
+      "bytes": 148039,
+      "sha256": "e18eade54615606f248cf03a58caf0198cb9fdff96d4872e2cb1d39cc87b75ab",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/kitchen/",
+      "status": 200,
+      "bytes": 186952,
+      "sha256": "5e8f74e418ce297aa492fc463fd2998eb7d2576951a51048324378d18e26bff5",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/room/",
+      "status": 200,
+      "bytes": 345283,
+      "sha256": "ab40eceba27bfaf6295f8aa1f43e5b15af7b5609afa5b62e1a56b6d0cb2360f4",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/coating/",
+      "status": 200,
+      "bytes": 157635,
+      "sha256": "9e99c651a77431d86ee0ca1006a4a63bb52f9bab5a3f00d1ff2a20bde98dfef6",
+      "matches_source": true
+    },
+    {
+      "path": "house-cleaning/others/",
+      "status": 200,
+      "bytes": 126896,
+      "sha256": "dde3abda617679ffe1bb4526f54640eac5947e2a776e63c410f49e21fc9dac40",
+      "matches_source": true
+    },
+    {
+      "path": "assets/css/aircon-flow.css?v=2026100401",
+      "status": 200,
+      "bytes": 1111,
+      "sha256": "2834861ce94c864b5f4fabd077fc9b8bd945b6ccc8b2648d71f6888a9da2e8de",
+      "matches_source": true
+    }
+  ]
+}
