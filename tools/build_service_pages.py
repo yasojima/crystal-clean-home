@@ -600,15 +600,15 @@ def faq(category_copy, shared, questions=None, decorated=False):
     return n
 
 
-def steps(shared, decorated=False):
+def steps(shared, decorated=False, flow=None):
     n = template('steps'); n['id'] = 'service-flow'
     n.select_one('h2').string = 'ご利用の流れ'
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
                          ('flow', 'reference-how-to-use.webp', 150))
-    for item, words in zip(n.select('.c-step-list__item'),shared['steps']):
+    for item, words in zip(n.select('.c-step-list__item'), (flow or shared)['steps']):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
-        item.select_one('.c-step-list-item__text p').string = words[1]
+        item.select_one('.c-step-list-item__text p').string = ''.join(words[1]) if isinstance(words[1], list) else words[1]
     for note in n.select('.c-step-list-item__note'): note.decompose()
     if decorated:
         n.select_one('.u-width-pc-1024')['class'] = ['c-howto-container']
@@ -629,7 +629,22 @@ def steps(shared, decorated=False):
             step.append(label)
             item.append(step)
             item.append(tag('h3', 'c-howto__heading', heading))
-            item.append(tag('p', 'c-howto__description', description))
+            paragraph = tag('p', 'c-howto__description')
+            if flow:
+                for phrase in flow['steps'][index - 1][1]:
+                    paragraph.append(tag('span', text=phrase))
+            else:
+                paragraph.string = description
+            item.append(paragraph)
+        if flow:
+            n['class'].append('c-flow-summary')
+            payment = tag('div', 'c-howto__payment')
+            payment.append(tag('p', 'c-howto__payment-label', 'お支払い方法'))
+            methods = tag('ul', 'c-howto__payment-methods')
+            for method in flow['payment_methods']:
+                methods.append(tag('li', text=method))
+            payment.append(methods)
+            n.select_one('.p-content-box__content').append(payment)
     return n
 
 
@@ -736,7 +751,7 @@ def render(route, page, catalogue, copy):
         apply.append(additional_plans_section(page, route, catalogue, copy))
     main.append(voices(page,copy))
     main.append(faq(cat,copy['shared'],decorated=True))
-    main.append(steps(copy['shared'],decorated=True))
+    main.append(steps(copy['shared'], decorated=True, flow=cat.get('flow')))
     categories = template('categories')
     categories['style'] = '--bg-color: #e3f1fc;'
     featured_heading = categories.find('h2')
@@ -762,6 +777,9 @@ def render(route, page, catalogue, copy):
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
+    output = re.sub(r'<link\b[^>]*href="/assets/css/aircon-flow\.css(?:\?v=\d+)?"[^>]*>\s*', '', output)
+    if cat.get('flow'):
+        output = output.replace('</head>', '<link rel="stylesheet" href="/assets/css/aircon-flow.css?v=2026100401">\n</head>', 1)
     if '/assets/js/aircon-comparison.js' not in output:
         output = output.replace('</head>', '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>\n</head>', 1)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
@@ -782,6 +800,7 @@ def sync_manifest(routes, check):
               SITE / 'assets/css/aircon-header.css',
               SITE / 'assets/css/aircon-hero.css',
               SITE / 'assets/css/aircon-layout.css', SITE / 'assets/css/service-format.css',
+              SITE / 'assets/css/aircon-flow.css',
               SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-down.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-up.svg',

@@ -218,7 +218,8 @@ async function interact(page,route,viewport){
    return {gap:parseFloat(css.columnGap),rowGap:parseFloat(css.rowGap),items:[...list.children].map(item=>{const r=item.getBoundingClientRect();return {left:r.left,right:r.right,top:r.top};}),cartLeft:c?.left,
     descriptions:[...n.querySelectorAll('.c-howto__description')].map(p=>({text:p.textContent,size:getComputedStyle(p).fontSize}))};
   });
-  assert.deepEqual(geometry.descriptions.map(p=>p.text),copy.shared.steps.map(s=>s[1]),'flow summary differs from shared source');
+  const flowCopy=copy.categories[catalogue.pages[route].category].flow || copy.shared;
+  assert.deepEqual(geometry.descriptions.map(p=>p.text),flowCopy.steps.map(s=>Array.isArray(s[1])?s[1].join(''):s[1]),'flow summary differs from its canonical source');
   assert(geometry.descriptions.every(p=>p.size==='15px'),'flow description is too small');
   assert(geometry.gap>=28&&geometry.rowGap>=40,'flow steps remain crowded');
   if(viewport.width>=768&&geometry.cartLeft>0)assert(geometry.items.every(i=>i.right<=geometry.cartLeft-8),'flow enters floating cart column');
@@ -422,13 +423,20 @@ async function gallery(items, engine, viewport) {
    const settle=async()=>{await page.evaluate(async({selector,images,imageSelector})=>{await document.fonts.ready;const section=document.querySelector(selector);if(section&&images){const pictures=[...section.querySelectorAll(imageSelector||'img')];pictures.forEach(i=>i.loading='eager');await Promise.all(pictures.map(i=>i.decode().catch(()=>{})));}},{selector:definitions[phase].root,images:definitions[phase].needImages!==false,imageSelector:definitions[phase].imageSelector});};
    await page.goto(`${origin}/house-cleaning/aircon/`,{waitUntil:'load'});await settle();
    const reference=await read(page);references.push({engine,viewport,reference});
+   let sharedFlowReference=reference;
+   if(phase==='flow'&&Object.values(copy.categories).some(category=>!category.flow)){
+    const sharedRoute=Object.keys(catalogue.pages).find(route=>!copy.categories[catalogue.pages[route].category].flow);
+    await page.goto(`${origin}/house-cleaning/${sharedRoute}/`,{waitUntil:'load'});await settle();
+    sharedFlowReference=await read(page);
+   }
    const captures=[];
    for(const route of routes){
     const result={engine,viewport,route,passed:false};runtime.length=0;
     try {
      const response=await page.goto(`${origin}/house-cleaning/${route}/`,{waitUntil:'load'});assert.equal(response.status(),200);await settle();
      result.measurement=await read(page);
-     if(!inspectOnly) checkPhase[phase](result.measurement,reference,route,viewport);
+     const frameReference=phase==='flow'&&!copy.categories[catalogue.pages[route].category].flow?sharedFlowReference:reference;
+     if(!inspectOnly) checkPhase[phase](result.measurement,frameReference,route,viewport);
      if(!inspectOnly) result.operations=await interact(page,route,viewport);
      assert.deepEqual(runtime,[],'runtime errors');result.passed=true;
    if(engine==='Chrome' && process.env.SECTION_SCREENSHOTS!=='none') await capture(page,route,engine,viewport,captures);
