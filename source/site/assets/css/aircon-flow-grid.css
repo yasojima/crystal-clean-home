@@ -1,0 +1,135 @@
+.c-service-page #service-flow.c-flow-card {
+  scroll-margin-top: var(--aircon-header-height);
+}
+
+.c-flow-card .c-howto-container {
+  width: auto;
+  max-width: 1080px;
+  margin-inline: auto;
+}
+
+.c-flow-card .c-flow-card__list {
+  --howto-gap: 24px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 52px var(--howto-gap);
+}
+
+.c-flow-card .c-howto__item {
+  position: relative;
+  grid-column: span 2;
+}
+
+.c-flow-card .c-howto__item:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.c-flow-card .c-howto__item:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+.c-flow-card .c-howto__step {
+  margin: 0 0 14px;
+}
+
+.c-flow-card .c-howto__item:not(:last-child) .c-howto__step::after {
+  content: none;
+}
+
+.c-flow-card .c-flow-card__card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 252px;
+  padding: 22px 22px 26px;
+  border: 1px solid #cbdbe9;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 5px 16px rgb(31 114 208 / 11%);
+}
+
+.c-flow-card .c-howto__visual {
+  width: 120px;
+  max-width: 100%;
+}
+
+.c-flow-card .c-howto__heading {
+  min-height: 0;
+  margin: 16px 0 8px;
+}
+
+.c-flow-card .c-howto__description {
+  text-align: center;
+  text-wrap: balance;
+}
+
+@media (min-width: 1000px) {
+  .c-flow-card .c-howto__item:nth-child(1)::after,
+  .c-flow-card .c-howto__item:nth-child(2)::after,
+  .c-flow-card .c-howto__item:nth-child(4)::after {
+    position: absolute;
+    top: calc(50% + 14px);
+    right: -18px;
+    width: 12px;
+    height: 22px;
+    background: #264574;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: translate(50%, -50%);
+    content: '';
+  }
+}
+
+@media (max-width: 999.98px) {
+  .c-flow-card .c-howto-container {
+    max-width: 700px;
+  }
+
+  .c-flow-card .c-flow-card__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 48px 28px;
+  }
+
+  .c-flow-card .c-howto__item,
+  .c-flow-card .c-howto__item:nth-child(4) {
+    grid-column: auto;
+  }
+
+  .c-flow-card .c-howto__item:nth-child(5) {
+    grid-column: 1 / -1;
+    width: min(100%, 320px);
+    justify-self: center;
+  }
+
+  .c-flow-card .c-howto__item:nth-child(odd):not(:last-child)::after {
+    position: absolute;
+    top: calc(50% + 14px);
+    right: -20px;
+    width: 12px;
+    height: 22px;
+    background: #264574;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    transform: translate(50%, -50%);
+    content: '';
+  }
+}
+
+@media (max-width: 599.98px) {
+  .c-flow-card .c-howto-container {
+    max-width: 100%;
+    margin-inline: auto;
+  }
+
+  .c-flow-card .c-flow-card__list {
+    grid-template-columns: minmax(0, 320px);
+    justify-content: center;
+    row-gap: 64px;
+  }
+
+  .c-flow-card .c-howto__item:nth-child(odd):not(:last-child)::after {
+    content: none;
+  }
+
+  .c-flow-card .c-howto__item:nth-child(5) {
+    grid-column: auto;
+  }
+}

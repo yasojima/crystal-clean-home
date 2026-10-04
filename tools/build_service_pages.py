@@ -600,19 +600,22 @@ def faq(category_copy, shared, questions=None, decorated=False):
     return n
 
 
-def steps(shared, decorated=False):
+def steps(shared, decorated=False, flow=None):
     n = template('steps'); n['id'] = 'service-flow'
     n.select_one('h2').string = 'ご利用の流れ'
     if decorated:
         decorate_heading(n.select_one('h2'), 'HOW TO USE', 'ご利用の流れ',
                          ('flow', 'reference-how-to-use.webp', 150))
-    for item, words in zip(n.select('.c-step-list__item'),shared['steps']):
+    for item, words in zip(n.select('.c-step-list__item'), flow or shared['steps']):
         item.select_one('.c-step-list-item__heading-main').string = words[0]
         item.select_one('.c-step-list-item__text p').string = words[1]
     for note in n.select('.c-step-list-item__note'): note.decompose()
     if decorated:
         n.select_one('.u-width-pc-1024')['class'] = ['c-howto-container']
         n.select_one('.c-step-list')['class'].append('c-howto')
+        if flow:
+            n['class'].append('c-flow-card')
+            n.select_one('.c-step-list')['class'].append('c-flow-card__list')
         for index, item in enumerate(n.select('.c-step-list__item'), 1):
             heading = item.select_one('.c-step-list-item__heading-main').get_text()
             description = item.select_one('.c-step-list-item__text p').get_text()
@@ -622,14 +625,20 @@ def steps(shared, decorated=False):
             item['class'] = ['c-step-list__item', 'c-howto__item']
             visual = tag('div', 'c-howto__visual', **{'aria-hidden': 'true'})
             visual.append(icon)
-            item.append(visual)
             step = tag('p', 'c-howto__step')
             label = tag('span', 'c-howto__step-label', 'STEP ')
             label.append(tag('span', 'c-howto__number', f'{index:02}'))
             step.append(label)
-            item.append(step)
-            item.append(tag('h3', 'c-howto__heading', heading))
-            item.append(tag('p', 'c-howto__description', description))
+            card = tag('div', 'c-flow-card__card') if flow else item
+            if flow:
+                item.append(step)
+            card.append(visual)
+            if not flow:
+                item.append(step)
+            card.append(tag('h3', 'c-howto__heading', heading))
+            card.append(tag('p', 'c-howto__description', description))
+            if flow:
+                item.append(card)
     return n
 
 
@@ -736,7 +745,7 @@ def render(route, page, catalogue, copy):
         apply.append(additional_plans_section(page, route, catalogue, copy))
     main.append(voices(page,copy))
     main.append(faq(cat,copy['shared'],decorated=True))
-    main.append(steps(copy['shared'],decorated=True))
+    main.append(steps(copy['shared'],decorated=True,flow=cat.get('flow')))
     categories = template('categories')
     categories['style'] = '--bg-color: #e3f1fc;'
     featured_heading = categories.find('h2')
@@ -762,6 +771,9 @@ def render(route, page, catalogue, copy):
         pattern = r'<link\b[^>]*href="/assets/css/' + name + r'\.css(?:\?v=\d+)?"[^>]*>\s*'
         output = re.sub(pattern, '', output)
         output = output.replace('</head>', f'<link rel="stylesheet" href="/assets/css/{name}.css?v={version}">\n</head>', 1)
+    output = re.sub(r'<link\b[^>]*href="/assets/css/aircon-flow-grid\.css(?:\?v=\d+)?"[^>]*>\s*', '', output)
+    if cat.get('flow'):
+        output = output.replace('</head>', '<link rel="stylesheet" href="/assets/css/aircon-flow-grid.css?v=2026100401">\n</head>', 1)
     if '/assets/js/aircon-comparison.js' not in output:
         output = output.replace('</head>', '<script src="/assets/js/aircon-comparison.js?v=2026100250" defer></script>\n</head>', 1)
     output = re.sub(r'<link\b[^>]*href="/assets/css/house-cleaning/[^\"]+"[^>]*>\s*','',output)
@@ -782,6 +794,7 @@ def sync_manifest(routes, check):
               SITE / 'assets/css/aircon-header.css',
               SITE / 'assets/css/aircon-hero.css',
               SITE / 'assets/css/aircon-layout.css', SITE / 'assets/css/service-format.css',
+              SITE / 'assets/css/aircon-flow-grid.css',
               SITE / 'assets/images/common-parts/decoration/section-arrows-black.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-down.svg',
               SITE / 'assets/images/common-parts/decoration/section-curve-up.svg',
