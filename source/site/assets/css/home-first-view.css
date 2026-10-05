@@ -9,6 +9,17 @@
   backdrop-filter: none;
 }
 
+.c-home .c-main-menu__link {
+  color: var(--aircon-menu-text);
+  border-bottom-color: var(--aircon-menu-gray);
+}
+
+.c-home .c-header-contact__phone,
+.c-home .c-header-contact__number,
+.c-home .c-header-contact__hours {
+  color: var(--aircon-menu-nav-accent);
+}
+
 .home-first-view {
   position: relative;
   width: 100%;
