@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-05T21:03:30.515823+00:00",
+  "files": [
+    {
+      "path": "cart/index.html",
+      "status": 200,
+      "published_sha256": "66c8a61c30b82e1aefb1c0670faae7dbd4f52e952ffca1d0e8ee4a67656b9da7",
+      "source_sha256": "128e152a627cdcce4972fe6a5bd1f32a1320cec46a1a5528dd2d547869d4db43",
+      "matches_source": false
+    },
+    {
+      "path": "assets/css/site-cart.css",
+      "status": 200,
+      "published_sha256": "7dd593eb385189eb417589efe3f0c60381df5c89d7da069e1180e390811d1ffd",
+      "source_sha256": "e18e03d9cf93ec483f0c2fcc8d48b3ee9ba381230b8db535289726ec05594058",
+      "matches_source": false
+    }
+  ]
+}

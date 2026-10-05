@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-10-05T21:04:06.883589+00:00",
+  "source_commit": "7eda727c8ebd225697d49efaf2e63180adc86238",
+  "pages_commit": "bf9c7e70e5a75cc61b96fa0bdfd14b20b0d7e867",
+  "run": {
+    "conclusion": "",
+    "headSha": "bf9c7e70e5a75cc61b96fa0bdfd14b20b0d7e867",
+    "jobs": [
+      {
+        "completedAt": "0001-01-01T00:00:00Z",
+        "conclusion": "",
+        "databaseId": 111976190088,
+        "name": "build",
+        "startedAt": "2026-10-05T21:03:10Z",
+        "status": "queued",
+        "steps": [],
+        "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37373493077/job/111976190088"
+      }
+    ],
+    "status": "queued",
+    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37373493077"
+  },
+  "source_pushed": true,
+  "pages_pushed": true,
+  "public_ui_verified": false,
+  "public_files_verified": false,
+  "reason": "GitHub Actions runner-assignment incident; latest run is queued. Public cart and CSS still differ from the new source.",
+  "incident_url": "https://www.githubstatus.com/",
+  "incident_update_utc": "2026-10-05 20:39",
+  "local_evidence": [
+    "arithmetic.json",
+    "local-layout.json",
+    "local-operations.json",
+    "scope-check.json",
+    "mobile-inline-fixed.png",
+    "local-cart-overview.png"
+  ]
+}
