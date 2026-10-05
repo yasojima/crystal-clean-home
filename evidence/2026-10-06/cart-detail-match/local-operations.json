@@ -1,0 +1,41 @@
+[
+  {
+    "step": "main quantity plus",
+    "total": "97,900"
+  },
+  {
+    "step": "main quantity minus",
+    "total": "86,900"
+  },
+  {
+    "step": "carousel next",
+    "scroll": 389
+  },
+  {
+    "step": "outdoor unit add two",
+    "total": "97,900",
+    "selected": "2"
+  },
+  {
+    "step": "remove outdoor unit",
+    "total": "86,900"
+  },
+  {
+    "step": "discount disclosure",
+    "text": "内訳を見る\n壁掛けタイプエアコン（お掃除機能なし）\n−4,400円（税込）"
+  },
+  {
+    "step": "carousel previous",
+    "scroll": 389
+  },
+  {
+    "step": "checkout",
+    "url": "http://127.0.0.1:8920/cart/estimate/"
+  },
+  {
+    "step": "input confirmation with synthetic data",
+    "url": "http://127.0.0.1:8920/cart/estimate/confirm/",
+    "summary": "合計金額（税込） 86,900円",
+    "submissionDisabled": true
+  }
+]

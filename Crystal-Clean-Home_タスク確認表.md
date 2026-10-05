@@ -4,6 +4,7 @@
 
 | 指示 | 現在の反映内容 | 確認根拠 |
 |---|---|---|
+| カートのCTAと枠の細部を再利用で合わせる | CTA高さ66px・幅・角丸・矢印、数量欄、金額、選択済み／追加カードを参考のクラスで統一。指定９サイズと計算更新・入力確認を検証 | CHG-10-06-006、cart-detail-match/dimensions-comparison.json・local-layouts.json・local-operations.json |
 | カート本文を参考UIへ統一 | 淡青背景・白い親商品カード・右の金額明細・同じCTA。選択オプションを親商品に内包。画像付き追加を商品別横スライダーにし、一般併用おすすめは除外。買い物継続はHOMEへ | CHG-10-06-005、cart-reference-layout |
 | 全商品ページからカートへ集約 | 395商品・460選択肢の価格・紐付けを維持。24掲載ページの代表追加を操作確認し、数量・オプション・税・合計を共通管理 | catalogue-check.json、arithmetic.json、local-operations.json |
 | スクロールダウン・SNSの位置と色 | NO VIDEOの初期文書座標へ固定。追従なし。白いシェブロンとSNS、背景黒。下向きはお悩みへ移動 | HOMEの既存固定処理、CHG-10-05-007、home-flow |

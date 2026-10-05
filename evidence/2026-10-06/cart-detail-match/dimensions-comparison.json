@@ -1,0 +1,426 @@
+[
+  {
+    "reference": {
+      "checkout": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 556.25
+      },
+      "counter": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 32,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 110
+      },
+      "option": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 232.1875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "32px",
+        "width": 328.5625
+      },
+      "optionButton": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "24px",
+        "padding": "10px 15px 11px",
+        "radius": "16px",
+        "width": 179.34375
+      },
+      "optionDescription": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "13px",
+        "height": 39,
+        "lineHeight": "19.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 296.5625
+      },
+      "optionHeading": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 25.5,
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 208.5625
+      },
+      "optionQuantity": {
+        "font": "Oswald, sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "28.8px",
+        "padding": "5px 36px 6px 12px",
+        "radius": "0px",
+        "width": 105.203125
+      },
+      "priceInfo": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 465.5,
+        "lineHeight": "24px",
+        "padding": "20px 20px 40px",
+        "radius": "0px",
+        "width": 340
+      },
+      "selectedOption": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 105.796875,
+        "lineHeight": "24px",
+        "padding": "16px 32px",
+        "radius": "0px",
+        "width": 651
+      },
+      "sidebarCTA": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 340
+      },
+      "sliderArrow": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 52,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "50%",
+        "width": 52
+      },
+      "viewport": [
+        1440,
+        800
+      ]
+    },
+    "local": {
+      "checkout": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 556.25
+      },
+      "counter": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 32,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 110
+      },
+      "option": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 251.6875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "32px",
+        "width": 328.5625
+      },
+      "optionButton": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "24px",
+        "padding": "10px 15px 11px",
+        "radius": "16px",
+        "width": 179.34375
+      },
+      "optionDescription": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "13px",
+        "height": 58.5,
+        "lineHeight": "19.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 296.5625
+      },
+      "optionHeading": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 25.5,
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 208.5625
+      },
+      "optionQuantity": {
+        "font": "Oswald, sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "28.8px",
+        "padding": "5px 36px 6px 12px",
+        "radius": "0px",
+        "width": 105.203125
+      },
+      "priceInfo": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 465.5,
+        "lineHeight": "24px",
+        "padding": "20px 20px 40px",
+        "radius": "0px",
+        "width": 340
+      },
+      "selectedOption": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 105.796875,
+        "lineHeight": "24px",
+        "padding": "16px 32px",
+        "radius": "0px",
+        "width": 651
+      },
+      "sidebarCTA": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 340
+      },
+      "sliderArrow": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 52,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "50%",
+        "width": 52
+      },
+      "viewport": [
+        1440,
+        800
+      ]
+    }
+  },
+  {
+    "reference": {
+      "checkout": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 305
+      },
+      "counter": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 30.59375,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 98
+      },
+      "option": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 232.1875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "32px",
+        "width": 345
+      },
+      "optionButton": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "24px",
+        "padding": "10px 15px 11px",
+        "radius": "16px",
+        "width": 187
+      },
+      "optionDescription": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "13px",
+        "height": 39,
+        "lineHeight": "19.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 313
+      },
+      "optionHeading": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 25.5,
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 225
+      },
+      "optionQuantity": {
+        "font": "Oswald, sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "28.8px",
+        "padding": "5px 36px 6px 12px",
+        "radius": "0px",
+        "width": 114
+      },
+      "priceInfo": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 429.046875,
+        "lineHeight": "24px",
+        "padding": "24px 24px 40px",
+        "radius": "0px",
+        "width": 375
+      },
+      "selectedOption": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 150.1875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 273
+      },
+      "sidebarCTA": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 345
+      },
+      "sliderArrow": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 40,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 28
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    "local": {
+      "checkout": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 305
+      },
+      "counter": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 30.59375,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 98
+      },
+      "option": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 251.6875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "32px",
+        "width": 345
+      },
+      "optionButton": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "24px",
+        "padding": "10px 15px 11px",
+        "radius": "16px",
+        "width": 187
+      },
+      "optionDescription": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "13px",
+        "height": 58.5,
+        "lineHeight": "19.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 313
+      },
+      "optionHeading": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 25.5,
+        "lineHeight": "25.5px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 225
+      },
+      "optionQuantity": {
+        "font": "Oswald, sans-serif",
+        "fontSize": "16px",
+        "height": 48.1875,
+        "lineHeight": "28.8px",
+        "padding": "5px 36px 6px 12px",
+        "radius": "0px",
+        "width": 114
+      },
+      "priceInfo": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 429.046875,
+        "lineHeight": "24px",
+        "padding": "24px 24px 40px",
+        "radius": "0px",
+        "width": 375
+      },
+      "selectedOption": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 150.1875,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 273
+      },
+      "sidebarCTA": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "17px",
+        "height": 66,
+        "lineHeight": "25.5px",
+        "padding": "4px 23px",
+        "radius": "16px",
+        "width": 345
+      },
+      "sliderArrow": {
+        "font": "\"Noto Sans JP\", sans-serif",
+        "fontSize": "16px",
+        "height": 40,
+        "lineHeight": "24px",
+        "padding": "0px",
+        "radius": "0px",
+        "width": 28
+      },
+      "viewport": [
+        390,
+        844
+      ]
+    }
+  }
+]

@@ -101,17 +101,17 @@
       inputmode="numeric" value="${line.quantity}" data-cart-set="${escape(line.key)}" aria-label="${escape(catalogue.items[line.key].name)}の数量"></label>`;
   }
 
-  function priceMarkup(item, amount = item.tiers[0]?.price) {
+  function priceMarkup(item, amount = item.tiers[0]?.price, small = false) {
     if (item.quote) return '<p class="cch-cart-quote">別途見積り</p>';
-    return `<p class="c-price"><span class="c-price__text">${format(amount)}${item.approximate ? '〜' : ''}</span><span class="c-price__unit">（税込）／${escape(item.unit)}</span></p>`;
+    return `<p class="c-price${small ? ' c-price--small' : ''}"><span class="c-price__text">${format(amount)}${item.approximate ? '〜' : ''}</span><span class="c-price__unit">（税込）／${escape(item.unit)}</span></p>`;
   }
 
-  function counterMarkup(line) {
+  function counterMarkup(line, variant = 'product-card') {
     const name = escape(line.item.name);
     const key = escape(line.key);
     const id = 'cart-quantity-' + key;
-    return `<button type="button" id="cart-remove-${key}" class="cch-cart-remove" data-cart-remove="${key}" aria-label="${name}を削除">削除</button>
-      <div class="c-counter cch-cart-counter">
+    return `<button type="button" id="cart-remove-${key}" class="${variant}__delete-button cch-cart-remove" data-cart-remove="${key}" aria-label="${name}を削除">削除</button>
+      <div class="c-counter ${variant}__quantity-counter cch-cart-counter">
         <button type="button" id="cart-minus-${key}" class="c-counter__button" data-cart-step="${key}" data-delta="-1" aria-controls="${id}" aria-label="${name}の数量を1つ減らす" ${line.quantity <= 1 ? 'disabled' : ''}><span class="c-icon c-icon--minus c-counter__icon"></span></button>
         <input id="${id}" class="c-counter__input" type="text" readonly value="${line.quantity}" aria-label="${name}の数量">
         <button type="button" id="cart-plus-${key}" class="c-counter__button" data-cart-step="${key}" data-delta="1" aria-controls="${id}" aria-label="${name}の数量を1つ増やす" ${line.quantity >= core.MAX_QUANTITY ? 'disabled' : ''}><span class="c-icon c-icon--plus c-counter__icon"></span></button>
@@ -119,17 +119,17 @@
   }
 
   function selectedOptionMarkup(line) {
-    return `<li class="option-card cch-cart-selected-option" data-cart-line="${escape(line.key)}"><div><h4 class="option-card__heading">${escape(line.item.name)}</h4>${priceMarkup(line.item, line.unitPrice)}</div><div class="cch-cart-selected-option__actions">${counterMarkup(line)}</div></li>`;
+    return `<li class="option-card cch-cart-selected-option" data-cart-line="${escape(line.key)}"><div class="option-card__main"><h4 class="option-card__heading">${escape(line.item.name)}</h4><div class="option-card__price">${priceMarkup(line.item, line.unitPrice, true)}</div></div><div class="option-card__footer">${counterMarkup(line, 'option-card')}</div></li>`;
   }
 
   function optionCardMarkup(key, item, context) {
     const id = `${context}-${key}`;
     return `<article class="c-product-additional-card cch-cart-option-card" data-cart-option="${escape(key)}">
       <div class="c-product-additional-card__main">${item.image ? `<img class="c-flex-image c-product-additional-card__image" src="${escape(item.image)}" width="72" height="72" alt="" loading="lazy">` : ''}
-        <div class="c-product-additional-card__content" style="--image-width:${item.image ? 72 : 0}px"><h4 class="c-product-additional-card__heading">${escape(item.name)}</h4>${priceMarkup(item)}</div>
+        <div class="c-product-additional-card__content" style="--image-width:${item.image ? 72 : 0}px"><h4 class="c-product-additional-card__heading">${escape(item.name)}</h4><div class="c-product-additional-card__price">${priceMarkup(item, undefined, true)}</div></div>
         ${item.description ? `<p class="c-product-additional-card__description">${escape(item.description)}</p>` : ''}</div>
       <div class="c-product-additional-card__footer">
-        <div class="c-card-select c-product-additional-card__quantity"><select id="cart-select-${escape(id)}" class="c-card-select__options" aria-label="${escape(item.name)}の追加数量">${Array.from({length: 30}, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join('')}</select><div class="c-card-select__icon"></div></div>
+        <div class="c-card-select c-product-additional-card__quantity" data-unit="数量"><select id="cart-select-${escape(id)}" class="c-card-select__options" aria-label="${escape(item.name)}の追加数量">${Array.from({length: 30}, (_, i) => `<option value="${i + 1}">${i + 1}</option>`).join('')}</select><div class="c-card-select__icon"></div></div>
         <button type="button" id="cart-add-${escape(id)}" class="c-button c-button--fill-red c-product-additional-card__cart-button" data-cart-add-option="${escape(key)}"><span class="c-button__text">カートに追加</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></button>
       </div></article>`;
   }
@@ -139,18 +139,18 @@
   }
 
   function checkoutButton() {
-    return '<a class="c-button c-button--fill-red cch-cart-checkout" href="/cart/estimate/"><span class="c-button__text">お客様情報の入力に進む</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></a>';
+    return '<a class="c-button c-button--large c-button--fill-red action-buttons__button cch-cart-checkout" href="/cart/estimate/"><span class="c-button__text">お客様情報の入力に進む</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></a>';
   }
 
   function productMarkup(line, selected, parentKeys) {
     const options = parentKeys.flatMap(optionsFor);
-    return `<li class="product-card cch-cart-product" data-cart-line="${escape(line.key)}"><div class="product-card__main">
+    return `<li class="cart-contents__item cch-cart-product" data-cart-line="${escape(line.key)}"><div class="product-card"><div class="product-card__main">
       ${line.item.image ? `<img class="c-flex-image product-card__image" src="${escape(line.item.image)}" alt="" loading="lazy" width="176" height="132">` : ''}<div class="product-card__content">
-      <h3 class="product-card__heading">${escape(line.item.name)}</h3>${priceMarkup(line.item, line.unitPrice)}
+      <h3 class="product-card__heading">${escape(line.item.name)}</h3><div class="product-card__price">${priceMarkup(line.item, line.unitPrice)}</div>
       ${line.discount ? `<p class="cch-cart-discount">数量割引適用：−${format(line.discount)}円（税込）</p>` : ''}</div></div>
-      <div class="product-card__footer">${counterMarkup(line)}</div><div class="cch-cart-product__options">${checkoutButton()}
-      ${selected.length ? `<div class="option-items cch-cart-selected-options"><h3 class="option-items__heading">■ オプション</h3><ul>${selected.map(selectedOptionMarkup).join('')}</ul></div>` : ''}
-      ${options.length ? `<details class="cch-cart-extra" data-cart-disclosure="${escape(line.key)}"><summary>さらに追加できるオプションがあります！<span aria-hidden="true"></span></summary><div class="cch-cart-extra__cards">${options.map(([key, item]) => optionCardMarkup(key, item, 'inline-' + line.key)).join('')}</div></details>` : ''}</div></li>`;
+      <div class="product-card__footer">${counterMarkup(line)}</div></div><div class="action-buttons cch-cart-product__actions">${checkoutButton()}</div>
+      ${selected.length || options.length ? `<div class="option-info cch-cart-product__options">${selected.length ? `<div class="option-box cch-cart-selected-options"><h3 class="c-bullet-heading">オプション</h3><ul class="option-box__contents">${selected.map(selectedOptionMarkup).join('')}</ul></div>` : ''}
+      ${options.length ? `<details class="additional-options cch-cart-extra" data-cart-disclosure="${escape(line.key)}"><summary class="c-single-accordion__trigger">さらに追加できるオプションがあります！</summary><div class="cch-cart-extra__cards">${options.map(([key, item]) => optionCardMarkup(key, item, 'inline-' + line.key)).join('')}</div></details>` : ''}</div>` : ''}</li>`;
   }
 
   function summaryMarkup(result) {
@@ -185,16 +185,17 @@
     }).join('');
     const beforeTax = (result.total + result.discount) - Math.floor((result.total + result.discount) * catalogue.taxRate / (100 + catalogue.taxRate));
     const discount = beforeTax - result.subtotal;
-    mount.innerHTML = `<div class="cart"><div class="cart__contents"><ul class="cch-cart-lines">${grouped}</ul></div>
-      <aside class="cart__price-info" aria-label="お見積り金額"><div class="price-info-card"><h2 class="price-info-card-heading">現在 <span class="price-info-card-heading__count">${result.count}点</span> のメニューが入っています</h2>
+    mount.innerHTML = `<div class="cart"><div class="cart__contents"><ul class="cart-contents cch-cart-lines">${grouped}</ul></div>
+      <aside class="cart__price-info" aria-label="お見積り金額"><div class="price-info-card"><h3 class="price-info-card__heading price-info-card-heading">現在 <span class="price-info-card-heading__count">${result.count}点</span> のメニューが入っています</h3>
       <div class="price-info-card__detail"><dl class="price-description"><dt class="price-description__term">合計金額（税抜）：</dt><dd class="price-description__price" data-cart-subtotal-before>${format(beforeTax)}</dd></dl>
-      ${discount ? `<details class="cch-cart-discount-detail" data-cart-disclosure="discount"><summary><span>数量割引（税抜）：</span><strong>−${format(discount)}円</strong><small>内訳を見る <span aria-hidden="true">＋</span></small></summary><dl>${result.details.filter(line => line.discount).map(line => `<div><dt>${escape(line.item.name)}</dt><dd>−${format(line.discount)}円（税込）</dd></div>`).join('')}</dl></details>
+      ${discount ? `<div class="discount-description is-show"><dl class="discount-description__main price-description"><dt class="price-description__term">数量割引（税抜）：</dt><dd class="price-description__price">${format(discount)}</dd></dl>
+      <details class="discount-detail cch-cart-discount-detail" data-cart-disclosure="discount"><summary class="discount-detail__trigger"><span class="discount-detail__trigger-text">内訳を見る</span><span class="discount-detail__icon" aria-hidden="true"></span></summary><div class="discount-detail__content"><dl class="discount-detail-list">${result.details.filter(line => line.discount).map(line => `<div class="discount-detail-list__item discount-detail-list-item"><dt class="discount-detail-list-item__term">${escape(line.item.name)}</dt><dd>−${format(line.discount)}円（税込）</dd></div>`).join('')}</dl></div></details></div>
       <dl class="price-description"><dt class="price-description__term">割引適用後金額（税抜）：</dt><dd class="price-description__price">${format(result.subtotal)}</dd></dl>` : ''}
       <dl class="price-description"><dt class="price-description__term">消費税（${catalogue.taxRate}%）：</dt><dd class="price-description__price">${format(result.tax)}</dd></dl></div>
       <dl class="price-info-card__total-amount total-amount"><dt class="c-label-tag c-label-tag--pill-shape total-amount__term">合計金額（税込）</dt><dd class="total-amount__price" data-cart-total>${totalLabel(result)}</dd></dl>
       ${result.approximate ? '<p class="cch-cart-note">「〜」の付いたサービスは表示料金をもとにした概算です。</p>' : ''}
       ${result.quoteCount ? '<p class="cch-cart-note">別途見積りの商品は上記の合計金額に含まれていません。</p>' : ''}</div>
-      <div class="cch-cart-sidebar-actions">${checkoutButton()}<a class="c-button" href="/"><span class="c-button__text">お買い物を続ける</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></a></div></aside></div>`;
+      <div class="action-buttons u-mt-32_36 cch-cart-sidebar-actions">${checkoutButton()}<a class="c-button c-button--large action-buttons__button" href="/"><span class="c-button__text">お買い物を続ける</span><span class="c-icon c-icon--circle-caret-right c-button__icon"></span></a></div></aside></div>`;
     renderRecommendations(parentGroups);
     for (const node of document.querySelectorAll('[data-cart-disclosure]')) node.open = open.has(node.dataset.cartDisclosure);
     for (const node of document.querySelectorAll('.cch-cart-option-card select')) if (selections.has(node.id)) node.value = selections.get(node.id);
@@ -215,8 +216,8 @@
       return `<section class="recommend-options" aria-labelledby="${id}-heading"><div class="recommend-options__head">
         ${item.image ? `<img class="c-flex-image" src="${escape(item.image)}" alt="" width="104" height="64" loading="lazy">` : ''}<h3 id="${id}-heading" class="recommend-options-heading">${escape(item.name)}<span class="recommend-options-heading__small">にオススメ</span></h3></div>
         <div class="cch-cart-carousel-container"><div id="${id}" class="cch-cart-carousel" data-cart-carousel="${escape(key)}" role="region" aria-label="${escape(item.name)}のオプション" tabindex="0">${optionsFor(key).map(([optionKey, option]) => optionCardMarkup(optionKey, option, 'recommend')).join('')}</div>
-        <button type="button" class="cch-cart-carousel-arrow cch-cart-carousel-arrow--prev" data-cart-slide="${escape(key)}" data-direction="-1" aria-controls="${id}" aria-label="${escape(item.name)}の前のオプション" disabled><span aria-hidden="true">‹</span></button>
-        <button type="button" class="cch-cart-carousel-arrow cch-cart-carousel-arrow--next" data-cart-slide="${escape(key)}" data-direction="1" aria-controls="${id}" aria-label="${escape(item.name)}の次のオプション"><span aria-hidden="true">›</span></button></div></section>`;
+        <button type="button" class="product-slider-prev-button cch-cart-carousel-arrow cch-cart-carousel-arrow--prev" data-cart-slide="${escape(key)}" data-direction="-1" aria-controls="${id}" aria-label="${escape(item.name)}の前のオプション" disabled></button>
+        <button type="button" class="product-slider-next-button cch-cart-carousel-arrow cch-cart-carousel-arrow--next" data-cart-slide="${escape(key)}" data-direction="1" aria-controls="${id}" aria-label="${escape(item.name)}の次のオプション"></button></div></section>`;
     }).join('');
     mount.hidden = !groups;
     mount.innerHTML = groups ? `<div class="cch-cart-recommendations__inner"><h2 id="cart-options-heading">カートに入れたサービスにオススメのオプション</h2>${groups}</div>` : '';
