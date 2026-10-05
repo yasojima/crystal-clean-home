@@ -35,7 +35,7 @@
   cursor: pointer;
 }
 .home-concerns__place .c-icon { --size: 52px; --bg-color: currentColor; color: inherit; }
-.home-concerns__place b { font-size: 14px; font-weight: 700; }
+.home-concerns__place b { font-size: 14px; font-weight: 700; text-align: center; text-wrap: balance; }
 .home-concerns__place[aria-pressed="true"] {
   color: #fff;
   background: var(--concern-blue);
