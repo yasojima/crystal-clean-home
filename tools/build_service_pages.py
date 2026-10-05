@@ -524,11 +524,8 @@ def ensure_navy_stylesheet(output):
 
 def render_static_reasons(original):
     if '<body class="c-home"' in original:
-        source = parse(original).select_one('.p-reasons')
-        words = [(item.select_one('h3').get_text(), item.select_one('p').get_text())
-                 for item in source.select('.c-reasons__item')]
-        section = reasons({'reasons': words}, 'home')
-        section.select_one('h2').string = source.select_one('h2').get_text()
+        shared = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))['shared']
+        section = reasons(shared, 'home')
         section['id'] = 'home-reasons'
         add_section_curve(section, 'up', '#e3f1fc')
         output = re.sub(r'<section\b[^>]*>.*?</section>',

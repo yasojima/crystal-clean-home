@@ -27,8 +27,8 @@
       "effective_url": "https://www.osoujihonpo.com/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 76383,
-      "sha256": "11e5540d39e74c0901e672c376835b28ec29cd7ffe9d14127a882308ee9114ef",
+      "bytes": 76109,
+      "sha256": "fbaae109e6fe1101d4ae134b50dd492b5b443798f6698d785b9c270ccf9e94c1",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -12648,8 +12648,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-service-page",
-      "bytes": 15827,
-      "sha256": "b269437611a0dfa64ff0a4a192f9fdd187e22906ef674b0070bf4fc8d04a48dd",
+      "bytes": 15897,
+      "sha256": "af8e038182cd35dca8922e65c0be9b0ff8b42d0e54b492ef188043df0751a422",
       "source_sha256": "ec44e3526241bc8e9d6cc4d60f5986bb1b286d425ea18bc4cc7a27351bdf005a",
       "source_bytes": 16923,
       "scope_edited": true
@@ -13110,8 +13110,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "d7f3d46a94c2451195234cee9a604c2fce0f462bd4f53740f41f2f984e4e5003",
-      "bytes": 6970
+      "sha256": "d5c7a6535fa115667a32b1b2fbddd4abc8f60845ff5bcf87b35c3645e2157212",
+      "bytes": 7202
     },
     "https://www.osoujihonpo.com/assets/js/home-first-view.js": {
       "path": "assets/js/home-first-view.js",
@@ -13119,8 +13119,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-shared-ui",
-      "sha256": "117f11cf4f64ac302965f3d4f347e0a09ac27fbd594b9e1b494b5d137438c719",
-      "bytes": 4900
+      "sha256": "300d124f0029993be1d263f3af7e6cc43d56c8f16adf9ba1ff44f055d41e9548",
+      "bytes": 4991
     },
     "https://www.osoujihonpo.com/assets/images/first-lp/art/bath-lead.webp": {
       "path": "assets/images/first-lp/art/bath-lead.webp",
@@ -15790,7 +15790,7 @@
   "counts": {
     "urls": 1482,
     "unique_paths": 1468,
-    "bytes": 163448542,
+    "bytes": 163448661,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

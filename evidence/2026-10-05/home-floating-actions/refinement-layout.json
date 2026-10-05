@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "banner": {
+        "bottom": 3332.859375,
+        "height": 400,
+        "left": 75.5,
+        "right": 1275.5,
+        "top": 2932.859375,
+        "width": 1200,
+        "x": 75.5,
+        "y": 2932.859375
+      },
+      "centers": [
+        {
+          "selector": ".c-header__menu",
+          "w": 56,
+          "x": 1315
+        },
+        {
+          "selector": ".home-action--scroll",
+          "w": 48,
+          "x": 1315
+        },
+        {
+          "selector": ".home-action--social",
+          "w": 48,
+          "x": 1315
+        },
+        {
+          "selector": ".home-quick-estimate__toggle svg",
+          "w": 20,
+          "x": 1315
+        }
+      ],
+      "gap": "16px",
+      "headerFont": "16px",
+      "scrollAnimation": "none",
+      "scrollGlyph": "▼",
+      "widget": {
+        "bottom": 794,
+        "height": 140,
+        "left": 1018,
+        "right": 1338,
+        "top": 654,
+        "width": 320,
+        "x": 1018,
+        "y": 654
+      },
+      "width": 1366
+    },
+    {
+      "centers": [
+        {
+          "selector": ".c-header__menu",
+          "w": 44,
+          "x": 337
+        },
+        {
+          "selector": ".home-action--scroll",
+          "w": 40,
+          "x": 337
+        },
+        {
+          "selector": ".home-action--social",
+          "w": 40,
+          "x": 367.2394714355469
+        },
+        {
+          "selector": ".home-quick-estimate__toggle svg",
+          "w": 20,
+          "x": 337
+        }
+      ],
+      "gap": "12px",
+      "overflow": -15,
+      "widget": {
+        "bottom": 828,
+        "height": 140,
+        "left": 40,
+        "right": 360,
+        "top": 688,
+        "width": 320,
+        "x": 40,
+        "y": 688
+      },
+      "width": 390
+    }
+  ],
+  "pcAxisAligned": true,
+  "pcCircle48": true,
+  "mobileCircle40": true,
+  "widgetSize": [
+    320,
+    140
+  ],
+  "bannerSource": [
+    2172,
+    724
+  ],
+  "bannerPcWidth": 1200,
+  "whiteSectionOld": 474,
+  "whiteSectionNew": 400
+}

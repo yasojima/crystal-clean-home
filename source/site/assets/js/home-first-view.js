@@ -12,20 +12,23 @@
   const estimateToggle = estimate?.querySelector('.home-quick-estimate__toggle');
   const estimateLinks = estimate?.querySelector('.home-quick-estimate__links');
   const canHover = matchMedia('(hover: hover) and (pointer: fine)');
-  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   let pinned = false;
   let frame = 0;
-  let estimateActivated = false;
 
   function alignActions() {
     if (!actions || !menuButton) return;
     const menu = menuButton.getBoundingClientRect();
-    const size = menu.width / 1.5;
+    const size = Math.max(40, menu.width * (6 / 7));
     actions.style.setProperty('--home-action-size', `${size}px`);
     actions.style.setProperty('--home-actions-right', `${document.documentElement.clientWidth - menu.left - menu.width / 2 - size / 2}px`);
+    if (estimate) {
+      const closeStyle = getComputedStyle(estimateToggle.querySelector('svg'));
+      const closeInset = parseFloat(getComputedStyle(estimate).borderRightWidth) + parseFloat(closeStyle.right) + parseFloat(closeStyle.width) / 2;
+      estimate.style.setProperty('--home-estimate-right', `${document.documentElement.clientWidth - menu.left - menu.width / 2 - closeInset}px`);
+    }
     const heroHeight = Math.min(hero.offsetHeight, innerHeight);
     const inset = innerWidth < 768 ? 24 : Math.min(64, innerHeight * .075);
-    const estimateSpace = estimate?.classList.contains('is-open') ? estimate.offsetHeight + 32 : 56;
+    const estimateSpace = estimate ? estimate.offsetHeight + 32 : 56;
     actions.style.setProperty('--home-actions-bottom', `${Math.max(innerHeight - heroHeight + inset, estimateSpace)}px`);
   }
 
@@ -38,7 +41,6 @@
     alignActions();
   }
   estimateToggle?.addEventListener('click', () => {
-    estimateActivated = true;
     setEstimateOpen(!estimate.classList.contains('is-open'));
   });
 
@@ -88,15 +90,11 @@
     if (!target) return;
     event.preventDefault();
     const top = target.getBoundingClientRect().top + scrollY - header.getBoundingClientRect().height;
-    window.scrollTo({top, behavior: reducedMotion.matches ? 'instant' : 'smooth'});
+    window.scrollTo({top, behavior: 'instant'});
     history.replaceState(null, '', scrollButton.getAttribute('href'));
   });
   function updateHeaderSurface() {
     frame = 0;
-    if (estimate && !estimateActivated && scrollY > 500) {
-      estimateActivated = true;
-      setEstimateOpen(true);
-    }
     document.body.classList.toggle('is-past-home-first-view',
       hero.getBoundingClientRect().bottom <= header.getBoundingClientRect().height);
   }
