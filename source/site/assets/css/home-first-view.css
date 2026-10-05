@@ -88,11 +88,11 @@
 .home-first-guide img { display: block; width: 100%; height: auto; }
 
 .c-home {
-  --home-action-blue: #2077d7;
+  --home-action-blue: #000000;
+  --home-action-size: 48px;
 }
 
 .home-actions {
-  --home-action-size: 48px;
   --home-social-width: calc(var(--home-action-size) * 4 + 52px);
   position: fixed;
   z-index: 110;
@@ -135,9 +135,27 @@
   box-shadow: 0 0 0 5px var(--home-action-blue);
 }
 
+.home-action--scroll {
+  position: absolute;
+  z-index: 110;
+  right: var(--home-actions-right, 17px);
+  top: var(--home-scroll-top, 65%);
+}
+
 .home-action--scroll span {
-  font-size: calc(var(--home-action-size) / 2);
-  line-height: 1;
+  display: block;
+  width: 50%;
+  height: 50%;
+  background-color: #fff;
+  -webkit-mask-image: url("/assets/images/common-parts/icon/caret-up.svg");
+  mask-image: url("/assets/images/common-parts/icon/caret-up.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  transform: rotate(180deg);
 }
 
 .home-socials {
@@ -208,7 +226,8 @@
 .home-socials__links li:nth-child(3) .c-footer-sns__link { transition-delay: .15s; }
 .home-socials__links li:nth-child(4) .c-footer-sns__link { transition-delay: .2s; }
 
-.aircon-menu-open .home-actions {
+.aircon-menu-open .home-actions,
+.aircon-menu-open .home-action--scroll {
   visibility: hidden;
 }
 

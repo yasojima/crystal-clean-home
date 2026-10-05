@@ -19,8 +19,8 @@
     if (!actions || !menuButton) return;
     const menu = menuButton.getBoundingClientRect();
     const size = Math.max(40, menu.width * (6 / 7));
-    actions.style.setProperty('--home-action-size', `${size}px`);
-    actions.style.setProperty('--home-actions-right', `${header.getBoundingClientRect().right - menu.left - menu.width / 2 - size / 2}px`);
+    document.body.style.setProperty('--home-action-size', `${size}px`);
+    document.body.style.setProperty('--home-actions-right', `${header.getBoundingClientRect().right - menu.left - menu.width / 2 - size / 2}px`);
     if (estimate) {
       const closeStyle = getComputedStyle(estimateToggle.querySelector('svg'));
       const closeInset = parseFloat(getComputedStyle(estimate).borderRightWidth) + parseFloat(closeStyle.right) + parseFloat(closeStyle.width) / 2;
@@ -29,7 +29,11 @@
     const heroHeight = Math.min(hero.offsetHeight, innerHeight);
     const inset = innerWidth < 768 ? 24 : Math.min(64, innerHeight * .075);
     const estimateSpace = estimate ? estimate.offsetHeight + 32 : 56;
-    actions.style.setProperty('--home-actions-bottom', `${Math.max(innerHeight - heroHeight + inset, estimateSpace)}px`);
+    const bottom = Math.max(innerHeight - heroHeight + inset, estimateSpace);
+    const gap = parseFloat(getComputedStyle(actions).rowGap);
+    const heroTop = hero.getBoundingClientRect().top + scrollY;
+    hero.style.setProperty('--home-scroll-top', `${innerHeight - bottom - size * 2 - gap - heroTop}px`);
+    actions.style.setProperty('--home-actions-bottom', `${bottom}px`);
   }
 
   function setEstimateOpen(open) {
