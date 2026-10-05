@@ -27,8 +27,8 @@
       "effective_url": "https://www.osoujihonpo.com/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 76088,
-      "sha256": "07f5dfd6b0e33c35f6dc201ffdeb8f5495f9b93280f7e8aab15ed9a4327aa510",
+      "bytes": 76710,
+      "sha256": "2b92d8a9c4cf999becc7753449200cd732867d471a9b684fb922bb3cbb800bcc",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -13110,8 +13110,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "3ab3a766896ffb61edfdb94f4abec868926a1a723672e4c30ec8c917989e3ff0",
-      "bytes": 8793
+      "sha256": "6af81407faa3a147286b7849aec93b8a9d8e49c2ae0dd2946bbab56f943bc191",
+      "bytes": 11006
     },
     "https://www.osoujihonpo.com/assets/js/home-first-view.js": {
       "path": "assets/js/home-first-view.js",
@@ -13119,8 +13119,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-shared-ui",
-      "sha256": "4e1f6250f1115f89a4aeead3f32ef41bbc031126411defcaaaa08d5037c425a6",
-      "bytes": 5257
+      "sha256": "9185822f508dbd712100e4ee3b5768b639e9dbacb78f48acb236ed14e241b297",
+      "bytes": 6171
     },
     "https://www.osoujihonpo.com/assets/images/first-lp/art/bath-lead.webp": {
       "path": "assets/images/first-lp/art/bath-lead.webp",
@@ -13598,6 +13598,15 @@
       "origin_type": "local-shared-ui",
       "sha256": "5e5b71ba09ded4c2fb07ea676f12a7eb63a307921e16dc7937c0e753a1a41bae",
       "bytes": 1693813
+    },
+    "https://www.osoujihonpo.com/assets/images/home/business-guide-banner.png": {
+      "path": "assets/images/home/business-guide-banner.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/home/business-guide-banner.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "3521f61a2d900ca3c64c9cabae5f96aabd597da60932f4c55d225d7e1f60977f",
+      "bytes": 1446496
     }
   },
   "external_urls": [
@@ -15788,9 +15797,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1482,
-    "unique_paths": 1468,
-    "bytes": 163455339,
+    "urls": 1483,
+    "unique_paths": 1469,
+    "bytes": 164905584,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

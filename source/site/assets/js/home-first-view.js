@@ -12,6 +12,7 @@
   const estimateToggle = estimate?.querySelector('.home-quick-estimate__toggle');
   const estimateLinks = estimate?.querySelector('.home-quick-estimate__links');
   const canHover = matchMedia('(hover: hover) and (pointer: fine)');
+  const mobileEstimate = matchMedia('(max-width: 768px)');
   let pinned = false;
   let frame = 0;
 
@@ -32,21 +33,44 @@
     const bottom = Math.max(innerHeight - heroHeight + inset, estimateSpace);
     const gap = parseFloat(getComputedStyle(actions).rowGap);
     const heroTop = hero.getBoundingClientRect().top + scrollY;
-    hero.style.setProperty('--home-scroll-top', `${innerHeight - bottom - size * 2 - gap - heroTop}px`);
-    actions.style.setProperty('--home-actions-bottom', `${bottom}px`);
+    const scrollTop = innerHeight - bottom - size * 2 - gap - heroTop;
+    hero.style.setProperty('--home-scroll-top', `${scrollTop}px`);
+    hero.style.setProperty('--home-social-top', `${scrollTop + size + gap}px`);
   }
 
   function setEstimateOpen(open) {
     if (!estimate) return;
     estimate.classList.toggle('is-open', open);
+    estimate.classList.toggle('open', open);
     estimateToggle.setAttribute('aria-expanded', String(open));
     estimateLinks.setAttribute('aria-hidden', String(!open));
     estimateLinks.inert = !open;
     alignActions();
   }
   estimateToggle?.addEventListener('click', () => {
+    estimate.classList.add('fix');
     setEstimateOpen(!estimate.classList.contains('is-open'));
   });
+
+  // Reuse the reference's one-time reveal after 500px and manual fix/open state.
+  function revealEstimate() {
+    if (!estimate || !mobileEstimate.matches) return;
+    if (scrollY > 500 && !estimate.classList.contains('fixed')) {
+      estimate.classList.add('fixed');
+      if (!estimate.classList.contains('fix')) setEstimateOpen(true);
+    }
+  }
+  mobileEstimate.addEventListener('change', () => {
+    estimate?.classList.remove('fixed', 'fix');
+    setEstimateOpen(!mobileEstimate.matches);
+    revealEstimate();
+  });
+  window.addEventListener('scroll', revealEstimate, {passive: true});
+  window.addEventListener('load', revealEstimate);
+  if (mobileEstimate.matches) {
+    setEstimateOpen(false);
+    revealEstimate();
+  }
 
   function setSocialOpen(open) {
     if (!socials) return;
