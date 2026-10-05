@@ -13110,8 +13110,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "4d5266ecb9dca76c1baad253c4cdbea49ec001fca023b20e96e76384dd9a020d",
-      "bytes": 6962
+      "sha256": "d7f3d46a94c2451195234cee9a604c2fce0f462bd4f53740f41f2f984e4e5003",
+      "bytes": 6970
     },
     "https://www.osoujihonpo.com/assets/js/home-first-view.js": {
       "path": "assets/js/home-first-view.js",
@@ -15790,7 +15790,7 @@
   "counts": {
     "urls": 1482,
     "unique_paths": 1468,
-    "bytes": 163448534,
+    "bytes": 163448542,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

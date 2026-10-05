@@ -82,7 +82,7 @@
   scroll-margin-top: var(--aircon-header-height);
 }
 
-.home-first-guide { display: block; border-radius: 0; box-shadow: none; }
+.c-home .home-first-guide { display: block; border-radius: 0; box-shadow: none; }
 .home-first-guide img { display: block; width: 100%; height: auto; }
 
 .c-home {
