@@ -74,10 +74,6 @@
   letter-spacing: .08em;
 }
 
-#home-estimate {
-  scroll-margin-top: var(--aircon-header-height);
-}
-
 #home-reasons {
   scroll-margin-top: var(--aircon-header-height);
   padding-bottom: 0 !important;
@@ -320,7 +316,7 @@
   height: 40px;
   padding: 0 16px 0 0;
   border: 0;
-  background: var(--site-action-background);
+  background: var(--site-estimate-background);
   color: #fff;
   font: inherit;
   font-size: 16px;

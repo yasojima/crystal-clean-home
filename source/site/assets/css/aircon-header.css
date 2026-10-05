@@ -1,5 +1,6 @@
 html {
-  --site-action-background: #37828D;
+  --site-action-background: #000000;
+  --site-estimate-background: #ed0e42;
   --aircon-header-base-height: clamp(72px, 7.5vw, 108px);
   --aircon-header-height: var(--aircon-header-base-height);
   scrollbar-gutter: stable;
