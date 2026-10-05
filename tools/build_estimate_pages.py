@@ -28,6 +28,7 @@ def build(check=False):
         output = re.sub(r'<main\b.*?</main>', lambda _: main, shell, flags=re.S)
         output = re.sub(r'<title>.*?</title>', '<title>Crystal Clean Home</title>', output)
         output = re.sub(r'(<meta[^>]+property="og:url"[^>]+content=")[^"]*', rf'\g<1>https://yasojima.github.io/{route}/', output)
+        output = re.sub(r'(<meta[^>]+property="og:title"[^>]+content=")[^"]*', rf'\g<1>{title} | クリスタルクリーンホーム', output)
         output = output.replace('</head>', '<link rel="stylesheet" href="/assets/css/form/common.css">\n<script src="/assets/js/cart-estimate.js?v=2026100601" defer></script>\n</head>')
         output = transform(output)
         path = SITE / route / 'index.html'

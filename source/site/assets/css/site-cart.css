@@ -111,6 +111,10 @@
 .cch-cart-extra__cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; padding: 8px 16px 24px; }
 .cch-cart-extra .cch-cart-option-card .c-product-additional-card__main { padding: 16px; }
 .cch-cart-extra .cch-cart-option-card .c-product-additional-card__footer { padding: 12px; }
+.cch-cart-extra .cch-cart-option-card .c-product-additional-card__quantity { flex: 0 0 64px; width: 64px; }
+.cch-cart-extra .cch-cart-option-card .c-product-additional-card__cart-button { flex: 1; width: auto; }
+.cch-cart-extra .c-card-select__options { padding-inline: 8px 28px; }
+.cch-cart-extra .c-card-select__icon { right: 8px; }
 .cch-cart-status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
 .cch-cart-recommendations { background: #f5f8fa; padding: 64px 0; }
 .cch-cart-recommendations[hidden] { display: none; }

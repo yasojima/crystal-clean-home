@@ -1,0 +1,106 @@
+[
+  {
+    "action": "壁掛けタイプエアコン（お掃除機能なし）の数量を1つ増やす",
+    "total": "97,900",
+    "expected": "97,900",
+    "pass": true
+  },
+  {
+    "action": "壁掛けタイプエアコン（お掃除機能なし）の数量を1つ減らす",
+    "total": "86,900",
+    "expected": "86,900",
+    "pass": true
+  },
+  {
+    "action": "完全分解洗浄の数量を1つ減らす",
+    "total": "78,100",
+    "expected": "78,100",
+    "pass": true
+  },
+  {
+    "action": "完全分解洗浄の数量を1つ増やす",
+    "total": "86,900",
+    "expected": "86,900",
+    "pass": true
+  },
+  {
+    "action": "展開中の室外機を追加",
+    "open": true,
+    "selected": true,
+    "total": "92,400",
+    "pass": true
+  },
+  {
+    "action": "室外機を削除",
+    "open": true,
+    "selected": false,
+    "total": "86,900",
+    "pass": true
+  },
+  {
+    "test": "carousel_end",
+    "result": {
+      "max": 1921,
+      "nextDisabled": true,
+      "x": 1921
+    }
+  },
+  {
+    "test": "continue_shopping_home_and_back",
+    "home": "http://127.0.0.1:8920/",
+    "result": {
+      "total": "合計金額（税込）86,900",
+      "url": "http://127.0.0.1:8920/cart/"
+    }
+  },
+  {
+    "test": "parent_delete_cascade",
+    "result": {
+      "groups": [
+        "product:1",
+        "product:666"
+      ],
+      "removeButtons": [
+        "壁掛けタイプエアコン（お掃除機能なし）を削除",
+        "完全分解洗浄を削除",
+        "レンジフード・換気扇クリーニングを削除"
+      ],
+      "total": "合計金額（税込）58,300"
+    }
+  },
+  {
+    "test": "restore_service_and_carousel_option",
+    "result": {
+      "groups": [
+        "product:1",
+        "product:666",
+        "product:4"
+      ],
+      "total": "合計金額（税込）86,900"
+    }
+  },
+  {
+    "test": "input_to_confirmation",
+    "result": {
+      "finalDisabled": true,
+      "items": [
+        "壁掛けタイプエアコン（お掃除機能なし） × 222,000円",
+        "完全分解洗浄 × 217,600円",
+        "レンジフード・換気扇クリーニング × 118,700円",
+        "風呂・浴室クリーニング × 118,700円",
+        "防汚コーティング × 19,900円"
+      ],
+      "total": "合計金額（税込） 86,900円",
+      "url": "http://127.0.0.1:8920/cart/estimate/confirm/"
+    }
+  },
+  {
+    "test": "return_input_preserves_test_draft",
+    "result": {
+      "firstName": "テスト",
+      "lastName": "確認",
+      "privacy": true,
+      "url": "http://127.0.0.1:8920/cart/estimate/"
+    }
+  }
+]

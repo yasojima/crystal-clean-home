@@ -34,7 +34,9 @@
 
 ## 公開反映
 
-CHG-005：ソースfcd584d／Pages271d8bfはpush済み。Actions37364917010はGitHub側のランナー割当遅延で実行開始待ち。新UIの公開完了・63ファイルの公開一致・公開操作は未確認。ローカルの入力→確認→修正戻りは完了。今回の配信状態は `evidence/2026-10-06/cart-reference-layout/publication.json`、画面は同フォルダーのlocal-cart-overview.png／local-cart-options.png。
+CHG-005再点検：320pxの展開オプションの追加ボタン折り返しと２桁数量欄を修正し、カートの古いOG URL／タイトルを更新。指定９サイズのボタン表示と横はみ出し０、11幅のカート配置、計算12,245条件、親子削除・再追加・HOME往復・入力→確認→修正戻りをローカル確認済み。証拠は `evidence/2026-10-06/cart-recheck/`。
+
+Pages271d8bfの初回Actions37364917010は実行待ち後に失敗、再実行もqueued。最新修正の公開反映は別途記録する。新UIの公開完了・63ファイルの公開一致・公開操作は未確認。前回の配信状態は `evidence/2026-10-06/cart-reference-layout/publication.json`、画面は同フォルダーのlocal-cart-overview.png／local-cart-options.png。
 
 以下はCHG-003の当時の公開記録。
 
