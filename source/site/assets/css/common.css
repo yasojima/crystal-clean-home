@@ -6487,6 +6487,7 @@ screen and (min-width: 768px) {
   }
 
   .c-category-simple-card:not(.is-disabled-hover):hover .c-category-simple-card__bottom::before,
+  .c-header-contact__cta:hover::before,
   .home-first-guide:hover::before {
     animation: sparkle .3s linear
   }
@@ -6566,6 +6567,7 @@ screen and (min-width: 768px) {
 }
 
 .c-category-simple-card__bottom::before,
+.c-header-contact__cta::before,
 .home-first-guide::before {
   content: "";
   width: 60px;

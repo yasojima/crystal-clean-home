@@ -123,6 +123,13 @@
 .home-first-guide::before {
   z-index: 1;
   pointer-events: none;
+  width: clamp(60px, 8vw, 120px);
+  opacity: .55;
+}
+@media (hover: hover) {
+  .c-home .home-first-guide:hover::before {
+    animation-duration: .6s;
+  }
 }
 .c-home .home-cleaning-menu {
   padding-block: 48px;

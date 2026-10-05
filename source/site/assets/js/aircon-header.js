@@ -34,6 +34,10 @@
   if (contactDetails) {
     const contact = document.createElement('div');
     contact.className = 'c-header-contact';
+    const inquiry = siteMenu.querySelector('a[data-demo-dialog]').cloneNode(false);
+    inquiry.className = 'c-header-contact__cta';
+    inquiry.textContent = 'お問い合わせはこちら';
+    contact.append(inquiry);
     const payments = document.createElement('span');
     payments.className = 'c-header-contact__payments';
     for (const [file, label] of [['visa', 'Visa'], ['master-card', 'Mastercard']]) {

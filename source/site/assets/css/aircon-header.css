@@ -129,6 +129,36 @@ html {
   font-size: 11.5px;
 }
 
+.c-header-contact__cta {
+  position: relative;
+  display: none;
+  min-width: 0;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid #005bac;
+  background: #005bac;
+  color: #fff;
+  font: 500 clamp(11px, .94vw, 12px)/1.35 "Noto Sans JP", sans-serif;
+  letter-spacing: .1em;
+  white-space: nowrap;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.c-header-contact__cta:focus-visible {
+  outline: 2px solid #005bac;
+  outline-offset: 3px;
+}
+
+@media (min-width: 901px) {
+  .c-header-contact__cta {
+    display: flex;
+    height: clamp(40px, 3.4vw, 48px);
+    flex: 0 0 clamp(138px, 14.6vw, 204px);
+  }
+}
+
 .c-main-menu {
   display: grid;
   grid-template-columns: repeat(9, minmax(0, 1fr));
@@ -597,13 +627,41 @@ body.aircon-menu-open .c-header__navigation {
   .c-header__navigation {
     position: absolute;
     top: calc((var(--aircon-header-base-height) - 82px) / 3 + 86px);
-    right: 82px;
-    left: 202px;
+    right: 24px;
+    left: 24px;
   }
 
   .c-header-contact {
     top: calc((var(--aircon-header-base-height) - 56px) / 3 + 28px);
     transform: translateY(-50%);
+  }
+
+  .c-header-contact__payment {
+    width: 44px;
+    height: 31px;
+  }
+
+  .c-header-contact__phone {
+    width: 242px;
+  }
+
+  .c-header-contact__mark {
+    flex-basis: 44px;
+    width: 44px;
+    height: 24px;
+    background-size: 440px auto;
+  }
+
+  .c-header-contact__number {
+    font-size: 31px;
+  }
+
+  .c-header-contact__hours {
+    font-size: 14px;
+  }
+
+  .c-header-contact__days {
+    font-size: 12.5px;
   }
 }
 
