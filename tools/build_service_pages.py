@@ -15,8 +15,7 @@ AIRCON_COMPARISONS = json.loads((DATA / 'aircon-comparisons.json').read_text(enc
 SERVICE_COMPARISONS = json.loads((DATA / 'service-comparisons.json').read_text(encoding='utf-8'))
 ADDITIONAL_OPTIONS = json.loads((DATA / 'additional-options.json').read_text(encoding='utf-8'))['products']
 ADDITIONAL_PLANS = json.loads((DATA / 'additional-plans.json').read_text(encoding='utf-8'))['products']
-STATIC_REASONS = ('index.html', 'about/index.html', 'quick_cart/option/index.html',
-                  'lab/online_store/detergent/product-303/index.html')
+STATIC_REASONS = ('index.html', 'lab/online_store/detergent/product-303/index.html')
 NAVY_STYLESHEET = '<link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">'
 
 

@@ -74,5 +74,79 @@
   "layout": {
     "passed": true,
     "cases": 6
+  },
+  "public-chromium": {
+    "base": "https://yasojima.github.io",
+    "engine": "chromium",
+    "arithmetic": {
+      "checks": 12245,
+      "mixedItems": 395,
+      "mixedTotal": 14309680
+    },
+    "interactions": [
+      {
+        "width": 1439,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "cases": 48,
+    "operations": 2760
+  },
+  "public-webkit": {
+    "base": "https://yasojima.github.io",
+    "engine": "webkit",
+    "arithmetic": {
+      "checks": 12245,
+      "mixedItems": 395,
+      "mixedTotal": 14309680
+    },
+    "interactions": [
+      {
+        "width": 1439,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "cases": 48,
+    "operations": 2760
+  },
+  "public-chromium-persistence": {
+    "engine": "chromium",
+    "base": "https://yasojima.github.io",
+    "edges": [
+      {
+        "width": 1439,
+        "mixedTypes": true,
+        "crossTab": true,
+        "invalidQuantity": true,
+        "optionRemoval": true,
+        "rapidCounter": true,
+        "backNavigation": true
+      },
+      {
+        "width": 390,
+        "mixedTypes": true,
+        "crossTab": true,
+        "invalidQuantity": true,
+        "optionRemoval": true,
+        "rapidCounter": true,
+        "backNavigation": true
+      },
+      {
+        "corruptStorage": true,
+        "storageFailure": true
+      }
+    ],
+    "passed": true,
+    "pageChecks": 116
   }
 }

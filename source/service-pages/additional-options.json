@@ -272,15 +272,6 @@
         "description": "外壁の継ぎ目や目地まわりの汚れを確認し、丁寧に追加洗浄します。"
       },
       {
-        "id": "30028",
-        "name": "防汚仕上げ",
-        "price": 5500,
-        "unit": "式",
-        "scene": "outerwall",
-        "state": "after",
-        "description": "洗浄した外壁の素材を確認し、対応できる面に防汚仕上げを行います。"
-      },
-      {
         "id": "30099",
         "name": "外壁手洗い洗浄（40㎡を超える追加1㎡）",
         "price": 990,
@@ -288,6 +279,15 @@
         "scene": "outerwall",
         "state": "before",
         "description": "基本料金に含まれる40㎡を超える部分を、1㎡ごとに追加します。"
+      },
+      {
+        "id": "30028",
+        "name": "防汚仕上げ",
+        "price": 5500,
+        "unit": "式",
+        "scene": "outerwall",
+        "state": "after",
+        "description": "洗浄した外壁の素材を確認し、対応できる面に防汚仕上げを行います。"
       }
     ]
   }
