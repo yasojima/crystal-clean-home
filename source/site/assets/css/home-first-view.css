@@ -84,11 +84,56 @@
 }
 
 .home-first-guide-section { padding-block: 0; }
-.c-home .home-first-guide { display: block; width: 100%; max-width: none; border-radius: 0; box-shadow: none; }
-.home-first-guide img { display: block; width: 100%; height: auto; }
+.home-first-guide-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2172 / 724;
+}
+.c-home .home-first-guide {
+  position: absolute;
+  inset: calc(148 / 724 * 100%) calc(68 / 2172 * 100%) calc(139 / 724 * 100%) calc(70 / 2172 * 100%);
+  display: block;
+  overflow: hidden;
+  border-radius: clamp(6px, 1.8vw, 24px);
+  box-shadow: 0 8px 20px rgba(31, 114, 208, .12);
+}
+.home-first-guide__art {
+  position: absolute;
+  top: calc(-148 / 437 * 100%);
+  left: calc(-70 / 2034 * 100%);
+  display: block;
+  width: calc(2172 / 2034 * 100%);
+  max-width: none;
+  height: auto;
+}
+.home-first-guide__logo {
+  position: absolute;
+  left: calc(26 / 2034 * 100%);
+  top: calc(86 / 437 * 100%);
+  width: calc(431 / 2034 * 100%);
+  height: calc(211 / 437 * 100%);
+  background: #fff;
+}
+.home-first-guide__logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.home-first-guide::before {
+  z-index: 1;
+  pointer-events: none;
+}
+.c-home .home-cleaning-menu {
+  padding-block: 48px;
+}
+@media (max-width: 767.98px) {
+  .c-home .home-cleaning-menu {
+    padding-block: 40px;
+  }
+}
 
 .c-home {
-  --home-action-blue: #000000;
   --home-action-size: 48px;
 }
 
@@ -116,7 +161,7 @@
   padding: 0;
   border: 0;
   border-radius: 50%;
-  background: var(--home-action-blue);
+  background: var(--site-action-background);
   color: #fff;
   cursor: pointer;
   pointer-events: auto;
@@ -132,7 +177,7 @@
 .home-action:focus-visible {
   outline: 2px solid #fff;
   outline-offset: 3px;
-  box-shadow: 0 0 0 5px var(--home-action-blue);
+  box-shadow: 0 0 0 5px var(--site-action-background);
 }
 
 .home-action--scroll {
@@ -257,7 +302,7 @@
   height: 40px;
   padding: 0 16px 0 0;
   border: 0;
-  background: var(--home-action-blue);
+  background: var(--site-action-background);
   color: #fff;
   font: inherit;
   font-size: 16px;

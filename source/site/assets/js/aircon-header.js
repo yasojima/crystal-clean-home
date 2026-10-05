@@ -115,6 +115,7 @@
 
   const serviceLinks = siteMenu.querySelector('.c-house-cleaning-menu');
   const guideHeading = siteMenu.querySelector('[data-guide]');
+  const guideLabel = guideHeading.textContent.trim();
   const guideLinks = guideHeading.nextElementSibling;
   const businessHeading = siteMenu.querySelector('[data-others]');
   const businessLinks = businessHeading.nextElementSibling;
@@ -184,7 +185,7 @@
     heading.className = 'aircon-mega__heading';
     heading.href = destination;
     const label = parentLink.querySelector('span').textContent.trim();
-    headingContent(heading, label, menuEnglish[destination] || '', 'aircon-mega');
+    headingContent(heading, destination === '/beginner/' ? guideLabel : label, menuEnglish[destination] || '', 'aircon-mega');
 
     const list = document.createElement('div');
     list.className = 'aircon-mega__links';

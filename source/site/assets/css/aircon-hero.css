@@ -110,6 +110,12 @@
   transform: translateY(calc(var(--hero-projection) * -.2));
 }
 
+@media (min-width: 1400px) {
+  .c-service-page .c-first-view {
+    --banner-min-height: calc(clamp(240px, 22vw, 315px) - 32px);
+  }
+}
+
 @media (max-width: 767.98px) {
   .c-service-page .c-first-view {
     --banner-min-height: clamp(220px, 58vw, 280px);

@@ -165,7 +165,7 @@
 }
 
 .c-footer--aircon .c-footer__page-top {
-  background-color: #000;
+  background-color: var(--site-action-background);
 }
 
 .c-footer--aircon .aircon-footer-page-top--mobile {

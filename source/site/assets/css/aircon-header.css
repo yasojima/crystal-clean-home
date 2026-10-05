@@ -1,5 +1,7 @@
 html {
-  --aircon-header-height: clamp(72px, 7.5vw, 108px);
+  --site-action-background: #37828D;
+  --aircon-header-base-height: clamp(72px, 7.5vw, 108px);
+  --aircon-header-height: var(--aircon-header-base-height);
   scrollbar-gutter: stable;
 }
 
@@ -569,6 +571,40 @@ body.aircon-menu-open .c-header__navigation {
 
 .aircon-full-menu__body a[aria-disabled="true"]::before {
   content: none;
+}
+
+@media (min-width: 768px) {
+  .c-header__logo {
+    position: absolute;
+    top: calc((var(--aircon-header-base-height) - min(82px, calc(var(--aircon-header-base-height) - 8px))) / 3);
+    left: 24px;
+    width: 160px;
+    height: auto;
+  }
+
+  .c-header__icons {
+    position: absolute;
+    top: calc((var(--aircon-header-base-height) - 56px) / 3);
+    right: 8px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    --aircon-header-height: calc(var(--aircon-header-base-height) + 32px);
+  }
+
+  .c-header__navigation {
+    position: absolute;
+    top: calc((var(--aircon-header-base-height) - 82px) / 3 + 86px);
+    right: 82px;
+    left: 202px;
+  }
+
+  .c-header-contact {
+    top: calc((var(--aircon-header-base-height) - 56px) / 3 + 28px);
+    transform: translateY(-50%);
+  }
 }
 
 @media (max-width: 1399px) {
