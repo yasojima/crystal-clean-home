@@ -1,0 +1,103 @@
+[
+  {
+    "test": "floating_cart_entry_after_scroll",
+    "result": {
+      "total": "合計金額（税込）59,400",
+      "url": "https://yasojima.github.io/cart/"
+    }
+  },
+  {
+    "test": "add_aircon_option_quantity_2",
+    "result": {
+      "total": "合計金額（税込）77,000"
+    }
+  },
+  {
+    "test": "add_bath_option",
+    "result": {
+      "total": "合計金額（税込）86,900"
+    }
+  },
+  {
+    "test": "increase_main_quantity",
+    "result": {
+      "total": "合計金額（税込）97,900"
+    }
+  },
+  {
+    "test": "decrease_main_quantity",
+    "result": {
+      "total": "合計金額（税込）86,900"
+    }
+  },
+  {
+    "test": "remove_option",
+    "result": {
+      "total": "合計金額（税込）77,000"
+    }
+  },
+  {
+    "test": "restore_option",
+    "result": {
+      "total": "合計金額（税込）86,900"
+    }
+  },
+  {
+    "test": "carousel_next",
+    "result": {
+      "left": 1044,
+      "prevDisabled": false
+    }
+  },
+  {
+    "test": "continue_home",
+    "url": "https://yasojima.github.io/"
+  },
+  {
+    "test": "cart_persistence_after_home",
+    "result": {
+      "total": "合計金額（税込）86,900",
+      "url": "https://yasojima.github.io/cart/"
+    }
+  },
+  {
+    "test": "empty_required_form_stays",
+    "result": {
+      "invalid": 14,
+      "url": "https://yasojima.github.io/cart/estimate/"
+    }
+  },
+  {
+    "test": "input_to_confirmation",
+    "result": {
+      "items": [
+        "壁掛けタイプエアコン（お掃除機能なし） × 222,000円",
+        "レンジフード・換気扇クリーニング × 118,700円",
+        "風呂・浴室クリーニング × 118,700円",
+        "完全分解洗浄 × 217,600円",
+        "防汚コーティング × 19,900円"
+      ],
+      "submitDisabled": true,
+      "total": "合計金額（税込） 86,900円",
+      "url": "https://yasojima.github.io/cart/estimate/confirm/"
+    }
+  },
+  {
+    "test": "confirmation_320",
+    "result": {
+      "overflow": false,
+      "total": "合計金額（税込） 86,900円",
+      "width": 320
+    }
+  },
+  {
+    "test": "return_to_input",
+    "result": {
+      "firstName": "テスト",
+      "lastName": "確認",
+      "overflow": false,
+      "privacy": true,
+      "url": "https://yasojima.github.io/cart/estimate/"
+    }
+  }
+]

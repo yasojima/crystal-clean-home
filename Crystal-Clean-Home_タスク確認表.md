@@ -36,7 +36,9 @@
 
 CHG-005再点検：320pxの展開オプションの追加ボタン折り返しと２桁数量欄を修正し、カートの古いOG URL／タイトルを更新。指定９サイズのボタン表示と横はみ出し０、11幅のカート配置、計算12,245条件、親子削除・再追加・HOME往復・入力→確認→修正戻りをローカル確認済み。証拠は `evidence/2026-10-06/cart-recheck/`。
 
-修正ソース7eda727／Pages bf9c7e7はpush済み。最新Actions37373493077はqueued。2026-10-05 21:03 UTC時点で公開カートとCSSは旧版のまま、新ソースとは不一致。新UIの公開完了・63ファイルの公開一致・公開操作は未確認。GitHub Actionsのランナー割当障害が継続。最新記録は `evidence/2026-10-06/cart-recheck/publication.json`・`public-version.json`、再点検の画面は同フォルダーのlocal-cart-overview.png／mobile-inline-fixed.png。
+Pages bf9c7e7／Actions37373493077の成功と公開63ファイルのHTTP200・SHA-256一致を確認。公開版の指定９サイズ、追加削除・数量・左右スライダー・HOME往復・入力確認86,900円と修正戻りも確認済み。
+
+追加で途中再読み込み時のカート入口消失を修正。表示タイマーが別の監視対象によって取り消される競合を解消し、指定９サイズで再表示、上部とフッターの従来条件をローカル確認した。最新修正の配信状態は `evidence/2026-10-06/cart-recheck/publication.json`、公開操作はpublic-operations.json、再読み込みはfloating-reload-local.jsonを参照。
 
 以下はCHG-003の当時の公開記録。
 

@@ -1,0 +1,249 @@
+{
+  "layout": [
+    {
+      "groups": 3,
+      "height": 600,
+      "left": {
+        "bottom": 2044.828125,
+        "top": 322.171875,
+        "width": 637,
+        "x": 24
+      },
+      "nav": "flex",
+      "overflow": false,
+      "right": {
+        "top": 322.171875,
+        "width": 300,
+        "x": 685
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 1024
+    },
+    {
+      "groups": 3,
+      "height": 551,
+      "left": {
+        "bottom": 2222.25,
+        "top": 341.375,
+        "width": 795.6875,
+        "x": 32.5
+      },
+      "nav": "flex",
+      "overflow": false,
+      "right": {
+        "top": 341.375,
+        "width": 340.3125,
+        "x": 892.1875
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 1280
+    },
+    {
+      "groups": 3,
+      "height": 650,
+      "left": {
+        "bottom": 2228.6875,
+        "top": 347.8125,
+        "width": 795.6875,
+        "x": 75.5
+      },
+      "nav": "flex",
+      "overflow": false,
+      "right": {
+        "top": 347.8125,
+        "width": 340.3125,
+        "x": 935.1875
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 1366
+    },
+    {
+      "groups": 3,
+      "height": 800,
+      "left": {
+        "bottom": 2218.25,
+        "top": 337.375,
+        "width": 795.6875,
+        "x": 112.5
+      },
+      "nav": "flex",
+      "overflow": false,
+      "right": {
+        "top": 337.375,
+        "width": 340.3125,
+        "x": 972.1875
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 1440
+    },
+    {
+      "groups": 3,
+      "height": 1080,
+      "left": {
+        "bottom": 2219.375,
+        "top": 338.5,
+        "width": 795.6875,
+        "x": 352.5
+      },
+      "nav": "flex",
+      "overflow": false,
+      "right": {
+        "top": 338.5,
+        "width": 340.3125,
+        "x": 1212.1875
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 1920
+    },
+    {
+      "groups": 3,
+      "height": 568,
+      "left": {
+        "bottom": 2301.09375,
+        "top": 292,
+        "width": 275,
+        "x": 15
+      },
+      "nav": "none",
+      "overflow": false,
+      "right": {
+        "top": 2333.09375,
+        "width": 275,
+        "x": 15
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 320
+    },
+    {
+      "groups": 3,
+      "height": 667,
+      "left": {
+        "bottom": 1976.328125,
+        "top": 240,
+        "width": 330,
+        "x": 15
+      },
+      "nav": "none",
+      "overflow": false,
+      "right": {
+        "top": 2008.328125,
+        "width": 330,
+        "x": 15
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 375
+    },
+    {
+      "groups": 3,
+      "height": 844,
+      "left": {
+        "bottom": 1976.328125,
+        "top": 240,
+        "width": 345,
+        "x": 15
+      },
+      "nav": "none",
+      "overflow": false,
+      "right": {
+        "top": 2008.328125,
+        "width": 345,
+        "x": 15
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 390
+    },
+    {
+      "groups": 3,
+      "height": 688,
+      "left": {
+        "bottom": 1916.328125,
+        "top": 240,
+        "width": 369,
+        "x": 15
+      },
+      "nav": "none",
+      "overflow": false,
+      "right": {
+        "top": 1948.328125,
+        "width": 369,
+        "x": 15
+      },
+      "total": "合計金額（税込）86,900",
+      "width": 414
+    }
+  ],
+  "inlineOptions": [
+    {
+      "height": 600,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 1024
+    },
+    {
+      "height": 551,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 1280
+    },
+    {
+      "height": 650,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 1366
+    },
+    {
+      "height": 800,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 1440
+    },
+    {
+      "height": 1080,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 1920
+    },
+    {
+      "height": 568,
+      "lines": 0.9995039682539684,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 320
+    },
+    {
+      "height": 667,
+      "lines": 0.9995039682539684,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 375
+    },
+    {
+      "height": 844,
+      "lines": 0.9995039682539684,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 390
+    },
+    {
+      "height": 688,
+      "lines": 0.9998914930555556,
+      "overflow": false,
+      "quantity": "30",
+      "quantityWidth": 64,
+      "width": 414
+    }
+  ]
+}

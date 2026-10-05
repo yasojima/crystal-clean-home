@@ -51,9 +51,9 @@ def transform(html, is_aircon=False):
     html = html.replace('</head>', newline.join(assets) + newline + '</head>', 1)
     html = re.sub(r'<script\b[^>]*src="/assets/js/(?:house-cleaning/(?:product-top|osoujiless)|simulation/parent-product|office/product-detail)\.js(?:\?[^\"]*)?"[^>]*>\s*</script>\s*', '', html)
     if '/assets/js/common.js' not in html:
-        html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100528" defer></script>' + newline + '</head>', 1)
+        html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100601" defer></script>' + newline + '</head>', 1)
     else:
-        html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100528', html)
+        html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100601', html)
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100536', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100601', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100601', html)

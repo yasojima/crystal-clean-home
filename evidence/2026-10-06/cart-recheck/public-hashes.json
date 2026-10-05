@@ -1,0 +1,449 @@
+{
+  "checked_at": "2026-10-05T21:46:31.318172+00:00",
+  "public_commit": "bf9c7e70e5a75cc61b96fa0bdfd14b20b0d7e867",
+  "file_count": 63,
+  "all_match": true,
+  "results": [
+    {
+      "path": "assets/css/site-cart.css",
+      "status": 200,
+      "local_sha256": "e18e03d9cf93ec483f0c2fcc8d48b3ee9ba381230b8db535289726ec05594058",
+      "public_sha256": "e18e03d9cf93ec483f0c2fcc8d48b3ee9ba381230b8db535289726ec05594058",
+      "match": true
+    },
+    {
+      "path": "assets/js/cart-catalogue.js",
+      "status": 200,
+      "local_sha256": "7088712d0b3296fcb0b7f6fea46c7d481a764d3ee6fa087ae081e91af5d1d07d",
+      "public_sha256": "7088712d0b3296fcb0b7f6fea46c7d481a764d3ee6fa087ae081e91af5d1d07d",
+      "match": true
+    },
+    {
+      "path": "assets/js/site-cart.js",
+      "status": 200,
+      "local_sha256": "e6587a1adc651d9f0235ae0df2c00ccd6aafe959eed69ab7dc78772ac0c1f475",
+      "public_sha256": "e6587a1adc651d9f0235ae0df2c00ccd6aafe959eed69ab7dc78772ac0c1f475",
+      "match": true
+    },
+    {
+      "path": "beginner/index.html",
+      "status": 200,
+      "local_sha256": "594999f2ada37d1d72b9b46c3c1a91df744f1783049360c702e647c3adb9c3c0",
+      "public_sha256": "594999f2ada37d1d72b9b46c3c1a91df744f1783049360c702e647c3adb9c3c0",
+      "match": true
+    },
+    {
+      "path": "business/contact/index.html",
+      "status": 200,
+      "local_sha256": "11f08de598ab51db6cab59fcf2a72893f21bec55b8d34c150cdb218aee9b60da",
+      "public_sha256": "11f08de598ab51db6cab59fcf2a72893f21bec55b8d34c150cdb218aee9b60da",
+      "match": true
+    },
+    {
+      "path": "business/racn/index.html",
+      "status": 200,
+      "local_sha256": "6e1bfaa4dc898d0a72dfd7ff35b04b2be37faebccd7c8536a210888c4800c480",
+      "public_sha256": "6e1bfaa4dc898d0a72dfd7ff35b04b2be37faebccd7c8536a210888c4800c480",
+      "match": true
+    },
+    {
+      "path": "cart/estimate/confirm/index.html",
+      "status": 200,
+      "local_sha256": "db7253f4516a8d73d944b607a6fa56f1e62af4923b8e43e61d79b00e95b4fa23",
+      "public_sha256": "db7253f4516a8d73d944b607a6fa56f1e62af4923b8e43e61d79b00e95b4fa23",
+      "match": true
+    },
+    {
+      "path": "cart/estimate/index.html",
+      "status": 200,
+      "local_sha256": "62612657515d1e70398e41f45b1371d8c8721724cc3af3b891c42256d30e2c99",
+      "public_sha256": "62612657515d1e70398e41f45b1371d8c8721724cc3af3b891c42256d30e2c99",
+      "match": true
+    },
+    {
+      "path": "cart/index.html",
+      "status": 200,
+      "local_sha256": "128e152a627cdcce4972fe6a5bd1f32a1320cec46a1a5528dd2d547869d4db43",
+      "public_sha256": "128e152a627cdcce4972fe6a5bd1f32a1320cec46a1a5528dd2d547869d4db43",
+      "match": true
+    },
+    {
+      "path": "contact/business/index.html",
+      "status": 200,
+      "local_sha256": "11f3080af9fca23bd293043b847bb61b62aa9187236c4fd9c07249b4ed01d63f",
+      "public_sha256": "11f3080af9fca23bd293043b847bb61b62aa9187236c4fd9c07249b4ed01d63f",
+      "match": true
+    },
+    {
+      "path": "contact/house-cleaning/index.html",
+      "status": 200,
+      "local_sha256": "847fd6e8213e76c96a4bdf524113818ee582b8a998a5d925f3da33cf3e4071cf",
+      "public_sha256": "847fd6e8213e76c96a4bdf524113818ee582b8a998a5d925f3da33cf3e4071cf",
+      "match": true
+    },
+    {
+      "path": "contact/index.html",
+      "status": 200,
+      "local_sha256": "f10d3899cef9e27805d5b87ce588fd2b025ce0c7c22732de5b3c5faa54c93173",
+      "public_sha256": "f10d3899cef9e27805d5b87ce588fd2b025ce0c7c22732de5b3c5faa54c93173",
+      "match": true
+    },
+    {
+      "path": "contact/shop/index.html",
+      "status": 200,
+      "local_sha256": "fb2665e630a7a92e0ef12fea1b8d9ddd36b36e94dd9bd12a59481331a15a9063",
+      "public_sha256": "fb2665e630a7a92e0ef12fea1b8d9ddd36b36e94dd9bd12a59481331a15a9063",
+      "match": true
+    },
+    {
+      "path": "energy-saving/aircon01/index.html",
+      "status": 200,
+      "local_sha256": "587d28c8a63acea8552a09f8a1bf9494f3924fcc523ccda87b3cc4207e541ede",
+      "public_sha256": "587d28c8a63acea8552a09f8a1bf9494f3924fcc523ccda87b3cc4207e541ede",
+      "match": true
+    },
+    {
+      "path": "energy-saving/aircon02/index.html",
+      "status": 200,
+      "local_sha256": "d551bef07906011d9cb0146bc709905e431598cbd637e71cb6a14898c7995d56",
+      "public_sha256": "d551bef07906011d9cb0146bc709905e431598cbd637e71cb6a14898c7995d56",
+      "match": true
+    },
+    {
+      "path": "energy-saving/drier/index.html",
+      "status": 200,
+      "local_sha256": "3a5791f254195f0853e860446955157d78e50f44a9a0b2e30504871da3421630",
+      "public_sha256": "3a5791f254195f0853e860446955157d78e50f44a9a0b2e30504871da3421630",
+      "match": true
+    },
+    {
+      "path": "energy-saving/fridge/index.html",
+      "status": 200,
+      "local_sha256": "425e328fae8133d55c901853f80a1f72c6714a4c05f8d270137c671c5248d76b",
+      "public_sha256": "425e328fae8133d55c901853f80a1f72c6714a4c05f8d270137c671c5248d76b",
+      "match": true
+    },
+    {
+      "path": "energy-saving/index.html",
+      "status": 200,
+      "local_sha256": "86e0b4bc9579268fe5d0859feaa0265c7a40459332d49c7fe962b0b52dad2373",
+      "public_sha256": "86e0b4bc9579268fe5d0859feaa0265c7a40459332d49c7fe962b0b52dad2373",
+      "match": true
+    },
+    {
+      "path": "energy-saving/kitchen/index.html",
+      "status": 200,
+      "local_sha256": "c249b78c8c4a66d6b16013b9cdc6ae05e57e354454727fd39b37874ba10f8c59",
+      "public_sha256": "c249b78c8c4a66d6b16013b9cdc6ae05e57e354454727fd39b37874ba10f8c59",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/air/index.html",
+      "status": 200,
+      "local_sha256": "e46f37434e1811da3ed1041fa3d472af14ebaf7063d369214f7aa903c950a94b",
+      "public_sha256": "e46f37434e1811da3ed1041fa3d472af14ebaf7063d369214f7aa903c950a94b",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/index.html",
+      "status": 200,
+      "local_sha256": "797b240717fe62fe7e3db88e03a1d5b836fcb4c6a8bc6033de844b923e93dec0",
+      "public_sha256": "797b240717fe62fe7e3db88e03a1d5b836fcb4c6a8bc6033de844b923e93dec0",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/kitchen/index.html",
+      "status": 200,
+      "local_sha256": "88aba4897edfb4fcf63d80b11c8440df4425a37744c2aa19775e334fb4356953",
+      "public_sha256": "88aba4897edfb4fcf63d80b11c8440df4425a37744c2aa19775e334fb4356953",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/light/index.html",
+      "status": 200,
+      "local_sha256": "cea79860d7fc4e5a87534224a66896dec005540855688c92eb741091b42d6fb5",
+      "public_sha256": "cea79860d7fc4e5a87534224a66896dec005540855688c92eb741091b42d6fb5",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/oa/index.html",
+      "status": 200,
+      "local_sha256": "563434820b29ef53d84e72ab60d49ebb329a6911d84340abe5ca1d07af0aeabb",
+      "public_sha256": "563434820b29ef53d84e72ab60d49ebb329a6911d84340abe5ca1d07af0aeabb",
+      "match": true
+    },
+    {
+      "path": "energy-saving/others/index.html",
+      "status": 200,
+      "local_sha256": "4d2adc9ee68bbc1b54a4639034c881a62b2b398e1c091e474910033800ecb013",
+      "public_sha256": "4d2adc9ee68bbc1b54a4639034c881a62b2b398e1c091e474910033800ecb013",
+      "match": true
+    },
+    {
+      "path": "energy-saving/summer/index.html",
+      "status": 200,
+      "local_sha256": "8cda0f4b5d8a48be5d9a37d0913ea20ab7d9742282b3b7887976e4c2d47bb933",
+      "public_sha256": "8cda0f4b5d8a48be5d9a37d0913ea20ab7d9742282b3b7887976e4c2d47bb933",
+      "match": true
+    },
+    {
+      "path": "energy-saving/toilet/index.html",
+      "status": 200,
+      "local_sha256": "d0a7ced957ebdeeaeec2f79199ee2c6acd5117c29b029e1cbaa0b6646fc1f3b0",
+      "public_sha256": "d0a7ced957ebdeeaeec2f79199ee2c6acd5117c29b029e1cbaa0b6646fc1f3b0",
+      "match": true
+    },
+    {
+      "path": "energy-saving/washer/index.html",
+      "status": 200,
+      "local_sha256": "556691ce2652b3f4faf48d8e493e595b5d36ea6817e76cd2cd8690e613e0e19b",
+      "public_sha256": "556691ce2652b3f4faf48d8e493e595b5d36ea6817e76cd2cd8690e613e0e19b",
+      "match": true
+    },
+    {
+      "path": "energy-saving/winter/index.html",
+      "status": 200,
+      "local_sha256": "d60b5035231cf702c04b79753449e107667feba5bc311d75990f88318496a5d1",
+      "public_sha256": "d60b5035231cf702c04b79753449e107667feba5bc311d75990f88318496a5d1",
+      "match": true
+    },
+    {
+      "path": "error/403/index.html",
+      "status": 200,
+      "local_sha256": "a61fbd5e71ed71e1777a1261575f9c06be7d4c1198e800399cb07875932cc2d9",
+      "public_sha256": "a61fbd5e71ed71e1777a1261575f9c06be7d4c1198e800399cb07875932cc2d9",
+      "match": true
+    },
+    {
+      "path": "error/405/index.html",
+      "status": 200,
+      "local_sha256": "30fb362ed375fd3bf695e492ace0a3fa7861db71326c3d6f76b9c667c991c2e1",
+      "public_sha256": "30fb362ed375fd3bf695e492ace0a3fa7861db71326c3d6f76b9c667c991c2e1",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/2027problem/index.html",
+      "status": 200,
+      "local_sha256": "e55e796db0e36ad682f8eb7d5e0414bad027e9ff59f89f29e82159f35db79f94",
+      "public_sha256": "e55e796db0e36ad682f8eb7d5e0414bad027e9ff59f89f29e82159f35db79f94",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "local_sha256": "723a235f8a5f84f6a3f3fdb294f3251f0796b9bfac1a390e9191ae208a7b653f",
+      "public_sha256": "723a235f8a5f84f6a3f3fdb294f3251f0796b9bfac1a390e9191ae208a7b653f",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "local_sha256": "db9850035dc5ef0c715f43dae9bf2c1f50d898906161bcfb6c33611e45defb2e",
+      "public_sha256": "db9850035dc5ef0c715f43dae9bf2c1f50d898906161bcfb6c33611e45defb2e",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "local_sha256": "c30dc3924f26fc746cf475316b76889a053f1c4896ab446b63e4e17bb7738afa",
+      "public_sha256": "c30dc3924f26fc746cf475316b76889a053f1c4896ab446b63e4e17bb7738afa",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "status": 200,
+      "local_sha256": "c93aeef324611a744260b4f8ed1183427fcc655c9b327c21f7e4a290316270e8",
+      "public_sha256": "c93aeef324611a744260b4f8ed1183427fcc655c9b327c21f7e4a290316270e8",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "local_sha256": "a29af5672424521910d65e8201b8eb3c0f0e3c8f1d79b62b456c3c8315bea697",
+      "public_sha256": "a29af5672424521910d65e8201b8eb3c0f0e3c8f1d79b62b456c3c8315bea697",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "local_sha256": "b2cdd21fcc3f54b7ff24aa4fd31ae7e30152b46047272ad1fca2882405ac173a",
+      "public_sha256": "b2cdd21fcc3f54b7ff24aa4fd31ae7e30152b46047272ad1fca2882405ac173a",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "local_sha256": "1c4ae2ddef85b7270f0bfe24dc88b7a0bc465c92f23bb6a72182e3d2bf5f3d3a",
+      "public_sha256": "1c4ae2ddef85b7270f0bfe24dc88b7a0bc465c92f23bb6a72182e3d2bf5f3d3a",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "local_sha256": "f748fb0a2e769dcdedd8f2da06af523a0c372c2113d404fe9943534d6c98efa2",
+      "public_sha256": "f748fb0a2e769dcdedd8f2da06af523a0c372c2113d404fe9943534d6c98efa2",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "local_sha256": "7bcb07a6cc11cb4cddd09067936c938abf1232be4d4001181d11634a1185913a",
+      "public_sha256": "7bcb07a6cc11cb4cddd09067936c938abf1232be4d4001181d11634a1185913a",
+      "match": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "local_sha256": "871120de8b8b622ec3d7625636cca66591aa6b5bbff6c497fb1ceca95bbe6e32",
+      "public_sha256": "871120de8b8b622ec3d7625636cca66591aa6b5bbff6c497fb1ceca95bbe6e32",
+      "match": true
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "status": 200,
+      "local_sha256": "1e7c1f2afec28f9d3e712d5da796bcbad21327e8179ef05c42cac77fc2d79145",
+      "public_sha256": "1e7c1f2afec28f9d3e712d5da796bcbad21327e8179ef05c42cac77fc2d79145",
+      "match": true
+    },
+    {
+      "path": "office/aircon_standard/index.html",
+      "status": 200,
+      "local_sha256": "9fb09113f62a8da6f5c9c9648df501ea3bd23a91d394ae0f3f3b49275a15c36b",
+      "public_sha256": "9fb09113f62a8da6f5c9c9648df501ea3bd23a91d394ae0f3f3b49275a15c36b",
+      "match": true
+    },
+    {
+      "path": "office/carpet/index.html",
+      "status": 200,
+      "local_sha256": "497d028ebfe6fc7579d2766f249e0e3275237295b87abdd69193def2d7000a17",
+      "public_sha256": "497d028ebfe6fc7579d2766f249e0e3275237295b87abdd69193def2d7000a17",
+      "match": true
+    },
+    {
+      "path": "office/floor/index.html",
+      "status": 200,
+      "local_sha256": "4a1161dbf4fc9907b5b61987a16c2eba0a89b54f40891e923312ee41fd73b458",
+      "public_sha256": "4a1161dbf4fc9907b5b61987a16c2eba0a89b54f40891e923312ee41fd73b458",
+      "match": true
+    },
+    {
+      "path": "office/fluorescent/index.html",
+      "status": 200,
+      "local_sha256": "7de5c2a912a82a7e57c45cf6987518ac3fbf0a02609c14f91a72956f2920e759",
+      "public_sha256": "7de5c2a912a82a7e57c45cf6987518ac3fbf0a02609c14f91a72956f2920e759",
+      "match": true
+    },
+    {
+      "path": "office/glass/index.html",
+      "status": 200,
+      "local_sha256": "87be1e2ec0daaecdec6a4413f55cc9c29536b6b607189527f2beb4d708cce486",
+      "public_sha256": "87be1e2ec0daaecdec6a4413f55cc9c29536b6b607189527f2beb4d708cce486",
+      "match": true
+    },
+    {
+      "path": "office/photocatalyst/index.html",
+      "status": 200,
+      "local_sha256": "ce41d7adceedf66234c77c647415d6a004e283957a7654f628a0484e22eb1a31",
+      "public_sha256": "ce41d7adceedf66234c77c647415d6a004e283957a7654f628a0484e22eb1a31",
+      "match": true
+    },
+    {
+      "path": "office/space/index.html",
+      "status": 200,
+      "local_sha256": "dea80e4641ff1b0eda0709daa4300f87d4b17870e6a35c913692ba9394062eec",
+      "public_sha256": "dea80e4641ff1b0eda0709daa4300f87d4b17870e6a35c913692ba9394062eec",
+      "match": true
+    },
+    {
+      "path": "policy-1/index.html",
+      "status": 200,
+      "local_sha256": "f510346e414ee7f55567cae32cafbc59fd4906ce8678ee0fa888daec04d88de8",
+      "public_sha256": "f510346e414ee7f55567cae32cafbc59fd4906ce8678ee0fa888daec04d88de8",
+      "match": true
+    },
+    {
+      "path": "policy-2/index.html",
+      "status": 200,
+      "local_sha256": "6104a90deaccde146499c47da77116c941ca29640b40863c2ec947b480b56cc3",
+      "public_sha256": "6104a90deaccde146499c47da77116c941ca29640b40863c2ec947b480b56cc3",
+      "match": true
+    },
+    {
+      "path": "policy/index.html",
+      "status": 200,
+      "local_sha256": "6778fb9b6f7a7e9b400350c45c93f240151cd47c1a461d87df2b23e8e016108a",
+      "public_sha256": "6778fb9b6f7a7e9b400350c45c93f240151cd47c1a461d87df2b23e8e016108a",
+      "match": true
+    },
+    {
+      "path": "quick_cart/aircon/index.html",
+      "status": 200,
+      "local_sha256": "97df6844394d0452c19464257572ab6aac51d4725e9889dd2bbabb466c0c11ba",
+      "public_sha256": "97df6844394d0452c19464257572ab6aac51d4725e9889dd2bbabb466c0c11ba",
+      "match": true
+    },
+    {
+      "path": "quick_cart/coating/index.html",
+      "status": 200,
+      "local_sha256": "93dd772609df264eb27f2e22661bfc0209212bf40c4d29cef1bcc58c081c7851",
+      "public_sha256": "93dd772609df264eb27f2e22661bfc0209212bf40c4d29cef1bcc58c081c7851",
+      "match": true
+    },
+    {
+      "path": "quick_cart/index.html",
+      "status": 200,
+      "local_sha256": "0a1f75a242aadd729bc751cfae44772f19d6b6af176116f7331966b213ac3c83",
+      "public_sha256": "0a1f75a242aadd729bc751cfae44772f19d6b6af176116f7331966b213ac3c83",
+      "match": true
+    },
+    {
+      "path": "quick_cart/kitchen/index.html",
+      "status": 200,
+      "local_sha256": "c89cb03ed9b63e428ec42430b45ac185aee0b6ed49acf1d7daf4a916e7efecec",
+      "public_sha256": "c89cb03ed9b63e428ec42430b45ac185aee0b6ed49acf1d7daf4a916e7efecec",
+      "match": true
+    },
+    {
+      "path": "quick_cart/option/index.html",
+      "status": 200,
+      "local_sha256": "6fbce9c31c1bf00f142ef3811010d2772ffec5d912539cc66eebec26adc8fc39",
+      "public_sha256": "6fbce9c31c1bf00f142ef3811010d2772ffec5d912539cc66eebec26adc8fc39",
+      "match": true
+    },
+    {
+      "path": "quick_cart/others/index.html",
+      "status": 200,
+      "local_sha256": "5b521c1b6f550571ff024764dd11793c06a5ae636abf4869edcc59f3ab7d5df8",
+      "public_sha256": "5b521c1b6f550571ff024764dd11793c06a5ae636abf4869edcc59f3ab7d5df8",
+      "match": true
+    },
+    {
+      "path": "quick_cart/pack/index.html",
+      "status": 200,
+      "local_sha256": "50d72eaea56745b68d6e2700b4cfed85ac7cc6075f3b229760c3a50458cf4647",
+      "public_sha256": "50d72eaea56745b68d6e2700b4cfed85ac7cc6075f3b229760c3a50458cf4647",
+      "match": true
+    },
+    {
+      "path": "quick_cart/room/index.html",
+      "status": 200,
+      "local_sha256": "91cb884f633890d181d3a4a0cc4aa72d920c2bc3d15206590f520e1c10e2bfba",
+      "public_sha256": "91cb884f633890d181d3a4a0cc4aa72d920c2bc3d15206590f520e1c10e2bfba",
+      "match": true
+    },
+    {
+      "path": "quick_cart/washer/index.html",
+      "status": 200,
+      "local_sha256": "4143d276d5192c7bbf5630450f0eae2f3286a80a1346615d03ad41910a34f3ba",
+      "public_sha256": "4143d276d5192c7bbf5630450f0eae2f3286a80a1346615d03ad41910a34f3ba",
+      "match": true
+    },
+    {
+      "path": "quick_cart/water/index.html",
+      "status": 200,
+      "local_sha256": "8cbe17fb40ffcf243b8effdb5ac67da864ab5f5577b510fe7574da12ecbfbdd4",
+      "public_sha256": "8cbe17fb40ffcf243b8effdb5ac67da864ab5f5577b510fe7574da12ecbfbdd4",
+      "match": true
+    }
+  ]
+}
