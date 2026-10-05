@@ -179,7 +179,7 @@
   }
 
   function openMega(item) {
-    if (menu.classList.contains('is-active') || window.innerWidth < 1400) return;
+    if (menu.classList.contains('is-active') || window.innerWidth < 1024) return;
     const parentLink = item.querySelector('.c-main-menu__link');
     const destination = parentLink.dataset.targetHref;
     const links = submenuLinks(destination);

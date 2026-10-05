@@ -110,9 +110,9 @@
   transform: translateY(calc(var(--hero-projection) * -.2));
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1024px) {
   .c-service-page .c-first-view {
-    --banner-min-height: calc(clamp(240px, 22vw, 315px) - 32px);
+    --banner-min-height: calc(clamp(240px, 22vw, 315px) - (var(--aircon-header-height) - var(--aircon-header-base-height)));
   }
 }
 
