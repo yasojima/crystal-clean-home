@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-06",
+  "sourceCommits": [
+    "0852abe686685df3ec863b7ae44101eafe630b2f",
+    "d073c946de17fb9e7a8caafb4a4186424b6d2242"
+  ],
+  "pages": [
+    {
+      "sha": "69f00427c495c00dc696f91a781b01b7346e1d19",
+      "run": 37353811423,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37353811423"
+    },
+    {
+      "sha": "b986491ea0158fbfe51ce54ce2509c45851ec592",
+      "run": 37356480795,
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37356480795"
+    }
+  ],
+  "publicFiles": {
+    "count": 71,
+    "allHttp200": true,
+    "allSha256Matches": true,
+    "evidence": "public-hashes.json"
+  },
+  "publicDisplay": {
+    "homeSizes": 9,
+    "pcNavSizes": 5,
+    "noHorizontalOverflow": true,
+    "homeDomAndImageChecks": true,
+    "cartEmptyGuardViews": 6,
+    "evidence": "public-browser.json"
+  },
+  "localCart": {
+    "arithmeticCases": 12245,
+    "layoutViews": 27,
+    "interactionEvidence": "cart-interactions-local.json",
+    "arithmeticEvidence": "cart-arithmetic.json",
+    "preservedCatalogueRecords": 395
+  },
+  "publicInteraction": {
+    "status": "not_completed",
+    "reason": "Native browser input stopped activating links and buttons after a test alert. Local operations passed before this; public hashes and displayed layouts match.",
+    "sourceDefectEstablished": false
+  },
+  "acceptance": {
+    "humanVisual": "pending",
+    "installedDevice": "not_claimed",
+    "productionBooking": "out_of_current_scope"
+  },
+  "infraDoc": "https://docs.google.com/document/d/18XmPFPE8FqVFpBSLeQT-cHUjz9ZMRDm_bNng3tJy3ww/edit"
+}

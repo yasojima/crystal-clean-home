@@ -1,0 +1,191 @@
+{
+  "browser": "Chromium / hidden IAB",
+  "home": {
+    "businessBannerHref": null,
+    "categorySubheading": false,
+    "commonCss": "/assets/css/common.css?v=2026100601",
+    "detailArrow": false,
+    "detailColor": "rgb(0, 0, 0)",
+    "featuredTitle": "注目のハウスクリーニング",
+    "guide": [
+      {
+        "href": "/",
+        "label": "HOME",
+        "links": [
+          "はじめての方へ",
+          "お問い合わせ"
+        ]
+      }
+    ],
+    "introPresent": false,
+    "order": [
+      "first-view",
+      "home-cleaning-list",
+      "home-reasons",
+      "tab-panel_02",
+      "l-section l-section--limited home-first-guide-section",
+      "l-section l-section--limited c-featured-cleaning c-curved-section c-curved-section--down"
+    ],
+    "places": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "image": "url(\"https://yasojima.github.io/assets/images/common-parts/illust/aircon.svg\")",
+        "label": "エアコン",
+        "sameImage": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "image": "url(\"https://yasojima.github.io/assets/images/common-parts/illust/bath.svg\")",
+        "label": "水まわり",
+        "sameImage": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "image": "url(\"https://yasojima.github.io/assets/images/common-parts/illust/washing-machine.svg\")",
+        "label": "洗濯機",
+        "sameImage": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "image": "url(\"https://yasojima.github.io/assets/images/common-parts/illust/kitchen.svg\")",
+        "label": "キッチン",
+        "sameImage": true
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "image": "url(\"https://yasojima.github.io/assets/images/common-parts/illust/other.svg\")",
+        "label": "外壁・その他",
+        "sameImage": true
+      }
+    ],
+    "scrollHref": "#tab-panel_02",
+    "topAlignment": 0,
+    "underlineColor": "rgb(0, 0, 0)",
+    "underlineImage": "none"
+  },
+  "homeSizes": [
+    {
+      "clientWidth": 1009,
+      "footerRight": 0,
+      "height": 600,
+      "navVisible": true,
+      "overflow": 0,
+      "width": 1024
+    },
+    {
+      "clientWidth": 1265,
+      "footerRight": 0,
+      "height": 551,
+      "navVisible": true,
+      "overflow": 0,
+      "width": 1280
+    },
+    {
+      "clientWidth": 1351,
+      "footerRight": 0,
+      "height": 650,
+      "navVisible": true,
+      "overflow": 0,
+      "width": 1366
+    },
+    {
+      "clientWidth": 1425,
+      "footerRight": 0,
+      "height": 800,
+      "navVisible": true,
+      "overflow": 0,
+      "width": 1440
+    },
+    {
+      "clientWidth": 1905,
+      "footerRight": 0,
+      "height": 1080,
+      "navVisible": true,
+      "overflow": 0,
+      "width": 1920
+    },
+    {
+      "clientWidth": 305,
+      "footerRight": 284.5,
+      "height": 568,
+      "navVisible": false,
+      "overflow": 0,
+      "width": 320
+    },
+    {
+      "clientWidth": 360,
+      "footerRight": 345.5,
+      "height": 667,
+      "navVisible": false,
+      "overflow": 0,
+      "width": 375
+    },
+    {
+      "clientWidth": 375,
+      "footerRight": 353,
+      "height": 844,
+      "navVisible": false,
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "clientWidth": 399,
+      "footerRight": 365,
+      "height": 688,
+      "navVisible": false,
+      "overflow": 0,
+      "width": 414
+    }
+  ],
+  "cartDisplay": [
+    {
+      "guard": "\n見積り確認情報入力入力確認完了\n      お見積り内容（カート）のご確認\n      \n        \n          カートが空です。ご希望のサービスをお選びください。サービスを選ぶ\n        \n      \n      \n        \n          \n          サービスのご案内\n            \n       ",
+      "heading": "お見積り内容（カート）のご確認",
+      "height": 551,
+      "overflow": 0,
+      "path": "/cart/",
+      "width": 1280
+    },
+    {
+      "guard": "お見積りカートが空です。ご希望のサービスをお選びください。サービスを選ぶ",
+      "heading": "お見積り",
+      "height": 551,
+      "overflow": 0,
+      "path": "/cart/estimate/",
+      "width": 1280
+    },
+    {
+      "guard": "お見積りカートが空です。ご希望のサービスをお選びください。サービスを選ぶ",
+      "heading": "お見積り",
+      "height": 551,
+      "overflow": 0,
+      "path": "/cart/estimate/confirm/",
+      "width": 1280
+    },
+    {
+      "guard": "\n見積り確認情報入力入力確認完了\n      お見積り内容（カート）のご確認\n      \n        \n          カートが空です。ご希望のサービスをお選びください。サービスを選ぶ\n        \n      \n      \n        \n          \n          サービスのご案内\n            \n       ",
+      "heading": "お見積り内容（カート）のご確認",
+      "height": 844,
+      "overflow": 0,
+      "path": "/cart/",
+      "width": 390
+    },
+    {
+      "guard": "お見積りカートが空です。ご希望のサービスをお選びください。サービスを選ぶ",
+      "heading": "お見積り",
+      "height": 844,
+      "overflow": 0,
+      "path": "/cart/estimate/",
+      "width": 390
+    },
+    {
+      "guard": "お見積りカートが空です。ご希望のサービスをお選びください。サービスを選ぶ",
+      "heading": "お見積り",
+      "height": 844,
+      "overflow": 0,
+      "path": "/cart/estimate/confirm/",
+      "width": 390
+    }
+  ],
+  "interactionStatus": "Not completed: native browser input stopped activating links and buttons after a test alert. Local interaction verification passed earlier; public file hashes match. No source defect established."
+}
