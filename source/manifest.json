@@ -28,7 +28,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 73469,
-      "sha256": "76aa68777b9cab1a69cced4dfe556be747a8a667a241cfc17dc5a38d34f51fd3",
+      "sha256": "1ad9dd11c69ae73ada08e5acf4f6d01436804d8e6be84fc5d819b29fd629ad4b",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -13108,8 +13108,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "ca40107bc3735e025836caabc98f95f0a5d37cd6719fbeab4631d35cd0281b1b",
-      "bytes": 1643
+      "sha256": "9b39babf0db8c18fcc0c02e28b4658bba262bbc2fd323fdc93d69094984f36d0",
+      "bytes": 1638
     },
     "https://www.osoujihonpo.com/assets/js/home-first-view.js": {
       "path": "assets/js/home-first-view.js",
@@ -15734,7 +15734,7 @@
   "counts": {
     "urls": 1476,
     "unique_paths": 1462,
-    "bytes": 161618029,
+    "bytes": 161618024,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

@@ -28,14 +28,14 @@
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  background: #637b8b;
+  background: #e4e4e4;
   scroll-margin-top: 0;
 }
 
 .home-first-view__media {
   width: 100%;
   height: 100%;
-  background: rgb(16 23 33 / 35%);
+  background: transparent;
 }
 
 .home-first-view__media video {
@@ -55,7 +55,7 @@
   height: 100%;
   gap: 12px;
   padding: var(--aircon-header-height) 20px 24px;
-  color: #fff;
+  color: #606060;
   text-align: center;
 }
 
