@@ -1,0 +1,41 @@
+[
+  {
+    "step": "quantity plus",
+    "total": "97,900"
+  },
+  {
+    "step": "quantity minus",
+    "total": "86,900"
+  },
+  {
+    "step": "next option",
+    "scroll": 389
+  },
+  {
+    "step": "previous option",
+    "scroll": 0,
+    "previousEnabled": false
+  },
+  {
+    "step": "outdoor unit add two",
+    "total": "97,900"
+  },
+  {
+    "step": "remove outdoor unit",
+    "total": "86,900"
+  },
+  {
+    "step": "continue shopping",
+    "url": "https://yasojima.github.io/"
+  },
+  {
+    "step": "checkout",
+    "url": "https://yasojima.github.io/cart/estimate/"
+  },
+  {
+    "step": "input confirmation with synthetic data",
+    "url": "https://yasojima.github.io/cart/estimate/confirm/",
+    "summary": "合計金額（税込） 86,900円",
+    "submissionDisabled": true
+  }
+]
