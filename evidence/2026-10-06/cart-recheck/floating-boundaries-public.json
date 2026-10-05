@@ -1,0 +1,46 @@
+[
+  {
+    "boundary": "top",
+    "cartRect": {
+      "bottom": 519,
+      "height": 105,
+      "left": 1265,
+      "right": 1545,
+      "top": 414,
+      "width": 280,
+      "x": 1265,
+      "y": 414
+    },
+    "cartStyle": {
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "floatingClass": "c-floating-buttons",
+    "footerTop": 13197.859375,
+    "maxScroll": 13099,
+    "scrollY": 0,
+    "triggerBottom": 922
+  },
+  {
+    "boundary": "footer",
+    "cartRect": {
+      "bottom": 519,
+      "height": 105,
+      "left": 1265,
+      "right": 1545,
+      "top": 414,
+      "width": 280,
+      "x": 1265,
+      "y": 414
+    },
+    "cartStyle": {
+      "opacity": "1",
+      "visibility": "visible"
+    },
+    "floatingClass": "c-floating-buttons is-footer-area is-visible",
+    "footerTop": 98.859375,
+    "maxScroll": 13099,
+    "scrollY": 13099,
+    "triggerBottom": -12177
+  }
+]

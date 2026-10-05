@@ -1,37 +1,55 @@
 {
-  "checked_at": "2026-10-05T21:04:06.883589+00:00",
-  "source_commit": "7eda727c8ebd225697d49efaf2e63180adc86238",
-  "pages_commit": "bf9c7e70e5a75cc61b96fa0bdfd14b20b0d7e867",
+  "checked_at": "2026-10-05T22:11:22.2515620Z",
+  "source_commit": "7767e645b859c4b846882795be0e43be18d4a6ee",
+  "pages_commit": "aaee7ed54990ebbc89766f553288e5ac53db745f",
   "run": {
-    "conclusion": "",
-    "headSha": "bf9c7e70e5a75cc61b96fa0bdfd14b20b0d7e867",
-    "jobs": [
-      {
-        "completedAt": "0001-01-01T00:00:00Z",
-        "conclusion": "",
-        "databaseId": 111976190088,
-        "name": "build",
-        "startedAt": "2026-10-05T21:03:10Z",
-        "status": "queued",
-        "steps": [],
-        "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37373493077/job/111976190088"
-      }
-    ],
-    "status": "queued",
-    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37373493077"
+    "conclusion": "success",
+    "headSha": "aaee7ed54990ebbc89766f553288e5ac53db745f",
+    "status": "completed",
+    "updatedAt": "2026-10-05T22:01:48Z",
+    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37379701560"
   },
   "source_pushed": true,
   "pages_pushed": true,
-  "public_ui_verified": false,
-  "public_files_verified": false,
-  "reason": "GitHub Actions runner-assignment incident; latest run is queued. Public cart and CSS still differ from the new source.",
-  "incident_url": "https://www.githubstatus.com/",
-  "incident_update_utc": "2026-10-05 20:39",
+  "public_ui_verified": true,
+  "public_files_verified": true,
+  "public_file_count": 64,
+  "status": "Published; public cart operations and responsive display verified",
+  "scope": "Input and confirmation only. Final request submission remains disabled; real-device and human visual acceptance are separate.",
+  "fixed": [
+    "Narrow inline option controls: one-line add button and two-digit quantity",
+    "Cart and estimate social metadata",
+    "Floating cart entry after mid-page reload: avoid cancellation by unrelated observer targets"
+  ],
+  "public_viewports": [
+    "1024x600",
+    "1280x551",
+    "1366x650",
+    "1440x800",
+    "1920x1080",
+    "320x568",
+    "375x667",
+    "390x844",
+    "414x688"
+  ],
+  "public_evidence": [
+    "public-hashes.json",
+    "public-layout.json",
+    "public-operations.json",
+    "floating-reload-public.json",
+    "floating-boundaries-public.json",
+    "public-final-flow.json",
+    "public-cart-overview.png"
+  ],
   "local_evidence": [
     "arithmetic.json",
     "local-layout.json",
     "local-operations.json",
     "scope-check.json",
+    "floating-scope-check.json",
+    "floating-reload-before.json",
+    "floating-reload-local.json",
+    "floating-boundaries-local.json",
     "mobile-inline-fixed.png",
     "local-cart-overview.png"
   ]

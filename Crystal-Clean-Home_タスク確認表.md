@@ -38,7 +38,9 @@ CHG-005再点検：320pxの展開オプションの追加ボタン折り返し�
 
 Pages bf9c7e7／Actions37373493077の成功と公開63ファイルのHTTP200・SHA-256一致を確認。公開版の指定９サイズ、追加削除・数量・左右スライダー・HOME往復・入力確認86,900円と修正戻りも確認済み。
 
-追加で途中再読み込み時のカート入口消失を修正。表示タイマーが別の監視対象によって取り消される競合を解消し、指定９サイズで再表示、上部とフッターの従来条件をローカル確認した。最新修正の配信状態は `evidence/2026-10-06/cart-recheck/publication.json`、公開操作はpublic-operations.json、再読み込みはfloating-reload-local.jsonを参照。
+追加で途中再読み込み時のカート入口消失を修正。表示タイマーが別の監視対象によって取り消される競合を解消し、ローカル・公開の指定９サイズで再表示、上部とフッターの従来条件を確認した。公開入口からカートへ移動し、86,900円の保持も確認済み。
+
+最終反映はソース7767e64／Pages aaee7ed／Actions37379701560が成功。64ファイルの公開HTTP200・SHA-256一致を確認した。配信記録は `evidence/2026-10-06/cart-recheck/publication.json`、公開操作はpublic-operations.json、再読み込みはfloating-reload-public.json、上部／フッターはfloating-boundaries-public.json、カート復帰はpublic-final-flow.jsonを参照。
 
 以下はCHG-003の当時の公開記録。
 
