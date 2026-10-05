@@ -200,7 +200,7 @@ html {
   bottom: -1px;
   left: 0;
   height: 2px;
-  background: linear-gradient(90deg, #a1acb7 0%, #f8fbff 48%, #8b98a5 100%);
+  background: #000;
   opacity: 0;
   transform: scaleX(0);
   transform-origin: left center;
@@ -341,7 +341,7 @@ html {
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #a1acb7 0%, #f8fbff 48%, #8b98a5 100%);
+  background: #000;
   content: "";
   transform: scaleX(.1);
   transform-origin: left center;
@@ -561,7 +561,7 @@ body.aircon-menu-open .c-header__navigation {
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, #a1acb7 0%, #f8fbff 48%, #8b98a5 100%);
+  background: #000;
   content: "";
   transform: scaleX(.1);
   transform-origin: left center;

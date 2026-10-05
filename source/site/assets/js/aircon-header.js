@@ -135,8 +135,8 @@
     return fullMenuSection('service', heading, content);
   });
   siteMenu.replaceChildren(
-    ...serviceSections,
     fullMenuSection('guide', guideHeading, guideLinks),
+    ...serviceSections,
     fullMenuSection('business', businessHeading, businessLinks),
   );
   menu.querySelectorAll('.aircon-full-menu__body a[href]').forEach(link => {
@@ -187,7 +187,7 @@
 
     const heading = document.createElement('a');
     heading.className = 'aircon-mega__heading';
-    heading.href = destination;
+    heading.href = destination === '/beginner/' ? '/' : destination;
     const label = parentLink.querySelector('span').textContent.trim();
     headingContent(heading, destination === '/beginner/' ? guideLabel : label, menuEnglish[destination] || '', 'aircon-mega');
 

@@ -4,16 +4,12 @@
   --concern-teal: #37828d;
   color: var(--concern-ink);
   line-height: 1.8;
+  scroll-margin-top: var(--aircon-header-height);
+  padding-block: 64px 24px;
 }
 
 .home-concerns [hidden] { display: none !important; }
 .home-concerns__contents { max-width: 1160px; margin-inline: auto; }
-.home-concerns__copy {
-  font-size: 14px;
-  color: #60788e;
-  text-align: center;
-  margin: 16px 0 24px;
-}
 .home-concerns__places {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -25,7 +21,7 @@
   border-bottom-right-radius: 22px;
   padding: 12px 8px 13px;
   background: #fff;
-  color: var(--concern-blue);
+  color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,13 +30,11 @@
   font: inherit;
   cursor: pointer;
 }
-.home-concerns__place .c-icon { --size: 52px; --bg-color: currentColor; color: inherit; }
+.home-concerns__place .c-illust { --width: 68px; }
 .home-concerns__place b { font-size: 14px; font-weight: 700; text-align: center; text-wrap: balance; }
 .home-concerns__place[aria-pressed="true"] {
-  color: #fff;
-  background: var(--concern-blue);
   border-color: var(--concern-blue);
-  box-shadow: 0 5px 14px #005bac22;
+  box-shadow: inset 0 0 0 1px var(--concern-blue), 0 5px 14px #005bac22;
 }
 .home-concerns__place:hover { box-shadow: 0 3px 15px #005bac20; }
 .home-concerns__split {
@@ -50,13 +44,6 @@
   align-items: start;
 }
 .home-concerns__group { animation: concern-view-enter .38s cubic-bezier(.2, .7, .2, 1) both; }
-.home-concerns__label {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--concern-teal);
-  margin: 0 0 12px;
-  letter-spacing: .04em;
-}
 .home-concerns__questions { display: grid; gap: 10px; }
 .home-concerns__question {
   display: flex;
@@ -128,21 +115,14 @@
   justify-content: flex-end;
   font-size: 14px;
   font-weight: 700;
-  color: var(--concern-blue);
+  color: #000;
   border-top: 1px solid #d4e4f1;
   padding: 12px 22px;
   background: #fff;
+  transition: background-color .25s;
 }
-.home-concerns__service-link::after {
-  content: '›';
-  display: grid;
-  place-items: center;
-  background: var(--concern-blue);
-  color: #fff;
-  border-radius: 50%;
-  width: 21px;
-  height: 21px;
-  margin-left: 10px;
+@media (hover: hover) and (pointer: fine) {
+  .home-concerns__service-link:hover { background: #eaf5ff; }
 }
 .home-concerns button:focus-visible, .home-concerns a:focus-visible {
   outline: 3px solid var(--concern-teal);
@@ -158,11 +138,11 @@
 }
 @media (max-width: 1000px) { .home-concerns__places { gap: 8px; } }
 @media (max-width: 700px) {
+  .home-concerns { padding-top: 48px; }
   .home-concerns__places { gap: 5px; margin: 20px 0; }
   .home-concerns__place { padding: 10px 2px; border-bottom-right-radius: 13px; gap: 7px; }
-  .home-concerns__place .c-icon { --size: 32px; }
+  .home-concerns__place .c-illust { --width: 42px; }
   .home-concerns__place b { font-size: 11px; }
-  .home-concerns__copy { font-size: 12px; margin-bottom: 17px; }
   .home-concerns__split { grid-template-columns: 1fr; gap: 18px; }
   .home-concerns__question { font-size: 13px; min-height: 52px; padding: 12px 36px 12px 12px; gap: 8px; }
   .home-concerns .c-issue-accordion-card__contents { padding: 16px; gap: 12px; min-height: 160px; }

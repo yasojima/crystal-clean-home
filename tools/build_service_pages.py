@@ -412,7 +412,7 @@ def additional_plans_section(page, route, catalogue, copy):
 
 def navigation(page, primary, category, copy):
     n = template('navigation')
-    n.select_one('h2').string = 'ご希望のサービスをお選びください' if '/' not in page['route'] else 'ご覧になりたい内容をお選びください'
+    n.select_one('h2').string = 'ハウスクリーニング一覧'
     cards = n.select_one('.c-page-anchors')
     if page.get('selector_columns_pc'):
         cards['style'] = cards.get('style', '').replace('repeat(auto-fit, minmax(228px,228px))', f"repeat({page['selector_columns_pc']}, minmax(0,228px))")
@@ -661,6 +661,8 @@ def lineup_heading(title, anchor, scene, rounded=False):
 
 
 def add_section_curve(section, direction, previous_color):
+    if section.select_one('.c-section-curve'):
+        return
     section['class'] = section.get('class', []) + ['c-curved-section', f'c-curved-section--{direction}']
     section.insert(0, tag('span', f'c-section-curve c-section-curve--{direction}',
                           style=f'--curve-color: {previous_color};', **{'aria-hidden': 'true'}))
@@ -746,12 +748,6 @@ def render(route, page, catalogue, copy):
     main.append(faq(cat,copy['shared'],decorated=True))
     main.append(steps(copy['shared'],decorated=True))
     categories = template('categories')
-    categories['style'] = '--bg-color: #e3f1fc;'
-    featured_heading = categories.find('h2')
-    featured_heading['class'] = ['c-heading-level-2', 'p-reasons__heading', 'c-featured-cleaning__heading']
-    featured_heading.string = '注目のハウスクリーニング'
-    featured_cards = categories.select_one('.c-house-cleaning-links')
-    featured_cards['class'] = [name for name in featured_cards['class'] if name != 'u-mt-24']
     main.append(categories); main.append(template('cart-modal'))
     decorate_sections(main)
     normalize_text(main)

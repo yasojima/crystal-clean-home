@@ -103,12 +103,13 @@
 
   function lineMarkup(line) {
     const parent = catalogue.items[line.item.parentKey];
-    return `<li class="cch-cart-line" data-cart-line="${escape(line.key)}"><div class="cch-cart-line__description">
+    return `<li class="cch-cart-line cart-contents__item" data-cart-line="${escape(line.key)}"><div class="product-card__main cch-cart-line__main">
+      ${line.item.image ? `<img class="cch-cart-line__image" src="${escape(line.item.image)}" alt="" loading="lazy" width="176" height="132">` : ''}<div class="cch-cart-line__description">
       ${parent ? `<p class="cch-cart-parent">${escape(parent.name)}のオプション</p>` : ''}
       <h3>${escape(line.item.name)}</h3><p>${line.unitPrice === null ? '別途見積り' : `${format(line.unitPrice)}円${line.item.approximate ? '〜' : ''}（税込）／${escape(line.item.unit)}`}</p>
       ${line.discount ? `<p class="cch-cart-discount">数量割引適用：−${format(line.discount)}円</p>` : ''}</div>
-      ${quantityInput(line)}<p class="cch-cart-line__amount" data-cart-line-amount>${line.amount === null ? '別途見積り' : format(line.amount) + '円' + (line.item.approximate ? '〜' : '')}</p>
-      <button type="button" class="cch-cart-remove" data-cart-remove="${escape(line.key)}" aria-label="${escape(line.item.name)}を削除">削除</button></li>`;
+      </div><div class="product-card__footer cch-cart-line__footer">${quantityInput(line)}<p class="cch-cart-line__amount" data-cart-line-amount>${line.amount === null ? '別途見積り' : format(line.amount) + '円' + (line.item.approximate ? '〜' : '')}</p>
+      <button type="button" class="cch-cart-remove" data-cart-remove="${escape(line.key)}" aria-label="${escape(line.item.name)}を削除">削除</button></div></li>`;
   }
 
   function summaryMarkup(result) {
@@ -126,9 +127,10 @@
       mount.innerHTML = '<p class="cch-cart-empty">カートが空です。<br>ご希望のサービスをお選びください。</p><a class="c-button" href="/quick_cart/">サービスを選ぶ</a>';
       return;
     }
-    mount.innerHTML = `<ul class="cch-cart-lines">${result.details.map(lineMarkup).join('')}</ul>${summaryMarkup(result)}
-      <div class="cch-cart-actions"><a class="c-button" href="/quick_cart/">サービスを追加する</a>
-      <a class="c-button c-button--fill-blue" href="/quick_cart/option/">オプションを選ぶ</a></div>`;
+    mount.innerHTML = `<div class="cart"><div class="cart__contents"><ul class="cch-cart-lines">${result.details.map(lineMarkup).join('')}</ul>
+      <div class="cch-cart-actions"><a class="c-button" href="/quick_cart/">サービスを追加する</a><a class="c-button c-button--fill-blue" href="/quick_cart/option/">オプションを選ぶ</a></div></div>
+      <aside class="cart__price-info"><div class="price-info-card"><h2 class="price-info-card-heading">現在 <span class="price-info-card-heading__count">${result.count}点</span> のメニューが入っています</h2>${summaryMarkup(result)}
+      <a class="c-button c-button--fill-red" href="/cart/estimate/">お客様情報の入力に進む</a><p class="cch-cart-note">お見積もりは無料です。</p></div></aside></div>`;
   }
 
   function renderOptions(result) {

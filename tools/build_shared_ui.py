@@ -10,18 +10,31 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100537">',
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100601">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100534">',
-    "<script src=\"/assets/js/aircon-header.js?v=2026100536\" defer></script>",
-    '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100528">',
-    '<script src="/assets/js/cart-catalogue.js?v=2026100528" defer></script>',
+    "<script src=\"/assets/js/aircon-header.js?v=2026100602\" defer></script>",
+    '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100601">',
+    '<script src="/assets/js/cart-catalogue.js?v=2026100601" defer></script>',
     '<script src="/assets/js/cart-core.js?v=2026100528" defer></script>',
-    '<script src="/assets/js/site-cart.js?v=2026100528" defer></script>',
+    '<script src="/assets/js/site-cart.js?v=2026100601" defer></script>',
 )
 
 
 def transform(html, is_aircon=False):
+    html = re.sub(r'/assets/js/demo-contact\.js(?:\?v=\d+)?', '/assets/js/demo-contact.js?v=2026100601', html)
+    has_estimate = '/assets/js/cart-estimate.js' in html
+    html = re.sub(r'\s*<script\b[^>]*src="/assets/js/cart-estimate\.js(?:\?v=\d+)?"[^>]*>\s*</script>', '', html)
     newline = '\r\n' if '\r\n' in html else '\n'
+    featured = (ROOT / 'source/service-pages/templates/categories.html').read_bytes().decode('utf-8').strip()
+    def shared_featured(match):
+        section = match.group()
+        if ('c-featured-cleaning' in section or 'home-cleaning-menu' in section or
+                'ハウスクリーニングのメニュー一覧はこちら' in section):
+            return featured
+        return section
+    html = re.sub(r'<section\b[^>]*>.*?</section>', shared_featured, html, flags=re.S)
+    if 'class="l-section l-section--limited c-featured-cleaning ' in html and '/assets/css/aircon-layout.css' not in html:
+        html = html.replace('</head>', '<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100602">' + newline + '</head>', 1)
     if re.search(r'<div\b[^>]*\bid="first-view"', html):
         html = re.sub(r'\s*<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>', '', html)
     for name in ('header', 'footer'):
@@ -34,7 +47,8 @@ def transform(html, is_aircon=False):
     for rel in ('aircon-header.css', 'site-footer.css', 'aircon-header.js', 'site-cart.css',
                 'cart-catalogue.js', 'cart-core.js', 'site-cart.js'):
         html = re.sub(r'\s*<(?:link|script)\b[^>]*(?:href|src)="/assets/(?:css|js)/' + re.escape(rel) + r'(?:\?v=\d+)?"[^>]*>(?:</script>)?', '', html)
-    html = html.replace('</head>', newline.join(ASSETS) + newline + '</head>', 1)
+    assets = (*ASSETS, '<script src="/assets/js/cart-estimate.js?v=2026100601" defer></script>') if has_estimate else ASSETS
+    html = html.replace('</head>', newline.join(assets) + newline + '</head>', 1)
     html = re.sub(r'<script\b[^>]*src="/assets/js/(?:house-cleaning/(?:product-top|osoujiless)|simulation/parent-product|office/product-detail)\.js(?:\?[^\"]*)?"[^>]*>\s*</script>\s*', '', html)
     if '/assets/js/common.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100528" defer></script>' + newline + '</head>', 1)
@@ -42,13 +56,13 @@ def transform(html, is_aircon=False):
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100528', html)
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100536', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100535', html)
-    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100537', html)
+    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100601', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100536', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + '?v=2026100602', html)
-    layout_version = '2026100531' if '<body class="c-home"' in html else '2026100529'
+                          '/assets/' + kind + '/' + asset + '?v=2026100603', html)
+    layout_version = '2026100602'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
@@ -104,6 +118,7 @@ def main():
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
     manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

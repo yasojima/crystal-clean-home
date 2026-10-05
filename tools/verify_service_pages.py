@@ -12,6 +12,7 @@ DATA = ROOT / 'source/service-pages'
 catalogue = json.loads((DATA / 'catalogue.json').read_text(encoding='utf-8'))
 voice_profiles = json.loads((DATA / 'voices.json').read_text(encoding='utf-8'))['pages']
 added_options = json.loads((DATA / 'additional-options.json').read_text(encoding='utf-8'))['products']
+shared_steps = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))['shared']['steps']
 errors = []
 voice_headings = {}
 voice_bodies = {}
@@ -109,7 +110,11 @@ for route,page in catalogue['pages'].items():
         value = question.get_text(strip=True)
         if value.endswith('か') or value.endswith(('。','、')): fail(route,'FAQ punctuation '+value)
     if len(main.select('.c-step-list__item')) != 5: fail(route,'flow count')
-    if 'Visa' not in main.select_one('#service-faq').get_text() or 'Mastercard' not in main.select_one('#service-flow').get_text(): fail(route,'payments')
+    if any(brand not in main.select_one('#service-faq').get_text() for brand in ('Visa', 'Mastercard')):
+        fail(route,'payments')
+    flow_text = main.select_one('#service-flow').get_text()
+    if any(heading not in flow_text or description not in flow_text for heading, description in shared_steps):
+        fail(route,'flow source mismatch')
     for link in main.select('a[href^="#"]'):
         if link['href'] != '#' and link['href'][1:] not in ids: fail(route,'missing anchor '+link['href'])
     for node in main.select('a,button'):
@@ -160,7 +165,9 @@ for route,page in catalogue['pages'].items():
 if set(voice_profiles) != set(catalogue['pages']): fail('voices','profile routes do not match pages')
 
 reason_pages = {path:doc for path,doc in all_pages.items() if doc.select_one('.p-reasons')}
-if len(reason_pages) != len(catalogue['pages']) + 4: fail('reasons','service pages and four shared reason sections expected')
+expected_reason_paths = {f'/house-cleaning/{route}/' for route in catalogue['pages']} | {'/', '/lab/online_store/detergent/product-303/'}
+if set(reason_pages) != expected_reason_paths:
+    fail('reasons','current reason sections differ from retained page scope')
 for path,doc in reason_pages.items():
     cards = doc.select('.c-reasons--navy .c-reasons__item')
     if len(cards) != 3 or doc.select('.c-reasons__bg') or any(

@@ -23,7 +23,7 @@ PUBLIC = "https://yasojima.github.io"
 BRAND = "クリスタルクリーンホーム"
 TAB_BRAND = "Crystal Clean Home"
 ICON = '<link rel="icon" type="image/svg+xml" sizes="any" href="/favicon/crystal-clean-home.svg">'
-DEMO_SCRIPT = '<script src="/assets/js/demo-contact.js" defer></script>'
+DEMO_SCRIPT = '<script src="/assets/js/demo-contact.js?v=2026100601" defer></script>'
 TRANSLATION_SCRIPT = '<script type="module" src="/assets/js/shared-translation-control.js"></script>'
 BRAND_BANNER = ('<span class="c-brand-banner c-brand-banner--{kind}">'
                 '<img class="c-brand-banner__logo" src="/assets/images/crystal-clean-home.png" alt="クリスタルクリーンホーム">'
@@ -232,6 +232,7 @@ def transform(text: str, is_html: bool) -> str:
         raise ValueError("HTML page has no title")
     if ICON not in text:
         text = re.sub(r'</head\s*>', ICON + "\n</head>", text, count=1, flags=re.I)
+    text = re.sub(r'<script\b[^>]*src="/assets/js/demo-contact\.js(?:\?v=\d+)?"[^>]*>\s*</script>', DEMO_SCRIPT, text)
     if DEMO_SCRIPT not in text:
         text = re.sub(r'</head\s*>', DEMO_SCRIPT + "\n</head>", text, count=1, flags=re.I)
     if TRANSLATION_SCRIPT not in text:

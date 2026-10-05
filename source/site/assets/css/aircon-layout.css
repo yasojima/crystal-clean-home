@@ -170,8 +170,8 @@
 }
 
 :is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
-  --navy-height: 209px;
-  padding-bottom: 89px;
+  --navy-height: 140px;
+  padding-bottom: 48px;
 }
 
 :is(.c-service-page, .c-home) .c-service-selector {
@@ -192,7 +192,7 @@
   }
 }
 
-:is(.c-service-page, .c-home) .p-reasons__heading,
+:is(.c-service-page, .c-home, .c-featured-cleaning) .p-reasons__heading,
 :is(.c-service-page, .c-home) .p-page-anchors__heading {
   position: relative;
   width: fit-content;
@@ -201,7 +201,7 @@
   padding-inline: 10px;
 }
 
-:is(.c-service-page, .c-home) .p-reasons__heading::after,
+:is(.c-service-page, .c-home, .c-featured-cleaning) .p-reasons__heading::after,
 :is(.c-service-page, .c-home) .p-page-anchors__heading::after {
   position: absolute;
   right: -18px;
@@ -281,19 +281,36 @@
   margin-top: 40px;
 }
 
-.c-service-page .c-featured-cleaning__heading + .c-house-cleaning-links {
+.c-featured-cleaning__heading + .c-house-cleaning-links {
   margin-top: 40px;
+}
+
+.c-featured-cleaning { padding-block: 64px; }
+@media (max-width: 767.98px) {
+  .c-featured-cleaning { padding-block: 40px; }
 }
 
 :is(.c-service-page, .c-home) .c-reasons__card {
   width: 100%;
-  max-width: 304px;
+  max-width: 280px;
   height: auto;
   aspect-ratio: 1;
   border-radius: 50%;
   justify-content: center;
-  padding: 16px;
+  padding: 20px;
   text-align: center;
+}
+
+:is(.c-service-page, .c-home) .c-reason-card__heading {
+  font-size: 1rem;
+  text-wrap: balance;
+}
+
+:is(.c-service-page, .c-home) .c-reason-card__description {
+  margin-top: 12px;
+  font-size: .9375rem;
+  line-height: 1.7;
+  text-wrap: balance;
 }
 
 :is(.c-service-page, .c-home) .c-reasons__card::before {
@@ -330,13 +347,14 @@
 }
 
 @media (max-width: 375px) {
-  :is(.c-service-page, .c-home) .c-reason-card__heading { font-size: .9375rem; }
+  :is(.c-service-page, .c-home) .c-reason-card__heading { font-size: .875rem; }
+  :is(.c-service-page, .c-home) .c-reason-card__description { font-size: .8125rem; }
 }
 
 @media (max-width: 767.98px) {
   :is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
-    --navy-height: 160px;
-    padding-bottom: 72px;
+    --navy-height: 108px;
+    padding-bottom: 40px;
   }
 
   .c-service-page .c-tab__buttons {

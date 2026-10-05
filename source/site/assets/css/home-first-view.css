@@ -138,15 +138,6 @@
     animation-duration: .6s;
   }
 }
-.c-home .home-cleaning-menu {
-  padding-block: 48px;
-}
-@media (max-width: 767.98px) {
-  .c-home .home-cleaning-menu {
-    padding-block: 40px;
-  }
-}
-
 .c-home {
   --home-action-size: 48px;
 }

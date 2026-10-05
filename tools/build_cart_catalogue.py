@@ -103,6 +103,9 @@ def compile_catalogue():
                     name = text(heading) + '：' + name
                 assert name, (route, index, pid)
                 record = dict(name=name, kind=kind, **prices(price_node), url=route)
+                image = card.select_one('img[src^="/assets/images/"]')
+                if image:
+                    record['image'] = image['src']
                 if (kind == 'parent' and pid in ('1', '2')) or (kind == 'set-plan' and pid.split('_')[0] in ('1', '2')):
                     record['quantityGroup'] = 'wall-aircon'
                 if kind == 'option':

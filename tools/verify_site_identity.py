@@ -11,7 +11,7 @@ SITE = Path(__file__).resolve().parents[1] / "source/site"
 BRAND = "クリスタルクリーンホーム"
 TAB_BRAND = "Crystal Clean Home"
 ICON = "/favicon/crystal-clean-home.svg"
-SCRIPT = "/assets/js/demo-contact.js"
+SCRIPT = "/assets/js/demo-contact.js?v=2026100601"
 TRANSLATION_SCRIPT = "/assets/js/shared-translation-control.js"
 OLD_NAME = re.compile(r"おそうじ本舗|お掃除本舗|オソウジホンポ")
 OLD_PHONE = re.compile(r"0120[-‐‑–—ー ]?24[-‐‑–—ー ]?1000|03[-‐‑–—ー ]?6630[-‐‑–—ー ]?6104|0120241000")

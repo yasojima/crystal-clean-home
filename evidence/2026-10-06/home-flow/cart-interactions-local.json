@@ -1,0 +1,19 @@
+{
+  "browser": "Chromium / hidden IAB",
+  "fixture": "Synthetic test information only",
+  "productAdded": 13200,
+  "quantityTwoDiscount": 22000,
+  "optionAdded": 30800,
+  "optionRemoved": 22000,
+  "reloadPersisted": true,
+  "requiredNameBlocks": true,
+  "invalidEmailBlocks": true,
+  "privacyBlocks": true,
+  "separateAddressConfirmed": true,
+  "cleanConfirmationUrl": true,
+  "finalSubmitDisabled": true,
+  "editRefilled": true,
+  "emptyCartBlocksInputAndConfirm": true,
+  "noDraftGuidesInput": true,
+  "existingContactDemo": "Native alert blocked automation; source guard preserved. Not counted as UI PASS."
+}
