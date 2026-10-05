@@ -20,11 +20,11 @@
     const menu = menuButton.getBoundingClientRect();
     const size = Math.max(40, menu.width * (6 / 7));
     actions.style.setProperty('--home-action-size', `${size}px`);
-    actions.style.setProperty('--home-actions-right', `${document.documentElement.clientWidth - menu.left - menu.width / 2 - size / 2}px`);
+    actions.style.setProperty('--home-actions-right', `${header.getBoundingClientRect().right - menu.left - menu.width / 2 - size / 2}px`);
     if (estimate) {
       const closeStyle = getComputedStyle(estimateToggle.querySelector('svg'));
       const closeInset = parseFloat(getComputedStyle(estimate).borderRightWidth) + parseFloat(closeStyle.right) + parseFloat(closeStyle.width) / 2;
-      estimate.style.setProperty('--home-estimate-right', `${document.documentElement.clientWidth - menu.left - menu.width / 2 - closeInset}px`);
+      estimate.style.setProperty('--home-estimate-right', `${header.getBoundingClientRect().right - menu.left - menu.width / 2 - closeInset}px`);
     }
     const heroHeight = Math.min(hero.offsetHeight, innerHeight);
     const inset = innerWidth < 768 ? 24 : Math.min(64, innerHeight * .075);
@@ -104,7 +104,7 @@
   window.addEventListener('scroll', scheduleHeaderSurface, { passive: true });
   window.addEventListener('resize', () => { scheduleHeaderSurface(); alignActions(); });
   window.addEventListener('pageshow', alignActions);
-  if (menuButton) new ResizeObserver(alignActions).observe(menuButton);
+  if (menuButton) new ResizeObserver(alignActions).observe(header);
   alignActions();
   updateHeaderSurface();
 })();

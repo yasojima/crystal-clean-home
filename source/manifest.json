@@ -28,7 +28,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 76109,
-      "sha256": "fbaae109e6fe1101d4ae134b50dd492b5b443798f6698d785b9c270ccf9e94c1",
+      "sha256": "657a29a93b23f4aa07cea68a2ef8fde760132babe3d940a8f7c90666ba2d9072",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -13119,8 +13119,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-shared-ui",
-      "sha256": "300d124f0029993be1d263f3af7e6cc43d56c8f16adf9ba1ff44f055d41e9548",
-      "bytes": 4991
+      "sha256": "c7f6953d5eca87fbd50e97597c4edea86a167108fa9d6c5aaaf4dca98d032a0f",
+      "bytes": 4987
     },
     "https://www.osoujihonpo.com/assets/images/first-lp/art/bath-lead.webp": {
       "path": "assets/images/first-lp/art/bath-lead.webp",
@@ -15790,7 +15790,7 @@
   "counts": {
     "urls": 1482,
     "unique_paths": 1468,
-    "bytes": 163448661,
+    "bytes": 163448657,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
