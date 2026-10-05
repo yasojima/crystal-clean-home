@@ -1,0 +1,488 @@
+[
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 351.140625,
+          "x": 24,
+          "y": 2092.53125
+        },
+        "parent": "product:1",
+        "scroll": 3328,
+        "width": 961
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 351.140625,
+          "x": -1089,
+          "y": 2526.796875
+        },
+        "parent": "product:666",
+        "scroll": 3328,
+        "width": 961
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 351.140625,
+          "x": 24,
+          "y": 2961.0625
+        },
+        "parent": "product:4",
+        "scroll": 5926,
+        "width": 961
+      }
+    ],
+    "clientWidth": 1009,
+    "height": 600,
+    "main": {
+      "height": 1504.359375,
+      "width": 637,
+      "x": 24,
+      "y": 322.171875
+    },
+    "pageWidth": 1009,
+    "sidebar": {
+      "height": 652.390625,
+      "width": 300,
+      "x": 685,
+      "y": 322.171875
+    },
+    "visibleNavigation": true,
+    "width": 1024
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 32.5,
+          "y": 2269.953125
+        },
+        "parent": "product:1",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": -1011.5,
+          "y": 2704.21875
+        },
+        "parent": "product:666",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 32.5,
+          "y": 3138.484375
+        },
+        "parent": "product:4",
+        "scroll": 5558,
+        "width": 1200
+      }
+    ],
+    "clientWidth": 1265,
+    "height": 551,
+    "main": {
+      "height": 1662.578125,
+      "width": 795.6875,
+      "x": 32.5,
+      "y": 341.375
+    },
+    "pageWidth": 1265,
+    "sidebar": {
+      "height": 610.59375,
+      "width": 340.3125,
+      "x": 892.1875,
+      "y": 341.375
+    },
+    "visibleNavigation": true,
+    "width": 1280
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 75.5,
+          "y": 2276.390625
+        },
+        "parent": "product:1",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": -968.5,
+          "y": 2710.65625
+        },
+        "parent": "product:666",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 75.5,
+          "y": 3144.921875
+        },
+        "parent": "product:4",
+        "scroll": 5558,
+        "width": 1200
+      }
+    ],
+    "clientWidth": 1351,
+    "height": 650,
+    "main": {
+      "height": 1662.578125,
+      "width": 795.6875,
+      "x": 75.5,
+      "y": 347.8125
+    },
+    "pageWidth": 1351,
+    "sidebar": {
+      "height": 610.59375,
+      "width": 340.3125,
+      "x": 935.1875,
+      "y": 347.8125
+    },
+    "visibleNavigation": true,
+    "width": 1366
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 112.5,
+          "y": 2265.953125
+        },
+        "parent": "product:1",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": -931.5,
+          "y": 2700.21875
+        },
+        "parent": "product:666",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 112.5,
+          "y": 3134.484375
+        },
+        "parent": "product:4",
+        "scroll": 5558,
+        "width": 1200
+      }
+    ],
+    "clientWidth": 1425,
+    "height": 800,
+    "main": {
+      "height": 1662.578125,
+      "width": 795.6875,
+      "x": 112.5,
+      "y": 337.375
+    },
+    "pageWidth": 1425,
+    "sidebar": {
+      "height": 610.59375,
+      "width": 340.3125,
+      "x": 972.1875,
+      "y": 337.375
+    },
+    "visibleNavigation": true,
+    "width": 1440
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 352.5,
+          "y": 2267.078125
+        },
+        "parent": "product:1",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": -691.5,
+          "y": 2701.34375
+        },
+        "parent": "product:666",
+        "scroll": 3121,
+        "width": 1200
+      },
+      {
+        "card": {
+          "height": 284.265625,
+          "width": 328.109375,
+          "x": 352.5,
+          "y": 3135.609375
+        },
+        "parent": "product:4",
+        "scroll": 5558,
+        "width": 1200
+      }
+    ],
+    "clientWidth": 1905,
+    "height": 1080,
+    "main": {
+      "height": 1662.578125,
+      "width": 795.6875,
+      "x": 352.5,
+      "y": 338.5
+    },
+    "pageWidth": 1905,
+    "sidebar": {
+      "height": 610.59375,
+      "width": 340.3125,
+      "x": 1212.1875,
+      "y": 338.5
+    },
+    "visibleNavigation": true,
+    "width": 1920
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 420.71875,
+          "width": 229.609375,
+          "x": 15,
+          "y": 3018.40625
+        },
+        "parent": "product:1",
+        "scroll": 2234,
+        "width": 275
+      },
+      {
+        "card": {
+          "height": 420.71875,
+          "width": 229.609375,
+          "x": -734,
+          "y": 3597.125
+        },
+        "parent": "product:666",
+        "scroll": 2234,
+        "width": 275
+      },
+      {
+        "card": {
+          "height": 420.71875,
+          "width": 229.609375,
+          "x": 15,
+          "y": 4175.84375
+        },
+        "parent": "product:4",
+        "scroll": 3982,
+        "width": 275
+      }
+    ],
+    "clientWidth": 305,
+    "height": 568,
+    "main": {
+      "height": 1748.59375,
+      "width": 275,
+      "x": 15,
+      "y": 292
+    },
+    "pageWidth": 305,
+    "sidebar": {
+      "height": 657.9375,
+      "width": 275,
+      "x": 15,
+      "y": 2072.59375
+    },
+    "visibleNavigation": false,
+    "width": 320
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 306.359375,
+          "width": 276.90625,
+          "x": 15,
+          "y": 2611.96875
+        },
+        "parent": "product:1",
+        "scroll": 2660,
+        "width": 330
+      },
+      {
+        "card": {
+          "height": 325.859375,
+          "width": 276.90625,
+          "x": -876,
+          "y": 3076.328125
+        },
+        "parent": "product:666",
+        "scroll": 2660,
+        "width": 330
+      },
+      {
+        "card": {
+          "height": 331.953125,
+          "width": 276.90625,
+          "x": 15,
+          "y": 3544.1875
+        },
+        "parent": "product:4",
+        "scroll": 4739,
+        "width": 330
+      }
+    ],
+    "clientWidth": 360,
+    "height": 667,
+    "main": {
+      "height": 1475.828125,
+      "width": 330,
+      "x": 15,
+      "y": 240
+    },
+    "pageWidth": 360,
+    "sidebar": {
+      "height": 601.765625,
+      "width": 330,
+      "x": 15,
+      "y": 1747.828125
+    },
+    "visibleNavigation": false,
+    "width": 375
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 306.359375,
+          "width": 289.8125,
+          "x": 15,
+          "y": 2587.59375
+        },
+        "parent": "product:1",
+        "scroll": 2776,
+        "width": 345
+      },
+      {
+        "card": {
+          "height": 306.359375,
+          "width": 289.8125,
+          "x": -914,
+          "y": 3051.953125
+        },
+        "parent": "product:666",
+        "scroll": 2776,
+        "width": 345
+      },
+      {
+        "card": {
+          "height": 331.953125,
+          "width": 289.8125,
+          "x": 15,
+          "y": 3500.3125
+        },
+        "parent": "product:4",
+        "scroll": 4945,
+        "width": 345
+      }
+    ],
+    "clientWidth": 375,
+    "height": 844,
+    "main": {
+      "height": 1475.828125,
+      "width": 345,
+      "x": 15,
+      "y": 240
+    },
+    "pageWidth": 375,
+    "sidebar": {
+      "height": 577.390625,
+      "width": 345,
+      "x": 15,
+      "y": 1747.828125
+    },
+    "visibleNavigation": false,
+    "width": 390
+  },
+  {
+    "carousels": [
+      {
+        "card": {
+          "height": 285.171875,
+          "width": 310.453125,
+          "x": 15,
+          "y": 2527.59375
+        },
+        "parent": "product:1",
+        "scroll": 2962,
+        "width": 369
+      },
+      {
+        "card": {
+          "height": 285.171875,
+          "width": 310.453125,
+          "x": -976,
+          "y": 2970.765625
+        },
+        "parent": "product:666",
+        "scroll": 2962,
+        "width": 369
+      },
+      {
+        "card": {
+          "height": 309.859375,
+          "width": 310.453125,
+          "x": 15,
+          "y": 3397.9375
+        },
+        "parent": "product:4",
+        "scroll": 5275,
+        "width": 369
+      }
+    ],
+    "clientWidth": 399,
+    "height": 688,
+    "main": {
+      "height": 1415.828125,
+      "width": 369,
+      "x": 15,
+      "y": 240
+    },
+    "pageWidth": 399,
+    "sidebar": {
+      "height": 577.390625,
+      "width": 369,
+      "x": 15,
+      "y": 1687.828125
+    },
+    "visibleNavigation": false,
+    "width": 414
+  }
+]

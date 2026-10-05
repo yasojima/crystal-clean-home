@@ -40,10 +40,10 @@
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100601">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100534">
 <script src="/assets/js/aircon-header.js?v=2026100602" defer></script>
-<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100601">
-<script src="/assets/js/cart-catalogue.js?v=2026100601" defer></script>
+<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100602">
+<script src="/assets/js/cart-catalogue.js?v=2026100602" defer></script>
 <script src="/assets/js/cart-core.js?v=2026100528" defer></script>
-<script src="/assets/js/site-cart.js?v=2026100601" defer></script>
+<script src="/assets/js/site-cart.js?v=2026100602" defer></script>
 </head>
 
   <body>
@@ -181,18 +181,19 @@
 </header>
 <span class="c-site-page-top" id="first-view" aria-hidden="true"></span>
 
-    <main>
-<ol class="c-step-nav" aria-label="お見積りのステップ"><li class="c-step-nav__item" aria-current="step">見積り確認</li><li class="c-step-nav__item">情報入力</li><li class="c-step-nav__item">入力確認</li><li class="c-step-nav__item">完了</li></ol>
-      <h1 class="c-page-heading" style="--bg-color: #F5F8FA;">お見積り内容（カート）のご確認</h1>
-      <section class="l-section l-section--limited l-section--blue-bubbles" style="--bg-color:#e3f1fc;padding-block: 0;">
-        <div class="l-section-inner">
-          <div class="cch-cart-content" data-cart-content aria-live="polite"></div>
-        </div>
+    <main class="cch-cart-page">
+      <section class="cch-cart-page__main" aria-labelledby="cart-heading">
+        <ol class="c-step-nav_new" aria-label="お見積りのステップ"><li class="c-step-nav__item_new" aria-current="step">見積り確認</li><li class="c-step-nav__item_new">情報入力</li><li class="c-step-nav__item_new">入力確認</li><li class="c-step-nav__item_new">完了</li></ol>
+        <h1 id="cart-heading" class="cch-cart-heading">お見積り依頼一覧</h1>
+        <p class="free-estimates__summary">お見積りは無料です</p>
+        <div class="cch-cart-content" data-cart-content></div>
+        <p class="cch-cart-status" role="status" data-cart-status></p>
       </section>
+      <section class="cch-cart-recommendations" data-cart-recommendations hidden aria-labelledby="cart-options-heading"></section>
       <section class="l-section l-section--cart l-section--limited l-section--blue-bubbles">
         <div class="l-section-inner l-section-inner--limited">
           <div class="u-width-pc-1024">
-          <h2 class="c-double-line-heading">サービスのご案内</h2>
+          <h2 class="c-double-line-heading">お見積り後の流れ</h2>
             <ol class="estimate-flow u-mt-40_24" style="--bg-color: #fff;">
               <li class="estimate-flow__item estimate-flow-item" style="background: #e3f1fc;"><img class="c-flex-image c-flex-image--stretched estimate-flow-item__image" src="/assets/images/cart/complete/estimate-flow_01_01.webp" alt="" width="253" height="169" loading="lazy">
                 <h3 class="estimate-flow-item__heading">作業内容の確認</h3>

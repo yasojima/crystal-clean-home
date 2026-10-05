@@ -1,0 +1,264 @@
+{
+  "operations": [
+    {
+      "action": "add two disassembly options",
+      "groups": [
+        {
+          "key": "product:1",
+          "selected": [
+            {
+              "key": "option:1:1",
+              "quantity": "2"
+            }
+          ]
+        }
+      ],
+      "total": "39,600"
+    },
+    {
+      "action": "continue shopping",
+      "url": "http://127.0.0.1:8920/"
+    },
+    {
+      "action": "inline option add preserves expanded section",
+      "open": true,
+      "selected": [
+        {
+          "key": "option:1:1",
+          "quantity": "2"
+        },
+        {
+          "key": "option:1:28",
+          "quantity": "1"
+        }
+      ],
+      "total": "82,500"
+    },
+    {
+      "action": "bath option added on mobile",
+      "parents": [
+        {
+          "key": "product:1",
+          "options": [
+            "option:1:1"
+          ]
+        },
+        {
+          "key": "product:666",
+          "options": []
+        },
+        {
+          "key": "product:4",
+          "options": [
+            "option:4:697"
+          ]
+        }
+      ],
+      "total": "86,900"
+    },
+    {
+      "action": "remove parent also removes options and carousel",
+      "carousels": [
+        "product:1",
+        "product:666"
+      ],
+      "products": [
+        "product:1",
+        "option:1:1",
+        "product:666"
+      ],
+      "total": "58,300"
+    },
+    {
+      "action": "24 product routes aggregate in one cart",
+      "keys": [
+        "product:1",
+        "option:1:1",
+        "product:666",
+        "product:4_697",
+        "product:others-estimate-0",
+        "product:102",
+        "product:689",
+        "product:8",
+        "product:800",
+        "product:700",
+        "product:4",
+        "product:85",
+        "product:88",
+        "product:77",
+        "product:92",
+        "product:89",
+        "product:96",
+        "product:97"
+      ],
+      "total": "638,000〜"
+    },
+    {
+      "action": "checkout link",
+      "url": "http://127.0.0.1:8920/cart/estimate/"
+    }
+  ],
+  "routeChecks": [
+    {
+      "route": "coating",
+      "product": {
+        "key": "[\"product:4_697\"]",
+        "name": "浴室コーティング"
+      },
+      "dialog": "カートに追加しました\n\n浴室コーティング × 1\n\n合計金額（税込）：88,000円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "coating",
+      "product": {
+        "key": "[\"product:4_697\"]",
+        "name": "浴室コーティング"
+      },
+      "dialog": "カートに追加しました\n\n浴室コーティング × 1\n\n合計金額（税込）：117,700円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "less-coating",
+      "product": {
+        "key": "[\"product:4_697\"]",
+        "name": "風呂・浴室クリーニング＋コーティング"
+      },
+      "dialog": "カートに追加しました\n\n浴室コーティング × 1\n\n合計金額（税込）：147,400円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "others",
+      "dialog": "カートに追加しました\n\n外壁手洗い洗浄 × 1\n\n合計金額（税込）：191,400円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "pack",
+      "product": {
+        "key": "[\"product:102\",\"product:104\",\"product:115\",\"product:116\",\"product:118\",\"product:120\",\"product:121\",\"product:123\"]",
+        "name": "お引越し前・後 まるごとクリーニング"
+      },
+      "dialog": "カートに追加しました\n\nお引越し前・後 まるごとクリーニング：マンション・アパート1K/1DK（30㎡以下） × 1\n\n合計金額（税込）：217,800〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "room",
+      "product": {
+        "key": "[\"product:689\"]",
+        "name": "フローリング洗浄ワックス（10帖以下一律料金）"
+      },
+      "dialog": "カートに追加しました\n\nフローリング洗浄ワックス（10帖以下一律料金） × 1\n\n合計金額（税込）：231,000〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "washer",
+      "product": {
+        "key": "[\"product:8\"]",
+        "name": "縦型洗濯機クリーニング"
+      },
+      "dialog": "カートに追加しました\n\n縦型洗濯機クリーニング × 1\n\n合計金額（税込）：242,550〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "/quick_cart/aircon/",
+      "quantity": "3",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/coating/",
+      "quantity": "1",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/kitchen/",
+      "quantity": "2",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/others/",
+      "quantity": "1",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/pack/",
+      "quantity": "2",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/room/",
+      "quantity": "2",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/washer/",
+      "quantity": "2",
+      "counterUpdated": true
+    },
+    {
+      "route": "/quick_cart/water/",
+      "quantity": "1",
+      "counterUpdated": true
+    },
+    {
+      "route": "/office/aircon_standard/",
+      "product": {
+        "key": "[\"product:85\"]",
+        "name": "天井取付型エアコンクリーニング（業務用エアコン）"
+      },
+      "dialog": "カートに追加しました\n\n天井取付型エアコンクリーニング（業務用エアコン） × 1\n\n合計金額（税込）：479,600〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "/office/carpet/",
+      "product": {
+        "key": "[\"product:88\"]",
+        "name": "カーペットクリーニング"
+      },
+      "dialog": "カートに追加しました\n\nカーペットクリーニング × 1\n\n合計金額（税込）：503,800〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "/office/floor/",
+      "product": {
+        "key": "[\"product:77\"]",
+        "name": "フロアクリーニング"
+      },
+      "dialog": "カートに追加しました\n\nフロアクリーニング × 1\n\n合計金額（税込）：521,400〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "/office/fluorescent/",
+      "product": {
+        "key": "[\"product:92\"]",
+        "name": "蛍光灯クリーニング"
+      },
+      "dialog": "カートに追加しました\n\n蛍光灯クリーニング × 1\n\n合計金額（税込）：521,950〜円\n\nカートを確認する\n閉じる"
+    },
+    {
+      "route": "/office/glass/",
+      "product": {
+        "key": "[\"product:89\"]",
+        "name": "ガラスクリーニング"
+      },
+      "dialog": "ご確認ください\n\n商品と数量を選択してください。\n\n閉じる"
+    },
+    {
+      "route": "/office/photocatalyst/",
+      "product": {
+        "key": "[\"product:96\"]",
+        "name": "光触媒抗菌コーティング 50㎡まで"
+      },
+      "dialog": "ご確認ください\n\n商品と数量を選択してください。\n\n閉じる"
+    },
+    {
+      "route": "/office/space/",
+      "product": {
+        "key": "[\"product:97\"]",
+        "name": "除菌清掃サービス（100㎡以下一律）"
+      },
+      "dialog": "ご確認ください\n\n商品と数量を選択してください。\n\n閉じる"
+    },
+    {
+      "route": "/office/photocatalyst/",
+      "quantity": "1",
+      "dialog": "カートに追加しました\n\n光触媒抗菌コーティング 50㎡まで × 1\n\n合計金額（税込）：605,000〜円\n\nカートを確認する\n閉じる",
+      "recheck": true
+    },
+    {
+      "route": "/office/space/",
+      "quantity": "1",
+      "dialog": "カートに追加しました\n\n除菌清掃サービス（100㎡以下一律） × 1\n\n合計金額（税込）：638,000〜円\n\nカートを確認する\n閉じる",
+      "recheck": true
+    }
+  ],
+  "glassRecheck": "Product:89 added successfully after quantity read-back; initial three office attempts repeated after read-back."
+}

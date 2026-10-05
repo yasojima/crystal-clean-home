@@ -106,6 +106,9 @@ def compile_catalogue():
                 image = card.select_one('img[src^="/assets/images/"]')
                 if image:
                     record['image'] = image['src']
+                description = card.select_one('.c-product-additional-card__description, .c-additional-option-card__description')
+                if description:
+                    record['description'] = text(description)
                 if (kind == 'parent' and pid in ('1', '2')) or (kind == 'set-plan' and pid.split('_')[0] in ('1', '2')):
                     record['quantityGroup'] = 'wall-aircon'
                 if kind == 'option':
