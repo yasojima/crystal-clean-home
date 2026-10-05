@@ -28,7 +28,7 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE);
     }
     await page.goto('https://yasojima.github.io/house-cleaning/aircon/?v=2026100253', { waitUntil: 'networkidle' });
     await page.evaluate(() => document.fonts.ready);
-    assert.equal(await page.locator('.c-main-menu__link').first().textContent(), 'ご利用ガイド');
+    assert.equal(await page.locator('.c-main-menu__link').first().textContent(), 'エアコン');
     assert.deepEqual(await page.locator('.aircon-full-menu__section--guide .aircon-full-menu__body a').allTextContents(),
       ['ハウスクリーニングについて', 'はじめての方へ', 'お問い合わせ']);
     const categoryColor = await page.evaluate(() => {

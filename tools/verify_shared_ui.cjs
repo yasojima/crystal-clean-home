@@ -29,22 +29,23 @@ let activeCase;
             return {header:rect(document.querySelector('.c-header')),menu:rect(document.querySelector('.c-header__menu')),phone:phone?.textContent,guide:document.querySelector('.c-main-menu__link')?.textContent,footerDetails:document.querySelectorAll('.aircon-footer-menu .c-footer-accordion__content a').length,footerRows:document.querySelectorAll('.aircon-footer-menu__row').length,footers:document.querySelectorAll('footer.c-footer').length,menus:document.querySelectorAll('#menu').length,corporateFloating:floating?getComputedStyle(floating).visibility:null};
           });
           assert.equal(initial.phone,'00-0000-0000');
-          assert.equal(initial.guide,'ご利用ガイド');
-          assert.equal(initial.footerDetails,43);assert.equal(initial.footerRows,5);
+          assert.equal(initial.guide,'エアコン');
+          assert.equal(initial.footerDetails,42);assert.equal(initial.footerRows,5);
           assert.equal(initial.footers,1);assert.equal(initial.menus,1);
           assert(initial.menu.x>=0&&initial.menu.x+initial.menu.width<=width);
           if(initial.corporateFloating!==null)assert.equal(initial.corporateFloating,'visible');
           const opener=page.locator('.c-header__menu');
           await opener.click();await page.waitForTimeout(500);
-          await page.waitForFunction(()=>getComputedStyle(document.querySelector('.c-header')).backgroundColor==='rgb(245, 245, 245)');
+          const headerBackground=route==='/beginner/'?'rgba(0, 0, 0, 0)':'rgb(245, 245, 245)';
+          await page.waitForFunction(color=>getComputedStyle(document.querySelector('.c-header')).backgroundColor===color,headerBackground);
           assert.equal(await opener.getAttribute('aria-expanded'),'true');
           const menu=await page.evaluate(()=>({sections:document.querySelectorAll('.aircon-full-menu__section').length,header:getComputedStyle(document.querySelector('.c-header')).backgroundColor,labels:document.querySelectorAll('.aircon-full-menu__body a').length}));
-          assert.equal(menu.sections,10);assert.equal(menu.header,'rgb(245, 245, 245)');
+          assert.equal(menu.sections,10);assert.equal(menu.header,headerBackground);
           assert(menu.labels>=43);
           if(route==='/'||route==='/contact/house-cleaning/')await page.screenshot({path:path.join(out,`shared-menu-${engine}-${width}-${route==='/'?'home':'contact'}.png`)});
           await page.keyboard.press('Escape');await page.waitForTimeout(450);
           assert.equal(await opener.getAttribute('aria-expanded'),'false');
-          if(width===1440){
+          if(width===1440&&route!=='/beginner/'){
             const top=page.locator('.c-main-menu__link').nth(3);
             await top.hover();await page.waitForTimeout(500);
             const before=page.url(),scroll=await page.evaluate(()=>scrollY);

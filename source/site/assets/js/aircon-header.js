@@ -70,7 +70,6 @@
   }
 
   const menuEnglish = {
-    '/about/': 'User Guide',
     '/house-cleaning/aircon/': 'Air Conditioning',
     '/house-cleaning/pack/': 'Pack Service',
     '/house-cleaning/water/': 'Water Areas',
@@ -162,12 +161,11 @@
   }
 
   function submenuLinks(href) {
-    if (href === '/about/') return [...menu.querySelectorAll('.aircon-full-menu__section--guide .aircon-full-menu__body a[href]')];
     return serviceSubmenus.get(href) || [];
   }
 
   function alignMegaLinks() {
-    const navStart = navigation.querySelector('.c-main-menu__item:nth-child(2) .c-main-menu__link')?.getBoundingClientRect().left;
+    const navStart = navigation.querySelector('.c-main-menu__item:first-child .c-main-menu__link')?.getBoundingClientRect().left;
     const headingEnd = mega.querySelector('.aircon-mega__heading')?.getBoundingClientRect().right;
     if (navStart == null || headingEnd == null) return;
     mega.style.gap = `${Math.max(0, navStart - headingEnd)}px`;

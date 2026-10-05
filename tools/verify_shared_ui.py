@@ -24,7 +24,7 @@ for page in sorted(SITE.rglob('*.html')):
     assert len(parsed.select('#menu'))==1,relative
     assert len(parsed.select('footer.c-footer'))==1,relative
     assert len(parsed.select('.aircon-footer-menu__row'))==5,relative
-    assert len(parsed.select('.aircon-footer-menu .c-footer-accordion__content a'))==43,relative
+    assert len(parsed.select('.aircon-footer-menu .c-footer-accordion__content a'))==42,relative
     assert not parsed.select('.aircon-footer-menu__detail-heading'),relative
     if args.preserve_main:
         original=subprocess.check_output(['git','show',baseline+':source/site/'+relative])
