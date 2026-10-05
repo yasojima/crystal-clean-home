@@ -62,11 +62,12 @@
 <link rel="stylesheet" href="/assets/css/site-typography.css?v=20261001">
 <script type="module" src="/assets/js/shared-translation-control.js"></script>
 <link rel="stylesheet" href="/assets/css/reasons-navy.css?v=2026100211">
-<link rel="stylesheet" href="/assets/css/home-first-view.css?v=2026100527">
-<script src="/assets/js/home-first-view.js?v=2026100520" defer></script>
+<link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100529">
+<link rel="stylesheet" href="/assets/css/home-first-view.css?v=2026100529">
+<script src="/assets/js/home-first-view.js?v=2026100529" defer></script>
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">
-<script src="/assets/js/aircon-header.js?v=2026100525" defer></script>
+<script src="/assets/js/aircon-header.js?v=2026100529" defer></script>
 <link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100528">
 <script src="/assets/js/cart-catalogue.js?v=2026100528" defer></script>
 <script src="/assets/js/cart-core.js?v=2026100528" defer></script>
@@ -77,6 +78,7 @@
 <div class="c-header__logo c-header-logo"><a class="c-header-logo__link" href="/"> <img alt="クリスタルクリーンホーム" class="c-flex-image" height="55" src="/assets/images/crystal-clean-home.png" style="width:160px;height:82px;object-fit:contain;object-position:left center" width="160"/></a></div>
 <nav aria-label="主要ページメニュー" class="c-header__navigation">
 <ul class="c-main-menu">
+<li class="c-main-menu__item"><button class="c-main-menu__link" data-target-href="/beginner/" type="button">ご利用ガイド</button></li>
 <li class="c-main-menu__item"><button class="c-main-menu__link" data-target-href="/house-cleaning/aircon/" type="button">エアコン</button></li>
 <li class="c-main-menu__item"><button class="c-main-menu__link" data-target-href="/house-cleaning/pack/" type="button">パックサービス</button></li>
 <li class="c-main-menu__item"><button class="c-main-menu__link" data-target-href="/house-cleaning/water/" type="button">水まわり</button></li>
@@ -213,6 +215,27 @@
           </div>
         </div>
       </section>
+<aside class="home-quick-estimate" aria-label="簡単見積もりシミュレーション">
+<button class="home-quick-estimate__toggle" type="button" aria-expanded="false" aria-controls="home-quick-estimate-links"><span>簡単見積もりシミュレーション</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m8.5 8.5 7 7m0-7-7 7"/></svg></button>
+<ul class="home-quick-estimate__links" id="home-quick-estimate-links" aria-hidden="true" inert>
+<li><a href="/quick_cart/aircon/"><img src="/assets/images/first-lp/service-icons/aircon.svg" alt="" width="130" height="100"><span>エアコン</span></a></li>
+<li><a href="/quick_cart/water/"><img src="/assets/images/first-lp/service-icons/bath.svg" alt="" width="130" height="100"><span>水まわり</span></a></li>
+<li><a href="/quick_cart/kitchen/"><img src="/assets/images/first-lp/service-icons/kitchen.svg" alt="" width="130" height="100"><span>キッチン</span></a></li>
+</ul>
+</aside>
+<nav class="home-actions" aria-label="ページ案内とSNS">
+        <a class="home-action home-action--scroll" href="#home-reasons" aria-label="選ばれる理由へ移動">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14m-6-6 6 6 6-6"/></svg>
+        </a>
+        <div class="home-socials">
+          <div class="home-socials__viewport">
+            <div class="home-socials__rail">
+              <button class="home-action home-action--social" type="button" aria-label="SNSを開く" aria-expanded="false" aria-controls="home-social-links"><img src="/assets/images/common-parts/icon/share.svg" alt="" width="24" height="24"></button>
+              <ul class="home-socials__links" id="home-social-links" aria-hidden="true" inert></ul>
+            </div>
+          </div>
+        </div>
+      </nav>
       <section class="l-section l-section--limited l-section--limited-top" id="home-estimate" style="--bg-color:#f5f8fa;">
         <div class="l-section-inner l-section-inner--limited">
           <div class="head-area">
@@ -516,25 +539,25 @@
 </section>
 <!--追加エリア-->
 
-<section class="l-section l-section--blue-bubbles u-pb-0">
+<section class="l-section l-section--blue-bubbles u-pb-96_64 c-curved-section c-curved-section--up" id="home-reasons"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
 <div class="l-section-inner">
 <div class="p-reasons">
-<h2 class="c-heading-level-2 p-reasons__heading">クリスタルクリーンホームが選ばれる理由</h2>
+<h2 class="c-heading-level-2 p-reasons__heading" style="--color: #06408c;">クリスタルクリーンホームが選ばれる理由</h2>
 <div class="c-grid c-reasons p-reasons__contents c-reasons--navy" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 0; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 24px;">
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 01" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-01.webp" width="205"/>
 <h3 class="c-reason-card__heading">清掃内容のご案内</h3>
 <p class="c-reason-card__description">クリスタルクリーンホームでは、お掃除の内容に応じた料金を事前にご案内します。ご希望の日時や作業内容も伺い、無理のない範囲で調整いたします。</p>
 </div>
 <div aria-hidden="true" class="c-reasons__navy"></div></div>
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 02" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-02.webp" width="205"/>
 <h3 class="c-reason-card__heading">清潔感のあるスタッフ</h3>
 <p class="c-reason-card__description">ご自宅にスタッフを迎えるからこそ、清潔感やマナーは大切です。クリスタルクリーンホームでは、お客様に気持ちよくご利用いただけるよう、身だしなみを徹底して確認しています。</p>
 </div>
 <div aria-hidden="true" class="c-reasons__navy"></div></div>
 <div class="c-reasons__item">
-<div class="c-reason-card c-reasons__card">
+<div class="c-reason-card c-reasons__card"><img alt="POINT 03" class="c-reasons__point" decoding="async" height="70" loading="lazy" src="/assets/images/reasons/reference-point-03.webp" width="205"/>
 <h3 class="c-reason-card__heading">確かな技術力</h3>
 <p class="c-reason-card__description">クリスタルクリーンホームでは、作業前に清掃する箇所の状態を確認し、内容を分かりやすくご案内します。細かな部分にも目を配りながら、丁寧に作業を進めます。</p>
 </div>
@@ -544,7 +567,7 @@
 </div>
 </section>
 <section class="l-section l-section--limited u-pt-56_32">
-<div class="l-section-inner l-section-inner--limited"><a class="c-banner about-link" href="/beginner/"> <span class="c-brand-banner c-brand-banner--about"><img class="c-brand-banner__logo" src="/assets/images/crystal-clean-home.png" alt="クリスタルクリーンホーム"><span class="c-brand-banner__copy"><span class="c-brand-banner__eyebrow">初めての方はこちら</span><span class="c-brand-banner__label">お掃除サービスのご案内</span></span><span class="c-brand-banner__arrow" aria-hidden="true">›</span></span> </a></div>
+<div class="l-section-inner l-section-inner--limited"><a class="c-banner about-link home-first-guide" href="/beginner/"><img src="/assets/images/home/first-guide-banner.png" alt="はじめての方へ、安心ガイド。サービス内容・料金・ご利用の流れをまとめてチェック" width="2172" height="724" loading="lazy"></a></div>
 </section>
 
 

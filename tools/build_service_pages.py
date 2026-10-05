@@ -523,6 +523,18 @@ def ensure_navy_stylesheet(output):
 
 
 def render_static_reasons(original):
+    if '<body class="c-home"' in original:
+        source = parse(original).select_one('.p-reasons')
+        words = [(item.select_one('h3').get_text(), item.select_one('p').get_text())
+                 for item in source.select('.c-reasons__item')]
+        section = reasons({'reasons': words}, 'home')
+        section.select_one('h2').string = source.select_one('h2').get_text()
+        section['id'] = 'home-reasons'
+        add_section_curve(section, 'up', '#e3f1fc')
+        output = re.sub(r'<section\b[^>]*>.*?</section>',
+                        lambda match: str(section) if 'class="p-reasons"' in match.group() else match.group(),
+                        original, flags=re.S)
+        return ensure_navy_stylesheet(output)
     output = original
     grid_class = 'class="c-grid c-reasons p-reasons__contents"'
     navy_class = 'class="c-grid c-reasons p-reasons__contents c-reasons--navy"'

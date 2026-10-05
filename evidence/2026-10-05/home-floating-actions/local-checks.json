@@ -1,0 +1,127 @@
+{
+  "layouts": [
+    {
+      "cards": [
+        {
+          "height": 304,
+          "radius": "50%",
+          "scrollHeight": 304
+        },
+        {
+          "height": 304,
+          "radius": "50%",
+          "scrollHeight": 304
+        },
+        {
+          "height": 304,
+          "radius": "50%",
+          "scrollHeight": 304
+        }
+      ],
+      "centers": [
+        337,
+        337.0078125
+      ],
+      "icons": [
+        "/assets/images/common-parts/sns-icon/icon-x.png",
+        "/assets/images/common-parts/sns-icon/icon-instagram.png",
+        "/assets/images/common-parts/sns-icon/icon-tiktok.png",
+        "/assets/images/common-parts/sns-icon/icon-youtube.png"
+      ],
+      "navy": "rgb(38, 69, 116)",
+      "overflow": 0,
+      "width": 390
+    },
+    {
+      "cards": [
+        {
+          "height": 257,
+          "scrollHeight": 257
+        },
+        {
+          "height": 257,
+          "scrollHeight": 257
+        },
+        {
+          "height": 257,
+          "scrollHeight": 257
+        }
+      ],
+      "overflow": 1,
+      "widget": {
+        "bottom": 649,
+        "height": 136,
+        "left": 16,
+        "right": 305,
+        "top": 513,
+        "width": 289,
+        "x": 16,
+        "y": 513
+      },
+      "width": 320
+    },
+    {
+      "banner": {
+        "loaded": 2172,
+        "padding": "0px",
+        "shadow": "rgba(31, 114, 208, 0.2) 0px 4px 10px 0px"
+      },
+      "header": 106.796875,
+      "nav": [
+        "ご利用ガイド",
+        "エアコン",
+        "パックサービス",
+        "水まわり",
+        "洗濯機",
+        "キッチン",
+        "お部屋",
+        "コーティング",
+        "その他"
+      ],
+      "reasonsTop": 106.875,
+      "socialBottom": 642,
+      "widget": "home-quick-estimate is-open",
+      "widgetTop": 658,
+      "width": 1439
+    }
+  ],
+  "destinations": [
+    {
+      "category": "aircon",
+      "url": "http://127.0.0.1:8765/quick_cart/aircon/",
+      "titles": [
+        "3ステップで簡単に無料お見積り",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "選択内容を確認"
+      ]
+    },
+    {
+      "category": "water",
+      "url": "http://127.0.0.1:8765/quick_cart/water/",
+      "titles": [
+        "3ステップで簡単に無料お見積り",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "選択内容を確認"
+      ]
+    },
+    {
+      "category": "kitchen",
+      "url": "http://127.0.0.1:8765/quick_cart/kitchen/",
+      "titles": [
+        "3ステップで簡単に無料お見積り",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "ご注文前の注意事項",
+        "選択内容を確認"
+      ]
+    }
+  ]
+}

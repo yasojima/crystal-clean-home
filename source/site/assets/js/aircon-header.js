@@ -70,6 +70,7 @@
   }
 
   const menuEnglish = {
+    '/beginner/': 'User Guide',
     '/house-cleaning/aircon/': 'Air Conditioning',
     '/house-cleaning/pack/': 'Pack Service',
     '/house-cleaning/water/': 'Water Areas',
@@ -118,6 +119,7 @@
   const businessHeading = siteMenu.querySelector('[data-others]');
   const businessLinks = businessHeading.nextElementSibling;
   const serviceSubmenus = new Map();
+  serviceSubmenus.set('/beginner/', [...guideLinks.querySelectorAll('a[href]')]);
   const serviceSections = [...serviceLinks.children].map(group => {
     const heading = group.querySelector('.c-house-cleaning-menu__link, .c-menu-accordion__link');
     const content = group.querySelector('.c-aircon-details, .c-menu-accordion__content');

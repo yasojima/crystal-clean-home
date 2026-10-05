@@ -12,7 +12,7 @@ COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
     '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">',
-    "<script src=\"/assets/js/aircon-header.js?v=2026100525\" defer></script>",
+    "<script src=\"/assets/js/aircon-header.js?v=2026100529\" defer></script>",
     '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100528">',
     '<script src="/assets/js/cart-catalogue.js?v=2026100528" defer></script>',
     '<script src="/assets/js/cart-core.js?v=2026100528" defer></script>',
@@ -41,7 +41,7 @@ def transform(html, is_aircon=False):
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100528', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100522', html)
-    layout_version = '2026100522'
+    layout_version = '2026100529'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
@@ -96,7 +96,7 @@ def main():
                 page.write_bytes(output.encode('utf-8'))
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

@@ -1,4 +1,4 @@
-.c-service-page {
+:is(.c-service-page, .c-home) {
   --section-curve-depth: clamp(28px, 4vw, 64px);
 }
 
@@ -165,11 +165,11 @@
   }
 }
 
-.c-service-page .c-reasons__navy {
+:is(.c-service-page, .c-home) .c-reasons__navy {
   background-color: #264574;
 }
 
-.c-service-page .c-reasons--navy .c-reasons__item {
+:is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
   --navy-height: 209px;
   padding-bottom: 89px;
 }
@@ -192,7 +192,7 @@
   }
 }
 
-.c-service-page .p-reasons__heading,
+:is(.c-service-page, .c-home) .p-reasons__heading,
 .c-service-page .p-page-anchors__heading {
   position: relative;
   width: fit-content;
@@ -201,7 +201,7 @@
   padding-inline: 10px;
 }
 
-.c-service-page .p-reasons__heading::after,
+:is(.c-service-page, .c-home) .p-reasons__heading::after,
 .c-service-page .p-page-anchors__heading::after {
   position: absolute;
   right: -18px;
@@ -285,7 +285,7 @@
   margin-top: 40px;
 }
 
-.c-service-page .c-reasons__card {
+:is(.c-service-page, .c-home) .c-reasons__card {
   width: 100%;
   max-width: 304px;
   height: auto;
@@ -296,11 +296,11 @@
   text-align: center;
 }
 
-.c-service-page .c-reasons__card::before {
+:is(.c-service-page, .c-home) .c-reasons__card::before {
   content: none;
 }
 
-.c-service-page .c-reasons__point {
+:is(.c-service-page, .c-home) .c-reasons__point {
   position: absolute;
   top: -24px;
   left: 50%;
@@ -310,31 +310,31 @@
 }
 
 @media (min-width: 1024px) and (max-width: 1199.98px) {
-  .c-service-page .c-reasons__card { padding: 16px; }
-  .c-service-page .c-reason-card__heading { font-size: .9375rem; }
-  .c-service-page .c-reason-card__description { font-size: .875rem; }
+  :is(.c-service-page, .c-home) .c-reasons__card { padding: 16px; }
+  :is(.c-service-page, .c-home) .c-reason-card__heading { font-size: .9375rem; }
+  :is(.c-service-page, .c-home) .c-reason-card__description { font-size: .875rem; }
 }
 
 @media (max-width: 1023.98px) {
-  .c-service-page .c-reasons {
+  :is(.c-service-page, .c-home) .c-reasons {
     grid-template-columns: 1fr;
     row-gap: 24px;
   }
 
-  .c-service-page .c-reasons__card {
+  :is(.c-service-page, .c-home) .c-reasons__card {
     width: calc(100% - 48px);
     padding: 16px;
   }
 
-  .c-service-page .c-reason-card__description { font-size: .875rem; }
+  :is(.c-service-page, .c-home) .c-reason-card__description { font-size: .875rem; }
 }
 
 @media (max-width: 375px) {
-  .c-service-page .c-reason-card__heading { font-size: .9375rem; }
+  :is(.c-service-page, .c-home) .c-reason-card__heading { font-size: .9375rem; }
 }
 
 @media (max-width: 767.98px) {
-  .c-service-page .c-reasons--navy .c-reasons__item {
+  :is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
     --navy-height: 160px;
     padding-bottom: 72px;
   }
