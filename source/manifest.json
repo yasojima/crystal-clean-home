@@ -1842,8 +1842,8 @@
       "effective_url": "https://www.osoujihonpo.com/beginner/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 53191,
-      "sha256": "cc995a02d415861236fdcfb60aeca2c0fedfa1d06663d184425d02576bbfc065",
+      "bytes": 76933,
+      "sha256": "0243cfa0ddcff7da8509477608032b74d024db2674ab02b7c0ea2557e94125e7",
       "retrieved_at": "2026-09-30T16:59:39.188759+00:00",
       "source_sha256": "943bf4f888b6c8ae1d690c24b5d3811557c6d24618aa05d2302c5a778712f4ab",
       "source_bytes": 62062,
@@ -13131,6 +13131,429 @@
       "origin_type": "local-shared-ui",
       "sha256": "d318a24e1dde6c4191f668f5ff81f81c20eee8cd11aea0e249748f7c3939625f",
       "bytes": 651
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/bath-lead.webp": {
+      "path": "assets/images/first-lp/art/bath-lead.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/bath-lead.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "111720e68921799b87dc39a7c66963af8a45b34041aae35f4a6835af338abfb3",
+      "bytes": 251880
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/closing-concerns.webp": {
+      "path": "assets/images/first-lp/art/closing-concerns.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/closing-concerns.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "7be7b111f303bb2dc0e436b468697cad722b901c3b81118b5a50653db5450667",
+      "bytes": 364832
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-aftercare.webp": {
+      "path": "assets/images/first-lp/art/cta-aftercare.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-aftercare.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "384a6f6c0e9d4e015fea5d825474b17c6547d227300a49ffbe7fee8483d546fe",
+      "bytes": 240984
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-assurance.webp": {
+      "path": "assets/images/first-lp/art/cta-assurance.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-assurance.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "1e0a313151394ca4d846d0e9b05745f3276a7f7e228c208a7b192854281dbc39",
+      "bytes": 256478
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-final.webp": {
+      "path": "assets/images/first-lp/art/cta-final.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-final.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "66b3a367d28232fc272a9685a507aeb773fec93c43c6feccf4d918b154eb7b5b",
+      "bytes": 327790
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-menu.webp": {
+      "path": "assets/images/first-lp/art/cta-menu.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/cta-menu.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "5497a42a4afaeb84150c51bee96127e1c1217054c5d2fd473ff57b52bfcd6e5c",
+      "bytes": 233320
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/hygiene-board.webp": {
+      "path": "assets/images/first-lp/art/hygiene-board.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/hygiene-board.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "e59537030c60d9a4931a8320e299f118eb070bb2ec6d8122fa142b271143819a",
+      "bytes": 451072
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/kitchen-offer.webp": {
+      "path": "assets/images/first-lp/art/kitchen-offer.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/kitchen-offer.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "845d186b2b56723ffbd048032faf1b297d3061a9ecfad0f9d84c6bc8b3867d5d",
+      "bytes": 224336
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/opening-integrated.webp": {
+      "path": "assets/images/first-lp/art/opening-integrated.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/opening-integrated.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "d22dc0ebbf9582c495c4e0de6cceb1a43d9f3cdcca3312fb99f226f7caa09c19",
+      "bytes": 334298
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/quality.webp": {
+      "path": "assets/images/first-lp/art/quality.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/quality.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "43b80041f7b40d8da88a38ab0ec2c6613160fa66befcfee78a9316de299b285a",
+      "bytes": 442734
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-consult-mobile.webp": {
+      "path": "assets/images/first-lp/art/story-consult-mobile.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-consult-mobile.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "e314337cee870815300394d4972cacf49a70a8724567068a9aa33bea6a8a0659",
+      "bytes": 479208
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-consult.webp": {
+      "path": "assets/images/first-lp/art/story-consult.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-consult.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "25fd835ebd1eda4cce096a3e6d446f0333b13188d42e53d112355d6ee249aff2",
+      "bytes": 485280
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-finish-mobile.webp": {
+      "path": "assets/images/first-lp/art/story-finish-mobile.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-finish-mobile.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "7345803616a0b18b9321998ef7a094c9641646f988cda859fb256d70c8a6e8f3",
+      "bytes": 487450
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-finish.webp": {
+      "path": "assets/images/first-lp/art/story-finish.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-finish.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "3bbe71bdd966ec4f6bb5f88f6424ddb364eb6fb89a4536a0c258dfd540c47755",
+      "bytes": 478008
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-work-mobile.webp": {
+      "path": "assets/images/first-lp/art/story-work-mobile.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-work-mobile.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "f09481274b4ccfdd2a9f43e8baa1019ab2eb810be3312d36db7b9aba884af6c0",
+      "bytes": 493978
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/story-work.webp": {
+      "path": "assets/images/first-lp/art/story-work.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/story-work.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "9cc38f3ba9ee81079930b1d91ea40835629184e87e1da0f01c86db635b291ef3",
+      "bytes": 486968
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/aircon-case-after.webp": {
+      "path": "assets/images/first-lp/reused/aircon-case-after.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/aircon-case-after.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "d79f5bd998c931a7c484afe842680b82195dead35b3f0275f21b7448bbcc9297",
+      "bytes": 67558
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/aircon-case-before.webp": {
+      "path": "assets/images/first-lp/reused/aircon-case-before.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/aircon-case-before.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "826484519809ffa9064ab71b969ee28d84e43d50b963cce408609eb296ca2cd9",
+      "bytes": 79544
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-bath-after.webp": {
+      "path": "assets/images/first-lp/reused/closing-bath-after.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-bath-after.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "ef4a3cbd9c391de18a6478ddff82664baf7d01bc55947e957bffc98e92c22bc5",
+      "bytes": 10844
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-bath-before.webp": {
+      "path": "assets/images/first-lp/reused/closing-bath-before.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-bath-before.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "814018d2534ef59a49cdab6ffdf265d9a1e67b24af59dcbfa38ab5973158f3e9",
+      "bytes": 32850
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-sink-after.webp": {
+      "path": "assets/images/first-lp/reused/closing-sink-after.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-sink-after.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "4c540b3c8f003f31e73261f870801bed4922eeca6618f0af92bf5ccbc0d96e3a",
+      "bytes": 33538
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-sink-before.webp": {
+      "path": "assets/images/first-lp/reused/closing-sink-before.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/closing-sink-before.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "53db76148860f1d202dd1a09b663f6ef90a624b9e45bc027f1c3d154a81eaa41",
+      "bytes": 59156
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/kitchen-case-after.webp": {
+      "path": "assets/images/first-lp/reused/kitchen-case-after.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/kitchen-case-after.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "f26f0b49ffaf9eba8d9e6939f57869258f19c4dc10d5ebf61e2959feb7bc5564",
+      "bytes": 90090
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/reused/kitchen-case-before.webp": {
+      "path": "assets/images/first-lp/reused/kitchen-case-before.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/reused/kitchen-case-before.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "8a8cb623a9351622fb35fae8383acf55cc1590acc37dc85adbd5d4e41c34e500",
+      "bytes": 113640
+    },
+    "https://www.osoujihonpo.com/assets/css/first-lp-desktop.css": {
+      "path": "assets/css/first-lp-desktop.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/first-lp-desktop.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-shared-ui",
+      "sha256": "13d13fb1918834ed4d3c1c0f5ddb4e6af4f0a2946eb6bc12dc41aac7c9a78b18",
+      "bytes": 87406
+    },
+    "https://www.osoujihonpo.com/assets/css/first-lp-mobile.css": {
+      "path": "assets/css/first-lp-mobile.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/first-lp-mobile.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-shared-ui",
+      "sha256": "49cef92e3aedfa94d04e192ba75b462a168ce3f3a78af0af03c7bc1eda512987",
+      "bytes": 91021
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/aircon.webp": {
+      "path": "assets/images/first-lp/categories/aircon.webp",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/aircon.webp",
+      "status": 200,
+      "content_type": "application/octet-stream",
+      "origin_type": "local-shared-ui",
+      "sha256": "f8ad9a516b34465b69d358683d7e8484d6afe75f0e1f12249feca8f80c2354de",
+      "bytes": 17038
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/coating.png": {
+      "path": "assets/images/first-lp/categories/coating.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/coating.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "ec374402f178b902f5e2c18b924166af14ce948c8bf9c68d669025d9e5503b1a",
+      "bytes": 1559768
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/kitchen.png": {
+      "path": "assets/images/first-lp/categories/kitchen.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/kitchen.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "be20d2f8ec92a1e9cf8572bbdf4b77c976a637655dc1c4255a482f079a73af8b",
+      "bytes": 1312887
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/other.png": {
+      "path": "assets/images/first-lp/categories/other.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/other.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "b1be6db5e906a65ec5fb764d12198282ec6623eb65fb9c9edc638911e1bff7ae",
+      "bytes": 1769569
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/pack.png": {
+      "path": "assets/images/first-lp/categories/pack.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/pack.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "9793d878990d42c8a19ad40c30cff1f3df74af89d152c194f86441a134337552",
+      "bytes": 1445382
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/room.png": {
+      "path": "assets/images/first-lp/categories/room.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/room.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "687e93e4aae6507dedb1fa43e252b87f17bf459e46137c6f1262d74178ab8df4",
+      "bytes": 1515286
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/washing.png": {
+      "path": "assets/images/first-lp/categories/washing.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/washing.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "c3466564f240182d59433dee242c5440103b1f5f97baebc2b2834ead07d10df2",
+      "bytes": 1346900
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/categories/water.png": {
+      "path": "assets/images/first-lp/categories/water.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/categories/water.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "b07e0982368acada68dc8381f0be3384bcc5fac91cbce98e426af0f0c2ecf5c9",
+      "bytes": 1327266
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/circle-caret-right.svg": {
+      "path": "assets/images/first-lp/estimate-cta/circle-caret-right.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/circle-caret-right.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "48ee90aeed0c9a1083b1783e827bc5c8cc08b007d5af667ccf89f1e9bb438bf3",
+      "bytes": 264
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/icon-calculator-hover.svg": {
+      "path": "assets/images/first-lp/estimate-cta/icon-calculator-hover.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/icon-calculator-hover.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "bfefc981b07b605b36624a3c66c008a904c8bb6fe2771296a3c8b138bc2dbed5",
+      "bytes": 3452
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/icon-calculator.svg": {
+      "path": "assets/images/first-lp/estimate-cta/icon-calculator.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/estimate-cta/icon-calculator.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "8311c249319ecb89be519fedc3243d99fad7a4b2387d47ba1d1eb6294f8887bf",
+      "bytes": 3446
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/aircon.svg": {
+      "path": "assets/images/first-lp/service-icons/aircon.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/aircon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "202e2b152aa1fc2bfbeebffd2a386d3a647f3b9ff78683e6c814a5b976388307",
+      "bytes": 2425
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/bath.svg": {
+      "path": "assets/images/first-lp/service-icons/bath.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/bath.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "4c5478d17df0456e3c7719b4ece4e75697ead51cfd76932ff09d513dce74c1eb",
+      "bytes": 4632
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/coating.svg": {
+      "path": "assets/images/first-lp/service-icons/coating.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/coating.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "c5136c3fdc5050d4b86333564529569bce5d3536b7cd78ac49e62a3518542b82",
+      "bytes": 2592
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/kitchen.svg": {
+      "path": "assets/images/first-lp/service-icons/kitchen.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/kitchen.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "8f6a0516eed030faff275fae8e78a430baf23a894a46c71d583f27266d0b4c69",
+      "bytes": 6613
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/other.svg": {
+      "path": "assets/images/first-lp/service-icons/other.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/other.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "be9af184ab16b83caf9fccb21e5a41dd8ebcd00397ad4c80a38d648ff4a57c1f",
+      "bytes": 6327
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/pack.svg": {
+      "path": "assets/images/first-lp/service-icons/pack.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/pack.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "f75676c8f738edc188646a845e5b7453408fd628e7bab370679f5388cebd5b8d",
+      "bytes": 10837
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/room.svg": {
+      "path": "assets/images/first-lp/service-icons/room.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/room.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "469012e85fa580493423cbfb7043999b67da07cbdab0d8097b17a4664fdb6244",
+      "bytes": 6054
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/washing-machine.svg": {
+      "path": "assets/images/first-lp/service-icons/washing-machine.svg",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/service-icons/washing-machine.svg",
+      "status": 200,
+      "content_type": "image/svg+xml",
+      "origin_type": "local-shared-ui",
+      "sha256": "ecc01007f281414f1bb31d9e460cc83403389728e00fab785730eb462af1d9b8",
+      "bytes": 10008
+    },
+    "https://www.osoujihonpo.com/assets/js/first-lp.js": {
+      "path": "assets/js/first-lp.js",
+      "effective_url": "https://www.osoujihonpo.com/assets/js/first-lp.js",
+      "status": 200,
+      "content_type": "application/javascript",
+      "origin_type": "local-shared-ui",
+      "sha256": "7dd31c92f864ce12ba2948fb05df9398a0169290d49f414908ddd42e501e0744",
+      "bytes": 3345
+    },
+    "https://www.osoujihonpo.com/assets/css/beginner-lp.css": {
+      "path": "assets/css/beginner-lp.css",
+      "effective_url": "https://www.osoujihonpo.com/assets/css/beginner-lp.css",
+      "status": 200,
+      "content_type": "text/css",
+      "origin_type": "local-shared-ui",
+      "sha256": "43175cb8607d9c4f47627a7459489d828355e3c7275d92d87e61035b577de017",
+      "bytes": 1254
     }
   },
   "external_urls": [
@@ -15321,9 +15744,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 1430,
-    "unique_paths": 1416,
-    "bytes": 144625804,
+    "urls": 1477,
+    "unique_paths": 1463,
+    "bytes": 161709154,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

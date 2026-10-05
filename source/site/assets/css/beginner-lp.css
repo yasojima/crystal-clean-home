@@ -1,0 +1,66 @@
+html:has(body.c-beginner-lp) {
+  --aircon-header-height: 0px;
+}
+
+body.c-beginner-lp {
+  --lp-menu-size: 56px;
+}
+
+body.c-beginner-lp > main {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body.c-beginner-lp .c-header {
+  position: fixed;
+  inset: 24px 8px auto auto;
+  display: block;
+  width: var(--lp-menu-size);
+  height: var(--lp-menu-size);
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  transform: none;
+  pointer-events: auto;
+}
+
+body.c-beginner-lp .c-header__logo,
+body.c-beginner-lp .c-header__navigation,
+body.c-beginner-lp .c-header-contact,
+body.c-beginner-lp .aircon-mega {
+  display: none;
+}
+
+body.c-beginner-lp .c-header__icons {
+  position: static;
+}
+
+body.c-beginner-lp .c-header__menu {
+  display: block;
+  width: var(--lp-menu-size);
+  height: var(--lp-menu-size);
+  margin: 0;
+}
+
+body.c-beginner-lp .c-footer {
+  background: #fff;
+}
+
+body.c-beginner-lp .c-footer__page-top {
+  top: calc(32px + var(--footer-growth) * 2 + var(--lp-menu-size));
+}
+
+@media (max-width: 767.98px) {
+  body.c-beginner-lp {
+    --lp-menu-size: clamp(44px, 10.6667vw, 52px);
+  }
+
+  body.c-beginner-lp .c-header {
+    top: 18px;
+    right: clamp(12px, 4.2667vw, 20px);
+  }
+}
