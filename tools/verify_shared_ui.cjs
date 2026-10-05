@@ -36,7 +36,7 @@ let activeCase;
           if(initial.corporateFloating!==null)assert.equal(initial.corporateFloating,'visible');
           const opener=page.locator('.c-header__menu');
           await opener.click();await page.waitForTimeout(500);
-          const headerBackground=route==='/beginner/'?'rgba(0, 0, 0, 0)':'rgb(245, 245, 245)';
+          const headerBackground='rgb(245, 245, 245)';
           await page.waitForFunction(color=>getComputedStyle(document.querySelector('.c-header')).backgroundColor===color,headerBackground);
           assert.equal(await opener.getAttribute('aria-expanded'),'true');
           const menu=await page.evaluate(()=>({sections:document.querySelectorAll('.aircon-full-menu__section').length,header:getComputedStyle(document.querySelector('.c-header')).backgroundColor,labels:document.querySelectorAll('.aircon-full-menu__body a').length}));
