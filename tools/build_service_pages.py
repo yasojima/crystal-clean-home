@@ -850,6 +850,10 @@ def main():
         if output != original:
             changed.append('/' + rel)
             if not args.check: path.write_bytes(output.encode('utf-8'))
+    from build_cart_catalogue import build as build_cart
+    from build_shared_ui import sync_manifest as sync_shared_manifest
+    build_cart(args.check)
+    sync_shared_manifest([SITE/'assets/js/cart-catalogue.js'], args.check)
     manifest_changes = sync_manifest(routes, args.check)
     print(json.dumps({'pages':len(routes),'changed':changed,'manifest_updates':len(manifest_changes),'check':args.check},ensure_ascii=False))
     if args.check and (changed or manifest_changes): raise SystemExit(1)

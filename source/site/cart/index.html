@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="/assets/css/cart/top.css">
     <link rel="stylesheet" href="/assets/css/cart/complete.css">
     <link rel="stylesheet" href="/assets/css/cart/cart_all.css">
-    <script src="/assets/js/common.js?v=2026100252" defer=""></script>
+    <script src="/assets/js/common.js?v=2026100528" defer=""></script>
     <script src="/assets/js/viewport-hud.js" defer></script>
 <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon/crystal-clean-home.svg">
 <script src="/assets/js/demo-contact.js" defer></script>
@@ -40,6 +40,10 @@
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">
 <script src="/assets/js/aircon-header.js?v=2026100525" defer></script>
+<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100528">
+<script src="/assets/js/cart-catalogue.js?v=2026100528" defer></script>
+<script src="/assets/js/cart-core.js?v=2026100528" defer></script>
+<script src="/assets/js/site-cart.js?v=2026100528" defer></script>
 </head>
 
   <body>
@@ -180,13 +184,7 @@
       <h1 class="c-page-heading" style="--bg-color: #F5F8FA;">お見積り内容（カート）のご確認</h1>
       <section class="l-section l-section--limited l-section--blue-bubbles" style="--bg-color:#e3f1fc;padding-block: 0;">
         <div class="l-section-inner">
-          <div class="empty-cart u-width-pc-1024">
-            <h2 class="c-text c-text--l empty-cart__heading" style="">カートが空です。<br>ご希望のサービスをお選びください。</h2>
-            <div class="empty-cart__buttons">
-              <a class="c-button c-button--large empty-cart__button" href="/house-cleaning/aircon/"><span class="c-button__text">エアコンクリーニング</span><span class="c-icon c-icon--circle-caret-right c-button__icon" style=""></span></a>
-              <a class="c-button c-button--large empty-cart__button" aria-disabled="true"><span class="c-button__text">ハウスクリーニング</span><span class="c-icon c-icon--circle-caret-right c-button__icon" style=""></span></a>
-            </div>
-          </div>
+          <div class="cch-cart-content" data-cart-content aria-live="polite"></div>
         </div>
       </section>
       <section class="l-section l-section--cart l-section--limited l-section--blue-bubbles">

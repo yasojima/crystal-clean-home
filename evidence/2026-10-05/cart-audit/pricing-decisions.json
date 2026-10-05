@@ -1,0 +1,72 @@
+{
+  "rates": {
+    "house-cleaning/aircon": [
+      [
+        5500,
+        "台"
+      ]
+    ],
+    "office/aircon_standard": [
+      [
+        8800,
+        "台"
+      ]
+    ],
+    "office/carpet": [
+      [
+        24200,
+        "式（100㎡以下）"
+      ]
+    ],
+    "office/floor": [
+      [
+        17600,
+        "式（100㎡以下）"
+      ],
+      [
+        4400,
+        "式（100㎡以下・追加料金）"
+      ],
+      [
+        26400,
+        "式（100㎡以下・追加料金）"
+      ]
+    ],
+    "office/fluorescent": [
+      [
+        550,
+        "基"
+      ],
+      [
+        1100,
+        "基"
+      ]
+    ],
+    "office/glass": [
+      [
+        550,
+        "㎡"
+      ],
+      [
+        550,
+        "㎡"
+      ]
+    ],
+    "office/space": [
+      [
+        33000,
+        "式（100㎡以下）"
+      ]
+    ]
+  },
+  "taxRate": 10,
+  "sources": [
+    "https://halleru-ya.com/business/aircon",
+    "https://storeclean-yokohama.jp/aircon-cleaning/",
+    "https://www.emotion0885.com/business.html",
+    "https://kira-house.jp/price/",
+    "https://osoujinosatou.com/info.html",
+    "https://kireione.co.jp/service/archives/142"
+  ],
+  "rationale": "User authorized reference-based prices for all previously unpriced items. Floor finishing is an addition to the 17,600 base: 22,000 with wax or 44,000 with stripping and wax."
+}

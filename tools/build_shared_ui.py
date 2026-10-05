@@ -13,6 +13,10 @@ ASSETS = (
     '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100515">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100515">',
     "<script src=\"/assets/js/aircon-header.js?v=2026100525\" defer></script>",
+    '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100528">',
+    '<script src="/assets/js/cart-catalogue.js?v=2026100528" defer></script>',
+    '<script src="/assets/js/cart-core.js?v=2026100528" defer></script>',
+    '<script src="/assets/js/site-cart.js?v=2026100528" defer></script>',
 )
 
 
@@ -27,13 +31,15 @@ def transform(html, is_aircon=False):
         if not replaced:
             marker = '<main' if name == 'header' else '</body>'
             html = html.replace(marker, fragment + newline + marker, 1)
-    for rel in ('aircon-header.css', 'site-footer.css', 'aircon-header.js'):
+    for rel in ('aircon-header.css', 'site-footer.css', 'aircon-header.js', 'site-cart.css',
+                'cart-catalogue.js', 'cart-core.js', 'site-cart.js'):
         html = re.sub(r'\s*<(?:link|script)\b[^>]*(?:href|src)="/assets/(?:css|js)/' + re.escape(rel) + r'(?:\?v=\d+)?"[^>]*>(?:</script>)?', '', html)
     html = html.replace('</head>', newline.join(ASSETS) + newline + '</head>', 1)
+    html = re.sub(r'<script\b[^>]*src="/assets/js/(?:house-cleaning/(?:product-top|osoujiless)|simulation/parent-product|office/product-detail)\.js(?:\?[^\"]*)?"[^>]*>\s*</script>\s*', '', html)
     if '/assets/js/common.js' not in html:
-        html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100252" defer></script>' + newline + '</head>', 1)
+        html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100528" defer></script>' + newline + '</head>', 1)
     else:
-        html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100252', html)
+        html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100528', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100522', html)
     layout_version = '2026100522'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
@@ -88,7 +94,9 @@ def main():
             changed.append(page.relative_to(SITE).as_posix())
             if not args.check:
                 page.write_bytes(output.encode('utf-8'))
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js'], args.check)
+    from build_cart_catalogue import build as build_cart
+    build_cart(args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js'], args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

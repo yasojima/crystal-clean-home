@@ -1,0 +1,78 @@
+{
+  "local-chromium": {
+    "base": "http://127.0.0.1:64395",
+    "engine": "chromium",
+    "arithmetic": {
+      "checks": 12245,
+      "mixedItems": 395,
+      "mixedTotal": 14309680
+    },
+    "interactions": [
+      {
+        "width": 1439,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "cases": 48
+  },
+  "local-webkit": {
+    "base": "http://127.0.0.1:55995",
+    "engine": "webkit",
+    "arithmetic": {
+      "checks": 12245,
+      "mixedItems": 395,
+      "mixedTotal": 14309680
+    },
+    "interactions": [
+      {
+        "width": 1439,
+        "passed": true
+      },
+      {
+        "width": 390,
+        "passed": true
+      }
+    ],
+    "passed": true,
+    "cases": 48
+  },
+  "local-chromium-persistence": {
+    "engine": "chromium",
+    "base": "http://127.0.0.1:50989",
+    "edges": [
+      {
+        "width": 1439,
+        "mixedTypes": true,
+        "crossTab": true,
+        "invalidQuantity": true,
+        "optionRemoval": true,
+        "rapidCounter": true,
+        "backNavigation": true
+      },
+      {
+        "width": 390,
+        "mixedTypes": true,
+        "crossTab": true,
+        "invalidQuantity": true,
+        "optionRemoval": true,
+        "rapidCounter": true,
+        "backNavigation": true
+      },
+      {
+        "corruptStorage": true,
+        "storageFailure": true
+      }
+    ],
+    "passed": true,
+    "pageChecks": 116
+  },
+  "layout": {
+    "passed": true,
+    "cases": 6
+  }
+}
