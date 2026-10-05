@@ -65,6 +65,8 @@
 <link rel="stylesheet" href="/assets/css/aircon-layout.css?v=2026100531">
 <link rel="stylesheet" href="/assets/css/home-first-view.css?v=2026100537">
 <script src="/assets/js/home-first-view.js?v=2026100536" defer></script>
+<link rel="stylesheet" href="/assets/css/home-concerns.css?v=2026100601">
+<script src="/assets/js/home-concerns.js?v=2026100601" defer></script>
 <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100537">
 <link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100534">
 <script src="/assets/js/aircon-header.js?v=2026100536" defer></script>
@@ -295,16 +297,42 @@
 </div>
 </a></div>
    </div>
-<div class="cleaning-guide-tab__panel cleaning-guide" role="tabpanel" id="tab-panel_02" aria-labelledby="tab_02" tabindex="0">
+<div class="cleaning-guide-tab__panel cleaning-guide home-concerns" role="tabpanel" id="tab-panel_02" aria-labelledby="tab_02" tabindex="0">
 <h3 class="c-double-line-heading cleaning-guide__heading">お悩み・ご要望別</h3>
-<div class="cleaning-guide__contents">
-<div class="issue-list">
-<div class="issue-list__item">
-<h4 class="c-bullet-heading issue__heading">エアコンクリーニングに関するお悩み</h4>
-<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_aircon_01">エアコンから嫌なニオイ・吹き出し口に黒い点がある</button></h5>
-<div class="c-issue-accordion__content" id="accordion_aircon_01">
+<div class="home-concerns__contents">
+<p class="home-concerns__copy">場所を選んで、お悩みとおすすめのサービスを確認できます。</p>
+<div class="home-concerns__places" role="group" aria-label="お掃除の場所">
+<button class="home-concerns__place" type="button" data-concern-place aria-pressed="true" aria-controls="home-concern-group-0"><span class="c-icon c-icon--aircon" aria-hidden="true"></span><b>エアコン</b></button>
+<button class="home-concerns__place" type="button" data-concern-place aria-pressed="false" aria-controls="home-concern-group-1"><span class="c-icon c-icon--bath" aria-hidden="true"></span><b>水まわり</b></button>
+<button class="home-concerns__place" type="button" data-concern-place aria-pressed="false" aria-controls="home-concern-group-2"><span class="c-icon c-icon--washer" aria-hidden="true"></span><b>洗濯機</b></button>
+<button class="home-concerns__place" type="button" data-concern-place aria-pressed="false" aria-controls="home-concern-group-3"><span class="c-icon c-icon--kitchen" aria-hidden="true"></span><b>キッチン</b></button>
+<button class="home-concerns__place" type="button" data-concern-place aria-pressed="false" aria-controls="home-concern-group-4"><span class="c-icon c-icon--visit" aria-hidden="true"></span><b>外壁・その他</b></button>
+</div>
+<div class="home-concerns__split"><div>
+<div class="home-concerns__group" id="home-concern-group-0"><p class="home-concerns__label">エアコンクリーニングに関するお悩み</p><div class="home-concerns__questions">
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="true" aria-controls="home-concern-result-0-0"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>エアコンから嫌なニオイ・吹き出し口に黒い点がある</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-0-1"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>リビングのエアコンが汚れやすい</span></button>
+</div></div>
+<div class="home-concerns__group" id="home-concern-group-1" hidden><p class="home-concerns__label">水まわりに関するお悩み</p><div class="home-concerns__questions">
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="true" aria-controls="home-concern-result-1-0"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>浴室のカビが気になる</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-1-1"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>水まわりの普段の掃除を楽にしたい</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-1-2"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>追い焚き配管（風呂釜）の雑菌が気になる</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-1-3"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>浴室をさらに充実させたい</span></button>
+</div></div>
+<div class="home-concerns__group" id="home-concern-group-2" hidden><p class="home-concerns__label">洗濯機に関するお悩み</p><div class="home-concerns__questions">
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="true" aria-controls="home-concern-result-2-0"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>縦型洗濯機の汚れが気になる</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-2-1"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>ドラム式洗濯機の汚れが気になる</span></button>
+</div></div>
+<div class="home-concerns__group" id="home-concern-group-3" hidden><p class="home-concerns__label">キッチンに関するお悩み</p><div class="home-concerns__questions">
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="true" aria-controls="home-concern-result-3-0"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>換気扇の油汚れが気になる</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-3-1"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>キッチンシンクやコンロの汚れが気になる</span></button>
+</div></div>
+<div class="home-concerns__group" id="home-concern-group-4" hidden><p class="home-concerns__label">外壁洗浄・その他のお悩み</p><div class="home-concerns__questions">
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="true" aria-controls="home-concern-result-4-0"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>外壁の雨だれや苔が気になる</span></button>
+<button class="home-concerns__question" type="button" data-concern-question aria-pressed="false" aria-controls="home-concern-result-4-1"><svg viewBox="0 0 24 24" fill="none" stroke="#65b0f5" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 16q5-5 10 0"/><circle cx="8" cy="9" r=".4"/><circle cx="16" cy="9" r=".4"/></svg><span>引越しを機に部屋を丸ごとお掃除してほしい</span></button>
+</div></div>
+</div><div class="home-concerns__results" aria-live="polite" aria-atomic="true">
+<div class="home-concerns__result" id="home-concern-result-0-0">
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/aircon/">
@@ -316,11 +344,9 @@
 <dd class="c-issue-accordion-card__description">専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/aircon/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_aircon_02">リビングのエアコンが汚れやすい</button></h5>
-<div class="c-issue-accordion__content" id="accordion_aircon_02">
+<div class="home-concerns__result" id="home-concern-result-0-1" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/">
@@ -332,16 +358,9 @@
 <dd class="c-issue-accordion-card__description">換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/kitchen/">サービスの詳細を見る</a>
 </div>
-</div>
-</div>
-</div>
-<div class="issue-list__item">
-<h4 class="c-bullet-heading issue__heading">水まわりに関するお悩み</h4>
-<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_01">浴室のカビが気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_water_01">
+<div class="home-concerns__result" id="home-concern-result-1-0" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/water/">
@@ -353,11 +372,9 @@
 <dd class="c-issue-accordion-card__description">専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/water/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_02">水まわりの普段の掃除を楽にしたい</button></h5>
-<div class="c-issue-accordion__content" id="accordion_water_02">
+<div class="home-concerns__result" id="home-concern-result-1-1" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/coating/">
@@ -369,11 +386,9 @@
 <dd class="c-issue-accordion-card__description">特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/coating/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_03">追い焚き配管（風呂釜）の雑菌が気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_water_03">
+<div class="home-concerns__result" id="home-concern-result-1-2" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/water/">
@@ -385,11 +400,9 @@
 <dd class="c-issue-accordion-card__description">微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/water/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_water_04">浴室をさらに充実させたい</button></h5>
-<div class="c-issue-accordion__content" id="accordion_water_04">
+<div class="home-concerns__result" id="home-concern-result-1-3" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/water/">
@@ -401,16 +414,9 @@
 <dd class="c-issue-accordion-card__description">浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/water/">サービスの詳細を見る</a>
 </div>
-</div>
-</div>
-</div>
-<div class="issue-list__item">
-<h4 class="c-bullet-heading issue__heading">洗濯機に関するお悩み</h4>
-<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_washer_01">縦型洗濯機の汚れが気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_washer_01">
+<div class="home-concerns__result" id="home-concern-result-2-0" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/washer/">
@@ -422,11 +428,9 @@
 <dd class="c-issue-accordion-card__description">縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/washer/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_washer_02">ドラム式洗濯機の汚れが気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_washer_02">
+<div class="home-concerns__result" id="home-concern-result-2-1" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/washer/">
@@ -438,16 +442,9 @@
 <dd class="c-issue-accordion-card__description">ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/washer/">サービスの詳細を見る</a>
 </div>
-</div>
-</div>
-</div>
-<div class="issue-list__item">
-<h4 class="c-bullet-heading issue__heading">キッチンに関するお悩み</h4>
-<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_kitchen_01">換気扇の油汚れが気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_kitchen_01">
+<div class="home-concerns__result" id="home-concern-result-3-0" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/">
@@ -459,11 +456,9 @@
 <dd class="c-issue-accordion-card__description">換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/kitchen/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_kitchen_02">キッチンシンクやコンロの汚れが気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_kitchen_02">
+<div class="home-concerns__result" id="home-concern-result-3-1" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/kitchen/">
@@ -475,27 +470,12 @@
 <dd class="c-issue-accordion-card__description">ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/kitchen/">サービスの詳細を見る</a>
 </div>
-</div>
-</div>
-</div>
-<div class="issue-list__item">
-<h4 class="c-bullet-heading issue__heading">外壁洗浄・その他のお悩み</h4>
-<div class="c-issue-accordion js-accordion issue__accordion" data-simple-type="true">
-<div class="c-issue-accordion__item"><!-- <h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_01">壁紙の汚れが気になる</button></h5> -->
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_01">外壁の雨だれや苔が気になる</button></h5>
-<div class="c-issue-accordion__content" id="accordion_other_01">
+<div class="home-concerns__result" id="home-concern-result-4-0" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
-<!-- <a class="c-issue-accordion-card__contents" href="/house-cleaning/room/#anchor04">
-                            <div class="c-issue-accordion-card__icon-circle">
-                              <div class="c-icon c-icon--brush c-issue-accordion-card__icon"></div>
-                            </div>
-                            <dl class="c-issue-accordion-card__detail">
-                              <dt class="c-issue-accordion-card__term">壁紙染色</dt>
-                              <dd class="c-issue-accordion-card__description">壁紙を貼り替えずに「染色」することで短時間で新品同様に！お部屋の明るさを取り戻せます！</dd>
-                            </dl>
-                          </a> --> <a class="c-issue-accordion-card__contents" href="/house-cleaning/others/">
+ <a class="c-issue-accordion-card__contents" href="/house-cleaning/others/">
 <div class="c-issue-accordion-card__icon-circle">
 <div class="c-icon c-icon--outerwall c-issue-accordion-card__icon" style="--size: 46px;"></div>
 </div>
@@ -504,11 +484,9 @@
 <dd class="c-issue-accordion-card__description">専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/others/">サービスの詳細を見る</a>
 </div>
-</div>
-<div class="c-issue-accordion__item">
-<h5 class="c-issue-accordion__heading"><button class="c-issue-accordion__trigger js-accordion-trigger" type="button" aria-controls="accordion_other_02">引越しを機に部屋を丸ごとお掃除してほしい</button></h5>
-<div class="c-issue-accordion__content" id="accordion_other_02">
+<div class="home-concerns__result" id="home-concern-result-4-1" hidden>
 <div class="c-issue-accordion-card">
 <h4 class="c-issue-accordion-card__heading">こちらがおすすめです</h4>
 <a class="c-issue-accordion-card__contents" href="/house-cleaning/pack/">
@@ -520,13 +498,10 @@
 <dd class="c-issue-accordion-card__description">退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。</dd>
 </dl>
 </a></div>
+<a class="home-concerns__service-link" href="/house-cleaning/pack/">サービスの詳細を見る</a>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+</div></div>
+</div></div>
 </div>
 </div>
 </div>
