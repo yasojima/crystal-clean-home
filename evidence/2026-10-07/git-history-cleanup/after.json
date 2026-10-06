@@ -1,0 +1,20 @@
+{
+  "head_preserved": true,
+  "tree_preserved": true,
+  "git_bytes_before": 4064880932.0,
+  "git_bytes_after": 911529476,
+  "bytes_reduced": 3153351456.0,
+  "commits_before": 279,
+  "commits_retained_before_record": 20,
+  "recent_work_refs_retained": true,
+  "remote_history_preserved": true,
+  "connectivity_valid": true,
+  "old_generated_commit_graph": "Moved to Desktop manual-deletion folder after automatic review blocked forced deletion",
+  "retained_refs": [
+    "37a57a63156caf65bc677ec018f878767d8460b4 HEAD",
+    "e845b0c61e137e56f3884937880bb1508b8fbdfd refs/codex/turn-diffs/captures/1791323176412/fa28fd4b-c7e7-4da8-8ccc-1fe797cc95c6/base",
+    "e845b0c61e137e56f3884937880bb1508b8fbdfd refs/codex/turn-diffs/checkpoints/60e4f15e7e7f9c0d8146d34a7a4f5126/f3e915c09d6dfaf80ad5835f762daa3d/1791322182086/e85a6ae0-657d-4e04-b0e1-53d93af63063",
+    "37a57a63156caf65bc677ec018f878767d8460b4 refs/heads/codex/original-site-copy",
+    "37a57a63156caf65bc677ec018f878767d8460b4 refs/remotes/origin/codex/original-site-copy"
+  ]
+}

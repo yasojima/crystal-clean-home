@@ -1,0 +1,21 @@
+{
+  "Head": "37a57a63156caf65bc677ec018f878767d8460b4",
+  "Tree": "3c0e78f0084121b71471aa0520fae635ba5ad858",
+  "GitBytes": 4064880932.0,
+  "CommitCount": 279,
+  "Refs": [
+    "refs/codex/snapshots/d243d5a5fac35bfc708648f7f6dc6197b8d58bfd 527c515af7163392e0179de4c0b06727f4297772",
+    "refs/codex/turn-diffs/captures/1791323176412/fa28fd4b-c7e7-4da8-8ccc-1fe797cc95c6/base e845b0c61e137e56f3884937880bb1508b8fbdfd",
+    "refs/codex/turn-diffs/checkpoints/1039795635b8deca5d355c8b462217e6/d907b5eb055f502f4a202c5f73c3b13c/1791132174370/32c53d6f-9a04-4f4e-b170-3f968c1a401d cd58aedd571b287029451c7f3f525e5acbd771cc",
+    "refs/codex/turn-diffs/checkpoints/60e4f15e7e7f9c0d8146d34a7a4f5126/f3e915c09d6dfaf80ad5835f762daa3d/1791322182086/e85a6ae0-657d-4e04-b0e1-53d93af63063 e845b0c61e137e56f3884937880bb1508b8fbdfd",
+    "refs/codex/turn-diffs/checkpoints/c6154f6600e992591565cedcee424ae4/0f7e890a60a762dc2626dc4d5844d444/1790795199871/846c7dfa-e69d-4f71-b253-d9539c9e6da4 4f59f77aa71e1f528cb5fcfc2bb34c7592e9f321",
+    "refs/heads/codex/original-site-copy 37a57a63156caf65bc677ec018f878767d8460b4",
+    "refs/heads/main 527c515af7163392e0179de4c0b06727f4297772",
+    "refs/remotes/origin/HEAD 63aa7e69bc3935da6e2ec8332cf1d4ed1f4dcc6c",
+    "refs/remotes/origin/codex/original-site-copy 37a57a63156caf65bc677ec018f878767d8460b4",
+    "refs/remotes/origin/main 63aa7e69bc3935da6e2ec8332cf1d4ed1f4dcc6c"
+  ],
+  "RetainCommits": 20,
+  "Cutoff": "2026-10-06",
+  "RemoteHistoryPreserved": true
+}
