@@ -1,0 +1,53 @@
+{
+  "banners": {
+    "banners": [
+      {
+        "height": 154.328125,
+        "loaded": true,
+        "src": "https://yasojima.github.io/assets/images/home/first-guide-banner-mobile.png",
+        "width": 369
+      },
+      {
+        "height": 153.703125,
+        "loaded": true,
+        "src": "https://yasojima.github.io/assets/images/home/business-guide-banner-mobile.png",
+        "width": 369
+      }
+    ],
+    "snsExpanded": "false"
+  },
+  "open": {
+    "expanded": "true",
+    "links": [
+      {
+        "display": "grid",
+        "label": "SNSを開く",
+        "visibility": "visible"
+      },
+      {
+        "display": "block",
+        "label": "X（デモ）",
+        "visibility": "visible"
+      },
+      {
+        "display": "block",
+        "label": "Instagram（デモ）",
+        "visibility": "visible"
+      },
+      {
+        "display": "block",
+        "label": "TikTok（デモ）",
+        "visibility": "visible"
+      },
+      {
+        "display": "block",
+        "label": "YouTube（デモ）",
+        "visibility": "visible"
+      }
+    ]
+  },
+  "close": {
+    "expanded": "false",
+    "visible": "visible"
+  }
+}

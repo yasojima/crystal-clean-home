@@ -1,0 +1,52 @@
+{
+  "state": {
+    "bodyBackground": "rgb(255, 255, 255)",
+    "header": {
+      "bottom": -1,
+      "height": 96,
+      "left": 0,
+      "right": 399,
+      "top": -97,
+      "width": 399,
+      "x": 0,
+      "y": -97
+    },
+    "htmlBackground": "rgba(0, 0, 0, 0)",
+    "scrollY": 510,
+    "topLeft": [
+      {
+        "classes": "",
+        "tag": "IMG"
+      },
+      {
+        "classes": "",
+        "tag": "H1"
+      },
+      {
+        "classes": "lp-cover lp-opening-portrait",
+        "tag": "SECTION"
+      },
+      {
+        "classes": "lp-canvas",
+        "tag": "DIV"
+      },
+      {
+        "classes": "",
+        "tag": "DIV"
+      },
+      {
+        "classes": "",
+        "tag": "MAIN"
+      },
+      {
+        "classes": "c-beginner-lp",
+        "tag": "BODY"
+      },
+      {
+        "classes": "",
+        "tag": "HTML"
+      }
+    ]
+  },
+  "test": "synthetic TouchEvent and scroll in Windows Chromium; not a real iPhone acceptance test"
+}

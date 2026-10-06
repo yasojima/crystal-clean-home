@@ -1,0 +1,24 @@
+{
+  "keyboard": "55",
+  "tabs": {
+    "aircon": "none",
+    "range": "block",
+    "selected": "レンジフードのお手入れ"
+  },
+  "final": {
+    "clip": "calc(21.999%)",
+    "common": [
+      "https://yasojima.github.io/assets/js/common.js?v=2026100602"
+    ],
+    "drag": "78",
+    "filteredSvg": 0,
+    "overflow": 0,
+    "svg": 0,
+    "url": "https://yasojima.github.io/beginner/",
+    "views": 4,
+    "wrappers": 8
+  },
+  "deviceAcceptance": "pending",
+  "browser": "Windows Chromium in-app browser",
+  "input": "Playwright keyboard/click and CDP mouse drag"
+}
