@@ -1,10 +1,7 @@
 {
-  "origin": "https://yasojima.github.io/",
   "verified_at": "2026-10-06T01:17:22.000932+00:00",
-  "pages_commit": "298ea829ab681f3c7639e476f01389d94694006c",
-  "actions_run": 37398174349,
-  "actions_conclusion": "success",
-  "source_tree": "0fe86db2d2a13bb863f8399e3e4e2b486c380d26",
+  "count": 113,
+  "passed": true,
   "checks": [
     {
       "path": "/assets/css/aircon-header.css",
@@ -797,7 +794,5 @@
       "sha256": "fd83d9f82c4391a3ef1ad3d2fe01d526b409b44e3676910da815ccb8186dd1b7",
       "passed": true
     }
-  ],
-  "passed": true,
-  "scope": "All 113 changed runtime files, including 60 HTML pages and 46 original PNG assets; public desktop/mobile spot checks and cart operations are stored under evidence/2026-10-06/original-artwork-home. Historical exclusions were not rechecked in this publication."
+  ]
 }

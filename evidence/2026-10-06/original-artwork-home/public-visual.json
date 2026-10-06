@@ -1,0 +1,78 @@
+[
+  {
+    "heading": [
+      {
+        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "size": "18px",
+        "text": "クリスタルクリーンホーム"
+      },
+      {
+        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "size": "28px",
+        "text": "注目のハウスクリーニング"
+      },
+      {
+        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "size": "18px",
+        "text": "クリスタルクリーンホーム"
+      },
+      {
+        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "size": "28px",
+        "text": "注目のハウスクリーニング"
+      }
+    ],
+    "lastNavigation": "\n\nHOME\nエアコン\nパックサービス\n水まわり\n洗濯機\nキッチン\nお部屋\nコーティング\n外壁・その他\n\n",
+    "mainOrder": [
+      {
+        "class": "home-first-view",
+        "id": "first-view",
+        "tag": "SECTION"
+      },
+      {
+        "class": "l-section l-section--limited c-service-selector home-cleaning-selector",
+        "heading": "クリスタルクリーンホーム注目のハウスクリーニング",
+        "id": "home-cleaning-list",
+        "tag": "SECTION"
+      },
+      {
+        "class": "l-section l-section--blue-bubbles u-pb-96_64 c-curved-section c-curved-section--up",
+        "heading": "お客様から選ばれる理由",
+        "id": "home-reasons",
+        "tag": "SECTION"
+      },
+      {
+        "class": "l-section l-section--limited home-first-guide-section",
+        "id": "",
+        "tag": "SECTION"
+      },
+      {
+        "class": "l-section l-section--limited home-concerns",
+        "heading": "お悩み・ご要望別",
+        "id": "tab-panel_02",
+        "tag": "SECTION"
+      },
+      {
+        "class": "l-section l-section--limited c-featured-cleaning c-curved-section c-curved-section--down",
+        "heading": "クリスタルクリーンホーム注目のハウスクリーニング",
+        "id": "",
+        "tag": "SECTION"
+      }
+    ],
+    "overflow": false,
+    "page": "https://yasojima.github.io/#home-cleaning-list",
+    "width": 1280
+  },
+  {
+    "active": "水まわり",
+    "cardHeights": [
+      450,
+      450,
+      450,
+      450
+    ],
+    "overflow": false,
+    "page": "https://yasojima.github.io/#tab-panel_02",
+    "width": 390
+  }
+]
