@@ -1,5 +1,8 @@
 # Crystal Clean Home 指示の処理状況
 
+- 公開確認（CHG-2026-10-07-004）：ソース b56c10886b18c24d0490ff68a1a2022ef8cde6ea、Pages fb19cd20e2ee5273ca4874728432800b469ae3f0、Actions 37518223376 成功。66配信ファイルはHTTP200・SHA-256正本一致。公開HOMEのPC5サイズ・スマホ5サイズで配置・本文・画像参照・ページ高がローカルと一致。PC1280px／スマホ414pxの公開画面を保存し目視確認。5カテゴリーはPCと320pxで切り替え・選択状態・表示文字を確認。共通MENUの開閉を公開414pxで確認。通常LPは公開414pxで2filterがnone、1280pxで元の影を保持し診断UIなし。実機の通常URL確認は引き続き回答待ち。証拠：同 evidence ディレクトリの publication-http.json、publication-browser-comparison.json、publication-lp-preserved.json、publication-menu.json、home-tab-interactions.json、public-home-1280.png、public-home-414.png。
+
+
 ## HOMEの共通背景とレスポンシブ確認（CHG-2026-10-07-004）
 
 - 決定日：2026-10-07。ユーザーの指示により、HOMEの2枚バナーと「お客様から選ばれる理由」を入れ替える。本文の順番は「注目のハウスクリーニング → 2枚バナー → お客様から選ばれる理由 → お悩み・ご要望別 → 共通8項目」。動画は独立した動画枠として保持し、その背後の背景を変更対象にしない。

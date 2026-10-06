@@ -47501,5 +47501,76 @@
     "Live audit covers default visible state on all pages; tested interactions separately",
     "Latest stylesheet candidates rechecked with browser cache disabled",
     "Physical iPhone normal LP acceptance remains pending; diagnostic B resolved and A reproduced per user"
+  ],
+  "publication": {
+    "source_sha": "b56c10886b18c24d0490ff68a1a2022ef8cde6ea",
+    "pages_sha": "fb19cd20e2ee5273ca4874728432800b469ae3f0",
+    "actions_run": 37518223376,
+    "actions_status": "success",
+    "all_match": true
+  },
+  "publication_browser_cases": 10,
+  "publication_browser_all_match": true,
+  "home_tab_interactions": [
+    {
+      "width": 320,
+      "name": "エアコン",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 320,
+      "name": "水まわり",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 320,
+      "name": "洗濯機",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 320,
+      "name": "キッチン",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 320,
+      "name": "外壁・その他",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 1280,
+      "name": "エアコン",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 1280,
+      "name": "水まわり",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 1280,
+      "name": "洗濯機",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 1280,
+      "name": "キッチン",
+      "selected": "true",
+      "issues": []
+    },
+    {
+      "width": 1280,
+      "name": "外壁・その他",
+      "selected": "true",
+      "issues": []
+    }
   ]
 }
