@@ -2707,105 +2707,136 @@ screen and (min-width: 768px) {
   --width: 130px;
   display: inline-flex;
   width: var(--width);
-  height: calc(.7692307692 * var(--width));
+  height: var(--artwork-height, calc(.7692307692 * var(--width)));
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: min(calc(100% * var(--artwork-fit-x, 1)), calc(var(--artwork-height, calc(.7692307692 * var(--width))) * var(--artwork-fit-y, 1))) auto;
 }
 
-.c-illust--aircon { background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
+.c-illust--aircon { --artwork-fit-x: 1.027027; --artwork-fit-y: 2.585567; background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
 
-.c-illust--bath { background-image: url("/assets/images/cleaning-illustrations/bath.png"); }
+.c-illust--bath { --artwork-fit-x: 1.108753; --artwork-fit-y: 1.090435; background-image: url("/assets/images/cleaning-illustrations/bath.png"); }
 
-.c-illust--kitchen { background-image: url("/assets/images/cleaning-illustrations/kitchen.png"); }
+.c-illust--kitchen { --artwork-fit-x: 1.196565; --artwork-fit-y: 1.098074; background-image: url("/assets/images/cleaning-illustrations/kitchen.png"); }
 
-.c-illust--pack { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
+.c-illust--pack { --artwork-fit-x: 1.027869; --artwork-fit-y: 1.100000; background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-pair.png"); }
+.c-illust--washing-machine { --artwork-fit-x: 1.061812; --artwork-fit-y: 1.407407; background-image: url("/assets/images/cleaning-illustrations/washer-pair.png"); }
 
-.c-illust--room { background-image: url("/assets/images/cleaning-illustrations/room.png"); }
+.c-illust--room { --artwork-fit-x: 1.014563; --artwork-fit-y: 1.112689; background-image: url("/assets/images/cleaning-illustrations/room.png"); }
 
-.c-illust--coating { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--coating { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--other { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
+.c-illust--other { --artwork-fit-x: 1.123656; --artwork-fit-y: 1.334043; background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--ventilation-fan { background-image: url("/assets/images/cleaning-illustrations/hood.png"); }
+.c-illust--ventilation-fan { --artwork-fit-x: 1.079174; --artwork-fit-y: 1.225806; background-image: url("/assets/images/cleaning-illustrations/hood.png"); }
 
-.c-illust--fridge { background-image: url("/assets/images/cleaning-illustrations/fridge.png"); }
+.c-illust--fridge { --artwork-fit-x: 2.348315; --artwork-fit-y: 1.087598; background-image: url("/assets/images/cleaning-illustrations/fridge.png"); }
 
-.c-illust--dishwasher-dryer { background-image: url("/assets/images/cleaning-illustrations/dishwasher.png"); }
+.c-illust--dishwasher-dryer { --artwork-fit-x: 1.201149; --artwork-fit-y: 1.188626; background-image: url("/assets/images/cleaning-illustrations/dishwasher.png"); }
 
-.c-illust--outerwall { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
+.c-illust--outerwall { --artwork-fit-x: 1.123656; --artwork-fit-y: 1.334043; background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--photocatalyst { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--photocatalyst { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--grave { background-image: url("/assets/images/cleaning-illustrations/grave.png"); }
+.c-illust--grave { --artwork-fit-x: 1.459837; --artwork-fit-y: 1.143118; background-image: url("/assets/images/cleaning-illustrations/grave.png"); }
 
-.c-illust--set { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
+.c-illust--set { --artwork-fit-x: 1.027869; --artwork-fit-y: 1.100000; background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--moving { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
+.c-illust--moving { --artwork-fit-x: 1.027869; --artwork-fit-y: 1.100000; background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--flooring { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--mattress { background-image: url("/assets/images/cleaning-illustrations/mattress.png"); }
+.c-illust--mattress { --artwork-fit-x: 1.000000; --artwork-fit-y: 2.339552; background-image: url("/assets/images/cleaning-illustrations/mattress.png"); }
 
-.c-illust--sofa { background-image: url("/assets/images/cleaning-illustrations/sofa.png"); }
+.c-illust--sofa { --artwork-fit-x: 1.033800; --artwork-fit-y: 1.882883; background-image: url("/assets/images/cleaning-illustrations/sofa.png"); }
 
-.c-illust--carpet { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
+.c-illust--carpet { --artwork-fit-x: 1.000000; --artwork-fit-y: 2.055738; background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
 
-.c-illust--wallpaper-dyeing { background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
+.c-illust--wallpaper-dyeing { --artwork-fit-x: 1.245283; --artwork-fit-y: 1.196565; background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
 
-.c-illust--wallpaper-cleaning { background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
+.c-illust--wallpaper-cleaning { --artwork-fit-x: 1.245283; --artwork-fit-y: 1.196565; background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
 
-.c-illust--glass { background-image: url("/assets/images/cleaning-illustrations/window.png"); }
+.c-illust--glass { --artwork-fit-x: 1.059122; --artwork-fit-y: 1.589354; background-image: url("/assets/images/cleaning-illustrations/window.png"); }
 
-.c-illust--entrance { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
+.c-illust--entrance { --artwork-fit-x: 1.123656; --artwork-fit-y: 1.334043; background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--duct { background-image: url("/assets/images/cleaning-illustrations/vent.png"); }
+.c-illust--duct { --artwork-fit-x: 1.099036; --artwork-fit-y: 1.559701; background-image: url("/assets/images/cleaning-illustrations/vent.png"); }
 
-.c-illust--air-cleaner { background-image: url("/assets/images/cleaning-illustrations/air-cleaner.png"); }
+.c-illust--air-cleaner { --artwork-fit-x: 1.583333; --artwork-fit-y: 1.088542; background-image: url("/assets/images/cleaning-illustrations/air-cleaner.png"); }
 
-.c-illust--reheating-piping { background-image: url("/assets/images/cleaning-illustrations/pipe.png"); }
+.c-illust--reheating-piping { --artwork-fit-x: 1.046745; --artwork-fit-y: 1.911585; background-image: url("/assets/images/cleaning-illustrations/pipe.png"); }
 
-.c-illust--ulblo { background-image: url("/assets/images/cleaning-illustrations/adapter.png"); }
+.c-illust--ulblo { --artwork-fit-x: 1.184136; --artwork-fit-y: 1.349839; background-image: url("/assets/images/cleaning-illustrations/adapter.png"); }
 
-.c-illust--drier { background-image: url("/assets/images/cleaning-illustrations/bath-dryer.png"); }
+.c-illust--drier { --artwork-fit-x: 1.007229; --artwork-fit-y: 2.478261; background-image: url("/assets/images/cleaning-illustrations/bath-dryer.png"); }
 
-.c-illust--toilet { background-image: url("/assets/images/cleaning-illustrations/toilet.png"); }
+.c-illust--toilet { --artwork-fit-x: 2.069307; --artwork-fit-y: 1.099036; background-image: url("/assets/images/cleaning-illustrations/toilet.png"); }
 
-.c-illust--lavatory { background-image: url("/assets/images/cleaning-illustrations/lavatory.png"); }
+.c-illust--lavatory { --artwork-fit-x: 1.917431; --artwork-fit-y: 1.042394; background-image: url("/assets/images/cleaning-illustrations/lavatory.png"); }
 
-.c-illust--office-aircon { background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
+.c-illust--office-aircon { --artwork-fit-x: 1.166512; --artwork-fit-y: 1.230618; background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
 
-.c-illust--office-flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--office-flooring { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--office-carpet { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
+.c-illust--office-carpet { --artwork-fit-x: 1.000000; --artwork-fit-y: 2.055738; background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
 
-.c-illust--fluorescent-light { background-image: url("/assets/images/cleaning-illustrations/light.png"); }
+.c-illust--fluorescent-light { --artwork-fit-x: 1.000000; --artwork-fit-y: 2.574949; background-image: url("/assets/images/cleaning-illustrations/light.png"); }
 
-.c-illust--removing-bacteria { background-image: url("/assets/images/cleaning-illustrations/detergent.png"); }
+.c-illust--removing-bacteria { --artwork-fit-x: 1.381057; --artwork-fit-y: 1.092334; background-image: url("/assets/images/cleaning-illustrations/detergent.png"); }
 
-.c-illust--aircon-buried { background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
+.c-illust--aircon-buried { --artwork-fit-x: 1.166512; --artwork-fit-y: 1.230618; background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
 
-.c-illust--cleaning-function { background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
+.c-illust--cleaning-function { --artwork-fit-x: 1.027027; --artwork-fit-y: 2.585567; background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
 
-.c-illust--drum-type-washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-drum.png"); }
+.c-illust--drum-type-washing-machine { --artwork-fit-x: 1.315845; --artwork-fit-y: 1.095197; background-image: url("/assets/images/cleaning-illustrations/washer-drum.png"); }
 
-.c-illust--office-uv-flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--office-uv-flooring { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--vertical-washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-top.png"); }
+.c-illust--vertical-washing-machine { --artwork-fit-x: 1.676471; --artwork-fit-y: 1.048495; background-image: url("/assets/images/cleaning-illustrations/washer-top.png"); }
 
-.c-illust--white-wood { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+.c-illust--white-wood { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--tatami { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
+.c-illust--tatami { --artwork-fit-x: 1.000000; --artwork-fit-y: 2.055738; background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
 
 
 :is(.c-product-additional-card__image, .c-option-card__image img)[src*="/cleaning-illustrations/"] {
   background-color: #edf7fd;
-  padding: 4px;
+  padding: 0;
   border-radius: 8px;
   object-fit: contain;
+}
+
+
+/* Shared card frames: fit the visible subject, not the transparent square canvas. */
+.c-category-simple-card > .c-category-simple-card__top {
+  height: 160px;
+  align-items: center;
+  padding: 28px 12px 8px;
+}
+.c-illust.c-category-simple-card__icon {
+  --width: 240px;
+  --artwork-height: 124px;
+  width: min(var(--width), 100%);
+}
+.c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
+  width: 96px;
+  height: 96px;
+  flex: 0 0 96px;
+}
+.c-product-additional-card__main > img[src*="/cleaning-illustrations/"] + .c-product-additional-card__content {
+  width: calc(100% - 112px);
+}
+@media (max-width: 767.98px) {
+  .c-category-simple-card > .c-category-simple-card__top { height: 148px; padding: 28px 8px 8px; }
+  .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
+  .c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
+    width: 88px; height: 88px; flex-basis: 88px;
+  }
+  .c-product-additional-card__main > img[src*="/cleaning-illustrations/"] + .c-product-additional-card__content {
+    width: calc(100% - 104px);
+  }
 }
 
 .c-label-tag {

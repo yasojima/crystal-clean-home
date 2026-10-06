@@ -69,7 +69,10 @@
     daysNote.textContent = '（年末年始を除く）';
     days.append('年中無休', daysNote);
     hours.append(time, days);
-    contact.append(phone, hours);
+    const telephone = document.createElement('div');
+    telephone.className = 'c-header-contact__telephone';
+    telephone.append(phone, hours);
+    contact.append(telephone);
     header.append(contact);
   }
 

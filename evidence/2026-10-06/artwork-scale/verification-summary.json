@@ -1,0 +1,20 @@
+{
+  "conditions": 45,
+  "widths": [
+    320,
+    375,
+    390,
+    414,
+    768,
+    1024,
+    1280,
+    1440,
+    1920
+  ],
+  "max_row_center_error": 0.0078125,
+  "max_header_center_error": 0,
+  "overflow_conditions": 0,
+  "text_issues": 0,
+  "image_files_modified": false,
+  "human_visual_acceptance": "pending"
+}

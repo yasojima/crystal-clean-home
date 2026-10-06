@@ -349,7 +349,8 @@
   text-decoration: none;
 }
 .home-quick-estimate__image {
-  --width: 84px;
+  --width: 96px;
+  --artwork-height: 76px;
   flex-shrink: 0;
   transition: transform .2s ease, opacity .2s ease;
 }
@@ -441,12 +442,12 @@
   .home-quick-estimate__links li + li { border-left: none; }
   .home-quick-estimate__links li:last-child { border-bottom: none; }
   .home-quick-estimate__links a {
-    padding: 7px;
+    padding: 7px 5px;
     height: 100%;
     justify-content: center;
     gap: 0;
   }
-  .home-quick-estimate__image { --width: 60px; }
+  .home-quick-estimate__image { --width: 64px; --artwork-height: 62px; }
   .home-quick-estimate__label {
     font-size: 10px;
     text-align: center;

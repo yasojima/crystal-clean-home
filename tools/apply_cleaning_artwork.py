@@ -26,23 +26,57 @@ def artwork_css():
   --width: 130px;
   display: inline-flex;
   width: var(--width);
-  height: calc(.7692307692 * var(--width));
+  height: var(--artwork-height, calc(.7692307692 * var(--width)));
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: min(calc(100% * var(--artwork-fit-x, 1)), calc(var(--artwork-height, calc(.7692307692 * var(--width))) * var(--artwork-fit-y, 1))) auto;
 }
 ''']
     for name, key in DATA['illustrations'].items():
-        rules.append(f'.c-illust--{name} {{ background-image: url("{image_path(key)}"); }}\n')
+        measure = DATA['display_bounds'][key]
+        width, height = measure['canvas']
+        x0, y0, x1, y1 = measure['bounds']
+        rules.append(f'.c-illust--{name} {{ --artwork-fit-x: {width / (x1-x0):.6f}; --artwork-fit-y: {width / (y1-y0):.6f}; background-image: url("{image_path(key)}"); }}\n')
     rules.append('''
 :is(.c-product-additional-card__image, .c-option-card__image img)[src*="/cleaning-illustrations/"] {
   background-color: #edf7fd;
-  padding: 4px;
+  padding: 0;
   border-radius: 8px;
   object-fit: contain;
 }
 ''')
+    rules.append("""
+/* Shared card frames: fit the visible subject, not the transparent square canvas. */
+.c-category-simple-card > .c-category-simple-card__top {
+  height: 160px;
+  align-items: center;
+  padding: 28px 12px 8px;
+}
+.c-illust.c-category-simple-card__icon {
+  --width: 240px;
+  --artwork-height: 124px;
+  width: min(var(--width), 100%);
+}
+.c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
+  width: 96px;
+  height: 96px;
+  flex: 0 0 96px;
+}
+.c-product-additional-card__main > img[src*="/cleaning-illustrations/"] + .c-product-additional-card__content {
+  width: calc(100% - 112px);
+}
+@media (max-width: 767.98px) {
+  .c-category-simple-card > .c-category-simple-card__top { height: 148px; padding: 28px 8px 8px; }
+  .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
+  .c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
+    width: 88px; height: 88px; flex-basis: 88px;
+  }
+  .c-product-additional-card__main > img[src*="/cleaning-illustrations/"] + .c-product-additional-card__content {
+    width: calc(100% - 104px);
+  }
+}
+""")
     return '\n'.join(rules) + '\n'
 
 
