@@ -799,6 +799,8 @@ body.aircon-menu-open .c-header__navigation {
   }
 
   .c-header {
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
     align-items: flex-start;
     padding: 0 0 0 12px;
     transition: transform .45s cubic-bezier(.4, 0, .2, 1),

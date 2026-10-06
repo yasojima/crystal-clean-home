@@ -11,6 +11,10 @@ body.c-beginner-lp #cch-first-lp .lp-canvas {
   box-shadow: none;
 }
 
+body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
+  min-height: 64px;
+}
+
 @media (max-width: 767.98px) {
   body.c-beginner-lp #cch-first-lp { --lp-section-space: 28px; }
   body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-opening-actions,
@@ -23,13 +27,14 @@ body.c-beginner-lp #cch-first-lp .lp-canvas {
     transform: none;
   }
   body.c-beginner-lp #cch-first-lp .lp-estimate-button {
-    width: 100%;
-    max-width: 400px !important;
+    width: min(100%, 264px) !important;
+    max-width: 264px !important;
     margin: 0 auto !important;
+    border-radius: 0 0 24px 0;
   }
   body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-double-icon-button__inner {
-    min-height: 46px;
-    padding: 10px 14px;
+    min-height: 64px;
+    padding: 16px 12px;
     gap: 8px;
   }
   body.c-beginner-lp #cch-first-lp .lp-estimate-button .btn-free {

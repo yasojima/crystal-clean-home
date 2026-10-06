@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100604">',
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100605">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100601">',
     "<script src=\"/assets/js/aircon-header.js?v=2026100603\" defer></script>",
     '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100604">',
@@ -21,6 +21,29 @@ ASSETS = (
 )
 
 
+def replace_div_contents(html, pattern, contents):
+    start = re.search(pattern, html)
+    if not start:
+        return html
+    depth = 1
+    for tag in re.finditer(r'</?div\b[^>]*>', html[start.end():]):
+        depth += -1 if tag.group().startswith('</') else 1
+        if depth == 0:
+            end = start.end() + tag.start()
+            return html[:start.end()] + contents + html[end:]
+    raise ValueError('Unclosed category grid')
+
+
+def shared_category_cards(html, featured):
+    cards = re.findall(r'<a\b[^>]*\bclass="[^"]*\bc-category-simple-card\b[^>]*>.*?</a>', featured, re.S)
+    if len(cards) != 8:
+        raise ValueError('The canonical category template must contain eight cards')
+    html = replace_div_contents(html, r'<div class="lp-services(?: c-house-cleaning-links)?">', '\n'.join(cards))
+    html = html.replace('<div class="lp-services">', '<div class="lp-services c-house-cleaning-links">')
+    quick_cards = '\n'.join(cards).replace('/house-cleaning/', '/quick_cart/').replace('c-house-cleaning-links__link', 'step__card')
+    return replace_div_contents(html, r'<div class="c-grid"[^>]*>(?=\s*<a class="c-category-simple-card step__card")', quick_cards)
+
+
 def transform(html, is_aircon=False):
     html = transform_references(html)
     html = re.sub(r'/assets/js/demo-contact\.js(?:\?v=\d+)?', '/assets/js/demo-contact.js?v=2026100601', html)
@@ -28,6 +51,7 @@ def transform(html, is_aircon=False):
     html = re.sub(r'\s*<script\b[^>]*src="/assets/js/cart-estimate\.js(?:\?v=\d+)?"[^>]*>\s*</script>', '', html)
     newline = '\r\n' if '\r\n' in html else '\n'
     featured = (ROOT / 'source/service-pages/templates/categories.html').read_bytes().decode('utf-8').strip()
+    html = shared_category_cards(html, featured)
     def shared_featured(match):
         section = match.group()
         if ('c-featured-cleaning' in section or 'home-cleaning-menu' in section or
@@ -66,13 +90,16 @@ def transform(html, is_aircon=False):
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100601', html)
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100601', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100604', html)
-    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100604', html)
-    html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100536', html)
+    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100605', html)
+    html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + ('?v=2026100609' if kind == 'css' else '?v=2026100608'), html)
-    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100601', html)
+                          '/assets/' + kind + '/' + asset + ('?v=2026100610' if kind == 'css' else '?v=2026100608'), html)
+    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100602', html)
+    for stylesheet in ('first-lp-desktop.css', 'first-lp-mobile.css'):
+        html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
+                      '/assets/css/' + stylesheet + '?v=2026100601', html)
     layout_version = '2026100604'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
@@ -128,8 +155,9 @@ def main():
                 page.write_bytes(output.encode('utf-8'))
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):

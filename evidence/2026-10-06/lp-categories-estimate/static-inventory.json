@@ -1,0 +1,59 @@
+{
+  "canonical_categories": [
+    {
+      "label": "エアコンクリーニング",
+      "illustration": "c-illust--aircon",
+      "href": "/house-cleaning/aircon/",
+      "badge": "人気"
+    },
+    {
+      "label": "パックサービス（まるごとクリーニング）",
+      "illustration": "c-illust--pack",
+      "href": "/house-cleaning/pack/",
+      "badge": null
+    },
+    {
+      "label": "水まわり・浴室",
+      "illustration": "c-illust--bath",
+      "href": "/house-cleaning/water/",
+      "badge": "キャンペーン"
+    },
+    {
+      "label": "洗濯機",
+      "illustration": "c-illust--washing-machine",
+      "href": "/house-cleaning/washer/",
+      "badge": "キャンペーン"
+    },
+    {
+      "label": "キッチン",
+      "illustration": "c-illust--kitchen",
+      "href": "/house-cleaning/kitchen/",
+      "badge": "キャンペーン"
+    },
+    {
+      "label": "お部屋（床・壁紙・ガラス等）",
+      "illustration": "c-illust--room",
+      "href": "/house-cleaning/room/",
+      "badge": null
+    },
+    {
+      "label": "コーティング",
+      "illustration": "c-illust--coating",
+      "href": "/house-cleaning/coating/",
+      "badge": null
+    },
+    {
+      "label": "外壁洗浄・その他",
+      "illustration": "c-illust--other",
+      "href": "/house-cleaning/others/",
+      "badge": null
+    }
+  ],
+  "consumers": [
+    "beginner",
+    "quick_cart"
+  ],
+  "shared_illustration_css": true,
+  "shared_estimate_ctas": 6,
+  "mobile_banner_sources": 2
+}

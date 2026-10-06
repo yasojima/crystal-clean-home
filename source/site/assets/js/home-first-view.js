@@ -88,16 +88,18 @@
       socialLinks.append(copy);
     }
     socials.addEventListener('pointerenter', () => {
-      if (canHover.matches) setSocialOpen(true);
+      if (canHover.matches && !mobileEstimate.matches) setSocialOpen(true);
     });
     socials.addEventListener('pointerleave', () => {
-      if (canHover.matches && !pinned) setSocialOpen(false);
+      if (canHover.matches && !mobileEstimate.matches && !pinned) setSocialOpen(false);
     });
     socialToggle.addEventListener('click', () => {
       pinned = !pinned;
       setSocialOpen(pinned);
     });
-    socials.addEventListener('focusin', () => setSocialOpen(true));
+    socials.addEventListener('focusin', event => {
+      if (event.target !== socialToggle) setSocialOpen(true);
+    });
     socials.addEventListener('focusout', event => {
       if (!socials.contains(event.relatedTarget) && !pinned) setSocialOpen(false);
     });

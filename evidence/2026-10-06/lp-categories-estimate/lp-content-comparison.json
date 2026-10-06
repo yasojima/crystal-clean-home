@@ -1,0 +1,2616 @@
+{
+  "mobile": {
+    "items": [
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h1:0",
+        "rect": {
+          "h": 977.625,
+          "w": 378
+        },
+        "src": null,
+        "tag": "H1",
+        "text": "",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:4",
+        "rect": {
+          "h": 1037.625,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/opening-integrated.webp?v=d22dc0ebbf",
+        "tag": "IMG",
+        "text": "初めてのハウスクリーニング 大切な住まいに 確かな手仕事と 誠実な説明を 気になる汚れも ご依頼前の不安も プロにお任せください！ こびりついた汚れも ここまできれいに！ 人気メニュー エアコンクリーニング 壁掛け・お掃除機能なし 通常料金13,200円 税込／台 まずは気になる場所の料金をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "h2:0",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "プロにお任せください！",
+        "visible": false
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "#cases-title",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "こびりついた汚れもここまできれいに！",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-case-tab-0",
+        "rect": {
+          "h": 21.59375,
+          "w": 120
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "エアコンのお手入れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-case-tab-1",
+        "rect": {
+          "h": 21.59375,
+          "w": 144
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "レンジフードのお手入れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:5",
+        "rect": {
+          "h": 174.578125,
+          "w": 302.390625
+        },
+        "src": "/assets/images/first-lp/reused/aircon-case-before.webp",
+        "tag": "IMG",
+        "text": "エアコンのお手入れ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:6",
+        "rect": {
+          "h": 174.578125,
+          "w": 302.375
+        },
+        "src": "/assets/images/first-lp/reused/aircon-case-after.webp",
+        "tag": "IMG",
+        "text": "エアコンのお手入れ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "p:0",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "P",
+        "text": "普段のお手入れでは届きにくい内部まで機種と状態に合わせて丁寧に清掃します",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:7",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": "/assets/images/first-lp/reused/kitchen-case-before.webp",
+        "tag": "IMG",
+        "text": "レンジフードのお手入れ Beforeのイメージ",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:8",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": "/assets/images/first-lp/reused/kitchen-case-after.webp",
+        "tag": "IMG",
+        "text": "レンジフードのお手入れ Afterのイメージ",
+        "visible": false
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "p:1",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": null,
+        "tag": "P",
+        "text": "こびりついた油汚れも一つひとつ丁寧に 素材に合う洗剤と道具で仕上げます",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:2",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:9",
+        "rect": {
+          "h": 1066.03125,
+          "w": 355.34375
+        },
+        "src": "/assets/images/first-lp/art/story-consult.webp?v=25fd835ebd",
+        "tag": "IMG",
+        "text": "汚れや料金の不安から相談 事前説明と安心へつながる6場面の漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#consult-title",
+        "rect": {
+          "h": 37.046875,
+          "w": 355.3125
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご依頼の前に！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:10",
+        "rect": {
+          "h": 533.015625,
+          "w": 355.34375
+        },
+        "src": "/assets/images/first-lp/art/quality.webp?v=43b80041f7",
+        "tag": "IMG",
+        "text": "仕上がりを支える 私たちの6つの姿勢 汚れと素材の確認 誠実な説明 住まいの保護 学び 仕上がり確認 礼節を 同じスタッフのイラストで紹介",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:11",
+        "rect": {
+          "h": 189,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/cta-assurance.webp?v=1e0a313151",
+        "tag": "IMG",
+        "text": "大切な住まいだから 納得が重要！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:3",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:12",
+        "rect": {
+          "h": 1066.03125,
+          "w": 355.34375
+        },
+        "src": "/assets/images/first-lp/art/story-work.webp?v=9cc38f3ba9",
+        "tag": "IMG",
+        "text": "見えないところにも 責任を 素材の確認 住まいの保護 道具選びと丁寧な作業を描く連続シーンの漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:13",
+        "rect": {
+          "h": 621.84375,
+          "w": 355.34375
+        },
+        "src": "/assets/images/first-lp/art/hygiene-board.webp?v=e59537030c",
+        "tag": "IMG",
+        "text": "清潔を届ける私たち自身も 清潔であること 手指と道具 マスクと換気 生活環境への配慮をイラストで紹介",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:14",
+        "rect": {
+          "h": 1066.03125,
+          "w": 355.34375
+        },
+        "src": "/assets/images/first-lp/art/story-finish.webp?v=3bbe71bdd9",
+        "tag": "IMG",
+        "text": "仕上がりの その先まで 仕上がりの確認から日常のお手入れ ごあいさつへ続く5場面の漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:15",
+        "rect": {
+          "h": 189,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/cta-aftercare.webp?v=384a6f6c0e",
+        "tag": "IMG",
+        "text": "きれいになった その先も 頼れる清掃を",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:4",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:16",
+        "rect": {
+          "h": 567,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/closing-concerns.webp?v=7be7b111f3",
+        "tag": "IMG",
+        "text": "気になる汚れ そのままにしていませんか？ 自分では落としきれない 気になる場所がいくつもある 忙しくて手が回らない まとめて頼むといくら？ そのお悩み プロの清掃で気持ちよく！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h2:3",
+        "rect": {
+          "h": 62.875,
+          "w": 321.3125
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "気になっていた場所もこんなにすっきり！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-sink-tab-0",
+        "rect": {
+          "h": 25.1875,
+          "w": 136
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "キッチンの水アカ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:17",
+        "rect": {
+          "h": 185.5,
+          "w": 321.3125
+        },
+        "src": "/assets/images/first-lp/reused/closing-sink-before.webp",
+        "tag": "IMG",
+        "text": "キッチンの水アカ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:18",
+        "rect": {
+          "h": 185.5,
+          "w": 321.296875
+        },
+        "src": "/assets/images/first-lp/reused/closing-sink-after.webp",
+        "tag": "IMG",
+        "text": "キッチンの水アカ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:2",
+        "rect": {
+          "h": 22.796875,
+          "w": 321.3125
+        },
+        "src": null,
+        "tag": "P",
+        "text": "水アカも撃退",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:19",
+        "rect": {
+          "h": 151.1875,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/kitchen-offer.webp?v=845d186b2b",
+        "tag": "IMG",
+        "text": "キッチンクリーニング 通常料金18,700円 税込／1か所 まずは気になる場所の料金をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:5",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#voices-title",
+        "rect": {
+          "h": 36,
+          "w": 340.21875
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご利用いただいたお客様の声",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:20",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:3",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:0",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "吹き出し口の汚れについて相談しやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:4",
+        "rect": {
+          "h": 172.0625,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "吹き出し口の黒い点が気になっていました。作業前に清掃する範囲を分かりやすく説明してもらえたので、安心してお願いできました。当日に気になる点をあらためて伝えられ、どの部分を確認するのかも把握できたので、最初から最後まで落ち着いて相談できました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:21",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:5",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:1",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ニオイの悩みを丁寧に聞いてもらえました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:6",
+        "rect": {
+          "h": 172.0625,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンをつけた時のニオイが気になり相談しました。気になっていた箇所を先に確認してくれて、作業中も対応が丁寧でした。ニオイについては原因を決めつけず、確認できる範囲を説明してもらえたのが印象に残っています。気になったことを途中でも聞きやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:22",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:7",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:2",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "家族への気配りがありがたかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:8",
+        "rect": {
+          "h": 172.0625,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "小さな子どもがいるので作業中のことが心配でした。スタッフの方が声をかけながら進めてくださり、落ち着いて任せられました。作業の進め方を事前に聞けたため、家族にも予定を伝えやすかったです。小さなことにも目を向けていただけたと感じました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:23",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:9",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:3",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "シンクの水アカについて聞けました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:10",
+        "rect": {
+          "h": 146.71875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "毎日使う場所なので細かな汚れが気になっていました。清掃できる範囲を具体的に教えてもらえて助かりました。水栓まわりとシンクの違いなど、気になる場所ごとに聞けました。事前に確認してからメニューを選べたので安心でした。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:24",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:11",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:4",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "レンジフードの油汚れを相談できました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:12",
+        "rect": {
+          "h": 172.0625,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "自分では手が届きにくい内部が気になっていました。分解して清掃する範囲を事前に説明してもらえて安心でした。普段は外せない部分についても、作業前に質問できました。気になる油汚れの場所を伝えたうえで範囲を確認できたのがよかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:25",
+        "rect": {
+          "h": 47.828125,
+          "w": 85
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:13",
+        "rect": {
+          "h": 22.1875,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:5",
+        "rect": {
+          "h": 77.78125,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "コンロ周りの気になる点を伝えられました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:14",
+        "rect": {
+          "h": 172.0625,
+          "w": 290.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "五徳やコンロ周りの汚れについて相談しました。状態を確認しながら作業内容を説明していただけてよかったです。どこを重点的に見てもらいたいかを伝えられ、対象になる箇所も整理できました。日頃のお手入れで困っている点も相談しやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#comparison-title",
+        "rect": {
+          "h": 94.5,
+          "w": 347.78125
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ハウスクリーニング料金比較表",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:15",
+        "rect": {
+          "h": 20.34375,
+          "w": 347.78125
+        },
+        "src": null,
+        "tag": "P",
+        "text": "通常料金／各1台・1か所・税込",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "table:0",
+        "rect": {
+          "h": 504.484375,
+          "w": 900
+        },
+        "src": null,
+        "tag": "TABLE",
+        "text": "ハウスクリーニングの料金比較清掃メニュー当社A社B社C社D社E社エアコンお掃除機能なし13,200円15,400円14,300円13,200円14,300円9,980円キッチン18,700円20,680円19,580円19,800円18,700円17,930円浴室18,700円22,000円19,580円19,800円18,700円17,930円室外機の洗浄5,500円要見積り6,600円4,400円～5,500円3,300円防カビ・抗菌コート3,300円2,750円基本料金に含む4,400円～3,300円2,750円",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:16",
+        "rect": {
+          "h": 22.1875,
+          "w": 347.78125
+        },
+        "src": null,
+        "tag": "P",
+        "text": "表は左右にスクロールできます",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:26",
+        "rect": {
+          "h": 189,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/cta-menu.webp?v=5497a42a4a",
+        "tag": "IMG",
+        "text": "気になる場所から 清掃メニューを確認",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:6",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/aircon/",
+        "key": "a:7",
+        "rect": {
+          "h": 212,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "人気 エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:6",
+        "rect": {
+          "h": 48,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/pack/",
+        "key": "a:8",
+        "rect": {
+          "h": 212,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "パックサービス（まるごとクリーニング）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:7",
+        "rect": {
+          "h": 48,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "パックサービス（まるごとクリーニング）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/water/",
+        "key": "a:9",
+        "rect": {
+          "h": 196,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン 水まわり・浴室",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:8",
+        "rect": {
+          "h": 32,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "水まわり・浴室",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/washer/",
+        "key": "a:10",
+        "rect": {
+          "h": 196,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン 洗濯機",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:9",
+        "rect": {
+          "h": 32,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "洗濯機",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/kitchen/",
+        "key": "a:11",
+        "rect": {
+          "h": 203,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン キッチン",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:10",
+        "rect": {
+          "h": 39,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "キッチン",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/room/",
+        "key": "a:12",
+        "rect": {
+          "h": 203,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "お部屋（床・壁紙・ガラス等）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:11",
+        "rect": {
+          "h": 39,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "お部屋（床・壁紙・ガラス等）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/coating/",
+        "key": "a:13",
+        "rect": {
+          "h": 196,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "コーティング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:12",
+        "rect": {
+          "h": 32,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "コーティング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/others/",
+        "key": "a:14",
+        "rect": {
+          "h": 196,
+          "w": 167.390625
+        },
+        "src": null,
+        "tag": "A",
+        "text": "外壁洗浄・その他",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:13",
+        "rect": {
+          "h": 32,
+          "w": 151.390625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "外壁洗浄・その他",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#flow-title",
+        "rect": {
+          "h": 34.5,
+          "w": 340.21875
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご利用・お支払いまでの流れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:14",
+        "rect": {
+          "h": 24,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "無料見積り",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:17",
+        "rect": {
+          "h": 64.78125,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "サービス・商品一覧から内容と数量を選び、見積りカートで概算をご確認ください。具体的な作業内容は、ご相談時に確認します。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:15",
+        "rect": {
+          "h": 24,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ご連絡・ご相談",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:18",
+        "rect": {
+          "h": 43.1875,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "ご希望の作業箇所や日程を伺い、現地での確認が必要な点をご案内します。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:16",
+        "rect": {
+          "h": 24,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ご訪問・最終お見積り",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:19",
+        "rect": {
+          "h": 64.78125,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "担当者が設備や汚れ、作業範囲を確認し、所要時間と料金をご案内します。内容にご納得いただいてから作業を始めます。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:17",
+        "rect": {
+          "h": 24,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "サービスの実施・仕上がり確認",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:20",
+        "rect": {
+          "h": 86.375,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "確認した内容に沿って清掃・施工を行います。終了後は仕上がりをご確認いただき、気になる点があればその場でお知らせください。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:18",
+        "rect": {
+          "h": 24,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "お支払い",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:21",
+        "rect": {
+          "h": 64.78125,
+          "w": 243.21875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "作業内容と料金を確認後、現金・Visa／Mastercardのクレジットカード・電子決済でお支払いいただけます。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#faq-title",
+        "rect": {
+          "h": 37.5,
+          "w": 340.21875
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "よくあるご質問",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:27",
+        "rect": {
+          "h": 292.375,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/bath-lead.webp?v=111720e689",
+        "tag": "IMG",
+        "text": "お風呂の汚れも あきらめる前に！ こすっても落ちない汚れ 気になる水アカや黒ずみ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:28",
+        "rect": {
+          "h": 257.28125,
+          "w": 332.625
+        },
+        "src": "/assets/images/first-lp/art/bath-lead.webp?v=111720e689",
+        "tag": "IMG",
+        "text": "",
+        "visible": true
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "#bath-results-title",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "こびりついた浴槽の汚れもこんなにすっきり！",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-bath-tab-0",
+        "rect": {
+          "h": 25.1875,
+          "w": 178
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "浴槽のこびりついた汚れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:29",
+        "rect": {
+          "h": 185.5,
+          "w": 321.3125
+        },
+        "src": "/assets/images/first-lp/reused/closing-bath-before.webp",
+        "tag": "IMG",
+        "text": "浴槽のこびりついた汚れ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:30",
+        "rect": {
+          "h": 185.5,
+          "w": 321.296875
+        },
+        "src": "/assets/images/first-lp/reused/closing-bath-after.webp",
+        "tag": "IMG",
+        "text": "浴槽のこびりついた汚れ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:22",
+        "rect": {
+          "h": 24.6875,
+          "w": 321.3125
+        },
+        "src": null,
+        "tag": "P",
+        "text": "毎日のお風呂を快適に",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:31",
+        "rect": {
+          "h": 472.328125,
+          "w": 378
+        },
+        "src": "/assets/images/first-lp/art/cta-final.webp?v=66b3a367d2",
+        "tag": "IMG",
+        "text": "私の自宅なら いくらになる？ 1 メニューを選ぶ 2 カートに追加 3 合計をチェック 気になる場所を選んで 合計金額をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:32",
+        "rect": {
+          "h": 94.546875,
+          "w": 168
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:15",
+        "rect": {
+          "h": 66,
+          "w": 264
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料見積もりを試す",
+        "visible": true
+      }
+    ],
+    "overflow": -15,
+    "url": "/beginner/",
+    "viewport": 393
+  },
+  "pc": {
+    "items": [
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h1:0",
+        "rect": {
+          "h": 3180.390625,
+          "w": 1265
+        },
+        "src": null,
+        "tag": "H1",
+        "text": "",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:4",
+        "rect": {
+          "h": 3472.46875,
+          "w": 1265
+        },
+        "src": "/assets/images/first-lp/art/opening-integrated.webp?v=d22dc0ebbf",
+        "tag": "IMG",
+        "text": "初めてのハウスクリーニング 大切な住まいに 確かな手仕事と 誠実な説明を 気になる汚れも ご依頼前の不安も プロにお任せください！ こびりついた汚れも ここまできれいに！ 人気メニュー エアコンクリーニング 壁掛け・お掃除機能なし 通常料金13,200円 税込／台 まずは気になる場所の料金をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "h2:0",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "プロにお任せください！",
+        "visible": false
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "#cases-title",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "こびりついた汚れもここまできれいに！",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-case-tab-0",
+        "rect": {
+          "h": 30.59375,
+          "w": 177
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "エアコンのお手入れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-case-tab-1",
+        "rect": {
+          "h": 30.59375,
+          "w": 211
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "レンジフードのお手入れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:5",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.25
+        },
+        "src": "/assets/images/first-lp/reused/aircon-case-before.webp",
+        "tag": "IMG",
+        "text": "エアコンのお手入れ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:6",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.21875
+        },
+        "src": "/assets/images/first-lp/reused/aircon-case-after.webp",
+        "tag": "IMG",
+        "text": "エアコンのお手入れ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:0",
+        "rect": {
+          "h": 25.59375,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "普段のお手入れでは届きにくい内部まで機種と状態に合わせて丁寧に清掃します",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:7",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": "/assets/images/first-lp/reused/kitchen-case-before.webp",
+        "tag": "IMG",
+        "text": "レンジフードのお手入れ Beforeのイメージ",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:8",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": "/assets/images/first-lp/reused/kitchen-case-after.webp",
+        "tag": "IMG",
+        "text": "レンジフードのお手入れ Afterのイメージ",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:1",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": null,
+        "tag": "P",
+        "text": "こびりついた油汚れも一つひとつ丁寧に 素材に合う洗剤と道具で仕上げます",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:2",
+        "rect": {
+          "h": 88,
+          "w": 480
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:9",
+        "rect": {
+          "h": 2226.4375,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/story-consult.webp?v=25fd835ebd",
+        "tag": "IMG",
+        "text": "汚れや料金の不安から相談 事前説明と安心へつながる6場面の漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#consult-title",
+        "rect": {
+          "h": 108.75,
+          "w": 1113.1875
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご依頼の前に！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:10",
+        "rect": {
+          "h": 1669.828125,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/quality.webp?v=43b80041f7",
+        "tag": "IMG",
+        "text": "仕上がりを支える 私たちの6つの姿勢 汚れと素材の確認 誠実な説明 住まいの保護 学び 仕上がり確認 礼節を 同じスタッフのイラストで紹介",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:11",
+        "rect": {
+          "h": 459.53125,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/cta-assurance.webp?v=1e0a313151",
+        "tag": "IMG",
+        "text": "大切な住まいだから 納得が重要！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:3",
+        "rect": {
+          "h": 88,
+          "w": 480
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:12",
+        "rect": {
+          "h": 2125.25,
+          "w": 1062.625
+        },
+        "src": "/assets/images/first-lp/art/story-work.webp?v=9cc38f3ba9",
+        "tag": "IMG",
+        "text": "見えないところにも 責任を 素材の確認 住まいの保護 道具選びと丁寧な作業を描く連続シーンの漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:13",
+        "rect": {
+          "h": 1948.125,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/hygiene-board.webp?v=e59537030c",
+        "tag": "IMG",
+        "text": "清潔を届ける私たち自身も 清潔であること 手指と道具 マスクと換気 生活環境への配慮をイラストで紹介",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:14",
+        "rect": {
+          "h": 2125.25,
+          "w": 1062.625
+        },
+        "src": "/assets/images/first-lp/art/story-finish.webp?v=3bbe71bdd9",
+        "tag": "IMG",
+        "text": "仕上がりの その先まで 仕上がりの確認から日常のお手入れ ごあいさつへ続く5場面の漫画",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:15",
+        "rect": {
+          "h": 459.53125,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/cta-aftercare.webp?v=384a6f6c0e",
+        "tag": "IMG",
+        "text": "きれいになった その先も 頼れる清掃を",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:4",
+        "rect": {
+          "h": 88,
+          "w": 480
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:16",
+        "rect": {
+          "h": 1745.71875,
+          "w": 1163.8125
+        },
+        "src": "/assets/images/first-lp/art/closing-concerns.webp?v=7be7b111f3",
+        "tag": "IMG",
+        "text": "気になる汚れ そのままにしていませんか？ 自分では落としきれない 気になる場所がいくつもある 忙しくて手が回らない まとめて頼むといくら？ そのお悩み プロの清掃で気持ちよく！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h2:3",
+        "rect": {
+          "h": 150.78125,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "気になっていた場所もこんなにすっきり！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-sink-tab-0",
+        "rect": {
+          "h": 28.796875,
+          "w": 152
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "キッチンの水アカ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:17",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.25
+        },
+        "src": "/assets/images/first-lp/reused/closing-sink-before.webp",
+        "tag": "IMG",
+        "text": "キッチンの水アカ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:18",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.21875
+        },
+        "src": "/assets/images/first-lp/reused/closing-sink-after.webp",
+        "tag": "IMG",
+        "text": "キッチンの水アカ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:2",
+        "rect": {
+          "h": 28.5,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "水アカも撃退",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:19",
+        "rect": {
+          "h": 556.609375,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/kitchen-offer.webp?v=845d186b2b",
+        "tag": "IMG",
+        "text": "キッチンクリーニング 通常料金18,700円 税込／1か所 まずは気になる場所の料金をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:5",
+        "rect": {
+          "h": 88,
+          "w": 480
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#voices-title",
+        "rect": {
+          "h": 51,
+          "w": 1138.5
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご利用いただいたお客様の声",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:20",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:3",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:0",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "吹き出し口の汚れについて相談しやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:4",
+        "rect": {
+          "h": 172.0625,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "吹き出し口の黒い点が気になっていました。作業前に清掃する範囲を分かりやすく説明してもらえたので、安心してお願いできました。当日に気になる点をあらためて伝えられ、どの部分を確認するのかも把握できたので、最初から最後まで落ち着いて相談できました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:21",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:5",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:1",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ニオイの悩みを丁寧に聞いてもらえました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:6",
+        "rect": {
+          "h": 172.0625,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンをつけた時のニオイが気になり相談しました。気になっていた箇所を先に確認してくれて、作業中も対応が丁寧でした。ニオイについては原因を決めつけず、確認できる範囲を説明してもらえたのが印象に残っています。気になったことを途中でも聞きやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:22",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:7",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:2",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "家族への気配りがありがたかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:8",
+        "rect": {
+          "h": 172.0625,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "小さな子どもがいるので作業中のことが心配でした。スタッフの方が声をかけながら進めてくださり、落ち着いて任せられました。作業の進め方を事前に聞けたため、家族にも予定を伝えやすかったです。小さなことにも目を向けていただけたと感じました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:23",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:9",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:3",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "シンクの水アカについて聞けました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:10",
+        "rect": {
+          "h": 146.71875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "毎日使う場所なので細かな汚れが気になっていました。清掃できる範囲を具体的に教えてもらえて助かりました。水栓まわりとシンクの違いなど、気になる場所ごとに聞けました。事前に確認してからメニューを選べたので安心でした。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:24",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:11",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:4",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "レンジフードの油汚れを相談できました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:12",
+        "rect": {
+          "h": 146.71875,
+          "w": 320.171875
+        },
+        "src": null,
+        "tag": "P",
+        "text": "自分では手が届きにくい内部が気になっていました。分解して清掃する範囲を事前に説明してもらえて安心でした。普段は外せない部分についても、作業前に質問できました。気になる油汚れの場所を伝えたうえで範囲を確認できたのがよかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:25",
+        "rect": {
+          "h": 50.640625,
+          "w": 90
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:13",
+        "rect": {
+          "h": 22.1875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "キッチンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:5",
+        "rect": {
+          "h": 77.78125,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "コンロ周りの気になる点を伝えられました。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:14",
+        "rect": {
+          "h": 146.71875,
+          "w": 320.15625
+        },
+        "src": null,
+        "tag": "P",
+        "text": "五徳やコンロ周りの汚れについて相談しました。状態を確認しながら作業内容を説明していただけてよかったです。どこを重点的に見てもらいたいかを伝えられ、対象になる箇所も整理できました。日頃のお手入れで困っている点も相談しやすかったです。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#comparison-title",
+        "rect": {
+          "h": 126,
+          "w": 1163.8125
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ハウスクリーニング料金比較表",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:15",
+        "rect": {
+          "h": 24.046875,
+          "w": 1163.8125
+        },
+        "src": null,
+        "tag": "P",
+        "text": "通常料金／各1台・1か所・税込",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "table:0",
+        "rect": {
+          "h": 504.484375,
+          "w": 1163.8125
+        },
+        "src": null,
+        "tag": "TABLE",
+        "text": "ハウスクリーニングの料金比較清掃メニュー当社A社B社C社D社E社エアコンお掃除機能なし13,200円15,400円14,300円13,200円14,300円9,980円キッチン18,700円20,680円19,580円19,800円18,700円17,930円浴室18,700円22,000円19,580円19,800円18,700円17,930円室外機の洗浄5,500円要見積り6,600円4,400円～5,500円3,300円防カビ・抗菌コート3,300円2,750円基本料金に含む4,400円～3,300円2,750円",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:16",
+        "rect": {
+          "h": 0,
+          "w": 0
+        },
+        "src": null,
+        "tag": "P",
+        "text": "表は左右にスクロールできます",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:26",
+        "rect": {
+          "h": 459.53125,
+          "w": 1113.21875
+        },
+        "src": "/assets/images/first-lp/art/cta-menu.webp?v=5497a42a4a",
+        "tag": "IMG",
+        "text": "気になる場所から 清掃メニューを確認",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:6",
+        "rect": {
+          "h": 88,
+          "w": 480
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料お見積もり",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/aircon/",
+        "key": "a:7",
+        "rect": {
+          "h": 224,
+          "w": 266.296875
+        },
+        "src": null,
+        "tag": "A",
+        "text": "人気 エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:6",
+        "rect": {
+          "h": 48,
+          "w": 242.296875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "エアコンクリーニング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/pack/",
+        "key": "a:8",
+        "rect": {
+          "h": 224,
+          "w": 266.3125
+        },
+        "src": null,
+        "tag": "A",
+        "text": "パックサービス（まるごとクリーニング）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:7",
+        "rect": {
+          "h": 48,
+          "w": 242.3125
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "パックサービス（まるごとクリーニング）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/water/",
+        "key": "a:9",
+        "rect": {
+          "h": 224,
+          "w": 266.296875
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン 水まわり・浴室",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:8",
+        "rect": {
+          "h": 48,
+          "w": 242.296875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "水まわり・浴室",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/washer/",
+        "key": "a:10",
+        "rect": {
+          "h": 224,
+          "w": 266.3125
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン 洗濯機",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:9",
+        "rect": {
+          "h": 48,
+          "w": 242.3125
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "洗濯機",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/kitchen/",
+        "key": "a:11",
+        "rect": {
+          "h": 224,
+          "w": 266.296875
+        },
+        "src": null,
+        "tag": "A",
+        "text": "キャンペーン キッチン",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:10",
+        "rect": {
+          "h": 48,
+          "w": 242.296875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "キッチン",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/room/",
+        "key": "a:12",
+        "rect": {
+          "h": 224,
+          "w": 266.3125
+        },
+        "src": null,
+        "tag": "A",
+        "text": "お部屋（床・壁紙・ガラス等）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:11",
+        "rect": {
+          "h": 48,
+          "w": 242.3125
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "お部屋（床・壁紙・ガラス等）",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/coating/",
+        "key": "a:13",
+        "rect": {
+          "h": 224,
+          "w": 266.296875
+        },
+        "src": null,
+        "tag": "A",
+        "text": "コーティング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:12",
+        "rect": {
+          "h": 48,
+          "w": 242.296875
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "コーティング",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/house-cleaning/others/",
+        "key": "a:14",
+        "rect": {
+          "h": 224,
+          "w": 266.3125
+        },
+        "src": null,
+        "tag": "A",
+        "text": "外壁洗浄・その他",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:13",
+        "rect": {
+          "h": 48,
+          "w": 242.3125
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "外壁洗浄・その他",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#flow-title",
+        "rect": {
+          "h": 51,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "ご利用・お支払いまでの流れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:14",
+        "rect": {
+          "h": 31.5,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "無料見積り",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:17",
+        "rect": {
+          "h": 25.890625,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "サービス・商品一覧から内容と数量を選び、見積りカートで概算をご確認ください。具体的な作業内容は、ご相談時に確認します。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:15",
+        "rect": {
+          "h": 31.5,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ご連絡・ご相談",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:18",
+        "rect": {
+          "h": 25.890625,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "ご希望の作業箇所や日程を伺い、現地での確認が必要な点をご案内します。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:16",
+        "rect": {
+          "h": 31.5,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "ご訪問・最終お見積り",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:19",
+        "rect": {
+          "h": 25.890625,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "担当者が設備や汚れ、作業範囲を確認し、所要時間と料金をご案内します。内容にご納得いただいてから作業を始めます。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:17",
+        "rect": {
+          "h": 31.5,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "サービスの実施・仕上がり確認",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:20",
+        "rect": {
+          "h": 25.890625,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "確認した内容に沿って清掃・施工を行います。終了後は仕上がりをご確認いただき、気になる点があればその場でお知らせください。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "h3:18",
+        "rect": {
+          "h": 31.5,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "H3",
+        "text": "お支払い",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:21",
+        "rect": {
+          "h": 25.890625,
+          "w": 911.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "作業内容と料金を確認後、現金・Visa／Mastercardのクレジットカード・電子決済でお支払いいただけます。",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#faq-title",
+        "rect": {
+          "h": 51,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "よくあるご質問",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:27",
+        "rect": {
+          "h": 978.453125,
+          "w": 1265
+        },
+        "src": "/assets/images/first-lp/art/bath-lead.webp?v=111720e689",
+        "tag": "IMG",
+        "text": "お風呂の汚れも あきらめる前に！ こすっても落ちない汚れ 気になる水アカや黒ずみ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:28",
+        "rect": {
+          "h": 861.03125,
+          "w": 1113.1875
+        },
+        "src": "/assets/images/first-lp/art/bath-lead.webp?v=111720e689",
+        "tag": "IMG",
+        "text": "",
+        "visible": true
+      },
+      {
+        "clip": "inset(50%)",
+        "href": null,
+        "key": "#bath-results-title",
+        "rect": {
+          "h": 1,
+          "w": 1
+        },
+        "src": null,
+        "tag": "H2",
+        "text": "こびりついた浴槽の汚れもこんなにすっきり！",
+        "visible": false
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "#lp-bath-tab-0",
+        "rect": {
+          "h": 28.796875,
+          "w": 200
+        },
+        "src": null,
+        "tag": "BUTTON",
+        "text": "浴槽のこびりついた汚れ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:29",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.25
+        },
+        "src": "/assets/images/first-lp/reused/closing-bath-before.webp",
+        "tag": "IMG",
+        "text": "浴槽のこびりついた汚れ Beforeのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:30",
+        "rect": {
+          "h": 620.765625,
+          "w": 1075.21875
+        },
+        "src": "/assets/images/first-lp/reused/closing-bath-after.webp",
+        "tag": "IMG",
+        "text": "浴槽のこびりついた汚れ Afterのイメージ",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "p:22",
+        "rect": {
+          "h": 28.5,
+          "w": 1075.25
+        },
+        "src": null,
+        "tag": "P",
+        "text": "毎日のお風呂を快適に",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:31",
+        "rect": {
+          "h": 1580.671875,
+          "w": 1265
+        },
+        "src": "/assets/images/first-lp/art/cta-final.webp?v=66b3a367d2",
+        "tag": "IMG",
+        "text": "私の自宅なら いくらになる？ 1 メニューを選ぶ 2 カートに追加 3 合計をチェック 気になる場所を選んで 合計金額をチェック！",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": null,
+        "key": "img:32",
+        "rect": {
+          "h": 168.828125,
+          "w": 300
+        },
+        "src": "/assets/images/crystal-clean-home.png",
+        "tag": "IMG",
+        "text": "クリスタルクリーンホーム",
+        "visible": true
+      },
+      {
+        "clip": "none",
+        "href": "/quick_cart/",
+        "key": "a:15",
+        "rect": {
+          "h": 76,
+          "w": 400
+        },
+        "src": null,
+        "tag": "A",
+        "text": "無料見積もりを試す",
+        "visible": true
+      }
+    ],
+    "overflow": -15,
+    "url": "/beginner/",
+    "viewport": 1280
+  }
+}

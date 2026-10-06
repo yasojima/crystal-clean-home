@@ -80,7 +80,7 @@
 }
 
 .home-first-guide-section { padding-block: 24px 0; }
-.home-guide-mobile { display: none; }
+
 
 .home-first-guide-frame {
   position: relative;
@@ -383,6 +383,8 @@
 
 @media (max-width: 767.98px) {
   .home-actions { gap: 12px; }
+  .home-socials__rail,
+  .home-socials__links .c-footer-sns__link { transition: none; }
 }
 
 /* Iekire's mobile simulation layout; its mobile rem is 14px. */
@@ -477,18 +479,14 @@
   .c-home .home-first-guide {
     position: relative;
     inset: auto;
-    min-height: 168px;
-    border: 1px solid #b9ddfa;
-    border-radius: 16px;
-    background: linear-gradient(115deg, #fff 45%, #edf7fd);
+    border-radius: 8px;
   }
-  .home-first-guide__art, .home-first-guide__logo { display: none; }
-  .home-guide-mobile { display: grid; gap: 8px; padding: 14px 16px; color: #005bac; }
-  .home-guide-mobile__top { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
-  .home-guide-mobile__logo { width: 88px; height: 42px; object-fit: contain; }
-  .home-guide-mobile__eyebrow { padding: 3px 10px; border-radius: 9999px; background: #e3f1fc; font-size: 11px; letter-spacing: .08em; white-space: nowrap; }
-  .home-guide-mobile__title { padding-right: 26px; font-family: var(--site-heading-font); font-size: clamp(19px, 5.1vw, 22px); font-weight: 700; line-height: 1.4; text-wrap: balance; }
-  .home-guide-mobile__description { font-size: 13px; line-height: 1.6; color: #365e7d; }
-  .home-guide-mobile__topics { border-top: 1px solid #cfe5f7; padding-top: 8px; font-size: 11px; line-height: 1.6; white-space: nowrap; }
-  .home-guide-mobile__arrow { position: absolute; right: 12px; top: 74px; display: grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: #005bac; color: #fff; font-size: 27px; line-height: 1; }
+  .home-first-guide__picture { display: block; }
+  .home-first-guide .home-first-guide__art {
+    position: static;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .home-first-guide__logo { display: none; }
 }

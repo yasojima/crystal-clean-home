@@ -21,6 +21,8 @@
   width: 360px;
   max-width: 100%;
   grid-template-rows: 72px 304px 52px;
+  border-bottom-right-radius: 32px;
+  overflow: hidden;
 }
 .home-concerns__service {
   display: flex;
@@ -68,7 +70,8 @@
 .home-concerns__service-link {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-inline: 24px;
   color: #fff;
   font-size: 14px;
   font-weight: 700;

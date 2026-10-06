@@ -1,0 +1,44 @@
+{
+  "mode": "built-in image_gen",
+  "purpose": "mobile banners matching established desktop taste",
+  "inputs": [
+    "source/site/assets/images/home/first-guide-banner.png",
+    "source/site/assets/images/home/business-guide-banner.png"
+  ],
+  "outputs": [
+    "source/site/assets/images/home/first-guide-banner-mobile.png",
+    "source/site/assets/images/home/business-guide-banner-mobile.png"
+  ],
+  "prompt_set": [
+    {
+      "asset": "first-guide-banner-mobile.png",
+      "use_case": "ads-marketing",
+      "request": "Edit the supplied Crystal Clean Home first guide into a 2.4:1 mobile landscape banner without outer white margins. Retain blue #005BAC, pale-blue fine border, clean white, realistic towels/green plant, curved white panel, circular arrow and glossy Crystal CleanHome logo. Small logo and FIRST GUIDE in top row. Large bold headline across two lines, then concise subtitle and three outlined chips. Readable at360px. No extra text or watermark.",
+      "headline": [
+        "はじめての方へ、",
+        "安心ガイド。"
+      ],
+      "subtitle": "サービス内容・料金・ご利用の流れ",
+      "chips": [
+        "料金の目安",
+        "ご利用の流れ",
+        "よくある質問"
+      ]
+    },
+    {
+      "asset": "business-guide-banner-mobile.png",
+      "use_case": "ads-marketing",
+      "request": "Edit supplied business guide as exact companion to mobile first guide. Same2.4:1 edge-to-edge mobile rectangle, colors, logo, fine border and type hierarchy. Bright realistic office reception/green plants behind curved white panel at right, circular arrow. Small logo and FOR BUSINESS at top, very large two-line headline, one subtitle and three outlined chips. Readable at360px. No added text or watermark.",
+      "headline": [
+        "店舗・オフィスの",
+        "清掃相談はこちら。"
+      ],
+      "subtitle": "頻度・時間帯・作業範囲に合わせてご案内",
+      "chips": [
+        "定期清掃",
+        "スポット対応",
+        "お見積り無料"
+      ]
+    }
+  ]
+}
