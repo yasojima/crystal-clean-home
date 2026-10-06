@@ -1,0 +1,27 @@
+{
+  "styles": {
+    "background": "rgb(227, 241, 252)",
+    "bodyColor": "rgb(33, 37, 41)",
+    "brackets": [
+      "\"(\"",
+      "\")\""
+    ],
+    "cardHeadColor": "rgb(187, 220, 249)",
+    "cardHeadHeight": 109,
+    "cardWidth": 384,
+    "centerError": 0,
+    "cta": "rgb(0, 91, 172)",
+    "ctaRect": {
+      "x": 336.5,
+      "y": 811.828125
+    },
+    "headingFont": "24px",
+    "headingGap": "24px",
+    "shadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+  },
+  "hover": {
+    "duration": "0.6s",
+    "hovered": true,
+    "name": "sparkle"
+  }
+}

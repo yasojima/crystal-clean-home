@@ -1,0 +1,6221 @@
+[
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 657.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1009.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 681.828125
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 548.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 657.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1009.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 681.828125
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 548.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 1280
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 1200.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1552.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 1224.828125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 1091.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 1200.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1552.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 1224.828125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 1091.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 1280
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 1280
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 1280
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 236.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 236.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 368.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 236.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 644.5,
+          "y": 659.828125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 644.5,
+          "y": 1011.828125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 776.5,
+          "y": 683.828125
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 644.5,
+          "y": 550.828125
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 1280
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 316.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 316.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 448.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 316.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 724.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 724.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 856.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 724.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 1440
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 112.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 112.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 244.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 112.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 520.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 520.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 652.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 520.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 928.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 928.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1060.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 928.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 520.5,
+          "y": 1200.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 520.5,
+          "y": 1552.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 652.5,
+          "y": 1224.875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 520.5,
+          "y": 1091.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 1440
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 316.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 316.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 448.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 316.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 724.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 724.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 856.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 724.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 1440
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 316.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 316.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 448.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 316.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 724.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 724.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 856.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 724.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 1440
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 316.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 316.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 448.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 316.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 724.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 724.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 856.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 724.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 1440
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 1024
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 1200.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1552.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 1224.15625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 1091.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 1200.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1552.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 1224.15625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 1091.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 1024
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 1024
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 1024
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 108.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 108.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 240.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 108.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 516.5,
+          "y": 659.15625
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 516.5,
+          "y": 1011.15625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 648.5,
+          "y": 683.15625
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 516.5,
+          "y": 550.15625
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 1024
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 659.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1011.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 683.171875
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 550.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1200.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1552.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1224.171875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1091.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 768
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 659.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1011.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 683.171875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 550.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1200.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1552.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1224.171875
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1091.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1741.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 2093.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1765.171875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1632.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 2282.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 2634.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 2306.171875
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 2173.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 768
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 659.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1011.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 683.171875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 550.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1200.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1552.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1224.171875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1091.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 768
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 659.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1011.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 683.171875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 550.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1200.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1552.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1224.171875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1091.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 768
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 659.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1011.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 683.171875
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 550.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 184.5,
+          "y": 1200.171875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 184.5,
+          "y": 1552.171875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 316.5,
+          "y": 1224.171875
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 184.5,
+          "y": 1091.171875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 768
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 556.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 556.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 688.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 556.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 964.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 964.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1096.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 964.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 1920
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 352.5,
+          "y": 659.944580078125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 352.5,
+          "y": 1011.944580078125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 484.5,
+          "y": 683.944580078125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 352.5,
+          "y": 550.944580078125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 760.5,
+          "y": 659.944580078125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 760.5,
+          "y": 1011.944580078125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 892.5,
+          "y": 683.944580078125
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 760.5,
+          "y": 550.944580078125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 1168.5,
+          "y": 659.944580078125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 1168.5,
+          "y": 1011.944580078125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1300.5,
+          "y": 683.944580078125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 1168.5,
+          "y": 550.944580078125
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 760.5,
+          "y": 1200.944580078125
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 760.5,
+          "y": 1552.944580078125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 892.5,
+          "y": 1224.944580078125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 760.5,
+          "y": 1091.944580078125
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 1920
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 556.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 556.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 688.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 556.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 964.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 964.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1096.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 964.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 1920
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 556.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 556.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 688.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 556.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 964.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 964.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1096.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 964.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 1920
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 556.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 556.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 688.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 556.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "24px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 384,
+          "x": 964.5,
+          "y": 659.875
+        },
+        "cta": {
+          "height": 56,
+          "width": 384,
+          "x": 964.5,
+          "y": 1011.875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 92,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 1096.5,
+          "y": 683.875
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "16px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 517,
+          "width": 384,
+          "x": 964.5,
+          "y": 550.875
+        },
+        "service": {
+          "align": "center",
+          "font": "18px",
+          "height": 109,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 1920
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 681.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1033.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 4,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 697.734375
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 585.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 1205.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1557.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1221.734375
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 1109.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 320
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 681.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1033.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 697.734375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 585.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 1205.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1557.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1221.734375
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 1109.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 1729.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 2081.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1745.734375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 1633.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 2253.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 2605.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 2269.734375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 2157.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 320
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 681.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1033.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 697.734375
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 585.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 1205.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1557.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1221.734375
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 1109.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 320
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 644.8041381835938
+        },
+        "cta": {
+          "height": 52.00006103515625,
+          "width": 275,
+          "x": 15,
+          "y": 996.8041381835938
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 660.8041381835938
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 500.00006103515625,
+          "width": 275,
+          "x": 15,
+          "y": 548.8041381835938
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 351.9998779296875,
+          "width": 275,
+          "x": 15,
+          "y": 1168.80419921875
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1520.8040771484375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 4,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1184.80419921875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 63.9998779296875,
+          "lines": 2,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 499.9998779296875,
+          "width": 275,
+          "x": 15,
+          "y": 1072.80419921875
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 320
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 644.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 996.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 660.734375
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 548.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 275,
+          "x": 15,
+          "y": 1168.734375
+        },
+        "cta": {
+          "height": 52,
+          "width": 275,
+          "x": 15,
+          "y": 1520.734375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 92.5,
+          "y": 1184.734375
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 275,
+          "x": 15,
+          "y": 1072.734375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 320
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 681.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1033.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 697.59375
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 585.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1205.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1557.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1221.59375
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1109.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 375
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 681.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1033.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 697.59375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 585.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1205.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1557.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1221.59375
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1109.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1729.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 2081.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1745.59375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1633.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 2253.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 2605.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 2269.59375
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 2157.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 375
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 681.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1033.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 697.59375
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 585.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1205.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1557.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1221.59375
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1109.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 375
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 681.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1033.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 697.59375
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 585.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1205.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1557.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1221.59375
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1109.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 375
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 644.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 996.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 660.59375
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 548.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 330,
+          "x": 15,
+          "y": 1168.59375
+        },
+        "cta": {
+          "height": 52,
+          "width": 330,
+          "x": 15,
+          "y": 1520.59375
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 120,
+          "y": 1184.59375
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 330,
+          "x": 15,
+          "y": 1072.59375
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 375
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 681.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1033.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 697.625
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 2,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 585.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1205.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1557.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1221.625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1109.625
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 390
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 681.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1033.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 697.625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 585.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1205.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1557.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1221.625
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1109.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1729.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 2081.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1745.625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1633.625
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 2253.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 2605.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 2269.625
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 2157.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 390
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 681.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1033.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 697.625
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 585.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1205.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1557.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1221.625
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1109.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 390
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 681.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1033.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 697.625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 585.625
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1205.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1557.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1221.625
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1109.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 390
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 644.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 996.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 660.625
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 548.625
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 345,
+          "x": 15,
+          "y": 1168.625
+        },
+        "cta": {
+          "height": 52,
+          "width": 345,
+          "x": 15,
+          "y": 1520.625
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 127.5,
+          "y": 1184.625
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 345,
+          "x": 15,
+          "y": 1072.625
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 390
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 682.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1034.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "専門スタッフがエアコンを分解し、内部まで丁寧に洗浄します。壁掛けタイプ（お掃除機能なし・付き）と天井埋め込みタイプに対応。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 698.03125
+        },
+        "link": "/house-cleaning/aircon/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンから嫌なニオイ・吹き出し口に黒い点がある"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 586.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "エアコンクリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1206.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1558.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇に汚れがたまると吸い込む力が弱まり、エアコンに油汚れが付着しやすくなることがあります。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1222.03125
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "リビングのエアコンが汚れやすい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1110.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "エアコン",
+    "tabOverflow": false,
+    "viewport": 430
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 682.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1034.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用洗剤とプロの技で、頑固なカビや水アカも丁寧に洗浄。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 698.03125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室のカビが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 586.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "風呂・浴室クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1206.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1558.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "特殊コーティングで清潔さが続きます。「撥水」「防汚」「素材保護」の3つの効果によって、日々のお手入れも手軽に。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1222.03125
+        },
+        "link": "/house-cleaning/coating/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "水まわりの普段の掃除を楽にしたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1110.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "防汚コーティング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1730.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 2082.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "微細な泡と専用除菌剤を使い、追い焚き配管内の汚れを浮かせて除菌します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1746.03125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "追い焚き配管（風呂釜）の雑菌が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1634.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室（風呂釜）の追い焚き配管除菌クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 2254.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 2606.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "浴室の循環アダプターを交換し、微細な泡に満たされたお風呂をお楽しみいただけます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 2270.03125
+        },
+        "link": "/house-cleaning/water/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室をさらに充実させたい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 2158.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "浴室用アダプター取り付け"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "水まわり",
+    "tabOverflow": false,
+    "viewport": 430
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 682.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1034.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "縦型洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 698.03125
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 586.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "縦型洗濯機クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1206.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1558.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "ドラム式洗濯機の内部に付着したカビや雑菌を、除菌剤と専用機材で丁寧に除菌洗浄します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1222.03125
+        },
+        "link": "/house-cleaning/washer/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機の汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1110.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "ドラム式洗濯機クリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "洗濯機",
+    "tabOverflow": false,
+    "viewport": 430
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 682.1004638671875
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1034.1004638671875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "換気扇のファンやフィルターまで分解し、落ちにくい油汚れを丁寧に洗い流して換気効率を整えます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 698.1004638671875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "換気扇の油汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 586.1004638671875
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "レンジフード・換気扇クリーニング"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1206.1004638671875
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1558.1004638671875
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 3,
+          "overflow": false,
+          "text": "ガス台、コンロ、シンクに加え、グリルや高所の照明・吊戸棚の表面、窓や壁まで清掃し、キッチン全体をきれいに仕上げます。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1222.1004638671875
+        },
+        "link": "/house-cleaning/kitchen/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンシンクやコンロの汚れが気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1110.1004638671875
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "キッチンクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "キッチン",
+    "tabOverflow": false,
+    "viewport": 430
+  },
+  {
+    "after": "\")\"",
+    "background": "rgb(227, 241, 252)",
+    "before": "\"(\"",
+    "cards": [
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 645.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 997.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "専用器材と熟練の技術で外壁を丁寧に洗浄し、短い時間で美しさを取り戻します。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 661.03125
+        },
+        "link": "/house-cleaning/others/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁の雨だれや苔が気になる"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 549.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "20px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "外壁手洗い洗浄"
+        }
+      },
+      {
+        "background": "rgb(187, 220, 249)",
+        "body": {
+          "height": 352,
+          "width": 385,
+          "x": 15,
+          "y": 1169.03125
+        },
+        "cta": {
+          "height": 52,
+          "width": 385,
+          "x": 15,
+          "y": 1521.03125
+        },
+        "ctaColor": "rgb(0, 91, 172)",
+        "description": {
+          "align": "center",
+          "font": "13px",
+          "height": 96,
+          "lines": 2,
+          "overflow": false,
+          "text": "退去後や入居前のお掃除をまとめて頼めるパックです。新生活の準備をプロがお手伝いします。"
+        },
+        "image": {
+          "height": 120,
+          "width": 120,
+          "x": 147.5,
+          "y": 1185.03125
+        },
+        "link": "/house-cleaning/pack/",
+        "question": {
+          "align": "center",
+          "font": "14px",
+          "height": 64,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越しを機に部屋を丸ごとお掃除してほしい"
+        },
+        "rect": {
+          "height": 500,
+          "width": 385,
+          "x": 15,
+          "y": 1073.03125
+        },
+        "service": {
+          "align": "center",
+          "font": "16px",
+          "height": 96,
+          "lines": 1,
+          "overflow": false,
+          "text": "引越し前・後 まるごとクリーニング"
+        }
+      }
+    ],
+    "pageOverflow": false,
+    "selected": "外壁・その他",
+    "tabOverflow": false,
+    "viewport": 430
+  }
+]
