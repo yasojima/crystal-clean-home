@@ -217,3 +217,12 @@ CHG-009／010公開確認：ソースc147399／Pages298ea82／Actions37398174349
 ## 2026-10-06 画像比率・中央配置の公開確認
 
 CHG-011公開確認：ソースffc7b4d／Pagesf80d0d3／Actions37421766721が成功。変更65ファイルのHTTP200・SHA-256一致を確認。公開PC1280px・スマホ390pxのカード中央配置・共通寸法・電話数字列との中央一致・横はみ出しなしを確認し、問い合わせ／詳細のホバーはともに0.6秒のsparkleが実際のhover状態で動作した。一覧・シミュレーション・お悩みの拡大画像を公開画面で目視確認。証拠はevidence/2026-10-06/artwork-scaleのpublication.json、public-hashes.json、public-layouts.json、公開画面。人間による見た目の採用と実機検収は別とする。
+
+## CHG-2026-10-06-013 公開反映と確認記録
+
+- 実装ソース：6b6afb429cef628c022ffc8a73aed79ef1ae106f。追加のプラン素材修正：d5f8c81。
+- Pages：e89492ad361e480400721bb8260debddb083784d。GitHub Actions 37459898251 はsuccess。初回反映4ee1ced／Actions 37458162770も成功後、追加修正で更新した。
+- 公開された60HTML＋変更CSS4件の計64ファイルをソースのSHA-256と照合し、64/64一致・HTTP 200を確認。公開対象の共通UIがある11ページで320／393／1280pxの33条件を実表示測定し、両行の折り返し・横はみ出しなし。スマホのサービス分類・比較タブは実高25.1875px。
+- HOME全5分類を公開操作して12件の収まり・共通領域高・詳細CTAの#005BACと右下32pxを確認。エアコンの比較3タブ／プラン2タブの選択と対応表示も公開確認。追加のプラン素材は壁掛け2枚・天井1枚の新素材、80px枠を維持。画像以外の価格・カート処理は変更なし。
+- 共通生成60HTML、サービス生成8ページ、46素材の対応、60ページ識別、1,520ファイルのマニフェストとコミットされた配信ツリーの整合を確認。
+- 証拠：evidence/2026-10-06/shared-mobile-refinement/ のdeployment.json・public-shared-layouts.json・public-home-layouts.json・public-interactions.json・public-final-aircon.jsonとPC／スマホの画面。参照CSS抜粋と測定値、ローカル39タブ操作も同フォルダーに保存。実機スマホでの採用確認は含まない。
