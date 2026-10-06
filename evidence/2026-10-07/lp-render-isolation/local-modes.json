@@ -1,0 +1,121 @@
+[
+  {
+    "effects": {
+      "clips": 19,
+      "filters": 2,
+      "masks": 10,
+      "shadows": 39,
+      "svgBackgrounds": 6
+    },
+    "mode": "0",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 0\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      47,
+      524,
+      340,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 450,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=0&position=450"
+  },
+  {
+    "effects": {
+      "clips": 19,
+      "filters": 0,
+      "masks": 10,
+      "shadows": 0,
+      "svgBackgrounds": 6
+    },
+    "mode": "1",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 1\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      47,
+      524,
+      340,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 450,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=1&position=450"
+  },
+  {
+    "effects": {
+      "clips": 0,
+      "filters": 2,
+      "masks": 0,
+      "shadows": 39,
+      "svgBackgrounds": 6
+    },
+    "mode": "2",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 2\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      47,
+      524,
+      340,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 450,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=2&position=450"
+  },
+  {
+    "effects": {
+      "clips": 19,
+      "filters": 2,
+      "masks": 10,
+      "shadows": 39,
+      "svgBackgrounds": 0
+    },
+    "mode": "3",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 3\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      47,
+      524,
+      340,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 450,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=3&position=450"
+  },
+  {
+    "effects": {
+      "clips": 0,
+      "filters": 0,
+      "masks": 0,
+      "shadows": 0,
+      "svgBackgrounds": 0
+    },
+    "mode": "4",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 4\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      47,
+      524,
+      340,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 450,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=4&position=450"
+  },
+  {
+    "lpExists": false,
+    "mainHeight": 20000,
+    "mode": "5",
+    "overflow": false,
+    "panelVisible": true,
+    "scrollY": 450,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=5&position=450"
+  }
+]

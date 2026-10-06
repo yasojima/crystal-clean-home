@@ -1,0 +1,15 @@
+{
+  "html_pages": 60,
+  "changed": [
+    {
+      "path": "beginner\\index.html",
+      "only_diagnostic_script_added": true
+    }
+  ],
+  "css_changed": [],
+  "runtime_paths": [
+    "beginner/index.html",
+    "assets/js/lp-render-check.js"
+  ],
+  "actual_device_status": "UNRESOLVED"
+}

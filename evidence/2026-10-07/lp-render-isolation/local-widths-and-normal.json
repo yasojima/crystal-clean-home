@@ -1,0 +1,33 @@
+[
+  {
+    "effects": {
+      "clips": 19,
+      "filters": 2,
+      "masks": 10,
+      "shadows": 39,
+      "svgBackgrounds": 6
+    },
+    "mode": "0",
+    "overflow": false,
+    "panel": "LP表示確認 2026100701 ／ 現在 0\n\n切替後、少し下へスクロールして左上を確認\n\n0 通常\n1 影なし\n2 切抜きなし\n3 SVGなし\n4 1〜3全部\n5 本文なし",
+    "panelRect": [
+      12,
+      404,
+      281,
+      140
+    ],
+    "rootDisplay": "block",
+    "scrollY": 397,
+    "sliders": 4,
+    "url": "http://127.0.0.1:8975/beginner/?rendercheck=0&position=450"
+  },
+  {
+    "mode": null,
+    "normalUrl": "http://127.0.0.1:8975/beginner/",
+    "overflow": false,
+    "panel": false,
+    "sliders": 4,
+    "style": false,
+    "width": 1280
+  }
+]

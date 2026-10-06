@@ -100,6 +100,8 @@ def transform(html, is_aircon=False):
     for stylesheet in ('first-lp-desktop.css', 'first-lp-mobile.css'):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
                       '/assets/css/' + stylesheet + '?v=2026100601', html)
+    if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
+        html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100701"></script>' + newline + '</head>', 1)
     layout_version = '2026100604'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
@@ -156,7 +158,7 @@ def main():
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
     manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
-    manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js', SITE/'assets/js/lp-render-check.js'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))

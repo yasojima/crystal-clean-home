@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-07",
+  "reported_by": "user",
+  "device": {
+    "model": "iPhone XS Max",
+    "os": "iOS 18.7.10"
+  },
+  "browsers": [
+    "Chrome",
+    "Safari"
+  ],
+  "previous_candidate": "CHG-2026-10-06-017",
+  "previous_device_result": "まだ残る",
+  "page_scope": "ユーザーの複数ページ目視ではLP掲載ページだけに見える",
+  "root_cause": "unconfirmed",
+  "fix_status": "unresolved",
+  "diagnostic_version": "2026100701",
+  "diagnostic_device_result": "pending"
+}
