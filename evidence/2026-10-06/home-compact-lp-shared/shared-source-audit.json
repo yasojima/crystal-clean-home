@@ -1,0 +1,668 @@
+{
+  "pages": 60,
+  "header_sha256": "10702c473c327d9ef51da7fa8a71642a25de23c4c934267e7035f9164b4aa9f2",
+  "footer_sha256": "2e4d1c0d8e862ee4864b55cb7d690ebc702f344b6bfa17ab9dee972dfb9fbe48",
+  "passed": true,
+  "checks": [
+    {
+      "path": "beginner/index.html",
+      "url": "/beginner/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "business/contact/index.html",
+      "url": "/business/contact/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "business/racn/index.html",
+      "url": "/business/racn/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "cart/estimate/confirm/index.html",
+      "url": "/cart/estimate/confirm/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "cart/estimate/index.html",
+      "url": "/cart/estimate/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "cart/index.html",
+      "url": "/cart/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "contact/business/index.html",
+      "url": "/contact/business/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "contact/house-cleaning/index.html",
+      "url": "/contact/house-cleaning/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "contact/index.html",
+      "url": "/contact/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "contact/shop/index.html",
+      "url": "/contact/shop/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/aircon01/index.html",
+      "url": "/energy-saving/aircon01/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/aircon02/index.html",
+      "url": "/energy-saving/aircon02/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/drier/index.html",
+      "url": "/energy-saving/drier/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/fridge/index.html",
+      "url": "/energy-saving/fridge/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/index.html",
+      "url": "/energy-saving/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/kitchen/index.html",
+      "url": "/energy-saving/kitchen/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/office/air/index.html",
+      "url": "/energy-saving/office/air/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/office/index.html",
+      "url": "/energy-saving/office/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/office/kitchen/index.html",
+      "url": "/energy-saving/office/kitchen/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/office/light/index.html",
+      "url": "/energy-saving/office/light/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/office/oa/index.html",
+      "url": "/energy-saving/office/oa/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/others/index.html",
+      "url": "/energy-saving/others/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/summer/index.html",
+      "url": "/energy-saving/summer/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/toilet/index.html",
+      "url": "/energy-saving/toilet/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/washer/index.html",
+      "url": "/energy-saving/washer/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "energy-saving/winter/index.html",
+      "url": "/energy-saving/winter/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "error/403/index.html",
+      "url": "/error/403/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "error/405/index.html",
+      "url": "/error/405/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/aircon/2027problem/index.html",
+      "url": "/house-cleaning/aircon/2027problem/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "url": "/house-cleaning/aircon/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "url": "/house-cleaning/coating/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "url": "/house-cleaning/kitchen/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "url": "/house-cleaning/less-coating/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "url": "/house-cleaning/others/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "url": "/house-cleaning/pack/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "url": "/house-cleaning/room/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "url": "/house-cleaning/washer/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "url": "/house-cleaning/water/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "index.html",
+      "url": "/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "url": "/lab/online_store/detergent/product-303/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/aircon_standard/index.html",
+      "url": "/office/aircon_standard/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/carpet/index.html",
+      "url": "/office/carpet/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/floor/index.html",
+      "url": "/office/floor/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/fluorescent/index.html",
+      "url": "/office/fluorescent/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/glass/index.html",
+      "url": "/office/glass/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/photocatalyst/index.html",
+      "url": "/office/photocatalyst/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "office/space/index.html",
+      "url": "/office/space/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "policy/index.html",
+      "url": "/policy/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "policy-1/index.html",
+      "url": "/policy-1/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "policy-2/index.html",
+      "url": "/policy-2/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/aircon/index.html",
+      "url": "/quick_cart/aircon/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/coating/index.html",
+      "url": "/quick_cart/coating/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/index.html",
+      "url": "/quick_cart/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/kitchen/index.html",
+      "url": "/quick_cart/kitchen/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/option/index.html",
+      "url": "/quick_cart/option/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/others/index.html",
+      "url": "/quick_cart/others/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/pack/index.html",
+      "url": "/quick_cart/pack/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/room/index.html",
+      "url": "/quick_cart/room/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/washer/index.html",
+      "url": "/quick_cart/washer/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    },
+    {
+      "path": "quick_cart/water/index.html",
+      "url": "/quick_cart/water/",
+      "header_matches": true,
+      "footer_matches": true,
+      "shared_asset_counts": {
+        "aircon-header.css": 1,
+        "site-footer.css": 1,
+        "aircon-header.js": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,1868 @@
+[
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 1011.484375,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 962.484375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 946.484375,
+          "h": 798.484375,
+          "w": 305,
+          "x": 0,
+          "y": 148
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 1035.484375,
+          "h": 887.484375,
+          "w": 305,
+          "x": 0,
+          "y": 148
+        }
+      },
+      {
+        "button": {
+          "bottom": 2655.21875,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 2606.21875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 2590.21875,
+          "h": 152.5,
+          "w": 305,
+          "x": 0,
+          "y": 2437.71875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 2679.21875,
+          "h": 241.5,
+          "w": 305,
+          "x": 0,
+          "y": 2437.71875
+        }
+      },
+      {
+        "button": {
+          "bottom": 5286.78125,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 5237.78125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 5221.78125,
+          "h": 152.5,
+          "w": 305,
+          "x": 0,
+          "y": 5069.28125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 5310.78125,
+          "h": 241.5,
+          "w": 305,
+          "x": 0,
+          "y": 5069.28125
+        }
+      },
+      {
+        "button": {
+          "bottom": 6394.125,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 6345.125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 6329.125,
+          "h": 122,
+          "w": 305,
+          "x": 0,
+          "y": 6207.125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 6418.125,
+          "h": 211,
+          "w": 305,
+          "x": 0,
+          "y": 6207.125
+        }
+      },
+      {
+        "button": {
+          "bottom": 10384.4375,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 10335.4375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 10319.4375,
+          "h": 152.5,
+          "w": 305,
+          "x": 0,
+          "y": 10166.9375
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 10408.4375,
+          "h": 241.5,
+          "w": 305,
+          "x": 0,
+          "y": 10166.9375
+        }
+      },
+      {
+        "button": {
+          "bottom": 14190.625,
+          "h": 49,
+          "w": 265,
+          "x": 20,
+          "y": 14141.625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 14015.078125,
+          "h": 381.109375,
+          "w": 305,
+          "x": 0,
+          "y": 13633.96875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 14214.625,
+          "h": 580.65625,
+          "w": 305,
+          "x": 0,
+          "y": 13633.96875
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 887.484375,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 148
+      },
+      {
+        "class": "lp-art-section",
+        "h": 916.15625,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "28px 9.14062px",
+        "y": 1035.484375
+      },
+      {
+        "class": "lp-art-section",
+        "h": 486.078125,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "28px 9.14062px",
+        "y": 1951.640625
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 241.5,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 2437.71875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 916.15625,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "28px 9.14062px",
+        "y": 2679.21875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 557.75,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "28px 9.14062px",
+        "y": 3595.375
+      },
+      {
+        "class": "lp-art-section",
+        "h": 916.15625,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "28px 9.14062px",
+        "y": 4153.125
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 241.5,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 5069.28125
+      },
+      {
+        "class": "lp-closing",
+        "h": 1107.34375,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "28px 0px 0px",
+        "y": 5310.78125
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 2956.296875,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "40px 15.25px",
+        "y": 6418.125
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 792.515625,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "40px 12.1875px",
+        "y": 9374.421875
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1175.5,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 24px",
+        "y": 10166.9375
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 1029.46875,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "40px 15.25px",
+        "y": 11342.4375
+      },
+      {
+        "class": "lp-support",
+        "h": 656.8125,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "40px 15.25px",
+        "y": 12371.90625
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 549.25,
+        "id": "first-bath-results",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 13056.71875
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 580.65625,
+        "id": "",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 13633.96875
+      }
+    ],
+    "width": 320
+  },
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 1094.453125,
+          "h": 49,
+          "w": 320,
+          "x": 20,
+          "y": 1045.453125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 1029.453125,
+          "h": 933.453125,
+          "w": 360,
+          "x": 0,
+          "y": 96
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 1118.453125,
+          "h": 1022.453125,
+          "w": 360,
+          "x": 0,
+          "y": 96
+        }
+      },
+      {
+        "button": {
+          "bottom": 2998.28125,
+          "h": 49,
+          "w": 320,
+          "x": 20,
+          "y": 2949.28125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 2933.28125,
+          "h": 180,
+          "w": 360,
+          "x": 0,
+          "y": 2753.28125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 3022.28125,
+          "h": 269,
+          "w": 360,
+          "x": 0,
+          "y": 2753.28125
+        }
+      },
+      {
+        "button": {
+          "bottom": 6057.921875,
+          "h": 49,
+          "w": 320,
+          "x": 20,
+          "y": 6008.921875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 5992.921875,
+          "h": 180,
+          "w": 360,
+          "x": 0,
+          "y": 5812.921875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 6081.921875,
+          "h": 269,
+          "w": 360,
+          "x": 0,
+          "y": 5812.921875
+        }
+      },
+      {
+        "button": {
+          "bottom": 7296.75,
+          "h": 49,
+          "w": 320,
+          "x": 20,
+          "y": 7247.75
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 7231.75,
+          "h": 144,
+          "w": 360,
+          "x": 0,
+          "y": 7087.75
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 7320.75,
+          "h": 233,
+          "w": 360,
+          "x": 0,
+          "y": 7087.75
+        }
+      },
+      {
+        "button": {
+          "bottom": 11045.421875,
+          "h": 49,
+          "w": 320,
+          "x": 20,
+          "y": 10996.421875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 10980.421875,
+          "h": 180,
+          "w": 360,
+          "x": 0,
+          "y": 10800.421875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 11069.421875,
+          "h": 269,
+          "w": 360,
+          "x": 0,
+          "y": 10800.421875
+        }
+      },
+      {
+        "button": {
+          "bottom": 14717.5625,
+          "h": 49,
+          "w": 280,
+          "x": 40,
+          "y": 14668.5625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 14542.015625,
+          "h": 449.828125,
+          "w": 360,
+          "x": 0,
+          "y": 14092.1875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 14741.5625,
+          "h": 649.375,
+          "w": 360,
+          "x": 0,
+          "y": 14092.1875
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 1022.453125,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 96
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1071.21875,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "28px 10.7969px",
+        "y": 1118.453125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 563.609375,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "28px 10.7969px",
+        "y": 2189.671875
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 269,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 2753.28125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1071.21875,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "28px 10.7969px",
+        "y": 3022.28125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 648.203125,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "28px 10.7969px",
+        "y": 4093.5
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1071.21875,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "28px 10.7969px",
+        "y": 4741.703125
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 269,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 5812.921875
+      },
+      {
+        "class": "lp-closing",
+        "h": 1238.828125,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "28px 0px 0px",
+        "y": 6081.921875
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 2687.15625,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "40px 18px",
+        "y": 7320.75
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 792.515625,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "40px 14.3906px",
+        "y": 10007.90625
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1187,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 24px",
+        "y": 10800.421875
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 866.8125,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "40px 18px",
+        "y": 11987.421875
+      },
+      {
+        "class": "lp-support",
+        "h": 564.4375,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "40px 18px",
+        "y": 12854.234375
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 617.515625,
+        "id": "first-bath-results",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 13446.671875
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 649.375,
+        "id": "",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 14092.1875
+      }
+    ],
+    "width": 375
+  },
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 1138.625,
+          "h": 49,
+          "w": 338,
+          "x": 20,
+          "y": 1089.625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 1073.625,
+          "h": 977.625,
+          "w": 378,
+          "x": 0,
+          "y": 96
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 1162.625,
+          "h": 1066.625,
+          "w": 378,
+          "x": 0,
+          "y": 96
+        }
+      },
+      {
+        "button": {
+          "bottom": 3127.671875,
+          "h": 49,
+          "w": 338,
+          "x": 20,
+          "y": 3078.671875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 3062.671875,
+          "h": 189,
+          "w": 378,
+          "x": 0,
+          "y": 2873.671875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 3151.671875,
+          "h": 278,
+          "w": 378,
+          "x": 0,
+          "y": 2873.671875
+        }
+      },
+      {
+        "button": {
+          "bottom": 6327.578125,
+          "h": 49,
+          "w": 338,
+          "x": 20,
+          "y": 6278.578125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 6262.578125,
+          "h": 189,
+          "w": 378,
+          "x": 0,
+          "y": 6073.578125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 6351.578125,
+          "h": 278,
+          "w": 378,
+          "x": 0,
+          "y": 6073.578125
+        }
+      },
+      {
+        "button": {
+          "bottom": 7609.9375,
+          "h": 49,
+          "w": 338,
+          "x": 20,
+          "y": 7560.9375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 7544.9375,
+          "h": 151.1875,
+          "w": 378,
+          "x": 0,
+          "y": 7393.75
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 7633.9375,
+          "h": 240.1875,
+          "w": 378,
+          "x": 0,
+          "y": 7393.75
+        }
+      },
+      {
+        "button": {
+          "bottom": 11342.265625,
+          "h": 49,
+          "w": 338,
+          "x": 20,
+          "y": 11293.265625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 11277.265625,
+          "h": 189,
+          "w": 378,
+          "x": 0,
+          "y": 11088.265625
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 11366.265625,
+          "h": 278,
+          "w": 378,
+          "x": 0,
+          "y": 11088.265625
+        }
+      },
+      {
+        "button": {
+          "bottom": 15037.65625,
+          "h": 49,
+          "w": 280,
+          "x": 49,
+          "y": 14988.65625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 14862.109375,
+          "h": 472.328125,
+          "w": 378,
+          "x": 0,
+          "y": 14389.78125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 15061.65625,
+          "h": 671.875,
+          "w": 378,
+          "x": 0,
+          "y": 14389.78125
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 1066.625,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 96
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1122.03125,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "28px 11.3281px",
+        "y": 1162.625
+      },
+      {
+        "class": "lp-art-section",
+        "h": 589.015625,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "28px 11.3281px",
+        "y": 2284.65625
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 278,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 2873.671875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1122.03125,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "28px 11.3281px",
+        "y": 3151.671875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 677.84375,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "28px 11.3281px",
+        "y": 4273.703125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1122.03125,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "28px 11.3281px",
+        "y": 4951.546875
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 278,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 6073.578125
+      },
+      {
+        "class": "lp-closing",
+        "h": 1282.359375,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "28px 0px 0px",
+        "y": 6351.578125
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 2661.8125,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "40px 18.8906px",
+        "y": 7633.9375
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 792.515625,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "40px 15.1094px",
+        "y": 10295.75
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1196,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 24px",
+        "y": 11088.265625
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 845.21875,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "40px 18.8906px",
+        "y": 12284.265625
+      },
+      {
+        "class": "lp-support",
+        "h": 564.4375,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "40px 18.8906px",
+        "y": 13129.484375
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 639.859375,
+        "id": "first-bath-results",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 13721.921875
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 671.875,
+        "id": "",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 14389.78125
+      }
+    ],
+    "width": 393
+  },
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 1229.4375,
+          "h": 49,
+          "w": 375,
+          "x": 20,
+          "y": 1180.4375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 1164.4375,
+          "h": 1068.4375,
+          "w": 415,
+          "x": 0,
+          "y": 96
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 1253.4375,
+          "h": 1157.4375,
+          "w": 415,
+          "x": 0,
+          "y": 96
+        }
+      },
+      {
+        "button": {
+          "bottom": 3393.5,
+          "h": 49,
+          "w": 375,
+          "x": 20,
+          "y": 3344.5
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 3328.5,
+          "h": 207.5,
+          "w": 415,
+          "x": 0,
+          "y": 3121
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 3417.5,
+          "h": 296.5,
+          "w": 415,
+          "x": 0,
+          "y": 3121
+        }
+      },
+      {
+        "button": {
+          "bottom": 6881.46875,
+          "h": 49,
+          "w": 375,
+          "x": 20,
+          "y": 6832.46875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 6816.46875,
+          "h": 207.5,
+          "w": 415,
+          "x": 0,
+          "y": 6608.96875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 6905.46875,
+          "h": 296.5,
+          "w": 415,
+          "x": 0,
+          "y": 6608.96875
+        }
+      },
+      {
+        "button": {
+          "bottom": 8258.46875,
+          "h": 49,
+          "w": 375,
+          "x": 20,
+          "y": 8209.46875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 8193.46875,
+          "h": 166,
+          "w": 415,
+          "x": 0,
+          "y": 8027.46875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 8282.46875,
+          "h": 255,
+          "w": 415,
+          "x": 0,
+          "y": 8027.46875
+        }
+      },
+      {
+        "button": {
+          "bottom": 11877.53125,
+          "h": 49,
+          "w": 375,
+          "x": 20,
+          "y": 11828.53125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 11812.53125,
+          "h": 207.5,
+          "w": 415,
+          "x": 0,
+          "y": 11605.03125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 11901.53125,
+          "h": 296.5,
+          "w": 415,
+          "x": 0,
+          "y": 11605.03125
+        }
+      },
+      {
+        "button": {
+          "bottom": 15627.484375,
+          "h": 49,
+          "w": 280,
+          "x": 67.5,
+          "y": 15578.484375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 15451.9375,
+          "h": 518.5625,
+          "w": 415,
+          "x": 0,
+          "y": 14933.375
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 15651.484375,
+          "h": 718.109375,
+          "w": 415,
+          "x": 0,
+          "y": 14933.375
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 1157.4375,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 96
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1226.375,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "28px 12.4375px",
+        "y": 1253.4375
+      },
+      {
+        "class": "lp-art-section",
+        "h": 641.1875,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "28px 12.4375px",
+        "y": 2479.8125
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 296.5,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 3121
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1226.375,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "28px 12.4375px",
+        "y": 3417.5
+      },
+      {
+        "class": "lp-art-section",
+        "h": 738.71875,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "28px 12.4375px",
+        "y": 4643.875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1226.375,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "28px 12.4375px",
+        "y": 5382.59375
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 296.5,
+        "id": "",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 6608.96875
+      },
+      {
+        "class": "lp-closing",
+        "h": 1377,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "28px 0px 0px",
+        "y": 6905.46875
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 2530.046875,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "40px 20.75px",
+        "y": 8282.46875
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 792.515625,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "40px 16.5938px",
+        "y": 10812.515625
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1198.5,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 24px",
+        "y": 11605.03125
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 823.625,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "40px 20.75px",
+        "y": 12803.53125
+      },
+      {
+        "class": "lp-support",
+        "h": 564.4375,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "40px 20.75px",
+        "y": 13627.15625
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 685.78125,
+        "id": "first-bath-results",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 14219.59375
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 718.109375,
+        "id": "",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 14933.375
+      }
+    ],
+    "width": 430
+  },
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 2074.453125,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 2025.453125
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 2009.453125,
+          "h": 1913.453125,
+          "w": 752,
+          "x": 0,
+          "y": 96
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 2098.453125,
+          "h": 2002.453125,
+          "w": 752,
+          "x": 0,
+          "y": 96
+        }
+      },
+      {
+        "button": {
+          "bottom": 5787.421875,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 5738.421875
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 5722.421875,
+          "h": 330.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 5391.53125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 5811.421875,
+          "h": 419.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 5391.53125
+        }
+      },
+      {
+        "button": {
+          "bottom": 10440.015625,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 10391.015625
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 10375.015625,
+          "h": 330.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 10044.125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 10464.015625,
+          "h": 419.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 10044.125
+        }
+      },
+      {
+        "button": {
+          "bottom": 12582.484375,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 12533.484375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 12517.484375,
+          "h": 264.703125,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 12252.78125
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 12606.484375,
+          "h": 353.703125,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 12252.78125
+        }
+      },
+      {
+        "button": {
+          "bottom": 15324.109375,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 15275.109375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 15259.109375,
+          "h": 330.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 14928.21875
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 15348.109375,
+          "h": 419.890625,
+          "w": 661.78125,
+          "x": 45.109375,
+          "y": 14928.21875
+        }
+      },
+      {
+        "button": {
+          "bottom": 20001.34375,
+          "h": 49,
+          "w": 400,
+          "x": 176,
+          "y": 19952.34375
+        },
+        "centerDelta": 0,
+        "font": "18px",
+        "height": 49,
+        "image": {
+          "bottom": 19825.796875,
+          "h": 939.65625,
+          "w": 752,
+          "x": 0,
+          "y": 18886.140625
+        },
+        "imageOverlap": false,
+        "overflow": false,
+        "position": "relative",
+        "scene": {
+          "bottom": 20025.34375,
+          "h": 1139.203125,
+          "w": 752,
+          "x": 0,
+          "y": 18886.140625
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 2002.453125,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 96
+      },
+      {
+        "class": "lp-art-section",
+        "h": 2176.71875,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "28px 22.5469px",
+        "y": 2098.453125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1116.359375,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "28px 22.5469px",
+        "y": 4275.171875
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 419.890625,
+        "id": "",
+        "margin": "0px 45.1094px",
+        "padding": "0px",
+        "y": 5391.53125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1469.8125,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "28px 22.5469px",
+        "y": 5811.421875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1293.078125,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "28px 22.5469px",
+        "y": 7281.234375
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1469.8125,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "28px 22.5469px",
+        "y": 8574.3125
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 419.890625,
+        "id": "",
+        "margin": "0px 45.1094px",
+        "padding": "0px",
+        "y": 10044.125
+      },
+      {
+        "class": "lp-closing",
+        "h": 2142.46875,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "28px 0px 0px",
+        "y": 10464.015625
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 1490.015625,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "40px 37.5938px",
+        "y": 12606.484375
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 831.71875,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "40px 30.0781px",
+        "y": 14096.5
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1390.890625,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 52px",
+        "y": 14928.21875
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 878.125,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "40px 56.3906px",
+        "y": 16319.109375
+      },
+      {
+        "class": "lp-support",
+        "h": 479,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "40px 56.3906px",
+        "y": 17197.234375
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 1153.90625,
+        "id": "first-bath-results",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 17704.234375
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 1139.203125,
+        "id": "",
+        "margin": "28px 0px 0px",
+        "padding": "0px",
+        "y": 18886.140625
+      }
+    ],
+    "width": 767
+  },
+  {
+    "ctas": [
+      {
+        "button": {
+          "bottom": 3291.265625,
+          "h": 88,
+          "w": 480,
+          "x": 392.484375,
+          "y": 3203.265625
+        },
+        "centerDelta": 0.015625,
+        "font": "30px",
+        "height": 88,
+        "image": {
+          "bottom": 3323.265625,
+          "h": 3180.390625,
+          "w": 1265,
+          "x": 0,
+          "y": 142.875
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 3323.265625,
+          "h": 3180.390625,
+          "w": 1265,
+          "x": 0,
+          "y": 142.875
+        }
+      },
+      {
+        "button": {
+          "bottom": 7955.0625,
+          "h": 88,
+          "w": 480,
+          "x": 620.703125,
+          "y": 7867.0625
+        },
+        "centerDelta": 228.203125,
+        "font": "30px",
+        "height": 88,
+        "image": {
+          "bottom": 7987.0625,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 7527.53125
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 7987.0625,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 7527.53125
+        }
+      },
+      {
+        "button": {
+          "bottom": 15121.21875,
+          "h": 88,
+          "w": 480,
+          "x": 620.703125,
+          "y": 15033.21875
+        },
+        "centerDelta": 228.203125,
+        "font": "30px",
+        "height": 88,
+        "image": {
+          "bottom": 15153.21875,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 14693.6875
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 15153.21875,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 14693.6875
+        }
+      },
+      {
+        "button": {
+          "bottom": 18552.390625,
+          "h": 88,
+          "w": 480,
+          "x": 392.5,
+          "y": 18464.390625
+        },
+        "centerDelta": 0,
+        "font": "30px",
+        "height": 88,
+        "image": {
+          "bottom": 18576.390625,
+          "h": 556.609375,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 18019.78125
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 18576.390625,
+          "h": 556.609375,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 18019.78125
+        }
+      },
+      {
+        "button": {
+          "bottom": 21111.453125,
+          "h": 88,
+          "w": 480,
+          "x": 620.703125,
+          "y": 21023.453125
+        },
+        "centerDelta": 228.203125,
+        "font": "30px",
+        "height": 88,
+        "image": {
+          "bottom": 21143.453125,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 20683.921875
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 21143.453125,
+          "h": 459.53125,
+          "w": 1113.21875,
+          "x": 75.890625,
+          "y": 20683.921875
+        }
+      },
+      {
+        "button": {
+          "bottom": 26630.140625,
+          "h": 76,
+          "w": 400,
+          "x": 758.234375,
+          "y": 26554.140625
+        },
+        "centerDelta": 325.734375,
+        "font": "26px",
+        "height": 76,
+        "image": {
+          "bottom": 26849.328125,
+          "h": 1580.671875,
+          "w": 1265,
+          "x": 0,
+          "y": 25268.65625
+        },
+        "imageOverlap": true,
+        "overflow": false,
+        "position": "absolute",
+        "scene": {
+          "bottom": 26849.328125,
+          "h": 1580.671875,
+          "w": 1265,
+          "x": 0,
+          "y": 25268.65625
+        }
+      }
+    ],
+    "footer": "rgb(255, 255, 255)",
+    "pageOverflow": false,
+    "sections": [
+      {
+        "class": "lp-cover lp-opening-portrait",
+        "h": 3180.390625,
+        "id": "first-introduction",
+        "margin": "0px",
+        "padding": "0px",
+        "y": 142.875
+      },
+      {
+        "class": "lp-art-section",
+        "h": 2386.4375,
+        "id": "first-comic",
+        "margin": "0px",
+        "padding": "76px 75.8906px 84px",
+        "y": 3323.265625
+      },
+      {
+        "class": "lp-art-section",
+        "h": 1817.828125,
+        "id": "cleaning-approach",
+        "margin": "0px",
+        "padding": "92px 75.8906px 56px",
+        "y": 5709.703125
+      },
+      {
+        "class": "lp-cta-scene cta-assurance",
+        "h": 459.53125,
+        "id": "",
+        "margin": "0px 75.8906px 72px",
+        "padding": "0px",
+        "y": 7527.53125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 2281.25,
+        "id": "first-work",
+        "margin": "0px",
+        "padding": "72px 101.188px 84px",
+        "y": 8059.0625
+      },
+      {
+        "class": "lp-art-section",
+        "h": 2132.125,
+        "id": "infection-prevention",
+        "margin": "0px",
+        "padding": "96px 75.8906px 88px",
+        "y": 10340.3125
+      },
+      {
+        "class": "lp-art-section",
+        "h": 2221.25,
+        "id": "first-finish",
+        "margin": "0px",
+        "padding": "40px 101.188px 56px",
+        "y": 12472.4375
+      },
+      {
+        "class": "lp-cta-scene cta-aftercare",
+        "h": 459.53125,
+        "id": "",
+        "margin": "0px 75.8906px 72px",
+        "padding": "0px",
+        "y": 14693.6875
+      },
+      {
+        "class": "lp-closing",
+        "h": 3431.171875,
+        "id": "first-concerns",
+        "margin": "0px",
+        "padding": "48px 0px 0px",
+        "y": 15225.21875
+      },
+      {
+        "class": "lp-support lp-voices-section",
+        "h": 1149,
+        "id": "first-voices",
+        "margin": "0px",
+        "padding": "108px 63.25px 104px",
+        "y": 18656.390625
+      },
+      {
+        "class": "lp-comparison-section",
+        "h": 878.53125,
+        "id": "first-comparison",
+        "margin": "0px",
+        "padding": "84px 50.5938px 88px",
+        "y": 19805.390625
+      },
+      {
+        "class": "lp-menu-section",
+        "h": 1039.53125,
+        "id": "first-services",
+        "margin": "0px",
+        "padding": "0px 0px 52px",
+        "y": 20683.921875
+      },
+      {
+        "class": "lp-support lp-flow-section",
+        "h": 925,
+        "id": "first-flow",
+        "margin": "0px",
+        "padding": "88px 94.875px 112px",
+        "y": 21723.453125
+      },
+      {
+        "class": "lp-support",
+        "h": 720.75,
+        "id": "first-faq",
+        "margin": "0px",
+        "padding": "110px 94.875px 108px",
+        "y": 22648.453125
+      },
+      {
+        "class": "lp-closing lp-support lp-cases-section",
+        "h": 1775.453125,
+        "id": "first-bath-results",
+        "margin": "80px 0px 0px",
+        "padding": "0px",
+        "y": 23449.203125
+      },
+      {
+        "class": "lp-cta-scene cta-final",
+        "h": 1580.671875,
+        "id": "",
+        "margin": "44px 0px 0px",
+        "padding": "0px",
+        "y": 25268.65625
+      }
+    ],
+    "width": 1280
+  }
+]

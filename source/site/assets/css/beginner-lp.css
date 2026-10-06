@@ -10,3 +10,50 @@ body.c-beginner-lp #cch-first-lp .lp-canvas {
   margin: 0;
   box-shadow: none;
 }
+
+@media (max-width: 767.98px) {
+  body.c-beginner-lp #cch-first-lp { --lp-section-space: 28px; }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-opening-actions,
+  body.c-beginner-lp #cch-first-lp .lp-cta-scene .lp-cta-action {
+    position: relative;
+    inset: auto;
+    width: calc(100% - 40px);
+    margin: 16px auto 0;
+    padding: 0 0 24px;
+    transform: none;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button {
+    width: 100%;
+    max-width: 400px !important;
+    margin: 0 auto !important;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-double-icon-button__inner {
+    min-height: 46px;
+    padding: 10px 14px;
+    gap: 8px;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button .btn-free {
+    font-size: 18px;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-icon--calculator { display: block; width: 18px; height: 22px; }
+  body.c-beginner-lp #cch-first-lp .lp-art-section,
+  body.c-beginner-lp #cch-first-lp #first-comic,
+  body.c-beginner-lp #cch-first-lp #cleaning-approach,
+  body.c-beginner-lp #cch-first-lp #first-work,
+  body.c-beginner-lp #cch-first-lp #infection-prevention,
+  body.c-beginner-lp #cch-first-lp #first-finish { padding: var(--lp-section-space) 3%; }
+  body.c-beginner-lp #cch-first-lp #first-comic .lp-chapter-title { top: var(--lp-section-space); }
+  body.c-beginner-lp #cch-first-lp .lp-canvas > .lp-cta-scene:not(.cta-final) { margin-bottom: 0; }
+  body.c-beginner-lp #cch-first-lp #first-concerns { padding-top: var(--lp-section-space); }
+  body.c-beginner-lp #cch-first-lp #first-concerns .cta-kitchen { margin-bottom: 0; }
+  body.c-beginner-lp #cch-first-lp #first-voices,
+  body.c-beginner-lp #cch-first-lp #first-comparison,
+  body.c-beginner-lp #cch-first-lp #first-flow,
+  body.c-beginner-lp #cch-first-lp #first-faq { padding-top: 40px; padding-bottom: 40px; }
+  body.c-beginner-lp #cch-first-lp #first-bath-results { margin-top: var(--lp-section-space); }
+  body.c-beginner-lp #cch-first-lp .lp-canvas > .cta-final { margin-top: var(--lp-section-space); }
+  body.c-beginner-lp #cch-first-lp .cta-final .lp-cta-action { gap: 16px; }
+  body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo { width: 168px; max-width: 100%; }
+}

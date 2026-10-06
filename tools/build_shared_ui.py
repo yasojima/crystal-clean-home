@@ -11,8 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100603">',
-    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100534">',
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100604">',
+    '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100601">',
     "<script src=\"/assets/js/aircon-header.js?v=2026100603\" defer></script>",
     '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100604">',
     '<script src="/assets/js/cart-catalogue.js?v=2026100603" defer></script>',
@@ -66,12 +66,13 @@ def transform(html, is_aircon=False):
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100601', html)
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100601', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100604', html)
-    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100603', html)
+    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100604', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100536', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + '?v=2026100608', html)
+                          '/assets/' + kind + '/' + asset + ('?v=2026100609' if kind == 'css' else '?v=2026100608'), html)
+    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100601', html)
     layout_version = '2026100604'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):

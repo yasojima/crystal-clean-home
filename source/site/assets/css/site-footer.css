@@ -1,4 +1,5 @@
 .c-footer--aircon {
+  background-color: #fff;
   --footer-frame-height: min(100svh, 1100px);
   --footer-growth: clamp(0px, calc((100svh - 800px) * .0533333333), 16px);
 }

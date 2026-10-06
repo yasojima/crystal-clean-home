@@ -1,0 +1,152 @@
+[
+  {
+    "banners": [
+      {
+        "height": 217.375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__arrow"
+        ],
+        "title_font": "19px",
+        "width": 275
+      },
+      {
+        "height": 217.375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [],
+        "title_font": "19px",
+        "width": 275
+      }
+    ],
+    "width": 320
+  },
+  {
+    "banners": [
+      {
+        "height": 169.984375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__arrow"
+        ],
+        "title_font": "19px",
+        "width": 330
+      },
+      {
+        "height": 217.375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [],
+        "title_font": "19px",
+        "width": 330
+      }
+    ],
+    "width": 375
+  },
+  {
+    "banners": [
+      {
+        "height": 170.375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__arrow"
+        ],
+        "title_font": "19.278px",
+        "width": 348
+      },
+      {
+        "height": 197.359375,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [],
+        "title_font": "19.278px",
+        "width": 348
+      }
+    ],
+    "width": 393
+  },
+  {
+    "banners": [
+      {
+        "height": 173.03125,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__arrow"
+        ],
+        "title_font": "21.165px",
+        "width": 385
+      },
+      {
+        "height": 202.671875,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__title"
+        ],
+        "title_font": "21.165px",
+        "width": 385
+      }
+    ],
+    "width": 430
+  },
+  {
+    "banners": [
+      {
+        "height": 174.1875,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [
+          "home-guide-mobile__arrow"
+        ],
+        "title_font": "22px",
+        "width": 722
+      },
+      {
+        "height": 174.1875,
+        "mobile_display": "grid",
+        "overflow": false,
+        "pc_art_display": "none",
+        "text_overflow": [],
+        "title_font": "22px",
+        "width": 722
+      }
+    ],
+    "width": 767
+  },
+  {
+    "banners": [
+      {
+        "height": 238.4375,
+        "mobile_display": "none",
+        "overflow": true,
+        "pc_art_display": "block",
+        "text_overflow": [],
+        "title_font": "16px",
+        "width": 1109.71875
+      },
+      {
+        "height": 235.734375,
+        "mobile_display": "none",
+        "overflow": true,
+        "pc_art_display": "block",
+        "text_overflow": [],
+        "title_font": "16px",
+        "width": 1109.78125
+      }
+    ],
+    "width": 1280
+  }
+]
