@@ -1,0 +1,12 @@
+{
+  "interaction": {
+    "applied": "ok",
+    "rangehoodSelected": "true",
+    "slider": "55"
+  },
+  "unappliedOverride": {
+    "applied": "unconfirmed",
+    "status": "適用未確認：この状態では判定できません",
+    "values": "[{\"selector\":\"#cch-first-lp #first-comparison .lp-table-scroll\",\"found\":true,\"filter\":\"none\",\"webkitFilter\":\"none\"},{\"selector\":\"#cch-first-lp .cta-final .lp-closing-logo\",\"found\":true,\"filter\":\"drop-shadow(rgb(0, 0, 0) 0px 0px 1px)\",\"webkitFilter\":\"drop-shadow(rgb(0, 0, 0) 0px 0px 1px)\"}]"
+  }
+}

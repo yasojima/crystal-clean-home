@@ -101,7 +101,8 @@ def transform(html, is_aircon=False):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
                       '/assets/css/' + stylesheet + '?v=2026100601', html)
     if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
-        html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100701"></script>' + newline + '</head>', 1)
+        html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100702"></script>' + newline + '</head>', 1)
+    html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100702', html)
     layout_version = '2026100604'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):

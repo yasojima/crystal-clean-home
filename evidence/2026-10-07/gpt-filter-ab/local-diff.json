@@ -1,0 +1,98 @@
+[
+  {
+    "width": 320,
+    "geometryEqual": true,
+    "heightEqual": true,
+    "textEqual": true,
+    "imagesEqual": true,
+    "overflow": false,
+    "changes": [
+      {
+        "id": "",
+        "class": "lp-table-scroll",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)",
+        "after": "none"
+      },
+      {
+        "id": "",
+        "class": "lp-closing-logo",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)",
+        "after": "none"
+      }
+    ]
+  },
+  {
+    "width": 414,
+    "geometryEqual": true,
+    "heightEqual": true,
+    "textEqual": true,
+    "imagesEqual": true,
+    "overflow": false,
+    "changes": [
+      {
+        "id": "",
+        "class": "lp-table-scroll",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)",
+        "after": "none"
+      },
+      {
+        "id": "",
+        "class": "lp-closing-logo",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)",
+        "after": "none"
+      }
+    ]
+  },
+  {
+    "width": 767,
+    "geometryEqual": true,
+    "heightEqual": true,
+    "textEqual": true,
+    "imagesEqual": true,
+    "overflow": false,
+    "changes": [
+      {
+        "id": "",
+        "class": "lp-table-scroll",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)",
+        "after": "none"
+      },
+      {
+        "id": "",
+        "class": "lp-closing-logo",
+        "pseudo": 0,
+        "property": "filter",
+        "before": "drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)",
+        "after": "none"
+      }
+    ]
+  },
+  {
+    "width": 768,
+    "geometryEqual": true,
+    "heightEqual": true,
+    "textEqual": true,
+    "imagesEqual": true,
+    "overflow": false,
+    "changes": []
+  },
+  {
+    "width": 1280,
+    "geometryEqual": true,
+    "heightEqual": true,
+    "textEqual": true,
+    "imagesEqual": true,
+    "overflow": false,
+    "changes": []
+  }
+]

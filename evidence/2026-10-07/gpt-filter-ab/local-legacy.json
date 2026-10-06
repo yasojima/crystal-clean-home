@@ -1,0 +1,40 @@
+[
+  {
+    "links": [
+      "A 元の表示",
+      "B 確認用の表示",
+      "1 影なし",
+      "2 切抜きなし",
+      "3 SVGなし",
+      "4 1〜3全部",
+      "5 本文なし"
+    ],
+    "lp": true,
+    "mode": "?rendercheck=4&check=2026100702",
+    "panel": true,
+    "status": "追加の確認表示です。AかBを選んでください",
+    "style": true
+  },
+  {
+    "links": [
+      "A 元の表示",
+      "B 確認用の表示",
+      "1 影なし",
+      "2 切抜きなし",
+      "3 SVGなし",
+      "4 1〜3全部",
+      "5 本文なし"
+    ],
+    "lp": false,
+    "mode": "?rendercheck=5&check=2026100702",
+    "panel": true,
+    "status": "追加の確認表示です。AかBを選んでください",
+    "style": true
+  },
+  {
+    "links": [],
+    "lp": true,
+    "mode": "?rendercheck=7&check=2026100702",
+    "panel": false
+  }
+]

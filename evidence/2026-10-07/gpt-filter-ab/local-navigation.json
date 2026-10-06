@@ -1,0 +1,35 @@
+[
+  {
+    "step": "A",
+    "applied": "ok",
+    "overflow": false,
+    "pageHeight": 16117,
+    "scrollY": 450,
+    "sliders": 4,
+    "status": "適用OK",
+    "values": "[{\"selector\":\"#cch-first-lp #first-comparison .lp-table-scroll\",\"found\":true,\"filter\":\"drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)\",\"webkitFilter\":\"drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)\"},{\"selector\":\"#cch-first-lp .cta-final .lp-closing-logo\",\"found\":true,\"filter\":\"drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)\",\"webkitFilter\":\"drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)\"}]",
+    "width": 414
+  },
+  {
+    "step": "B",
+    "applied": "ok",
+    "overflow": false,
+    "pageHeight": 16117,
+    "scrollY": 450,
+    "sliders": 4,
+    "status": "適用OK",
+    "values": "[{\"selector\":\"#cch-first-lp #first-comparison .lp-table-scroll\",\"found\":true,\"filter\":\"none\",\"webkitFilter\":\"none\"},{\"selector\":\"#cch-first-lp .cta-final .lp-closing-logo\",\"found\":true,\"filter\":\"none\",\"webkitFilter\":\"none\"}]",
+    "width": 414
+  },
+  {
+    "step": "A again",
+    "applied": "ok",
+    "overflow": false,
+    "pageHeight": 16117,
+    "scrollY": 450,
+    "sliders": 4,
+    "status": "適用OK",
+    "values": "[{\"selector\":\"#cch-first-lp #first-comparison .lp-table-scroll\",\"found\":true,\"filter\":\"drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)\",\"webkitFilter\":\"drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)\"},{\"selector\":\"#cch-first-lp .cta-final .lp-closing-logo\",\"found\":true,\"filter\":\"drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)\",\"webkitFilter\":\"drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)\"}]",
+    "width": 414
+  }
+]
