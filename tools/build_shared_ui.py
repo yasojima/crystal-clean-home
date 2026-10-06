@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100606">',
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100704">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100601">',
     "<script src=\"/assets/js/aircon-header.js?v=2026100606\" defer></script>",
     '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100604">',
@@ -89,13 +89,14 @@ def transform(html, is_aircon=False):
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100602', html)
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100601', html)
-    html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100604', html)
-    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100605', html)
+    html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100704', html)
+    html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
+    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100704', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + ('?v=2026100610' if kind == 'css' else '?v=2026100608'), html)
+                          '/assets/' + kind + '/' + asset + ('?v=2026100704' if kind == 'css' else '?v=2026100608'), html)
     html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100603', html)
     for stylesheet, version in (('first-lp-desktop.css', '2026100601'), ('first-lp-mobile.css', '2026100703')):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
@@ -103,7 +104,7 @@ def transform(html, is_aircon=False):
     if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100703"></script>' + newline + '</head>', 1)
     html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100703', html)
-    layout_version = '2026100604'
+    layout_version = '2026100704'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
@@ -158,7 +159,7 @@ def main():
                 page.write_bytes(output.encode('utf-8'))
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/simulation/index.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js', SITE/'assets/js/lp-render-check.js'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)

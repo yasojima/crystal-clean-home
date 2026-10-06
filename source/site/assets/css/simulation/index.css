@@ -873,3 +873,18 @@ screen and (min-width: 768px) {
     margin-top: 24px
   }
 }
+/* Two readable columns at tablet widths; balance long service names on phones. */
+@media screen and (max-width: 991.98px) {
+  .simulation-tab__buttons.c-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .simulation-tab__text {
+    font-size: clamp(12px, 3.6vw, 14px);
+    line-height: 1.5;
+    padding: 8px 6px;
+    text-wrap: balance;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .cart-info__button { min-width: 80px; padding-inline: 8px; }
+  .cart-info__button .c-button__text { padding-inline: 0 8px; white-space: nowrap; }
+}

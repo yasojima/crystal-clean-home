@@ -1074,8 +1074,10 @@ body.aircon-menu-open .c-header__navigation {
     white-space: nowrap;
   }
 
+  .c-header-contact__telephone { padding-bottom: 44px; }
+
   .c-header-contact__days-note {
-    display: inline-block;
+    display: block;
   }
 }
 

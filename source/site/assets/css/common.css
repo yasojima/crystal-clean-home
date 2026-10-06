@@ -14481,6 +14481,16 @@ screen and (min-width: 768px) {
   text-align: center
 }
 
+/* Keep mobile service introductions readable without desktop-only line breaks. */
+@media screen and (max-width: 767.98px) {
+  .p-content-box__heading {
+    font-size: clamp(18px, 5.2vw, 23px);
+    line-height: 1.5;
+    text-wrap: balance;
+  }
+  .p-content-box__heading br { display: none; }
+}
+
 @media print,
 screen and (min-width: 768px) {
   .p-content-box__content {

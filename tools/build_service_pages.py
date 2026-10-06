@@ -544,10 +544,25 @@ def render_static_reasons(original):
         shared = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))['shared']
         section = reasons(shared, 'home')
         section['id'] = 'home-reasons'
-        add_section_curve(section, 'up', '#e3f1fc')
+        section['class'].append('l-section--blue-wave')
+        section['style'] = '--bg-color: #e3f1fc;'
+        add_section_curve(section, 'down', '#fff')
         output = re.sub(r'<section\b[^>]*>.*?</section>',
                         lambda match: str(section) if 'class="p-reasons"' in match.group() else match.group(),
                         original, flags=re.S)
+        guide = re.search(r'<section\b[^>]*\bhome-first-guide-section\b[^>]*>.*?</section>', output, re.S)
+        reason = re.search(r'<section\b[^>]*\bid="home-reasons"[^>]*>.*?</section>', output, re.S)
+        if not guide or not reason:
+            raise ValueError('Home guide and reasons sections are required')
+        if reason.start() < guide.start():
+            output = output[:guide.start()] + output[guide.end():]
+            output = output[:reason.start()] + guide.group() + '\n\n' + output[reason.start():]
+        old_concerns = '<section class="l-section l-section--limited l-section--blue-bubbles home-concerns" style="--bg-color: #e3f1fc;"'
+        new_concerns = '<section class="l-section l-section--limited l-section--blue-bubbles home-concerns c-curved-section c-curved-section--up" style="--bg-color: #fff;"'
+        output = output.replace(old_concerns, new_concerns, 1)
+        output = re.sub(r'(<section\b[^>]*\bhome-concerns\b[^>]*>)(?!<span[^>]*class="c-section-curve)',
+                        lambda match: match[1] + '<span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>',
+                        output, count=1)
         return ensure_navy_stylesheet(output)
     output = original
     grid_class = 'class="c-grid c-reasons p-reasons__contents"'

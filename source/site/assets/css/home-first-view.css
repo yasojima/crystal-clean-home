@@ -76,7 +76,6 @@
 
 #home-reasons {
   scroll-margin-top: var(--aircon-header-height);
-  padding-bottom: 0 !important;
 }
 
 .home-first-guide-section { padding-block: 24px 0; }

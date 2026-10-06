@@ -88,7 +88,7 @@
   to { opacity: 1; transform: none; }
 }
 @media (max-width: 767.98px) {
-  .home-concerns { padding-block: 32px; }
+  .home-concerns { padding-block: calc(32px + var(--section-curve-depth)) 32px; }
   .home-concerns__places { justify-content: center; gap: 12px 8px; margin-block: 24px 20px; }
   .home-concerns__place {
     flex: 0 0 calc((100% - 16px) / 3);
