@@ -1,0 +1,129 @@
+{
+  "conclusion": "success",
+  "headSha": "03084845e9fc28e196c1714559fe63d94e3e9082",
+  "jobs": [
+    {
+      "completedAt": "2026-10-06T18:10:00Z",
+      "conclusion": "success",
+      "databaseId": 112423742358,
+      "name": "build",
+      "startedAt": "2026-10-06T18:05:55Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-06T18:05:56Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-06T18:05:55Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:09:52Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "startedAt": "2026-10-06T18:05:56Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:09:58Z",
+          "conclusion": "success",
+          "name": "Upload artifact",
+          "number": 3,
+          "startedAt": "2026-10-06T18:09:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:09:59Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 6,
+          "startedAt": "2026-10-06T18:09:58Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:09:59Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "startedAt": "2026-10-06T18:09:59Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37508655851/job/112423742358"
+    },
+    {
+      "completedAt": "2026-10-06T18:10:23Z",
+      "conclusion": "success",
+      "databaseId": 112425583914,
+      "name": "report-build-status",
+      "startedAt": "2026-10-06T18:10:17Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-06T18:10:18Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-06T18:10:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:10:21Z",
+          "conclusion": "success",
+          "name": "Report Build Status",
+          "number": 2,
+          "startedAt": "2026-10-06T18:10:19Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:10:21Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "startedAt": "2026-10-06T18:10:21Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37508655851/job/112425583914"
+    },
+    {
+      "completedAt": "2026-10-06T18:10:38Z",
+      "conclusion": "success",
+      "databaseId": 112425584057,
+      "name": "deploy",
+      "startedAt": "2026-10-06T18:10:17Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-10-06T18:10:20Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-10-06T18:10:18Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:10:36Z",
+          "conclusion": "success",
+          "name": "Deploy to GitHub Pages",
+          "number": 2,
+          "startedAt": "2026-10-06T18:10:20Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-10-06T18:10:36Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "startedAt": "2026-10-06T18:10:36Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37508655851/job/112425584057"
+    }
+  ],
+  "status": "completed",
+  "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37508655851"
+}

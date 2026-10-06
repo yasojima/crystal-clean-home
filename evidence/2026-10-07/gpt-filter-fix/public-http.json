@@ -1,0 +1,32 @@
+{
+  "source_commit": "1fc1288006039b47ae6330ebced9d20ed4b0ca40",
+  "pages_commit": "03084845e9fc28e196c1714559fe63d94e3e9082",
+  "actions_run": 37508655851,
+  "checked_at": "2026-10-06T18:11:07.254124+00:00",
+  "results": [
+    {
+      "path": "beginner/index.html",
+      "url": "https://yasojima.github.io/beginner/?check=2026100703",
+      "http": 200,
+      "bytes": 77034,
+      "sha256": "ab16ac1b6b820a0928ff12cb420edb500d1a1b65b0bee9c196b467f7463528b7",
+      "matches_source": true
+    },
+    {
+      "path": "assets/css/first-lp-mobile.css",
+      "url": "https://yasojima.github.io/assets/css/first-lp-mobile.css?check=2026100703",
+      "http": 200,
+      "bytes": 66236,
+      "sha256": "2319d0a96608ed824cbf2abdb76481c68a8986bf14e67afd2e2c2a58934a2fd2",
+      "matches_source": true
+    },
+    {
+      "path": "assets/js/lp-render-check.js",
+      "url": "https://yasojima.github.io/assets/js/lp-render-check.js?check=2026100703",
+      "http": 200,
+      "bytes": 7453,
+      "sha256": "8f8d99cd80e1de04c92420a0e6e147b0abf7b330cdcee2c2d094b51ab776c443",
+      "matches_source": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "width": 1280,
+  "styleMatches": true,
+  "geometryMatches": true,
+  "textMatches": true,
+  "imagesMatch": true,
+  "pageHeightMatches": true,
+  "targets": [
+    {
+      "filter": "drop-shadow(rgba(16, 63, 97, 0.063) 0px 8px 16px)",
+      "selector": "#cch-first-lp #first-comparison .lp-table-scroll"
+    },
+    {
+      "filter": "drop-shadow(rgba(255, 255, 255, 0.863) 0px 2px 7px)",
+      "selector": "#cch-first-lp .cta-final .lp-closing-logo"
+    }
+  ],
+  "sliders": 4,
+  "overflow": false
+}

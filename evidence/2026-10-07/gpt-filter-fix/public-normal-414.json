@@ -1,0 +1,30 @@
+{
+  "comparison": {
+    "width": 414,
+    "styleMatches": true,
+    "geometryMatches": true,
+    "textMatches": true,
+    "imagesMatch": true,
+    "pageHeightMatches": true
+  },
+  "originUrlsNormalized": true,
+  "targets": [
+    {
+      "filter": "none",
+      "selector": "#cch-first-lp #first-comparison .lp-table-scroll"
+    },
+    {
+      "filter": "none",
+      "selector": "#cch-first-lp .cta-final .lp-closing-logo"
+    }
+  ],
+  "sliders": 4,
+  "overflow": false,
+  "diagnosticPanelAbsent": true,
+  "menuOpenClose": true,
+  "comparisonTabSwitch": true,
+  "slider": {
+    "before": "50",
+    "after": "55"
+  }
+}
