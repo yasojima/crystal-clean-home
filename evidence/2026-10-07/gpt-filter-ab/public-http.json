@@ -1,0 +1,24 @@
+{
+  "source_commit": "aed793b1012103ba7924da724f5913dc11fc2443",
+  "pages_commit": "474be1ee8ac7a2f1a73bf6d3f924e34dac079360",
+  "actions_run": 37501571521,
+  "checked_at": "2026-10-06T17:12:27.358388+00:00",
+  "results": [
+    {
+      "path": "beginner/index.html",
+      "url": "https://yasojima.github.io/beginner/?check=2026100702",
+      "http": 200,
+      "bytes": 77034,
+      "sha256": "890af8d4158f8e1fa322be5a3c7ad7c80554b9a842d2981a694d50766e6acb3b",
+      "matches_source": true
+    },
+    {
+      "path": "assets/js/lp-render-check.js",
+      "url": "https://yasojima.github.io/assets/js/lp-render-check.js?v=2026100702",
+      "http": 200,
+      "bytes": 7266,
+      "sha256": "7544c27ad803d05690f39a86774b9965c9bf9fe3761e0486b5042ac6dcdb7ef9",
+      "matches_source": true
+    }
+  ]
+}
