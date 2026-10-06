@@ -1,0 +1,92 @@
+{
+  "source": "5ae8c10184d3cc5ed265eb5c71e8ec426e19e2cd",
+  "pages": "2049e6896bca63f5ce22b2cbd4c497d438ac4df2",
+  "actions": 37523053657,
+  "checks": [
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "sha256": "920f64c6f700d4854b256dd061ca29aacba648c19cb2fadd15ca3503910fd602",
+      "same": true
+    },
+    {
+      "path": "assets/css/home-concerns.css",
+      "status": 200,
+      "sha256": "6629913b1731bde9a6f04cf2175ca1739556cfed3bd1ddf81876029570c87418",
+      "same": true
+    },
+    {
+      "path": "assets/css/home-first-view.css",
+      "status": 200,
+      "sha256": "5a5cd3c3781c746768e5d83cb6542c4b0b612a4530432661bf012ec0c4e871ab",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "3068df66da5ae89384c0780c4e81a081bed838d1f922fa126d065fa2eede48e0",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "sha256": "bccb2681df0dd00ce8f1c5e2f27c348289e8eca5ab355baf325263e27e0ac931",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "sha256": "3845704ecb04891fc984b93a4a7714479ee1f5c4d93fd8914ca2fe1088b1fbfc",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "status": 200,
+      "sha256": "b09990a42daa27924d5fcfef7abc1dd9c25a341dd73e9b7c42f8b9240d26fdbb",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "sha256": "f4742c5b504d91d518fac22950d66d9d88a9729e5cfed3aff287bf65320108c5",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "sha256": "f51b2d078f496fc2ea6dba5639bf5d405e46c004e7465fa7a7591fc9bf4cf7d5",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "sha256": "bf35bd3f2496e6ddbea561963a5ba73fd6a366ad57cf4dae870cded732c4a02d",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "sha256": "947654e30031338dffa6b222180c241c9e08efb46c06012aea771a6d34e5c64c",
+      "same": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "sha256": "05e0ac50d2f3aa4b1d9a1c0bd18284db61a54f928720e190892a42c4b7002026",
+      "same": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "f3b99c824f1b7ed1bb28711148adff4510eebab1f01d3d2a829dc71e9f408dae",
+      "same": true
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "status": 200,
+      "sha256": "3dc76500e1dd5c3a8cf0468016ab480c5fac519a04bb1e77f6bbe96ff72fbfa3",
+      "same": true
+    }
+  ],
+  "all_match": true
+}

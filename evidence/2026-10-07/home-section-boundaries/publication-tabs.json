@@ -1,0 +1,484 @@
+[
+  {
+    "width": 1280,
+    "name": "エアコン",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 440,
+          "width": 360,
+          "x": 260.5,
+          "y": 451.4051513671875
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 644.5,
+          "y": 451.4051513671875
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "エアコン",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 1280,
+    "name": "水まわり",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 440,
+          "width": 360,
+          "x": 68.5,
+          "y": 460.65625
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 452.5,
+          "y": 460.65625
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 836.5,
+          "y": 460.65625
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 68.5,
+          "y": 924.65625
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "selected": "水まわり",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 1280,
+    "name": "洗濯機",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 440,
+          "width": 360,
+          "x": 260.5,
+          "y": 451.1526489257813
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 644.5,
+          "y": 451.1526489257813
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "洗濯機",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 1280,
+    "name": "キッチン",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 440,
+          "width": 360,
+          "x": 260.5,
+          "y": 451.1531982421875
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 644.5,
+          "y": 451.1531982421875
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "キッチン",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 1280,
+    "name": "外壁・その他",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 64,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 440,
+          "width": 360,
+          "x": 260.5,
+          "y": 450.65625
+        },
+        {
+          "height": 440,
+          "width": 360,
+          "x": 644.5,
+          "y": 450.65625
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "外壁・その他",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 320,
+    "name": "エアコン",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 391.0000305175781,
+          "width": 275,
+          "x": 15,
+          "y": 376.2453308105469
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 783.245361328125
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "エアコン",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 320,
+    "name": "水まわり",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 376.49755859375
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 783.49755859375
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 1190.49755859375
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 1597.49755859375
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
+      "selected": "水まわり",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 320,
+    "name": "洗濯機",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 376.8218994140625
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 783.8218994140625
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "洗濯機",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 320,
+    "name": "キッチン",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 331.75
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 738.75
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "キッチン",
+      "wrappedLeft": true
+    },
+    "issues": []
+  },
+  {
+    "width": 320,
+    "name": "外壁・その他",
+    "geometry": {
+      "buttons": [
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        },
+        {
+          "align": "flex-end",
+          "height": 55,
+          "radius": "32px"
+        }
+      ],
+      "cards": [
+        {
+          "height": 390.9999694824219,
+          "width": 275,
+          "x": 15,
+          "y": 332.4984436035156
+        },
+        {
+          "height": 391,
+          "width": 275,
+          "x": 15,
+          "y": 739.4984130859375
+        }
+      ],
+      "descriptions": [
+        "left",
+        "left"
+      ],
+      "questions": [
+        "left",
+        "left"
+      ],
+      "selected": "外壁・その他",
+      "wrappedLeft": true
+    },
+    "issues": []
+  }
+]
