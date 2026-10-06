@@ -1,0 +1,32 @@
+{
+  "source_baseline": "f04b8a1",
+  "pages_baseline": "158edc0e902787d702fc0bdc1f565dff2da10700",
+  "shared_generation": {
+    "pages": 60,
+    "drift": 0
+  },
+  "service_generation": {
+    "pages": 8,
+    "drift": 0
+  },
+  "identity": {
+    "pages": 60,
+    "failed": 0
+  },
+  "artwork": {
+    "assets": 46,
+    "missing": 0,
+    "drift": 0
+  },
+  "catalogue": {
+    "products": 395,
+    "selections": 460,
+    "changed": false
+  },
+  "home_content_equal": true,
+  "local_shared_page_width_conditions": 33,
+  "local_tab_interactions": 39,
+  "local_final_home_category_conditions": 15,
+  "earlier_home_category_conditions": 35,
+  "whitespace_check_passed": true
+}

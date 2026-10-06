@@ -118,8 +118,17 @@
 
 @media (max-width: 767.98px) {
   .c-service-page .c-first-view {
-    --banner-min-height: clamp(220px, 58vw, 280px);
+    --banner-min-height: clamp(152px, 43vw, 184px);
+    min-height: 0;
   }
+
+  .c-service-page .c-house-cleaning-mv--check {
+    --hero-circle: 124px;
+    --hero-projection: 32px;
+    height: var(--banner-min-height);
+  }
+
+  .c-service-page .c-house-cleaning-mv__check { font-size: 22px; }
 
   .c-house-cleaning-mv--check {
     --banner-selector-heading-height: 25.5px;
@@ -143,7 +152,7 @@
   }
 
   .c-service-page .c-house-cleaning-mv__text {
-    font-size: clamp(18px, 5.5vw, 20px);
+    font-size: clamp(16px, 4.5vw, 18px);
   }
 }
 

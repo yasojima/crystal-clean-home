@@ -259,15 +259,15 @@
 
 @media (max-width: 767.98px) {
   :is(.c-service-page, .home-concerns) .recommend-plan__heading {
-    gap: clamp(8px, 3.4vw, 14px);
-    font-size: clamp(18px, 5.5vw, 20px);
+    gap: 10px;
+    font-size: 18px;
   }
 
   :is(.c-service-page, .home-concerns) .recommend-plan__heading::before,
   :is(.c-service-page, .home-concerns) .recommend-plan__heading::after {
-    flex-basis: 20px;
-    height: 64px;
-    font-size: 60px;
+    flex-basis: 12px;
+    height: 36px;
+    font-size: 36px;
   }
 }
 
@@ -357,42 +357,8 @@
     padding-bottom: 40px;
   }
 
-  .c-service-page .c-tab__buttons {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    align-items: stretch;
-    gap: 6px;
-    overflow: visible;
-    padding-bottom: 8px;
-  }
-
-  .c-service-page .c-tab__button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-width: 0;
-    min-height: 52px;
-    padding: 6px 3px;
-    border-radius: 18px;
-    font-size: clamp(10px, 2.9vw, 12px);
-    line-height: 1.35;
-    text-align: center;
-    white-space: normal;
-  }
-
-  .c-service-page .c-tab__button[aria-selected="true"]::after {
-    top: auto;
-    bottom: -9px;
-  }
-
-  .c-service-page .recommend-plan__tab .c-tab__buttons {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .c-service-page .recommend-plan__tab .c-tab__button {
-    font-size: 14px;
-    white-space: nowrap;
-  }
+  /* Reuse the reference common.css tabs: 14px, 1.8 line height, 12px side padding. */
+  .c-service-page .c-tab__button br { display: none; }
 
   .c-service-page .p-page-anchors__cards .c-category-simple-card__bottom {
     padding-inline: 6px;

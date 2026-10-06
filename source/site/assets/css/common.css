@@ -2792,6 +2792,8 @@ screen and (min-width: 768px) {
 
 .c-illust--drum-type-washing-machine { --artwork-fit-x: 1.315845; --artwork-fit-y: 1.095197; background-image: url("/assets/images/cleaning-illustrations/washer-drum.png"); }
 
+.c-illust--drum-type-washing-machine-dryer { --artwork-fit-x: 1.011290; --artwork-fit-y: 1.349839; background-image: url("/assets/images/cleaning-illustrations/washer-drum-disassembly.png"); }
+
 .c-illust--office-uv-flooring { --artwork-fit-x: 1.015385; --artwork-fit-y: 1.950233; background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
 .c-illust--vertical-washing-machine { --artwork-fit-x: 1.676471; --artwork-fit-y: 1.048495; background-image: url("/assets/images/cleaning-illustrations/washer-top.png"); }
@@ -2815,7 +2817,7 @@ screen and (min-width: 768px) {
   align-items: center;
   padding: 28px 12px 8px;
 }
-.c-illust.c-category-simple-card__icon {
+.c-category-simple-card .c-illust.c-category-simple-card__icon {
   --width: 240px;
   --artwork-height: 124px;
   width: min(var(--width), 100%);
@@ -2830,7 +2832,7 @@ screen and (min-width: 768px) {
 }
 @media (max-width: 767.98px) {
   .c-category-simple-card > .c-category-simple-card__top { height: 148px; padding: 28px 8px 8px; }
-  .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
+  .c-category-simple-card .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
   .c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
     width: 88px; height: 88px; flex-basis: 88px;
   }
@@ -17291,11 +17293,10 @@ screen and (min-width: 768px) {
 .c-cleaning-menu-heading__title { display: block; }
 .c-cleaning-menu-heading__brand {
   margin-bottom: 6px;
-  font-size: 18px;
-  line-height: 1.5;
 }
-.c-cleaning-menu-heading__title { font-size: 28px; line-height: 1.5; }
+.c-cleaning-menu-heading__brand,
+.c-cleaning-menu-heading__title { font-size: 28px; line-height: 1.5; white-space: nowrap; }
 @media (max-width: 767.98px) {
-  .c-cleaning-menu-heading__brand { font-size: 14px; }
-  .c-cleaning-menu-heading__title { font-size: 20px; }
+  .c-cleaning-menu-heading__brand,
+  .c-cleaning-menu-heading__title { font-size: clamp(16px, 5.05vw, 20px); }
 }

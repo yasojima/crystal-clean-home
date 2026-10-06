@@ -437,6 +437,15 @@ def navigation(page, primary, category, copy):
         icon = a.select_one('.c-illust')
         if icon:
             icon['class'] = item['icon'] or ['c-illust',f'c-illust--{icon_map[category]}','c-category-simple-card__icon']
+            selector_icon = {
+                ('aircon', '#lineup01'): 'aircon',
+                ('aircon', '#lineup02'): 'aircon-buried',
+                ('washer', '#lineup01'): 'vertical-washing-machine',
+                ('washer', '#lineup02'): 'drum-type-washing-machine',
+                ('washer', '#lineup03'): 'drum-type-washing-machine-dryer',
+            }.get((page['route'], item['href']))
+            if selector_icon:
+                icon['class'] = ['c-illust', f'c-illust--{selector_icon}', 'c-category-simple-card__icon']
         cards.append(a)
     cards['style'] = cards.get('style', '').replace('repeat(3,1fr)', 'repeat(2,minmax(0,1fr))')
     container = tag('div', 'l-section l-section--limited c-service-selector')

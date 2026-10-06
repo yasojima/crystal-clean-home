@@ -53,7 +53,7 @@ def artwork_css():
   align-items: center;
   padding: 28px 12px 8px;
 }
-.c-illust.c-category-simple-card__icon {
+.c-category-simple-card .c-illust.c-category-simple-card__icon {
   --width: 240px;
   --artwork-height: 124px;
   width: min(var(--width), 100%);
@@ -68,7 +68,7 @@ def artwork_css():
 }
 @media (max-width: 767.98px) {
   .c-category-simple-card > .c-category-simple-card__top { height: 148px; padding: 28px 8px 8px; }
-  .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
+  .c-category-simple-card .c-illust.c-category-simple-card__icon { --width: 200px; --artwork-height: 112px; }
   .c-product-additional-card__main > img.c-product-additional-card__image[src*="/cleaning-illustrations/"] {
     width: 88px; height: 88px; flex-basis: 88px;
   }
