@@ -1,0 +1,323 @@
+{
+  "checked_at": "2026-10-06T14:34:54.323051+00:00",
+  "source_commit": "c3d0e4c",
+  "pages_commit": "48a25b0c7663d132849b4b6ba4b28e592ae4fe2c",
+  "actions_run": 37479949190,
+  "files": [
+    {
+      "path": "assets/css/aircon-header.css",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/css/beginner-lp.css",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "assets/js/aircon-header.js",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "beginner/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "business/contact/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "business/racn/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "cart/estimate/confirm/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "cart/estimate/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "cart/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "contact/business/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "contact/house-cleaning/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "contact/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "contact/shop/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/aircon01/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/aircon02/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/drier/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/fridge/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/kitchen/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/air/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/kitchen/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/light/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/oa/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/others/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/summer/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/toilet/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/washer/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/winter/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "error/403/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "error/405/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/aircon/2027problem/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/aircon_standard/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/carpet/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/floor/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/fluorescent/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/glass/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/photocatalyst/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "office/space/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "policy-1/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "policy-2/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "policy/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/aircon/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/coating/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/kitchen/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/option/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/others/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/pack/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/room/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/washer/index.html",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/water/index.html",
+      "status": 200,
+      "matches": true
+    }
+  ]
+}

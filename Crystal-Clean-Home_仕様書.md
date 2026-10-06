@@ -1,5 +1,12 @@
 # Crystal Clean Home 現行仕様書
 
+## 比較部品の非表示SVGとiPhone描画調査（CHG-2026-10-06-017）
+
+- common.jsの比較部品は、既存common.cssの.icv__arrow-wrapper::beforeで矢印を描く。display:noneのSVGとinlineのdrop-shadowを重複生成しない。矢印のラッパー、制御線、円形の操作表示、画像の切り抜きとマウス／タッチ操作は保持する。
+- 比較部品がある全5ページ9比較をPC1280px／スマホ414pxで確認する。LPの4比較に残っていた非表示・0寸法・原点位置のフィルター付きSVG 8個は生成されなくなる。common.jsの参照版2026100602を全60ページで共通生成する。
+- 実機条件はiPhone XS Max・iOS 18.7.10・Chrome。CHG-016の公開後も黒い表示は残る。WebKitの314999とLay Theme開発者の事例は類似するが、報告対象がiOS 26のため実機の直接原因とは断定しない。変更後の実機解消は未確認。
+- 証拠はevidence/2026-10-06/ios-filter-artifact/。比較構造、操作、公開ファイルの一致と実機の黒いピクセル解消を区別する。
+
 ## LPの共通分類・見積もり・HOME追加修正（CHG-2026-10-06-015）
 
 - 8分類の唯一の構造正本はsource/service-pages/templates/categories.html。共通生成でLPとquick_cartへ同じ見出し・c-illust・タグを反映し、quick_cartだけ遷移先を/quick_cart/配下へ変える。LP専用CSSの旧カテゴリ画像、mask、アイコン寸法、タグ装飾を削除し、common.cssの被写体基準フィットを再利用する。洗濯機はwasher-pair、外壁洗浄・その他はexterior、パックサービスはpackを使う。

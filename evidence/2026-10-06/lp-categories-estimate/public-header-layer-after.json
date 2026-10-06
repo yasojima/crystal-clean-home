@@ -1,0 +1,21 @@
+{
+  "bodyBackground": "rgb(255, 255, 255)",
+  "header": {
+    "height": 96,
+    "position": "fixed",
+    "top": 0,
+    "transform": "none"
+  },
+  "logoLoaded": true,
+  "overflow": 0,
+  "padding": "96px",
+  "route": "/beginner/",
+  "width": 414,
+  "hidden": {
+    "background": "rgb(255, 255, 255)",
+    "headerBottom": -1,
+    "headerTop": -97,
+    "scroll": 60,
+    "transform": "none"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-06",
+  "device": {"model": "iPhone XS Max", "os": "iOS 18.7.10", "browser": "Chrome"},
+  "previous_fix": {"source_commit": "c3d0e4c", "pages_commit": "48a25b0c7663d132849b4b6ba4b28e592ae4fe2c", "device_result": "black shape still remains"},
+  "sources": [
+    {"url": "https://bugs.webkit.org/show_bug.cgi?id=314999", "kind": "browser engine bug tracker", "finding": "An offscreen SVG filter can render a spurious black square at the viewport origin. Reported on iOS 26.4.2; resolved in WebKit source in June 2026.", "limit": "The user's iOS 18.7.10 was not established as affected by this specific report."},
+    {"url": "https://laythemeforum.com/topic/11874/artefact-showing-on-mobile-website-when-using-fixed-height-100svh", "kind": "original developer investigation", "finding": "An iPhone top-left black artifact occurred in Chrome and Safari. The developer replaced SVG blur filters and the user confirmed the artifact was gone.", "limit": "The reported iOS version was 26.4; this site's comparison code uses CSS drop-shadow on hidden SVG rather than that exact lazy-load SVG blur."}
+  ],
+  "implementation_observation": {"page": "/beginner/", "unused_svg_count": 8, "computed_display": "none", "rect": "0,0,0,0", "filter": "drop-shadow", "visible_arrows": "existing shared CSS masks"},
+  "change": "Remove the unused SVG creation from the shared comparison component. Keep the wrapper elements and CSS arrows, image clipping, control lines and interaction handlers.",
+  "status": "Candidate supported by source inspection; device-level resolution not yet verified. No exact matching iOS 18 report was established."
+}
