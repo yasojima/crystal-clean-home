@@ -1,0 +1,15 @@
+{
+  "pc_open_close_passed": true,
+  "mobile_opened": {
+    "expanded": "true",
+    "header_bg": "rgb(245, 245, 245)",
+    "menu_bg": "rgb(245, 245, 245)",
+    "open": true,
+    "sections": 10
+  },
+  "mobile_closed": {
+    "closed": true,
+    "expanded": "false"
+  },
+  "interaction": "Screen-coordinate click derived from visible MENU bounds; locator scrolling moved the sticky header before the click near footer."
+}
