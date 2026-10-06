@@ -6,6 +6,7 @@ import json
 import mimetypes
 import re
 from apply_cleaning_artwork import transform_references
+from home_section_backgrounds import apply_home_section_backgrounds
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -59,6 +60,7 @@ def transform(html, is_aircon=False):
             return featured
         return section
     html = re.sub(r'<section\b[^>]*>.*?</section>', shared_featured, html, flags=re.S)
+    html = apply_home_section_backgrounds(html)
     heading = (COMPONENTS / 'cleaning-menu-heading.html').read_text(encoding='utf-8').strip()
     def shared_cleaning_heading(match):
         content = match[2]
@@ -91,12 +93,12 @@ def transform(html, is_aircon=False):
     html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100601', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100704', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
-    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100704', html)
+    html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + ('?v=2026100704' if kind == 'css' else '?v=2026100608'), html)
+                          '/assets/' + kind + '/' + asset + ('?v=2026100705' if kind == 'css' else '?v=2026100608'), html)
     html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100603', html)
     for stylesheet, version in (('first-lp-desktop.css', '2026100601'), ('first-lp-mobile.css', '2026100703')):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
@@ -104,7 +106,7 @@ def transform(html, is_aircon=False):
     if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100703"></script>' + newline + '</head>', 1)
     html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100703', html)
-    layout_version = '2026100704'
+    layout_version = '2026100705'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'

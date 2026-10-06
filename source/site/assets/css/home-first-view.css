@@ -78,17 +78,18 @@
   scroll-margin-top: var(--aircon-header-height);
 }
 
-.home-first-guide-section { padding-block: 24px 0; }
+.home-first-guide-section { padding-bottom: 40px; }
 
 
 .home-first-guide-frame {
   position: relative;
-  width: 100%;
-  aspect-ratio: 2172 / 724;
+  width: calc(2034 / 2172 * 100%);
+  aspect-ratio: 2034 / 437;
+  margin-inline: auto;
 }
 .c-home .home-first-guide {
   position: absolute;
-  inset: calc(148 / 724 * 100%) calc(68 / 2172 * 100%) calc(139 / 724 * 100%) calc(70 / 2172 * 100%);
+  inset: 0;
   display: block;
   overflow: hidden;
   border-radius: clamp(6px, 1.8vw, 24px);
@@ -104,10 +105,12 @@
   height: auto;
 }
 .home-business-guide-frame {
-  margin-top: calc(clamp(16px, 2vw, 24px) - 13.1445%);
+  width: calc(1918 / 2048 * 100%);
+  aspect-ratio: 1918 / 407;
+  margin-top: clamp(16px, 2vw, 24px);
 }
 .c-home .home-business-guide {
-  inset: calc(138 / 682 * 100%) calc(64 / 2048 * 100%) calc(137 / 682 * 100%) calc(66 / 2048 * 100%);
+  inset: 0;
 }
 .home-business-guide .home-first-guide__art {
   top: calc(-138 / 407 * 100%);
@@ -472,8 +475,8 @@
 }
 
 @media (max-width: 767.98px) {
-  .home-first-guide-section { padding-block: 24px; }
-  .home-first-guide-frame { aspect-ratio: auto; }
+  .home-first-guide-section { padding-bottom: 32px; }
+  .home-first-guide-frame { width: 100%; aspect-ratio: auto; }
   .home-business-guide-frame { margin-top: 16px; }
   .c-home .home-first-guide {
     position: relative;

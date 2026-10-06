@@ -170,8 +170,8 @@
 }
 
 :is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
-  --navy-height: 140px;
-  padding-bottom: 48px;
+  --navy-height: 210px;
+  padding-bottom: 72px;
 }
 
 :is(.c-service-page, .c-home) .c-service-selector {
@@ -353,8 +353,8 @@
 
 @media (max-width: 767.98px) {
   :is(.c-service-page, .c-home) .c-reasons--navy .c-reasons__item {
-    --navy-height: 108px;
-    padding-bottom: 40px;
+    --navy-height: 162px;
+    padding-bottom: 60px;
   }
 
   /* Reuse the reference common.css tabs: 14px, 1.8 line height, 12px side padding. */

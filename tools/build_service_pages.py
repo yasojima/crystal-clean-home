@@ -7,6 +7,7 @@ import json
 import re
 from bs4 import BeautifulSoup
 from build_shared_ui import transform as shared_ui
+from home_section_backgrounds import apply_home_section_backgrounds
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -544,9 +545,8 @@ def render_static_reasons(original):
         shared = json.loads((DATA / 'copy.json').read_text(encoding='utf-8'))['shared']
         section = reasons(shared, 'home')
         section['id'] = 'home-reasons'
-        section['class'].append('l-section--blue-wave')
-        section['style'] = '--bg-color: #e3f1fc;'
-        add_section_curve(section, 'down', '#fff')
+        section['style'] = '--bg-color: #fff;'
+        add_section_curve(section, 'up', '#e3f1fc')
         output = re.sub(r'<section\b[^>]*>.*?</section>',
                         lambda match: str(section) if 'class="p-reasons"' in match.group() else match.group(),
                         original, flags=re.S)
@@ -557,13 +557,7 @@ def render_static_reasons(original):
         if reason.start() < guide.start():
             output = output[:guide.start()] + output[guide.end():]
             output = output[:reason.start()] + guide.group() + '\n\n' + output[reason.start():]
-        old_concerns = '<section class="l-section l-section--limited l-section--blue-bubbles home-concerns" style="--bg-color: #e3f1fc;"'
-        new_concerns = '<section class="l-section l-section--limited l-section--blue-bubbles home-concerns c-curved-section c-curved-section--up" style="--bg-color: #fff;"'
-        output = output.replace(old_concerns, new_concerns, 1)
-        output = re.sub(r'(<section\b[^>]*\bhome-concerns\b[^>]*>)(?!<span[^>]*class="c-section-curve)',
-                        lambda match: match[1] + '<span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>',
-                        output, count=1)
-        return ensure_navy_stylesheet(output)
+        return ensure_navy_stylesheet(apply_home_section_backgrounds(output))
     output = original
     grid_class = 'class="c-grid c-reasons p-reasons__contents"'
     navy_class = 'class="c-grid c-reasons p-reasons__contents c-reasons--navy"'
