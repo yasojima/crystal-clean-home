@@ -271,6 +271,14 @@ def offer(key, catalogue):
         which = ('666_479' if 'kitchen-fan' in joined else 'bath-dryer' if 'bath-fan' in joined else
                  'lavatory' if '/sink.' in joined else 'adapter' if 'ulblo' in joined else 'wall' if 'wallpaper' in joined else 'bath-pipe')
         desc.string = OFFER_COPY[which]
+    for picture in n.select('.c-plan-card-detail__image'):
+        illustration = {
+            '/assets/images/common-parts/product-icon/aircon-wall.webp': 'aircon',
+            '/assets/images/common-parts/product-icon/aircon-ceil.webp': 'aircon-buried',
+        }.get(picture.get('src'))
+        if illustration:
+            picture.replace_with(tag('span', f'c-illust c-illust--{illustration} c-plan-card-detail__image',
+                                     style='--width:80px;--artwork-height:80px;', **{'aria-hidden': 'true'}))
     for desc in n.select('.c-plan-card__description'):
         desc.string = AIRCON_OFFER_COPY[key]
     for label in n.select('.c-set-plan-card__label'):
