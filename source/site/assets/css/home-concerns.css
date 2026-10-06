@@ -91,6 +91,7 @@
   .home-concerns__places { justify-content: center; gap: 12px 6px; }
   .home-concerns__place { font-size: 14px; }
   .home-concerns__card { width: 100%; grid-template-rows: 96px 352px 52px; }
+  .home-concerns__service { font-size: clamp(18px, 5.8vw, 20px); }
   .home-concerns__service--long { font-size: 16px; }
   .home-concerns__question { font-size: 14px; }
   .home-concerns__service-link { font-size: 13px; }

@@ -71,7 +71,7 @@ def transform(html, is_aircon=False):
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + '?v=2026100606', html)
+                          '/assets/' + kind + '/' + asset + '?v=2026100607', html)
     layout_version = '2026100603'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):
