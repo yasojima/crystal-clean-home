@@ -1,0 +1,50 @@
+diff --git a/source/site/assets/css/beginner-lp.css b/source/site/assets/css/beginner-lp.css
+index 0d6b345..6632c56 100644
+--- a/source/site/assets/css/beginner-lp.css
++++ b/source/site/assets/css/beginner-lp.css
+@@ -63,3 +63,19 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
+   body.c-beginner-lp #cch-first-lp .cta-final .lp-cta-action { gap: 16px; }
+   body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo { width: 168px; max-width: 100%; }
+ }
++
++/* Keep offscreen LP effects inside each section paint boundary. */
++@media (max-width: 767.98px) {
++  body.c-beginner-lp #cch-first-lp .lp-canvas > * {
++    contain: paint;
++  }
++  body.c-beginner-lp #cch-first-lp #first-comparison .lp-table-scroll {
++    filter: none;
++    -webkit-filter: none;
++    box-shadow: 0 8px 16px #103f6110;
++  }
++  body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo {
++    filter: none;
++    -webkit-filter: none;
++  }
++}
+diff --git a/source/site/beginner/index.html b/source/site/beginner/index.html
+index 8570db7..ba4c00e 100644
+--- a/source/site/beginner/index.html
++++ b/source/site/beginner/index.html
+@@ -42,7 +42,7 @@
+ 
+ <link rel="stylesheet" href="/assets/css/first-lp-desktop.css?v=2026100601" media="(min-width:993px)">
+ <link rel="stylesheet" href="/assets/css/first-lp-mobile.css?v=2026100601" media="(max-width:992px)">
+-<link rel="stylesheet" href="/assets/css/beginner-lp.css?v=2026100603">
++<link rel="stylesheet" href="/assets/css/beginner-lp.css?v=2026100702">
+ <script src="/assets/js/first-lp.js?v=2026100524" defer></script>
+ <script src="/assets/js/lp-render-check.js?v=2026100701"></script>
+ <link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100606">
+diff --git a/tools/build_shared_ui.py b/tools/build_shared_ui.py
+index 3c9d9f1..d5bae87 100644
+--- a/tools/build_shared_ui.py
++++ b/tools/build_shared_ui.py
+@@ -96,7 +96,7 @@ def transform(html, is_aircon=False):
+         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
+             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
+                           '/assets/' + kind + '/' + asset + ('?v=2026100610' if kind == 'css' else '?v=2026100608'), html)
+-    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100603', html)
++    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100702', html)
+     for stylesheet in ('first-lp-desktop.css', 'first-lp-mobile.css'):
+         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
+                       '/assets/css/' + stylesheet + '?v=2026100601', html)

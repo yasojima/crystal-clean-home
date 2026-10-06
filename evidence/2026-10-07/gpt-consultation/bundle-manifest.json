@@ -1,0 +1,1305 @@
+{
+  "created_utc": "2026-10-06T16:02:11.979636+00:00",
+  "published_commit": "eeac4e27fa29c818b673c845f763807be2084630",
+  "source_commit": "0dfa240",
+  "runtime_basis": "Clean published checkout at exact Pages commit; no unpublished candidate applied.",
+  "actual_device": {
+    "model": "iPhone XS Max",
+    "os": "iOS 18.7.10",
+    "browsers": [
+      "Chrome",
+      "Safari"
+    ],
+    "status": "UNRESOLVED"
+  },
+  "actual_symptom_photo_included": false,
+  "photo_reason": "The user attachment original file is unavailable locally. Attach existing symptom photo separately.",
+  "excluded": [
+    "Device information photo and private identifiers",
+    "Git repository/authentication files",
+    "Unrelated website pages",
+    "External font downloads"
+  ],
+  "external_references": [
+    "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap",
+    "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Oswald:wght@400;600&family=Noto+Serif+JP:wght@400;600&display=swap"
+  ],
+  "unavailable_static_references": [],
+  "omitted_raster_references": [
+    "assets/images/cleaning-illustrations/adapter.png",
+    "assets/images/cleaning-illustrations/air-cleaner.png",
+    "assets/images/cleaning-illustrations/aircon-disassembly.png",
+    "assets/images/cleaning-illustrations/aircon.png",
+    "assets/images/cleaning-illustrations/bath-apron.png",
+    "assets/images/cleaning-illustrations/bath-dryer.png",
+    "assets/images/cleaning-illustrations/bath.png",
+    "assets/images/cleaning-illustrations/ceiling-aircon.png",
+    "assets/images/cleaning-illustrations/coating.png",
+    "assets/images/cleaning-illustrations/deep-clean.png",
+    "assets/images/cleaning-illustrations/detergent.png",
+    "assets/images/cleaning-illustrations/dishwasher.png",
+    "assets/images/cleaning-illustrations/drain-cap.png",
+    "assets/images/cleaning-illustrations/exterior.png",
+    "assets/images/cleaning-illustrations/fridge.png",
+    "assets/images/cleaning-illustrations/hood.png",
+    "assets/images/cleaning-illustrations/kitchen.png",
+    "assets/images/cleaning-illustrations/lavatory.png",
+    "assets/images/cleaning-illustrations/mirror.png",
+    "assets/images/cleaning-illustrations/outdoor.png",
+    "assets/images/cleaning-illustrations/pipe.png",
+    "assets/images/cleaning-illustrations/purifier-disassembly.png",
+    "assets/images/cleaning-illustrations/riser.png",
+    "assets/images/cleaning-illustrations/screen.png",
+    "assets/images/cleaning-illustrations/shutter.png",
+    "assets/images/cleaning-illustrations/sink.png",
+    "assets/images/cleaning-illustrations/steam.png",
+    "assets/images/cleaning-illustrations/stove.png",
+    "assets/images/cleaning-illustrations/toilet.png",
+    "assets/images/cleaning-illustrations/vent.png",
+    "assets/images/cleaning-illustrations/wallpaper.png",
+    "assets/images/cleaning-illustrations/washer-drum-disassembly.png",
+    "assets/images/cleaning-illustrations/washer-pan.png",
+    "assets/images/cleaning-illustrations/washer-top-disassembly.png",
+    "assets/images/cleaning-illustrations/washer-top.png",
+    "assets/images/cleaning-illustrations/wood-repair.png",
+    "assets/images/common-parts/sns-icon/icon-instagram.png",
+    "assets/images/common-parts/sns-icon/icon-tiktok.png",
+    "assets/images/common-parts/sns-icon/icon-translate.png",
+    "assets/images/common-parts/sns-icon/icon-x.png",
+    "assets/images/common-parts/sns-icon/icon-youtube.png",
+    "assets/images/crystal-clean-home.png",
+    "assets/images/header/aircon-ceil.webp",
+    "assets/images/header/aircon-wall.webp",
+    "assets/images/header/menu-close.webp",
+    "assets/images/header/menu-open_pc.webp",
+    "assets/images/header/menu-open_sp.webp",
+    "assets/images/house-cleaning/coating/top/product_01.webp",
+    "assets/images/house-cleaning/coating/top/product_02.webp",
+    "assets/images/house-cleaning/coating/top/product_03.webp",
+    "assets/images/house-cleaning/coating/top/product_04.webp",
+    "assets/images/office/carpet/office-carpet_detail.jpg",
+    "assets/images/office/floor/office-floor_detail.jpg",
+    "assets/images/office/fluorescent/office-fluorescent_detail.jpg",
+    "assets/images/office/glass/glass_detail.webp",
+    "assets/images/office/photocatalyst/photocatalyst_detail.webp",
+    "assets/images/office/space/office-space_detail.jpg",
+    "assets/images/product/room/entrance-cleaning_detail.webp",
+    "assets/images/product/room/entrance-coating_detail.webp",
+    "assets/images/reasons/reference-point-01.webp",
+    "assets/images/reasons/reference-point-02.webp",
+    "assets/images/reasons/reference-point-03.webp",
+    "assets/images/service-scenes/air-purifier.webp",
+    "assets/images/service-scenes/aircon-automatic-after.png",
+    "assets/images/service-scenes/aircon-automatic-before.png",
+    "assets/images/service-scenes/aircon-ceiling-after.png",
+    "assets/images/service-scenes/aircon-ceiling-before.png",
+    "assets/images/service-scenes/aircon-wall-after.png",
+    "assets/images/service-scenes/aircon-wall-before.png",
+    "assets/images/service-scenes/aircon-wall.webp",
+    "assets/images/service-scenes/balcony.webp",
+    "assets/images/service-scenes/bath-adapter-before.webp",
+    "assets/images/service-scenes/bath-adapter.webp",
+    "assets/images/service-scenes/bath-dryer-after.webp",
+    "assets/images/service-scenes/bath-dryer.webp",
+    "assets/images/service-scenes/bath-pipe-after.webp",
+    "assets/images/service-scenes/bath-pipe.webp",
+    "assets/images/service-scenes/bathroom.webp",
+    "assets/images/service-scenes/carpet-after.webp",
+    "assets/images/service-scenes/carpet.webp",
+    "assets/images/service-scenes/dishwasher.webp",
+    "assets/images/service-scenes/duct.webp",
+    "assets/images/service-scenes/entrance.webp",
+    "assets/images/service-scenes/finish-check.webp",
+    "assets/images/service-scenes/flooring.webp",
+    "assets/images/service-scenes/grave-after.webp",
+    "assets/images/service-scenes/grave.webp",
+    "assets/images/service-scenes/kitchen-fan.webp",
+    "assets/images/service-scenes/kitchen-sink.webp",
+    "assets/images/service-scenes/lavatory-after.webp",
+    "assets/images/service-scenes/lavatory.webp",
+    "assets/images/service-scenes/mattress-after.webp",
+    "assets/images/service-scenes/mattress.webp",
+    "assets/images/service-scenes/outerwall-after.webp",
+    "assets/images/service-scenes/outerwall.webp",
+    "assets/images/service-scenes/refrigerator.webp",
+    "assets/images/service-scenes/sofa-after.webp",
+    "assets/images/service-scenes/sofa.webp",
+    "assets/images/service-scenes/toilet-before.webp",
+    "assets/images/service-scenes/toilet.webp",
+    "assets/images/service-scenes/wall-after.webp",
+    "assets/images/service-scenes/wall.webp",
+    "assets/images/service-scenes/wallpaper-dyeing.webp",
+    "assets/images/service-scenes/washer-drying-duct.webp",
+    "assets/images/service-scenes/washer-front.webp",
+    "assets/images/service-scenes/washer-top.webp",
+    "assets/images/service-scenes/window.webp",
+    "assets/images/service-scenes/wood-coating.webp",
+    "assets/images/service-scenes/wood-repair-after.webp",
+    "assets/images/service-scenes/wood-repair.webp",
+    "assets/images/voices/reference-how-to-use.webp",
+    "assets/images/voices/reference-users-voice.webp"
+  ],
+  "omitted_raster_reason": "Counterexample page photos and catalogue-wide runtime image references are omitted. Their source URLs and original code remain present. LP HTML and CSS referenced images plus vector assets are included.",
+  "files": [
+    {
+      "path": "00_GPTへの相談文.txt",
+      "bytes": 4188,
+      "sha256": "c758d93137b2fb8d67ffc0cb0f5488b2d16f0f00a8c3ba0f146e819b358726c8"
+    },
+    {
+      "path": "01_状況と確認結果.md",
+      "bytes": 4379,
+      "sha256": "42a0927708850d5a714b8a2177d934e91b72314f1ce872dea5e970af7282f8f4"
+    },
+    {
+      "path": "02_published_source/generator/source/shared-ui/cleaning-menu-heading.html",
+      "bytes": 177,
+      "sha256": "742ba4e3f9276adf34fd7af52f346ee9935ecdb5aec6ac8a8683562da4caabbe"
+    },
+    {
+      "path": "02_published_source/generator/source/shared-ui/footer.html",
+      "bytes": 27262,
+      "sha256": "8b4f82ecf18ad807caeb6481ce77c70384f3ab72cbb5edb1d971350f63a3ff2b"
+    },
+    {
+      "path": "02_published_source/generator/source/shared-ui/header.html",
+      "bytes": 13775,
+      "sha256": "749d44a10125cc6de889e89258a6910cc5bd3f55908ca2ef6232a1efea78c065"
+    },
+    {
+      "path": "02_published_source/generator/tools/apply_viewport_hud.py",
+      "bytes": 1743,
+      "sha256": "8ca1965f10d31668d23914d0414ecabdca64764b880d1256a0ef679cd6f3f03d"
+    },
+    {
+      "path": "02_published_source/generator/tools/build_shared_ui.py",
+      "bytes": 11205,
+      "sha256": "38a7cd5af591fa7f6c4411a38ad07e6cf313fa7f0c9d8a710a9208f88d522df1"
+    },
+    {
+      "path": "02_published_source/site/assets/css/aircon-header.css",
+      "bytes": 22085,
+      "sha256": "10a62f9d1a42b32f39e71548b20f5ed912063bf455effd9572dad31d338f0ae8"
+    },
+    {
+      "path": "02_published_source/site/assets/css/aircon-hero.css",
+      "bytes": 4690,
+      "sha256": "b55ff237bde41f110821d961627a5217d6536efa2b020f7046f705353e2e265a"
+    },
+    {
+      "path": "02_published_source/site/assets/css/aircon-layout.css",
+      "bytes": 15817,
+      "sha256": "7747858001e4e094ed039db8ac2d683bc09f9b1e3eb10eeeb3f557b3d2ea517f"
+    },
+    {
+      "path": "02_published_source/site/assets/css/aircon-voice-bubbles.css",
+      "bytes": 5331,
+      "sha256": "b78cbcad4722597583f0c11f0989246d931f368abdd73ff1ecef404acd70b432"
+    },
+    {
+      "path": "02_published_source/site/assets/css/beginner-lp.css",
+      "bytes": 2691,
+      "sha256": "269ad22f60f019486282f7c7aee1449e168384cf526b067c5d91e3f5c2791018"
+    },
+    {
+      "path": "02_published_source/site/assets/css/common.css",
+      "bytes": 328925,
+      "sha256": "fc7628db25a5638f6422e1f8fdd00df4f1926478f5efb3b9308f3c6a20afdf48"
+    },
+    {
+      "path": "02_published_source/site/assets/css/first-lp-desktop.css",
+      "bytes": 62597,
+      "sha256": "33377d212c834e635954230f11c7a09da173304445abb01554a76f9b9779d02a"
+    },
+    {
+      "path": "02_published_source/site/assets/css/first-lp-mobile.css",
+      "bytes": 65989,
+      "sha256": "8b2d7f653980c93c9a90ef71f055bc4890ff0bfc34dc51ab8cc8b036ce6f65c5"
+    },
+    {
+      "path": "02_published_source/site/assets/css/reasons-navy.css",
+      "bytes": 458,
+      "sha256": "c79c49461707843821768c0384a027652cac8cc40b728beeea2bd3252e1fbb1d"
+    },
+    {
+      "path": "02_published_source/site/assets/css/service-format.css",
+      "bytes": 631,
+      "sha256": "28d06e17c2bd95a5c8ace28632aee4ed402371f5fb69644d9d9e49b7aa227494"
+    },
+    {
+      "path": "02_published_source/site/assets/css/service-pages.css",
+      "bytes": 2982,
+      "sha256": "f2e212fe99cd02102d42f8c513a718488b8b1fdcb7552a53f4e649323af616b6"
+    },
+    {
+      "path": "02_published_source/site/assets/css/site-cart.css",
+      "bytes": 11747,
+      "sha256": "14ef8674212ba703c21a462e72cc0a912e7b38971b4882a0dd1fcd9c25ed3208"
+    },
+    {
+      "path": "02_published_source/site/assets/css/site-footer.css",
+      "bytes": 9768,
+      "sha256": "3d99a1174f491322aa1fb6c2747e269ff998483c4b93c7243dba08da32060457"
+    },
+    {
+      "path": "02_published_source/site/assets/css/site-typography.css",
+      "bytes": 819,
+      "sha256": "823220887eb7cc7af0a3b634730edb98567e49e6d75ff211f9b85073cd034de5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/adapter.png",
+      "bytes": 1272297,
+      "sha256": "765aea5ad46425da4da72fed34a11710b84fad64874cf5aaf01957601af38bc4"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/air-cleaner.png",
+      "bytes": 1318931,
+      "sha256": "4a0e7ed2f86fa8c086bd77b77ac75279b5783eb52585fd05a96de38e0e1c947a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/aircon.png",
+      "bytes": 475873,
+      "sha256": "81397cc743ade7fc18b3552bbae737bd3f595a2c66bdd278df4bd0bafcbb3cf6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/bath-dryer.png",
+      "bytes": 818127,
+      "sha256": "58dd133d0bfa0e706fabef468008949df75dcf3abdf8bf298c2872f196f7c095"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/bath.png",
+      "bytes": 894789,
+      "sha256": "da7fb4f4644b90abb79b1b05a2c2b747d0d4cefb240548a1159076e75c339f4c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/carpet.png",
+      "bytes": 1261997,
+      "sha256": "57a44cb1847289022af95bc8c60eb7655cab55365af68fad33babdd1e76b3771"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/ceiling-aircon.png",
+      "bytes": 1303251,
+      "sha256": "5e522ac1bf17e465e7f2cbafabeb1aa0031ee94196e35be71741899b03559971"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/coating.png",
+      "bytes": 943283,
+      "sha256": "4ce97b1663413668702bb69f5882b24b04166d0c77a973fa4fb1cb4ef07ea1a0"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/detergent.png",
+      "bytes": 866846,
+      "sha256": "d032d537511b143be11a147819711a8f2f66ebba3eca5b45f93a5d1e979aeed4"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/dishwasher.png",
+      "bytes": 1238722,
+      "sha256": "cf94e0dfde02c332e554034f946c6e04fb3616f2518ea84d36050d556afc1815"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/exterior.png",
+      "bytes": 1370005,
+      "sha256": "f60cc1f14800f3fad1ef7975e895f39b544e7f3161e0b227389938fbae5d897e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/fridge.png",
+      "bytes": 579535,
+      "sha256": "b01e209cade4550ee4d8e6a1ed347e0caf399a527bf65ab9c19915efd0ea4ccc"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/grave.png",
+      "bytes": 1488626,
+      "sha256": "4868e05ae8810c56d8525d772a18558b1e12def5c1f0ed9ed0ca4cd4342a5bbe"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/hood.png",
+      "bytes": 730006,
+      "sha256": "9b0a05d98cad6e677bf4577221fbbb8decf2513c475049c69f229960d2166105"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/kitchen.png",
+      "bytes": 1056547,
+      "sha256": "d79d86d66b7544f4a2d55ae1949bae69b733a75aa1a4b6e29a732a89ae4885f5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/lavatory.png",
+      "bytes": 782092,
+      "sha256": "eb60898cd5848bff360ff4e9d535686a601a5f49ee9a8143ab8326fed45372ef"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/light.png",
+      "bytes": 575361,
+      "sha256": "c7e3e741edaf9255a9775d72b6b273d1e96ecaa92f3aff6e9e84559583420ed1"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/mattress.png",
+      "bytes": 873323,
+      "sha256": "9b8abca9253ac52d18ef58b6a2e92c2d4865e6cabc9be148d9cb9610f14b4508"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/pack.png",
+      "bytes": 1423322,
+      "sha256": "70e13e60c3429677e9926b3f17b5945cc17794c28766e212cf78f72b462d8eff"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/pipe.png",
+      "bytes": 595865,
+      "sha256": "e3bef4a9e68c7d95f87616299ba972b53ab3307c7fc2e85d0eb6c8c5be435b1e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/room.png",
+      "bytes": 1792402,
+      "sha256": "885795c4c6c835aa9f2302d0241a6694503d1b413b7e01397fbfbfe3331c3d53"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/sofa.png",
+      "bytes": 1382331,
+      "sha256": "2c3eab9479eb757657ba071907f9c038c9e3d3c14aaccbb9ccf84fdf325b50eb"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/toilet.png",
+      "bytes": 626599,
+      "sha256": "ee2e9e2d06ef8516a6537b872e62ea3892c35a0c3c5a6ebdaf92507b032c1b2b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/vent.png",
+      "bytes": 1275363,
+      "sha256": "6a39d641eaad3c19c6ff9567115606234da589ee1490378a265712f4d38d6481"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/wallpaper.png",
+      "bytes": 1473529,
+      "sha256": "4b9579288790781515308bae4d1c56e5305304b5094bdd8b102afa90dd17d7de"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/washer-drum-disassembly.png",
+      "bytes": 1353721,
+      "sha256": "9bfb2f043c9d51f23f8fe4be206a3119723dc3656eb97448e917b5b9dd7c7339"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/washer-drum.png",
+      "bytes": 1372837,
+      "sha256": "3145a034cd508c849570f953176edcc3014129c2034afaa4b36fc49d407506a1"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/washer-pair.png",
+      "bytes": 1251699,
+      "sha256": "05cd0c1c29b22c37230168a0dd6b1f8e601018ca5af799c7c84ea42833832c7c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/washer-top.png",
+      "bytes": 931649,
+      "sha256": "3a063615512e6a02df54ec83161c3d66a5edecca12f788880a7b30d9bb1e6123"
+    },
+    {
+      "path": "02_published_source/site/assets/images/cleaning-illustrations/window.png",
+      "bytes": 831845,
+      "sha256": "39a64f75d6e9e96590a71140c3e9ca637b62d4bab974640fe33bc408933bae89"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/bubbles_pink.svg",
+      "bytes": 1779,
+      "sha256": "582a212f5a9013e2d5f5545d8e1698eccf4809236c784fb1962a1b72089b8eea"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/section-arrows-black.svg",
+      "bytes": 181,
+      "sha256": "485287022ab191f46c781eeb7599629fb35516728f40791e1c796ea307cf1258"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/section-curve-down.svg",
+      "bytes": 131,
+      "sha256": "85eb825bc68c3d0f0e53847be2490b5d7ba2241b9d3636bd8c63758af3e4c585"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/section-curve-up.svg",
+      "bytes": 138,
+      "sha256": "044375a2999ac3e0c9b64d522feb03d7df55e739d305b2263f9b8d70e291646a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/wave_blue_pc.webp",
+      "bytes": 306334,
+      "sha256": "d2ca9dc99ec7d47d535784c1f7633e74cd4ea99499724eb98be4a387ebbb07c7"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/wave_blue_sp.webp",
+      "bytes": 42126,
+      "sha256": "a06f9beee75b7c0e5f924576c4834b134f3ce2808ae5ecb214a011bb1f3199de"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/wave_pink_pc.webp",
+      "bytes": 358618,
+      "sha256": "1367f80c7dcfbda2a36c87eea9fe1f2b5e111e3918f04cbbf640bf4e7aa826d6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/decoration/wave_pink_sp.webp",
+      "bytes": 28616,
+      "sha256": "315eadca4845836f7d3932e483eb4978bb090b501b055c49500403291002fc45"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/font-awesome/caret-right.svg",
+      "bytes": 399,
+      "sha256": "7b4aae4c38a4c1e64c9149acc77ee70fa006d7c06ffb4c0e4967c1da5b812220"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/font-awesome/circle-arrow-right.svg",
+      "bytes": 474,
+      "sha256": "13964bb63fcde10a3b0d4e1045200ec35a313bb8bfa97514c5057e3748eaf804"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/font-awesome/circle-minus.svg",
+      "bytes": 369,
+      "sha256": "55dedc26a556910d3be304458c8a148f7a18edd8178d32e950661499feaa70df"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/font-awesome/circle-plus.svg",
+      "bytes": 460,
+      "sha256": "ca6ff012f78ea3989e5da13395102c7289cbe6858c0a7eea6cf82970b017ab24"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/adjust.svg",
+      "bytes": 990,
+      "sha256": "fe1c85a0ab5c37757af849ab07677a0d0f611fcac4c38d6834246e8b08231165"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/air-cleaner.svg",
+      "bytes": 1746,
+      "sha256": "ff029be5b2b952c9de96f7900fa621bb2edebc509ac01984c3094254986f3ffa"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/aircon-buried.svg",
+      "bytes": 694,
+      "sha256": "3c4ffa29866f6d0e8a8f12bb2e29f8b5627fcdd74e514717d01bd8e66baae1df"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/aircon.svg",
+      "bytes": 3124,
+      "sha256": "53dab005cc54d40d74577fedaa90d3ec99f4073b00951c71ebcc0e70ca5f305e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/answer.svg",
+      "bytes": 290,
+      "sha256": "1f08375081027bd1e1acc6d26f5178706393ef3bcb19df426674fbd2e38d59ee"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/bath.svg",
+      "bytes": 1156,
+      "sha256": "80a437c6347b5d9893229ed1a1c477fbc4f8fdb4d62462c554b7ff4e30678e85"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/breadcrumbs-arrow.svg",
+      "bytes": 163,
+      "sha256": "e9a1edf06da0504910fd68f2e9049c97fbb4602b20aa2bc81fc99646cc764ef0"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/brush.svg",
+      "bytes": 1383,
+      "sha256": "0f5036f44d041ca2e20e850ca460671fadd390a2dec541b931c7ae5602ec553c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/calender.svg",
+      "bytes": 2307,
+      "sha256": "98a4c368a78bf5d104a26a3ce3afd4930e071897b31aa85379985ba37a6586e9"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-down.svg",
+      "bytes": 153,
+      "sha256": "9143a28f63e9ae5b6a101b1abfcb5330edfbc7e0b7106666a2b78ba4ff1b3aee"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-left.svg",
+      "bytes": 152,
+      "sha256": "f540a8e7839d3f36abbb0ec0fe4c91e2a531142f64327acbbc64cdb3bc0f8e0c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-right.svg",
+      "bytes": 147,
+      "sha256": "b02085b532aac4d0384339a301bff523a79eef776dd388b3a952a7b4a2b2573f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-to-next.svg",
+      "bytes": 203,
+      "sha256": "2485ff6096de408ed0fb150bf5829cd2f5b13fdc16ba7808aa2fb82ef09ed93e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-to-prev.svg",
+      "bytes": 224,
+      "sha256": "6f775e2b5287486482adafe8d4fb107e1598c57accb39bdeb8a56a6d233808c5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/caret-up.svg",
+      "bytes": 153,
+      "sha256": "e7a9fc91908e96deca09ecb12402b2bbba711cf55f88edce987d4161ecc144cb"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/carpet.svg",
+      "bytes": 913,
+      "sha256": "d7467ae10bbd38b445c46a29e4c823990391368a8dea55bed0d4cb6b4ff352e5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/cart.svg",
+      "bytes": 1092,
+      "sha256": "95882ed75894abdb6c62281024e75bd0a8fd8f7c9becf14f5f23698863f4805e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/check.svg",
+      "bytes": 257,
+      "sha256": "9ef80d60b4ea6cdaf848e09acbcffd02e862b4ca7a9028e80389675762524c60"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-caret-down.svg",
+      "bytes": 267,
+      "sha256": "4f9b508ae385d6b0d50809a3c484b0afc6f725dae9dc785397bfe3813a4470e7"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-caret-left.svg",
+      "bytes": 267,
+      "sha256": "f4ebe91bd036227ba41c2e83de1ca5b69cc4540db0f16ead00420e80823d04c6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-caret-right.svg",
+      "bytes": 264,
+      "sha256": "48ee90aeed0c9a1083b1783e827bc5c8cc08b007d5af667ccf89f1e9bb438bf3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-caret-up.svg",
+      "bytes": 264,
+      "sha256": "78b06683df7a235156783ebf590991228ec7b3308c540f4a8ea2b54f9625b1ca"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-fill.svg",
+      "bytes": 259,
+      "sha256": "9f0cbc94b2fa0e63eec7517fe15223916f4e04d2716ee1fd3c72f540afdb262d"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-half-down.svg",
+      "bytes": 554,
+      "sha256": "1a8e2062d9fd00b0b823f453e5c4c6c504c2721d826dcabcf20a8ca013039683"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle-half-up.svg",
+      "bytes": 554,
+      "sha256": "86eebd28cf06531a32abaef3d0135d2a4ade8d4f1f94a2945ea9befde3d3b7eb"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/circle.svg",
+      "bytes": 430,
+      "sha256": "ccb1b6d837c8c2a427d992c6e936d6d4dbe4958bd5347a8735771062a3b59728"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/cleaning.svg",
+      "bytes": 2326,
+      "sha256": "a41b88dab5ea5328447c0135510ef12035e6d41b7cdc5ce257db1412c2fd46b2"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/clock.svg",
+      "bytes": 706,
+      "sha256": "18ab147fa20ac4d68540747b4279b9da46f1f79bd18b6d23873bb4a99ed0ec65"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/coating.svg",
+      "bytes": 1341,
+      "sha256": "7f975d21e8bfbaa7a200c79c4de4a3a53de0b2d0927304cacd5fd2332de66a40"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/contact.svg",
+      "bytes": 1198,
+      "sha256": "0044953224df92b8d6f7e2c0303a47bbe43225c1a9a26470fb14845318976583"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/cross.svg",
+      "bytes": 351,
+      "sha256": "8f46223c045f5650be62e011d251b46d8159dd0f6807fc2857200019e8ac3867"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/crown.svg",
+      "bytes": 777,
+      "sha256": "1601be9017b3b4aaae1c99b709d7e84067396a98aa1b66982b1a24c90f799837"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/dishwasher-drier.svg",
+      "bytes": 2890,
+      "sha256": "f02e599be7a941fc78006cfef1c75702949f04f7a44e07a7e78f01b959ff52d1"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/document.svg",
+      "bytes": 265,
+      "sha256": "de150bd76ef8f2c8ceedd139af941ba5a0068c3658dc343f3c9b0aa0de7e248c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/double-quotation-left.svg",
+      "bytes": 697,
+      "sha256": "0668c339cada50adfac024208c027901dcbdd0e7841b4f42327f72d9aa47d6aa"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/double-quotation-right.svg",
+      "bytes": 699,
+      "sha256": "a9d81bb0c72a969ab2a588b46e37a49990698686e7a8506f372741d8d5d86087"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/drier.svg",
+      "bytes": 3175,
+      "sha256": "b0f45fb853af4f940b7eb596c6edaec4a087dc3713d09d5b0380b93357b4c7a7"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/drum-washer.svg",
+      "bytes": 1704,
+      "sha256": "090bbc473c0693a960829e505eab58945198bc1916484302b8891a504d616d00"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/estimate.svg",
+      "bytes": 865,
+      "sha256": "bce50b2088f6b7fa4e10d300af9bb82c66562fe5b27da54fb2fed738421f745a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/face-bad.svg",
+      "bytes": 1979,
+      "sha256": "6efb0b3a17c0089ca4d39eecc852517933363d8f6c820c030caf3b44661c0a5a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/face-good.svg",
+      "bytes": 2063,
+      "sha256": "134d2a3d075d8151855d6f78d2f8c07848e55cb93d278cf36ef1cb471998bc12"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/faucet.svg",
+      "bytes": 2628,
+      "sha256": "586606c092c87288c93b4bb184523525c76caf7dc028329f489d65c09563f7a9"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/flooring.svg",
+      "bytes": 433,
+      "sha256": "37f20b142029f46e2820ac7890ab506906f769694814feb8ae755aa047a8efec"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/fluorescent-light.svg",
+      "bytes": 606,
+      "sha256": "ea5b3220584bc55b32820748f7e50ad436dcf52970a18c915f470eae8b47a21b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/fridge.svg",
+      "bytes": 744,
+      "sha256": "17e001913c59f5e98971679ce086ebce3fbb444dd526a80d7eb4341edde9d124"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/grave.svg",
+      "bytes": 442,
+      "sha256": "ddaf2bd513eab64d1a4920c60fdb7d03e15d5f05ac1db94e94b6fd940a417f27"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/icon-calculator-hover.svg",
+      "bytes": 3452,
+      "sha256": "bfefc981b07b605b36624a3c66c008a904c8bb6fe2771296a3c8b138bc2dbed5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/icon-calculator.svg",
+      "bytes": 3446,
+      "sha256": "8311c249319ecb89be519fedc3243d99fad7a4b2387d47ba1d1eb6294f8887bf"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/interrogative.svg",
+      "bytes": 1154,
+      "sha256": "eec538a9f36cd0e80d1359fd45ec74b341567e8e828e19c66906de29e2542194"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/kitchen-fan.svg",
+      "bytes": 3206,
+      "sha256": "bbda4e35a1c4189dc615c218b155480a86829fcd63e590397751895df58f370c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/kitchen.svg",
+      "bytes": 1058,
+      "sha256": "2670c4c2e939615a392a9063a77c5b788ffe491280e963092848e08fcbc81cee"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/laptop.svg",
+      "bytes": 2290,
+      "sha256": "e96e66eadb66f9998c035492808b4e079f70c617e90f10c3e1393e4fc38e0f63"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/launch.svg",
+      "bytes": 289,
+      "sha256": "b9ab66890ec7456da33a189702867289a4a1ff9fc6388b7856ae742273b450d4"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/lightbulb.svg",
+      "bytes": 2428,
+      "sha256": "b7ebcf22ec29d81920d84925c78c6105238924257f901b6fe81f07066c486be1"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/line.svg",
+      "bytes": 3707,
+      "sha256": "6eb5b6f95fc23e4eef02ef8b9964221ee6e62b9494fa497347aeb69d99445143"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/mail.svg",
+      "bytes": 270,
+      "sha256": "13fe0ba19522b4f8535082249e264e105fb899591de6b572fe78b2313080b2ac"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/minus.svg",
+      "bytes": 125,
+      "sha256": "cbc20277c4ff6ab317386722ba5ca67f2d7e24ced6f929347f69b9494cd8c9f3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/office.svg",
+      "bytes": 1029,
+      "sha256": "80c14bc8a76cf5ef17a1102266bdaa2a328d30985e3a866387e0728fa8b958a3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/outerwall.svg",
+      "bytes": 3112,
+      "sha256": "029613e55641164d52dd3ab45271a3cf1274a72019a9d10332b9092becb42c75"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/pack.svg",
+      "bytes": 2294,
+      "sha256": "ed8b67dab6146ce66b5c18483f207c2d735626b7991b67f9b26d222ba03df51f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/pay.svg",
+      "bytes": 2642,
+      "sha256": "d8bc791a34301bcb5b809d21d6eb8fc1923b06055baa0b7aebec79c9ea36a45d"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/phone.svg",
+      "bytes": 1492,
+      "sha256": "cc13c9f128974ecc934f4ba992e75505b531141500c771decaeac75afd02f13b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/photocatalyst.svg",
+      "bytes": 2723,
+      "sha256": "9314aca7357a4125e35f93a7ad31931f913b4818ada31d28ec2a6374096fcfbd"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/pin.svg",
+      "bytes": 1994,
+      "sha256": "df123a49c8fc2e421080f5977e4b76fcb7e22f1563edd180c5571c25a383c467"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/pipe.svg",
+      "bytes": 1208,
+      "sha256": "4a2b5076020f02211f356cabfa9e12f92d21463e01e2d0307502fce3a326b259"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/plus.svg",
+      "bytes": 149,
+      "sha256": "8c687a05feed4708289702197b771c1323b78445440e21277d46fe848ecbe872"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/question-mark.svg",
+      "bytes": 638,
+      "sha256": "8f7758245002c7593f8afaea6f4adf48be2f00fed4afda6f06420c9f4dfbb865"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/question.svg",
+      "bytes": 783,
+      "sha256": "d1b35673ba506ef7f98d53b17b3399b3073f49f423744744909d1b3e41e85cfa"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/range-arrow.svg",
+      "bytes": 449,
+      "sha256": "5df1d3f13a24bbd112f5b91f27713cdfbf3c5e3e219a91bcecf0aa80342797f6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/scrap-wood.svg",
+      "bytes": 2012,
+      "sha256": "f55def20ad3a5f0f8aff4ace8d711f24738394e5b43b204d4727f12e2bb08768"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/search.svg",
+      "bytes": 641,
+      "sha256": "a5e604d000a05321eb3f7ef4731382e2c7970f9b97d013e45f81a5a4067f0daf"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/seedling.svg",
+      "bytes": 3117,
+      "sha256": "cd8cca9ef2ecf6186ec443535d35deda5b433da6020c203b39525003429fdb25"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/sign.svg",
+      "bytes": 873,
+      "sha256": "47c4017b6bf47bf5cc7ba198f2df64784c1516f35802ac107b0a987775ca9686"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/sofa.svg",
+      "bytes": 2245,
+      "sha256": "bde60005f90e7e07f91650ff2f03019603779d2e40190556f3e8c17409ac3320"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/spana.svg",
+      "bytes": 1214,
+      "sha256": "4995b6c76791ccb9849a935c4689db6a40549257700a889caf6d74f2c2e71f88"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/spray.svg",
+      "bytes": 671,
+      "sha256": "94d4e98ace1f176da63103d3e9e500145716aae380aca8814d7a0b5a18aa2425"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/star-fill.svg",
+      "bytes": 1770,
+      "sha256": "e875663605c331e2090a3ef568b8fb3cf2a4845d7108fdd52f43dc5ef49a8d0c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/star.svg",
+      "bytes": 3405,
+      "sha256": "472c4ff3ab1f397035919ddf2a7243eeb4690c96c51c8567274ad157213ba4a5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/stopwatch.svg",
+      "bytes": 1222,
+      "sha256": "142026c1d77c0ec4261d443b3fa797ebe9685eaf32688ab06ab0cccfa29cb7ad"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/swap-arrow.svg",
+      "bytes": 439,
+      "sha256": "4172aa547b778ec7a2e5f732a66127995bbd479f789614299c28cd7746ab37a6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/toilet.svg",
+      "bytes": 1120,
+      "sha256": "2a0cbb782755555214bc7b7bef8c92c25fb9ddd03f5658f63c5e98fd386f43b6"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/triangle-fill.svg",
+      "bytes": 310,
+      "sha256": "a9fbc222f61ff240d2fc033e49a65e6c84dde22d9f9d5919802d4ab9912f81ea"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/triangle.svg",
+      "bytes": 234,
+      "sha256": "75053229a9461dc496e7a357c9872a6df00896f6997dc8bbcdedb5c250f98a11"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/truck.svg",
+      "bytes": 1434,
+      "sha256": "4962090498fcdbd56f13c69b11f2473978ff1c58d1d4d17a07aee8c03e748d28"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/ulblo.svg",
+      "bytes": 7920,
+      "sha256": "72b3957b773aa71e2a86b65c8fc83ac6a4c2dd9e82249d85fdc5c55551c52d52"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/vacuum-cleaner.svg",
+      "bytes": 863,
+      "sha256": "f73694b43e93d30e1ae0931b20458d27e6c3646e7d43709970d800aae775c50f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/visit.svg",
+      "bytes": 509,
+      "sha256": "214dc73dbd42365bc42e5e6c16cd7a3cef7539708530ede8363e4b9554c5c959"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/warning.svg",
+      "bytes": 1803,
+      "sha256": "b58220de169c789486c60e3e6d6bd3ef2e078e057c9ee5f632edf678618b8aa3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/wash-basin.svg",
+      "bytes": 736,
+      "sha256": "d84cad9c8fc4455e2e625cfa5e42538d13f0444b57f12e97272cf4dff8837506"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/washer.svg",
+      "bytes": 913,
+      "sha256": "2cefdba9da50931ddee140adefaf1ceec6bfaa39fc3eef12256f7b033929c383"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/window.svg",
+      "bytes": 1326,
+      "sha256": "28cd6bf2c20efeab3e91945611f3309f75231f102a2cd3b08a47da82cdf8851f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/icon/zoom-in.svg",
+      "bytes": 836,
+      "sha256": "b7b605683ac0cdb03cf8a0eb157ff1d03caf2d3dd85253a12fc6fe759624d2c7"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/illust/set.svg",
+      "bytes": 1968,
+      "sha256": "d421d85ade5d0f0d686c3a50940bf73f0b5fc4cb29091ca20413a09fbee37c8b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/sns-icon/icon-instagram.png",
+      "bytes": 25427,
+      "sha256": "a85124ba546a41c04810d80053b3e617ba5615a1ba9f5cf2e585e61069adf6de"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/sns-icon/icon-tiktok.png",
+      "bytes": 6591,
+      "sha256": "999b26cb8f3f0086dbd995ba1342c386e1afd7d9666697bc49eec34f7e7749e3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/sns-icon/icon-translate.png",
+      "bytes": 1100,
+      "sha256": "9b3669c473e6b4e9a23b7fd574c8db539e41ee5ba0dc5db689925bc17c25fa1d"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/sns-icon/icon-x.png",
+      "bytes": 8053,
+      "sha256": "7d4a889ecb03998c0c560d3eead4b672fdd467aad191b61ed4abbd5686996630"
+    },
+    {
+      "path": "02_published_source/site/assets/images/common-parts/sns-icon/icon-youtube.png",
+      "bytes": 5936,
+      "sha256": "3679a088cc1e784f88b88963b2acf8ae3fda9a53402f50d01467b2f0642aa554"
+    },
+    {
+      "path": "02_published_source/site/assets/images/crystal-clean-home.png",
+      "bytes": 1535838,
+      "sha256": "3db4e51191b3fa9c4a8321090d3e3ba5ea5e2e56bdedcf73e1ca659eb759976f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/bath-lead.webp",
+      "bytes": 251880,
+      "sha256": "111720e68921799b87dc39a7c66963af8a45b34041aae35f4a6835af338abfb3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/closing-concerns.webp",
+      "bytes": 364832,
+      "sha256": "7be7b111f303bb2dc0e436b468697cad722b901c3b81118b5a50653db5450667"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/cta-aftercare.webp",
+      "bytes": 240984,
+      "sha256": "384a6f6c0e9d4e015fea5d825474b17c6547d227300a49ffbe7fee8483d546fe"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/cta-assurance.webp",
+      "bytes": 256478,
+      "sha256": "1e0a313151394ca4d846d0e9b05745f3276a7f7e228c208a7b192854281dbc39"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/cta-final.webp",
+      "bytes": 327790,
+      "sha256": "66b3a367d28232fc272a9685a507aeb773fec93c43c6feccf4d918b154eb7b5b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/cta-menu.webp",
+      "bytes": 233320,
+      "sha256": "5497a42a4afaeb84150c51bee96127e1c1217054c5d2fd473ff57b52bfcd6e5c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/hygiene-board.webp",
+      "bytes": 451072,
+      "sha256": "e59537030c60d9a4931a8320e299f118eb070bb2ec6d8122fa142b271143819a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/kitchen-offer.webp",
+      "bytes": 224336,
+      "sha256": "845d186b2b56723ffbd048032faf1b297d3061a9ecfad0f9d84c6bc8b3867d5d"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/opening-integrated.webp",
+      "bytes": 334298,
+      "sha256": "d22dc0ebbf9582c495c4e0de6cceb1a43d9f3cdcca3312fb99f226f7caa09c19"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/quality.webp",
+      "bytes": 442734,
+      "sha256": "43b80041f7b40d8da88a38ab0ec2c6613160fa66befcfee78a9316de299b285a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-consult-mobile.webp",
+      "bytes": 479208,
+      "sha256": "e314337cee870815300394d4972cacf49a70a8724567068a9aa33bea6a8a0659"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-consult.webp",
+      "bytes": 485280,
+      "sha256": "25fd835ebd1eda4cce096a3e6d446f0333b13188d42e53d112355d6ee249aff2"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-finish-mobile.webp",
+      "bytes": 487450,
+      "sha256": "7345803616a0b18b9321998ef7a094c9641646f988cda859fb256d70c8a6e8f3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-finish.webp",
+      "bytes": 478008,
+      "sha256": "3bbe71bdd966ec4f6bb5f88f6424ddb364eb6fb89a4536a0c258dfd540c47755"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-work-mobile.webp",
+      "bytes": 493978,
+      "sha256": "f09481274b4ccfdd2a9f43e8baa1019ab2eb810be3312d36db7b9aba884af6c0"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/art/story-work.webp",
+      "bytes": 486968,
+      "sha256": "9cc38f3ba9ee81079930b1d91ea40835629184e87e1da0f01c86db635b291ef3"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/estimate-cta/icon-calculator-hover.svg",
+      "bytes": 3452,
+      "sha256": "bfefc981b07b605b36624a3c66c008a904c8bb6fe2771296a3c8b138bc2dbed5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/estimate-cta/icon-calculator.svg",
+      "bytes": 3446,
+      "sha256": "8311c249319ecb89be519fedc3243d99fad7a4b2387d47ba1d1eb6294f8887bf"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/aircon-case-after.webp",
+      "bytes": 67558,
+      "sha256": "d79f5bd998c931a7c484afe842680b82195dead35b3f0275f21b7448bbcc9297"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/aircon-case-before.webp",
+      "bytes": 79544,
+      "sha256": "826484519809ffa9064ab71b969ee28d84e43d50b963cce408609eb296ca2cd9"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/closing-bath-after.webp",
+      "bytes": 10844,
+      "sha256": "ef4a3cbd9c391de18a6478ddff82664baf7d01bc55947e957bffc98e92c22bc5"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/closing-bath-before.webp",
+      "bytes": 32850,
+      "sha256": "814018d2534ef59a49cdab6ffdf265d9a1e67b24af59dcbfa38ab5973158f3e9"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/closing-sink-after.webp",
+      "bytes": 33538,
+      "sha256": "4c540b3c8f003f31e73261f870801bed4922eeca6618f0af92bf5ccbc0d96e3a"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/closing-sink-before.webp",
+      "bytes": 59156,
+      "sha256": "53db76148860f1d202dd1a09b663f6ef90a624b9e45bc027f1c3d154a81eaa41"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/kitchen-case-after.webp",
+      "bytes": 90090,
+      "sha256": "f26f0b49ffaf9eba8d9e6939f57869258f19c4dc10d5ebf61e2959feb7bc5564"
+    },
+    {
+      "path": "02_published_source/site/assets/images/first-lp/reused/kitchen-case-before.webp",
+      "bytes": 113640,
+      "sha256": "8a8cb623a9351622fb35fae8383acf55cc1590acc37dc85adbd5d4e41c34e500"
+    },
+    {
+      "path": "02_published_source/site/assets/images/footer/footer-phone-demo-pc.svg",
+      "bytes": 15296,
+      "sha256": "ef7e0077bd9fa5f705c9749fff565c97455e8298726a4e8bc6f1ca8bea63682b"
+    },
+    {
+      "path": "02_published_source/site/assets/images/footer/footer-phone-demo-sp.svg",
+      "bytes": 18940,
+      "sha256": "d1d96d7b576cd94d68af710a62e0da0a0d13415ff2c78e3dd91c392e14423628"
+    },
+    {
+      "path": "02_published_source/site/assets/images/guide/article/guide-woman.webp",
+      "bytes": 11546,
+      "sha256": "196459aa05fe9397dde5a13f13ea52b15c6d5113a53b164706e614c0bdd01ccc"
+    },
+    {
+      "path": "02_published_source/site/assets/images/header/aircon-ceil.webp",
+      "bytes": 1976,
+      "sha256": "ef81d336fe227f938c1ca19ebbc0578003ce8b6b12978d93fc02e0a3219aebdb"
+    },
+    {
+      "path": "02_published_source/site/assets/images/header/aircon-wall.webp",
+      "bytes": 1642,
+      "sha256": "003b06646ea0ea8df9e0a8a84cc822efaac64fcc3885b8f2e0c85869d069f5f9"
+    },
+    {
+      "path": "02_published_source/site/assets/images/header/menu-close.webp",
+      "bytes": 1944,
+      "sha256": "2e728644c899ee3361fdb41aba94dd10661a2f5b95b323219895f82747efc45e"
+    },
+    {
+      "path": "02_published_source/site/assets/images/header/menu-open_pc.webp",
+      "bytes": 1122,
+      "sha256": "14bd7bfc4318db3baf888b3422d86e522e1a1e4fda0b0e20bc2fa939086dad1d"
+    },
+    {
+      "path": "02_published_source/site/assets/images/header/menu-open_sp.webp",
+      "bytes": 1226,
+      "sha256": "c10cfc23001c8b7684e922783afd1758569923759bdec23dd7f98207efed6495"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/man-senior.svg",
+      "bytes": 610,
+      "sha256": "f623a555bf328fe754b1acee15d9b699c4d88aae66e1fe1da9bd7472f3183c39"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/man-short.svg",
+      "bytes": 551,
+      "sha256": "327ce26b0b82ef3250e87f853c56efd20426b566758be4d0f9e0d02a6e06b8ad"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/man-young.svg",
+      "bytes": 523,
+      "sha256": "1ea4f9f1a1a8b0ed1e3bb5f1e016d64970872e2909ac257a793c68d60a30143f"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/reference-rating.webp",
+      "bytes": 13020,
+      "sha256": "61189377ebc39283c76e9279c6a350a189fb36b3701219ba04c75ced93f736ac"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/woman-bob.svg",
+      "bytes": 466,
+      "sha256": "221e6bf98ca21e0dc0685cd34fe5469bc358121bf4b818f2a8299cb06afa0e7c"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/woman-long.svg",
+      "bytes": 464,
+      "sha256": "460508d40589e2616a73d82e60ac01ff6fc52a7e0e1778c305475a36e62e3174"
+    },
+    {
+      "path": "02_published_source/site/assets/images/voices/woman-senior.svg",
+      "bytes": 591,
+      "sha256": "09e10e8ae99482a6ac75dfaeb226553a3139542171151473e02b5b3f51dce540"
+    },
+    {
+      "path": "02_published_source/site/assets/js/aircon-comparison.js",
+      "bytes": 3109,
+      "sha256": "176cd0f4adff97180cbcb3196efbf45aab03f7af1016df068de009461f136a08"
+    },
+    {
+      "path": "02_published_source/site/assets/js/aircon-header.js",
+      "bytes": 21588,
+      "sha256": "88c5da31e148cf19aee24b96724ee5718fe8765d39321d81ba6e61989eb8a6e3"
+    },
+    {
+      "path": "02_published_source/site/assets/js/cart-catalogue.js",
+      "bytes": 177834,
+      "sha256": "0f0bdd5df3d96676ee9dd116253af00a5a8891585d72d0ca41513c454dc466d4"
+    },
+    {
+      "path": "02_published_source/site/assets/js/cart-core.js",
+      "bytes": 4308,
+      "sha256": "420ca78951f401b0f54a6ae8004a765780345e7549257b575f0e4fbc213cf1fb"
+    },
+    {
+      "path": "02_published_source/site/assets/js/common.js",
+      "bytes": 99122,
+      "sha256": "13fc4eb725487014222b0c86d1ce9a77a87aa16448609ca1cb165d53f2122e91"
+    },
+    {
+      "path": "02_published_source/site/assets/js/demo-contact.js",
+      "bytes": 1884,
+      "sha256": "70a07a042ff0eb1f274df5b31018417f3627060f47729344e0ccb7a7f191f80d"
+    },
+    {
+      "path": "02_published_source/site/assets/js/first-lp.js",
+      "bytes": 3345,
+      "sha256": "7dd31c92f864ce12ba2948fb05df9398a0169290d49f414908ddd42e501e0744"
+    },
+    {
+      "path": "02_published_source/site/assets/js/lp-render-check.js",
+      "bytes": 4924,
+      "sha256": "66d03f71de7899a06acca665f8d02d41afdf26c639f5b2ba0595a5d96c373809"
+    },
+    {
+      "path": "02_published_source/site/assets/js/shared-translation-control.js",
+      "bytes": 2036,
+      "sha256": "302b7c45c088862ec39e9eaa2afc7d6b0b5ea71ad7e077b4c1b5e22902a24870"
+    },
+    {
+      "path": "02_published_source/site/assets/js/shared-translation-layout.js",
+      "bytes": 2745,
+      "sha256": "f600bdfe90e474821e811a21c2e97d70db2c149b1b5cae633807ae86f3110438"
+    },
+    {
+      "path": "02_published_source/site/assets/js/shared-translation.js",
+      "bytes": 5662,
+      "sha256": "6d31beaad5c371bc7f8e33539fb695a4224df59ad2f3b0f2bb80e9e0c212cf98"
+    },
+    {
+      "path": "02_published_source/site/assets/js/shop/top.js",
+      "bytes": 1070,
+      "sha256": "b7b75d78de9b1617a68d8f61b9ca2f59c88fea137bdee7aca178facea139da07"
+    },
+    {
+      "path": "02_published_source/site/assets/js/site-cart.js",
+      "bytes": 27718,
+      "sha256": "046fc12f5b2eb11d2bf5fc4fc8319e66fcee730f0eaeb60d1e0977bebd48b3eb"
+    },
+    {
+      "path": "02_published_source/site/assets/js/viewport-hud.js",
+      "bytes": 1313,
+      "sha256": "00a074f15c1d4d246046fe4e212445b3c2e6af28b52b21d3ae353e63945af121"
+    },
+    {
+      "path": "02_published_source/site/beginner/index.html",
+      "bytes": 77034,
+      "sha256": "12a9df43cb71a99b8ddafda8f29c32845999f9f9c5d030f06fb6652dc083300a"
+    },
+    {
+      "path": "02_published_source/site/favicon/crystal-clean-home.svg",
+      "bytes": 2047959,
+      "sha256": "72398f0c6f827b23dceed5559ce9cc5ebed99bb45ae44acad877d79fcdb56505"
+    },
+    {
+      "path": "02_published_source/site/house-cleaning/aircon/index.html",
+      "bytes": 184342,
+      "sha256": "e8309f8c6fe29dc91536b19d845e05c19b826bb190e6999b355dd99d9f2ec73d"
+    },
+    {
+      "path": "03_evidence/WINDOWS_COMPARISON_not_iPhone_symptom.png",
+      "bytes": 48262,
+      "sha256": "22223f97a0cd90f24d3c835341c92b65c1540aa6919d65ab793059973b4b784f"
+    },
+    {
+      "path": "03_evidence/lp-paint-audit.json",
+      "bytes": 26892,
+      "sha256": "daf80af18f0919f2dd513ebe478f6af009587c793a9781f09f96d082b78aa927"
+    },
+    {
+      "path": "03_evidence/published-integrity.json",
+      "bytes": 669,
+      "sha256": "54b008fe40a670a984e539655d3b52c2cb90694135b975eff41364a347e571f3"
+    },
+    {
+      "path": "03_evidence/research-and-failed-device-result.json",
+      "bytes": 2104,
+      "sha256": "434bbe847be7c25deb443a9e4eb40c69f86eeb037803eb5ba3a2f2591c779931"
+    },
+    {
+      "path": "03_evidence/unpublished-candidate-after-geometry.json",
+      "bytes": 30759,
+      "sha256": "948cc908aaf79238a0ca49f71c48bb54063096666df145f67efbafebdc1d442c"
+    },
+    {
+      "path": "03_evidence/unpublished-candidate-before-geometry.json",
+      "bytes": 30879,
+      "sha256": "adba4befae3b2cb42cf63cace9d28529daa0998bc297627a5fae12c93ddfbd6a"
+    },
+    {
+      "path": "03_evidence/unpublished-candidate-geometry-diff.json",
+      "bytes": 551,
+      "sha256": "c5ade0762f315e2fafbcb49a6c72042f6b93ffb6a24154a9529f7ad4d93620b3"
+    },
+    {
+      "path": "03_evidence/windows-diagnostic-modes.json",
+      "bytes": 3157,
+      "sha256": "fdab14de1de42a2265adaf347ce503dcd56e78f54507d062fc75d01434e14076"
+    },
+    {
+      "path": "03_evidence/windows-normal-page.json",
+      "bytes": 227,
+      "sha256": "aa9eadf9e8c909a6057fa9c2786905fa74f9d34edfad5f7d3426eedde92b2e0e"
+    },
+    {
+      "path": "04_unpublished_candidate/README.txt",
+      "bytes": 872,
+      "sha256": "10a4469adb58bd6eba7dd10b92a96e885b9d9cc7559bf465523d9fc8a77a3c6a"
+    },
+    {
+      "path": "04_unpublished_candidate/candidate.diff",
+      "bytes": 2697,
+      "sha256": "07bddb92d7e93931782001f15cd3a12dffe1a1e9617d5799468d5b13206f0cc8"
+    },
+    {
+      "path": "06_実機写真について.txt",
+      "bytes": 489,
+      "sha256": "b6f2e5b4ab87d34a311553d12d6dc4576b13a9c61660793ac2f6dcf930f71e80"
+    }
+  ]
+}

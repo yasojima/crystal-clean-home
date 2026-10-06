@@ -1,0 +1,9 @@
+{
+  "condition": "rendercheck=4",
+  "input": "Synthetic TouchEvent and scroll in Windows Chromium; not an iPhone reproduction",
+  "result": {
+    "headerBottom": -1,
+    "headerTop": -97,
+    "scrollY": 510
+  }
+}
