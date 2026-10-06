@@ -60,10 +60,11 @@ html {
   position: absolute;
   z-index: 130;
   top: 10px;
-  right: 114px;
-  display: flex;
+  right: 80px;
+  display: grid;
+  grid-template-columns: max-content max-content;
   align-items: center;
-  gap: 16px;
+  gap: 4px 16px;
   font-family: "Noto Sans JP", sans-serif;
   line-height: 1;
 }
@@ -75,6 +76,8 @@ html {
 }
 
 .c-header-contact__payments {
+  grid-column: 1;
+  grid-row: 1 / 3;
   display: inline-flex;
   align-items: center;
   gap: 0;
@@ -82,6 +85,8 @@ html {
 }
 
 .c-header-contact__phone {
+  grid-column: 2;
+  grid-row: 1;
   display: inline-flex;
   align-items: center;
   gap: 5px;
@@ -117,17 +122,21 @@ html {
 }
 
 .c-header-contact__hours {
+  grid-column: 2;
+  grid-row: 2;
   display: grid;
   gap: 2px;
+  padding-left: 45px;
   color: var(--aircon-menu-nav-accent);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 400;
   line-height: 1.3;
+  text-align: center;
   white-space: nowrap;
 }
 
 .c-header-contact__days {
-  font-size: 11.5px;
+  font-size: 10px;
 }
 
 .c-header-contact__cta {
@@ -138,8 +147,8 @@ html {
   justify-content: center;
   box-sizing: border-box;
   border: 1px solid #005bac;
-  background: #005bac;
-  color: #fff;
+  background: transparent;
+  color: #005bac;
   font: 500 clamp(11px, .94vw, 12px)/1.35 "Noto Sans JP", sans-serif;
   letter-spacing: .1em;
   white-space: nowrap;
@@ -153,10 +162,25 @@ html {
 }
 
 @media (min-width: 901px) {
+  .c-header-contact {
+    grid-template-columns: clamp(138px, 14.6vw, 204px) max-content max-content;
+  }
+
   .c-header-contact__cta {
     display: flex;
+    grid-column: 1;
+    grid-row: 1 / 3;
     height: clamp(40px, 3.4vw, 48px);
-    flex: 0 0 clamp(138px, 14.6vw, 204px);
+    width: 100%;
+  }
+
+  .c-header-contact__payments {
+    grid-column: 2;
+  }
+
+  .c-header-contact__phone,
+  .c-header-contact__hours {
+    grid-column: 3;
   }
 }
 
@@ -692,11 +716,12 @@ body.aircon-menu-open .c-header__navigation {
   }
 
   .c-header-contact__hours {
-    font-size: 14px;
+    padding-left: 49px;
+    font-size: 11.5px;
   }
 
   .c-header-contact__days {
-    font-size: 12.5px;
+    font-size: 10.5px;
   }
 }
 
@@ -719,8 +744,8 @@ body.aircon-menu-open .c-header__navigation {
 
 @media (min-width: 768px) and (max-width: 1100px) {
   .c-header-contact {
-    right: 82px;
-    gap: 10px;
+    right: 80px;
+    gap: 4px 10px;
   }
 
   .c-header-contact__payment {
@@ -744,6 +769,7 @@ body.aircon-menu-open .c-header__navigation {
   }
 
   .c-header-contact__hours {
+    padding-left: 37px;
     font-size: 11px;
   }
 
@@ -841,6 +867,7 @@ body.aircon-menu-open .c-header__navigation {
     display: grid;
     justify-content: center;
     gap: 1px;
+    padding-left: 0;
     font-size: 11.5px;
     text-align: center;
     transform: translateX(calc((var(--aircon-phone-mark-width) + var(--aircon-phone-gap)) / 2 + var(--aircon-contact-axis-shift)));
