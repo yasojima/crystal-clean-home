@@ -1,0 +1,11 @@
+{
+  "continueHref": "/",
+  "newOptionImages": 18,
+  "total": [
+    "30,800"
+  ],
+  "inputUrl": "http://127.0.0.1:8974/cart/estimate/",
+  "inputTotalPresent": 0,
+  "continueUrl": "http://127.0.0.1:8974/",
+  "inputTotalNote": "Expected: the information-input page contains customer fields. Totals remain on cart and confirmation pages; no input-page total was claimed."
+}

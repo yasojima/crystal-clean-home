@@ -17,11 +17,13 @@ FONT_LINK = (
     'family=Noto+Sans+JP:wght@400;500;700&amp;'
     'family=Zen+Kaku+Gothic+New:wght@400;500;700&amp;display=swap">'
 )
-CSS_LINK = '<link rel="stylesheet" href="/assets/css/site-typography.css?v=20261001">'
+CSS_LINK = '<link rel="stylesheet" href="/assets/css/site-typography.css?v=2026100601">'
 
 
 def add_typography_links(html: str) -> str:
-    """Insert only missing links, leaving every page's existing markup intact."""
+    """Refresh the shared version and insert missing links without duplicates."""
+    html = re.sub(r'<link\b[^>]*href="/assets/css/site-typography\.css(?:\?[^\"]*)?"[^>]*>',
+                  lambda _: CSS_LINK, html)
     additions = []
     if FONT_LINK not in html:
         additions.append(FONT_LINK)

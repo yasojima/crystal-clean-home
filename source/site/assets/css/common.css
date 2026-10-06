@@ -2705,227 +2705,107 @@ screen and (min-width: 768px) {
 
 .c-illust {
   --width: 130px;
-  --bg-color: #005aa9;
   display: inline-flex;
   width: var(--width);
-  height: calc(.7692307692*var(--width));
-  background-color: var(--bg-color);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-position: center;
-  mask-position: center;
-  -webkit-mask-size: contain;
-  mask-size: contain
+  height: calc(.7692307692 * var(--width));
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
-.c-illust--air-cleaner {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/air-cleaner.svg");
-  mask-image: url("/assets/images/common-parts/illust/air-cleaner.svg")
-}
+.c-illust--aircon { background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
 
-.c-illust--aircon {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/aircon.svg");
-  mask-image: url("/assets/images/common-parts/illust/aircon.svg")
-}
+.c-illust--bath { background-image: url("/assets/images/cleaning-illustrations/bath.png"); }
 
-.c-illust--aircon-buried {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/aircon-buried.svg");
-  mask-image: url("/assets/images/common-parts/illust/aircon-buried.svg")
-}
+.c-illust--kitchen { background-image: url("/assets/images/cleaning-illustrations/kitchen.png"); }
 
-.c-illust--office-aircon {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/office-aircon.svg");
-  mask-image: url("/assets/images/common-parts/illust/office-aircon.svg")
-}
+.c-illust--pack { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--bath {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/bath.svg");
-  mask-image: url("/assets/images/common-parts/illust/bath.svg")
-}
+.c-illust--washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-pair.png"); }
 
-.c-illust--carpet {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/carpet.svg");
-  mask-image: url("/assets/images/common-parts/illust/carpet.svg")
-}
+.c-illust--room { background-image: url("/assets/images/cleaning-illustrations/room.png"); }
 
-.c-illust--office-carpet {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/office-carpet.svg");
-  mask-image: url("/assets/images/common-parts/illust/office-carpet.svg")
-}
+.c-illust--coating { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--cleaning-function {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/cleaning-function.svg");
-  mask-image: url("/assets/images/common-parts/illust/cleaning-function.svg")
-}
+.c-illust--other { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--dishwasher-dryer {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/dishwasher-dryer.svg");
-  mask-image: url("/assets/images/common-parts/illust/dishwasher-dryer.svg")
-}
+.c-illust--ventilation-fan { background-image: url("/assets/images/cleaning-illustrations/hood.png"); }
 
-.c-illust--drier {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/drier.svg");
-  mask-image: url("/assets/images/common-parts/illust/drier.svg")
-}
+.c-illust--fridge { background-image: url("/assets/images/cleaning-illustrations/fridge.png"); }
 
-.c-illust--drum-type-washing-machine {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/drum-type-washing-machine.svg");
-  mask-image: url("/assets/images/common-parts/illust/drum-type-washing-machine.svg")
-}
+.c-illust--dishwasher-dryer { background-image: url("/assets/images/cleaning-illustrations/dishwasher.png"); }
 
-.c-illust--flooring {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/flooring.svg");
-  mask-image: url("/assets/images/common-parts/illust/flooring.svg")
-}
+.c-illust--outerwall { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--fluorescent-light {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/fluorescent-light.svg");
-  mask-image: url("/assets/images/common-parts/illust/fluorescent-light.svg")
-}
+.c-illust--photocatalyst { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--office-flooring {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/office-flooring.svg");
-  mask-image: url("/assets/images/common-parts/illust/office-flooring.svg")
-}
+.c-illust--grave { background-image: url("/assets/images/cleaning-illustrations/grave.png"); }
 
-.c-illust--office-uv-flooring {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/office-uv-flooring.svg");
-  mask-image: url("/assets/images/common-parts/illust/office-uv-flooring.svg")
-}
+.c-illust--set { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--fridge {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/fridge.svg");
-  mask-image: url("/assets/images/common-parts/illust/fridge.svg")
-}
+.c-illust--moving { background-image: url("/assets/images/cleaning-illustrations/pack.png"); }
 
-.c-illust--glass {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/glass.svg");
-  mask-image: url("/assets/images/common-parts/illust/glass.svg")
-}
+.c-illust--flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--grave {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/grave.svg");
-  mask-image: url("/assets/images/common-parts/illust/grave.svg")
-}
+.c-illust--mattress { background-image: url("/assets/images/cleaning-illustrations/mattress.png"); }
 
-.c-illust--kitchen {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/kitchen.svg");
-  mask-image: url("/assets/images/common-parts/illust/kitchen.svg")
-}
+.c-illust--sofa { background-image: url("/assets/images/cleaning-illustrations/sofa.png"); }
 
-.c-illust--lavatory {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/lavatory.svg");
-  mask-image: url("/assets/images/common-parts/illust/lavatory.svg")
-}
+.c-illust--carpet { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
 
-.c-illust--moving {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/moving.svg");
-  mask-image: url("/assets/images/common-parts/illust/moving.svg")
-}
+.c-illust--wallpaper-dyeing { background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
 
-.c-illust--other {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/other.svg");
-  mask-image: url("/assets/images/common-parts/illust/other.svg")
-}
+.c-illust--wallpaper-cleaning { background-image: url("/assets/images/cleaning-illustrations/wallpaper.png"); }
 
-.c-illust--pack {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/pack.svg");
-  mask-image: url("/assets/images/common-parts/illust/pack.svg")
-}
+.c-illust--glass { background-image: url("/assets/images/cleaning-illustrations/window.png"); }
 
-.c-illust--photocatalyst {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/photocatalyst.svg");
-  mask-image: url("/assets/images/common-parts/illust/photocatalyst.svg")
-}
+.c-illust--entrance { background-image: url("/assets/images/cleaning-illustrations/exterior.png"); }
 
-.c-illust--reheating-piping {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/reheating-piping.svg");
-  mask-image: url("/assets/images/common-parts/illust/reheating-piping.svg")
-}
+.c-illust--duct { background-image: url("/assets/images/cleaning-illustrations/vent.png"); }
 
-.c-illust--removing-bacteria {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/removing-bacteria.svg");
-  mask-image: url("/assets/images/common-parts/illust/removing-bacteria.svg")
-}
+.c-illust--air-cleaner { background-image: url("/assets/images/cleaning-illustrations/air-cleaner.png"); }
 
-.c-illust--room {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/room.svg");
-  mask-image: url("/assets/images/common-parts/illust/room.svg")
-}
+.c-illust--reheating-piping { background-image: url("/assets/images/cleaning-illustrations/pipe.png"); }
 
-.c-illust--sofa {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/sofa.svg");
-  mask-image: url("/assets/images/common-parts/illust/sofa.svg")
-}
+.c-illust--ulblo { background-image: url("/assets/images/cleaning-illustrations/adapter.png"); }
 
-.c-illust--toilet {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/toilet.svg");
-  mask-image: url("/assets/images/common-parts/illust/toilet.svg")
-}
+.c-illust--drier { background-image: url("/assets/images/cleaning-illustrations/bath-dryer.png"); }
 
-.c-illust--ventilation-fan {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/ventilation-fan.svg");
-  mask-image: url("/assets/images/common-parts/illust/ventilation-fan.svg")
-}
+.c-illust--toilet { background-image: url("/assets/images/cleaning-illustrations/toilet.png"); }
 
-.c-illust--vertical-washing-machine {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/vertical-washing-machine.svg");
-  mask-image: url("/assets/images/common-parts/illust/vertical-washing-machine.svg")
-}
+.c-illust--lavatory { background-image: url("/assets/images/cleaning-illustrations/lavatory.png"); }
 
-.c-illust--wallpaper-cleaning {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/wallpaper-cleaning.svg");
-  mask-image: url("/assets/images/common-parts/illust/wallpaper-cleaning.svg")
-}
+.c-illust--office-aircon { background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
 
-.c-illust--wallpaper-dyeing {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/wallpaper-dyeing.svg");
-  mask-image: url("/assets/images/common-parts/illust/wallpaper-dyeing.svg")
-}
+.c-illust--office-flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--washing-machine {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/washing-machine.svg");
-  mask-image: url("/assets/images/common-parts/illust/washing-machine.svg")
-}
+.c-illust--office-carpet { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
 
-.c-illust--coating {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/coating.svg");
-  mask-image: url("/assets/images/common-parts/illust/coating.svg")
-}
+.c-illust--fluorescent-light { background-image: url("/assets/images/cleaning-illustrations/light.png"); }
 
-.c-illust--duct {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/duct.svg");
-  mask-image: url("/assets/images/common-parts/illust/duct.svg")
-}
+.c-illust--removing-bacteria { background-image: url("/assets/images/cleaning-illustrations/detergent.png"); }
 
-.c-illust--outerwall {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/outerwall.svg");
-  mask-image: url("/assets/images/common-parts/illust/outerwall.svg")
-}
+.c-illust--aircon-buried { background-image: url("/assets/images/cleaning-illustrations/ceiling-aircon.png"); }
 
-.c-illust--ulblo {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/ulblo.svg");
-  mask-image: url("/assets/images/common-parts/illust/ulblo.svg")
-}
+.c-illust--cleaning-function { background-image: url("/assets/images/cleaning-illustrations/aircon.png"); }
 
-.c-illust--white-wood {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/white-wood.svg");
-  mask-image: url("/assets/images/common-parts/illust/white-wood.svg")
-}
+.c-illust--drum-type-washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-drum.png"); }
 
-.c-illust--tatami {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/tatami.svg");
-  mask-image: url("/assets/images/common-parts/illust/tatami.svg")
-}
+.c-illust--office-uv-flooring { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
 
-.c-illust--entrance {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/entrance.svg");
-  mask-image: url("/assets/images/common-parts/illust/entrance.svg")
-}
+.c-illust--vertical-washing-machine { background-image: url("/assets/images/cleaning-illustrations/washer-top.png"); }
 
-.c-illust--mattress {
-  -webkit-mask-image: url("/assets/images/common-parts/illust/mattress.svg");
-  mask-image: url("/assets/images/common-parts/illust/mattress.svg")
+.c-illust--white-wood { background-image: url("/assets/images/cleaning-illustrations/coating.png"); }
+
+.c-illust--tatami { background-image: url("/assets/images/cleaning-illustrations/carpet.png"); }
+
+
+:is(.c-product-additional-card__image, .c-option-card__image img)[src*="/cleaning-illustrations/"] {
+  background-color: #edf7fd;
+  padding: 4px;
+  border-radius: 8px;
+  object-fit: contain;
 }
 
 .c-label-tag {
@@ -17375,3 +17255,16 @@ screen and (min-width: 768px) {
 @media screen and (max-width:767.98px){.c-brand-banner{min-height:174px;flex-direction:column;justify-content:center;gap:0;padding:9px 35px;text-align:center}.c-brand-banner__logo{flex:none;width:190px;height:102px}.c-brand-banner__copy{gap:0}.c-brand-banner__eyebrow{font-size:13px}.c-brand-banner__label{font-size:22px}.c-brand-banner__arrow{position:absolute;right:10px;top:calc(50% - 18px)}}
 
 .c-header__logo { width: 175px; height: 82px; }
+
+.c-cleaning-menu-heading__brand,
+.c-cleaning-menu-heading__title { display: block; }
+.c-cleaning-menu-heading__brand {
+  margin-bottom: 6px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.c-cleaning-menu-heading__title { font-size: 28px; line-height: 1.5; }
+@media (max-width: 767.98px) {
+  .c-cleaning-menu-heading__brand { font-size: 14px; }
+  .c-cleaning-menu-heading__title { font-size: 20px; }
+}

@@ -1,0 +1,329 @@
+{
+  "version": 1,
+  "style": "Original realistic anime-inspired 3D; frontal; transparent background; approved aircon style reference",
+  "assets": [
+    {
+      "key": "aircon",
+      "path": "source/site/assets/images/cleaning-illustrations/aircon.png",
+      "source_path": "assets/images/style-reference-aircon.png",
+      "prompt_reference": "assets/images/style-reference-aircon.json",
+      "generator": "builtin image_gen",
+      "user_approved": true
+    },
+    {
+      "key": "pack",
+      "prompt": "Use case: stylized-concept. Create one original raster illustration for the whole-home cleaning / pack-service category of a Japanese cleaning website. Use the attached air-conditioner image ONLY as the rendering-style reference: realistic anime-inspired 3D, believable materials, subtle soft cel shading, crisp refined edges and gentle studio light. Subject: an original small two-storey Japanese home shown perfectly straight-on as an open-front dollhouse cutaway, with a simple living room, bathroom and kitchen visibly arranged inside, pale wood and ivory materials, a few restrained natural green details. Clearly recognizable household cleaning subject without tools or workers. Isolated centered object, genuinely transparent alpha background; no wall, sky, ground scenery, frame, card UI, text, logos, branding or watermark. Square canvas. Entire house occupies about 80 percent of the square in both dimensions, all parts fully visible, no three-quarter angle, no dramatic perspective. Match the polished dimensional quality of the reference, not its air-conditioner subject. Produce one image only.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-af729af8-56d8-4abb-928c-928923b7c701.png",
+      "path": "/assets/images/cleaning-illustrations/pack.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "bath",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable cleaning-service raster illustration. Use the attached air-conditioner ONLY as a style reference: refined realistic anime-inspired 3D, convincing natural materials, soft cel-like shading, crisp edges and gentle neutral studio light. Subject: A pristine ivory bathtub with a brushed-silver shower riser and handheld shower, a simple tall rectangular mirror behind the tub, and one folded pale-beige towel on the rim. A new original bathroom fixture arrangement. View perfectly straight-on from the front, centered, whole subject fully visible. Square canvas with about 10 percent transparent space around the subject; a clean isolated cutout with genuinely transparent alpha. No room backdrop outside the described fixtures, no sky, floor or scenery beyond the object, no card, frame, text, logo, brand, watermark, workers or people. Original appliance and furniture shapes, not traced from any company artwork. No blue monochrome line-icon appearance; use natural white, silver, pale wood and restrained color. Match the attached rendering quality. One asset only, no contact sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-48ce187e-ef37-490f-81da-a68cc75358fa.png",
+      "path": "/assets/images/cleaning-illustrations/bath.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-pair",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable cleaning-service raster illustration. Use the attached air-conditioner ONLY as a style reference: refined realistic anime-inspired 3D, convincing natural materials, soft cel-like shading, crisp edges and gentle neutral studio light. Subject: Two original unbranded washing machines side by side, one white top-loading washer and one pale-silver front-loading washer with a dark circular glass door. Natural appliance materials, neutral control panels without readable symbols. View perfectly straight-on from the front, centered, whole subject fully visible. Square canvas with about 10 percent transparent space around the subject; a clean isolated cutout with genuinely transparent alpha. No room backdrop outside the described fixtures, no sky, floor or scenery beyond the object, no card, frame, text, logo, brand, watermark, workers or people. Original appliance and furniture shapes, not traced from any company artwork. No blue monochrome line-icon appearance; use natural white, silver, pale wood and restrained color. Match the attached rendering quality. One asset only, no contact sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-aaaf3d1a-a655-409f-8d39-04004ae7c149.png",
+      "path": "/assets/images/cleaning-illustrations/washer-pair.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "kitchen",
+      "prompt": "Use case: stylized-concept. Create ONE original reusable cleaning-service raster illustration. Use the attached air-conditioner ONLY as a style reference: refined realistic anime-inspired 3D, convincing natural materials, soft cel-like shading, crisp edges and gentle neutral studio light. Subject: An original compact white and pale-oak kitchen cabinet bank with a clean stainless sink and curved tap, three-burner hob, simple wall cabinets and a small stainless range hood. Frontal elevation, all fixtures forming one compact complete scene. View perfectly straight-on from the front, centered, whole subject fully visible. Square canvas with about 10 percent transparent space around the subject; a clean isolated cutout with genuinely transparent alpha. No room backdrop outside the described fixtures, no sky, floor or scenery beyond the object, no card, frame, text, logo, brand, watermark, workers or people. Original appliance and furniture shapes, not traced from any company artwork. No blue monochrome line-icon appearance; use natural white, silver, pale wood and restrained color. Match the attached rendering quality. One asset only, no contact sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-289b65c5-c1d0-45a2-90b4-b6a01971af96.png",
+      "path": "/assets/images/cleaning-illustrations/kitchen.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "room",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean compact living-room vignette seen straight-on: pale cream two-seat sofa, tall rectangular window centered behind it, low blond wood coffee table and a small plant at the side. Only a minimal short floor strip belonging to the isolated furniture scene; no full background. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-f327449c-561e-44b2-a06c-6abf4df22655.png",
+      "path": "/assets/images/cleaning-illustrations/room.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "coating",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean home flooring and protective coating concept: a square sample of pale blond wood flooring, thin clear protective layer visible at its front edge, a soft white cleaning cloth folded at the left, and three small polished diamond glints above the pristine surface. Front elevation with just enough slight top visibility to understand the flat sample; no arrows, text or numbers. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-241ff47b-d1a8-4928-a76a-1c748e1a31d1.png",
+      "path": "/assets/images/cleaning-illustrations/coating.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "exterior",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean modern house entrance seen perfectly frontally: off-white exterior wall segment, slim charcoal front door, small rectangular window to the side, one low step and two green shrubs in planters. Restrained clean silver and natural pale stone details; isolated architecture vignette. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-b45f8179-16ba-4cd8-9034-f3150bc026fa.png",
+      "path": "/assets/images/cleaning-illustrations/exterior.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "hood",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A compact stainless steel kitchen range hood with a broad canopy and central chimney, seen straight-on from the front, the filter grille just visible underneath. Clean polished surfaces and original unbranded shape, no surrounding cabinets. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-ed56a148-2b26-4008-81ce-a6a834a6f0c3.png",
+      "path": "/assets/images/cleaning-illustrations/hood.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "fridge",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean pearl-white family refrigerator, perfectly frontal, three upper/lower door sections with subtle silver handles, original unbranded appliance design. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-32616095-93d4-4334-b9dd-c26d316bc2fc.png",
+      "path": "/assets/images/cleaning-illustrations/fridge.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "air-cleaner",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match the attached style-reference air-conditioner: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean white floor-standing home air purifier with rounded rectangular body, silver top grille and subtle light blue indicator, perfectly frontal, no words or logo. Entire object visible, centered, consistent frontal view, square canvas with around 10 percent empty transparent space around the subject. Genuine transparent alpha, isolated cutout, no background scene beyond explicitly described subject, no card or frame, no text, logo, brand, watermark, people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-9cb2a0ac-cdc7-45d0-ae43-8ca4f237bee5.png",
+      "path": "/assets/images/cleaning-illustrations/air-cleaner.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "pipe",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: An isolated bath reheating pipe cleaning concept: two clean curved stainless and pale grey plumbing pipes connected by one circular joint, with a small transparent blue water droplet nearby. Front-facing clear simple mechanical composition. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-5538fc8b-56c8-4da3-b453-d8f3c058ccd1.png",
+      "path": "/assets/images/cleaning-illustrations/pipe.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "adapter",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One circular brushed-silver bathtub circulation adapter with finely perforated front face and a slim pale blue water swirl around the base. Face centered directly toward the viewer, recognizable compact bath fitting, not a shower head. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-8f456888-c9f6-42c5-a0e0-d6c957e8effe.png",
+      "path": "/assets/images/cleaning-illustrations/adapter.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-top",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One compact white Japanese top-loading washing machine with softly rounded corners and dark grey top opening with lid raised enough to show the clean stainless tub. Straight front view, natural unbranded appliance, no numbers or letters. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-e869c04f-8fbd-4274-b1f1-c637ef62b4dd.png",
+      "path": "/assets/images/cleaning-illustrations/washer-top.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-drum",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One white front-loading washing machine with a large circular grey glass door, subtle stainless rim, blank simple control panel. Perfectly frontal, original generic appliance. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-bf3b30f2-5072-4220-ad4d-f68be02b23ea.png",
+      "path": "/assets/images/cleaning-illustrations/washer-drum.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "dishwasher",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One compact silver and pearl-white dishwasher with its lower door open and clean dish racks visible holding several white plates and glasses. Front-facing, isolated appliance, no surrounding kitchen. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-8cad4284-0eb7-4beb-9c9b-84997a9150e9.png",
+      "path": "/assets/images/cleaning-illustrations/dishwasher.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "vent",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One square white home air inlet grille, front face toward viewer, circular concentric clean vent rings in the center, with a second thin fine-mesh replacement filter standing beside it. The grille and filter together form one isolated illustration. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained pale blue; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-1b866080-97af-4ad8-bcc3-f77809d1d380.png",
+      "path": "/assets/images/cleaning-illustrations/vent.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "aircon-disassembly",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A front-facing wall mounted white air conditioner in a neat exploded arrangement for deep cleaning: silver heat exchanger main body, separate white front cover beneath, and one long black cylindrical fan roller aligned beneath that. Clear recognizable parts, original construction, no labels. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-911061fa-f09a-415e-968f-e38535594d20.png",
+      "path": "/assets/images/cleaning-illustrations/aircon-disassembly.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "outdoor",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One white outdoor air-conditioner condenser unit, large grey circular fan grille at left and fine horizontal vents at right, two small feet, perfectly front facing. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-a63eedeb-65c3-4646-93ed-deab35d64210.png",
+      "path": "/assets/images/cleaning-illustrations/outdoor.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "drain-cap",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: An ivory ribbed air-conditioner drain hose curving gently downward to a small semi-transparent anti-insect mesh cap on its end. Cap and mesh clearly visible in the foreground, front-facing composition. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-dee3e8f3-a9cd-4dcf-bc5d-93ac1e28c4a6.png",
+      "path": "/assets/images/cleaning-illustrations/drain-cap.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "detergent",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One plain white cleaning-detergent bottle with a pale sage green cap and one small leaf embossed on the front, alongside a neatly folded white microfibre cloth. No wording or brand. Front view. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-a7507dcb-36e4-4542-be3e-7571d5fcba8b.png",
+      "path": "/assets/images/cleaning-illustrations/detergent.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "steam",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A compact black-and-grey steam cleaner nozzle with three gentle curls of translucent white steam, bright clean professional appliance detail. Front-facing nozzle arrangement, no hands or people. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-adcd7361-6805-486f-a6f8-a864d83be435.png",
+      "path": "/assets/images/cleaning-illustrations/steam.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "ceiling-aircon",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One square off-white four-way cassette ceiling air conditioner, face-on orthographic view of its bottom face as if looking directly at the unit: central grid, four slim louvres, restrained silver details. Only the unit, no ceiling. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-751dcbe1-9e81-42b4-92a5-26aab54870a7.png",
+      "path": "/assets/images/cleaning-illustrations/ceiling-aircon.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "bath-dryer",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean rectangular white bathroom ceiling ventilation and drying unit, face-on orthographic bottom face view, fine grey grille in the middle and slim clean louvres at one side. Isolated unbranded appliance. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-1cbc154e-9ce9-4e41-b0fc-aaa8db03199a.png",
+      "path": "source/site/assets/images/cleaning-illustrations/bath-dryer.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "toilet",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A pristine compact white porcelain toilet with tank and closed lid, completely frontal with slight view of the lid top to make the object readable. No room or floor. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-eca8b458-db1c-47bf-86c1-ae502871574e.png",
+      "path": "source/site/assets/images/cleaning-illustrations/toilet.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "lavatory",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A compact white bathroom washbasin cabinet with a clean chrome mixer faucet, oval basin and two pale oak doors, simple rectangular mirror directly above. Frontal isolated fixture, no wall around it. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-a4173e85-1027-469e-93e2-1e85bdc676e4.png",
+      "path": "source/site/assets/images/cleaning-illustrations/lavatory.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "mirror",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: One frameless tall rectangular bathroom mirror with rounded corners and two small pale silver glass reflections; a small white squeegee resting at its bottom right. Frontal, mirror surface pale sky grey, no reflected people or room. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-2db3e4da-6f52-4cc1-8330-0eafb527e601.png",
+      "path": "source/site/assets/images/cleaning-illustrations/mirror.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "bath-apron",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A white bathtub cleaning exploded view seen from the front: bathtub body with its rectangular front access panel removed and standing just below, clean steel support legs and a curved drain pipe visible beneath. One clear tidy isolated bath-unit composition. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-0cfaacab-521d-438f-a3d8-4e25b28902bd.png",
+      "path": "source/site/assets/images/cleaning-illustrations/bath-apron.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "stove",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean silver three-burner gas hob and stove unit, seen from the front with a shallow top surface showing dark grey burner rings, blank front control knobs. Whole object readable, clean realistic metal, no kitchen surrounds. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-815a3a0d-e128-494f-83c3-f3274d445c24.png",
+      "path": "source/site/assets/images/cleaning-illustrations/stove.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "window",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean two-panel rectangular aluminium sliding window, perfectly front-facing, clear pale blue glass with subtle highlights, slim silver frame. No curtains or wall, isolated window only. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-9e668b7c-8a8a-4aa4-a5ab-3e391a967e53.png",
+      "path": "source/site/assets/images/cleaning-illustrations/window.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "wallpaper",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: Two clean ivory wallpaper rolls, one standing upright and one partly unrolled upright as a broad smooth panel, beside a small foam roller with pale wood handle. Neutral subtle textile texture, frontal composition. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-2a2eb79f-b5e5-4654-8254-21af760e2d3f.png",
+      "path": "source/site/assets/images/cleaning-illustrations/wallpaper.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "mattress",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean white single mattress with gentle stitched quilting, resting horizontally on a very low pale wood base, front-facing with slight visible top. No bedhead, bedroom, pillow or people. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-8cb19502-0ea8-4a63-9e4b-a524b9cac8cd.png",
+      "path": "source/site/assets/images/cleaning-illustrations/mattress.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "sofa",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean compact warm light grey two-seat fabric sofa with two pale cushions and short oak feet. Perfect front view, no room, floor or table. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-6b33d868-49ee-4318-855e-752a0a53d9a9.png",
+      "path": "source/site/assets/images/cleaning-illustrations/sofa.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "carpet",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A clean pale cream rectangular short-pile carpet sample, its right edge loosely rolled up showing plush thickness, front-facing with slight top visibility. One isolated rug, no room. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-a2ebe773-493e-4607-844e-ddc1bb7a4598.png",
+      "path": "source/site/assets/images/cleaning-illustrations/carpet.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "grave",
+      "prompt": "Create ONE original reusable cleaning-service illustration, not a sheet. Match attached air-conditioner style: realistic anime-inspired 3D rendering, believable natural materials, soft cel-like shading, crisp edges and soft neutral studio light. Subject: A simple uninscribed grey Japanese stone grave monument with squared central upright stone, two small matching flower holders with white flowers and a low stone base. Perfectly frontal, respectful clean polished natural granite, absolutely no inscriptions or religious symbols, no cemetery background. Entire object visible, centered, straight frontal view, square canvas with around 10 percent empty transparent margin. Genuine transparent alpha, isolated cutout, no background, card, frame, text, logo, brand, watermark or people. Natural white, silver, pale wood and restrained color; never monochrome blue line art. Original design, not traced.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-77257eb7-10df-49ed-a5cf-f7942dbc3ce1.png",
+      "path": "source/site/assets/images/cleaning-illustrations/grave.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "deep-clean",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A small square ivory bathroom tile panel viewed directly from the front, mostly clean with one small subtle tan grime patch being cleaned by a compact white scrub brush and a folded pale blue cloth in front. Clearly represents intensive cleaning of stubborn stains, without text, diagrams or before/after dividing lines. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-71d7ab52-ab77-4581-8bf0-6c68b76210c6.png",
+      "path": "source/site/assets/images/cleaning-illustrations/deep-clean.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "light",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A simple unbranded white rectangular ceiling light fixture with two parallel frosted fluorescent tubes, detached and shown straight on from below/front so its complete face is visible, clean silver interior reflectors and realistic natural materials. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-febf93c9-c109-4607-9f88-a0202435beff.png",
+      "path": "source/site/assets/images/cleaning-illustrations/light.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "purifier-disassembly",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A compact unbranded white air purifier opened for deep cleaning, front-facing casing on one side with its detached rectangular mesh filter and front panel neatly arranged beside it, one cohesive compact composition with all parts clearly readable. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-1d193194-31e8-4977-801f-26984bc8caa8.png",
+      "path": "source/site/assets/images/cleaning-illustrations/purifier-disassembly.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "riser",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: Four identical small white anti-vibration washing machine riser blocks, square rounded rubber pads with a shallow circular support recess on top, neatly arranged as a compact two by two group, front-facing camera slightly elevated just enough to show their function. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-e3c9e624-b31a-45f1-87f1-963af827f4d0.png",
+      "path": "source/site/assets/images/cleaning-illustrations/riser.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "screen",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A single clean silver aluminum insect screen window frame with fine neutral gray mesh, isolated front-facing rectangular frame, realistic material texture and subtle highlights, mesh legible but not visually noisy. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-8eb6129a-e4c1-4acd-9ecc-cc779826eda7.png",
+      "path": "source/site/assets/images/cleaning-illustrations/screen.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "shutter",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A compact silver rolling exterior window shutter with horizontal slats, fully closed, isolated rectangular panel and small top casing, directly front-facing, clean and unbranded. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. This is a new independent composition, not a tracing of any other company's icon. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-ba9837fe-9cea-4e3c-94dc-95d76ccf2116.png",
+      "path": "source/site/assets/images/cleaning-illustrations/shutter.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "sink",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A clean unbranded stainless steel kitchen sink with a single deep basin, slender polished chrome mixer tap and a minimal small surrounding countertop section. Viewed directly from the front with only slight elevation to make the basin visible. Entire assembly isolated. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. New independent composition. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-1315160a-2fbb-404d-94b0-9ed732486e34.png",
+      "path": "source/site/assets/images/cleaning-illustrations/sink.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-drum-disassembly",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A clean white front-loading washing machine opened for deep cleaning: frontal square appliance body with an open circular cavity, its detached stainless steel cylindrical drum and front ring neatly arranged beside it in one compact readable group. No wiring clutter or repair worker. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. New independent composition. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-9e56e827-7402-474c-ae7f-acfcef536d13.png",
+      "path": "source/site/assets/images/cleaning-illustrations/washer-drum-disassembly.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-pan",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A shallow square white waterproof washing machine drain pan, four raised corner supports and one visible round drain outlet. Isolated front-facing composition with just enough elevated view to show the basin interior, realistic white molded plastic. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. New independent composition. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-5958a705-dd57-4946-8e34-9df9c3cd3a5b.png",
+      "path": "source/site/assets/images/cleaning-illustrations/washer-pan.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "washer-top-disassembly",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: An unbranded white top-loading washing machine prepared for deep cleaning. Front-facing upright appliance casing with open top beside its detached vertical stainless steel inner tub and simple top trim ring, compact neat arrangement, no worker or wiring clutter. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. New independent composition. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-3c409957-c208-425d-b45d-e14babb34c37.png",
+      "path": "source/site/assets/images/cleaning-illustrations/washer-top-disassembly.png",
+      "generator": "builtin image_gen"
+    },
+    {
+      "key": "wood-repair",
+      "prompt": "Create ONE original commercial service illustration for Crystal Clean Home. Match the attached approved air-conditioner sample's polished realistic anime-inspired 3D product rendering, natural material colors, clean lighting, crisp readable silhouette and gentle stylization. Subject: A small honey-colored wood flooring sample with three clean planks, a very subtle repaired scratch line and a folded cream polishing cloth at the lower corner, warm realistic wood grain. Front-facing composition with a slight elevated view to show the floor surface, isolated compact service illustration. Square canvas, centered object filling about 80 to 88 percent of the useful canvas width or height, entire subject visible, generous clean safety margin, truly transparent background, no floor scene, no wall, no cast shadow outside the object, no logos, no labels, no text, no watermark. New independent composition. Frontal angle. Only one asset, no grid or sheet.",
+      "source_path": "C:\\Users\\yasoj\\.codex\\generated_images\\01a107ca-f4c9-7f61-8c8d-2faf049aee96\\exec-58e63117-e376-4d35-b319-855276bdb69e.png",
+      "path": "source/site/assets/images/cleaning-illustrations/wood-repair.png",
+      "generator": "builtin image_gen"
+    }
+  ]
+}

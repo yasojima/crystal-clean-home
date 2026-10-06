@@ -13,12 +13,14 @@ body :is(p, li, dd, dt, blockquote, figcaption) {
   font-family: var(--site-body-font) !important;
 }
 
-/* Keep the header logo and compact level-3/4 labels in their existing style. */
+/* Separate every content heading from prose; the header logo stays unchanged. */
 body :is(
   h1:not(.c-header__logo),
-  h2:not(.c-heading-level-3):not(.c-heading-level-4),
+  h2, h3, h4, h5, h6,
   .c-heading-level-1,
   .c-heading-level-2,
+  .c-heading-level-3,
+  .c-heading-level-4,
   .c-double-line-heading,
   .c-beside-line-heading--large,
   .cch-home-slide__copy > strong
