@@ -12,6 +12,7 @@ from xml.etree import ElementTree
 root = Path(__file__).resolve().parents[1]
 parser = argparse.ArgumentParser()
 parser.add_argument('--git', action='store_true', help='Also compare captured bytes with committed Git blobs')
+parser.add_argument('--workers', type=int, default=1, choices=range(1, 9), help='File verification concurrency (default: 1)')
 args = parser.parse_args()
 manifest = json.loads((root / 'source' / 'manifest.json').read_text(encoding='utf-8'))
 site = root / 'source' / 'site'
@@ -34,7 +35,7 @@ def verify_file(item):
     if args.git and hashlib.sha1(b'blob ' + str(len(data)).encode('ascii') + b'\0' + data).hexdigest() != git_blobs.get(relative):
         return {'path': relative, 'error': 'committed Git blob mismatch or missing'}
     return None
-with ThreadPoolExecutor(max_workers=8) as pool:
+with ThreadPoolExecutor(max_workers=args.workers) as pool:
     errors = [error for error in pool.map(verify_file, unique.items()) if error]
 sitemap = ElementTree.parse(site / 'sitemap.xml')
 sitemap_urls = [node.text for node in sitemap.iter() if node.tag.endswith('}loc')]

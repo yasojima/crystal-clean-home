@@ -342,13 +342,11 @@ def main() -> None:
     if app_manifest.read_bytes() != new_manifest:
         changed["favicon/manifest.json"] = new_manifest
     assets = {
-        "assets/images/crystal-clean-home.png": ROOT / "assets/images/brand/crystal-clean-home.png",
-        "favicon/crystal-clean-home.svg": ROOT / "assets/images/docs/brand/favicon.svg",
+        "assets/images/crystal-clean-home.png": SITE / "assets/images/crystal-clean-home.png",
+        "favicon/crystal-clean-home.svg": SITE / "favicon/crystal-clean-home.svg",
         **{f"assets/images/common-parts/sns-icon/icon-{name}.png":
-           ROOT / f"assets/images/brand/shared-ui/social/{name}.png"
-           for name in ("x", "instagram", "tiktok", "youtube")},
-        "assets/images/common-parts/sns-icon/icon-translate.png":
-            ROOT / "assets/images/brand/header/translate-material-white-96.png",
+           SITE / f"assets/images/common-parts/sns-icon/icon-{name}.png"
+           for name in ("x", "instagram", "tiktok", "youtube", "translate")},
     }
     missing_assets = [key for key, src in assets.items()
                       if not (SITE / key).exists() or (SITE / key).read_bytes() != src.read_bytes()]

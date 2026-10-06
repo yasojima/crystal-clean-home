@@ -1,0 +1,98 @@
+{
+  "removed_files": [
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/preview.err",
+      "bytes": 107499
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/preview.out",
+      "bytes": 0
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/preview.pid",
+      "bytes": 7
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/scope-and-summary.py",
+      "bytes": 3469
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/update-docs.py",
+      "bytes": 5042
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/verify-publication.py",
+      "bytes": 1205
+    },
+    {
+      "path": "evidence/2026-10-07/home-section-boundaries/deploy-paths.json",
+      "bytes": 539
+    },
+    {
+      "path": "assets/LP_materials.zip",
+      "bytes": 12932688
+    },
+    {
+      "path": "tools/__pycache__/apply_cleaning_artwork.cpython-310.pyc",
+      "bytes": 4716
+    },
+    {
+      "path": "tools/__pycache__/apply_site_identity.cpython-310.pyc",
+      "bytes": 22338
+    },
+    {
+      "path": "tools/__pycache__/apply_site_typography.cpython-310.pyc",
+      "bytes": 4245
+    },
+    {
+      "path": "tools/__pycache__/build_cart_catalogue.cpython-310.pyc",
+      "bytes": 6939
+    },
+    {
+      "path": "tools/__pycache__/build_estimate_pages.cpython-310.pyc",
+      "bytes": 2943
+    },
+    {
+      "path": "tools/__pycache__/build_service_pages.cpython-310.pyc",
+      "bytes": 41163
+    },
+    {
+      "path": "tools/__pycache__/build_shared_ui.cpython-310.pyc",
+      "bytes": 10775
+    },
+    {
+      "path": "tools/__pycache__/home_section_backgrounds.cpython-310.pyc",
+      "bytes": 2443
+    },
+    {
+      "path": "tools/__pycache__/rewrite_site_copy.cpython-310.pyc",
+      "bytes": 67227
+    },
+    {
+      "path": "tools/__pycache__/site_scope.cpython-310.pyc",
+      "bytes": 7447
+    },
+    {
+      "path": "tools/__pycache__/verify_deployed_site.cpython-310.pyc",
+      "bytes": 6987
+    },
+    {
+      "path": "tools/__pycache__/verify_service_content.cpython-310.pyc",
+      "bytes": 6275
+    },
+    {
+      "path": "tools/__pycache__/verify_service_pages.cpython-310.pyc",
+      "bytes": 8501
+    },
+    {
+      "path": "tools/__pycache__/verify_site_identity.cpython-310.pyc",
+      "bytes": 3402
+    },
+    {
+      "path": "tools/__pycache__/_remove_sections_once.cpython-310.pyc",
+      "bytes": 12078
+    }
+  ],
+  "removed_bytes": 13257928,
+  "temporary_folder_cleanup": "18 folders outside project were blocked by automatic approval review; unchanged"
+}
