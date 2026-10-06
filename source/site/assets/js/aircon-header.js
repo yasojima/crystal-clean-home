@@ -254,6 +254,7 @@
   let visibleScrollY = lastScrollY;
   let scrollIdleTimer;
   let touchActive = false;
+  let restoringPage = false;
   const scrollIdleDelay = 450;
 
   function sizeDesktopFooterLinks() {
@@ -365,10 +366,23 @@
     }, scrollIdleDelay);
   }
 
+  // Reload and BFCache restoration can change scrollY without a user scroll.
+  window.addEventListener('pageshow', () => {
+    restoringPage = true;
+    touchActive = false;
+    header.classList.add('is-page-restoring');
+    showHeader();
+    requestAnimationFrame(() => requestAnimationFrame(() => {
+      showHeader();
+      header.classList.remove('is-page-restoring');
+      restoringPage = false;
+    }));
+  });
+
   window.addEventListener('scroll', () => {
     const currentY = Math.max(0, window.scrollY);
     updateFooterVisibility();
-    if (!mobileHeader.matches || menuOpen) {
+    if (!mobileHeader.matches || menuOpen || restoringPage) {
       showHeader();
       return;
     }

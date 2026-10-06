@@ -798,23 +798,34 @@ body.aircon-menu-open .c-header__navigation {
     --aircon-header-height: 148px;
   }
 
+  body:not(.c-home) {
+    padding-top: var(--aircon-header-height);
+  }
+
   .c-header {
+    position: fixed;
+    inset: 0 0 auto;
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
     align-items: flex-start;
     padding: 0 0 0 12px;
-    transition: transform .45s cubic-bezier(.4, 0, .2, 1),
+    transform: none;
+    transition: top .45s cubic-bezier(.4, 0, .2, 1),
                 background-color .4s var(--aircon-menu-material);
   }
 
-  .c-header.is-scroll-hidden {
-    transform: translateY(calc(-100% - 1px));
+  body .c-header.is-scroll-hidden {
+    top: calc(-1 * var(--aircon-header-height) - 1px);
     pointer-events: none;
   }
 
-  .c-header.is-footer-visible {
-    transform: translateY(0);
+  body .c-header.is-footer-visible {
+    top: 0;
     pointer-events: auto;
+  }
+
+  .c-header.is-page-restoring {
+    transition: none;
   }
 
   .c-header-contact {

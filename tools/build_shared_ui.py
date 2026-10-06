@@ -11,9 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
 COMPONENTS = ROOT / 'source/shared-ui'
 ASSETS = (
-    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100605">',
+    '<link rel="stylesheet" href="/assets/css/aircon-header.css?v=2026100606">',
     '<link rel="stylesheet" href="/assets/css/site-footer.css?v=2026100601">',
-    "<script src=\"/assets/js/aircon-header.js?v=2026100603\" defer></script>",
+    "<script src=\"/assets/js/aircon-header.js?v=2026100606\" defer></script>",
     '<link rel="stylesheet" href="/assets/css/site-cart.css?v=2026100604">',
     '<script src="/assets/js/cart-catalogue.js?v=2026100603" defer></script>',
     '<script src="/assets/js/cart-core.js?v=2026100528" defer></script>',
@@ -96,7 +96,7 @@ def transform(html, is_aircon=False):
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
                           '/assets/' + kind + '/' + asset + ('?v=2026100610' if kind == 'css' else '?v=2026100608'), html)
-    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100602', html)
+    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100603', html)
     for stylesheet in ('first-lp-desktop.css', 'first-lp-mobile.css'):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
                       '/assets/css/' + stylesheet + '?v=2026100601', html)

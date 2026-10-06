@@ -1,0 +1,422 @@
+{
+  "checked_at": "2026-10-06T14:11:13.943427+00:00",
+  "pages_commit": "e118be48d2f4033e26033af6bfccb3bcc69f8424",
+  "source_commit": "80e20d0",
+  "actions_run": 37476641036,
+  "files": [
+    {
+      "path": "assets/css/aircon-header.css",
+      "status": 200,
+      "bytes": 21895,
+      "matches": true
+    },
+    {
+      "path": "assets/css/beginner-lp.css",
+      "status": 200,
+      "bytes": 2629,
+      "matches": true
+    },
+    {
+      "path": "assets/css/first-lp-desktop.css",
+      "status": 200,
+      "bytes": 62597,
+      "matches": true
+    },
+    {
+      "path": "assets/css/first-lp-mobile.css",
+      "status": 200,
+      "bytes": 65989,
+      "matches": true
+    },
+    {
+      "path": "assets/css/home-concerns.css",
+      "status": 200,
+      "bytes": 3785,
+      "matches": true
+    },
+    {
+      "path": "assets/css/home-first-view.css",
+      "status": 200,
+      "bytes": 11786,
+      "matches": true
+    },
+    {
+      "path": "assets/js/home-first-view.js",
+      "status": 200,
+      "bytes": 6278,
+      "matches": true
+    },
+    {
+      "path": "beginner/index.html",
+      "status": 200,
+      "bytes": 76967,
+      "matches": true
+    },
+    {
+      "path": "business/contact/index.html",
+      "status": 200,
+      "bytes": 62825,
+      "matches": true
+    },
+    {
+      "path": "business/racn/index.html",
+      "status": 200,
+      "bytes": 57811,
+      "matches": true
+    },
+    {
+      "path": "cart/estimate/confirm/index.html",
+      "status": 200,
+      "bytes": 45682,
+      "matches": true
+    },
+    {
+      "path": "cart/estimate/index.html",
+      "status": 200,
+      "bytes": 70141,
+      "matches": true
+    },
+    {
+      "path": "cart/index.html",
+      "status": 200,
+      "bytes": 47774,
+      "matches": true
+    },
+    {
+      "path": "contact/business/index.html",
+      "status": 200,
+      "bytes": 62787,
+      "matches": true
+    },
+    {
+      "path": "contact/house-cleaning/index.html",
+      "status": 200,
+      "bytes": 62748,
+      "matches": true
+    },
+    {
+      "path": "contact/index.html",
+      "status": 200,
+      "bytes": 48600,
+      "matches": true
+    },
+    {
+      "path": "contact/shop/index.html",
+      "status": 200,
+      "bytes": 46446,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/aircon01/index.html",
+      "status": 200,
+      "bytes": 65456,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/aircon02/index.html",
+      "status": 200,
+      "bytes": 60269,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/drier/index.html",
+      "status": 200,
+      "bytes": 56483,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/fridge/index.html",
+      "status": 200,
+      "bytes": 55245,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/index.html",
+      "status": 200,
+      "bytes": 57022,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/kitchen/index.html",
+      "status": 200,
+      "bytes": 58366,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/air/index.html",
+      "status": 200,
+      "bytes": 57839,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/index.html",
+      "status": 200,
+      "bytes": 56508,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/kitchen/index.html",
+      "status": 200,
+      "bytes": 56958,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/light/index.html",
+      "status": 200,
+      "bytes": 57524,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/office/oa/index.html",
+      "status": 200,
+      "bytes": 57769,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/others/index.html",
+      "status": 200,
+      "bytes": 60218,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/summer/index.html",
+      "status": 200,
+      "bytes": 64001,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/toilet/index.html",
+      "status": 200,
+      "bytes": 55452,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/washer/index.html",
+      "status": 200,
+      "bytes": 57589,
+      "matches": true
+    },
+    {
+      "path": "energy-saving/winter/index.html",
+      "status": 200,
+      "bytes": 65725,
+      "matches": true
+    },
+    {
+      "path": "error/403/index.html",
+      "status": 200,
+      "bytes": 46736,
+      "matches": true
+    },
+    {
+      "path": "error/405/index.html",
+      "status": 200,
+      "bytes": 45624,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/aircon/2027problem/index.html",
+      "status": 200,
+      "bytes": 67855,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "bytes": 184342,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "bytes": 157288,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "bytes": 186553,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "status": 200,
+      "bytes": 68450,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "bytes": 129611,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "bytes": 448855,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "bytes": 344905,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "bytes": 147752,
+      "matches": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "bytes": 234974,
+      "matches": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 74345,
+      "matches": true
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "status": 200,
+      "bytes": 78707,
+      "matches": true
+    },
+    {
+      "path": "office/aircon_standard/index.html",
+      "status": 200,
+      "bytes": 75138,
+      "matches": true
+    },
+    {
+      "path": "office/carpet/index.html",
+      "status": 200,
+      "bytes": 65657,
+      "matches": true
+    },
+    {
+      "path": "office/floor/index.html",
+      "status": 200,
+      "bytes": 69912,
+      "matches": true
+    },
+    {
+      "path": "office/fluorescent/index.html",
+      "status": 200,
+      "bytes": 65088,
+      "matches": true
+    },
+    {
+      "path": "office/glass/index.html",
+      "status": 200,
+      "bytes": 69416,
+      "matches": true
+    },
+    {
+      "path": "office/photocatalyst/index.html",
+      "status": 200,
+      "bytes": 67391,
+      "matches": true
+    },
+    {
+      "path": "office/space/index.html",
+      "status": 200,
+      "bytes": 66125,
+      "matches": true
+    },
+    {
+      "path": "policy-1/index.html",
+      "status": 200,
+      "bytes": 46485,
+      "matches": true
+    },
+    {
+      "path": "policy-2/index.html",
+      "status": 200,
+      "bytes": 46581,
+      "matches": true
+    },
+    {
+      "path": "policy/index.html",
+      "status": 200,
+      "bytes": 46460,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/aircon/index.html",
+      "status": 200,
+      "bytes": 65114,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/coating/index.html",
+      "status": 200,
+      "bytes": 76632,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/index.html",
+      "status": 200,
+      "bytes": 50618,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/kitchen/index.html",
+      "status": 200,
+      "bytes": 64369,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/option/index.html",
+      "status": 200,
+      "bytes": 46383,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/others/index.html",
+      "status": 200,
+      "bytes": 59581,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/pack/index.html",
+      "status": 200,
+      "bytes": 100635,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/room/index.html",
+      "status": 200,
+      "bytes": 94244,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/washer/index.html",
+      "status": 200,
+      "bytes": 57869,
+      "matches": true
+    },
+    {
+      "path": "quick_cart/water/index.html",
+      "status": 200,
+      "bytes": 70396,
+      "matches": true
+    },
+    {
+      "path": "assets/images/home/first-guide-banner-mobile.png",
+      "status": 200,
+      "bytes": 1312538,
+      "matches": true
+    },
+    {
+      "path": "assets/images/home/business-guide-banner-mobile.png",
+      "status": 200,
+      "bytes": 1364148,
+      "matches": true
+    }
+  ]
+}

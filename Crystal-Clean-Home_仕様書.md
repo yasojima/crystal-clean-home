@@ -41,6 +41,14 @@ CHG-2026-10-06-010で画像・HOME構成・共通見出し・書体を実装し�
 
 - 追加確認：全60ページ×PC1280px／スマホ393pxの計120条件で、header／footer各1個、MENU開閉、フッター白、5行、横はみ出し0を記録。入力はCDPのDOMクリックで検証し、実タップ確認とは区別する。
 
+## スマホのヘッダー背面レイヤー（CHG-2026-10-06-016）
+
+- 767.98px以下で共通.c-headerをfixedにし、top:0からcalc(-1 * var(--aircon-header-height) - 1px)へ退避する。ヘッダー自体にtransformを使わない。HOMEのinset指定より非表示／末尾表示のtop指定を優先する。
+- body:not(.c-home)のpadding-topを共通ヘッダー高さへ揃え、本文位置を維持する。LPのスマホbody背景は白で、旧LPのbody:has指定を上書きする。表示中のヘッダー寸法・配置とPCのsticky処理は保持する。
+- pageshow時はtouchActiveをリセットし、ヘッダー全体を表示する。二回のrequestAnimationFrameまでrestoringPageとis-page-restoringを使い、スクロール復元による退避／表示アニメーションを抑える。その後、通常の退避と停止後450msの再表示へ戻す。
+- 計測上、修正前は20pxスクロール時に96pxのsticky領域の残り76pxからLP bodyの#f4f5f5が露出した。修正後はfixedヘッダーがtop:-97pxへ退避し、transform:none、背面は白となる。黒いピクセルそのものはWindows Chromiumでは再現できていない。実機への対策効果は公開後のユーザー確認で判定する。
+- 証拠はevidence/2026-10-06/lp-categories-estimate/のlocal-header-layer-after.json／pngとlocal-shared-layer-all-pages.json。表面の変更と誤認せず、背面状態・復元・MENU・フッターを確認する。
+
 ## 対象と正本
 
 - 後日の受付基盤の決定事項・契約候補・未決定項目は [Googleドキュメントの議事録](https://docs.google.com/document/d/18XmPFPE8FqVFpBSLeQT-cHUjz9ZMRDm_bNng3tJy3ww/edit) に記録する。プロジェクト最上層の「カート・予約受付基盤_議事録（Google Docs）.url」からも開ける。独自ドメイン取得済み、用途別メール作成・Resend登録・受付APIと保存先の接続は後日。今回は画面と入力・確認までとする。
@@ -304,3 +312,9 @@ CHG-2026-10-06-012公開確認：ソース1a377a9／Pages158edc0／Actions374540
 - LPはローカル320／375／393／430／767／1280px、公開320／393／1280pxで確認。スマホの6CTAは49px高、中央ずれ0px、画像後の通常配置。PC1280pxの本文各領域の高さ・位置は修正前と一致。フッター白背景とPC／スマホMENUを公開画面で確認した。
 - スマホヘッダーは320／375／393／430／767pxで横はみ出しなし、受付案内の数字列中心からのずれ0px。393pxの全60ページで連絡先とロゴ／MENUの重なりなし。
 - 証拠は `evidence/2026-10-06/home-compact-lp-shared/`。公開画面の保存画像と測定JSON、正本照合、公開ハッシュ、配信記録を格納する。実機スマホによる操作・人間による見た目の採用は未実施。
+## CHG-2026-10-06-015／016 検証記録
+
+- CHG-015公開：source 80e20d0、Pages e118be48d2f4033e26033af6bfccb3bcc69f8424、Actions 37476641036成功。変更69ファイルがHTTP200、公開バイトと正本SHA256一致。実機の黒い表示は残るとの回答を受け、CHG-016へ継続。
+- CHG-016ローカル：全60ページのスマホ393pxで通常のブラウザクリックによるMENU開閉、共通背景、横はみ出し0。PC1280pxのLP／HOME／エアコン／quick_cartでも確認（計64条件）。320／393／414pxの5条件でsynthetic touch／scrollにより退避、停止後再表示、保存位置で再読み込みを計測。末尾ではヘッダーを表示し、ブラウザの戻る操作でも再表示を確認。
+- 実機の黒い形はChromiumで未再現。WebKitのsticky復元描画に関する既知報告（https://bugs.webkit.org/show_bug.cgi?id=311418）も調査したが、このサイトの直接原因だとは扱わない。退避をfixed／topへ変える対策と実機解消の確認を分ける。
+

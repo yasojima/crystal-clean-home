@@ -1,0 +1,137 @@
+[
+  {
+    "route": "/beginner/",
+    "width": 414,
+    "inputMethod": "CDP synthetic touch/scroll, browser reload",
+    "shown": {
+      "height": 96,
+      "padding": "96px",
+      "top": 0
+    },
+    "hidden": {
+      "background": "rgb(255, 255, 255)",
+      "bottom": -1,
+      "class": "c-header is-scroll-hidden",
+      "scroll": 60,
+      "top": -97,
+      "transform": "none"
+    },
+    "returned": {
+      "class": "c-header",
+      "top": 0
+    },
+    "reloaded": {
+      "class": "c-header",
+      "scroll": 60,
+      "top": 0
+    }
+  },
+  {
+    "route": "/",
+    "width": 393,
+    "inputMethod": "CDP synthetic touch/scroll, browser reload",
+    "shown": {
+      "height": 96,
+      "padding": "0px",
+      "top": 0
+    },
+    "hidden": {
+      "background": "rgba(0, 0, 0, 0)",
+      "bottom": -1,
+      "class": "c-header is-scroll-hidden",
+      "scroll": 60,
+      "top": -97,
+      "transform": "none"
+    },
+    "returned": {
+      "class": "c-header",
+      "top": 0
+    },
+    "reloaded": {
+      "class": "c-header",
+      "scroll": 60,
+      "top": 0
+    }
+  },
+  {
+    "route": "/beginner/",
+    "width": 320,
+    "inputMethod": "CDP synthetic touch/scroll, browser reload",
+    "shown": {
+      "height": 148,
+      "padding": "148px",
+      "top": 0
+    },
+    "hidden": {
+      "background": "rgb(255, 255, 255)",
+      "bottom": -1,
+      "class": "c-header is-scroll-hidden",
+      "scroll": 60,
+      "top": -149,
+      "transform": "none"
+    },
+    "returned": {
+      "class": "c-header",
+      "top": 0
+    },
+    "reloaded": {
+      "class": "c-header is-page-restoring",
+      "scroll": 60,
+      "top": 0
+    }
+  },
+  {
+    "route": "/house-cleaning/aircon/",
+    "width": 393,
+    "inputMethod": "CDP synthetic touch/scroll, browser reload",
+    "shown": {
+      "height": 96,
+      "padding": "96px",
+      "top": 0
+    },
+    "hidden": {
+      "background": "rgba(0, 0, 0, 0)",
+      "bottom": -1,
+      "class": "c-header is-scroll-hidden",
+      "scroll": 60,
+      "top": -97,
+      "transform": "none"
+    },
+    "returned": {
+      "class": "c-header",
+      "top": 0
+    },
+    "reloaded": {
+      "class": "c-header",
+      "scroll": 60,
+      "top": 0
+    }
+  },
+  {
+    "route": "/quick_cart/",
+    "width": 393,
+    "inputMethod": "CDP synthetic touch/scroll, browser reload",
+    "shown": {
+      "height": 96,
+      "padding": "96px",
+      "top": 0
+    },
+    "hidden": {
+      "background": "rgba(0, 0, 0, 0)",
+      "bottom": -1,
+      "class": "c-header is-scroll-hidden",
+      "scroll": 60,
+      "top": -97,
+      "transform": "none"
+    },
+    "returned": {
+      "class": "c-header",
+      "top": 0
+    },
+    "reloaded": {
+      "class": "c-header",
+      "scroll": 60,
+      "top": 0
+    }
+  }
+]

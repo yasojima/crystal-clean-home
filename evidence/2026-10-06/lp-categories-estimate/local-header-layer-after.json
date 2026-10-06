@@ -1,0 +1,32 @@
+{
+  "behind": [
+    {
+      "background": "rgb(255, 255, 255)",
+      "class": "c-beginner-lp",
+      "tag": "BODY"
+    },
+    {
+      "background": "rgba(0, 0, 0, 0)",
+      "class": "",
+      "tag": "HTML"
+    }
+  ],
+  "header": "c-header is-scroll-hidden",
+  "headerRect": {
+    "bottom": -1,
+    "height": 96,
+    "left": 0,
+    "right": 399,
+    "top": -97,
+    "width": 399,
+    "x": 0,
+    "y": -97
+  },
+  "overflow": 0,
+  "position": "fixed",
+  "route": "/beginner/",
+  "scroll": 60,
+  "top": "-97px",
+  "transform": "none",
+  "width": 414
+}

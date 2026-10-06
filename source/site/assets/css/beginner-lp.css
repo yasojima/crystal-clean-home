@@ -16,6 +16,7 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
 }
 
 @media (max-width: 767.98px) {
+  body.c-beginner-lp:has(#cch-first-lp) { background: #fff; }
   body.c-beginner-lp #cch-first-lp { --lp-section-space: 28px; }
   body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-opening-actions,
   body.c-beginner-lp #cch-first-lp .lp-cta-scene .lp-cta-action {
