@@ -1845,7 +1845,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 77034,
-      "sha256": "890af8d4158f8e1fa322be5a3c7ad7c80554b9a842d2981a694d50766e6acb3b",
+      "sha256": "ab16ac1b6b820a0928ff12cb420edb500d1a1b65b0bee9c196b467f7463528b7",
       "retrieved_at": "2026-09-30T16:59:39.188759+00:00",
       "source_sha256": "943bf4f888b6c8ae1d690c24b5d3811557c6d24618aa05d2302c5a778712f4ab",
       "source_bytes": 62062,
@@ -13355,8 +13355,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "8b2d7f653980c93c9a90ef71f055bc4890ff0bfc34dc51ab8cc8b036ce6f65c5",
-      "bytes": 65989
+      "sha256": "2319d0a96608ed824cbf2abdb76481c68a8986bf14e67afd2e2c2a58934a2fd2",
+      "bytes": 66236
     },
     "https://www.osoujihonpo.com/assets/images/first-lp/categories/aircon.webp": {
       "path": "assets/images/first-lp/categories/aircon.webp",
@@ -14095,8 +14095,8 @@
       "status": 200,
       "content_type": "application/javascript",
       "origin_type": "local-shared-ui",
-      "sha256": "7544c27ad803d05690f39a86774b9965c9bf9fe3761e0486b5042ac6dcdb7ef9",
-      "bytes": 7266
+      "sha256": "8f8d99cd80e1de04c92420a0e6e147b0abf7b330cdcee2c2d094b51ab776c443",
+      "bytes": 7453
     }
   },
   "external_urls": [
@@ -16289,7 +16289,7 @@
   "counts": {
     "urls": 1537,
     "unique_paths": 1523,
-    "bytes": 219177092,
+    "bytes": 219177526,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

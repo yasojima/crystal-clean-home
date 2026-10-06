@@ -97,12 +97,12 @@ def transform(html, is_aircon=False):
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
                           '/assets/' + kind + '/' + asset + ('?v=2026100610' if kind == 'css' else '?v=2026100608'), html)
     html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100603', html)
-    for stylesheet in ('first-lp-desktop.css', 'first-lp-mobile.css'):
+    for stylesheet, version in (('first-lp-desktop.css', '2026100601'), ('first-lp-mobile.css', '2026100703')):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
-                      '/assets/css/' + stylesheet + '?v=2026100601', html)
+                      '/assets/css/' + stylesheet + '?v=' + version, html)
     if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
-        html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100702"></script>' + newline + '</head>', 1)
-    html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100702', html)
+        html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100703"></script>' + newline + '</head>', 1)
+    html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100703', html)
     layout_version = '2026100604'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     if not re.search(r'\bid="first-view"', html):

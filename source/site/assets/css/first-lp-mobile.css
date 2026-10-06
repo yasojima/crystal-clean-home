@@ -1069,7 +1069,7 @@ body:has(#cch-first-lp){background:#f4f5f5;padding-bottom:0!important}
 #cch-first-lp #first-comparison h2{font-size:20px;line-height:1.75;font-weight:700;color:#154c75}
 #cch-first-lp #first-comparison h2 strong{display:inline-block;font-size:52px;letter-spacing:.07em;color:#073769;font-weight:900}
 #cch-first-lp #first-comparison .lp-table-caption{background:none;font-size:13px;font-weight:500;color:#536e81;padding:0;margin:0 0 24px;text-align:center}
-#cch-first-lp #first-comparison .lp-table-scroll{padding:0 0 8px;filter:drop-shadow(0 8px 16px #103f6110)}
+#cch-first-lp #first-comparison .lp-table-scroll{padding:0 0 8px;--lp-shadow-filter:drop-shadow(0 8px 16px #103f6110);filter:var(--lp-shadow-filter)}
 #cch-first-lp #first-comparison table{table-layout:fixed;width:100%;min-width:900px;margin:0;border:0;border-spacing:0;border-radius:0;background:#fff;overflow:visible;font-size:17px}
 #cch-first-lp #first-comparison :is(th,td){font-family:"Yu Gothic",YuGothic,Meiryo,sans-serif!important;background:#fff;color:#3d566b;border:0;border-bottom:1px solid #dce7ed;padding:23px 8px;white-space:nowrap;line-height:1.45}
 #cch-first-lp #first-comparison thead th{width:12.8%;background:#edf4f8;font-size:16px;padding:24px 8px;border-bottom:1px solid #dce7ed;font-weight:700}
@@ -1245,7 +1245,7 @@ body:has(#cch-first-lp){background:#f4f5f5;padding-bottom:0!important}
 }
 
 #cch-first-lp .cta-final .lp-cta-action{top:69%;display:flex;flex-direction:column;align-items:center;gap:26px}
-#cch-first-lp .cta-final .lp-closing-logo{display:block;width:74%;max-width:300px;height:auto;margin:0;filter:drop-shadow(0 2px 7px #ffffffdc)}
+#cch-first-lp .cta-final .lp-closing-logo{display:block;width:74%;max-width:300px;height:auto;margin:0;--lp-shadow-filter:drop-shadow(0 2px 7px #ffffffdc);filter:var(--lp-shadow-filter)}
 @media(max-width:600px){
 #cch-first-lp .cta-final .lp-cta-action{top:auto;gap:18px;margin-top:16px;padding-bottom:32px}
 #cch-first-lp .cta-final .lp-closing-logo{width:74%;max-width:230px}
@@ -1275,3 +1275,8 @@ body:has(#cch-first-lp){background:#f4f5f5;padding-bottom:0!important}
 
 #cch-first-lp #first-faq summary{min-height:48px;font-size:14px;line-height:1.65;padding:12px 38px 12px 12px}
 #cch-first-lp #first-faq .cch-faq-answer{font-size:14px;line-height:1.85;padding:16px 12px}
+
+@media(max-width:767.98px){
+#cch-first-lp #first-comparison .lp-table-scroll,
+#cch-first-lp .cta-final .lp-closing-logo{filter:none;-webkit-filter:none}
+}

@@ -1,0 +1,9 @@
+{
+  "device_reported": "iPhone XS Max / iOS 18.7.10",
+  "tested_diagnostic_version": "2026100702",
+  "user_B_report": "Bは消えてる、B。BBB。",
+  "question": "Bで消えたあとAに戻すと黒い表示が戻るか。Aでも適用OKの条件で確認を依頼。",
+  "user_A_return_report": "Aに戻すと黒い表示が戻る",
+  "conclusion": "User reports A artifact present, B absent, A present again; filter class narrowed, individual culprit unknown.",
+  "decision": "Adopt the accepted B behavior for the two mobile targets on the normal LP. Desktop and other effects unchanged."
+}

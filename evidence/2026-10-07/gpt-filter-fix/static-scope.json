@@ -1,0 +1,13 @@
+{
+  "baseline": "450047a21a2c428c24c306c51c4e8a9ea56f3461",
+  "tracked_html": 60,
+  "shared_header_footer_changes": [],
+  "runtime_changes": [
+    "source/site/assets/css/first-lp-mobile.css",
+    "source/site/assets/js/lp-render-check.js",
+    "source/site/beginner/index.html"
+  ],
+  "lp_html_change": "mobile CSS and helper cache references only",
+  "desktop_css_unchanged": true,
+  "local_15_conditions_passed": true
+}

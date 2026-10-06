@@ -5,7 +5,7 @@
   if (!/^[0-6]$/.test(selected || '')) return;
 
   const mode = Number(selected);
-  const version = '2026100702';
+  const version = '2026100703';
   const filterTargets = ['#cch-first-lp #first-comparison .lp-table-scroll', '#cch-first-lp .cta-final .lp-closing-logo'];
   const scope = '#cch-first-lp, #cch-first-lp *, #cch-first-lp *::before, #cch-first-lp *::after';
   const effects = [
@@ -20,6 +20,7 @@
   style.id = 'lp-render-check-style';
   if (mode >= 1 && mode <= 3) style.textContent = effects[mode - 1];
   if (mode === 4) style.textContent = effects.join('\n');
+  if (mode === 0) style.textContent = `@media(max-width:767.98px){${filterTargets.join(',')}{filter:var(--lp-shadow-filter)!important;-webkit-filter:var(--lp-shadow-filter)!important}}`;
   if (mode === 6) style.textContent = `@media(max-width:767.98px){${filterTargets.join(',')}{filter:none!important;-webkit-filter:none!important}}`;
   if (mode === 5) style.textContent = effects.join('\n') + '\n#cch-first-lp{display:none!important}body.c-beginner-lp>main{min-height:20000px!important}';
   style.textContent += `
