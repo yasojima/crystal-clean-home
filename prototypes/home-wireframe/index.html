@@ -243,11 +243,11 @@
 </ul>
 </aside>
       <div class="wf-review wf-review-intro" id="wf-review-start"><div class="wf-container">
-<p class="wf-review-tag">HOME 複製・ワイヤーフレーム比較</p><h1>サービスに目を向けてもらう、特集バナーの３案。</h1>
-<p>横長バナー／手動スライド／大小バナーの形を比較します。訴求文と素材は検討用です。</p>
+<p class="wf-review-tag">HOME 複製・ワイヤーフレーム比較</p><h1>最新のお知らせ・３パターンの比較。</h1>
+<p>既存バナーを残し、お悩み・ご要望別と末尾の８項目の間に、お知らせの枠を追加しています。</p>
 <div class="wf-review-actions"><button type="button" data-wf-clean>比較表示を隠す</button><button type="button" data-wf-floating aria-pressed="false">固定見積もりを表示</button></div>
-<nav aria-label="比較画面の移動"><a href="#wf-pickup">特集バナーの３案へ</a><a href="/">現在のホーム</a></nav>
-<p class="wf-review-note">ローカルの検討用画面です。採用前のラフとして、既存の８カテゴリの直前に配置しています。期間・クーポン・架空のキャンペーンは追加していません。固定見積もりは上のボタンで表示できます。</p>
+<nav aria-label="比較画面の移動"><a href="#wf-news">お知らせの３案へ</a><a href="#wf-pickup">特集バナーの３案へ</a><a href="/">現在のホーム</a></nav>
+<p class="wf-review-note">ローカルの検討用画面です。お知らせの原稿・掲載日は仮です。案の採用と公開は未決定です。固定見積もりは上のボタンで表示できます。</p>
 </div></div><section class="wf-section wf-section--pickup" id="wf-pickup" data-wf-section="pickup" aria-labelledby="wf-pickup-title">
 <div class="wf-container">
 <div class="wf-review wf-section-review"><span>特集枠・形の比較</span><div class="wf-options" role="group" aria-label="暮らしに合わせたお掃除特集の３案"><button type="button" data-wf-choice="A" aria-pressed="true" aria-controls="wf-pickup-A"><b>A</b> 横長バナー・１訴求</button><button type="button" data-wf-choice="B" aria-pressed="false" aria-controls="wf-pickup-B"><b>B</b> 手動スライド・３訴求</button><button type="button" data-wf-choice="C" aria-pressed="false" aria-controls="wf-pickup-C"><b>C</b> 大小バナー・３訴求</button></div></div>
@@ -483,7 +483,13 @@
 
 
 
-        <section class="l-section l-section--limited c-featured-cleaning c-curved-section c-curved-section--up" style="--bg-color: #fff;"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
+        <section class="wf-section wf-section--news c-curved-section c-curved-section--up" id="wf-news" data-wf-section="news" aria-labelledby="wf-news-title"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color:#e3f1fc;"></span>
+<div class="wf-container">
+<div class="wf-review wf-section-review"><span>追加セクション・形の比較</span><div class="wf-options" role="group" aria-label="最新のお知らせの３案"><button type="button" data-wf-choice="A" aria-pressed="true" aria-controls="wf-news-A"><b>A</b> 日付・見出しの一覧</button><button type="button" data-wf-choice="B" aria-pressed="false" aria-controls="wf-news-B"><b>B</b> 注目１件＋ほか２件</button><button type="button" data-wf-choice="C" aria-pressed="false" aria-controls="wf-news-C"><b>C</b> ３枚のカード</button></div></div>
+<header class="wf-section-heading"><span>NEWS</span><h2 id="wf-news-title">最新のお知らせ</h2></header><p class="wf-news-draft">表示例・仮原稿（日付と内容は未確定）</p>
+<div data-wf-panels="news"></div>
+</div></section>
+<section class="l-section l-section--limited c-featured-cleaning c-curved-section c-curved-section--up" style="--bg-color: #fff;"><span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color: #e3f1fc;"></span>
 <div class="l-section-inner l-section-inner--limited">
 <h2 class="c-heading-level-2 p-reasons__heading c-featured-cleaning__heading"><span class="c-cleaning-menu-heading__brand">クリスタルクリーンホーム</span><span class="c-cleaning-menu-heading__title">注目のハウスクリーニング</span></h2>
 <div class="c-grid c-house-cleaning-links" style="--grid-col-pc: repeat(4, 1fr); --grid-gap-pc: 16px; --grid-col-tablet: repeat(3, 1fr); --grid-gap-tablet: 16px; --grid-col-sp: repeat(2, 1fr); --grid-gap-sp: 13px;"><a class="c-category-simple-card c-house-cleaning-links__link" href="/house-cleaning/aircon/">
@@ -685,7 +691,8 @@
 </ul>
 </div>
 </footer>
-<script type="application/json" id="wf-data">{"banners": [{"key": "aircon", "label": "まとめてお得に", "title": ["エアコン２台、", "まとめてお得に。"], "description": "", "image": "/assets/images/cleaning-illustrations/aircon.png", "link": "/house-cleaning/aircon/", "action": "まとめて頼む料金を見る"}, {"key": "coating", "label": "お掃除の、その先へ", "title": ["日々の手入れを、", "もっとしやすく。"], "description": "水まわりや床の表面を整える、コーティングのご案内。", "image": "/assets/images/cleaning-illustrations/coating.png", "link": "/house-cleaning/coating/", "action": "コーティングを詳しく見る"}, {"key": "pack", "label": "新生活の準備に", "title": ["引越しの前後に、", "住まいを整える。"], "description": "お荷物の搬出後・入居前に、住まいのお掃除をまとめて。", "image": "/assets/images/cleaning-illustrations/pack.png", "link": "/house-cleaning/pack/", "action": "引越し前後のお掃除を見る"}]}</script>
+<script type="application/json" id="wf-data">{"banners": [{"key": "aircon", "label": "まとめてお得に", "title": ["エアコン２台、", "まとめてお得に。"], "description": "", "image": "/assets/images/cleaning-illustrations/aircon.png", "link": "/house-cleaning/aircon/", "action": "まとめて頼む料金を見る"}, {"key": "coating", "label": "お掃除の、その先へ", "title": ["日々の手入れを、", "もっとしやすく。"], "description": "水まわりや床の表面を整える、コーティングのご案内。", "image": "/assets/images/cleaning-illustrations/coating.png", "link": "/house-cleaning/coating/", "action": "コーティングを詳しく見る"}, {"key": "pack", "label": "新生活の準備に", "title": ["引越しの前後に、", "住まいを整える。"], "description": "お荷物の搬出後・入居前に、住まいのお掃除をまとめて。", "image": "/assets/images/cleaning-illustrations/pack.png", "link": "/house-cleaning/pack/", "action": "引越し前後のお掃除を見る"}], "news": [{"id": "hours", "date": "20XX.XX.XX", "category": "営業案内", "title": "営業日・受付時間のご案内", "summary": "営業日・受付時間についてお知らせします。", "body": "営業日・受付時間に関するお知らせの掲載例です。正式な日付と本文は、運用時に登録します。"}, {"id": "services", "date": "20XX.XX.XX", "category": "サービス", "title": "サービス内容の更新について", "summary": "対応メニューの変更点をご案内します。", "body": "サービス内容の更新を伝えるための掲載例です。正式な変更内容と適用日は、運用時に登録します。"}, {"id": "information", "date": "20XX.XX.XX", "category": "お知らせ", "title": "見積もりに関するご案内", "summary": "見積もり受付についてお知らせします。", "body": "見積もり受付についての掲載例です。実際の案内内容は、運用時に登録します。"}]}</script>
+<dialog class="wf-news-dialog" aria-labelledby="wf-news-dialog-title"><button type="button" class="wf-news-close" data-wf-news-close aria-label="お知らせを閉じる">×</button><div data-wf-news-detail></div></dialog>
 <button type="button" class="wf-review-return" data-wf-return hidden>比較表示を戻す</button>
 </body>
 </html>
