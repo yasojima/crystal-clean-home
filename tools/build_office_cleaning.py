@@ -17,17 +17,16 @@ def render():
     head = re.sub(r'(<meta\b[^>]*\b(?:name|property)="(?:description|og:description)"[^>]*\bcontent=")[^"]*', r'\g<1>店舗・オフィスのエアコン、床、除菌・抗菌、引き渡し清掃をご案内します。', head)
     head = re.sub(r'https://yasojima.github.io/(?=["<])', 'https://yasojima.github.io/business/cleaning/', head)
     head = re.sub(r'\s*<link[^>]*href="/assets/css/office-cleaning\.css[^>]*>', '', head)
-    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100701">\n</head>')
+    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100801">\n</head>')
     photo = lambda key, label: f'<img src="/assets/images/office-cleaning/{key}.png" alt="{escape(label)}" width="1536" height="1024" loading="lazy" decoding="async">'
-    intro = ''.join(f'<p>{escape(t)}</p>' for t in data['intro'])
-    features = ''.join(f'<article class="office-cleaning__feature"><div class="office-cleaning__text"><h3>{escape(f["title"])}</h3><p>{"<br>".join(escape(t) for t in f["lines"])}</p></div><figure>{photo(f["image"], f["title"])}</figure></article>' for f in data['features'])
+    intro = f'<p>{escape(data["intro"])}</p>'
+    features = ''.join(f'<article class="office-cleaning__feature"><div class="office-cleaning__text"><h3>{escape(f["title"])}</h3><p>{escape(f["text"])}</p></div><figure>{photo(f["image"], f["title"])}</figure></article>' for f in data['features'])
     gallery = ''.join(f'<li><figure>{photo(key, label)}<figcaption>{escape(label)}</figcaption></figure></li>' for key, label in data['gallery'])
     html = f'''{head}<body class="c-office-cleaning"><main class="office-cleaning">
 <h1>{escape(data['title'])}</h1><div class="office-cleaning__intro">{intro}</div>
 <section aria-labelledby="office-cleaning-heading"><h2 id="office-cleaning-heading">{escape(data['heading'])}</h2>{features}
 <div class="office-cleaning__range"><h3>幅広い清掃対応</h3><ul>{gallery}</ul></div>
-<div class="office-cleaning__closing"><p>{'<br>'.join(escape(t) for t in data['closing'])}</p></div></section>
-<div class="office-cleaning__contact"><a class="c-double-icon-button" href="/contact/business/"><span class="c-double-icon-button__inner">店舗・オフィスのお掃除を相談する<span aria-hidden="true">›</span></span></a></div>
+<div class="office-cleaning__closing"><p>{escape(data['closing'])}</p></div></section>
 </main></body></html>'''
     return apply_identity(transform(html), True)
 

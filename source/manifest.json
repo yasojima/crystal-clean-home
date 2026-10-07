@@ -6826,8 +6826,8 @@
       "status": 200,
       "content_type": "text/html",
       "origin_type": "local-shared-ui",
-      "sha256": "e57170becb0dd885c62c464a239f3d707d77fdf3bdfebb68ccfcedcf50848545",
-      "bytes": 52893,
+      "sha256": "6afa94f9737204041a4ba52e396982b9392a9e93a7ca9685ab8a70034d96d9b5",
+      "bytes": 52397,
       "source_sha256": "42dce2fadb4443b103ba34b0b9852cf5b065be3e96cf140af40ec3ccedc12def"
     },
     "https://www.osoujihonpo.com/assets/css/office-cleaning.css": {
@@ -6836,8 +6836,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "caf793f5b2ae58429ebe265c9f09b9a8c4dc62d18c94e92d66947dafc1a82fa6",
-      "bytes": 2871
+      "sha256": "26e70ba75b47fff4a0fe50b6f82a6028cc77669f6b7024d86592ce4c78f24c3b",
+      "bytes": 2438
     },
     "https://www.osoujihonpo.com/assets/images/office-cleaning/aircon.png": {
       "path": "assets/images/office-cleaning/aircon.png",
@@ -9156,7 +9156,7 @@
   "counts": {
     "urls": 744,
     "unique_paths": 730,
-    "bytes": 163624809,
+    "bytes": 163623880,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
