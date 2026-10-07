@@ -3,11 +3,12 @@ import re
 
 
 HOME_SECTIONS = (
+    ('home-pickup--banner', '#fff', None, None),
     ('home-cleaning-list', '#fff', None, None),
     ('home-first-guide-section', '#e3f1fc', 'down', '#fff'),
     ('home-reasons', '#fff', 'up', '#e3f1fc'),
     ('home-concerns', '#e3f1fc', 'down', '#fff'),
-    ('home-pickup', '#fff', 'up', '#e3f1fc'),
+    ('home-pickup--features', '#fff', 'up', '#e3f1fc'),
     ('c-featured-cleaning', '#fff', None, None),
 )
 

@@ -4,6 +4,8 @@
 .home-pickup__heading>span { font-size:12px; letter-spacing:.12em; }
 .home-pickup__heading h2 { margin:0; font-size:22px; font-weight:700; }
 .home-pickup__banner { position:relative; overflow:hidden; border-radius:8px; }
+.home-pickup--banner { padding:32px 0 36px; }
+.home-pickup--banner .home-pickup__banner { width:90%; max-width:1000px; margin-inline:auto; }
 .home-pickup__banner-image { display:block; width:100%; height:auto; pointer-events:none; }
 .home-pickup__banner-cta { position:absolute; left:var(--home-pickup-cta-x); top:var(--home-pickup-cta-y); width:var(--home-pickup-cta-width); height:var(--home-pickup-cta-height); border-radius:999px; background:transparent; cursor:pointer; transition:background .15s,box-shadow .15s; }
 .home-pickup__banner-cta:hover { background:#fff2; box-shadow:inset 0 0 0 2px #fff9; }
@@ -21,6 +23,7 @@
 
 @media(max-width:767.98px) {
  .home-pickup { padding:30px 0; }
+ .home-pickup--banner .home-pickup__banner { width:100%; }
  .home-pickup__inner { width:calc(100% - 32px); }
  .home-pickup__heading { gap:9px; flex-wrap:wrap; margin-bottom:16px; }
  .home-pickup__heading h2 { font-size:19px; }

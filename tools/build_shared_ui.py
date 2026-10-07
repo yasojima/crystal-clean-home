@@ -98,7 +98,7 @@ def transform(html, is_aircon=False):
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100707', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
-    html = re.sub(r'/assets/css/home-pickups\.css(?:\?v=\d+)?', '/assets/css/home-pickups.css?v=2026100702', html)
+    html = re.sub(r'/assets/css/home-pickups\.css(?:\?v=\d+)?', '/assets/css/home-pickups.css?v=2026100801', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
