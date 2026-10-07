@@ -8,6 +8,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -25,162 +26,130 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 152,
-          "y": 1338.25,
-          "width": 670,
-          "height": 446.65625
+          "x": 92,
+          "y": 1790.296875,
+          "width": 713.328125,
+          "height": 445.828125
         },
         {
-          "x": 342.65625,
-          "y": 1880.90625,
-          "width": 929.34375,
-          "height": 522.75
+          "x": 934.65625,
+          "y": 1890.296875,
+          "width": 397.34375,
+          "height": 496.671875
         },
         {
-          "x": 656,
-          "y": 2616.65625,
-          "width": 616,
-          "height": 462
+          "x": 92,
+          "y": 2856.5625,
+          "width": 397.328125,
+          "height": 297.984375
         },
         {
-          "x": 152,
-          "y": 3174.65625,
-          "width": 929.328125,
-          "height": 464.65625
+          "x": 618.65625,
+          "y": 2792.5625,
+          "width": 713.34375,
+          "height": 475.5625
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 152,
-          "y": 4139.4375,
-          "width": 262,
-          "height": 218.328125
+          "x": 92,
+          "y": 3888.203125,
+          "width": 297.984375,
+          "height": 248.3125
         },
         {
-          "x": 438,
-          "y": 4119.546875,
-          "width": 357.328125,
-          "height": 238.21875
+          "x": 405.984375,
+          "y": 3868.078125,
+          "width": 402.671875,
+          "height": 268.4375
         },
         {
-          "x": 819.328125,
-          "y": 4224.4375,
-          "width": 166.671875,
-          "height": 133.328125
+          "x": 824.65625,
+          "y": 3981.84375,
+          "width": 193.34375,
+          "height": 154.671875
         },
         {
-          "x": 1010,
-          "y": 4183.109375,
-          "width": 262,
-          "height": 174.65625
+          "x": 1034,
+          "y": 3937.859375,
+          "width": 298,
+          "height": 198.65625
         },
         {
-          "x": 152,
-          "y": 4443.578125,
-          "width": 166.65625,
-          "height": 208.3125
+          "x": 92,
+          "y": 4209.703125,
+          "width": 193.328125,
+          "height": 241.65625
         },
         {
-          "x": 342.65625,
-          "y": 4428.5625,
-          "width": 357.34375,
-          "height": 223.328125
+          "x": 301.328125,
+          "y": 4199.703125,
+          "width": 402.671875,
+          "height": 251.65625
         },
         {
-          "x": 724,
-          "y": 4477.234375,
-          "width": 262,
-          "height": 174.65625
+          "x": 720,
+          "y": 4252.703125,
+          "width": 298,
+          "height": 198.65625
         },
         {
-          "x": 1010,
-          "y": 4442.296875,
-          "width": 262,
-          "height": 209.59375
+          "x": 1034,
+          "y": 4212.96875,
+          "width": 298,
+          "height": 238.390625
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 646.65625,
-        "y": 203.921875,
-        "width": 689.34375,
-        "height": 459.5625
+        "x": 498.65625,
+        "y": 191.921875,
+        "width": 853.34375,
+        "height": 533.328125
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 2
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     },
     {
       "width": 1280,
@@ -188,6 +157,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -205,162 +175,130 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 72.5,
-          "y": 1302.328125,
-          "width": 670,
-          "height": 446.65625
+          "x": 40,
+          "y": 1730.796875,
+          "width": 681.25,
+          "height": 425.78125
         },
         {
-          "x": 263.15625,
-          "y": 1844.984375,
-          "width": 929.34375,
-          "height": 522.75
+          "x": 846,
+          "y": 1830.796875,
+          "width": 379,
+          "height": 473.75
         },
         {
-          "x": 576.5,
-          "y": 2580.734375,
-          "width": 616,
-          "height": 462
+          "x": 40,
+          "y": 2774.140625,
+          "width": 379,
+          "height": 284.25
         },
         {
-          "x": 72.5,
-          "y": 3138.734375,
-          "width": 929.328125,
-          "height": 464.65625
+          "x": 543.75,
+          "y": 2710.140625,
+          "width": 681.25,
+          "height": 454.15625
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 72.5,
-          "y": 4103.515625,
-          "width": 262,
-          "height": 218.328125
+          "x": 40,
+          "y": 3783.328125,
+          "width": 284.25,
+          "height": 236.875
         },
         {
-          "x": 358.5,
-          "y": 4083.625,
-          "width": 357.328125,
-          "height": 238.21875
+          "x": 340.25,
+          "y": 3763.984375,
+          "width": 384.328125,
+          "height": 256.21875
         },
         {
-          "x": 739.828125,
-          "y": 4188.515625,
-          "width": 166.671875,
-          "height": 133.328125
+          "x": 740.578125,
+          "y": 3872.875,
+          "width": 184.171875,
+          "height": 147.328125
         },
         {
-          "x": 930.5,
-          "y": 4147.1875,
-          "width": 262,
-          "height": 174.65625
+          "x": 940.75,
+          "y": 3830.703125,
+          "width": 284.25,
+          "height": 189.5
         },
         {
-          "x": 72.5,
-          "y": 4407.65625,
-          "width": 166.65625,
-          "height": 208.3125
+          "x": 40,
+          "y": 4093.40625,
+          "width": 184.15625,
+          "height": 230.1875
         },
         {
-          "x": 263.15625,
-          "y": 4392.640625,
-          "width": 357.34375,
-          "height": 223.328125
+          "x": 240.15625,
+          "y": 4083.390625,
+          "width": 384.34375,
+          "height": 240.203125
         },
         {
-          "x": 644.5,
-          "y": 4441.3125,
-          "width": 262,
-          "height": 174.65625
+          "x": 640.5,
+          "y": 4134.09375,
+          "width": 284.25,
+          "height": 189.5
         },
         {
-          "x": 930.5,
-          "y": 4406.375,
-          "width": 262,
-          "height": 209.59375
+          "x": 940.75,
+          "y": 4096.203125,
+          "width": 284.25,
+          "height": 227.390625
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 567.15625,
-        "y": 184,
-        "width": 665.34375,
-        "height": 443.5625
+        "x": 435,
+        "y": 172,
+        "width": 790,
+        "height": 493.75
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 2
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     },
     {
       "width": 1024,
@@ -368,6 +306,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -385,162 +324,130 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 24,
-          "y": 1420.84375,
-          "width": 570.625,
-          "height": 380.40625
+          "x": 32,
+          "y": 1677.328125,
+          "width": 542.90625,
+          "height": 339.3125
         },
         {
-          "x": 188.15625,
-          "y": 1897.25,
-          "width": 796.828125,
-          "height": 448.203125
+          "x": 675.328125,
+          "y": 1777.328125,
+          "width": 301.671875,
+          "height": 377.078125
         },
         {
-          "x": 461.75,
-          "y": 2558.453125,
-          "width": 523.25,
-          "height": 392.4375
+          "x": 32,
+          "y": 2676.796875,
+          "width": 301.65625,
+          "height": 226.234375
         },
         {
-          "x": 24,
-          "y": 3046.890625,
-          "width": 796.828125,
-          "height": 398.40625
+          "x": 434.078125,
+          "y": 2612.796875,
+          "width": 542.921875,
+          "height": 361.9375
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 24,
-          "y": 3943.234375,
-          "width": 222.234375,
-          "height": 185.1875
+          "x": 32,
+          "y": 3619.109375,
+          "width": 224.25,
+          "height": 186.875
         },
         {
-          "x": 270.234375,
-          "y": 3925.53125,
-          "width": 304.34375,
-          "height": 202.890625
+          "x": 272.25,
+          "y": 3603.109375,
+          "width": 304.328125,
+          "height": 202.875
         },
         {
-          "x": 598.578125,
-          "y": 4016.296875,
-          "width": 140.171875,
-          "height": 112.125
+          "x": 592.578125,
+          "y": 3690.65625,
+          "width": 144.171875,
+          "height": 115.328125
         },
         {
-          "x": 762.75,
-          "y": 3980.265625,
-          "width": 222.25,
-          "height": 148.15625
+          "x": 752.75,
+          "y": 3656.484375,
+          "width": 224.25,
+          "height": 149.5
         },
         {
-          "x": 24,
-          "y": 4214.234375,
-          "width": 140.15625,
-          "height": 175.1875
+          "x": 32,
+          "y": 3879.1875,
+          "width": 144.15625,
+          "height": 180.1875
         },
         {
-          "x": 188.15625,
-          "y": 4199.21875,
+          "x": 192.15625,
+          "y": 3869.171875,
           "width": 304.34375,
           "height": 190.203125
         },
         {
-          "x": 516.5,
-          "y": 4241.265625,
-          "width": 222.25,
-          "height": 148.15625
+          "x": 512.5,
+          "y": 3909.875,
+          "width": 224.25,
+          "height": 149.5
         },
         {
-          "x": 762.75,
-          "y": 4211.625,
-          "width": 222.25,
-          "height": 177.796875
+          "x": 752.75,
+          "y": 3879.984375,
+          "width": 224.25,
+          "height": 179.390625
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 452.40625,
-        "y": 289.90625,
-        "width": 532.59375,
-        "height": 355.0625
+        "x": 347,
+        "y": 181.609375,
+        "width": 630,
+        "height": 393.75
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 2
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     },
     {
       "width": 768,
@@ -548,6 +455,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -565,162 +473,130 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 24,
-          "y": 1730.21875,
-          "width": 423.125,
-          "height": 282.078125
+          "x": 32,
+          "y": 2192.46875,
+          "width": 326.5,
+          "height": 204.0625
         },
         {
-          "x": 145.5,
-          "y": 2123.0625,
-          "width": 583.5,
-          "height": 328.21875
+          "x": 394.5,
+          "y": 2256.46875,
+          "width": 326.5,
+          "height": 408.125
         },
         {
-          "x": 336.40625,
-          "y": 2754.46875,
-          "width": 392.578125,
-          "height": 294.421875
+          "x": 32,
+          "y": 3158.984375,
+          "width": 326.5,
+          "height": 244.875
         },
         {
-          "x": 24,
-          "y": 3176.578125,
-          "width": 583.5,
-          "height": 291.75
+          "x": 394.5,
+          "y": 3094.984375,
+          "width": 326.5,
+          "height": 217.65625
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 24,
-          "y": 4050.6875,
-          "width": 221.65625,
-          "height": 184.703125
-        },
-        {
-          "x": 265.65625,
-          "y": 4007.0625,
-          "width": 342.5,
-          "height": 228.328125
-        },
-        {
-          "x": 628.15625,
-          "y": 4154.71875,
-          "width": 100.84375,
-          "height": 80.671875
-        },
-        {
-          "x": 24,
-          "y": 4360.484375,
-          "width": 221.65625,
-          "height": 147.765625
-        },
-        {
-          "x": 265.65625,
-          "y": 4382.203125,
-          "width": 100.84375,
-          "height": 126.046875
+          "x": 32,
+          "y": 4106.703125,
+          "width": 334.5,
+          "height": 167.25
         },
         {
           "x": 386.5,
-          "y": 4294.1875,
-          "width": 342.5,
-          "height": 214.0625
+          "y": 4106.703125,
+          "width": 334.5,
+          "height": 167.25
         },
         {
-          "x": 24,
-          "y": 4612.71875,
-          "width": 342.5,
-          "height": 228.328125
+          "x": 32,
+          "y": 4403.90625,
+          "width": 157.25,
+          "height": 125.796875
+        },
+        {
+          "x": 209.25,
+          "y": 4424.875,
+          "width": 157.25,
+          "height": 104.828125
         },
         {
           "x": 386.5,
-          "y": 4567.046875,
-          "width": 342.5,
-          "height": 274
+          "y": 4333.140625,
+          "width": 157.25,
+          "height": 196.5625
+        },
+        {
+          "x": 32,
+          "y": 4588.890625,
+          "width": 334.5,
+          "height": 167.25
+        },
+        {
+          "x": 386.5,
+          "y": 4651.3125,
+          "width": 157.25,
+          "height": 104.828125
+        },
+        {
+          "x": 563.75,
+          "y": 4630.34375,
+          "width": 157.25,
+          "height": 125.796875
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 24,
-        "y": 272.640625,
-        "width": 705,
-        "height": 396.5625
+        "x": 32,
+        "y": 467.375,
+        "width": 689,
+        "height": 387.5625
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 2
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     },
     {
       "width": 414,
@@ -728,6 +604,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -745,162 +622,130 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 16,
-          "y": 1783.015625,
-          "width": 367,
-          "height": 244.65625
+          "x": 20,
+          "y": 2346.34375,
+          "width": 359,
+          "height": 224.375
         },
         {
-          "x": 16,
-          "y": 2309.75,
-          "width": 367,
-          "height": 206.4375
+          "x": 63.09375,
+          "y": 2872.109375,
+          "width": 315.90625,
+          "height": 252.71875
         },
         {
-          "x": 16,
-          "y": 2825.5625,
-          "width": 367,
-          "height": 244.65625
+          "x": 20,
+          "y": 3531.21875,
+          "width": 359,
+          "height": 269.25
         },
         {
-          "x": 16,
-          "y": 3499.28125,
-          "width": 367,
-          "height": 244.65625
+          "x": 20,
+          "y": 4211.0625,
+          "width": 359,
+          "height": 239.328125
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 16,
-          "y": 4222.796875,
-          "width": 175.5,
-          "height": 146.25
+          "x": 20,
+          "y": 4950.96875,
+          "width": 171.5,
+          "height": 142.90625
         },
         {
-          "x": 16,
-          "y": 4427.84375,
-          "width": 367,
-          "height": 159.5625
+          "x": 20,
+          "y": 5153.0625,
+          "width": 359,
+          "height": 138.0625
         },
         {
-          "x": 16,
-          "y": 4646.203125,
-          "width": 175.5,
-          "height": 140.390625
-        },
-        {
-          "x": 207.5,
-          "y": 4669.59375,
-          "width": 175.5,
-          "height": 117
-        },
-        {
-          "x": 16,
-          "y": 4845.390625,
-          "width": 175.5,
-          "height": 219.375
-        },
-        {
-          "x": 16,
-          "y": 5123.5625,
-          "width": 367,
-          "height": 159.5625
-        },
-        {
-          "x": 16,
-          "y": 5365.3125,
-          "width": 175.5,
-          "height": 117
+          "x": 20,
+          "y": 5350.3125,
+          "width": 171.5,
+          "height": 137.1875
         },
         {
           "x": 207.5,
-          "y": 5341.921875,
-          "width": 175.5,
-          "height": 140.390625
+          "y": 5373.171875,
+          "width": 171.5,
+          "height": 114.328125
+        },
+        {
+          "x": 20,
+          "y": 5546.6875,
+          "width": 171.5,
+          "height": 214.375
+        },
+        {
+          "x": 20,
+          "y": 5820.25,
+          "width": 359,
+          "height": 138.0625
+        },
+        {
+          "x": 20,
+          "y": 6040.359375,
+          "width": 171.5,
+          "height": 114.328125
+        },
+        {
+          "x": 207.5,
+          "y": 6017.5,
+          "width": 171.5,
+          "height": 137.1875
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 16,
-        "y": 235.84375,
-        "width": 367,
-        "height": 244.65625
+        "x": 20,
+        "y": 447.765625,
+        "width": 359,
+        "height": 269.25
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 1
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     },
     {
       "width": 320,
@@ -908,6 +753,7 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
+      "spreads": 2,
       "galleryPhotos": 8,
       "uniqueImages": [
         "aircon.png",
@@ -925,169 +771,142 @@
         "toilet.png"
       ],
       "br": 0,
+      "englishInContent": [],
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
       "introMatches": true,
+      "statementMatches": true,
       "featureCopyMatches": true,
       "featureTitlesMatch": true,
       "closingMatches": true,
       "imagesLoaded": true,
       "mainPhotoDimensions": [
         {
-          "x": 16,
-          "y": 1955.921875,
-          "width": 273,
-          "height": 182
+          "x": 20,
+          "y": 2506.21875,
+          "width": 265,
+          "height": 165.625
         },
         {
-          "x": 16,
-          "y": 2474.59375,
-          "width": 273,
-          "height": 153.5625
+          "x": 51.8125,
+          "y": 3029.234375,
+          "width": 233.1875,
+          "height": 186.546875
         },
         {
-          "x": 16,
-          "y": 2992.125,
-          "width": 273,
-          "height": 182
+          "x": 20,
+          "y": 3734.171875,
+          "width": 265,
+          "height": 198.75
         },
         {
-          "x": 16,
-          "y": 3592.890625,
-          "width": 273,
-          "height": 182
+          "x": 20,
+          "y": 4336.421875,
+          "width": 265,
+          "height": 176.65625
         }
       ],
       "galleryPhotoDimensions": [
         {
-          "x": 16,
-          "y": 4308.34375,
-          "width": 128.5,
-          "height": 107.078125
+          "x": 20,
+          "y": 5097.65625,
+          "width": 124.5,
+          "height": 103.75
         },
         {
-          "x": 16,
-          "y": 4474.21875,
-          "width": 273,
-          "height": 118.6875
+          "x": 20,
+          "y": 5260.59375,
+          "width": 265,
+          "height": 101.921875
         },
         {
-          "x": 16,
-          "y": 4651.703125,
-          "width": 128.5,
-          "height": 102.796875
-        },
-        {
-          "x": 160.5,
-          "y": 4668.84375,
-          "width": 128.5,
-          "height": 85.65625
-        },
-        {
-          "x": 16,
-          "y": 4813.296875,
-          "width": 128.5,
-          "height": 160.625
-        },
-        {
-          "x": 16,
-          "y": 5032.71875,
-          "width": 273,
-          "height": 118.6875
-        },
-        {
-          "x": 16,
-          "y": 5227.34375,
-          "width": 128.5,
-          "height": 85.65625
+          "x": 20,
+          "y": 5421.703125,
+          "width": 124.5,
+          "height": 99.59375
         },
         {
           "x": 160.5,
-          "y": 5210.203125,
-          "width": 128.5,
-          "height": 102.796875
+          "y": 5438.296875,
+          "width": 124.5,
+          "height": 83
+        },
+        {
+          "x": 20,
+          "y": 5580.484375,
+          "width": 124.5,
+          "height": 155.625
+        },
+        {
+          "x": 20,
+          "y": 5795.296875,
+          "width": 265,
+          "height": 101.921875
+        },
+        {
+          "x": 20,
+          "y": 5973,
+          "width": 124.5,
+          "height": 83
+        },
+        {
+          "x": 160.5,
+          "y": 5956.40625,
+          "width": 124.5,
+          "height": 99.59375
         }
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 16,
-        "y": 287.84375,
-        "width": 273,
-        "height": 182
+        "x": 20,
+        "y": 499.765625,
+        "width": 265,
+        "height": 198.75
       },
       "textClipped": [],
       "cta": [
         {
-          "text": "法人向け清掃のご相談→",
           "href": "#office-wf-contact",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         },
         {
-          "text": "お問い合わせはこちら→",
           "href": "/contact/business/",
           "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "1px",
-          "borderRight": "1px",
-          "borderBottom": "1px"
+          "borders": [
+            "0px",
+            "0px",
+            "1px",
+            "0px"
+          ]
         }
       ],
-      "sceneStyles": [
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        },
-        {
-          "background": "rgba(0, 0, 0, 0)",
-          "borderTop": "1px",
-          "borderLeft": "0px",
-          "borderRight": "0px",
-          "borderBottom": "0px"
-        }
-      ],
-      "productCards": 0,
-      "mobilePhotoFirst": true,
-      "galleryLabels": [
-        "ガラス・サッシ",
-        "厨房器具",
-        "レンジフード",
-        "照明器具",
-        "トイレ",
-        "廊下・階段",
-        "洗面所",
-        "ベランダ"
-      ],
-      "sceneColumns": 1
+      "typography": {
+        "heading": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "cover": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif",
+        "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
+      },
+      "pairedOnDesktop": true,
+      "phonePhotoFirst": true
     }
   ],
+  "interaction": {
+    "contactAnchor": true,
+    "sceneAnchor": true,
+    "keyboardFocus": {
+      "active": true,
+      "outline": "solid",
+      "width": "2px"
+    },
+    "demoMessage": "デモ表示のためリンク未設定です。"
+  },
   "pageErrors": [],
-  "heroAnchorWorks": true,
-  "sceneAnchorWorks": true,
-  "existingDemoCtaWorks": true,
-  "keyboardFocusWorks": true,
-  "browserClosed": true,
-  "pass": true
+  "status": "PASS"
 }
