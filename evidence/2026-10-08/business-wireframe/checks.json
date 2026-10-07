@@ -1,1681 +1,3105 @@
 {
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
-  "cssVersion": "2026100819",
+  "copyTransform": "Brochure-only: 清潔 to 快適; aircon ending to 快適に使える状態; feature source wording retained and paragraphs split by sentences; consultation reduced to three POINT topics; closing replaced with one short inquiry sentence.",
+  "cssVersion": "2026100829",
+  "reference": "http://127.0.0.1:8773/house-cleaning/aircon/",
   "records": [
+    {
+      "width": 1518,
+      "height": 801,
+      "reference": {
+        "item": {
+          "width": "485px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "20px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "485px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "15px",
+          "lineHeight": "25.5px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 1503,
+      "sceneColumns": 3,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
+        {
+          "circle": "280px",
+          "navy": "485px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
+        },
+        {
+          "circle": "280px",
+          "navy": "485px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
+        },
+        {
+          "circle": "280px",
+          "navy": "485px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
+        }
+      ],
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        }
+      ],
+      "features": [
+        {
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 131.5,
+            "y": 2612.96875,
+            "width": 82,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 131.5,
+            "y": 2040.3125,
+            "width": 818.65625,
+            "height": 511.65625
+          },
+          "detail": null,
+          "textFits": true
+        },
+        {
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 1021.84375,
+            "y": 2461.96875,
+            "width": 82,
+            "height": 311.40625
+          },
+          "photo": {
+            "x": 1085.421875,
+            "y": 2086.3125,
+            "width": 251.734375,
+            "height": 314.65625
+          },
+          "detail": null,
+          "textFits": true
+        },
+        {
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 179.1875,
+            "y": 3360.859375,
+            "width": 82,
+            "height": 142.0625
+          },
+          "photo": {
+            "x": 235.140625,
+            "y": 3079.59375,
+            "width": 293.6875,
+            "height": 220.265625
+          },
+          "detail": {
+            "x": 131.5,
+            "y": 3530.921875,
+            "width": 556.25,
+            "height": 370.828125
+          },
+          "textFits": true
+        },
+        {
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 743.765625,
+            "y": 3495.078125,
+            "width": 82,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 743.765625,
+            "y": 3015.59375,
+            "width": 627.734375,
+            "height": 418.484375
+          },
+          "detail": null,
+          "textFits": true
+        }
+      ],
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 140,
+        "width": 1503,
+        "height": 661
+      },
+      "coverPhoto": {
+        "x": 411.5,
+        "y": 140,
+        "width": 1091.5,
+        "height": 645
+      },
+      "corner": "240px",
+      "backCorner": "240px",
+      "copyWidth": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
+      },
+      "cta": [
+        {
+          "text": "ご相談窓口",
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 127.5,
+            "y": 626.46875,
+            "width": 420,
+            "height": 92
+          },
+          "labelFits": true
+        },
+        {
+          "text": "ご相談窓口",
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 421.5,
+            "y": 4795.71875,
+            "width": 288,
+            "height": 64
+          },
+          "labelFits": true
+        }
+      ],
+      "status": "PASS"
+    },
     {
       "width": 1439,
       "height": 802,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 448,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
-      "sceneColumns": 4,
-      "galleryColumns": 4,
-      "scenesAligned": true,
-      "circles": [
+      "reference": {
+        "item": {
+          "width": "458.656px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "20px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "458.656px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "15px",
+          "lineHeight": "25.5px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 1424,
+      "sceneColumns": 3,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 277,
-          "height": 277,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "458.656px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 277,
-          "height": 277,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "280px",
+          "navy": "458.672px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 277,
-          "height": 277,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 277,
-          "height": 277,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "458.656px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 177.609375,
-          "y": 1967.578125,
-          "width": 627.71875,
-          "height": 392.3125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 934.65625,
-          "y": 1981.578125,
-          "width": 349.65625,
-          "height": 437.0625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 139.6875,
-          "y": 2928.234375,
-          "width": 349.640625,
-          "height": 262.21875
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 704.265625,
-          "y": 2864.234375,
-          "width": 627.734375,
-          "height": 418.484375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 92,
-          "y": 3833.9375,
-          "width": 292,
-          "height": 194.65625
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 92,
+            "y": 2613.953125,
+            "width": 82,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 92,
+            "y": 2041.296875,
+            "width": 818.65625,
+            "height": 511.65625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 408,
-          "y": 3833.9375,
-          "width": 292,
-          "height": 194.65625
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 982.34375,
+            "y": 2462.953125,
+            "width": 82,
+            "height": 311.40625
+          },
+          "photo": {
+            "x": 1045.921875,
+            "y": 2087.296875,
+            "width": 251.734375,
+            "height": 314.65625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 724,
-          "y": 3833.9375,
-          "width": 292,
-          "height": 194.65625
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 139.6875,
+            "y": 3361.84375,
+            "width": 82,
+            "height": 142.0625
+          },
+          "photo": {
+            "x": 195.640625,
+            "y": 3080.578125,
+            "width": 293.6875,
+            "height": 220.265625
+          },
+          "detail": {
+            "x": 92,
+            "y": 3531.90625,
+            "width": 556.25,
+            "height": 370.828125
+          },
+          "textFits": true
         },
         {
-          "x": 1040,
-          "y": 3833.9375,
-          "width": 292,
-          "height": 194.65625
-        },
-        {
-          "x": 92,
-          "y": 4087.78125,
-          "width": 292,
-          "height": 194.65625
-        },
-        {
-          "x": 408,
-          "y": 4087.78125,
-          "width": 292,
-          "height": 194.65625
-        },
-        {
-          "x": 724,
-          "y": 4087.78125,
-          "width": 292,
-          "height": 194.65625
-        },
-        {
-          "x": 1040,
-          "y": 4087.78125,
-          "width": 292,
-          "height": 194.65625
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 704.265625,
+            "y": 3496.0625,
+            "width": 82,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 704.265625,
+            "y": 3016.578125,
+            "width": 627.734375,
+            "height": 418.484375
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 139.921875,
+        "width": 1424,
+        "height": 662.0625
+      },
+      "coverPhoto": {
         "x": 356.796875,
         "y": 139.921875,
         "width": 1067.203125,
         "height": 646.0625
       },
-      "coverFontSize": 108.936,
-      "coverTextOverlap": 661.265625,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 139.921875,
-          "width": 1424,
-          "height": 662.0625
-        },
-        "photo": {
-          "x": 356.796875,
-          "y": 139.921875,
-          "width": 1067.203125,
-          "height": 646.0625
-        },
-        "title": {
-          "x": 72,
-          "y": 172,
-          "width": 640,
-          "height": 543.84375
-        },
-        "cta": {
-          "x": 88,
-          "y": 623.84375,
-          "width": 420,
-          "height": 92
-        },
-        "photoBackingBottom": 801.984375
+      "corner": "227.84px",
+      "backCorner": "227.84px",
+      "copyWidth": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 420,
-          "height": 92,
-          "background": "rgb(0, 91, 172)",
-          "radius": "45.568px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "23.9232px",
-          "weight": "700",
-          "lineHeight": "35.8848px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 88,
+            "y": 623.84375,
+            "width": 420,
+            "height": 92
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 288,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "16px",
-          "weight": "700",
-          "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 382,
+            "y": 4796.703125,
+            "width": 288,
+            "height": 64
+          },
+          "labelFits": true
         }
       ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 24,
-          "right": 0,
-          "top": 24,
-          "bottom": -16,
-          "photoWidthFraction": 1
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 24,
-          "top": -24,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799859812060543
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 34,
-          "right": 0,
-          "top": 30,
-          "bottom": -32,
-          "photoWidthFraction": 0.8799842705465986
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 24,
-          "top": -22,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799795509064454
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 28,
-          "top": 32,
-          "bottom": -32,
-          "photoWidthFraction": 0.8799886099794103
-        }
-      ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 288,
-        "height": 64,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "16px",
-        "weight": "700",
-        "lineHeight": "24px",
-        "color": "rgb(255, 255, 255)"
-      },
-      "footerCtaMatchesHome": true
+      "status": "PASS"
     },
     {
       "width": 1280,
       "height": 551,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 448,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
-      "sceneColumns": 4,
-      "galleryColumns": 4,
-      "scenesAligned": true,
-      "circles": [
+      "reference": {
+        "item": {
+          "width": "405.656px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "20px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "405.656px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "240px",
+          "padding": "0px",
+          "fontSize": "15px",
+          "lineHeight": "25.5px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 1265,
+      "sceneColumns": 3,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 263.25,
-          "height": 263.25,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "405.656px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 263.25,
-          "height": 263.25,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "280px",
+          "navy": "405.672px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 263.25,
-          "height": 263.25,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 263.25,
-          "height": 263.25,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "405.656px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 121.75,
-          "y": 1702.84375,
-          "width": 599.5,
-          "height": 374.6875
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 846,
-          "y": 1716.84375,
-          "width": 333.515625,
-          "height": 416.890625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 85.484375,
-          "y": 2643.328125,
-          "width": 333.515625,
-          "height": 250.125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 625.5,
-          "y": 2579.328125,
-          "width": 599.5,
-          "height": 399.65625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 40,
-          "y": 3554.1875,
-          "width": 278.25,
-          "height": 185.5
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 40,
+            "y": 2340.0625,
+            "width": 82,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 40,
+            "y": 1790.3125,
+            "width": 782,
+            "height": 488.75
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 342.25,
-          "y": 3554.1875,
-          "width": 278.25,
-          "height": 185.5
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 891.484375,
+            "y": 2197.46875,
+            "width": 82,
+            "height": 311.40625
+          },
+          "photo": {
+            "x": 952.125,
+            "y": 1836.3125,
+            "width": 240.125,
+            "height": 300.15625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 644.5,
-          "y": 3554.1875,
-          "width": 278.25,
-          "height": 185.5
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 85.484375,
+            "y": 3077.796875,
+            "width": 82,
+            "height": 142.0625
+          },
+          "photo": {
+            "x": 138.84375,
+            "y": 2806.6875,
+            "width": 280.15625,
+            "height": 210.109375
+          },
+          "detail": {
+            "x": 40,
+            "y": 3247.859375,
+            "width": 530.59375,
+            "height": 353.71875
+          },
+          "textFits": true
         },
         {
-          "x": 946.75,
-          "y": 3554.1875,
-          "width": 278.25,
-          "height": 185.5
-        },
-        {
-          "x": 40,
-          "y": 3798.875,
-          "width": 278.25,
-          "height": 185.5
-        },
-        {
-          "x": 342.25,
-          "y": 3798.875,
-          "width": 278.25,
-          "height": 185.5
-        },
-        {
-          "x": 644.5,
-          "y": 3798.875,
-          "width": 278.25,
-          "height": 185.5
-        },
-        {
-          "x": 946.75,
-          "y": 3798.875,
-          "width": 278.25,
-          "height": 185.5
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 625.5,
+            "y": 3203.34375,
+            "width": 82,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 625.5,
+            "y": 2742.6875,
+            "width": 599.5,
+            "height": 399.65625
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 120,
+        "width": 1265,
+        "height": 431
+      },
+      "coverPhoto": {
         "x": 293,
         "y": 120,
         "width": 972,
         "height": 415
       },
-      "coverFontSize": 80.9677,
-      "coverTextOverlap": 450.140625,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 120,
-          "width": 1265,
-          "height": 431
-        },
-        "photo": {
-          "x": 293,
-          "y": 120,
-          "width": 972,
-          "height": 415
-        },
-        "title": {
-          "x": 40,
-          "y": 142.03125,
-          "width": 592.5,
-          "height": 389.171875
-        },
-        "cta": {
-          "x": 56,
-          "y": 467.203125,
-          "width": 373.171875,
-          "height": 64
-        },
-        "photoBackingBottom": 551
+      "corner": "202.4px",
+      "backCorner": "202.4px",
+      "copyWidth": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 373.171875,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "40.48px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "21.252px",
-          "weight": "700",
-          "lineHeight": "31.878px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 56,
+            "y": 467.203125,
+            "width": 373.171875,
+            "height": 64
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 284.25,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "16px",
-          "weight": "700",
-          "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 302.5,
+            "y": 4477.234375,
+            "width": 284.25,
+            "height": 64
+          },
+          "labelFits": true
         }
       ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 24,
-          "right": 0,
-          "top": 24,
-          "bottom": -16,
-          "photoWidthFraction": 1
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 24,
-          "top": -24,
-          "bottom": 28,
-          "photoWidthFraction": 0.88
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 34,
-          "right": 0,
-          "top": 30,
-          "bottom": -32,
-          "photoWidthFraction": 0.87998845646438
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 24,
-          "top": -22,
-          "bottom": 28,
-          "photoWidthFraction": 0.87998845646438
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 28,
-          "top": 32,
-          "bottom": -32,
-          "photoWidthFraction": 0.88
-        }
-      ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 284.25,
-        "height": 64,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "16px",
-        "weight": "700",
-        "lineHeight": "24px",
-        "color": "rgb(255, 255, 255)"
-      },
-      "footerCtaMatchesHome": true
+      "status": "PASS"
     },
     {
       "width": 1024,
       "height": 768,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 448,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
-      "sceneColumns": 2,
-      "galleryColumns": 4,
-      "scenesAligned": true,
-      "circles": [
+      "reference": {
+        "item": {
+          "width": "320.328px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "320.328px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "15px",
+          "lineHeight": "22.5px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "14px",
+          "lineHeight": "23.8px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 1009,
+      "sceneColumns": 3,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "320.328px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "280px",
+          "navy": "320.328px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "320.344px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 97.15625,
-          "y": 2342.578125,
-          "width": 477.75,
-          "height": 298.59375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 675.328125,
-          "y": 2356.578125,
-          "width": 265.46875,
-          "height": 331.828125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 68.203125,
-          "y": 3250.796875,
-          "width": 265.453125,
-          "height": 199.078125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 499.234375,
-          "y": 3186.796875,
-          "width": 477.765625,
-          "height": 318.5
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 32,
-          "y": 4065.234375,
-          "width": 218.25,
-          "height": 145.5
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 32,
+            "y": 2457.875,
+            "width": 82,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 32,
+            "y": 2007.296875,
+            "width": 623.328125,
+            "height": 389.578125
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 274.25,
-          "y": 4065.234375,
-          "width": 218.25,
-          "height": 145.5
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 711.53125,
+            "y": 2353.203125,
+            "width": 82,
+            "height": 435.46875
+          },
+          "photo": {
+            "x": 759.796875,
+            "y": 2053.296875,
+            "width": 191.125,
+            "height": 238.90625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 516.5,
-          "y": 4065.234375,
-          "width": 218.25,
-          "height": 145.5
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 68.203125,
+            "y": 3209.890625,
+            "width": 82,
+            "height": 167.953125
+          },
+          "photo": {
+            "x": 110.6875,
+            "y": 2981.671875,
+            "width": 222.96875,
+            "height": 167.21875
+          },
+          "detail": {
+            "x": 32,
+            "y": 3405.84375,
+            "width": 422.3125,
+            "height": 281.53125
+          },
+          "textFits": true
         },
         {
-          "x": 758.75,
-          "y": 4065.234375,
-          "width": 218.25,
-          "height": 145.5
-        },
-        {
-          "x": 32,
-          "y": 4269.921875,
-          "width": 218.25,
-          "height": 145.5
-        },
-        {
-          "x": 274.25,
-          "y": 4269.921875,
-          "width": 218.25,
-          "height": 145.5
-        },
-        {
-          "x": 516.5,
-          "y": 4269.921875,
-          "width": 218.25,
-          "height": 145.5
-        },
-        {
-          "x": 758.75,
-          "y": 4269.921875,
-          "width": 218.25,
-          "height": 145.5
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 499.234375,
+            "y": 3297.171875,
+            "width": 82,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 499.234375,
+            "y": 2917.671875,
+            "width": 477.765625,
+            "height": 318.5
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 124.796875,
+        "width": 1009,
+        "height": 643.1875
+      },
+      "coverPhoto": {
         "x": 241.796875,
         "y": 124.796875,
         "width": 767.203125,
         "height": 627.1875
       },
-      "coverFontSize": 77.1885,
-      "coverTextOverlap": 460.515625,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 124.796875,
-          "width": 1009,
-          "height": 643.1875
-        },
-        "photo": {
-          "x": 241.796875,
-          "y": 124.796875,
-          "width": 767.203125,
-          "height": 627.1875
-        },
-        "title": {
-          "x": 32,
-          "y": 155.515625,
-          "width": 472.5,
-          "height": 440.875
-        },
-        "cta": {
-          "x": 48,
-          "y": 508.078125,
-          "width": 297.640625,
-          "height": 88.3125
-        },
-        "photoBackingBottom": 767.984375
+      "corner": "161.44px",
+      "backCorner": "161.44px",
+      "copyWidth": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 297.640625,
-          "height": 88.3125,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32.288px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "18px",
-          "weight": "700",
-          "lineHeight": "27px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 48,
+            "y": 508.078125,
+            "width": 297.640625,
+            "height": 88.3125
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 299,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "16px",
-          "weight": "700",
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 174.5,
+            "y": 4483.03125,
+            "width": 299,
+            "height": 64
+          },
+          "labelFits": true
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "width": 1023,
+      "height": 768,
+      "reference": {
+        "item": {
+          "width": "1008px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
-        }
-      ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 24,
-          "right": 0,
-          "top": 24,
-          "bottom": -16,
-          "photoWidthFraction": 1
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
         },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 24,
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "1008px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "14px",
+          "lineHeight": "23.8px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
           "top": -24,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799861854601969
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 1008,
+      "sceneColumns": 1,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
+        {
+          "circle": "280px",
+          "navy": "1008px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 34,
-          "right": 0,
-          "top": 30,
-          "bottom": -32,
-          "photoWidthFraction": 0.8799917128502616
+          "circle": "280px",
+          "navy": "1008px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 24,
-          "top": -22,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799854967367657
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 28,
-          "top": 32,
-          "bottom": -32,
-          "photoWidthFraction": 0.879989639393329
+          "circle": "280px",
+          "navy": "1008px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 299,
-        "height": 64,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "16px",
-        "weight": "700",
-        "lineHeight": "24px",
-        "color": "rgb(255, 255, 255)"
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        }
+      ],
+      "features": [
+        {
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 32,
+            "y": 3269.453125,
+            "width": 82,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 32,
+            "y": 2819.296875,
+            "width": 622.65625,
+            "height": 389.15625
+          },
+          "detail": null,
+          "textFits": true
+        },
+        {
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 710.828125,
+            "y": 3164.921875,
+            "width": 82,
+            "height": 435.46875
+          },
+          "photo": {
+            "x": 759.03125,
+            "y": 2865.296875,
+            "width": 190.90625,
+            "height": 238.625
+          },
+          "detail": null,
+          "textFits": true
+        },
+        {
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 68.171875,
+            "y": 4021.4375,
+            "width": 82,
+            "height": 167.953125
+          },
+          "photo": {
+            "x": 110.59375,
+            "y": 3793.390625,
+            "width": 222.734375,
+            "height": 167.046875
+          },
+          "detail": {
+            "x": 32,
+            "y": 4217.390625,
+            "width": 421.859375,
+            "height": 281.234375
+          },
+          "textFits": true
+        },
+        {
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 88,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 498.75,
+            "y": 4108.546875,
+            "width": 82,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 498.75,
+            "y": 3729.390625,
+            "width": 477.234375,
+            "height": 318.15625
+          },
+          "detail": null,
+          "textFits": true
+        }
+      ],
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 76.71875,
+        "width": 1008,
+        "height": 691.265625
       },
-      "footerCtaMatchesHome": true
+      "coverPhoto": {
+        "x": 241.59375,
+        "y": 76.71875,
+        "width": 766.40625,
+        "height": 675.265625
+      },
+      "corner": "161.28px",
+      "backCorner": "161.28px",
+      "copyWidth": [
+        308,
+        308,
+        308,
+        308,
+        308,
+        308
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
+      },
+      "cta": [
+        {
+          "text": "ご相談窓口",
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 48,
+            "y": 466.296875,
+            "width": 297.359375,
+            "height": 88.3125
+          },
+          "labelFits": true
+        },
+        {
+          "text": "ご相談窓口",
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 174,
+            "y": 5293.9375,
+            "width": 298.65625,
+            "height": 64
+          },
+          "labelFits": true
+        }
+      ],
+      "status": "PASS"
     },
     {
       "width": 768,
       "height": 800,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 448,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
-      "sceneColumns": 2,
-      "galleryColumns": 4,
-      "scenesAligned": true,
-      "circles": [
+      "reference": {
+        "item": {
+          "width": "753px",
+          "height": "382px",
+          "padding": "0px 8px 72px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "753px",
+          "height": "210px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "14px",
+          "lineHeight": "23.8px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 753,
+      "sceneColumns": 1,
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "753px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "280px",
+          "navy": "753px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "753px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 71.1875,
-          "y": 2486.59375,
-          "width": 287.3125,
-          "height": 179.5625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 394.5,
-          "y": 2464.59375,
-          "width": 287.3125,
-          "height": 359.140625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 71.1875,
-          "y": 3358.125,
-          "width": 287.3125,
-          "height": 215.484375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 433.6875,
-          "y": 3294.125,
-          "width": 287.3125,
-          "height": 191.53125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 32,
-          "y": 4195.53125,
-          "width": 157.25,
-          "height": 104.828125
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 32,
+            "y": 3217.171875,
+            "width": 60,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 32,
+            "y": 2952.109375,
+            "width": 326.5,
+            "height": 204.0625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 209.25,
-          "y": 4195.53125,
-          "width": 157.25,
-          "height": 104.828125
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 433.6875,
+            "y": 3281.671875,
+            "width": 82,
+            "height": 383.6875
+          },
+          "photo": {
+            "x": 485.921875,
+            "y": 2962.109375,
+            "width": 206.859375,
+            "height": 258.5625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 386.5,
-          "y": 4195.53125,
-          "width": 157.25,
-          "height": 104.828125
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 71.1875,
+            "y": 4100.34375,
+            "width": 82,
+            "height": 142.0625
+          },
+          "photo": {
+            "x": 117.171875,
+            "y": 3858.359375,
+            "width": 241.328125,
+            "height": 180.984375
+          },
+          "detail": {
+            "x": 32,
+            "y": 4270.40625,
+            "width": 326.5,
+            "height": 217.65625
+          },
+          "textFits": true
         },
         {
-          "x": 563.75,
-          "y": 4195.53125,
-          "width": 157.25,
-          "height": 104.828125
-        },
-        {
-          "x": 32,
-          "y": 4359.546875,
-          "width": 157.25,
-          "height": 104.828125
-        },
-        {
-          "x": 209.25,
-          "y": 4359.546875,
-          "width": 157.25,
-          "height": 104.828125
-        },
-        {
-          "x": 386.5,
-          "y": 4359.546875,
-          "width": 157.25,
-          "height": 104.828125
-        },
-        {
-          "x": 563.75,
-          "y": 4359.546875,
-          "width": 157.25,
-          "height": 104.828125
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 433.6875,
+            "y": 4046.890625,
+            "width": 60,
+            "height": 377.1875
+          },
+          "photo": {
+            "x": 433.6875,
+            "y": 3794.359375,
+            "width": 287.3125,
+            "height": 191.53125
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 660,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 72,
+        "width": 753,
+        "height": 728
+      },
+      "coverPhoto": {
         "x": 32,
         "y": 388.265625,
         "width": 689,
         "height": 347.734375
       },
-      "coverFontSize": 40.704,
-      "coverTextOverlap": 353.484375,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 72,
-          "width": 753,
-          "height": 728
-        },
-        "photo": {
-          "x": 32,
-          "y": 388.265625,
-          "width": 689,
-          "height": 347.734375
-        },
-        "title": {
-          "x": 32,
-          "y": 104,
-          "width": 689,
-          "height": 260.265625
-        },
-        "cta": {
-          "x": 32,
-          "y": 300.265625,
-          "width": 328.5,
-          "height": 64
-        },
-        "photoBackingBottom": 768
+      "corner": "120.48px",
+      "backCorner": "120.48px",
+      "copyWidth": [
+        252.5,
+        252.5,
+        252.5,
+        213.3125,
+        213.3125,
+        213.3125
+      ],
+      "spacing": {
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 328.5,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "16px",
-          "weight": "700",
-          "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 32,
+            "y": 300.265625,
+            "width": 328.5,
+            "height": 64
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 328.5,
-          "height": 64,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "16px",
-          "weight": "700",
-          "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 46.5,
+            "y": 5210.375,
+            "width": 328.5,
+            "height": 64
+          },
+          "labelFits": true
         }
       ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 16,
-          "right": -20,
-          "top": 28,
-          "bottom": -32,
-          "photoWidthFraction": 1
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 24,
-          "top": -24,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799770290964778
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 34,
-          "right": 0,
-          "top": 30,
-          "bottom": -32,
-          "photoWidthFraction": 0.8799770290964778
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 24,
-          "top": -22,
-          "bottom": 28,
-          "photoWidthFraction": 0.8799770290964778
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 28,
-          "top": 32,
-          "bottom": -32,
-          "photoWidthFraction": 0.8799770290964778
-        }
-      ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 328.5,
-        "height": 64,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "16px",
-        "weight": "700",
-        "lineHeight": "24px",
-        "color": "rgb(255, 255, 255)"
-      },
-      "footerCtaMatchesHome": true
+      "status": "PASS"
     },
     {
       "width": 414,
       "height": 688,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 359,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
+      "reference": {
+        "item": {
+          "width": "399px",
+          "height": "370px",
+          "padding": "0px 0px 60px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "280px",
+          "height": "280px",
+          "padding": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "399px",
+          "height": "162px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "248px",
+          "padding": "0px",
+          "fontSize": "14px",
+          "lineHeight": "23.8px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 399,
       "sceneColumns": 1,
-      "galleryColumns": 2,
-      "scenesAligned": true,
-      "circles": [
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "399px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "280px",
+          "navy": "399px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 280,
-          "height": 280,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "280px",
+          "navy": "399px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 63.09375,
-          "y": 3043.765625,
-          "width": 315.90625,
-          "height": 197.4375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 63.09375,
-          "y": 3582.59375,
-          "width": 277.984375,
-          "height": 222.375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 63.09375,
-          "y": 4251.359375,
-          "width": 315.90625,
-          "height": 236.921875
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 63.09375,
-          "y": 4984.265625,
-          "width": 315.90625,
-          "height": 210.59375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 20,
-          "y": 5683.640625,
-          "width": 171.5,
-          "height": 114.328125
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 20,
+            "y": 3014.546875,
+            "width": 60,
+            "height": 273.625
+          },
+          "photo": {
+            "x": 20,
+            "y": 2729.171875,
+            "width": 359,
+            "height": 224.375
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 207.5,
-          "y": 5683.640625,
-          "width": 171.5,
-          "height": 114.328125
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 63.078125,
+            "y": 3627.546875,
+            "width": 60,
+            "height": 337.296875
+          },
+          "photo": {
+            "x": 63.09375,
+            "y": 3344.171875,
+            "width": 277.984375,
+            "height": 222.375
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 20,
-          "y": 5857.15625,
-          "width": 171.5,
-          "height": 114.328125
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 63.09375,
+            "y": 4329.859375,
+            "width": 60,
+            "height": 142.0625
+          },
+          "photo": {
+            "x": 113.640625,
+            "y": 4069.84375,
+            "width": 265.359375,
+            "height": 199.015625
+          },
+          "detail": {
+            "x": 20,
+            "y": 4499.921875,
+            "width": 359,
+            "height": 239.328125
+          },
+          "textFits": true
         },
         {
-          "x": 207.5,
-          "y": 5857.15625,
-          "width": 171.5,
-          "height": 114.328125
-        },
-        {
-          "x": 20,
-          "y": 6030.671875,
-          "width": 171.5,
-          "height": 114.328125
-        },
-        {
-          "x": 207.5,
-          "y": 6030.671875,
-          "width": 171.5,
-          "height": 114.328125
-        },
-        {
-          "x": 20,
-          "y": 6204.1875,
-          "width": 171.5,
-          "height": 114.328125
-        },
-        {
-          "x": 207.5,
-          "y": 6204.1875,
-          "width": 171.5,
-          "height": 114.328125
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 63.09375,
+            "y": 5066.84375,
+            "width": 60,
+            "height": 299.515625
+          },
+          "photo": {
+            "x": 63.09375,
+            "y": 4795.25,
+            "width": 315.90625,
+            "height": 210.59375
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 359,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 96,
+        "width": 399,
+        "height": 592
+      },
+      "coverPhoto": {
         "x": 20,
         "y": 343.171875,
         "width": 359,
         "height": 308.828125
       },
-      "coverFontSize": 27.324,
-      "coverTextOverlap": 237.28125,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 96,
-          "width": 399,
-          "height": 592
-        },
-        "photo": {
-          "x": 20,
-          "y": 343.171875,
-          "width": 359,
-          "height": 308.828125
-        },
-        "title": {
-          "x": 20,
-          "y": 112,
-          "width": 359,
-          "height": 207.171875
-        },
-        "cta": {
-          "x": 20,
-          "y": 264.171875,
-          "width": 178,
-          "height": 55
-        },
-        "photoBackingBottom": 672
+      "corner": "72px",
+      "backCorner": "72px",
+      "copyWidth": [
+        285,
+        285,
+        285,
+        241.90625,
+        241.90625,
+        241.90625
+      ],
+      "spacing": {
+        "servicesTop": 48,
+        "servicesBottom": 48,
+        "galleryTop": 32,
+        "galleryBottom": 32
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 178,
-          "height": 55,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "13px",
-          "weight": "700",
-          "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 20,
+            "y": 264.171875,
+            "width": 178,
+            "height": 55
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 178,
-          "height": 55,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "13px",
-          "weight": "700",
-          "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 20,
+            "y": 6388.59375,
+            "width": 178,
+            "height": 55
+          },
+          "labelFits": true
         }
       ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 8,
-          "right": -8,
-          "top": 14,
-          "bottom": -20,
-          "photoWidthFraction": 1
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 16,
-          "top": -14,
-          "bottom": 20,
-          "photoWidthFraction": 0.8799616991643454
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 22,
-          "right": 0,
-          "top": 20,
-          "bottom": -22,
-          "photoWidthFraction": 0.8799584528637847
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 16,
-          "top": -14,
-          "bottom": 20,
-          "photoWidthFraction": 0.8799616991643454
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 20,
-          "top": 22,
-          "bottom": -22,
-          "photoWidthFraction": 0.8799616991643454
-        }
-      ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 178,
-        "height": 55,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "13px",
-        "weight": "700",
-        "lineHeight": "19.5px",
-        "color": "rgb(255, 255, 255)"
-      },
-      "footerCtaMatchesHome": true
+      "status": "PASS"
     },
     {
       "width": 320,
       "height": 568,
-      "sections": 5,
-      "scenes": 4,
-      "features": 4,
-      "spreads": 2,
-      "galleryPhotos": 8,
-      "uniqueImages": [
-        "aircon.png",
-        "balcony.png",
-        "basin.png",
-        "carpet.png",
-        "floor.png",
-        "glass.png",
-        "hallway.png",
-        "hood.png",
-        "kitchen.png",
-        "lighting.png",
-        "sanitizing.png",
-        "toilet.png"
-      ],
-      "br": 0,
-      "englishInContent": [],
-      "auxiliaryLabels": 0,
-      "horizontalOverflow": 0,
-      "header": 1,
-      "footer": 1,
-      "noindex": true,
-      "introMatches": true,
-      "introWidth": 265,
-      "statementMatches": true,
-      "featureCopyMatches": true,
-      "featureTitlesMatch": true,
-      "closingMatches": true,
-      "sceneLinkRemoved": true,
-      "arrowsRemoved": true,
+      "reference": {
+        "item": {
+          "width": "305px",
+          "height": "347px",
+          "padding": "0px 0px 60px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "circle": {
+          "width": "257px",
+          "height": "257px",
+          "padding": "16px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "borderRadius": "50%",
+          "boxShadow": "rgba(31, 114, 208, 0.2) 0px 8px 20px 0px"
+        },
+        "navy": {
+          "width": "305px",
+          "height": "162px",
+          "padding": "0px",
+          "fontSize": "16px",
+          "lineHeight": "24px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgb(38, 69, 116)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "heading": {
+          "width": "225px",
+          "padding": "0px",
+          "fontSize": "14px",
+          "lineHeight": "21px",
+          "fontWeight": "700",
+          "color": "rgb(0, 91, 172)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "paragraph": {
+          "width": "225px",
+          "padding": "0px",
+          "fontSize": "13px",
+          "lineHeight": "22.1px",
+          "fontWeight": "400",
+          "color": "rgb(33, 37, 41)",
+          "backgroundColor": "rgba(0, 0, 0, 0)",
+          "borderRadius": "0px",
+          "boxShadow": "none"
+        },
+        "point": {
+          "height": 48,
+          "top": -24,
+          "center": 0
+        },
+        "fits": true
+      },
+      "sceneWidth": 305,
       "sceneColumns": 1,
-      "galleryColumns": 2,
-      "scenesAligned": true,
-      "circles": [
+      "sharedSceneStylesMatch": true,
+      "allSceneContentFits": true,
+      "scenes": [
         {
-          "width": 265,
-          "height": 265,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "257px",
+          "navy": "305px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 265,
-          "height": 265,
-          "radius": "50%",
-          "textLength": 92
+          "circle": "257px",
+          "navy": "305px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         },
         {
-          "width": 265,
-          "height": 265,
-          "radius": "50%",
-          "textLength": 90
-        },
-        {
-          "width": 265,
-          "height": 265,
-          "radius": "50%",
-          "textLength": 91
+          "circle": "257px",
+          "navy": "305px",
+          "point": {
+            "height": 48,
+            "top": -24,
+            "center": 0
+          }
         }
       ],
-      "galleryUniform": true,
-      "imagesLoaded": true,
-      "mainPhotoDimensions": [
+      "cover": "店舗・オフィスを、快適に。",
+      "statement": [
+        "店舗やオフィスの",
+        "環境づくりをサポート"
+      ],
+      "sceneTitle": [
+        "日常では落とせない汚れから",
+        "定期清掃・衛生管理・引き渡しまで"
+      ],
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "displayTitle": "快適な空間へ",
+      "intro": [
+        "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+        "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。",
+        "設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+        "多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。"
+      ],
+      "textRules": [
         {
-          "x": 51.8125,
-          "y": 2992.765625,
-          "width": 233.1875,
-          "height": 145.734375
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         },
         {
-          "x": 51.8125,
-          "y": 3563.890625,
-          "width": 205.203125,
-          "height": 164.15625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 51.8125,
-          "y": 4352.828125,
-          "width": 233.1875,
-          "height": 174.890625
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
         },
         {
-          "x": 51.8125,
-          "y": 4996.5625,
-          "width": 233.1875,
-          "height": 155.453125
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": 14
+        },
+        {
+          "wrap": "pretty",
+          "lineBreak": "strict",
+          "wordBreak": "normal",
+          "lineHeight": 1.8499999999999999,
+          "paragraphGap": null
         }
       ],
-      "galleryPhotoDimensions": [
+      "features": [
         {
-          "x": 20,
-          "y": 5724.796875,
-          "width": 124.5,
-          "height": 83
+          "title": "エアコン清掃",
+          "paragraphs": [
+            "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。",
+            "機種や設置状況を確認し、内部まで丁寧に洗浄します。",
+            "定期的なお掃除で空気の通り道を整え、快適に使える状態を保ちます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 20,
+            "y": 2950.75,
+            "width": 60,
+            "height": 325.40625
+          },
+          "photo": {
+            "x": 20,
+            "y": 2724.125,
+            "width": 265,
+            "height": 165.625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 160.5,
-          "y": 5724.796875,
-          "width": 124.5,
-          "height": 83
+          "title": "床・カーペット",
+          "paragraphs": [
+            "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。",
+            "日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 51.796875,
+            "y": 3557.3125,
+            "width": 60,
+            "height": 513.140625
+          },
+          "photo": {
+            "x": 51.8125,
+            "y": 3332.15625,
+            "width": 205.203125,
+            "height": 164.15625
+          },
+          "detail": null,
+          "textFits": true
         },
         {
-          "x": 20,
-          "y": 5866.984375,
-          "width": 124.5,
-          "height": 83
+          "title": "除菌・抗菌",
+          "paragraphs": [
+            "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 51.8125,
+            "y": 4383.359375,
+            "width": 60,
+            "height": 167.953125
+          },
+          "photo": {
+            "x": 89.125,
+            "y": 4175.453125,
+            "width": 195.875,
+            "height": 146.90625
+          },
+          "detail": {
+            "x": 20,
+            "y": 4579.3125,
+            "width": 265,
+            "height": 176.65625
+          },
+          "textFits": true
         },
         {
-          "x": 160.5,
-          "y": 5866.984375,
-          "width": 124.5,
-          "height": 83
-        },
-        {
-          "x": 20,
-          "y": 6009.171875,
-          "width": 124.5,
-          "height": 83
-        },
-        {
-          "x": 160.5,
-          "y": 6009.171875,
-          "width": 124.5,
-          "height": 83
-        },
-        {
-          "x": 20,
-          "y": 6151.359375,
-          "width": 124.5,
-          "height": 83
-        },
-        {
-          "x": 160.5,
-          "y": 6151.359375,
-          "width": 124.5,
-          "height": 83
+          "title": "引き渡し清掃",
+          "paragraphs": [
+            "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。",
+            "床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。",
+            "ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+          ],
+          "number": 64,
+          "headingSize": 29,
+          "numberBox": {
+            "x": 51.8125,
+            "y": 5028.421875,
+            "width": 60,
+            "height": 475.359375
+          },
+          "photo": {
+            "x": 51.8125,
+            "y": 4811.96875,
+            "width": 233.1875,
+            "height": 155.453125
+          },
+          "detail": null,
+          "textFits": true
         }
       ],
-      "gallerySmallerThanMain": true,
-      "heroPhoto": {
+      "closing": [
+        "清掃箇所やご希望の時期について、お気軽にご相談ください。"
+      ],
+      "contactWidth": 265,
+      "overflow": 0,
+      "noindex": "noindex,nofollow",
+      "arrows": 0,
+      "english": false,
+      "coverFrame": {
+        "x": 0,
+        "y": 148,
+        "width": 305,
+        "height": 420
+      },
+      "coverPhoto": {
         "x": 20,
         "y": 391.578125,
         "width": 265,
         "height": 140.421875
       },
-      "coverFontSize": 26,
-      "coverTextOverlap": 225.8125,
-      "firstView": {
-        "frame": {
-          "x": 0,
-          "y": 148,
-          "width": 305,
-          "height": 420
-        },
-        "photo": {
-          "x": 20,
-          "y": 391.578125,
-          "width": 265,
-          "height": 140.421875
-        },
-        "title": {
-          "x": 20,
-          "y": 164,
-          "width": 265,
-          "height": 203.578125
-        },
-        "cta": {
-          "x": 20,
-          "y": 312.578125,
-          "width": 131,
-          "height": 55
-        },
-        "photoBackingBottom": 552
+      "corner": "72px",
+      "backCorner": "72px",
+      "copyWidth": [
+        191,
+        191,
+        191,
+        159.1875,
+        159.1875,
+        159.1875
+      ],
+      "spacing": {
+        "servicesTop": 48,
+        "servicesBottom": 48,
+        "galleryTop": 32,
+        "galleryBottom": 32
       },
-      "typography": {
-        "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "cover": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "statement": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "body": "\"Noto Sans JP\", sans-serif"
-      },
-      "headingFontsMatch": true,
-      "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 131,
-          "height": 55,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "13px",
-          "weight": "700",
-          "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 20,
+            "y": 312.578125,
+            "width": 131,
+            "height": 55
+          },
+          "labelFits": true
         },
         {
-          "href": "/contact/business/",
           "text": "ご相談窓口",
-          "width": 131,
-          "height": 55,
-          "background": "rgb(0, 91, 172)",
-          "radius": "32px",
-          "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "13px",
-          "weight": "700",
-          "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)",
-          "demo": true
+          "href": "/contact/business/",
+          "demo": true,
+          "box": {
+            "x": 20,
+            "y": 6400.703125,
+            "width": 131,
+            "height": 55
+          },
+          "labelFits": true
         }
       ],
-      "photoBacking": [
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 8,
-          "right": -8,
-          "top": 14,
-          "bottom": -20,
-          "photoWidthFraction": 1
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 16,
-          "top": -14,
-          "bottom": 20,
-          "photoWidthFraction": 0.8799528301886792
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 22,
-          "right": 0,
-          "top": 20,
-          "bottom": -22,
-          "photoWidthFraction": 0.879991959260252
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(229, 234, 234)",
-          "left": 0,
-          "right": 16,
-          "top": -14,
-          "bottom": 20,
-          "photoWidthFraction": 0.8799528301886792
-        },
-        {
-          "content": "\"\"",
-          "color": "rgb(238, 241, 241)",
-          "left": 0,
-          "right": 20,
-          "top": 22,
-          "bottom": -22,
-          "photoWidthFraction": 0.8799528301886792
-        }
-      ],
-      "textClipped": [],
-      "referenceCTA": {
-        "width": 131,
-        "height": 55,
-        "background": "rgb(0, 91, 172)",
-        "radius": "32px",
-        "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-        "size": "13px",
-        "weight": "700",
-        "lineHeight": "19.5px",
-        "color": "rgb(255, 255, 255)"
-      },
-      "footerCtaMatchesHome": true
+      "status": "PASS"
     }
   ],
   "interaction": {
@@ -1857,2709 +3281,126 @@
   },
   "pageErrors": [],
   "status": "PASS",
-  "coverRevision": {
-    "referenceCanvaDesign": "DAHXWmLLVkk",
-    "reference": "User-edited screenshot 021398f2-c59a-4af4-be6d-3bfa55a076a5",
-    "status": "PASS",
-    "records": [
-      {
-        "width": 1439,
-        "height": 802,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 108.936,
-        "coverTextOverlap": 661.265625,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 356.796875,
-          "y": 139.921875,
-          "width": 1067.203125,
-          "height": 646.0625
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 420,
-            "height": 92,
-            "background": "rgb(0, 91, 172)",
-            "radius": "45.568px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "23.9232px",
-            "weight": "700",
-            "lineHeight": "35.8848px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 288,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 139.921875,
-            "width": 1424,
-            "height": 662.0625
-          },
-          "photo": {
-            "x": 356.796875,
-            "y": 139.921875,
-            "width": 1067.203125,
-            "height": 646.0625
-          },
-          "title": {
-            "x": 72,
-            "y": 172,
-            "width": 640,
-            "height": 543.84375
-          },
-          "cta": {
-            "x": 88,
-            "y": 623.84375,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 801.984375
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
+  "largeScreenLimits": [
+    {
+      "width": 1518,
+      "height": 1622,
+      "frame": {
+        "x": 0,
+        "y": 140,
+        "width": 1503,
+        "height": 736
       },
-      {
-        "width": 1280,
-        "height": 551,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 80.9677,
-        "coverTextOverlap": 450.140625,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 293,
-          "y": 120,
-          "width": 972,
-          "height": 415
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 373.171875,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "40.48px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "21.252px",
-            "weight": "700",
-            "lineHeight": "31.878px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 284.25,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 120,
-            "width": 1265,
-            "height": 431
-          },
-          "photo": {
-            "x": 293,
-            "y": 120,
-            "width": 972,
-            "height": 415
-          },
-          "title": {
-            "x": 40,
-            "y": 142.03125,
-            "width": 592.5,
-            "height": 389.171875
-          },
-          "cta": {
-            "x": 56,
-            "y": 467.203125,
-            "width": 373.171875,
-            "height": 64
-          },
-          "photoBackingBottom": 551
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
+      "photo": {
+        "x": 411.5,
+        "y": 140,
+        "width": 1091.5,
+        "height": 720
       },
-      {
-        "width": 1024,
-        "height": 768,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 77.1885,
-        "coverTextOverlap": 460.515625,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 241.796875,
-          "y": 124.796875,
-          "width": 767.203125,
-          "height": 627.1875
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 297.640625,
-            "height": 88.3125,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32.288px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "18px",
-            "weight": "700",
-            "lineHeight": "27px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 299,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 124.796875,
-            "width": 1009,
-            "height": 643.1875
-          },
-          "photo": {
-            "x": 241.796875,
-            "y": 124.796875,
-            "width": 767.203125,
-            "height": 627.1875
-          },
-          "title": {
-            "x": 32,
-            "y": 155.515625,
-            "width": 472.5,
-            "height": 440.875
-          },
-          "cta": {
-            "x": 48,
-            "y": 508.078125,
-            "width": 297.640625,
-            "height": 88.3125
-          },
-          "photoBackingBottom": 767.984375
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      },
-      {
-        "width": 768,
-        "height": 800,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 40.704,
-        "coverTextOverlap": 353.484375,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 32,
-          "y": 388.265625,
-          "width": 689,
-          "height": 347.734375
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 328.5,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 328.5,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 72,
-            "width": 753,
-            "height": 728
-          },
-          "photo": {
-            "x": 32,
-            "y": 388.265625,
-            "width": 689,
-            "height": 347.734375
-          },
-          "title": {
-            "x": 32,
-            "y": 104,
-            "width": 689,
-            "height": 260.265625
-          },
-          "cta": {
-            "x": 32,
-            "y": 300.265625,
-            "width": 328.5,
-            "height": 64
-          },
-          "photoBackingBottom": 768
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      },
-      {
-        "width": 414,
-        "height": 688,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 27.324,
-        "coverTextOverlap": 237.28125,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 20,
-          "y": 343.171875,
-          "width": 359,
-          "height": 308.828125
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 178,
-            "height": 55,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "13px",
-            "weight": "700",
-            "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 178,
-            "height": 55,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "13px",
-            "weight": "700",
-            "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 96,
-            "width": 399,
-            "height": 592
-          },
-          "photo": {
-            "x": 20,
-            "y": 343.171875,
-            "width": 359,
-            "height": 308.828125
-          },
-          "title": {
-            "x": 20,
-            "y": 112,
-            "width": 359,
-            "height": 207.171875
-          },
-          "cta": {
-            "x": 20,
-            "y": 264.171875,
-            "width": 178,
-            "height": 55
-          },
-          "photoBackingBottom": 672
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      },
-      {
-        "width": 320,
-        "height": 568,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 26,
-        "coverTextOverlap": 225.8125,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 20,
-          "y": 391.578125,
-          "width": 265,
-          "height": 140.421875
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 131,
-            "height": 55,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "13px",
-            "weight": "700",
-            "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 131,
-            "height": 55,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "13px",
-            "weight": "700",
-            "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 148,
-            "width": 305,
-            "height": 420
-          },
-          "photo": {
-            "x": 20,
-            "y": 391.578125,
-            "width": 265,
-            "height": 140.421875
-          },
-          "title": {
-            "x": 20,
-            "y": 164,
-            "width": 265,
-            "height": 203.578125
-          },
-          "cta": {
-            "x": 20,
-            "y": 312.578125,
-            "width": 131,
-            "height": 55
-          },
-          "photoBackingBottom": 552
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      },
-      {
-        "width": 992,
-        "height": 500,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 74.7405,
-        "coverTextOverlap": 445.734375,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 235.390625,
-          "y": 74.390625,
-          "width": 741.609375,
-          "height": 409.59375
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 288.203125,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "31.264px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "18px",
-            "weight": "700",
-            "lineHeight": "27px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 288.328125,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 74.390625,
-            "width": 977,
-            "height": 425.59375
-          },
-          "photo": {
-            "x": 235.390625,
-            "y": 74.390625,
-            "width": 741.609375,
-            "height": 409.59375
-          },
-          "title": {
-            "x": 32,
-            "y": 94.390625,
-            "width": 456.5,
-            "height": 371.578125
-          },
-          "cta": {
-            "x": 48,
-            "y": 401.96875,
-            "width": 288.203125,
-            "height": 64
-          },
-          "photoBackingBottom": 499.984375
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      },
-      {
-        "width": 1920,
-        "height": 1080,
-        "coverText": "店舗・オフィスを、\n清潔に。",
-        "coverFontSize": 110,
-        "coverTextOverlap": 655.359375,
-        "horizontalOverflow": 0,
-        "heroPhoto": {
-          "x": 612.5,
-          "y": 140,
-          "width": 1165,
-          "height": 720
-        },
-        "cta": [
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 420,
-            "height": 92,
-            "background": "rgb(0, 91, 172)",
-            "radius": "46px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "24px",
-            "weight": "700",
-            "lineHeight": "36px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          },
-          {
-            "href": "/contact/business/",
-            "text": "ご相談窓口",
-            "width": 288,
-            "height": 64,
-            "background": "rgb(0, 91, 172)",
-            "radius": "32px",
-            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "16px",
-            "weight": "700",
-            "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)",
-            "demo": true
-          }
-        ],
-        "firstView": {
-          "frame": {
-            "x": 127.5,
-            "y": 140,
-            "width": 1650,
-            "height": 736
-          },
-          "photo": {
-            "x": 612.5,
-            "y": 140,
-            "width": 1165,
-            "height": 720
-          },
-          "title": {
-            "x": 312.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 328.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "ctaLabelFits": true,
-        "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
-      }
-    ],
-    "coverAndClosingCTAUnified": true
-  },
-  "ctaRefinement": {
-    "status": "PASS",
-    "records": [
-      {
-        "width": 1439,
-        "height": 802,
-        "cta": [
-          420,
-          92
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 1280,
-        "height": 551,
-        "cta": [
-          373.171875,
-          64
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 1024,
-        "height": 768,
-        "cta": [
-          297.640625,
-          88.3125
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 768,
-        "height": 800,
-        "cta": [
-          328.5,
-          64
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 414,
-        "height": 688,
-        "cta": [
-          178,
-          55
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 320,
-        "height": 568,
-        "cta": [
-          131,
-          55
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 992,
-        "height": 500,
-        "cta": [
-          288.203125,
-          64
-        ],
-        "labelFits": true
-      },
-      {
-        "width": 1920,
-        "height": 1080,
-        "cta": [
-          420,
-          92
-        ],
-        "labelFits": true
-      }
-    ],
-    "dimensionsPreserved": true
-  },
-  "layoutRefinement": {
-    "status": "PASS",
-    "copyUnchanged": true,
-    "photoWidthStopsGrowing": true,
-    "records": [
-      {
-        "width": 1439,
-        "height": 802,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 139.921875,
-            "width": 1424,
-            "height": 662.0625
-          },
-          "photo": {
-            "x": 356.796875,
-            "y": 139.921875,
-            "width": 1067.203125,
-            "height": 646.0625
-          },
-          "title": {
-            "x": 72,
-            "y": 172,
-            "width": 640,
-            "height": 543.84375
-          },
-          "cta": {
-            "x": 88,
-            "y": 623.84375,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 801.984375
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 108.936,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 257.609375,
-            "y": 2485.28125,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 994.65625,
-            "y": 2539.234375,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 199.6875,
-            "y": 3315.84375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 784.265625,
-            "y": 3408.109375,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 694.21875,
-          "y": 4410.625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 177.609375,
-            "y": 1967.578125,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 934.65625,
-            "y": 1981.578125,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 139.6875,
-            "y": 2928.234375,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 704.265625,
-            "y": 2864.234375,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 92,
-            "y": 3833.9375,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 408,
-            "y": 3833.9375,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 724,
-            "y": 3833.9375,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1040,
-            "y": 3833.9375,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 92,
-            "y": 4087.78125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 408,
-            "y": 4087.78125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 724,
-            "y": 4087.78125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1040,
-            "y": 4087.78125,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 1280,
-        "height": 551,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 120,
-            "width": 1265,
-            "height": 431
-          },
-          "photo": {
-            "x": 293,
-            "y": 120,
-            "width": 972,
-            "height": 415
-          },
-          "title": {
-            "x": 40,
-            "y": 142.03125,
-            "width": 592.5,
-            "height": 389.171875
-          },
-          "cta": {
-            "x": 56,
-            "y": 467.203125,
-            "width": 373.171875,
-            "height": 64
-          },
-          "photoBackingBottom": 551
-        },
-        "corner": "85.3875px",
-        "backCorner": "85.3875px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 80.9677,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 201.75,
-            "y": 2202.921875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 906,
-            "y": 2254.328125,
-            "width": 273.515625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 145.484375,
-            "y": 3018.84375,
-            "width": 273.515625,
-            "height": 84
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 705.5,
-            "y": 3104.375,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 614.71875,
-          "y": 4112.5625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 121.75,
-            "y": 1702.84375,
-            "width": 599.5,
-            "height": 374.6875
-          },
-          {
-            "x": 846,
-            "y": 1716.84375,
-            "width": 333.515625,
-            "height": 416.890625
-          },
-          {
-            "x": 85.484375,
-            "y": 2643.328125,
-            "width": 333.515625,
-            "height": 250.125
-          },
-          {
-            "x": 625.5,
-            "y": 2579.328125,
-            "width": 599.5,
-            "height": 399.65625
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 40,
-            "y": 3554.1875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 342.25,
-            "y": 3554.1875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 644.5,
-            "y": 3554.1875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 946.75,
-            "y": 3554.1875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 40,
-            "y": 3798.875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 342.25,
-            "y": 3798.875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 644.5,
-            "y": 3798.875,
-            "width": 278.25,
-            "height": 185.5
-          },
-          {
-            "x": 946.75,
-            "y": 3798.875,
-            "width": 278.25,
-            "height": 185.5
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 1024,
-        "height": 768,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 124.796875,
-            "width": 1009,
-            "height": 643.1875
-          },
-          "photo": {
-            "x": 241.796875,
-            "y": 124.796875,
-            "width": 767.203125,
-            "height": 627.1875
-          },
-          "title": {
-            "x": 32,
-            "y": 155.515625,
-            "width": 472.5,
-            "height": 440.875
-          },
-          "cta": {
-            "x": 48,
-            "y": 508.078125,
-            "width": 297.640625,
-            "height": 88.3125
-          },
-          "photoBackingBottom": 767.984375
-        },
-        "corner": "68.1075px",
-        "backCorner": "68.1075px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 77.1885,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 171.15625,
-            "y": 2766.5625,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 735.328125,
-            "y": 2805.796875,
-            "width": 205.46875,
-            "height": 252
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 128.203125,
-            "y": 3575.265625,
-            "width": 205.453125,
-            "height": 84
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 573.234375,
-            "y": 3630.6875,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 483.109375,
-          "y": 4543.609375,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 945,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 97.15625,
-            "y": 2342.578125,
-            "width": 477.75,
-            "height": 298.59375
-          },
-          {
-            "x": 675.328125,
-            "y": 2356.578125,
-            "width": 265.46875,
-            "height": 331.828125
-          },
-          {
-            "x": 68.203125,
-            "y": 3250.796875,
-            "width": 265.453125,
-            "height": 199.078125
-          },
-          {
-            "x": 499.234375,
-            "y": 3186.796875,
-            "width": 477.765625,
-            "height": 318.5
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 32,
-            "y": 4065.234375,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 274.25,
-            "y": 4065.234375,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 516.5,
-            "y": 4065.234375,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 758.75,
-            "y": 4065.234375,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 32,
-            "y": 4269.921875,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 274.25,
-            "y": 4269.921875,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 516.5,
-            "y": 4269.921875,
-            "width": 218.25,
-            "height": 145.5
-          },
-          {
-            "x": 758.75,
-            "y": 4269.921875,
-            "width": 218.25,
-            "height": 145.5
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 768,
-        "height": 800,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 72,
-            "width": 753,
-            "height": 728
-          },
-          "photo": {
-            "x": 32,
-            "y": 388.265625,
-            "width": 689,
-            "height": 347.734375
-          },
-          "title": {
-            "x": 32,
-            "y": 104,
-            "width": 689,
-            "height": 260.265625
-          },
-          "cta": {
-            "x": 32,
-            "y": 300.265625,
-            "width": 328.5,
-            "height": 64
-          },
-          "photoBackingBottom": 768
-        },
-        "corner": "50.8275px",
-        "backCorner": "50.8275px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 40.704,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 123.1875,
-            "y": 2783.546875,
-            "width": 235.3125,
-            "height": 196
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 454.5,
-            "y": 2941.125,
-            "width": 227.3125,
-            "height": 224
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 131.1875,
-            "y": 3691,
-            "width": 227.3125,
-            "height": 84
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 485.6875,
-            "y": 3603.046875,
-            "width": 235.3125,
-            "height": 224
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 32,
-          "y": 4662.953125,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 689,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 71.1875,
-            "y": 2486.59375,
-            "width": 287.3125,
-            "height": 179.5625
-          },
-          {
-            "x": 394.5,
-            "y": 2464.59375,
-            "width": 287.3125,
-            "height": 359.140625
-          },
-          {
-            "x": 71.1875,
-            "y": 3358.125,
-            "width": 287.3125,
-            "height": 215.484375
-          },
-          {
-            "x": 433.6875,
-            "y": 3294.125,
-            "width": 287.3125,
-            "height": 191.53125
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 32,
-            "y": 4195.53125,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 209.25,
-            "y": 4195.53125,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 386.5,
-            "y": 4195.53125,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 563.75,
-            "y": 4195.53125,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 32,
-            "y": 4359.546875,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 209.25,
-            "y": 4359.546875,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 386.5,
-            "y": 4359.546875,
-            "width": 157.25,
-            "height": 104.828125
-          },
-          {
-            "x": 563.75,
-            "y": 4359.546875,
-            "width": 157.25,
-            "height": 104.828125
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 414,
-        "height": 688,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 96,
-            "width": 399,
-            "height": 592
-          },
-          "photo": {
-            "x": 20,
-            "y": 343.171875,
-            "width": 359,
-            "height": 308.828125
-          },
-          "title": {
-            "x": 20,
-            "y": 112,
-            "width": 359,
-            "height": 207.171875
-          },
-          "cta": {
-            "x": 20,
-            "y": 264.171875,
-            "width": 178,
-            "height": 55
-          },
-          "photoBackingBottom": 672
-        },
-        "corner": "48px",
-        "backCorner": "48px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 27.324,
-        "servicesTop": 48,
-        "servicesBottom": 48,
-        "galleryTop": 32,
-        "galleryBottom": 32,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 115.09375,
-            "y": 3358.59375,
-            "width": 263.90625,
-            "height": 168
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 115.078125,
-            "y": 3922.359375,
-            "width": 226,
-            "height": 224
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 115.09375,
-            "y": 4605.671875,
-            "width": 263.90625,
-            "height": 84
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 115.09375,
-            "y": 5312.25,
-            "width": 263.90625,
-            "height": 224
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 20,
-          "y": 6478.703125,
-          "width": 359,
-          "height": 140
-        },
-        "contactWidth": 359,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 63.09375,
-            "y": 3043.765625,
-            "width": 315.90625,
-            "height": 197.4375
-          },
-          {
-            "x": 63.09375,
-            "y": 3582.59375,
-            "width": 277.984375,
-            "height": 222.375
-          },
-          {
-            "x": 63.09375,
-            "y": 4251.359375,
-            "width": 315.90625,
-            "height": 236.921875
-          },
-          {
-            "x": 63.09375,
-            "y": 4984.265625,
-            "width": 315.90625,
-            "height": 210.59375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 20,
-            "y": 5683.640625,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 207.5,
-            "y": 5683.640625,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 20,
-            "y": 5857.15625,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 207.5,
-            "y": 5857.15625,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 20,
-            "y": 6030.671875,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 207.5,
-            "y": 6030.671875,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 20,
-            "y": 6204.1875,
-            "width": 171.5,
-            "height": 114.328125
-          },
-          {
-            "x": 207.5,
-            "y": 6204.1875,
-            "width": 171.5,
-            "height": 114.328125
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 320,
-        "height": 568,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 148,
-            "width": 305,
-            "height": 420
-          },
-          "photo": {
-            "x": 20,
-            "y": 391.578125,
-            "width": 265,
-            "height": 140.421875
-          },
-          "title": {
-            "x": 20,
-            "y": 164,
-            "width": 265,
-            "height": 203.578125
-          },
-          "cta": {
-            "x": 20,
-            "y": 312.578125,
-            "width": 131,
-            "height": 55
-          },
-          "photoBackingBottom": 552
-        },
-        "corner": "48px",
-        "backCorner": "48px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 26,
-        "servicesTop": 48,
-        "servicesBottom": 48,
-        "galleryTop": 32,
-        "galleryBottom": 32,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 103.8125,
-            "y": 3255.890625,
-            "width": 181.1875,
-            "height": 252
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 103.796875,
-            "y": 3883.828125,
-            "width": 153.203125,
-            "height": 364
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 103.8125,
-            "y": 4645.109375,
-            "width": 181.1875,
-            "height": 112
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 103.8125,
-            "y": 5269.40625,
-            "width": 181.1875,
-            "height": 308
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 20,
-          "y": 6394.546875,
-          "width": 265,
-          "height": 196
-        },
-        "contactWidth": 265,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 51.8125,
-            "y": 2992.765625,
-            "width": 233.1875,
-            "height": 145.734375
-          },
-          {
-            "x": 51.8125,
-            "y": 3563.890625,
-            "width": 205.203125,
-            "height": 164.15625
-          },
-          {
-            "x": 51.8125,
-            "y": 4352.828125,
-            "width": 233.1875,
-            "height": 174.890625
-          },
-          {
-            "x": 51.8125,
-            "y": 4996.5625,
-            "width": 233.1875,
-            "height": 155.453125
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 20,
-            "y": 5724.796875,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 160.5,
-            "y": 5724.796875,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 20,
-            "y": 5866.984375,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 160.5,
-            "y": 5866.984375,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 20,
-            "y": 6009.171875,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 160.5,
-            "y": 6009.171875,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 20,
-            "y": 6151.359375,
-            "width": 124.5,
-            "height": 83
-          },
-          {
-            "x": 160.5,
-            "y": 6151.359375,
-            "width": 124.5,
-            "height": 83
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 992,
-        "height": 500,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 74.390625,
-            "width": 977,
-            "height": 425.59375
-          },
-          "photo": {
-            "x": 235.390625,
-            "y": 74.390625,
-            "width": 741.609375,
-            "height": 409.59375
-          },
-          "title": {
-            "x": 32,
-            "y": 94.390625,
-            "width": 456.5,
-            "height": 371.578125
-          },
-          "cta": {
-            "x": 48,
-            "y": 401.96875,
-            "width": 288.203125,
-            "height": 64
-          },
-          "photoBackingBottom": 499.984375
-        },
-        "corner": "65.9475px",
-        "backCorner": "65.9475px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 74.7405,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 168.921875,
-            "y": 2488.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 714,
-            "y": 2526.0625,
-            "width": 196.078125,
-            "height": 252
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 126.921875,
-            "y": 3288.5,
-            "width": 196.078125,
-            "height": 84
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 557.671875,
-            "y": 3340,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 468.875,
-          "y": 4239.90625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 913,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 94.921875,
-            "y": 2074.578125,
-            "width": 461.328125,
-            "height": 288.328125
-          },
-          {
-            "x": 654,
-            "y": 2088.578125,
-            "width": 256.078125,
-            "height": 320.09375
-          },
-          {
-            "x": 66.921875,
-            "y": 2971.0625,
-            "width": 256.078125,
-            "height": 192.046875
-          },
-          {
-            "x": 483.671875,
-            "y": 2907.0625,
-            "width": 461.328125,
-            "height": 307.546875
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 32,
-            "y": 3772.21875,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 266.25,
-            "y": 3772.21875,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 500.5,
-            "y": 3772.21875,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 734.75,
-            "y": 3772.21875,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 32,
-            "y": 3971.5625,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 266.25,
-            "y": 3971.5625,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 500.5,
-            "y": 3971.5625,
-            "width": 210.25,
-            "height": 140.15625
-          },
-          {
-            "x": 734.75,
-            "y": 3971.5625,
-            "width": 210.25,
-            "height": 140.15625
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 1920,
-        "height": 1080,
-        "firstView": {
-          "frame": {
-            "x": 127.5,
-            "y": 140,
-            "width": 1650,
-            "height": 736
-          },
-          "photo": {
-            "x": 612.5,
-            "y": 140,
-            "width": 1165,
-            "height": 720
-          },
-          "title": {
-            "x": 312.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 328.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 498.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1235.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 440.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 1024.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 934.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 418.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 1175.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 380.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 944.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 332.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 648.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 964.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1280.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 332.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 648.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 964.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1280.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 1518,
-        "height": 1622,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 140,
-            "width": 1503,
-            "height": 736
-          },
-          "photo": {
-            "x": 411.5,
-            "y": 140,
-            "width": 1091.5,
-            "height": 720
-          },
-          "title": {
-            "x": 111.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 127.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 297.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1034.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 239.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 823.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 733.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 217.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 974.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 179.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 743.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 131.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 447.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 763.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1079.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 131.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 447.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 763.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1079.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
-      },
-      {
-        "width": 1550,
-        "height": 1622,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 140,
-            "width": 1535,
-            "height": 736
-          },
-          "photo": {
-            "x": 427.5,
-            "y": 140,
-            "width": 1107.5,
-            "height": 720
-          },
-          "title": {
-            "x": 127.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 143.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 313.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1050.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 255.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 839.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 749.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 233.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 990.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 195.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 759.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 147.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 463.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 779.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1095.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 147.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 463.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 779.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1095.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
-      },
-      {
+      "corner": "240px",
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "headingWraps": [
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance"
+      ],
+      "bodyBreaks": 0,
+      "overflow": 0,
+      "status": "PASS"
+    },
+    {
+      "width": 1920,
+      "height": 1622,
+      "frame": {
+        "x": 127.5,
+        "y": 140,
         "width": 1650,
-        "height": 1622,
-        "firstView": {
-          "frame": {
-            "x": 0,
-            "y": 140,
-            "width": 1635,
-            "height": 736
-          },
-          "photo": {
-            "x": 477.5,
-            "y": 140,
-            "width": 1157.5,
-            "height": 720
-          },
-          "title": {
-            "x": 177.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 193.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 363.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1100.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 305.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 889.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 799.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 283.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 1040.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 245.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 809.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 197.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 513.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 829.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1145.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 197.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 513.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 829.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1145.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
+        "height": 736
       },
-      {
-        "width": 1920,
-        "height": 1622,
-        "firstView": {
-          "frame": {
-            "x": 127.5,
-            "y": 140,
-            "width": 1650,
-            "height": 736
-          },
-          "photo": {
-            "x": 612.5,
-            "y": 140,
-            "width": 1165,
-            "height": 720
-          },
-          "title": {
-            "x": 312.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 328.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 498.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1235.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 440.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 1024.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 934.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 418.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 1175.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 380.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 944.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 332.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 648.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 964.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1280.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 332.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 648.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 964.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1280.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
+      "photo": {
+        "x": 612.5,
+        "y": 140,
+        "width": 1165,
+        "height": 720
       },
-      {
-        "width": 2560,
-        "height": 1622,
-        "firstView": {
-          "frame": {
-            "x": 447.5,
-            "y": 140,
-            "width": 1650,
-            "height": 736
-          },
-          "photo": {
-            "x": 932.5,
-            "y": 140,
-            "width": 1165,
-            "height": 720
-          },
-          "title": {
-            "x": 632.5,
-            "y": 180,
-            "width": 640,
-            "height": 548.6875
-          },
-          "cta": {
-            "x": 648.5,
-            "y": 636.6875,
-            "width": 420,
-            "height": 92
-          },
-          "photoBackingBottom": 876
-        },
-        "corner": "96px",
-        "backCorner": "96px",
-        "clip": "none",
-        "objectFit": "cover",
-        "coverFontSize": 110,
-        "servicesTop": 64,
-        "servicesBottom": 64,
-        "galleryTop": 48,
-        "galleryBottom": 48,
-        "paragraphs": [
-          {
-            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-            "x": 818.109375,
-            "y": 2559.296875,
-            "width": 308,
-            "height": 140
-          },
-          {
-            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-            "x": 1555.15625,
-            "y": 2613.25,
-            "width": 289.65625,
-            "height": 196
-          },
-          {
-            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-            "x": 760.1875,
-            "y": 3389.859375,
-            "width": 289.640625,
-            "height": 56
-          },
-          {
-            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
-            "x": 1344.765625,
-            "y": 3482.125,
-            "width": 308,
-            "height": 168
-          }
-        ],
-        "closing": {
-          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-          "x": 1254.71875,
-          "y": 4484.640625,
-          "width": 392,
-          "height": 112
-        },
-        "contactWidth": 960,
-        "horizontalOverflow": 0,
-        "mainPhotoDimensions": [
-          {
-            "x": 738.109375,
-            "y": 2041.59375,
-            "width": 627.71875,
-            "height": 392.3125
-          },
-          {
-            "x": 1495.15625,
-            "y": 2055.59375,
-            "width": 349.65625,
-            "height": 437.0625
-          },
-          {
-            "x": 700.1875,
-            "y": 3002.25,
-            "width": 349.640625,
-            "height": 262.21875
-          },
-          {
-            "x": 1264.765625,
-            "y": 2938.25,
-            "width": 627.734375,
-            "height": 418.484375
-          }
-        ],
-        "galleryPhotoDimensions": [
-          {
-            "x": 652.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 968.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1284.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1600.5,
-            "y": 3907.953125,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 652.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 968.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1284.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          },
-          {
-            "x": 1600.5,
-            "y": 4161.796875,
-            "width": 292,
-            "height": 194.65625
-          }
-        ],
-        "textFits": true
-      }
-    ]
-  }
+      "corner": "240px",
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "headingWraps": [
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance"
+      ],
+      "bodyBreaks": 0,
+      "overflow": 0,
+      "status": "PASS"
+    },
+    {
+      "width": 2560,
+      "height": 1622,
+      "frame": {
+        "x": 447.5,
+        "y": 140,
+        "width": 1650,
+        "height": 736
+      },
+      "photo": {
+        "x": 932.5,
+        "y": 140,
+        "width": 1165,
+        "height": 720
+      },
+      "corner": "240px",
+      "pointLabels": [
+        "POINT 01",
+        "POINT 02",
+        "POINT 03"
+      ],
+      "headingWraps": [
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance",
+        "balance"
+      ],
+      "bodyBreaks": 0,
+      "overflow": 0,
+      "status": "PASS"
+    }
+  ]
 }
