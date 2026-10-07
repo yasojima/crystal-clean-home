@@ -1,0 +1,200 @@
+{
+  "schemaVersion": 1,
+  "receivedAt": "2026-10-07T12:20:08.6205884+09:00",
+  "timezone": "Asia/Tokyo",
+  "project": "Crystal Clean Home",
+  "workspace": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home",
+  "currentThreadId": "01a1145d-d0bc-7f91-a817-14226b818bb3",
+  "threadIdSource": "CODEX_THREAD_ID environment variable",
+  "sourceThreadId": "01a107ca-f4c9-7f61-8c8d-2faf049aee96",
+  "status": "handoff_received_waiting_for_next_user_instruction",
+  "message": "引き継ぎ受領、次の指示待ち",
+  "readFiles": [
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\AGENTS.md",
+      "readScope": "全文",
+      "sha256": "6bbe083dacf8237593ade97f5e80f745ffeaefcd5b8e529e20963a7995f3005d"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\SOURCE_AND_HISTORY_POLICY.md",
+      "readScope": "全文",
+      "sha256": "0dcce4024db9b25a6cccd2ea05c929a0029b1b00056cdc9eb4afd1a462cf48ed"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\HANDOFF_REQUIRED.md",
+      "readScope": "全文",
+      "sha256": "f526d29bbdbeb8d05db29ebe46d17337954cc9dca6dd99b4777222d1575994d3"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\Crystal-Clean-Home_要件定義書.md",
+      "readScope": "CHG-2026-10-07-014〜017、関連する維持条件・制作分担・現行実装公開範囲",
+      "sha256": "50ea5aff70b7e97779b7d6f7900fb694eecd3036bf2b4d72688c17bf973363d2"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\Crystal-Clean-Home_仕様書.md",
+      "readScope": "CHG-2026-10-07-014〜017、共通UI所有元、本文・フッター・カート関連仕様、最新公開状態と確認範囲",
+      "sha256": "96231fdfd5fe332daf1c6166bc9873cc0288f458b2ec4b53f4ae8534c3804b81"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\Crystal-Clean-Home_タスク確認表.md",
+      "readScope": "現行CHG・維持条件・未採用案・最新確認・最終公開確認と後続事項",
+      "sha256": "54c57a54f666b552a2ed3d91f14fa55df6be25ca40128ec61706d82a26cfd45e"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\変更履歴.md",
+      "readScope": "CHG-2026-10-07-014〜017、関連する制作分担・撤回履歴、最新公開検証記録",
+      "sha256": "e580db98be0cb6bf4eb77f1c0617ff3ce4ff4878240a411151d4cca0c6dd344a"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\Crystal-Clean-Home_見積もり導線仕様.md",
+      "readScope": "全文",
+      "sha256": "f8d4141442613bdf325105a8c1ef89f1e7f314ee7d249991b730e1cd8a3b40e1"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\prototypes\\home-wireframe\\README.md",
+      "readScope": "全文",
+      "sha256": "6f801900f0cfc59319e3236443f331c6b0bd88405850ab151dbe16b756a6e7b2"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\evidence\\2026-10-07\\first-view-fit\\verification-summary.json",
+      "readScope": "全文",
+      "sha256": "944a359ae0fe0473ecfffd8126742e536e231e8f6e4326fc332b6b4f5e915cb0"
+    },
+    {
+      "path": "C:\\Users\\yasoj\\codex Projects\\Crystal Clean Home\\evidence\\2026-10-07\\first-view-fit\\final-publication.json",
+      "readScope": "全文",
+      "sha256": "acf7c70dd113ca6795bc427093a73e97529fc60568cf7afe35df4a5fc9a217f7"
+    }
+  ],
+  "sourceGit": {
+    "head": "2534255eebd3ad442ac81dd3b9d36506ed79422d",
+    "expectedCompletionCommit": "2534255eebd3ad442ac81dd3b9d36506ed79422d",
+    "matchesExpectedCommit": true,
+    "branch": "codex/original-site-copy",
+    "upstream": "origin/codex/original-site-copy",
+    "aheadBehind": "0\t0",
+    "trackedChangesBefore": [],
+    "preexistingUntrackedEntries": 197,
+    "remoteFetchPerformed": false,
+    "note": "ローカルHEADと既存upstream追跡参照の一致を確認。push済みは引き継ぎ情報として受領し、リモート再取得は行っていない。既存未追跡evidenceを維持する。"
+  },
+  "publication": {
+    "pagesCommit": "de800205dd9f0d45e068119167f961849b551e57",
+    "actionsRun": 37565446402,
+    "actionsConclusion": "success",
+    "evidenceCheckedAt": "2026-10-07T12:11:15.099067+09:00",
+    "fileCount": 84,
+    "recordedHttp200AndSha256Matches": 84,
+    "recordedPassed": true,
+    "pagesCheckout": "C:\\Users\\yasoj\\AppData\\Local\\Temp\\cch-pages-deploy-20261003",
+    "pagesCheckoutHead": "de800205dd9f0d45e068119167f961849b551e57",
+    "checkoutMatchesRecordedPublication": true,
+    "livePublicSiteRecheckedDuringIntake": false,
+    "note": "最新の保存済み公開検証JSONを読んで受領。今回の公開HTTP再取得・Actions再照会・ブラウザー検証は行っていない。"
+  },
+  "recordedVerification": {
+    "pages": 61,
+    "manifestEntries": 743,
+    "siteFiles": 729,
+    "manifestMatches": true,
+    "sharedFragmentsMatch": true,
+    "tests": {
+      "shared_local": {
+        "path": "evidence/2026-10-07/first-view-fit/local.json",
+        "conditions": 158,
+        "passed": true,
+        "sha256": "ef7d6df4b2f5a26b4056c18a0c5dbf10ba5e237e28a4726468f0a608d172a58b"
+      },
+      "all_pages_local": {
+        "path": "evidence/2026-10-07/first-view-fit/content/local.json",
+        "conditions": 1071,
+        "passed": true,
+        "sha256": "ad7b503b2ee5aff3321735c44b9c224b3163e07d50163715c998dd547e94127e"
+      },
+      "footer_local": {
+        "path": "evidence/2026-10-07/first-view-fit/footer/matrix.json",
+        "conditions": 33,
+        "passed": true,
+        "sha256": "9d6f48e632e7c1c55ab16638eaa3ce73d1b8e9af80e4078cbafa320c068a085f"
+      },
+      "shared_public": {
+        "path": "evidence/2026-10-07/first-view-fit/public/public.json",
+        "conditions": 158,
+        "passed": true,
+        "sha256": "e7b994e5f5d4c5ffea8e7d2c577a40f375a84b39f491932d81d283ef70c187b3"
+      },
+      "footer_public": {
+        "path": "evidence/2026-10-07/first-view-fit/public-footer/matrix.json",
+        "conditions": 33,
+        "passed": true,
+        "sha256": "387aee9fdd0398cc44f24e04c1e44c6d317e982c1df414fc073786c3247498f0"
+      },
+      "office_local": {
+        "path": "evidence/2026-10-07/office-cleaning/local/report.json",
+        "conditions": 34,
+        "passed": true,
+        "sha256": "8352ec49d43b5cbcc9c87f7fd919488651d7fa042da5ac84e09c8bd99428f702"
+      },
+      "office_public": {
+        "path": "evidence/2026-10-07/office-cleaning/public/report.json",
+        "conditions": 34,
+        "passed": true,
+        "sha256": "38ece712982ce83373173cebbffd013ad1eb7de3d3cd370e4578625c6c3a16c2"
+      },
+      "lp_local": {
+        "path": "evidence/2026-10-07/lp-scope-restore/local.json",
+        "conditions": 9,
+        "passed": true,
+        "sha256": "653a6ee450d1a15472ae4cd4aab7f13a6d5c29da9407cbec25c48f167fce68d8"
+      },
+      "lp_public": {
+        "path": "evidence/2026-10-07/lp-scope-restore/public.json",
+        "conditions": 9,
+        "passed": true,
+        "sha256": "f49bcf372ba22c8bf4e8df918f041aa45e639993507235470fdc4a35c2bdd8ce"
+      }
+    },
+    "physicalDeviceAcceptance": false,
+    "evidenceCheckedAt": "2026-10-07T12:15:53.154385+09:00",
+    "interpretation": "過去の技術検証結果として受領。今回の再検証や実機iPhoneの受入完了を意味しない。"
+  },
+  "understoodPreservationConditions": [
+    "共通UIはsource/shared-uiの唯一の正本とtools/build_shared_ui.pyで全61ページへ生成する。ページごとの分岐・重複所有を追加しない。",
+    "共通カード・カテゴリ・見出しは共通CSS正本で管理し、採用済み構図、名称、全文、画像、遷移先を保持する。",
+    "beginner-lp.cssの追加縮小・文字・CTA・タブ・列数・余白調整は幅768px以上かつ高さ720px以下だけ。1439×799、1440×800、1920×1080など通常PCとスマホは縮小前を維持し、適用範囲を広げない。",
+    "冒頭の実高計算と末尾のフッター計算を独立させる。末尾の共通ヘッダー、電話案内、全項目、SNS、最下段の収まりと固定CTAの退避を保持する。",
+    "iOS背面フィルター修正、自然なスクロール・慣性を保持し、スクロール位置補正・body固定・URLバー制御を追加しない。",
+    "HOME本編の上部エアコン２台バナーと後半３テーマのNO IMAGE枠を維持する。tools/home_pickups.pyとhome-pickups.cssを正本とし、上部は既存エアコンページへ接続、割引は既存商品価格から生成する。",
+    "後半３漫画LPの台本・場面はユーザーがGPTで作成する。台本を受領するまで原稿・漫画・完成バナー・未確定リンクを推測して制作しない。",
+    "最新のお知らせ３案はローカル比較画面だけで未採用。却下された重複メニュー・簡易見積もり・追加フローを復活させない。",
+    "既存法人バナーと共通法人案内は/business/cleaning/へ接続済み。原稿正本content.json、新規人物なし実写調13写真、生成処理と既存バナーを維持する。相談CTAは送信しないデモ。",
+    "既存カート395商品・460選択肢、価格・数量割引・親子関係・税込計算・入力確認と送信しないデモを維持する。既存バナー・動画・漫画を保持する。",
+    "保存済みローカル検証・公開検証・人間の採用・実機iPhoneの受入・本番受付成功は別の判定とし、証拠なしに完了や完全一致を報告しない。",
+    "非表示で作業し、将来の検証ブラウザーは同時に１件、終了後に閉じる。ユーザー用127.0.0.1:8773のプレビューは残す。不要な再検証・画像生成・大量複製・Git履歴再取得を避ける。",
+    "ソースGitとPages Gitを区別する。古い未追跡evidenceを一括削除・一括Git登録しない。",
+    "レガシープロジェクトにPROJECT_MANIFEST.mdやEXCITE Route lockを新設せず、別案件の運用パッケージへ移さない。",
+    "今回の変更は受領JSONだけ。タスク確認表の受領チェックやHANDOFF_REQUIRED.mdも編集せず、本書は受領後の閉鎖扱いとして理解する。"
+  ],
+  "currentCanonInterpretation": "過去章の60ページ、通常PCへのLP縮小、ピックアップの複製限定という記述は当時の記録。現行はCHG014〜017と最新公開記録の61ページ・LP縮小限定・HOME本編実装を優先する。",
+  "followUpItems": [
+    "次のユーザー指示を待つ。",
+    "ユーザーのGPT台本受領後に３テーマの漫画LP・完成バナーを制作し、確定したリンクを接続する。",
+    "最新のお知らせ３案の採用判断、正式原稿・掲載日の確定。",
+    "実機iPhoneでの受入確認。",
+    "受付API・メール基盤と送信サービスの条件を確定後に本番受付を接続する。現在は未接続・送信無効。"
+  ],
+  "intakeActions": {
+    "additionalImplementation": false,
+    "republication": false,
+    "refactoring": false,
+    "deletion": false,
+    "browserLaunch": false,
+    "previewServerChanged": false,
+    "gitCommitOrStage": false,
+    "otherFilesChanged": false,
+    "changedFiles": [
+      "evidence/2026-10-07/handoff/intake.json"
+    ],
+    "waitingForNextUserInstruction": true
+  }
+}
