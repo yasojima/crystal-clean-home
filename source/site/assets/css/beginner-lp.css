@@ -5,9 +5,10 @@ body.c-beginner-lp > main {
 }
 
 body.c-beginner-lp #cch-first-lp .lp-canvas {
-  width: 100%;
-  max-width: none;
-  margin: 0;
+  width: min(100%, 880px);
+  max-width: 880px;
+  margin: 0 auto;
+  container-type: inline-size;
   box-shadow: none;
 }
 
@@ -62,4 +63,28 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   body.c-beginner-lp #cch-first-lp .lp-canvas > .cta-final { margin-top: var(--lp-section-space); }
   body.c-beginner-lp #cch-first-lp .cta-final .lp-cta-action { gap: 16px; }
   body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo { width: 168px; max-width: 100%; }
+}
+
+/* Keep the manga at a readable scale in short desktop and tablet windows. */
+@media (min-width: 768px) {
+  body.c-beginner-lp #cch-first-lp .lp-canvas {
+    width: min(calc(100% - 48px), clamp(560px, calc((100svh - var(--aircon-header-height)) * 1.5), 880px));
+  }
+  body.c-beginner-lp #cch-first-lp .lp-voices { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+  body.c-beginner-lp #cch-first-lp .lp-services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait { --lp-opening-button-height: 64px; }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-double-icon-button__inner { min-height: 56px; padding: 12px 18px; }
+  body.c-beginner-lp #cch-first-lp .lp-estimate-button .btn-free { font-size: clamp(18px, 3cqw, 24px); }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait .c-tab__button { font-size: 12px; line-height: 1.8; }
+  body.c-beginner-lp #cch-first-lp .lp-art-section,
+  body.c-beginner-lp #cch-first-lp #first-comic,
+  body.c-beginner-lp #cch-first-lp #cleaning-approach,
+  body.c-beginner-lp #cch-first-lp #first-work,
+  body.c-beginner-lp #cch-first-lp #infection-prevention,
+  body.c-beginner-lp #cch-first-lp #first-finish { padding-top: 40px; padding-bottom: 40px; }
+  body.c-beginner-lp #cch-first-lp #first-comic .lp-chapter-title { top: 40px; }
+  body.c-beginner-lp #cch-first-lp #first-voices,
+  body.c-beginner-lp #cch-first-lp #first-comparison,
+  body.c-beginner-lp #cch-first-lp #first-flow,
+  body.c-beginner-lp #cch-first-lp #first-faq { padding-top: 56px; padding-bottom: 56px; }
 }

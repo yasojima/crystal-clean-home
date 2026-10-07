@@ -18,25 +18,9 @@ BANNERS = [
         "link": "/house-cleaning/aircon/",
         "action": "まとめて頼む料金を見る",
     },
-    {
-        "key": "coating",
-        "label": "お掃除の、その先へ",
-        "title": ["日々の手入れを、", "もっとしやすく。"],
-        "description": "水まわりや床の表面を整える、コーティングのご案内。",
-        "image": "/assets/images/cleaning-illustrations/coating.png",
-        "link": "/house-cleaning/coating/",
-        "action": "コーティングを詳しく見る",
-    },
-    {
-        "key": "pack",
-        "label": "新生活の準備に",
-        "title": ["引越しの前後に、", "住まいを整える。"],
-        "description": "お荷物の搬出後・入居前に、住まいのお掃除をまとめて。",
-        "image": "/assets/images/cleaning-illustrations/pack.png",
-        "link": "/house-cleaning/pack/",
-        "action": "引越し前後のお掃除を見る",
-    },
 ]
+
+PICKUP_TOPICS = ["ハウスクリーニングが人気な理由", "エアコンクリーニングが人気な理由", "水まわりが人気な理由"]
 
 NEWS = [
     {"id": "hours", "date": "20XX.XX.XX", "category": "営業案内", "title": "営業日・受付時間のご案内", "summary": "営業日・受付時間についてお知らせします。", "body": "営業日・受付時間に関するお知らせの掲載例です。正式な日付と本文は、運用時に登録します。"},
@@ -45,22 +29,34 @@ NEWS = [
 ]
 
 SECTIONS = [
-    ("pickup", "特集枠", "暮らしに合わせたお掃除特集", [("A", "横長バナー・１訴求"), ("B", "手動スライド・３訴求"), ("C", "大小バナー・３訴求")]),
+    ("pickup", "上部バナー", "まとめて頼むお掃除", []),
     ("news", "追加セクション", "最新のお知らせ", [("A", "日付・見出しの一覧"), ("B", "注目１件＋ほか２件"), ("C", "３枚のカード")]),
 ]
 
 
 def section(key, number, title, variants):
-    curve = '<span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color:#e3f1fc;"></span>' if key == "news" else ""
-    extra = " c-curved-section c-curved-section--up" if key == "news" else ""
     note = '<p class="wf-news-draft">表示例・仮原稿（日付と内容は未確定）</p>' if key == "news" else ""
     label = "NEWS" if key == "news" else "PICK UP"
     buttons = "".join(f'<button type="button" data-wf-choice="{letter}" aria-pressed="{str(letter == "A").lower()}" aria-controls="wf-{key}-{letter}"><b>{letter}</b> {label}</button>' for letter, label in variants)
-    return f'''<section class="wf-section wf-section--{key}{extra}" id="wf-{key}" data-wf-section="{key}" aria-labelledby="wf-{key}-title">{curve}
+    review = f'<div class="wf-review wf-section-review"><span>{number}・形の比較</span><div class="wf-options" role="group" aria-label="{title}の３案">{buttons}</div></div>' if variants else ""
+    return f'''<section class="wf-section wf-section--{key}" id="wf-{key}" data-wf-section="{key}" aria-labelledby="wf-{key}-title">
 <div class="wf-container">
-<div class="wf-review wf-section-review"><span>{number}・形の比較</span><div class="wf-options" role="group" aria-label="{title}の３案">{buttons}</div></div>
+{review}
 <header class="wf-section-heading"><span>{label}</span><h2 id="wf-{key}-title">{title}</h2></header>{note}
 <div data-wf-panels="{key}"></div>
+</div></section>'''
+
+
+def lp_pickup():
+    cards = "".join(f'''<article class="wf-lp-slot">
+<div class="home-first-view__placeholder wf-lp-slot-image"><span class="home-first-view__label">NO IMAGE</span><p class="home-first-view__note">ここにバナーが入ります</p></div>
+<div class="wf-lp-slot-copy"><h3>{title}</h3><p>漫画LP制作予定</p></div>
+</article>''' for title in PICKUP_TOPICS)
+    return f'''<section class="wf-section wf-section--features c-curved-section c-curved-section--up" id="wf-features" aria-labelledby="wf-features-title">
+<span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color:#e3f1fc;"></span>
+<div class="wf-container"><header class="wf-section-heading"><span>PICK UP</span><h2 id="wf-features-title">ピックアップ</h2></header>
+<div class="wf-lp-slots">{cards}</div>
+<p class="wf-review wf-review-note wf-lp-review">台本が決まったら、３つの漫画LPとバナーを制作し、ここからつなぎます。</p>
 </div></section>'''
 
 
@@ -81,10 +77,10 @@ def build():
     page = page.replace("</head>", '<meta name="robots" content="noindex,nofollow">\n<link rel="stylesheet" href="/home-wireframe/wireframe.css">\n<script src="/home-wireframe/wireframe.js" defer></script>\n</head>', 1)
     page = page.replace('<body class="c-home">', '<body class="c-home wf-prototype wf-hide-floating">', 1)
     intro = '''<div class="wf-review wf-review-intro" id="wf-review-start"><div class="wf-container">
-<p class="wf-review-tag">HOME 複製・ワイヤーフレーム比較</p><h1>最新のお知らせ・３パターンの比較。</h1>
-<p>既存バナーを残し、お悩み・ご要望別と末尾の８項目の間に、お知らせの枠を追加しています。</p>
+<p class="wf-review-tag">HOME 複製・ワイヤーフレーム</p><h1>上部バナーと、後半のピックアップ３枠。</h1>
+<p>上部にはエアコン２台のバナー、後半には漫画LPにつなぐ３枠を配置しています。既存のバナーは保持しています。</p>
 <div class="wf-review-actions"><button type="button" data-wf-clean>比較表示を隠す</button><button type="button" data-wf-floating aria-pressed="false">固定見積もりを表示</button></div>
-<nav aria-label="比較画面の移動"><a href="#wf-news">お知らせの３案へ</a><a href="#wf-pickup">特集バナーの３案へ</a><a href="/">現在のホーム</a></nav>
+<nav aria-label="比較画面の移動"><a href="#wf-pickup">上部バナーへ</a><a href="#wf-features">ピックアップ３枠へ</a><a href="#wf-news">お知らせの３案へ</a><a href="/">現在のホーム</a></nav>
 <p class="wf-review-note">ローカルの検討用画面です。お知らせの原稿・掲載日は仮です。案の採用と公開は未決定です。固定見積もりは上のボタンで表示できます。</p>
 </div></div>'''
     selector = re.search(r'<section\b[^>]*id="home-cleaning-list"[^>]*>', page)
@@ -92,7 +88,7 @@ def build():
     page = page[:selector.start()] + intro + additions["pickup"] + "\n" + page[selector.start():]
     bottom = re.search(r'<section\b[^>]*class="[^"]*c-featured-cleaning[^>]*>', page)
     assert bottom
-    page = page[:bottom.start()] + additions["news"] + "\n" + page[bottom.start():]
+    page = page[:bottom.start()] + lp_pickup() + additions["news"] + "\n" + page[bottom.start():]
     encoded = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     page = page.replace("</body>", f'<script type="application/json" id="wf-data">{encoded}</script>\n<dialog class="wf-news-dialog" aria-labelledby="wf-news-dialog-title"><button type="button" class="wf-news-close" data-wf-news-close aria-label="お知らせを閉じる">×</button><div data-wf-news-detail></div></dialog>\n<button type="button" class="wf-review-return" data-wf-return hidden>比較表示を戻す</button>\n</body>', 1)
     preserved = {}
@@ -110,8 +106,8 @@ def build():
         assert match and match.group(0) in page, name
         preserved[name] = True
     (HERE / "index.html").write_text(page, encoding="utf-8", newline="\n")
-    (HERE / "build-info.json").write_text(json.dumps({"source": "source/site/index.html", "sourceSha256": sha256((SITE / "index.html").read_bytes()).hexdigest(), "sections": [row[0] for row in SECTIONS], "variantsPerSection": 3, "assetsCopied": 0, "preservedMarkup": preserved, "newLinksAndAssetsExist": True}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
-    print("Built HOME copy: existing banners preserved; three news layouts added before the bottom categories.")
+    (HERE / "build-info.json").write_text(json.dumps({"source": "source/site/index.html", "sourceSha256": sha256((SITE / "index.html").read_bytes()).hexdigest(), "sections": ["pickup", "features", "news"], "newsVariants": 3, "lpSlots": PICKUP_TOPICS, "lpDestinations": "pending scripts and LP production", "assetsCopied": 0, "preservedMarkup": preserved, "newLinksAndAssetsExist": True}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    print("Built HOME copy: upper aircon banner and three later manga-LP placeholders; existing sections preserved.")
 
 
 if __name__ == "__main__":

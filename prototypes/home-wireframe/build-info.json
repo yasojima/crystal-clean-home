@@ -1,11 +1,18 @@
 {
   "source": "source/site/index.html",
-  "sourceSha256": "f3b99c824f1b7ed1bb28711148adff4510eebab1f01d3d2a829dc71e9f408dae",
+  "sourceSha256": "461706e119e5feb91a7e6c819651edd2c64b1bad60419365d3f11257ffb7c658",
   "sections": [
     "pickup",
+    "features",
     "news"
   ],
-  "variantsPerSection": 3,
+  "newsVariants": 3,
+  "lpSlots": [
+    "ハウスクリーニングが人気な理由",
+    "エアコンクリーニングが人気な理由",
+    "水まわりが人気な理由"
+  ],
+  "lpDestinations": "pending scripts and LP production",
   "assetsCopied": 0,
   "preservedMarkup": {
     "sharedHeader": true,

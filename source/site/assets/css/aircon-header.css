@@ -1119,3 +1119,8 @@ body.aircon-menu-open .c-header__navigation {
 @media (prefers-reduced-motion: reduce) {
   .c-header-contact__cta:hover::before { animation: none; }
 }
+
+@media (min-width: 1024px) and (max-height: 720px) {
+  html { --aircon-header-base-height: 76px; --aircon-header-height: 120px; }
+  .c-header__navigation { top: 80px; }
+}

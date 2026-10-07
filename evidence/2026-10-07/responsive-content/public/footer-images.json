@@ -1,0 +1,52 @@
+{
+  "origin": "https://yasojima.github.io",
+  "records": [
+    {
+      "route": "/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "socialIcons": 5,
+      "footer": {
+        "overlap": 0,
+        "end": -0.28125,
+        "floatingHidden": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "socialIcons": 5,
+      "footer": {
+        "overlap": 0,
+        "end": -0.296875,
+        "floatingHidden": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "socialIcons": 5,
+      "footer": {
+        "overlap": 0,
+        "end": -0.1875,
+        "floatingHidden": true
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

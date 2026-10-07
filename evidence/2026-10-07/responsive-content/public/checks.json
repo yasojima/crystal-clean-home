@@ -1,0 +1,259 @@
+{
+  "origin": "https://yasojima.github.io",
+  "records": [
+    {
+      "route": "/beginner/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "comparisonAndEstimate": true,
+      "passed": true
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "cards": [
+        {
+          "y": 504.78125,
+          "height": 174,
+          "href": "#anchor01"
+        },
+        {
+          "y": 504.78125,
+          "height": 174,
+          "href": "#anchor02"
+        },
+        {
+          "y": 504.78125,
+          "height": 174,
+          "href": "#anchor06"
+        },
+        {
+          "y": 504.78125,
+          "height": 174,
+          "href": "#anchor03"
+        },
+        {
+          "y": 694.78125,
+          "height": 174,
+          "href": "#anchor04"
+        },
+        {
+          "y": 694.78125,
+          "height": 174,
+          "href": "#anchor05"
+        }
+      ],
+      "columns": 4,
+      "passed": true
+    },
+    {
+      "route": "/quick_cart/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "passed": true
+    },
+    {
+      "route": "/cart/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 1280,
+      "height": 551,
+      "isMobile": false,
+      "overflow": -15,
+      "headerHeight": 120,
+      "footer": {
+        "overlap": 0,
+        "end": -0.28125,
+        "floatingHidden": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/beginner/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "comparisonAndEstimate": true,
+      "passed": true
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "cards": [
+        {
+          "y": 437.015625,
+          "height": 201.234375,
+          "href": "#anchor01"
+        },
+        {
+          "y": 437.015625,
+          "height": 201.234375,
+          "href": "#anchor02"
+        },
+        {
+          "y": 650.25,
+          "height": 201.234375,
+          "href": "#anchor06"
+        },
+        {
+          "y": 650.25,
+          "height": 201.234375,
+          "href": "#anchor03"
+        },
+        {
+          "y": 863.484375,
+          "height": 201.234375,
+          "href": "#anchor04"
+        },
+        {
+          "y": 863.484375,
+          "height": 201.234375,
+          "href": "#anchor05"
+        }
+      ],
+      "columns": 2,
+      "passed": true
+    },
+    {
+      "route": "/quick_cart/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "passed": true
+    },
+    {
+      "route": "/cart/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 414,
+      "height": 688,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 96,
+      "footer": {
+        "overlap": 0,
+        "end": -0.296875,
+        "floatingHidden": true
+      },
+      "passed": true
+    },
+    {
+      "route": "/beginner/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "comparisonAndEstimate": true,
+      "passed": true
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "cards": [
+        {
+          "y": 451.46875,
+          "height": 198.5,
+          "href": "#anchor01"
+        },
+        {
+          "y": 451.46875,
+          "height": 198.5,
+          "href": "#anchor02"
+        },
+        {
+          "y": 661.96875,
+          "height": 215,
+          "href": "#anchor06"
+        },
+        {
+          "y": 661.96875,
+          "height": 215,
+          "href": "#anchor03"
+        },
+        {
+          "y": 888.96875,
+          "height": 198.5,
+          "href": "#anchor04"
+        },
+        {
+          "y": 888.96875,
+          "height": 198.5,
+          "href": "#anchor05"
+        }
+      ],
+      "columns": 2,
+      "passed": true
+    },
+    {
+      "route": "/quick_cart/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "passed": true
+    },
+    {
+      "route": "/cart/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "passed": true
+    },
+    {
+      "route": "/",
+      "width": 320,
+      "height": 568,
+      "isMobile": true,
+      "overflow": 0,
+      "headerHeight": 148,
+      "footer": {
+        "overlap": 0,
+        "end": -0.1875,
+        "floatingHidden": true
+      },
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

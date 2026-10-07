@@ -720,3 +720,10 @@
     height: 8px;
   }
 }
+
+@media (min-width: 768px) and (max-height: 720px) {
+  :is(.c-service-page, .c-home) .c-service-selector { --selector-space: 30px; }
+  .c-service-page .p-page-anchors__cards,
+  .c-featured-cleaning__heading + .c-house-cleaning-links { margin-top: 24px; }
+  .c-featured-cleaning { padding-block: 36px; }
+}
