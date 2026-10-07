@@ -1,4 +1,6 @@
 {
+  "copySource": "source/office-cleaning/content.json",
+  "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
   "records": [
     {
       "width": 1439,
@@ -6,24 +8,179 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
-      "labels": 12,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
       "br": 0,
-      "overflow": -15,
+      "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
-      "intro": "クリスタルクリーンホームでは、店舗やオフィスの利用状況に合わせて日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、清潔な環境づくりをお手伝いします。",
-      "copy": [
-        "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-        "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-        "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-        "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 152,
+          "y": 1338.25,
+          "width": 670,
+          "height": 446.65625
+        },
+        {
+          "x": 342.65625,
+          "y": 1880.90625,
+          "width": 929.34375,
+          "height": 522.75
+        },
+        {
+          "x": 656,
+          "y": 2616.65625,
+          "width": 616,
+          "height": 462
+        },
+        {
+          "x": 152,
+          "y": 3174.65625,
+          "width": 929.328125,
+          "height": 464.65625
+        }
       ],
-      "closing": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-      "images": true,
+      "galleryPhotoDimensions": [
+        {
+          "x": 152,
+          "y": 4139.4375,
+          "width": 262,
+          "height": 218.328125
+        },
+        {
+          "x": 438,
+          "y": 4119.546875,
+          "width": 357.328125,
+          "height": 238.21875
+        },
+        {
+          "x": 819.328125,
+          "y": 4224.4375,
+          "width": 166.671875,
+          "height": 133.328125
+        },
+        {
+          "x": 1010,
+          "y": 4183.109375,
+          "width": 262,
+          "height": 174.65625
+        },
+        {
+          "x": 152,
+          "y": 4443.578125,
+          "width": 166.65625,
+          "height": 208.3125
+        },
+        {
+          "x": 342.65625,
+          "y": 4428.5625,
+          "width": 357.34375,
+          "height": 223.328125
+        },
+        {
+          "x": 724,
+          "y": 4477.234375,
+          "width": 262,
+          "height": 174.65625
+        },
+        {
+          "x": 1010,
+          "y": 4442.296875,
+          "width": 262,
+          "height": 209.59375
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 646.65625,
+        "y": 203.921875,
+        "width": 689.34375,
+        "height": 459.5625
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
       "productCards": 0,
-      "sceneColumns": 4,
-      "cta": "/contact/business/"
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 2
     },
     {
       "width": 1280,
@@ -31,24 +188,359 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
-      "labels": 12,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
       "br": 0,
-      "overflow": -15,
+      "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
-      "intro": "クリスタルクリーンホームでは、店舗やオフィスの利用状況に合わせて日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、清潔な環境づくりをお手伝いします。",
-      "copy": [
-        "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-        "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-        "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-        "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 72.5,
+          "y": 1302.328125,
+          "width": 670,
+          "height": 446.65625
+        },
+        {
+          "x": 263.15625,
+          "y": 1844.984375,
+          "width": 929.34375,
+          "height": 522.75
+        },
+        {
+          "x": 576.5,
+          "y": 2580.734375,
+          "width": 616,
+          "height": 462
+        },
+        {
+          "x": 72.5,
+          "y": 3138.734375,
+          "width": 929.328125,
+          "height": 464.65625
+        }
       ],
-      "closing": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-      "images": true,
+      "galleryPhotoDimensions": [
+        {
+          "x": 72.5,
+          "y": 4103.515625,
+          "width": 262,
+          "height": 218.328125
+        },
+        {
+          "x": 358.5,
+          "y": 4083.625,
+          "width": 357.328125,
+          "height": 238.21875
+        },
+        {
+          "x": 739.828125,
+          "y": 4188.515625,
+          "width": 166.671875,
+          "height": 133.328125
+        },
+        {
+          "x": 930.5,
+          "y": 4147.1875,
+          "width": 262,
+          "height": 174.65625
+        },
+        {
+          "x": 72.5,
+          "y": 4407.65625,
+          "width": 166.65625,
+          "height": 208.3125
+        },
+        {
+          "x": 263.15625,
+          "y": 4392.640625,
+          "width": 357.34375,
+          "height": 223.328125
+        },
+        {
+          "x": 644.5,
+          "y": 4441.3125,
+          "width": 262,
+          "height": 174.65625
+        },
+        {
+          "x": 930.5,
+          "y": 4406.375,
+          "width": 262,
+          "height": 209.59375
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 567.15625,
+        "y": 184,
+        "width": 665.34375,
+        "height": 443.5625
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
       "productCards": 0,
-      "sceneColumns": 4,
-      "cta": "/contact/business/"
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 2
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "sections": 5,
+      "scenes": 4,
+      "features": 4,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
+      "br": 0,
+      "horizontalOverflow": 0,
+      "header": 1,
+      "footer": 1,
+      "noindex": true,
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 24,
+          "y": 1420.84375,
+          "width": 570.625,
+          "height": 380.40625
+        },
+        {
+          "x": 188.15625,
+          "y": 1897.25,
+          "width": 796.828125,
+          "height": 448.203125
+        },
+        {
+          "x": 461.75,
+          "y": 2558.453125,
+          "width": 523.25,
+          "height": 392.4375
+        },
+        {
+          "x": 24,
+          "y": 3046.890625,
+          "width": 796.828125,
+          "height": 398.40625
+        }
+      ],
+      "galleryPhotoDimensions": [
+        {
+          "x": 24,
+          "y": 3943.234375,
+          "width": 222.234375,
+          "height": 185.1875
+        },
+        {
+          "x": 270.234375,
+          "y": 3925.53125,
+          "width": 304.34375,
+          "height": 202.890625
+        },
+        {
+          "x": 598.578125,
+          "y": 4016.296875,
+          "width": 140.171875,
+          "height": 112.125
+        },
+        {
+          "x": 762.75,
+          "y": 3980.265625,
+          "width": 222.25,
+          "height": 148.15625
+        },
+        {
+          "x": 24,
+          "y": 4214.234375,
+          "width": 140.15625,
+          "height": 175.1875
+        },
+        {
+          "x": 188.15625,
+          "y": 4199.21875,
+          "width": 304.34375,
+          "height": 190.203125
+        },
+        {
+          "x": 516.5,
+          "y": 4241.265625,
+          "width": 222.25,
+          "height": 148.15625
+        },
+        {
+          "x": 762.75,
+          "y": 4211.625,
+          "width": 222.25,
+          "height": 177.796875
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 452.40625,
+        "y": 289.90625,
+        "width": 532.59375,
+        "height": 355.0625
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
+      "productCards": 0,
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 2
     },
     {
       "width": 768,
@@ -56,24 +548,179 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
-      "labels": 12,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
       "br": 0,
-      "overflow": -15,
+      "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
-      "intro": "クリスタルクリーンホームでは、店舗やオフィスの利用状況に合わせて日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、清潔な環境づくりをお手伝いします。",
-      "copy": [
-        "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-        "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-        "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-        "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 24,
+          "y": 1730.21875,
+          "width": 423.125,
+          "height": 282.078125
+        },
+        {
+          "x": 145.5,
+          "y": 2123.0625,
+          "width": 583.5,
+          "height": 328.21875
+        },
+        {
+          "x": 336.40625,
+          "y": 2754.46875,
+          "width": 392.578125,
+          "height": 294.421875
+        },
+        {
+          "x": 24,
+          "y": 3176.578125,
+          "width": 583.5,
+          "height": 291.75
+        }
       ],
-      "closing": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-      "images": true,
+      "galleryPhotoDimensions": [
+        {
+          "x": 24,
+          "y": 4050.6875,
+          "width": 221.65625,
+          "height": 184.703125
+        },
+        {
+          "x": 265.65625,
+          "y": 4007.0625,
+          "width": 342.5,
+          "height": 228.328125
+        },
+        {
+          "x": 628.15625,
+          "y": 4154.71875,
+          "width": 100.84375,
+          "height": 80.671875
+        },
+        {
+          "x": 24,
+          "y": 4360.484375,
+          "width": 221.65625,
+          "height": 147.765625
+        },
+        {
+          "x": 265.65625,
+          "y": 4382.203125,
+          "width": 100.84375,
+          "height": 126.046875
+        },
+        {
+          "x": 386.5,
+          "y": 4294.1875,
+          "width": 342.5,
+          "height": 214.0625
+        },
+        {
+          "x": 24,
+          "y": 4612.71875,
+          "width": 342.5,
+          "height": 228.328125
+        },
+        {
+          "x": 386.5,
+          "y": 4567.046875,
+          "width": 342.5,
+          "height": 274
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 24,
+        "y": 272.640625,
+        "width": 705,
+        "height": 396.5625
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
       "productCards": 0,
-      "sceneColumns": 2,
-      "cta": "/contact/business/"
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 2
     },
     {
       "width": 414,
@@ -81,24 +728,179 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
-      "labels": 12,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
       "br": 0,
-      "overflow": -15,
+      "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
-      "intro": "クリスタルクリーンホームでは、店舗やオフィスの利用状況に合わせて日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、清潔な環境づくりをお手伝いします。",
-      "copy": [
-        "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-        "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-        "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-        "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 16,
+          "y": 1783.015625,
+          "width": 367,
+          "height": 244.65625
+        },
+        {
+          "x": 16,
+          "y": 2309.75,
+          "width": 367,
+          "height": 206.4375
+        },
+        {
+          "x": 16,
+          "y": 2825.5625,
+          "width": 367,
+          "height": 244.65625
+        },
+        {
+          "x": 16,
+          "y": 3499.28125,
+          "width": 367,
+          "height": 244.65625
+        }
       ],
-      "closing": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-      "images": true,
+      "galleryPhotoDimensions": [
+        {
+          "x": 16,
+          "y": 4222.796875,
+          "width": 175.5,
+          "height": 146.25
+        },
+        {
+          "x": 16,
+          "y": 4427.84375,
+          "width": 367,
+          "height": 159.5625
+        },
+        {
+          "x": 16,
+          "y": 4646.203125,
+          "width": 175.5,
+          "height": 140.390625
+        },
+        {
+          "x": 207.5,
+          "y": 4669.59375,
+          "width": 175.5,
+          "height": 117
+        },
+        {
+          "x": 16,
+          "y": 4845.390625,
+          "width": 175.5,
+          "height": 219.375
+        },
+        {
+          "x": 16,
+          "y": 5123.5625,
+          "width": 367,
+          "height": 159.5625
+        },
+        {
+          "x": 16,
+          "y": 5365.3125,
+          "width": 175.5,
+          "height": 117
+        },
+        {
+          "x": 207.5,
+          "y": 5341.921875,
+          "width": 175.5,
+          "height": 140.390625
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 16,
+        "y": 235.84375,
+        "width": 367,
+        "height": 244.65625
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
       "productCards": 0,
-      "sceneColumns": 1,
-      "cta": "/contact/business/"
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 1
     },
     {
       "width": 320,
@@ -106,29 +908,186 @@
       "sections": 5,
       "scenes": 4,
       "features": 4,
-      "labels": 12,
+      "galleryPhotos": 8,
+      "uniqueImages": [
+        "aircon.png",
+        "balcony.png",
+        "basin.png",
+        "carpet.png",
+        "floor.png",
+        "glass.png",
+        "hallway.png",
+        "hood.png",
+        "kitchen.png",
+        "lighting.png",
+        "sanitizing.png",
+        "shower.png",
+        "toilet.png"
+      ],
       "br": 0,
-      "overflow": -15,
+      "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
       "noindex": true,
-      "intro": "クリスタルクリーンホームでは、店舗やオフィスの利用状況に合わせて日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、清潔な環境づくりをお手伝いします。",
-      "copy": [
-        "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
-        "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
-        "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
-        "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。"
+      "introMatches": true,
+      "featureCopyMatches": true,
+      "featureTitlesMatch": true,
+      "closingMatches": true,
+      "imagesLoaded": true,
+      "mainPhotoDimensions": [
+        {
+          "x": 16,
+          "y": 1955.921875,
+          "width": 273,
+          "height": 182
+        },
+        {
+          "x": 16,
+          "y": 2474.59375,
+          "width": 273,
+          "height": 153.5625
+        },
+        {
+          "x": 16,
+          "y": 2992.125,
+          "width": 273,
+          "height": 182
+        },
+        {
+          "x": 16,
+          "y": 3592.890625,
+          "width": 273,
+          "height": 182
+        }
       ],
-      "closing": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
-      "images": true,
+      "galleryPhotoDimensions": [
+        {
+          "x": 16,
+          "y": 4308.34375,
+          "width": 128.5,
+          "height": 107.078125
+        },
+        {
+          "x": 16,
+          "y": 4474.21875,
+          "width": 273,
+          "height": 118.6875
+        },
+        {
+          "x": 16,
+          "y": 4651.703125,
+          "width": 128.5,
+          "height": 102.796875
+        },
+        {
+          "x": 160.5,
+          "y": 4668.84375,
+          "width": 128.5,
+          "height": 85.65625
+        },
+        {
+          "x": 16,
+          "y": 4813.296875,
+          "width": 128.5,
+          "height": 160.625
+        },
+        {
+          "x": 16,
+          "y": 5032.71875,
+          "width": 273,
+          "height": 118.6875
+        },
+        {
+          "x": 16,
+          "y": 5227.34375,
+          "width": 128.5,
+          "height": 85.65625
+        },
+        {
+          "x": 160.5,
+          "y": 5210.203125,
+          "width": 128.5,
+          "height": 102.796875
+        }
+      ],
+      "gallerySmallerThanMain": true,
+      "heroPhoto": {
+        "x": 16,
+        "y": 287.84375,
+        "width": 273,
+        "height": 182
+      },
+      "textClipped": [],
+      "cta": [
+        {
+          "text": "法人向け清掃のご相談→",
+          "href": "#office-wf-contact",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        },
+        {
+          "text": "お問い合わせはこちら→",
+          "href": "/contact/business/",
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "1px",
+          "borderRight": "1px",
+          "borderBottom": "1px"
+        }
+      ],
+      "sceneStyles": [
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        },
+        {
+          "background": "rgba(0, 0, 0, 0)",
+          "borderTop": "1px",
+          "borderLeft": "0px",
+          "borderRight": "0px",
+          "borderBottom": "0px"
+        }
+      ],
       "productCards": 0,
-      "sceneColumns": 1,
-      "cta": "/contact/business/"
+      "mobilePhotoFirst": true,
+      "galleryLabels": [
+        "ガラス・サッシ",
+        "厨房器具",
+        "レンジフード",
+        "照明器具",
+        "トイレ",
+        "廊下・階段",
+        "洗面所",
+        "ベランダ"
+      ],
+      "sceneColumns": 1
     }
   ],
   "pageErrors": [],
   "heroAnchorWorks": true,
+  "sceneAnchorWorks": true,
   "existingDemoCtaWorks": true,
+  "keyboardFocusWorks": true,
   "browserClosed": true,
   "pass": true
 }
