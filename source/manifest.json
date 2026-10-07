@@ -27,8 +27,8 @@
       "effective_url": "https://www.osoujihonpo.com/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 77492,
-      "sha256": "275ae79f2989d49f38bfa26576f043d82ddfdd2aea292a5ff76b8595d2effd37",
+      "bytes": 77347,
+      "sha256": "59b1be36f80253071ccea6a044c8bfb33df1ce99666e23a51a0cf08eb303a72b",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -6817,8 +6817,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "a881c89f21efe43c0c29b6855da35981bc28919352ab7cd5f4cdbfeffa5ee74f",
-      "bytes": 4676
+      "sha256": "c6ebab563d5633d33831b30aae925e7724ab10074be92889028cd438ebef185d",
+      "bytes": 2553
     },
     "https://www.osoujihonpo.com/business/cleaning/index.html": {
       "path": "business/cleaning/index.html",
@@ -6955,6 +6955,15 @@
       "origin_type": "local-shared-ui",
       "sha256": "67f2da12a94770c11208562ac8a1594e139bde7c83c8a7ccb45c5b2a154828b0",
       "bytes": 1845013
+    },
+    "https://www.osoujihonpo.com/assets/images/home/aircon-bundle-banner.png": {
+      "path": "assets/images/home/aircon-bundle-banner.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/home/aircon-bundle-banner.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "a02719dfa995036c999af6b244ef1de4260516d1014b47b9dcc42ae4ad7a6fa1",
+      "bytes": 1904086
     }
   },
   "external_urls": [
@@ -9145,9 +9154,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 743,
-    "unique_paths": 729,
-    "bytes": 161723047,
+    "urls": 744,
+    "unique_paths": 730,
+    "bytes": 163624865,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

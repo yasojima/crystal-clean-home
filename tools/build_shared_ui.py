@@ -98,6 +98,7 @@ def transform(html, is_aircon=False):
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100707', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
+    html = re.sub(r'/assets/css/home-pickups\.css(?:\?v=\d+)?', '/assets/css/home-pickups.css?v=2026100702', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
@@ -118,6 +119,7 @@ def transform(html, is_aircon=False):
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)
+    html = re.sub(r'(<link\b[^\r\n]*href="/assets/css/home-pickups\.css[^\"]*"[^\r\n]*>)\r\n', r'\1\n', html)
     return html
 
 
@@ -172,6 +174,7 @@ def main():
     manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js', SITE/'assets/js/lp-render-check.js'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/home-pickups.css'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/images/home/aircon-bundle-banner.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/office-cleaning.css', *sorted((SITE/'assets/images/office-cleaning').glob('*.png'))], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))

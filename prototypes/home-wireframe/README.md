@@ -20,3 +20,9 @@ python prototypes/home-wireframe/serve.py --port 8773
 ```
 
 決定事項はプロジェクト最上層のGoogle Docs議事録の「7. HOMEのピックアップと漫画LPの制作方針」にも記録しています。
+
+## 2026-10-07 採用エアコンバナーの追従
+
+CHG-2026-10-07-020で黄色×青のA案を本編へ採用しました。このHOME比較は本編から生成し、同じ１素材を参照します。画像全体はリンクにせず、料金・サービスを見るCTAだけを操作できるようにしています。
+
+今回のaircon-banner３案比較と旧検証画像・生成時の複製は、デスクトップの削除用フォルダーへ退避済みです。本編素材と生成情報の所有元はsource/site/assets/images/home/aircon-bundle-banner.png、source/home-pickup-banner、tools/home_pickups.pyです。統合後の確認記録はevidence/2026-10-07/aircon-banner-integration。このHOME比較と未採用のお知らせ３案は維持します。

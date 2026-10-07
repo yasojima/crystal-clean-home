@@ -510,12 +510,13 @@ CHG-2026-10-06-012公開確認：ソース1a377a9／Pages158edc0／Actions374540
 - マニフェスト743登録の全729実ファイルが一致し、登録漏れなし。共通header／footerは全61HTMLで正本と一致し、重複なし。共通部品の修正時は生成後の全ページと末尾の再検証を行う。
 - 詳細証拠は `evidence/2026-10-07/first-view-fit/verification-summary.json` と同フォルダーの各JSON、LP復旧は `lp-scope-restore/`、法人原稿・画像は `office-cleaning/`。今回のWindows上の非表示ブラウザ検証を実機iPhoneの受入と混同しない。
 
-## [変更 2026-10-07 / CHG-2026-10-07-019] エアコン２台の広告画像・ローカル比較
+## [変更 2026-10-07 / CHG-2026-10-07-020] HOME採用A案・CTAのみのリンク
 
-- 比較URLは http://127.0.0.1:8773/home-wireframe/aircon-banner/ 。context.html?banner=A/B/Cで現行HOME内に置いて比較する。前案はユーザーからデザイン不採用。今回の採用も未決定。
-- built-in image_genで文字を含む横長画像３案を制作する。Aは黄色×青と4,400円お得、Bは白・水色×青にオレンジの11,000円、Cはクリーム×青にお得にキレイの見出しとオレンジCTA。画像パスはassets/banner-a-raster.png、banner-b-raster.png、banner-c-raster.png。
-- 左にカテゴリ・主訴求・価格補足・料金／サービスを見るCTA・条件、右に人物なしのエアコン２台と水・風の演出。縁取り、傾き、ハイライトと立体感を文字とボタンに付ける。Bの条件文はCTA下の左端へ修正する。
-- 料金正本はsource/service-pages/catalogue.jsonのproducts.1を既存prices処理で読む。１台13,200円、２台以上は１台11,000円、２台22,000円、２台合計4,400円お得。画像生成時の金額と正本が変わった場合はbuild.pyを停止する。
-- 比較用のHTMLはaのhrefを既存/house-cleaning/aircon/へ設定し、画像altと各案７項目の設計説明を持つ。今回の広告文字は画像内であり、SEO向けの可視HTML文字・背景画像の分離実装は未実施。比較画面はnoindex。
-- PC横長画像を各表示幅で比率を保持して表示し、原寸リンクを提供する。スマホ専用広告レイアウト・実機受入・本編採用／公開は未実施。表示確認はevidence/2026-10-07/aircon-banner-proposals/verification-raster.json。
-- 本編HOME、共通UI、既存料金・カート・法人・LP・後半３漫画LP枠は維持する。既存プレビュー8773を維持。検証用の非表示Chromeは１ブラウザーで逐次確認し終了時に閉じる。
+- HOME上部home-pickup-bannerに採用A案を配置。実行画像はsource/site/assets/images/home/aircon-bundle-banner.png、2076×758、SHA-256 a02719dfa995036c999af6b244ef1de4260516d1014b47b9dcc42ae4ad7a6fa1。承認画像を再生成・改変しない。
+- 所有元はtools/home_pickups.pyとsource/home-pickup-banner/banner.json。CTA座標は元画像のx=130、y=550、幅988、高さ131から割合に変換する。wrapperはdiv、imgの上の丸いa要素だけを/house-cleaning/aircon/へ接続する。価格・商品画像・条件文の領域はリンクにしない。
+- CSSはhome-pickups.css?v=2026100702。ホバーのハイライトとfocus-visibleのリングはCTAの輪郭だけ。Tabでフォーカス、Enterで遷移する。画像は縦横比を保持して縮小し、リンクも割合で追従する。
+- altはエアコンクリーニング、２台4,400円お得、１台2,200円お得、壁掛けタイプ（お掃除機能なし）、同時２台以上、税込を説明する。CTAのaria-labelは「エアコンクリーニングの料金・サービスを見る」。採用画像は文字を含み、可視HTML文字への分離は未実施。
+- 既存カタログproducts.1を価格正本とし、生成時の価格スナップショット・画像SHAが違えばビルドを停止する。マニフェストにHOME・CSS・採用PNGを登録する。
+- 今回の３案比較、旧検証画像と画像生成ツールの出力５点を、デスクトップのCrystal Clean Home_削除用_エアコンバナー比較_20261007へ移動する。永久削除はしない。本編の採用画像とsource/home-pickup-banner、統合後の記録evidence/2026-10-07/aircon-banner-integrationは保持する。
+- ローカル５サイズ1439×799、1280×551、768×800、414×688、320×568でCTA内外のクリック対象、角の丸み、画像比率、キーボードフォーカスと遷移、横幅を確認。公開の配信・動作確認は同証拠ディレクトリに別記録する。実機受入とは区別する。
+- 変更するHOME領域はこのバナーとCSS版数だけ。ヘッダー・フッター・既存動画／バナー／後半３枠・カート・法人・LPは保持。他のHOME比較と未採用お知らせ３案は今回の退避対象に含めない。
