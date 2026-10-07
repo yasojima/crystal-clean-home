@@ -27,6 +27,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -40,25 +41,25 @@
       "mainPhotoDimensions": [
         {
           "x": 92,
-          "y": 1790.296875,
+          "y": 1858.75,
           "width": 713.328125,
           "height": 445.828125
         },
         {
           "x": 934.65625,
-          "y": 1890.296875,
+          "y": 1958.75,
           "width": 397.34375,
           "height": 496.671875
         },
         {
           "x": 92,
-          "y": 2856.5625,
+          "y": 2925.015625,
           "width": 397.328125,
           "height": 297.984375
         },
         {
           "x": 618.65625,
-          "y": 2792.5625,
+          "y": 2861.015625,
           "width": 713.34375,
           "height": 475.5625
         }
@@ -66,49 +67,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 92,
-          "y": 3888.203125,
+          "y": 3924.859375,
           "width": 297.984375,
           "height": 248.3125
         },
         {
           "x": 405.984375,
-          "y": 3868.078125,
+          "y": 3904.734375,
           "width": 402.671875,
           "height": 268.4375
         },
         {
           "x": 824.65625,
-          "y": 3981.84375,
+          "y": 4018.5,
           "width": 193.34375,
           "height": 154.671875
         },
         {
           "x": 1034,
-          "y": 3937.859375,
+          "y": 3974.515625,
           "width": 298,
           "height": 198.65625
         },
         {
           "x": 92,
-          "y": 4209.703125,
+          "y": 4246.359375,
           "width": 193.328125,
           "height": 241.65625
         },
         {
           "x": 301.328125,
-          "y": 4199.703125,
+          "y": 4236.359375,
           "width": 402.671875,
           "height": 251.65625
         },
         {
           "x": 720,
-          "y": 4252.703125,
+          "y": 4289.359375,
           "width": 298,
           "height": 198.65625
         },
         {
           "x": 1034,
-          "y": 4212.96875,
+          "y": 4249.625,
           "width": 298,
           "height": 238.390625
         }
@@ -124,23 +125,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 72,
+            "y": 585.34375,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 667,
+            "y": 4804.203125,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         }
       ],
       "typography": {
@@ -149,7 +168,44 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 558.65625,
+          "right": 1372.00025,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 68,
+          "right": 773.328,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 976.65625,
+          "right": 1350.00025,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 74,
+          "right": 451.328,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 594.65625,
+          "right": 1292.00025,
+          "zIndex": "-1"
+        }
+      ]
     },
     {
       "width": 1280,
@@ -176,6 +232,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -189,25 +246,25 @@
       "mainPhotoDimensions": [
         {
           "x": 40,
-          "y": 1730.796875,
+          "y": 1799.25,
           "width": 681.25,
           "height": 425.78125
         },
         {
           "x": 846,
-          "y": 1830.796875,
+          "y": 1899.25,
           "width": 379,
           "height": 473.75
         },
         {
           "x": 40,
-          "y": 2774.140625,
+          "y": 2842.59375,
           "width": 379,
           "height": 284.25
         },
         {
           "x": 543.75,
-          "y": 2710.140625,
+          "y": 2778.59375,
           "width": 681.25,
           "height": 454.15625
         }
@@ -215,49 +272,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 40,
-          "y": 3783.328125,
+          "y": 3819.984375,
           "width": 284.25,
           "height": 236.875
         },
         {
           "x": 340.25,
-          "y": 3763.984375,
+          "y": 3800.640625,
           "width": 384.328125,
           "height": 256.21875
         },
         {
           "x": 740.578125,
-          "y": 3872.875,
+          "y": 3909.53125,
           "width": 184.171875,
           "height": 147.328125
         },
         {
           "x": 940.75,
-          "y": 3830.703125,
+          "y": 3867.359375,
           "width": 284.25,
           "height": 189.5
         },
         {
           "x": 40,
-          "y": 4093.40625,
+          "y": 4130.0625,
           "width": 184.15625,
           "height": 230.1875
         },
         {
           "x": 240.15625,
-          "y": 4083.390625,
+          "y": 4120.046875,
           "width": 384.34375,
           "height": 240.203125
         },
         {
           "x": 640.5,
-          "y": 4134.09375,
+          "y": 4170.75,
           "width": 284.25,
           "height": 189.5
         },
         {
           "x": 940.75,
-          "y": 4096.203125,
+          "y": 4132.859375,
           "width": 284.25,
           "height": 227.390625
         }
@@ -273,23 +330,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 40,
+            "y": 535.15625,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 592.078125,
+            "y": 4676.4375,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         }
       ],
       "typography": {
@@ -298,7 +373,44 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 495,
+          "right": 1245,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 16,
+          "right": 689.25,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 888,
+          "right": 1243,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 22,
+          "right": 381,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 519.75,
+          "right": 1185,
+          "zIndex": "-1"
+        }
+      ]
     },
     {
       "width": 1024,
@@ -325,6 +437,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -338,25 +451,25 @@
       "mainPhotoDimensions": [
         {
           "x": 32,
-          "y": 1677.328125,
+          "y": 1778.8125,
           "width": 542.90625,
           "height": 339.3125
         },
         {
           "x": 675.328125,
-          "y": 1777.328125,
+          "y": 1878.8125,
           "width": 301.671875,
           "height": 377.078125
         },
         {
           "x": 32,
-          "y": 2676.796875,
+          "y": 2778.28125,
           "width": 301.65625,
           "height": 226.234375
         },
         {
           "x": 434.078125,
-          "y": 2612.796875,
+          "y": 2714.28125,
           "width": 542.921875,
           "height": 361.9375
         }
@@ -364,49 +477,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 32,
-          "y": 3619.109375,
+          "y": 3688.796875,
           "width": 224.25,
           "height": 186.875
         },
         {
           "x": 272.25,
-          "y": 3603.109375,
+          "y": 3672.796875,
           "width": 304.328125,
           "height": 202.875
         },
         {
           "x": 592.578125,
-          "y": 3690.65625,
+          "y": 3760.34375,
           "width": 144.171875,
           "height": 115.328125
         },
         {
           "x": 752.75,
-          "y": 3656.484375,
+          "y": 3726.171875,
           "width": 224.25,
           "height": 149.5
         },
         {
           "x": 32,
-          "y": 3879.1875,
+          "y": 3948.875,
           "width": 144.15625,
           "height": 180.1875
         },
         {
           "x": 192.15625,
-          "y": 3869.171875,
+          "y": 3938.859375,
           "width": 304.34375,
           "height": 190.203125
         },
         {
           "x": 512.5,
-          "y": 3909.875,
+          "y": 3979.5625,
           "width": 224.25,
           "height": 149.5
         },
         {
           "x": 752.75,
-          "y": 3879.984375,
+          "y": 3949.671875,
           "width": 224.25,
           "height": 179.390625
         }
@@ -414,7 +527,7 @@
       "gallerySmallerThanMain": true,
       "heroPhoto": {
         "x": 347,
-        "y": 181.609375,
+        "y": 186.3125,
         "width": 630,
         "height": 393.75
       },
@@ -422,23 +535,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 32,
+            "y": 487.578125,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 458.40625,
+            "y": 4445.25,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         }
       ],
       "typography": {
@@ -447,7 +578,44 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 407,
+          "right": 997,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 542.906,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 717.328125,
+          "right": 995.000125,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 14,
+          "right": 295.656,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 410.078125,
+          "right": 937.000125,
+          "zIndex": "-1"
+        }
+      ]
     },
     {
       "width": 768,
@@ -474,6 +642,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -487,25 +656,25 @@
       "mainPhotoDimensions": [
         {
           "x": 32,
-          "y": 2192.46875,
+          "y": 2208.84375,
           "width": 326.5,
           "height": 204.0625
         },
         {
           "x": 394.5,
-          "y": 2256.46875,
+          "y": 2272.84375,
           "width": 326.5,
           "height": 408.125
         },
         {
           "x": 32,
-          "y": 3158.984375,
+          "y": 3175.359375,
           "width": 326.5,
           "height": 244.875
         },
         {
           "x": 394.5,
-          "y": 3094.984375,
+          "y": 3111.359375,
           "width": 326.5,
           "height": 217.65625
         }
@@ -513,49 +682,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 32,
-          "y": 4106.703125,
+          "y": 4091.28125,
           "width": 334.5,
           "height": 167.25
         },
         {
           "x": 386.5,
-          "y": 4106.703125,
+          "y": 4091.28125,
           "width": 334.5,
           "height": 167.25
         },
         {
           "x": 32,
-          "y": 4403.90625,
+          "y": 4388.484375,
           "width": 157.25,
           "height": 125.796875
         },
         {
           "x": 209.25,
-          "y": 4424.875,
+          "y": 4409.453125,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 386.5,
-          "y": 4333.140625,
+          "y": 4317.71875,
           "width": 157.25,
           "height": 196.5625
         },
         {
           "x": 32,
-          "y": 4588.890625,
+          "y": 4573.46875,
           "width": 334.5,
           "height": 167.25
         },
         {
           "x": 386.5,
-          "y": 4651.3125,
+          "y": 4635.890625,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 563.75,
-          "y": 4630.34375,
+          "y": 4614.921875,
           "width": 157.25,
           "height": 125.796875
         }
@@ -563,7 +732,7 @@
       "gallerySmallerThanMain": true,
       "heroPhoto": {
         "x": 32,
-        "y": 467.375,
+        "y": 448.78125,
         "width": 689,
         "height": 387.5625
       },
@@ -571,23 +740,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 32,
+            "y": 338.78125,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 32,
+            "y": 5127.296875,
+            "width": 340,
+            "height": 78
+          },
+          "arrowWidth": 46,
+          "svg": 1
         }
       ],
       "typography": {
@@ -596,7 +783,44 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 92,
+          "right": 741,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 326.5,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 436.5,
+          "right": 739,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 14,
+          "right": 320.5,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 370.5,
+          "right": 681,
+          "zIndex": "-1"
+        }
+      ]
     },
     {
       "width": 414,
@@ -623,6 +847,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -636,25 +861,25 @@
       "mainPhotoDimensions": [
         {
           "x": 20,
-          "y": 2346.34375,
+          "y": 2174.09375,
           "width": 359,
           "height": 224.375
         },
         {
           "x": 63.09375,
-          "y": 2872.109375,
+          "y": 2699.859375,
           "width": 315.90625,
           "height": 252.71875
         },
         {
           "x": 20,
-          "y": 3531.21875,
+          "y": 3358.96875,
           "width": 359,
           "height": 269.25
         },
         {
           "x": 20,
-          "y": 4211.0625,
+          "y": 4038.8125,
           "width": 359,
           "height": 239.328125
         }
@@ -662,49 +887,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 20,
-          "y": 4950.96875,
+          "y": 4746.921875,
           "width": 171.5,
           "height": 142.90625
         },
         {
           "x": 20,
-          "y": 5153.0625,
+          "y": 4949.015625,
           "width": 359,
           "height": 138.0625
         },
         {
           "x": 20,
-          "y": 5350.3125,
+          "y": 5146.265625,
           "width": 171.5,
           "height": 137.1875
         },
         {
           "x": 207.5,
-          "y": 5373.171875,
+          "y": 5169.125,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 20,
-          "y": 5546.6875,
+          "y": 5342.640625,
           "width": 171.5,
           "height": 214.375
         },
         {
           "x": 20,
-          "y": 5820.25,
+          "y": 5616.203125,
           "width": 359,
           "height": 138.0625
         },
         {
           "x": 20,
-          "y": 6040.359375,
+          "y": 5836.3125,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 207.5,
-          "y": 6017.5,
+          "y": 5813.453125,
           "width": 171.5,
           "height": 137.1875
         }
@@ -712,7 +937,7 @@
       "gallerySmallerThanMain": true,
       "heroPhoto": {
         "x": 20,
-        "y": 447.765625,
+        "y": 425.171875,
         "width": 359,
         "height": 269.25
       },
@@ -720,23 +945,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 20,
+            "y": 331.171875,
+            "width": 340,
+            "height": 70
+          },
+          "arrowWidth": 40,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 20,
+            "y": 6338.828125,
+            "width": 340,
+            "height": 70
+          },
+          "arrowWidth": 40,
+          "svg": 1
         }
       ],
       "typography": {
@@ -745,7 +988,44 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 46,
+          "right": 389,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 355,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 89.09375,
+          "right": 388.99975,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 8,
+          "right": 353,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 355,
+          "zIndex": "-1"
+        }
+      ]
     },
     {
       "width": 320,
@@ -772,6 +1052,7 @@
       ],
       "br": 0,
       "englishInContent": [],
+      "auxiliaryLabels": 0,
       "horizontalOverflow": 0,
       "header": 1,
       "footer": 1,
@@ -785,25 +1066,25 @@
       "mainPhotoDimensions": [
         {
           "x": 20,
-          "y": 2506.21875,
+          "y": 2338.734375,
           "width": 265,
           "height": 165.625
         },
         {
           "x": 51.8125,
-          "y": 3029.234375,
+          "y": 2861.75,
           "width": 233.1875,
           "height": 186.546875
         },
         {
           "x": 20,
-          "y": 3734.171875,
+          "y": 3566.6875,
           "width": 265,
           "height": 198.75
         },
         {
           "x": 20,
-          "y": 4336.421875,
+          "y": 4168.9375,
           "width": 265,
           "height": 176.65625
         }
@@ -811,49 +1092,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 20,
-          "y": 5097.65625,
+          "y": 4898.375,
           "width": 124.5,
           "height": 103.75
         },
         {
           "x": 20,
-          "y": 5260.59375,
+          "y": 5061.3125,
           "width": 265,
           "height": 101.921875
         },
         {
           "x": 20,
-          "y": 5421.703125,
+          "y": 5222.421875,
           "width": 124.5,
           "height": 99.59375
         },
         {
           "x": 160.5,
-          "y": 5438.296875,
+          "y": 5239.015625,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 20,
-          "y": 5580.484375,
+          "y": 5381.203125,
           "width": 124.5,
           "height": 155.625
         },
         {
           "x": 20,
-          "y": 5795.296875,
+          "y": 5596.015625,
           "width": 265,
           "height": 101.921875
         },
         {
           "x": 20,
-          "y": 5973,
+          "y": 5773.71875,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 160.5,
-          "y": 5956.40625,
+          "y": 5757.125,
           "width": 124.5,
           "height": 99.59375
         }
@@ -861,7 +1142,7 @@
       "gallerySmallerThanMain": true,
       "heroPhoto": {
         "x": 20,
-        "y": 499.765625,
+        "y": 477.171875,
         "width": 265,
         "height": 198.75
       },
@@ -869,23 +1150,41 @@
       "cta": [
         {
           "href": "#office-wf-contact",
+          "text": "法人向け清掃のご相談",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 20,
+            "y": 383.171875,
+            "width": 265,
+            "height": 70
+          },
+          "arrowWidth": 40,
+          "svg": 1
         },
         {
           "href": "/contact/business/",
+          "text": "お問い合わせはこちら",
           "background": "rgba(0, 0, 0, 0)",
           "borders": [
-            "0px",
-            "0px",
             "1px",
-            "0px"
-          ]
+            "1px",
+            "1px",
+            "1px"
+          ],
+          "dimensions": {
+            "x": 20,
+            "y": 6300.90625,
+            "width": 265,
+            "height": 70
+          },
+          "arrowWidth": 40,
+          "svg": 1
         }
       ],
       "typography": {
@@ -894,10 +1193,48 @@
         "statement": "\"Yu Mincho\", \"Hiragino Mincho ProN\", serif"
       },
       "pairedOnDesktop": true,
-      "phonePhotoFirst": true
+      "phonePhotoFirst": true,
+      "photoBacking": [
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 46,
+          "right": 295,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 261,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 77.8125,
+          "right": 295.0005,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(229, 234, 234)",
+          "x": 8,
+          "right": 259,
+          "zIndex": "-1"
+        },
+        {
+          "content": "\"\"",
+          "color": "rgb(238, 241, 241)",
+          "x": 8,
+          "right": 261,
+          "zIndex": "-1"
+        }
+      ]
     }
   ],
   "interaction": {
+    "hoverArrowMoves": true,
     "contactAnchor": true,
     "sceneAnchor": true,
     "keyboardFocus": {
@@ -905,7 +1242,8 @@
       "outline": "solid",
       "width": "2px"
     },
-    "demoMessage": "デモ表示のためリンク未設定です。"
+    "demoMessage": "デモ表示のためリンク未設定です。",
+    "reducedMotion": "0s"
   },
   "pageErrors": [],
   "status": "PASS"
