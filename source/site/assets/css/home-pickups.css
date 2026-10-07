@@ -33,4 +33,9 @@
  .home-pickup__copy h3 { min-height:0; font-size:17px; }
 }
 
+@media(min-width:768px) and (max-height:650px) {
+ .home-pickup--banner { padding:24px 0 28px; }
+ .home-pickup--banner .home-pickup__banner { max-width:760px; }
+}
+
 @media(prefers-reduced-motion:reduce) { .home-pickup__banner-cta { transition:none; } }

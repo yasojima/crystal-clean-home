@@ -28,7 +28,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 77091,
-      "sha256": "b22e2fe5133b692c2ef28e533ad775046d0e92b4c6c3f1afec9324ab2a50c839",
+      "sha256": "ea752c4f2ab987b2e0f289713a61e345253623fc2d1c1e04b08f5625c5356db7",
       "retrieved_at": "2026-09-30T16:59:05.839164+00:00",
       "source_sha256": "cd4b48b0287e6b8718b1bc8f27ff45c14dee90ecd83d821f1d557a4b1e19d909",
       "source_bytes": 103686,
@@ -6817,8 +6817,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "6ac8cd18ec8b86b946ce9adf9a02c3203075e704cfd8f4dc3d15e4aa3c2a746d",
-      "bytes": 2753
+      "sha256": "2bbc599e6b9ae51310bdbde3ac44abe516c873bf0aaf1482add660b421cdc2f9",
+      "bytes": 2916
     },
     "https://www.osoujihonpo.com/business/cleaning/index.html": {
       "path": "business/cleaning/index.html",
@@ -9156,7 +9156,7 @@
   "counts": {
     "urls": 744,
     "unique_paths": 730,
-    "bytes": 163623880,
+    "bytes": 163624043,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

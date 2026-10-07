@@ -8,5 +8,15 @@
   "downstream_curves_and_backgrounds_unchanged": true,
   "desktop_banner_width": "90% of existing content container, max 1000px",
   "mobile_banner_width": "100% of existing content container",
-  "desktop_banner_height_at_max_width_px": 365.13
+  "desktop_banner_height_at_max_width_px": 365.13,
+  "short_pc": {
+    "min_width": 768,
+    "max_height": 650,
+    "max_banner_width": 760,
+    "banner_height_at_max_width": 277.5,
+    "padding_top": 24,
+    "padding_bottom": 28
+  },
+  "normal_pc_max_width_unchanged": 1000,
+  "mobile_width_unchanged": true
 }
