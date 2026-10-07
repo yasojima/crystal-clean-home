@@ -2,7 +2,7 @@
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
   "copyTransform": "Brochure-only: 清潔 to 快適; aircon ending to 快適に使える状態; feature source wording retained and paragraphs split by sentences; consultation reduced to three POINT topics; closing replaced with one short inquiry sentence.",
-  "cssVersion": "2026100829",
+  "cssVersion": "2026100832",
   "reference": "http://127.0.0.1:8773/house-cleaning/aircon/",
   "records": [
     {
@@ -3402,5 +3402,1217 @@
       "overflow": 0,
       "status": "PASS"
     }
-  ]
+  ],
+  "introRefinement": {
+    "reference": "Canva DAHXXfeP21w - user adjusted introduction section",
+    "copyFocus": "Employee motivation, a workplace people want to return to, a welcoming impression and ongoing care.",
+    "copyCharacters": 386,
+    "records": [
+      {
+        "width": 1518,
+        "height": 801,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 231.5,
+          "y": 881,
+          "width": 1040,
+          "height": 539.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 231.5,
+          "y": 910,
+          "width": 443.625,
+          "height": 490.46875
+        },
+        "columns": 2,
+        "lead": {
+          "size": 42,
+          "box": {
+            "x": 303.6875,
+            "y": 902,
+            "width": 299.25,
+            "height": 61
+          }
+        },
+        "main": [
+          {
+            "size": 72.8,
+            "box": {
+              "x": 231.625,
+              "y": 1000.1875,
+              "width": 443.359375,
+              "height": 105
+            },
+            "fits": true
+          },
+          {
+            "size": 72.8,
+            "box": {
+              "x": 305.515625,
+              "y": 1098.453125,
+              "width": 295.578125,
+              "height": 105
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 504,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 127.5,
+              "y": 626.46875,
+              "width": 420,
+              "height": 92
+            },
+            "size": 28,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 421.5,
+              "y": 5062.65625,
+              "width": 288,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1439,
+        "height": 802,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 192,
+          "y": 881.984375,
+          "width": 1040,
+          "height": 539.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 192,
+          "y": 910.984375,
+          "width": 443.625,
+          "height": 490.46875
+        },
+        "columns": 2,
+        "lead": {
+          "size": 42,
+          "box": {
+            "x": 264.1875,
+            "y": 902.984375,
+            "width": 299.25,
+            "height": 61
+          }
+        },
+        "main": [
+          {
+            "size": 72.8,
+            "box": {
+              "x": 192.125,
+              "y": 1001.171875,
+              "width": 443.359375,
+              "height": 105
+            },
+            "fits": true
+          },
+          {
+            "size": 72.8,
+            "box": {
+              "x": 266.015625,
+              "y": 1099.4375,
+              "width": 295.578125,
+              "height": 105
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 504,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 88,
+              "y": 623.84375,
+              "width": 420,
+              "height": 92
+            },
+            "size": 27.9104,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 382,
+              "y": 5063.640625,
+              "width": 288,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1280,
+        "height": 551,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 112.5,
+          "y": 631,
+          "width": 1040,
+          "height": 539.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 112.5,
+          "y": 660,
+          "width": 443.625,
+          "height": 490.46875
+        },
+        "columns": 2,
+        "lead": {
+          "size": 42,
+          "box": {
+            "x": 184.6875,
+            "y": 652,
+            "width": 299.25,
+            "height": 61
+          }
+        },
+        "main": [
+          {
+            "size": 72.8,
+            "box": {
+              "x": 112.625,
+              "y": 750.1875,
+              "width": 443.359375,
+              "height": 105
+            },
+            "fits": true
+          },
+          {
+            "size": 72.8,
+            "box": {
+              "x": 186.515625,
+              "y": 848.453125,
+              "width": 295.578125,
+              "height": 105
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 504,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 56,
+              "y": 467.203125,
+              "width": 373.171875,
+              "height": 64
+            },
+            "size": 24.794,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 302.5,
+              "y": 4744.171875,
+              "width": 284.25,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 32,
+          "y": 847.984375,
+          "width": 945,
+          "height": 539.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 32,
+          "y": 876.984375,
+          "width": 404.078125,
+          "height": 490.46875
+        },
+        "columns": 2,
+        "lead": {
+          "size": 38.178,
+          "box": {
+            "x": 97.8125,
+            "y": 869.984375,
+            "width": 272.453125,
+            "height": 55
+          }
+        },
+        "main": [
+          {
+            "size": 66.15,
+            "box": {
+              "x": 32.609375,
+              "y": 962.96875,
+              "width": 402.859375,
+              "height": 96
+            },
+            "fits": true
+          },
+          {
+            "size": 66.15,
+            "box": {
+              "x": 99.75,
+              "y": 1052.265625,
+              "width": 268.578125,
+              "height": 96
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 484.921875,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.921875,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.921875,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.921875,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.921875,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 48,
+              "y": 508.078125,
+              "width": 297.640625,
+              "height": 88.3125
+            },
+            "size": 20,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 174.5,
+              "y": 4749.96875,
+              "width": 299,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1023,
+        "height": 768,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 32,
+          "y": 847.984375,
+          "width": 944,
+          "height": 539.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 32,
+          "y": 876.984375,
+          "width": 403.625,
+          "height": 490.46875
+        },
+        "columns": 2,
+        "lead": {
+          "size": 38.1376,
+          "box": {
+            "x": 97.71875,
+            "y": 869.984375,
+            "width": 272.171875,
+            "height": 55
+          }
+        },
+        "main": [
+          {
+            "size": 66.08,
+            "box": {
+              "x": 32.59375,
+              "y": 962.9375,
+              "width": 402.4375,
+              "height": 96
+            },
+            "fits": true
+          },
+          {
+            "size": 66.08,
+            "box": {
+              "x": 99.65625,
+              "y": 1052.140625,
+              "width": 268.296875,
+              "height": 96
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 484.375,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.375,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.375,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.375,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 484.375,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 48,
+              "y": 466.296875,
+              "width": 297.359375,
+              "height": 88.3125
+            },
+            "size": 20,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 174,
+              "y": 5560.875,
+              "width": 298.65625,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 768,
+        "height": 800,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 32,
+          "y": 856,
+          "width": 689,
+          "height": 796.921875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 32,
+          "y": 905,
+          "width": 680,
+          "height": 229.453125
+        },
+        "columns": 1,
+        "lead": {
+          "size": 27.8356,
+          "box": {
+            "x": 271.96875,
+            "y": 900,
+            "width": 200.0625,
+            "height": 40
+          }
+        },
+        "main": [
+          {
+            "size": 64.766,
+            "box": {
+              "x": 174.796875,
+              "y": 955.609375,
+              "width": 394.390625,
+              "height": 94
+            },
+            "fits": true
+          },
+          {
+            "size": 64.766,
+            "box": {
+              "x": 240.53125,
+              "y": 1043.03125,
+              "width": 262.9375,
+              "height": 94
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 504,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 504,
+            "gap": 32,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 32,
+              "y": 300.265625,
+              "width": 328.5,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 46.5,
+              "y": 5609.96875,
+              "width": 328.5,
+              "height": 64
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 34,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 414,
+        "height": 688,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 20,
+          "y": 728,
+          "width": 359,
+          "height": 768.015625
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 20,
+          "y": 757,
+          "width": 359,
+          "height": 152.984375
+        },
+        "columns": 1,
+        "lead": {
+          "size": 24,
+          "box": {
+            "x": 113.390625,
+            "y": 752,
+            "width": 172.203125,
+            "height": 35
+          }
+        },
+        "main": [
+          {
+            "size": 38,
+            "box": {
+              "x": 83.78125,
+              "y": 805.390625,
+              "width": 231.421875,
+              "height": 55
+            },
+            "fits": true
+          },
+          {
+            "size": 38,
+            "box": {
+              "x": 122.359375,
+              "y": 856.6875,
+              "width": 154.28125,
+              "height": 55
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 359,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 359,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 359,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 359,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 359,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 20,
+              "y": 264.171875,
+              "width": 178,
+              "height": 55
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 6741.40625,
+              "width": 178,
+              "height": 55
+            },
+            "size": 16,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 26,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "statement": [
+          "店舗やオフィス",
+          "環境づくりをサポート"
+        ],
+        "intro": [
+          "クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。",
+          "ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。",
+          "床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。",
+          "毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。",
+          "日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。"
+        ],
+        "introBox": {
+          "x": 20,
+          "y": 608,
+          "width": 265,
+          "height": 897.46875
+        },
+        "headingAlign": "center",
+        "heading": {
+          "x": 20,
+          "y": 637,
+          "width": 265,
+          "height": 152.984375
+        },
+        "columns": 1,
+        "lead": {
+          "size": 24,
+          "box": {
+            "x": 66.390625,
+            "y": 632,
+            "width": 172.203125,
+            "height": 35
+          }
+        },
+        "main": [
+          {
+            "size": 38,
+            "box": {
+              "x": 36.78125,
+              "y": 685.390625,
+              "width": 231.421875,
+              "height": 55
+            },
+            "fits": true
+          },
+          {
+            "size": 38,
+            "box": {
+              "x": 75.359375,
+              "y": 736.6875,
+              "width": 154.28125,
+              "height": 55
+            },
+            "fits": true
+          }
+        ],
+        "paragraphs": [
+          {
+            "width": 265,
+            "gap": 0,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 265,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 265,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 265,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          },
+          {
+            "width": 265,
+            "gap": 24,
+            "wrap": "pretty",
+            "lineBreak": "strict",
+            "wordBreak": "normal",
+            "lineHeight": 1.8499999999999999,
+            "fits": true
+          }
+        ],
+        "cta": [
+          {
+            "box": {
+              "x": 20,
+              "y": 312.578125,
+              "width": 131,
+              "height": 55
+            },
+            "size": 18,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          },
+          {
+            "box": {
+              "x": 20,
+              "y": 6740.609375,
+              "width": 131,
+              "height": 55
+            },
+            "size": 16,
+            "text": "ご相談窓口",
+            "href": "/contact/business/",
+            "labelFits": true
+          }
+        ],
+        "sceneHeading": {
+          "size": 26,
+          "wrap": "balance",
+          "lines": [
+            "日常では落とせない汚れから",
+            "定期清掃・衛生管理・引き渡しまで"
+          ],
+          "fits": true
+        },
+        "overflow": 0,
+        "points": [
+          "POINT 01",
+          "POINT 02",
+          "POINT 03"
+        ],
+        "bodyBreaks": 0,
+        "status": "PASS"
+      }
+    ],
+    "pageErrors": [],
+    "status": "PASS",
+    "visualInspection": "Saved intro, scenes and cover screenshots reviewed after the five-paragraph update."
+  },
+  "recordsVerifiedAtCssVersion": "2026100829",
+  "largeScreenLimitsVerifiedAtCssVersion": "2026100829"
 }

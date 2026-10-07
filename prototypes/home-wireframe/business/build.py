@@ -9,11 +9,17 @@ HERE = Path(__file__).resolve().parent
 SITE = ROOT / 'source/site'
 FEATURE_LAYOUTS = ('aircon', 'carpet', 'sanitizing', 'handover')
 GALLERY_KEYS = ('glass', 'kitchen', 'hood', 'lighting', 'toilet', 'hallway', 'basin', 'balcony')
-STATEMENT_LEAD = '店舗やオフィスの'
+STATEMENT_LEAD = '店舗やオフィス'
 STATEMENT_MAIN_PARTS = ('環境づくりを', 'サポート')
 SCENE_TITLE_LINES = ('日常では落とせない汚れから', '定期清掃・衛生管理・引き渡しまで')
 CONTACT_COPY = '清掃箇所やご希望の時期について、お気軽にご相談ください。'
-INTRO_COPY = 'クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。多くの方が利用する店舗やオフィスで皆様が快適に過ごせるよう、快適な環境づくりをお手伝いします。'
+INTRO_PARAGRAPHS = (
+    'クリスタルクリーンホームでは店舗やオフィスの利用状況に合わせ、日々のお掃除から定期的な清掃まで丁寧にご案内しています。',
+    'ご家庭のお掃除で大切にしている丁寧な作業と細やかな気配りを、法人のお客様の空間づくりにも生かします。設備や素材の状態と汚れの程度を確認し、それぞれの場所に合ったお掃除をご提案します。',
+    '床や設備がきれいに整った職場は、毎日の仕事を気持ちよく始められる場所になります。心地よく使える環境を保つことで、従業員の皆様が前向きに働く意欲を支えます。',
+    '毎日通う場所だからこそ、「今日もここで働きたい」と思える空間を大切に。働く皆様にも訪れるお客様にも、明るく気持ちのよい印象を届けるお手伝いをします。',
+    '日々のお手入れと定期的な清掃を組み合わせ、汚れをためず、快適に使える状態を保ちます。利用状況やご希望に合わせて、長く心地よく過ごせる店舗・オフィスづくりをお手伝いします。',
+)
 
 
 def paragraphs(text):
@@ -29,7 +35,7 @@ def build():
     head = re.sub(r'<title>.*?</title>', '<title>法人向け清掃 ワイヤーフレーム | Crystal Clean Home</title>', head)
     head = re.sub(r'<link[^>]*href="/assets/css/office-cleaning\.css[^>]*>', '', head)
     head = re.sub(r'<meta\b[^>]*name="robots"[^>]*>', '', head)
-    head = head.replace('</head>', '<meta name="robots" content="noindex,nofollow">\n<link rel="stylesheet" href="/home-wireframe/business/wireframe.css?v=2026100829">\n</head>')
+    head = head.replace('</head>', '<meta name="robots" content="noindex,nofollow">\n<link rel="stylesheet" href="/home-wireframe/business/wireframe.css?v=2026100832">\n</head>')
     header = re.search(r'<header\b[^>]*class="c-header"[^>]*>.*?</header>', current, re.S).group()
     footer = re.search(r'<footer\b[^>]*class="c-footer\b[^>]*>.*?</footer>', current, re.S).group()
 
@@ -65,7 +71,7 @@ def build():
 <div class="office-wf__cover-title"><h1 id="office-wf-title">{escape(data['title'])}</h1><p class="office-wf__cover-word">店舗・オフィスを、<span>快適に。</span></p>{inquiry_link()}</div>
 <figure class="office-wf__cover-photo">{photo('floor','大きな窓と広いフロアのある店舗・オフィスの空間',False)}</figure>
 </div></div>
-<div class="office-wf__container office-wf__intro"><h2 class="office-wf__statement"><span class="office-wf__statement-lead">{escape(STATEMENT_LEAD)}</span><span class="office-wf__statement-main">{''.join(f'<span>{escape(part)}</span>' for part in STATEMENT_MAIN_PARTS)}</span></h2><div class="office-wf__intro-copy">{paragraphs(INTRO_COPY)}</div></div>
+<div class="office-wf__container office-wf__intro"><h2 class="office-wf__statement"><span class="office-wf__statement-lead">{escape(STATEMENT_LEAD)}</span><span class="office-wf__statement-main">{''.join(f'<span>{escape(part)}</span>' for part in STATEMENT_MAIN_PARTS)}</span></h2><div class="office-wf__intro-copy">{''.join(f'<p>{escape(text)}</p>' for text in INTRO_PARAGRAPHS)}</div></div>
 </section>
 <section class="office-wf__section office-wf__scene-section c-home" id="office-wf-scenes" aria-labelledby="office-wf-scenes-title"><div class="l-section-inner"><div class="p-reasons"><header class="office-wf__container office-wf__section-head"><h2 id="office-wf-scenes-title">{''.join(f'<span>{escape(line)}</span>' for line in SCENE_TITLE_LINES)}</h2></header><div class="office-wf__scenes c-grid c-reasons p-reasons__contents c-reasons--navy" style="--grid-col-pc: repeat(3, 1fr); --grid-gap-pc: 0; --grid-col-sp: repeat(1, 1fr); --grid-gap-sp: 24px;">{scene_items}</div></div></div></section>
 <section class="office-wf__section office-wf__services" aria-labelledby="office-wf-features-title"><div class="office-wf__container"><div class="office-wf__features">{spreads}</div></div></section>
