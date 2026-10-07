@@ -103,26 +103,206 @@
         "curves": [
           {
             "parent": "l-section l-section--limited home-first-guide-section c-curved-section c-curved-section--down",
-            "y": 1534.703125,
-            "parentY": 1534.703125,
+            "y": 1431.0625,
+            "parentY": 1431.0625,
             "offsetParent": true
           },
           {
             "parent": "home-reasons",
-            "y": 2195.78125,
-            "parentY": 2195.78125,
+            "y": 2092.140625,
+            "parentY": 2092.140625,
             "offsetParent": true
           },
           {
             "parent": "tab-panel_02",
-            "y": 2828.578125,
-            "parentY": 2828.578125,
+            "y": 2724.9375,
+            "parentY": 2724.9375,
             "offsetParent": true
           },
           {
             "parent": "home-pickup",
-            "y": 3620.5625,
-            "parentY": 3620.5625,
+            "y": 3516.921875,
+            "parentY": 3516.921875,
+            "offsetParent": true
+          }
+        ],
+        "backgrounds": [
+          {
+            "selector": "#home-pickup-banner",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": "#home-cleaning-list",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".home-first-guide-section",
+            "color": "rgb(227, 241, 252)"
+          },
+          {
+            "selector": "#home-reasons",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": "#tab-panel_02",
+            "color": "rgb(227, 241, 252)"
+          },
+          {
+            "selector": "#home-pickup",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".c-featured-cleaning",
+            "color": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "banner": {
+        "width": 760,
+        "height": 277.484375,
+        "left": 252.5,
+        "viewport": 1265,
+        "ratio": 2.7388929556844417,
+        "cta": {
+          "x": 300.078125,
+          "y": 345.328125,
+          "width": 361.6875,
+          "height": 47.953125
+        },
+        "headingCount": 0,
+        "curveCount": 0,
+        "linkCount": 1,
+        "linkTarget": "/house-cleaning/aircon/",
+        "centerHitsCta": true,
+        "priceHitsCta": false,
+        "cornerHitsCta": false,
+        "overflow": false,
+        "imageWidth": 2076
+      },
+      "enterNavigated": true
+    },
+    {
+      "width": 1280,
+      "height": 650,
+      "initial": {
+        "height": 650,
+        "background": "rgb(228, 228, 228)",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "placeholder": true,
+        "heroDecoration": 0,
+        "curves": [
+          {
+            "parent": "l-section l-section--limited home-first-guide-section c-curved-section c-curved-section--down",
+            "y": 1530.0625,
+            "parentY": 1530.0625,
+            "offsetParent": true
+          },
+          {
+            "parent": "home-reasons",
+            "y": 2191.140625,
+            "parentY": 2191.140625,
+            "offsetParent": true
+          },
+          {
+            "parent": "tab-panel_02",
+            "y": 2823.9375,
+            "parentY": 2823.9375,
+            "offsetParent": true
+          },
+          {
+            "parent": "home-pickup",
+            "y": 3615.921875,
+            "parentY": 3615.921875,
+            "offsetParent": true
+          }
+        ],
+        "backgrounds": [
+          {
+            "selector": "#home-pickup-banner",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": "#home-cleaning-list",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".home-first-guide-section",
+            "color": "rgb(227, 241, 252)"
+          },
+          {
+            "selector": "#home-reasons",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": "#tab-panel_02",
+            "color": "rgb(227, 241, 252)"
+          },
+          {
+            "selector": "#home-pickup",
+            "color": "rgb(255, 255, 255)"
+          },
+          {
+            "selector": ".c-featured-cleaning",
+            "color": "rgb(255, 255, 255)"
+          }
+        ]
+      },
+      "banner": {
+        "width": 760,
+        "height": 277.484375,
+        "left": 252.5,
+        "viewport": 1265,
+        "ratio": 2.7388929556844417,
+        "cta": {
+          "x": 300.078125,
+          "y": 345.328125,
+          "width": 361.6875,
+          "height": 47.953125
+        },
+        "headingCount": 0,
+        "curveCount": 0,
+        "linkCount": 1,
+        "linkTarget": "/house-cleaning/aircon/",
+        "centerHitsCta": true,
+        "priceHitsCta": false,
+        "cornerHitsCta": false,
+        "overflow": false,
+        "imageWidth": 2076
+      },
+      "enterNavigated": true
+    },
+    {
+      "width": 1280,
+      "height": 651,
+      "initial": {
+        "height": 651,
+        "background": "rgb(228, 228, 228)",
+        "headerBackground": "rgba(0, 0, 0, 0)",
+        "placeholder": true,
+        "heroDecoration": 0,
+        "curves": [
+          {
+            "parent": "l-section l-section--limited home-first-guide-section c-curved-section c-curved-section--down",
+            "y": 1634.703125,
+            "parentY": 1634.703125,
+            "offsetParent": true
+          },
+          {
+            "parent": "home-reasons",
+            "y": 2295.78125,
+            "parentY": 2295.78125,
+            "offsetParent": true
+          },
+          {
+            "parent": "tab-panel_02",
+            "y": 2928.578125,
+            "parentY": 2928.578125,
+            "offsetParent": true
+          },
+          {
+            "parent": "home-pickup",
+            "y": 3720.5625,
+            "parentY": 3720.5625,
             "offsetParent": true
           }
         ],

@@ -551,3 +551,5 @@ CHG-2026-10-06-012公開確認：ソース1a377a9／Pages158edc0／Actions374540
 ## [変更 2026-10-08 / CHG-2026-10-08-004] 短いPC画面の上部広告
 
 home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場合だけ上部広告を最大760px、外側余白は上24px・下28pxとする。1280×551では760×約277px。CHG001の通常PC最大1,000pxとスマホ全幅・画像比率・CTA座標は維持する。650／651pxの境界を含む7条件で対象範囲と操作を確認する。確認記録はevidence/2026-10-08/home-banner-sizing/の現行結果へ更新し、旧寸法の記録はGit履歴で追跡する。
+
+- CHG004の公開確認：ソース26bee44、Pagesa39acea49f0535384ed7002ed1a628b87e2e8d64、Actions37647228682成功。HOME・広告CSS・法人本文・法人CSSの4配信ファイルがHTTP200・SHA-256で正本と一致。公開7条件で短いPCは760px、通常PCは1,000px、スマホは従来幅、CTA範囲とEnter遷移・横はみ出し・JS例外なしを確認し、短いPCの保存画面を目視。確認ブラウザーは終了し、8773プレビューを維持。新法人ワイヤーフレームはローカル1案として保持。記録はevidence/2026-10-08/home-banner-sizing/publication.jsonとpublic-checks.json。
