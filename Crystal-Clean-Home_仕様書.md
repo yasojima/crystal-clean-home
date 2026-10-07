@@ -510,11 +510,12 @@ CHG-2026-10-06-012公開確認：ソース1a377a9／Pages158edc0／Actions374540
 - マニフェスト743登録の全729実ファイルが一致し、登録漏れなし。共通header／footerは全61HTMLで正本と一致し、重複なし。共通部品の修正時は生成後の全ページと末尾の再検証を行う。
 - 詳細証拠は `evidence/2026-10-07/first-view-fit/verification-summary.json` と同フォルダーの各JSON、LP復旧は `lp-scope-restore/`、法人原稿・画像は `office-cleaning/`。今回のWindows上の非表示ブラウザ検証を実機iPhoneの受入と混同しない。
 
-## [追加 2026-10-07 / CHG-2026-10-07-018] エアコン２台バナーのローカル再提案
+## [変更 2026-10-07 / CHG-2026-10-07-019] エアコン２台の広告画像・ローカル比較
 
-- 比較URLは http://127.0.0.1:8773/home-wireframe/aircon-banner/ 。context.html?banner=A/B/Cで現行HOME内に配置して比較する。採用する本編バナーは未決定。
-- 正本は同フォルダーのbuild.py、banner.css、context.js。料金はsource/service-pages/catalogue.jsonのproducts.1を既存prices処理で読む。１台13,200円、２台以上は１台11,000円、２台合計22,000円、２台合計のお得額4,400円。壁掛けタイプ（お掃除機能なし）・同時２台以上・税込の条件を左側に置く。
-- CSS Gridで左約64％／右約36％。Aの4,400はPC最大158px、Bの11,000は最大138px、Cの２台は最大114px。右の透過エアコン画像はPC最大340px幅とし、画像より主訴求を強くする。スマホも左右の役割を保ち、文字とCTAは必要な改行で読む。
-- ラベル・見出し・価格・条件・CTAは静的HTML、星・ドット・放射・パネルはCSS。aのhrefは既存/house-cleaning/aircon/。JavaScriptなしで重要文字を読める。比較画面だけに７項目の設計説明を生成する。
-- 非表示Chrome１ブラウザーで逐次確認し終了後に閉じた。PC・スマホのギャラリー30条件とHOME内15条件、リンク、静的HTML文字、７項目の説明、保存画面を確認。証拠はevidence/2026-10-07/aircon-banner-proposals/verification-revised.json。実機受入と本編採用・公開は別判定。
-- 公開ソースの共通UI・既存HOME・後半３漫画LP枠・通常PC/スマホのbeginner・カート・法人ページは変更しない。ユーザー用プレビュー8773を維持する。
+- 比較URLは http://127.0.0.1:8773/home-wireframe/aircon-banner/ 。context.html?banner=A/B/Cで現行HOME内に置いて比較する。前案はユーザーからデザイン不採用。今回の採用も未決定。
+- built-in image_genで文字を含む横長画像３案を制作する。Aは黄色×青と4,400円お得、Bは白・水色×青にオレンジの11,000円、Cはクリーム×青にお得にキレイの見出しとオレンジCTA。画像パスはassets/banner-a-raster.png、banner-b-raster.png、banner-c-raster.png。
+- 左にカテゴリ・主訴求・価格補足・料金／サービスを見るCTA・条件、右に人物なしのエアコン２台と水・風の演出。縁取り、傾き、ハイライトと立体感を文字とボタンに付ける。Bの条件文はCTA下の左端へ修正する。
+- 料金正本はsource/service-pages/catalogue.jsonのproducts.1を既存prices処理で読む。１台13,200円、２台以上は１台11,000円、２台22,000円、２台合計4,400円お得。画像生成時の金額と正本が変わった場合はbuild.pyを停止する。
+- 比較用のHTMLはaのhrefを既存/house-cleaning/aircon/へ設定し、画像altと各案７項目の設計説明を持つ。今回の広告文字は画像内であり、SEO向けの可視HTML文字・背景画像の分離実装は未実施。比較画面はnoindex。
+- PC横長画像を各表示幅で比率を保持して表示し、原寸リンクを提供する。スマホ専用広告レイアウト・実機受入・本編採用／公開は未実施。表示確認はevidence/2026-10-07/aircon-banner-proposals/verification-raster.json。
+- 本編HOME、共通UI、既存料金・カート・法人・LP・後半３漫画LP枠は維持する。既存プレビュー8773を維持。検証用の非表示Chromeは１ブラウザーで逐次確認し終了時に閉じる。

@@ -10,16 +10,17 @@ ROOT = Path(__file__).resolve().parents[3]
 HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / 'tools'))
 from bs4 import BeautifulSoup
+from PIL import Image
 from build_cart_catalogue import prices
 
 BASE = '/home-wireframe/aircon-banner/'
 DESTINATION = '/house-cleaning/aircon/'
 VARIANTS = (
-    ('A', '4,400円お得！が主役', '最大サイズのお得額と黄色×青で、３案の中で最も強く目を引く販促型。'),
-    ('B', '11,000円を一番に', '１台あたりの料金を圧倒的に大きく見せ、料金理解を最優先。'),
-    ('C', '２台まとめて、お得にキレイ！', '大きな２台の文字に、リビング・寝室の親しみを添えた販促型。'),
+    ('A', '4,400円お得！を押し出す', '黄色×青と立体的な文字組みで、お得額を最初に伝える。'),
+    ('B', '11,000円の価格訴求', '青の見出しとオレンジの数字で、１台あたりの料金を伝える。'),
+    ('C', 'お得にキレイ！を元気に', '暮らしの背景に、大きな文字組みとオレンジのCTAを合わせる。'),
 )
-CTA = 'エアコンクリーニングの料金を見る'
+CTA = '料金・サービスを見る'
 
 
 def pricing():
@@ -32,57 +33,53 @@ def pricing():
                 total=multiple*2, totalSaving=(single-multiple)*2)
 
 
+def headline(letter, p):
+    return {
+        'A': f'２台まとめて {p["totalSaving"]:,}円お得！',
+        'B': f'２台以上なら、１台あたり{p["multiple"]:,}円（税込）',
+        'C': '２台まとめて、お得にキレイ！',
+    }[letter]
+
+
 def banner(letter, p, prefix):
+    asset = f'assets/banner-{letter.lower()}-raster.png'
+    with Image.open(HERE / asset) as picture:
+        width, height = picture.size
+    support = (f'１台あたり{p["saving"]:,}円お得。' if letter == 'A'
+               else f'２台合計{p["total"]:,}円（税込）。')
     condition = '壁掛けタイプ（お掃除機能なし）／同時に２台以上のご注文時／税込'
-    art = f'<img class="ab-art" src="{BASE}assets/aircon-pair.png" width="1536" height="1024" alt="" decoding="async" loading="lazy">'
-    action = '<span class="ab-action"><span class="ab-action-text"><span>エアコンクリーニングの</span><span>料金を見る</span></span><span class="ab-action-arrow" aria-hidden="true">→</span></span>'
-    note = f'<p id="{prefix}-condition" class="ab-condition">{condition}</p>'
-    category = '<p class="ab-tag">エアコンクリーニング</p>'
-    if letter == 'A':
-        copy = f'''<div class="ab-copy">{category}<span class="ab-promo">まとめてお得</span>
-<h3 id="{prefix}-title" class="ab-title"><span class="ab-title-lead">２台まとめて</span><span class="ab-offer"><strong class="ab-main-number">{p['totalSaving']:,}</strong><span class="ab-offer-ending"><span>円</span><b>お得！</b></span></span></h3>
-<p class="ab-support">１台あたり{p['saving']:,}円お得</p>{action}{note}</div>
-<div class="ab-visual" aria-hidden="true"><span class="ab-visual-shape"></span>{art}<span class="ab-deco-star ab-deco-star--one"></span><span class="ab-deco-star ab-deco-star--two"></span></div>'''
-    elif letter == 'B':
-        copy = f'''<div class="ab-copy">{category}<span class="ab-promo">２台以上でお得</span>
-<h3 id="{prefix}-title" class="ab-title"><span class="ab-title-lead">２台以上なら</span><span class="ab-unit-label">１台あたり</span><span class="ab-offer"><strong class="ab-main-number">{p['multiple']:,}</strong><span class="ab-offer-ending"><span>円</span><small>税込</small></span></span></h3>
-<p class="ab-support">２台合計 <strong>{p['total']:,}円</strong>（税込）</p>{action}{note}</div>
-<div class="ab-visual" aria-hidden="true"><span class="ab-visual-shape"></span>{art}<span class="ab-deco-star ab-deco-star--one"></span></div>'''
-    else:
-        copy = f'''<div class="ab-copy">{category}<span class="ab-promo">まとめてお得</span>
-<h3 id="{prefix}-title" class="ab-title"><span class="ab-title-line"><strong class="ab-count">２台</strong><span>まとめて、</span></span><span class="ab-title-line ab-life-message">お得にキレイ！</span></h3>
-<p class="ab-life-note">リビングも、寝室も。</p><p class="ab-support">２台合計 <strong>{p['total']:,}<span>円</span></strong><small>税込</small></p>{action}{note}</div>
-<div class="ab-visual" aria-hidden="true"><span class="ab-visual-shape"></span>{art}<span class="ab-room ab-room--living">リビング</span><span class="ab-room ab-room--bed">寝室</span><span class="ab-deco-star ab-deco-star--one"></span></div>'''
-    return f'''<a class="ab-banner ab-banner--{letter.lower()}" href="{DESTINATION}" aria-labelledby="{prefix}-title" aria-describedby="{prefix}-condition">
-{copy}</a>'''
+    alt = f'エアコンクリーニング。{headline(letter,p)}。{support}{CTA}。{condition}'
+    return f'<a class="ab-banner ab-banner--{letter.lower()}" href="{DESTINATION}" id="{prefix}"><img class="ab-raster" src="{BASE}{asset}" width="{width}" height="{height}" alt="{escape(alt,quote=True)}" decoding="async"></a>'
 
 
 def design_notes(letter, p):
-    common_structure = 'a要素全体をリンクにし、CSS Gridで左64％／右36％。左はラベル→h3→価格補足→CTA→条件、右は文字なしのimgとCSS装飾。すべての文字は静的HTML。'
-    notes = {
+    implementation = '今回は文字を含む画像デザイン案。HTML/CSSで実装する場合は、左の見出し・数字・条件・CTAをHTMLにし、背景と右のエアコンを文字なし画像へ分離する。分離実装は未実施。'
+    return {
         'A': [
-            ('狙い', 'お得額が見た瞬間に分かる、最も販促感の強い案。画像より大きい数字と、黄色・青の強い対比で目を引きます。'),
-            ('レイアウト', '左に「２台まとめて」→最大サイズの4,400→円お得！→CTA→条件。右のエアコン２台は小さめにまとめ、青い斜めパネルで分離します。'),
-            ('配色', '黄色#ffdf32×濃い青#06439d。お得ラベルとCTAはオレンジ、数字は白い縁取り。ドット・放射は薄く、文字の背面を優先。'),
-            ('メインコピー', f'２台まとめて {p["totalSaving"]:,}円お得！'),
-            ('価格の見せ方', f'{p["totalSaving"]:,}をPC最大158pxで主役に。１台あたり{p["saving"]:,}円お得は小さく補足。'),
-            ('CTA', CTA), ('HTML/CSS構造', common_structure)],
+            ('狙い', 'お得額が一目で入る、最も販促感の強い案。青い4,400とオレンジのお得！を、縁取り・傾き・立体感で一つの文字組みにします。'),
+            ('レイアウト', '左にカテゴリ、２台まとめて、大きな4,400円お得！、補足、青いCTA、条件。右に上下へずらした２台と水・風の演出。'),
+            ('配色', '黄色×ロイヤルブルーを主役に、お得！だけをオレンジ。白い縁取りと背景の放射・端のドットで文字を浮かせます。'),
+            ('メインコピー', headline(letter,p)),
+            ('価格の見せ方', f'{p["totalSaving"]:,}円を最大の文字組みとし、１台あたり{p["saving"]:,}円お得は白い筆風の帯に小さく添えます。'),
+            ('CTA', CTA + '。青い立体ピル形、白い丸の中に右矢印。'),
+            ('HTML/CSS構造', implementation)],
         'B': [
-            ('狙い', 'いくらで頼めるかを最短で伝える案。１台あたりの11,000円を最も大きくし、２台合計は補助情報に留めます。'),
-            ('レイアウト', '左に「２台以上なら」→１台あたり→大きな11,000円（税込）→小さな２台合計→CTA→条件。右は２台の画像と青い丸背景。'),
-            ('配色', '白・水色#eaf7ff×濃い青#06439d。料金の円と販促ラベルにオレンジ、帯に黄色。数値部分は無地で読みやすく。'),
-            ('メインコピー', f'２台以上なら、１台あたり{p["multiple"]:,}円（税込）'),
-            ('価格の見せ方', f'{p["multiple"]:,}をPC最大138px。２台合計{p["total"]:,}円（税込）は下に小さく表示し、情報の強弱を明確に。'),
-            ('CTA', CTA), ('HTML/CSS構造', common_structure)],
+            ('狙い', '１台あたりの料金理解を優先する案。青い見出しの下にオレンジの11,000を置き、価格だけが最も強く目に入る構成にします。'),
+            ('レイアウト', '左にカテゴリ、２台以上なら、１台あたり、11,000円（税込）、２台合計、青いCTA、条件。右は白い２台と涼しい風・水の背景。'),
+            ('配色', '白×水色×青の清潔感に、オレンジの価格と黄色の単位ラベル。価格の縁と影、CTAのハイライトに細部の差を付けます。'),
+            ('メインコピー', headline(letter,p)),
+            ('価格の見せ方', f'{p["multiple"]:,}を最大、円と税込は横に小さく。２台合計{p["total"]:,}円（税込）は下の細い行へ分けます。'),
+            ('CTA', CTA + '。青い立体ピル形、白い丸の中に右矢印。'),
+            ('HTML/CSS構造', implementation)],
         'C': [
-            ('狙い', 'まとめて注文するメリットに暮らしの親しみを添える案。２台の文字を大きくし、リビング・寝室は補助情報として扱います。'),
-            ('レイアウト', '左に大きな「２台」→「まとめて、お得にキレイ！」→生活場面→２台合計料金→CTA→条件。右は２台の画像と部屋名ラベル。'),
-            ('配色', 'クリーム#fff0d4×サイトの濃い青。オレンジの帯と黄色の下線で販促感を加え、温かさと視認性を両立。'),
-            ('メインコピー', '２台まとめて、お得にキレイ！'),
-            ('価格の見せ方', f'２台の文字はPC最大114px。２台合計{p["total"]:,}円（税込）は最大42pxで、メインコピーの次に見せます。'),
-            ('CTA', CTA), ('HTML/CSS構造', common_structure)],
-    }
-    return notes[letter]
+            ('狙い', '２台まとめてキレイになる親しみと、お得感を合わせる案。生活の背景を添えつつ、文字とボタンの勢いを保ちます。'),
+            ('レイアウト', '左に大きな２台まとめて、お得にキレイ！。リビングも、寝室も。を補足し、価格帯とオレンジCTAを下に。右は明るい室内と２台のエアコン。'),
+            ('配色', 'クリーム・暖かな黄色×青。お得にとCTAはオレンジ、主見出しは青。白い縁と暖色の影で、文字と室内背景を分離します。'),
+            ('メインコピー', headline(letter,p)),
+            ('価格の見せ方', f'２台合計{p["total"]:,}円（税込）を青枠の横長パネルにまとめ、オレンジの数字で見出しの次に読ませます。'),
+            ('CTA', CTA + '。オレンジの立体ピル形、白い丸の中に右矢印。'),
+            ('HTML/CSS構造', implementation)],
+    }[letter]
 
 
 def notes_markup(letter, p):
@@ -92,21 +89,23 @@ def notes_markup(letter, p):
 
 def build():
     p = pricing()
+    generation = json.loads((HERE / 'image-generation.json').read_text(encoding='utf-8'))
+    assert p == generation['generationPriceSnapshot'], 'Raster prices differ from current catalogue; regenerate artwork.'
     articles = ''.join(f'''<article class="ab-proposal" id="proposal-{letter}">
 <header class="ab-proposal-heading"><div><span class="ab-letter">{letter}</span><h2>{label}</h2></div><p>{description}</p><a href="context.html?banner={letter}#home-pickup-banner">HOMEで見る <span aria-hidden="true">↗</span></a></header>
-{banner(letter, p, 'gallery-'+letter)}{notes_markup(letter,p)}</article>''' for letter, label, description in VARIANTS)
+{banner(letter, p, 'gallery-'+letter)}<div class="ab-image-links"><a href="assets/banner-{letter.lower()}-raster.png">画像を原寸で見る ↗</a></div>{notes_markup(letter,p)}</article>''' for letter, label, description in VARIANTS)
     page = f'''<!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>エアコン２台バナー・３案 | Crystal Clean Home</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700;900&amp;display=swap"><link rel="stylesheet" href="{BASE}banner.css"></head>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>エアコン２台バナー・３案 | Crystal Clean Home</title><link rel="stylesheet" href="{BASE}banner.css"></head>
 <body class="ab-review"><header class="ab-review-header"><a class="ab-brand" href="/home-wireframe/">Crystal Clean Home</a><span>バナー・３案比較</span></header>
-<main class="ab-review-main"><section class="ab-intro"><p class="ab-kicker">エアコン２台・まとめてお得</p><h1>数字が主役の、販促バナー。</h1><p>左に訴求と料金、右に２台のエアコン。情報の強弱をつけて、３案を再構成しました。</p><nav aria-label="３案の移動"><a href="#proposal-A">A お得額</a><a href="#proposal-B">B 料金</a><a href="#proposal-C">C ２台まとめて</a></nav></section>
-{articles}<footer class="ab-review-note"><p>ローカルの比較用です。掲載する案は未決定です。</p><p>文言・金額・条件はHTMLで表示しています。３案とも既存のエアコンページへつながります。</p><a href="/home-wireframe/">HOMEの比較画面に戻る</a></footer></main></body></html>'''
+<main class="ab-review-main"><section class="ab-intro"><p class="ab-kicker">エアコン２台・まとめてお得</p><h1>エアコン２台・広告バナー３案</h1><p>文字組み、価格表示、CTAまで含めた画像デザイン案です。</p><nav aria-label="３案の移動"><a href="#proposal-A">A お得額</a><a href="#proposal-B">B 料金</a><a href="#proposal-C">C ２台まとめて</a></nav></section>
+{articles}<footer class="ab-review-note"><p>ローカルの比較用です。掲載する案は未決定です。</p><p>今回は文字を含む画像案です。SEOを意識した文字・背景の分離実装は未実施です。</p><a href="/home-wireframe/">HOMEの比較画面に戻る</a></footer></main></body></html>'''
     (HERE / 'index.html').write_text(page, encoding='utf-8', newline='\n')
     original = (ROOT / 'source/site/index.html').read_text(encoding='utf-8')
     match = re.search(r'<section\b[^>]*id="home-pickup-banner"[^>]*>.*?</section>', original, re.S)
     assert match
     panels = ''.join(f'<div data-ab-panel="{letter}"'+(' hidden' if letter != 'A' else '')+f'>{banner(letter,p,"context-"+letter)}</div>' for letter,_,_ in VARIANTS)
     controls = ''.join(f'<button type="button" data-ab-choice="{letter}" aria-pressed="'+('true' if letter == 'A' else 'false')+f'">{letter} {label}</button>' for letter,label,_ in VARIANTS)
-    replacement = f'''<section class="home-pickup home-pickup--banner" id="home-pickup-banner" aria-labelledby="home-pickup-banner-title"><div class="home-pickup__inner"><div class="ab-context-review"><p>上部バナー・３案比較</p><div role="group" aria-label="バナーの３案">{controls}</div><a href="{BASE}">３案を並べて見る</a></div><header class="home-pickup__heading"><span>PICK UP</span><h2 id="home-pickup-banner-title">まとめて頼むお掃除</h2></header>{panels}</div></section>'''
+    replacement = f'''<section class="home-pickup home-pickup--banner" id="home-pickup-banner" aria-labelledby="home-pickup-banner-title"><div class="home-pickup__inner"><div class="ab-context-review"><p>画像デザイン・３案比較</p><div role="group" aria-label="バナーの３案">{controls}</div><a href="{BASE}">３案を並べて見る</a></div><header class="home-pickup__heading"><span>PICK UP</span><h2 id="home-pickup-banner-title">まとめて頼むお掃除</h2></header>{panels}</div></section>'''
     context = original[:match.start()] + replacement + original[match.end():]
     context = re.sub(r'<title>.*?</title>', '<title>HOMEのエアコンバナー比較 | Crystal Clean Home</title>', context, count=1)
     context = context.replace('</head>', f'<meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="{BASE}banner.css"><script src="{BASE}context.js" defer></script></head>', 1)
@@ -124,13 +123,19 @@ def build():
         preservation[name] = True
     metadata = dict(priceSource='source/service-pages/catalogue.json: products.1',
                     priceParser='tools/build_cart_catalogue.py: prices', prices=p,
-                    revision=2, designNotes={letter:dict(design_notes(letter,p)) for letter,_,_ in VARIANTS},
+                    revision=3, designNotes={letter:dict(design_notes(letter,p)) for letter,_,_ in VARIANTS},
                     variants=[v[0] for v in VARIANTS], destination=DESTINATION,
-                    textRendering='static HTML; CSS decorations; raster artwork contains no text',
-                    prototypeOnly=True, published=False, preservedMarkup=preservation,
+                    textRendering='raster design proposals; accessible alt and HTML design briefs; SEO text/background separation not implemented',
+                    prototypeOnly=True, published=False, adopted=False, preservedMarkup=preservation,
                     sourceHomeSha256=sha256((ROOT / 'source/site/index.html').read_bytes()).hexdigest())
+    metadata['assets'] = {}
+    for letter,_,_ in VARIANTS:
+        asset_path = HERE / f'assets/banner-{letter.lower()}-raster.png'
+        with Image.open(asset_path) as picture:
+            dimensions = picture.size
+        metadata['assets'][letter] = dict(path=asset_path.relative_to(HERE).as_posix(), dimensions=dimensions, sha256=sha256(asset_path.read_bytes()).hexdigest())
     (HERE / 'build-info.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2)+'\n',encoding='utf-8',newline='\n')
-    brief = ['## 再提案３案の設計説明', '', '３案とも左に訴求・価格・CTA・条件、右に２台の画像を置きます。販促ラベルは「まとめてお得」「２台以上」を使用します。', '']
+    brief = ['## ３案の設計説明', '', '３案は文字を含む画像デザイン案です。採用する案と、本編への反映・SEO向けの文字分離は未決定です。', '']
     for letter, label, _ in VARIANTS:
         brief.extend([f'### {letter}案：{label}', ''])
         brief.extend(f'- **{key}**：{value}' for key, value in design_notes(letter, p))
