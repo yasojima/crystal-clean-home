@@ -1,7 +1,7 @@
 {
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
-  "cssVersion": "2026100813",
+  "cssVersion": "2026100814",
   "records": [
     {
       "width": 1439,
@@ -149,13 +149,13 @@
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 498.65625,
-        "y": 172,
-        "width": 853.34375,
-        "height": 533.328125
+        "x": 356.796875,
+        "y": 139.921875,
+        "width": 1067.203125,
+        "height": 646.0625
       },
       "coverFontSize": "76px",
-      "coverTextOverlap": 233.40625,
+      "coverTextOverlap": 375.265625,
       "firstView": {
         "frame": {
           "x": 0,
@@ -164,10 +164,10 @@
           "height": 662.0625
         },
         "photo": {
-          "x": 498.65625,
-          "y": 172,
-          "width": 853.34375,
-          "height": 533.328125
+          "x": 356.796875,
+          "y": 139.921875,
+          "width": 1067.203125,
+          "height": 646.0625
         },
         "title": {
           "x": 72,
@@ -181,7 +181,7 @@
           "width": 288,
           "height": 64
         },
-        "photoBackingBottom": 737.328125
+        "photoBackingBottom": 801.984375
       },
       "typography": {
         "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
@@ -223,10 +223,10 @@
         {
           "content": "\"\"",
           "color": "rgb(238, 241, 241)",
-          "left": 16,
-          "right": -20,
-          "top": 28,
-          "bottom": -32,
+          "left": 24,
+          "right": 0,
+          "top": 24,
+          "bottom": -16,
           "photoWidthFraction": 1
         },
         {
@@ -426,13 +426,13 @@
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 435,
-        "y": 142.03125,
-        "width": 790,
-        "height": 354.90625
+        "x": 293,
+        "y": 120,
+        "width": 972,
+        "height": 415
       },
       "coverFontSize": "67.84px",
-      "coverTextOverlap": 194.109375,
+      "coverTextOverlap": 336.109375,
       "firstView": {
         "frame": {
           "x": 0,
@@ -441,10 +441,10 @@
           "height": 431
         },
         "photo": {
-          "x": 435,
-          "y": 142.03125,
-          "width": 790,
-          "height": 354.90625
+          "x": 293,
+          "y": 120,
+          "width": 972,
+          "height": 415
         },
         "title": {
           "x": 40,
@@ -458,7 +458,7 @@
           "width": 284.25,
           "height": 64
         },
-        "photoBackingBottom": 528.9375
+        "photoBackingBottom": 551
       },
       "typography": {
         "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
@@ -500,10 +500,10 @@
         {
           "content": "\"\"",
           "color": "rgb(238, 241, 241)",
-          "left": 16,
-          "right": -20,
-          "top": 28,
-          "bottom": -32,
+          "left": 24,
+          "right": 0,
+          "top": 24,
+          "bottom": -16,
           "photoWidthFraction": 1
         },
         {
@@ -703,13 +703,13 @@
       ],
       "gallerySmallerThanMain": true,
       "heroPhoto": {
-        "x": 347,
-        "y": 155.515625,
-        "width": 630,
-        "height": 393.75
+        "x": 241.796875,
+        "y": 124.796875,
+        "width": 767.203125,
+        "height": 627.1875
       },
       "coverFontSize": "54.272px",
-      "coverTextOverlap": 156.34375,
+      "coverTextOverlap": 261.546875,
       "firstView": {
         "frame": {
           "x": 0,
@@ -718,10 +718,10 @@
           "height": 643.1875
         },
         "photo": {
-          "x": 347,
-          "y": 155.515625,
-          "width": 630,
-          "height": 393.75
+          "x": 241.796875,
+          "y": 124.796875,
+          "width": 767.203125,
+          "height": 627.1875
         },
         "title": {
           "x": 32,
@@ -735,7 +735,7 @@
           "width": 299,
           "height": 64
         },
-        "photoBackingBottom": 581.265625
+        "photoBackingBottom": 767.984375
       },
       "typography": {
         "heading": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
@@ -777,10 +777,10 @@
         {
           "content": "\"\"",
           "color": "rgb(238, 241, 241)",
-          "left": 16,
-          "right": -20,
-          "top": 28,
-          "bottom": -32,
+          "left": 24,
+          "right": 0,
+          "top": 24,
+          "bottom": -16,
           "photoWidthFraction": 1
         },
         {
@@ -1678,5 +1678,335 @@
     "reducedMotion": "none"
   },
   "pageErrors": [],
-  "status": "PASS"
+  "status": "PASS",
+  "coverRevision": {
+    "status": "PASS",
+    "leftContentStyleAndPositionUnchanged": true,
+    "records": [
+      {
+        "width": 1439,
+        "height": 802,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "35.975px",
+            "rect": {
+              "x": 72,
+              "y": 204.078125,
+              "width": 640,
+              "height": 57.546875
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "76px",
+            "rect": {
+              "x": 72,
+              "y": 261.625,
+              "width": 640,
+              "height": 237.1875
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "15px",
+            "rect": {
+              "x": 72,
+              "y": 522.8125,
+              "width": 288,
+              "height": 64
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 139.921875,
+          "width": 1424,
+          "height": 662.0625
+        },
+        "photo": {
+          "x": 356.796875,
+          "y": 139.921875,
+          "width": 1067.203125,
+          "height": 646.0625
+        },
+        "backBottom": 801.984375,
+        "overlap": 375.265625,
+        "overflow": 0
+      },
+      {
+        "width": 1280,
+        "height": 551,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "24px",
+            "rect": {
+              "x": 40,
+              "y": 164.0625,
+              "width": 592.5,
+              "height": 38.390625
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "67.84px",
+            "rect": {
+              "x": 40,
+              "y": 202.453125,
+              "width": 592.5,
+              "height": 200.375
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "15px",
+            "rect": {
+              "x": 40,
+              "y": 418.828125,
+              "width": 284.25,
+              "height": 64
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 120,
+          "width": 1265,
+          "height": 431
+        },
+        "photo": {
+          "x": 293,
+          "y": 120,
+          "width": 972,
+          "height": 415
+        },
+        "backBottom": 551,
+        "overlap": 336.109375,
+        "overflow": 0
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "25.6px",
+            "rect": {
+              "x": 32,
+              "y": 186.234375,
+              "width": 472.5,
+              "height": 40.9375
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "54.272px",
+            "rect": {
+              "x": 32,
+              "y": 227.171875,
+              "width": 472.5,
+              "height": 178.5
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "15px",
+            "rect": {
+              "x": 32,
+              "y": 429.671875,
+              "width": 299,
+              "height": 64
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 124.796875,
+          "width": 1009,
+          "height": 643.1875
+        },
+        "photo": {
+          "x": 241.796875,
+          "y": 124.796875,
+          "width": 767.203125,
+          "height": 627.1875
+        },
+        "backBottom": 767.984375,
+        "overlap": 261.546875,
+        "overflow": 0
+      },
+      {
+        "width": 768,
+        "height": 800,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "24px",
+            "rect": {
+              "x": 32,
+              "y": 104,
+              "width": 689,
+              "height": 38.390625
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "40.704px",
+            "rect": {
+              "x": 32,
+              "y": 142.390625,
+              "width": 689,
+              "height": 133.875
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "15px",
+            "rect": {
+              "x": 32,
+              "y": 300.265625,
+              "width": 328.5,
+              "height": 64
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 72,
+          "width": 753,
+          "height": 728
+        },
+        "photo": {
+          "x": 32,
+          "y": 388.265625,
+          "width": 689,
+          "height": 347.734375
+        },
+        "backBottom": 768,
+        "overlap": 353.484375,
+        "overflow": 0
+      },
+      {
+        "width": 414,
+        "height": 688,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "24px",
+            "rect": {
+              "x": 20,
+              "y": 112,
+              "width": 359,
+              "height": 38.390625
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "27.324px",
+            "rect": {
+              "x": 20,
+              "y": 150.390625,
+              "width": 359,
+              "height": 97.78125
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "14px",
+            "rect": {
+              "x": 20,
+              "y": 264.171875,
+              "width": 178,
+              "height": 55
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 96,
+          "width": 399,
+          "height": 592
+        },
+        "photo": {
+          "x": 20,
+          "y": 343.171875,
+          "width": 359,
+          "height": 308.828125
+        },
+        "backBottom": 672,
+        "overlap": 237.28125,
+        "overflow": 0
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "left": [
+          {
+            "text": "法人向けサービス",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "24px",
+            "rect": {
+              "x": 20,
+              "y": 164,
+              "width": 265,
+              "height": 38.390625
+            }
+          },
+          {
+            "text": "店舗・オフィスを、\n清潔に。",
+            "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+            "size": "26px",
+            "rect": {
+              "x": 20,
+              "y": 202.390625,
+              "width": 265,
+              "height": 94.1875
+            }
+          },
+          {
+            "text": "法人向け清掃のご相談",
+            "font": "\"Noto Sans JP\", sans-serif",
+            "size": "14px",
+            "rect": {
+              "x": 20,
+              "y": 312.578125,
+              "width": 131,
+              "height": 55
+            }
+          }
+        ],
+        "frame": {
+          "x": 0,
+          "y": 148,
+          "width": 305,
+          "height": 420
+        },
+        "photo": {
+          "x": 20,
+          "y": 391.578125,
+          "width": 265,
+          "height": 140.421875
+        },
+        "backBottom": 552,
+        "overlap": 225.8125,
+        "overflow": 0
+      }
+    ]
+  }
 }
