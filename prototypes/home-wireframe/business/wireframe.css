@@ -25,7 +25,7 @@ body .office-wf :is(.office-wf__cover-word,.office-wf__display-word,.office-wf__
 .office-wf__inquiry-surface { display:flex; box-sizing:border-box; align-items:center; justify-content:center; }
 .office-wf__inquiry-text { font-size:18px; }
 .office-wf__cover-title .office-wf__inquiry-link { margin-top:24px; }
-.office-wf__cover-title .office-wf__inquiry-text { min-height:0; }
+.office-wf__cover-title .office-wf__inquiry-text { min-height:0; font-size:21px; }
 .office-wf__inquiry-link:focus-visible { outline:2px solid #005bac; outline-offset:6px; }
 .office-wf__intro { display:grid; grid-template-columns:5fr 6fr; gap:64px; max-width:1040px; margin-top:80px; padding-top:48px; border-top:1px solid var(--office-wf-rule); container-type:inline-size; }
 body .office-wf .office-wf__statement { position:relative; top:-20px; margin:0; line-height:1.4; letter-spacing:.025em; text-align:center; }
@@ -99,7 +99,7 @@ body .office-wf .office-wf__statement { position:relative; top:-20px; margin:0; 
  .office-wf__cover-word span { padding-left:.44em; }
  .office-wf__cover-title .office-wf__inquiry-link { width:clamp(270px,29.5cqw,420px); max-width:none; margin:clamp(20px,6.5svh,52px) 0 0 16px; border-bottom-right-radius:clamp(28px,3.2cqw,46px); }
  .office-wf__cover-title .office-wf__inquiry-surface { min-height:clamp(64px,11.5svh,92px); border-bottom-right-radius:clamp(28px,3.2cqw,46px); }
- .office-wf__cover-title .office-wf__inquiry-text { font-size:clamp(20px,1.96cqw,28px); }
+ .office-wf__cover-title .office-wf__inquiry-text { font-size:clamp(24px,2.31cqw,33px); }
  .office-wf__cover-photo { position:absolute; top:0; right:0; bottom:16px; left:calc(max(40px,(100% - 1280px) / 2) + min(300px,20cqw)); }
  .office-wf__cover-photo img { height:100%; max-height:none; aspect-ratio:auto; }
  .office-wf__cover-photo::before { inset:24px 0 -16px 24px; }
@@ -152,7 +152,6 @@ body .office-wf .office-wf__statement { position:relative; top:-20px; margin:0; 
  .office-wf__cover-word { display:block; font-size:clamp(26px,6.6vw,44px); padding:12px 0; }
  .office-wf__cover-word span { display:block; padding-left:18px; }
  .office-wf__cover-title .office-wf__inquiry-link { margin-top:16px; }
- .office-wf__cover-title .office-wf__inquiry-text { font-size:18px; }
  .office-wf__cover-photo::before { inset:14px -8px -20px 8px; }
  .office-wf__intro { margin-top:40px; padding-top:28px; gap:24px; }
  .office-wf .office-wf__intro-copy p + p { margin-top:24px; }

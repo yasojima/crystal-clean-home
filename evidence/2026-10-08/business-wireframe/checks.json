@@ -2,7 +2,7 @@
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
   "copyTransform": "Brochure-only: 清潔 to 快適; aircon ending to 快適に使える状態; feature source wording retained and paragraphs split by sentences; consultation reduced to three POINT topics; closing replaced with one short inquiry sentence.",
-  "cssVersion": "2026100832",
+  "cssVersion": "2026100833",
   "reference": "http://127.0.0.1:8773/house-cleaning/aircon/",
   "records": [
     {
@@ -4611,8 +4611,152 @@
     ],
     "pageErrors": [],
     "status": "PASS",
-    "visualInspection": "Saved intro, scenes and cover screenshots reviewed after the five-paragraph update."
+    "visualInspection": "Saved intro, scenes and cover screenshots reviewed after the five-paragraph update.",
+    "verifiedAtCssVersion": "2026100832"
   },
   "recordsVerifiedAtCssVersion": "2026100829",
-  "largeScreenLimitsVerifiedAtCssVersion": "2026100829"
+  "largeScreenLimitsVerifiedAtCssVersion": "2026100829",
+  "coverCtaTypography": {
+    "cssVersion": "2026100833",
+    "records": [
+      {
+        "width": 1518,
+        "height": 801,
+        "before": 28,
+        "after": 33,
+        "frame": {
+          "x": 127.5,
+          "y": 626.46875,
+          "width": 420,
+          "height": 92
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1439,
+        "height": 802,
+        "before": 27.9104,
+        "after": 32.8944,
+        "frame": {
+          "x": 88,
+          "y": 623.84375,
+          "width": 420,
+          "height": 92
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1280,
+        "height": 551,
+        "before": 24.794,
+        "after": 29.2215,
+        "frame": {
+          "x": 56,
+          "y": 467.203125,
+          "width": 373.171875,
+          "height": 64
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "before": 20,
+        "after": 24,
+        "frame": {
+          "x": 48,
+          "y": 508.078125,
+          "width": 297.640625,
+          "height": 88.3125
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 1023,
+        "height": 768,
+        "before": 20,
+        "after": 24,
+        "frame": {
+          "x": 48,
+          "y": 466.296875,
+          "width": 297.359375,
+          "height": 88.3125
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 768,
+        "height": 800,
+        "before": 18,
+        "after": 21,
+        "frame": {
+          "x": 32,
+          "y": 300.265625,
+          "width": 328.5,
+          "height": 64
+        },
+        "closingCtaSize": 18,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 414,
+        "height": 688,
+        "before": 18,
+        "after": 21,
+        "frame": {
+          "x": 20,
+          "y": 264.171875,
+          "width": 178,
+          "height": 55
+        },
+        "closingCtaSize": 16,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "before": 18,
+        "after": 21,
+        "frame": {
+          "x": 20,
+          "y": 312.578125,
+          "width": 131,
+          "height": 55
+        },
+        "closingCtaSize": 16,
+        "labelFits": true,
+        "frameUnchanged": true,
+        "overflow": 0,
+        "status": "PASS"
+      }
+    ],
+    "pageErrors": [],
+    "status": "PASS"
+  }
 }
