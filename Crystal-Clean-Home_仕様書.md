@@ -570,3 +570,9 @@ home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場�
 - 末尾CTAは最大660pxの1列で「法人向け清掃のご相談」→「清掃箇所やご希望の時期について、お気軽にご相談ください。」→「ご相談窓口」の3要素。長い締めの説明文は再掲しない。上下の罫線とコンパクトな左寄せを使用する。
 - 見出し・訴求・CTAはZen Kaku Gothic New、本文・写真ラベルはNoto Sans JPで、共通正本`site-typography.css`を使用する。上下CTAは同じ生成ヘルパーとHOME青色カードの共通CSSを使い、青・白文字・影・右下角丸・光が流れるホバーを再利用。円形矢印は表示しない。上下とも「ご相談窓口」・`/contact/business/`・`data-demo-dialog`による既存デモ操作。表紙のPC CTA最大420×92px、文字はclamp(24px,2.31cqw,33px)へ拡大。991px以下の表紙CTA文字は21px。表紙CTAの文字の最小高を解除し、文字サイズで枠高が増えないようにする。末尾通常PC288×64px。Tab／Enter・フォーカス・動きを減らす設定を維持する。
 - 1280px／1024px／tablet／mobileを含む複数幅で、共通相談枠の寸法、POINT、本文の折り返し、写真の大小、段落間隔、横はみ出しとJS例外を確認する。現行証拠は`evidence/2026-10-08/business-wireframe/`。本編への採用・公開・実機受入は別工程。
+
+## [追加 2026-10-08 / CHG-2026-10-08-016] 法人ページの複製
+
+- ユーザーの指示により、現行法人ページをprototypes/home-wireframe/business-copy/へ複製する。URLはhttp://127.0.0.1:8773/home-wireframe/business-copy/。
+- HTML・CSS・生成元を独立して保持し、同じ原稿・画像参照・共通UI・CTA動作を使用する。複製のCSSは複製先URLを参照する。元ページは変更しない。
+- PC1439pxとスマホ414pxで、原稿・画像参照・本文領域・CTA寸法と位置が元ページと一致。複製HTMLとCSSのHTTP200を確認。
