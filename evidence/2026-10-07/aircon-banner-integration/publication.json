@@ -1,0 +1,28 @@
+{
+  "pagesCommit": "30562c86e7300774d62a323f7a24d56d1debbd07",
+  "actionsRun": 37635222157,
+  "actionsConclusion": "success",
+  "sourceCommit": "857d8b4f4540dfd6fd697ef44e40b643a9aca9d4",
+  "checkedAt": "2026-10-07T14:18:01.412183+00:00",
+  "checks": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "59b1be36f80253071ccea6a044c8bfb33df1ce99666e23a51a0cf08eb303a72b",
+      "match": true
+    },
+    {
+      "path": "assets/css/home-pickups.css",
+      "status": 200,
+      "sha256": "c6ebab563d5633d33831b30aae925e7724ab10074be92889028cd438ebef185d",
+      "match": true
+    },
+    {
+      "path": "assets/images/home/aircon-bundle-banner.png",
+      "status": 200,
+      "sha256": "a02719dfa995036c999af6b244ef1de4260516d1014b47b9dcc42ae4ad7a6fa1",
+      "match": true
+    }
+  ],
+  "allMatch": true
+}
