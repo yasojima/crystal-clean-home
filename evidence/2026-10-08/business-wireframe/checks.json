@@ -1,7 +1,7 @@
 {
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
-  "cssVersion": "2026100815",
+  "cssVersion": "2026100816",
   "records": [
     {
       "width": 1439,
@@ -173,13 +173,13 @@
           "x": 72,
           "y": 172,
           "width": 640,
-          "height": 555.84375
+          "height": 543.84375
         },
         "cta": {
           "x": 88,
           "y": 623.84375,
-          "width": 467.0625,
-          "height": 104
+          "width": 420,
+          "height": 92
         },
         "photoBackingBottom": 801.984375
       },
@@ -195,14 +195,14 @@
         {
           "href": "#office-wf-contact",
           "text": "法人向け清掃のご相談",
-          "width": 467.0625,
-          "height": 104,
+          "width": 420,
+          "height": 92,
           "background": "rgb(0, 91, 172)",
-          "radius": "51.264px",
+          "radius": "45.568px",
           "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "25.9168px",
+          "size": "23.9232px",
           "weight": "700",
-          "lineHeight": "38.8752px",
+          "lineHeight": "35.8848px",
           "color": "rgb(255, 255, 255)"
         },
         {
@@ -450,13 +450,13 @@
           "x": 40,
           "y": 142.03125,
           "width": 592.5,
-          "height": 396.796875
+          "height": 389.171875
         },
         "cta": {
           "x": 56,
           "y": 467.203125,
-          "width": 414.90625,
-          "height": 71.625
+          "width": 373.171875,
+          "height": 64
         },
         "photoBackingBottom": 551
       },
@@ -472,14 +472,14 @@
         {
           "href": "#office-wf-contact",
           "text": "法人向け清掃のご相談",
-          "width": 414.90625,
-          "height": 71.625,
+          "width": 373.171875,
+          "height": 64,
           "background": "rgb(0, 91, 172)",
-          "radius": "45.54px",
+          "radius": "40.48px",
           "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "23.023px",
+          "size": "21.252px",
           "weight": "700",
-          "lineHeight": "34.5345px",
+          "lineHeight": "31.878px",
           "color": "rgb(255, 255, 255)"
         },
         {
@@ -727,13 +727,13 @@
           "x": 32,
           "y": 155.515625,
           "width": 472.5,
-          "height": 452.390625
+          "height": 440.875
         },
         "cta": {
           "x": 48,
           "y": 508.078125,
-          "width": 330.9375,
-          "height": 99.828125
+          "width": 297.640625,
+          "height": 88.3125
         },
         "photoBackingBottom": 767.984375
       },
@@ -749,14 +749,14 @@
         {
           "href": "#office-wf-contact",
           "text": "法人向け清掃のご相談",
-          "width": 330.9375,
-          "height": 99.828125,
+          "width": 297.640625,
+          "height": 88.3125,
           "background": "rgb(0, 91, 172)",
-          "radius": "36.324px",
+          "radius": "32.288px",
           "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-          "size": "18.3638px",
+          "size": "18px",
           "weight": "700",
-          "lineHeight": "27.5457px",
+          "lineHeight": "27px",
           "color": "rgb(255, 255, 255)"
         },
         {
@@ -1702,14 +1702,14 @@
           {
             "href": "#office-wf-contact",
             "text": "法人向け清掃のご相談",
-            "width": 467.0625,
-            "height": 104,
+            "width": 420,
+            "height": 92,
             "background": "rgb(0, 91, 172)",
-            "radius": "51.264px",
+            "radius": "45.568px",
             "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "25.9168px",
+            "size": "23.9232px",
             "weight": "700",
-            "lineHeight": "38.8752px",
+            "lineHeight": "35.8848px",
             "color": "rgb(255, 255, 255)"
           },
           {
@@ -1743,13 +1743,13 @@
             "x": 72,
             "y": 172,
             "width": 640,
-            "height": 555.84375
+            "height": 543.84375
           },
           "cta": {
             "x": 88,
             "y": 623.84375,
-            "width": 467.0625,
-            "height": 104
+            "width": 420,
+            "height": 92
           },
           "photoBackingBottom": 801.984375
         },
@@ -1773,14 +1773,14 @@
           {
             "href": "#office-wf-contact",
             "text": "法人向け清掃のご相談",
-            "width": 414.90625,
-            "height": 71.625,
+            "width": 373.171875,
+            "height": 64,
             "background": "rgb(0, 91, 172)",
-            "radius": "45.54px",
+            "radius": "40.48px",
             "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "23.023px",
+            "size": "21.252px",
             "weight": "700",
-            "lineHeight": "34.5345px",
+            "lineHeight": "31.878px",
             "color": "rgb(255, 255, 255)"
           },
           {
@@ -1814,13 +1814,13 @@
             "x": 40,
             "y": 142.03125,
             "width": 592.5,
-            "height": 396.796875
+            "height": 389.171875
           },
           "cta": {
             "x": 56,
             "y": 467.203125,
-            "width": 414.90625,
-            "height": 71.625
+            "width": 373.171875,
+            "height": 64
           },
           "photoBackingBottom": 551
         },
@@ -1844,14 +1844,14 @@
           {
             "href": "#office-wf-contact",
             "text": "法人向け清掃のご相談",
-            "width": 330.9375,
-            "height": 99.828125,
+            "width": 297.640625,
+            "height": 88.3125,
             "background": "rgb(0, 91, 172)",
-            "radius": "36.324px",
+            "radius": "32.288px",
             "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "18.3638px",
+            "size": "18px",
             "weight": "700",
-            "lineHeight": "27.5457px",
+            "lineHeight": "27px",
             "color": "rgb(255, 255, 255)"
           },
           {
@@ -1885,13 +1885,13 @@
             "x": 32,
             "y": 155.515625,
             "width": 472.5,
-            "height": 452.390625
+            "height": 440.875
           },
           "cta": {
             "x": 48,
             "y": 508.078125,
-            "width": 330.9375,
-            "height": 99.828125
+            "width": 297.640625,
+            "height": 88.3125
           },
           "photoBackingBottom": 767.984375
         },
@@ -2128,10 +2128,10 @@
           {
             "href": "#office-wf-contact",
             "text": "法人向け清掃のご相談",
-            "width": 320.453125,
-            "height": 65,
+            "width": 288.203125,
+            "height": 64,
             "background": "rgb(0, 91, 172)",
-            "radius": "35.172px",
+            "radius": "31.264px",
             "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
             "size": "18px",
             "weight": "700",
@@ -2169,13 +2169,13 @@
             "x": 32,
             "y": 94.390625,
             "width": 456.5,
-            "height": 372.578125
+            "height": 371.578125
           },
           "cta": {
             "x": 48,
             "y": 401.96875,
-            "width": 320.453125,
-            "height": 65
+            "width": 288.203125,
+            "height": 64
           },
           "photoBackingBottom": 499.984375
         },
@@ -2199,14 +2199,14 @@
           {
             "href": "#office-wf-contact",
             "text": "法人向け清掃のご相談",
-            "width": 468,
-            "height": 104,
+            "width": 420,
+            "height": 92,
             "background": "rgb(0, 91, 172)",
-            "radius": "52px",
+            "radius": "46px",
             "font": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
-            "size": "26px",
+            "size": "24px",
             "weight": "700",
-            "lineHeight": "39px",
+            "lineHeight": "36px",
             "color": "rgb(255, 255, 255)"
           },
           {
@@ -2240,18 +2240,96 @@
             "x": 312.5,
             "y": 180,
             "width": 640,
-            "height": 580.59375
+            "height": 568.59375
           },
           "cta": {
             "x": 328.5,
             "y": 656.59375,
-            "width": 468,
-            "height": 104
+            "width": 420,
+            "height": 92
           },
           "photoBackingBottom": 1080
         },
         "ctaLabelFits": true,
         "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
+      }
+    ]
+  },
+  "ctaRefinement": {
+    "status": "PASS",
+    "copyAndPhotoUnchanged": true,
+    "records": [
+      {
+        "width": 1439,
+        "height": 802,
+        "cta": [
+          420,
+          92
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 1280,
+        "height": 551,
+        "cta": [
+          373.171875,
+          64
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "cta": [
+          297.640625,
+          88.3125
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 768,
+        "height": 800,
+        "cta": [
+          328.5,
+          64
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 414,
+        "height": 688,
+        "cta": [
+          178,
+          55
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "cta": [
+          131,
+          55
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 992,
+        "height": 500,
+        "cta": [
+          288.203125,
+          64
+        ],
+        "labelFits": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "cta": [
+          420,
+          92
+        ],
+        "labelFits": true
       }
     ]
   }
