@@ -1,0 +1,31 @@
+{
+  "source": "https://www.osoujihonpo.com/assets/css/common.css",
+  "reference_pages": [
+    "https://www.osoujihonpo.com/",
+    "https://www.osoujihonpo.com/house-cleaning/water/"
+  ],
+  "basis": "Retrieved primary CSS; computed-render snapshot with null measurements is not used as evidence",
+  "css_sha256": "b73a14ecf39eb920fc2b713e7186c9a135ea7dfa5824744e3048d231a8ae195a",
+  "rules": [
+    ".c-double-line-heading {\n  --color: #005bac;\n  --long-line-color: #ffffff;\n  --short-line-color: #005bac;\n  font-weight: bold;\n  text-align: center;\n  color: var(--color);\n  padding-bottom: 16px;\n  border-bottom: 1px solid var(--long-line-color);\n  position: relative\n}",
+    ".c-double-line-heading {\n    font-size: 1.25rem\n  }",
+    ".c-double-line-heading {\n    font-size: 1.0625rem\n  }",
+    ".c-category-simple-card__top {\n  display: flex;\n  justify-content: center;\n  width: 100%\n}",
+    ".c-category-simple-card__top {\n    padding-block: 16px 12px\n  }",
+    ".c-category-simple-card__top {\n    padding-block: 20px 13px\n  }",
+    ".c-category-simple-card__icon {\n  --bg-color: #005bac\n}",
+    ".c-category-simple-card__icon {\n    --width: 120px\n  }",
+    ".c-category-simple-card__icon {\n    --width: 98px\n  }",
+    ".c-category-simple-card__bottom {\n  background-color: #005bac;\n  border-bottom-right-radius: 32px;\n  overflow: hidden;\n  position: relative\n}",
+    ".c-category-simple-card__bottom {\n    padding: 8px 12px\n  }",
+    ".c-category-simple-card__bottom {\n    padding: 8px\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__top {\n    padding: 16px .5em\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__top {\n    padding: 16px .5em 12px\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__icon {\n  display: block\n}",
+    ".c-category-simple-card--icon-down .c-category-simple-card__icon {\n    --width: 100px\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__icon {\n    --width: 72px\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__bottom {\n    padding: 12px 12px 36px\n  }",
+    ".c-category-simple-card--icon-down .c-category-simple-card__bottom {\n    padding: 8px 8px 26px\n  }",
+    ".p-page-anchors__cards {\n  margin-top: 24px\n}"
+  ]
+}

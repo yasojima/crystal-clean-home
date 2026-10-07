@@ -1,0 +1,125 @@
+{
+  "origin": "https://yasojima.github.io",
+  "conditions": 9,
+  "records": [
+    {
+      "width": 1439,
+      "height": 799,
+      "canvas": {
+        "x": 0,
+        "width": 1424
+      },
+      "available": 1424,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "canvas": {
+        "x": 0,
+        "width": 1425
+      },
+      "available": 1425,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "canvas": {
+        "x": 0,
+        "width": 1905
+      },
+      "available": 1905,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    },
+    {
+      "width": 768,
+      "height": 800,
+      "canvas": {
+        "x": 0,
+        "width": 753
+      },
+      "available": 753,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    },
+    {
+      "width": 1280,
+      "height": 551,
+      "canvas": {
+        "x": 309.25,
+        "width": 646.5
+      },
+      "available": 1265,
+      "reduced": true,
+      "overflow": -15,
+      "unchangedOutsideScope": false,
+      "passed": true
+    },
+    {
+      "width": 1366,
+      "height": 650,
+      "canvas": {
+        "x": 278,
+        "width": 795
+      },
+      "available": 1351,
+      "reduced": true,
+      "overflow": -15,
+      "unchangedOutsideScope": false,
+      "passed": true
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "canvas": {
+        "x": 144.5,
+        "width": 720
+      },
+      "available": 1009,
+      "reduced": true,
+      "overflow": -15,
+      "unchangedOutsideScope": false,
+      "passed": true
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "canvas": {
+        "x": 0,
+        "width": 399
+      },
+      "available": 399,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "canvas": {
+        "x": 0,
+        "width": 305
+      },
+      "available": 305,
+      "reduced": false,
+      "overflow": -15,
+      "unchangedOutsideScope": true,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

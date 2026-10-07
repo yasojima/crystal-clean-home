@@ -7,6 +7,7 @@ import mimetypes
 import re
 from apply_cleaning_artwork import transform_references
 from home_section_backgrounds import apply_home_section_backgrounds
+from home_pickups import apply_home_pickups
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -60,7 +61,10 @@ def transform(html, is_aircon=False):
             return featured
         return section
     html = re.sub(r'<section\b[^>]*>.*?</section>', shared_featured, html, flags=re.S)
-    html = apply_home_section_backgrounds(html)
+    html = apply_home_section_backgrounds(apply_home_pickups(html))
+    html = re.sub(r'<div class="home-first-guide home-business-guide">(.*?)</div>(?=</div>)', r'<a class="home-first-guide home-business-guide" href="/business/cleaning/">\1</a>', html, flags=re.S)
+    if '<body class="c-home"' in html and '/assets/css/home-pickups.css' not in html:
+        html = html.replace('</head>', '<link rel="stylesheet" href="/assets/css/home-pickups.css?v=2026100701">' + newline + '</head>', 1)
     heading = (COMPONENTS / 'cleaning-menu-heading.html').read_text(encoding='utf-8').strip()
     def shared_cleaning_heading(match):
         content = match[2]
@@ -90,24 +94,27 @@ def transform(html, is_aircon=False):
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100602" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100602', html)
-    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100601', html)
-    html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100706', html)
+    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100701', html)
+    html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100707', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
     html = re.sub(r'/assets/js/home-first-view\.js(?:\?v=\d+)?', '/assets/js/home-first-view.js?v=2026100601', html)
     if '<body class="c-home"' in html:
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
-                          '/assets/' + kind + '/' + asset + ('?v=2026100705' if kind == 'css' else '?v=2026100608'), html)
-    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100701', html)
+                          '/assets/' + kind + '/' + asset + ('?v=2026100706' if kind == 'css' else '?v=2026100608'), html)
+    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100702', html)
     for stylesheet, version in (('first-lp-desktop.css', '2026100601'), ('first-lp-mobile.css', '2026100703')):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
                       '/assets/css/' + stylesheet + '?v=' + version, html)
     if 'id="cch-first-lp"' in html and '/assets/js/lp-render-check.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/lp-render-check.js?v=2026100703"></script>' + newline + '</head>', 1)
     html = re.sub(r'/assets/js/lp-render-check\.js(?:\?v=\d+)?', '/assets/js/lp-render-check.js?v=2026100703', html)
-    layout_version = '2026100706'
+    layout_version = '2026100707'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
+    html = re.sub(r'/assets/css/service-format\.css(?:\?v=\d+)?', '/assets/css/service-format.css?v=2026100701', html)
+    if 'class="c-first-view' in html and '/assets/js/service-first-view.js' not in html:
+        html = html.replace('</head>', '<script src="/assets/js/service-first-view.js?v=2026100701" defer></script>' + newline + '</head>', 1)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)
@@ -161,9 +168,11 @@ def main():
                 page.write_bytes(output.encode('utf-8'))
     from build_cart_catalogue import build as build_cart
     build_cart(args.check)
-    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/simulation/index.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
+    manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/simulation/index.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/service-format.css', SITE/'assets/js/service-first-view.js', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js', SITE/'assets/js/lp-render-check.js'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/css/home-pickups.css'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/css/office-cleaning.css', *sorted((SITE/'assets/images/office-cleaning').glob('*.png'))], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):

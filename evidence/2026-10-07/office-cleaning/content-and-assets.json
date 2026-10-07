@@ -1,0 +1,197 @@
+{
+  "paragraphs": [
+    {
+      "reference_chars": 161,
+      "actual_chars": 161,
+      "reference_breaks": 0,
+      "actual_breaks": 0
+    },
+    {
+      "reference_chars": 82,
+      "actual_chars": 82,
+      "reference_breaks": 0,
+      "actual_breaks": 0
+    },
+    {
+      "reference_chars": 110,
+      "actual_chars": 110,
+      "reference_breaks": 2,
+      "actual_breaks": 2
+    },
+    {
+      "reference_chars": 130,
+      "actual_chars": 130,
+      "reference_breaks": 2,
+      "actual_breaks": 2
+    },
+    {
+      "reference_chars": 42,
+      "actual_chars": 42,
+      "reference_breaks": 0,
+      "actual_breaks": 0
+    },
+    {
+      "reference_chars": 136,
+      "actual_chars": 136,
+      "reference_breaks": 2,
+      "actual_breaks": 2
+    },
+    {
+      "reference_chars": 115,
+      "actual_chars": 115,
+      "reference_breaks": 1,
+      "actual_breaks": 1
+    }
+  ],
+  "heading_chars": {
+    "reference": 24,
+    "actual": 24
+  },
+  "images": [
+    {
+      "path": "source/site/assets/images/office-cleaning/aircon.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "55bf96dfa5f92756e5545c05518157e705f014d0bde10d07bca4cb37a6498c85",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/balcony.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "6c456d30f86e73f50302c2f079f2e6a92f0081b8ac444a0fac9e5429c158855a",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/basin.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "524802765042fe40990b82a1b53baa031e40701bd23a2b51addf8aa795f1b8e7",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/carpet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "25b81f23c16f337dedd1bc6236ae0d0bed4ab86d32cce419dd1d6321d3030f5e",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/floor.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "236cca5b49727981a7446c3839b8b5488e487f88aeb71789d2e69c99b59a9f5f",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/glass.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "191cdf92d3aa0ec011d9939fb483cfa0ae145887e6f1c902bd7a6ecb6a91fe98",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/hallway.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "29f96e3293eca71d6577a26a27e8d7d7c27ff8984e4909f158bb3d54e8d27f3a",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/hood.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "41996701162b9de180298f90140ead32d728859cb7d571a476c42737d423428b",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/kitchen.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "983dc9b94ca319256e3476beb722a5cbaea36152832828e0791b1b75eb55d442",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/lighting.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "9e06a59ab3445dc0d8fb99756eba3b3daab9353471bc277b45808325ca77565d",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/sanitizing.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "b3d16df9baa840c939f91a9d123dc0e7a568a5eea7ea365d466600a9e8386dce",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/shower.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "87d34e15634c7ccac2f805035416481bcc0b09fbc8bb00085d4664d4bf145d1a",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    },
+    {
+      "path": "source/site/assets/images/office-cleaning/toilet.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "sha256": "67f2da12a94770c11208562ac8a1594e139bde7c83c8a7ccb45c5b2a154828b0",
+      "visually_checked": true,
+      "people": false,
+      "photorealistic": true
+    }
+  ],
+  "mode": "built-in image_gen",
+  "prompt_source": "source/office-cleaning/image-prompts.json"
+}

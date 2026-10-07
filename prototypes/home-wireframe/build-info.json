@@ -1,9 +1,9 @@
 {
   "source": "source/site/index.html",
-  "sourceSha256": "461706e119e5feb91a7e6c819651edd2c64b1bad60419365d3f11257ffb7c658",
+  "sourceSha256": "275ae79f2989d49f38bfa26576f043d82ddfdd2aea292a5ff76b8595d2effd37",
   "sections": [
-    "pickup",
-    "features",
+    "home-pickup-banner",
+    "home-pickup",
     "news"
   ],
   "newsVariants": 3,
@@ -19,6 +19,8 @@
     "sharedFooter": true,
     "videoSection": true,
     "topEightCategories": true,
+    "pickupBanner": true,
+    "pickupThreeSlots": true,
     "guideBanners": true,
     "reasons": true,
     "concerns": true,

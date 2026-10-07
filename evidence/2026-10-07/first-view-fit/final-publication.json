@@ -1,0 +1,513 @@
+{
+  "pagesCommit": "de800205dd9f0d45e068119167f961849b551e57",
+  "actionsRun": 37565446402,
+  "actionsConclusion": "success",
+  "checkedAt": "2026-10-07T03:11:15.099067+00:00",
+  "files": [
+    {
+      "path": "assets/css/aircon-hero.css",
+      "status": 200,
+      "sha256": "f7e7db79b9b0244294b5192d585d1c04e0a6a2bc813a2050339f788603229f2d",
+      "match": true
+    },
+    {
+      "path": "assets/css/aircon-layout.css",
+      "status": 200,
+      "sha256": "d6c7bf9698cb8122445c4f924c23ac19e899b42dfb8cae3bf92b376647427e45",
+      "match": true
+    },
+    {
+      "path": "assets/css/beginner-lp.css",
+      "status": 200,
+      "sha256": "23b5275a23b406049fe7b0aadd3e1567ba0d3f62bd72c486c859455d4cb9ca30",
+      "match": true
+    },
+    {
+      "path": "assets/css/common.css",
+      "status": 200,
+      "sha256": "2e7f73783901fbf2631b3b0dc07258d73a1247034be91957113ea332791e1196",
+      "match": true
+    },
+    {
+      "path": "assets/css/home-concerns.css",
+      "status": 200,
+      "sha256": "090233e7c9cdbe3b0f6f18a12afd889da7bc5b3505bad1c83a0de9aa43ab36eb",
+      "match": true
+    },
+    {
+      "path": "assets/css/home-pickups.css",
+      "status": 200,
+      "sha256": "a881c89f21efe43c0c29b6855da35981bc28919352ab7cd5f4cdbfeffa5ee74f",
+      "match": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "status": 200,
+      "sha256": "caf793f5b2ae58429ebe265c9f09b9a8c4dc62d18c94e92d66947dafc1a82fa6",
+      "match": true
+    },
+    {
+      "path": "assets/css/service-format.css",
+      "status": 200,
+      "sha256": "005e194e6cb40095b54cf306341c05b15a3f050f3462ab68557b72a54809cc61",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/aircon.png",
+      "status": 200,
+      "sha256": "55bf96dfa5f92756e5545c05518157e705f014d0bde10d07bca4cb37a6498c85",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/balcony.png",
+      "status": 200,
+      "sha256": "6c456d30f86e73f50302c2f079f2e6a92f0081b8ac444a0fac9e5429c158855a",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/basin.png",
+      "status": 200,
+      "sha256": "524802765042fe40990b82a1b53baa031e40701bd23a2b51addf8aa795f1b8e7",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/carpet.png",
+      "status": 200,
+      "sha256": "25b81f23c16f337dedd1bc6236ae0d0bed4ab86d32cce419dd1d6321d3030f5e",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/floor.png",
+      "status": 200,
+      "sha256": "236cca5b49727981a7446c3839b8b5488e487f88aeb71789d2e69c99b59a9f5f",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/glass.png",
+      "status": 200,
+      "sha256": "191cdf92d3aa0ec011d9939fb483cfa0ae145887e6f1c902bd7a6ecb6a91fe98",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/hallway.png",
+      "status": 200,
+      "sha256": "29f96e3293eca71d6577a26a27e8d7d7c27ff8984e4909f158bb3d54e8d27f3a",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/hood.png",
+      "status": 200,
+      "sha256": "41996701162b9de180298f90140ead32d728859cb7d571a476c42737d423428b",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/kitchen.png",
+      "status": 200,
+      "sha256": "983dc9b94ca319256e3476beb722a5cbaea36152832828e0791b1b75eb55d442",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/lighting.png",
+      "status": 200,
+      "sha256": "9e06a59ab3445dc0d8fb99756eba3b3daab9353471bc277b45808325ca77565d",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/sanitizing.png",
+      "status": 200,
+      "sha256": "b3d16df9baa840c939f91a9d123dc0e7a568a5eea7ea365d466600a9e8386dce",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/shower.png",
+      "status": 200,
+      "sha256": "87d34e15634c7ccac2f805035416481bcc0b09fbc8bb00085d4664d4bf145d1a",
+      "match": true
+    },
+    {
+      "path": "assets/images/office-cleaning/toilet.png",
+      "status": 200,
+      "sha256": "67f2da12a94770c11208562ac8a1594e139bde7c83c8a7ccb45c5b2a154828b0",
+      "match": true
+    },
+    {
+      "path": "assets/js/service-first-view.js",
+      "status": 200,
+      "sha256": "305c14d5f625116ec218870a961fd1e4fb45a931da57b696b6462839acab8e3d",
+      "match": true
+    },
+    {
+      "path": "beginner/index.html",
+      "status": 200,
+      "sha256": "70d3f75a23653085dbeea743987cd776d5edb6292fc4e17c5dd12b43b0d8b9c8",
+      "match": true
+    },
+    {
+      "path": "business/cleaning/index.html",
+      "status": 200,
+      "sha256": "e57170becb0dd885c62c464a239f3d707d77fdf3bdfebb68ccfcedcf50848545",
+      "match": true
+    },
+    {
+      "path": "business/contact/index.html",
+      "status": 200,
+      "sha256": "690e10f1ec1e2a806c22da79dc4cd7ebada4a07f8369fbc06a7d4db0eb2d336e",
+      "match": true
+    },
+    {
+      "path": "business/racn/index.html",
+      "status": 200,
+      "sha256": "377c0ff008ace8714d6b29bb30ebba0ed1b7fd8bffc49b211755e3503d4ba3dd",
+      "match": true
+    },
+    {
+      "path": "cart/estimate/confirm/index.html",
+      "status": 200,
+      "sha256": "09547a6e31fec4d8d1beced3afcdf17fc63817c7a571e9ee9a3d907e07831895",
+      "match": true
+    },
+    {
+      "path": "cart/estimate/index.html",
+      "status": 200,
+      "sha256": "a0e08790c011a68bd01f52a7d5ded12745fc7d927e8a54007d946a083b3ae916",
+      "match": true
+    },
+    {
+      "path": "cart/index.html",
+      "status": 200,
+      "sha256": "f11af5c62a5eeecc85b703bc18f41f5b9933a9698e9dd36d46b1d3990b6aabae",
+      "match": true
+    },
+    {
+      "path": "contact/business/index.html",
+      "status": 200,
+      "sha256": "33825920475198374f7c9d8115dc07fc063fcfb38afcf68283052efcf71a524a",
+      "match": true
+    },
+    {
+      "path": "contact/house-cleaning/index.html",
+      "status": 200,
+      "sha256": "05fc65e8c158034672886a6962c8caa478bc6be96c1c6ef46904c18ddf4165c1",
+      "match": true
+    },
+    {
+      "path": "contact/index.html",
+      "status": 200,
+      "sha256": "a63f684f4298b81d598ca8bf1fa73178fab55412573a349bc2d1769625f63a08",
+      "match": true
+    },
+    {
+      "path": "contact/shop/index.html",
+      "status": 200,
+      "sha256": "83a9a3cf058ce382af853f02e38312195d156a2dfc616f4db6dd7577e7ab3468",
+      "match": true
+    },
+    {
+      "path": "energy-saving/aircon01/index.html",
+      "status": 200,
+      "sha256": "0afc4946c0d4cf928d468f72691addfa71d22b131bf36718a8ee6670a84d7723",
+      "match": true
+    },
+    {
+      "path": "energy-saving/aircon02/index.html",
+      "status": 200,
+      "sha256": "435de7a1733ca3320bbe52d4fc5e3830728b342f212f1513519fa86a721329f0",
+      "match": true
+    },
+    {
+      "path": "energy-saving/drier/index.html",
+      "status": 200,
+      "sha256": "fb11341491aa7d8d207ff0e8d1a72410fc71a6cd4c06eb7fe928f90646d1eaee",
+      "match": true
+    },
+    {
+      "path": "energy-saving/fridge/index.html",
+      "status": 200,
+      "sha256": "baed1b7af0d92913c7950e3d3e50f0d17a3e07ef6aa56ae828c2a02e1823acc0",
+      "match": true
+    },
+    {
+      "path": "energy-saving/index.html",
+      "status": 200,
+      "sha256": "51c7d17b91bba7f7d6b2c4fc2d293263e2ded52a0f3a84718d827858031a8005",
+      "match": true
+    },
+    {
+      "path": "energy-saving/kitchen/index.html",
+      "status": 200,
+      "sha256": "9c630861226a5e837761646fb57338854e1dbc97266910485dd577c36faa7a68",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/air/index.html",
+      "status": 200,
+      "sha256": "a1e08ad5f261f93d2a621b84cd7c6a6135d0f95254fa4460f22d0393575bf3d7",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/index.html",
+      "status": 200,
+      "sha256": "1645fe92565c5eb207e80920cbdec1672d174642ee8be5301b059442158e4f12",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/kitchen/index.html",
+      "status": 200,
+      "sha256": "7cf413487a4154e4ea6d778d17bd4debe8e542a42e5d33e1143bca3dd9b15766",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/light/index.html",
+      "status": 200,
+      "sha256": "797da980e2420a62403d10db208f5bb06f0c9c353be19cf434f30cb8a6f4a78f",
+      "match": true
+    },
+    {
+      "path": "energy-saving/office/oa/index.html",
+      "status": 200,
+      "sha256": "1bd6d8a4dbe8798bf26351e0d7bce302eec22fdfb15c0dfce4d5289f0015bb16",
+      "match": true
+    },
+    {
+      "path": "energy-saving/others/index.html",
+      "status": 200,
+      "sha256": "b93ac903b501549bd308596e3599d5be1d1c6594b9b8a4e830e5084f26dc6027",
+      "match": true
+    },
+    {
+      "path": "energy-saving/summer/index.html",
+      "status": 200,
+      "sha256": "5ee5f99b2d8a46777db29a7f663b5394a48d1925dca630398a2b4f2c3def7bec",
+      "match": true
+    },
+    {
+      "path": "energy-saving/toilet/index.html",
+      "status": 200,
+      "sha256": "c68eecbb709a964c20cfcdff1ae01c1c6415e766bfc657982962ebf79d938dc4",
+      "match": true
+    },
+    {
+      "path": "energy-saving/washer/index.html",
+      "status": 200,
+      "sha256": "6ad896f87fa858af6e3efb22d4441b246548c5a924ef2522f7d02e645021438f",
+      "match": true
+    },
+    {
+      "path": "energy-saving/winter/index.html",
+      "status": 200,
+      "sha256": "f4b6b7c6afadce0775cd777ced69a424f5eb0811af02f4dcb7794695728a8215",
+      "match": true
+    },
+    {
+      "path": "error/403/index.html",
+      "status": 200,
+      "sha256": "fb2c9da0dacac2415b0bac76fe510fa2d814805f4bf08b28060a9fa3a7e00041",
+      "match": true
+    },
+    {
+      "path": "error/405/index.html",
+      "status": 200,
+      "sha256": "0899c2d109f91ada575c1b5438456ce88dba01fa636dedc951ec48d6f0a46d5c",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/2027problem/index.html",
+      "status": 200,
+      "sha256": "c923058be2b063228bbb50173acca2a3f15dbd4e47e2fabb7e512979a57a581f",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "e81dd89599ff517b7e07c3c0564a1422e1356fce4084b90c932e57c4ac468126",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "sha256": "93e11058f7354e182e8011e7d5b40783d3b43a090afa87df046570622ae21c1a",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "sha256": "104637bf8b1449ed92288cc91c66fae21df7eff2c4f3bdc40b4b2dd00cacc4ab",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/less-coating/index.html",
+      "status": 200,
+      "sha256": "3cec9915ff6ac376354b1ca15a35c2547ce549fd6c7a7e1e75aca82a1ed2c3f7",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "sha256": "68467ec9d4b2ceab5320a99ad0a28feefcb5d886af79334a3bc4984f484c1469",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "sha256": "1c6b0f6ad23b2ca81b45ef68ceb9c3eb12d39ed7b7e0b69a3b3c611b952ec131",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "sha256": "e5df51f56c8ce52594dc0603c562977dd6bededc21f6720f8de1192f1cb2a9d3",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "sha256": "6fdc74a6e27f46ecae20c2149a95dd2cd68e43718a8e51580f76f8d50346fb3a",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "sha256": "b3231b230c22e140389405c0b4cde1f83d05af1b693448d4da924bf9900aacfd",
+      "match": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "275ae79f2989d49f38bfa26576f043d82ddfdd2aea292a5ff76b8595d2effd37",
+      "match": true
+    },
+    {
+      "path": "lab/online_store/detergent/product-303/index.html",
+      "status": 200,
+      "sha256": "607f60cfeb207f00b74b0d4e649785e834594e06bd57228fd28b38f35ade16a9",
+      "match": true
+    },
+    {
+      "path": "office/aircon_standard/index.html",
+      "status": 200,
+      "sha256": "16c2e64f73304b36654f79b0e9d12c477775232859a084e7d3a17d4d43934319",
+      "match": true
+    },
+    {
+      "path": "office/carpet/index.html",
+      "status": 200,
+      "sha256": "3bd01fc392edcaf0bd53098822dd60b722a596d4ad0581e0a99c9c5b608646a5",
+      "match": true
+    },
+    {
+      "path": "office/floor/index.html",
+      "status": 200,
+      "sha256": "2dd7a6d8cfce0fd69cdbf9781579c9fa63aa5a8d809fb25301307c619a7dde65",
+      "match": true
+    },
+    {
+      "path": "office/fluorescent/index.html",
+      "status": 200,
+      "sha256": "7aaf9d4b5ae13e1c17e57000eaf4c782ed1f26bebf6b0d3a7f19a039eb85226e",
+      "match": true
+    },
+    {
+      "path": "office/glass/index.html",
+      "status": 200,
+      "sha256": "e1841a9f66fef386cc076d157ebb73223a345ced90df86cd5dcfd995f2a3c3a6",
+      "match": true
+    },
+    {
+      "path": "office/photocatalyst/index.html",
+      "status": 200,
+      "sha256": "68abe025c870d886c88d6c623c2537b6e44c116ddc880b300836a306a67f9f46",
+      "match": true
+    },
+    {
+      "path": "office/space/index.html",
+      "status": 200,
+      "sha256": "28833084fa55d1a2e25f972592c97ff5da83eaaeef53c4a8f0cc9b0ef913988c",
+      "match": true
+    },
+    {
+      "path": "policy-1/index.html",
+      "status": 200,
+      "sha256": "9ef9af2f27e50c5e3e22ac2d25b42a1dd21240c2bcaead8fd4521279b50c3ed8",
+      "match": true
+    },
+    {
+      "path": "policy-2/index.html",
+      "status": 200,
+      "sha256": "38800f652bacf4691f3cc2ace1faf510985c0a3f8a69dfbf2756521a0ffbbce1",
+      "match": true
+    },
+    {
+      "path": "policy/index.html",
+      "status": 200,
+      "sha256": "408f9eb7ae69942703b474d68b5d7bb8798757dfe9f87f5431eb5a881eb4a819",
+      "match": true
+    },
+    {
+      "path": "quick_cart/aircon/index.html",
+      "status": 200,
+      "sha256": "5b1acd0c24997d00268fac336e057cbf53217bb8f1669a1769263ff2b86c3f6c",
+      "match": true
+    },
+    {
+      "path": "quick_cart/coating/index.html",
+      "status": 200,
+      "sha256": "30a3ee35eb0fae084b5813b7eeb2c8cb96010d1b389ef0beedcc06ab6aff8d3c",
+      "match": true
+    },
+    {
+      "path": "quick_cart/index.html",
+      "status": 200,
+      "sha256": "956fc05d46f37697f3c72a40faafb73519a4f87af2c5ff112e69f81f04afac26",
+      "match": true
+    },
+    {
+      "path": "quick_cart/kitchen/index.html",
+      "status": 200,
+      "sha256": "807964e8b1a3c2e15e8c341441f84140668f6cdc7396f57a692d6e0f54284169",
+      "match": true
+    },
+    {
+      "path": "quick_cart/option/index.html",
+      "status": 200,
+      "sha256": "0d739c18ed4ec6817bc3c4ebaf61ab20fb3647caf782516c6aa7218500bc3754",
+      "match": true
+    },
+    {
+      "path": "quick_cart/others/index.html",
+      "status": 200,
+      "sha256": "d8a072c78526d49629043ec5405035023a43856c7f241c3dc7dd46b2d6fdd885",
+      "match": true
+    },
+    {
+      "path": "quick_cart/pack/index.html",
+      "status": 200,
+      "sha256": "bc21c02549112dc8bd50333aa480dbc64bee06bed8435f0d74cd1eb81040fc37",
+      "match": true
+    },
+    {
+      "path": "quick_cart/room/index.html",
+      "status": 200,
+      "sha256": "f032299599f157754290c43461cd61f6fa4b052c7eb52aa275206927ef22882e",
+      "match": true
+    },
+    {
+      "path": "quick_cart/washer/index.html",
+      "status": 200,
+      "sha256": "e7ba18d9bc9a28d80338e4eb3a7c67e8e3c4b292b9f627126dace9a88c873f81",
+      "match": true
+    },
+    {
+      "path": "quick_cart/water/index.html",
+      "status": 200,
+      "sha256": "2cc63601ab1f31cba5dc861163d448e56bc5ed471b86a21a8ce40e37bc1d188b",
+      "match": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "sha256": "629c8c96076ff512670bd2bc971047a9ee0fb34f48554c68e6d48db7ff36116f",
+      "match": true
+    }
+  ],
+  "passed": true
+}

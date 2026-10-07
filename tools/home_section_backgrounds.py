@@ -7,7 +7,8 @@ HOME_SECTIONS = (
     ('home-first-guide-section', '#e3f1fc', 'down', '#fff'),
     ('home-reasons', '#fff', 'up', '#e3f1fc'),
     ('home-concerns', '#e3f1fc', 'down', '#fff'),
-    ('c-featured-cleaning', '#fff', 'up', '#e3f1fc'),
+    ('home-pickup', '#fff', 'up', '#e3f1fc'),
+    ('c-featured-cleaning', '#fff', None, None),
 )
 
 

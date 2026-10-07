@@ -5,10 +5,9 @@ body.c-beginner-lp > main {
 }
 
 body.c-beginner-lp #cch-first-lp .lp-canvas {
-  width: min(100%, 880px);
-  max-width: 880px;
-  margin: 0 auto;
-  container-type: inline-size;
+  width: 100%;
+  max-width: none;
+  margin: 0;
   box-shadow: none;
 }
 
@@ -65,10 +64,12 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo { width: 168px; max-width: 100%; }
 }
 
-/* Keep the manga at a readable scale in short desktop and tablet windows. */
-@media (min-width: 768px) {
+/* Limit the reduced manga layout to short desktop windows. */
+@media (min-width: 768px) and (max-height: 720px) {
   body.c-beginner-lp #cch-first-lp .lp-canvas {
     width: min(calc(100% - 48px), clamp(560px, calc((100svh - var(--aircon-header-height)) * 1.5), 880px));
+    margin: 0 auto;
+    container-type: inline-size;
   }
   body.c-beginner-lp #cch-first-lp .lp-voices { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
   body.c-beginner-lp #cch-first-lp .lp-services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); }

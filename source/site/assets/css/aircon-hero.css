@@ -14,14 +14,28 @@
 }
 
 .c-service-page .c-first-view {
-  --first-view-height: calc(min(100svh, 800px) - var(--aircon-header-height) - 24px);
-  --banner-min-height: clamp(240px, 22vw, 315px);
+  --first-view-height: calc(min(100svh, 800px) - var(--aircon-header-height) - 16px);
+  --banner-height: 184px;
+  --first-view-selector-space: 24px;
+  --selector-cards-height: none;
   container: first-view / inline-size;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) auto;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto;
   height: auto;
-  min-height: var(--first-view-height);
-  scroll-margin-top: 108px;
+  min-height: 0;
+  scroll-margin-top: var(--aircon-header-height);
+}
+.c-service-page .c-first-view .c-service-selector {
+  padding-block: var(--first-view-selector-space);
+}
+.c-service-page .c-first-view .p-page-anchors__cards {
+  max-height: var(--selector-cards-height);
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+  scrollbar-color: #005bac #edf7fd;
+  align-content: start;
 }
 
 .c-house-cleaning-mv--check .c-house-cleaning-mv__sr-heading {
@@ -41,13 +55,13 @@
   scroll-margin-top: 108px;
 }
 
-.c-house-cleaning-mv--check {
-  /* The banner keeps the reference selector's reserve regardless of the actual menu's length. */
-  --banner-selector-height: calc(102px + 30px + 40px + 32px + 100px * .7692307692 + 48px + 24px);
+.c-service-page .c-house-cleaning-mv--check {
+  --hero-circle: clamp(124px, 18vw, 240px);
+  --hero-projection: 40px;
   display: flex;
   align-items: center;
   min-height: 0;
-  height: max(var(--banner-min-height), calc(var(--first-view-height) - var(--banner-selector-height)));
+  height: var(--banner-height);
   padding-block: 0 var(--hero-projection);
 }
 
@@ -63,7 +77,7 @@
 
 .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
   width: 55%;
-  height: calc(100% - var(--hero-projection) - 32px);
+  height: calc(100% - var(--hero-projection) - 16px);
   top: calc((100% - var(--hero-projection)) / 2);
   object-fit: cover;
   object-position: var(--banner-image-position, right 40%);
@@ -110,54 +124,20 @@
   transform: translateY(calc(var(--hero-projection) * -.2));
 }
 
-@media (min-width: 1024px) {
-  .c-service-page .c-first-view {
-    --banner-min-height: calc(clamp(240px, 22vw, 315px) - (var(--aircon-header-height) - var(--aircon-header-base-height)));
-  }
+@media (min-width: 768px) and (max-height: 720px) {
+  .c-service-page .c-house-cleaning-mv__text { font-size: 20px; line-height: 1.5; }
+  .c-service-page .c-house-cleaning-mv--check { --hero-projection: 32px; }
+  .c-service-page .c-house-cleaning-mv__check { font-size: 26px; }
 }
-
 @media (max-width: 767.98px) {
-  .c-service-page .c-first-view {
-    --banner-min-height: clamp(152px, 43vw, 184px);
-    min-height: 0;
-  }
-
   .c-service-page .c-house-cleaning-mv--check {
     --hero-circle: 124px;
     --hero-projection: 32px;
-    height: var(--banner-min-height);
-  }
-
-  .c-service-page .c-house-cleaning-mv__check { font-size: 22px; }
-
-  .c-house-cleaning-mv--check {
-    --banner-selector-heading-height: 25.5px;
-    --banner-selector-height: calc(86px + var(--banner-selector-heading-height) + 40px + 28px + 72px * .7692307692 + 34px + clamp(11px, 3.1vw, 13px) * 1.5);
-  }
-
-  .c-lineup-heading--round {
-    padding-block: 56px calc(56px + var(--hero-projection));
-  }
-
-  .c-lineup-heading--round > .c-lineup-heading__sub-text {
-    font-size: 18px;
-  }
-
-  .c-house-cleaning-mv--check {
     justify-content: center;
   }
-
-  .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image {
-    width: 100%;
-  }
-
-  .c-service-page .c-house-cleaning-mv__text {
-    font-size: clamp(16px, 4.5vw, 18px);
-  }
-}
-
-@container first-view (max-width: 385px) {
-  .c-house-cleaning-mv--check {
-    --banner-selector-heading-height: 51px;
-  }
+  .c-service-page .c-house-cleaning-mv__check { font-size: 22px; }
+  .c-service-page .c-house-cleaning-mv--check .c-house-cleaning-mv__image { width: 100%; }
+  .c-service-page .c-house-cleaning-mv__text { font-size: clamp(16px, 4.5vw, 18px); }
+  .c-lineup-heading--round { padding-block: 56px calc(56px + var(--hero-projection)); }
+  .c-lineup-heading--round > .c-lineup-heading__sub-text { font-size: 18px; }
 }

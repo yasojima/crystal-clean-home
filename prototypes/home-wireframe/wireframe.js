@@ -2,17 +2,6 @@
   'use strict';
   const data = JSON.parse(document.getElementById('wf-data').textContent);
   const escape = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'}[char]));
-  const product = window.CCH_CART_CATALOGUE.items['product:1'];
-  const saving = product.tiers[0].price - product.tiers.find(tier => tier.min === 2).price;
-  const banners = data.banners.map(banner => banner.key === 'aircon' ? {
-    ...banner, emphasis: '１台あたり ' + saving.toLocaleString('ja-JP') + '円 お得',
-    note: '壁掛けタイプ（お掃除機能なし）／同時に２台以上のご注文時・税込'
-  } : banner);
-  function bannerMarkup(banner, extra = '') {
-    return '<a class="wf-banner wf-banner--' + banner.key + ' ' + extra + '" href="' + banner.link + '"><div class="wf-banner-copy"><span class="wf-eyebrow">' + escape(banner.label) + '</span><h3>' + banner.title.map(line => '<span>' + escape(line) + '</span>').join('') + '</h3>' + (banner.emphasis ? '<p class="wf-emphasis">' + escape(banner.emphasis) + '</p>' : '<p class="wf-banner-text">' + escape(banner.description) + '</p>') + '<span class="wf-banner-action">' + escape(banner.action) + ' <span aria-hidden="true">→</span></span></div><div class="wf-banner-art" aria-hidden="true">' + Array.from({length: banner.key === 'aircon' ? 2 : 1}, () => '<img src="' + banner.image + '" alt="" loading="lazy" decoding="async">').join('') + '</div>' + (banner.note ? '<small class="wf-banner-note">' + escape(banner.note) + '</small>' : '') + '</a>';
-  }
-  const section = document.querySelector('[data-wf-section="pickup"]');
-  section.querySelector('[data-wf-panels]').innerHTML = bannerMarkup(banners[0], 'wf-banner-wide');
   const newsSection = document.querySelector('[data-wf-section="news"]');
   const metadata = item => '<span class="wf-news-date">' + escape(item.date) + '</span><span class="wf-news-category">' + escape(item.category) + '</span>';
   const newsRow = item => '<li><button type="button" class="wf-news-row" data-wf-news-id="' + item.id + '">' + metadata(item) + '<span class="wf-news-title">' + escape(item.title) + '</span><span class="wf-news-arrow" aria-hidden="true">→</span></button></li>';
@@ -39,7 +28,8 @@
     const initial = params.get(target.dataset.wfSection) || 'A';
     select(target, ['A','B','C'].includes(initial) ? initial : 'A', false);
   });
-  if (['#wf-choose','#wf-budget','#wf-flow'].includes(location.hash)) location.replace('#wf-pickup');
+  if (['#wf-choose','#wf-budget','#wf-flow','#wf-pickup'].includes(location.hash)) location.replace('#home-pickup-banner');
+  if (location.hash === '#wf-features') location.replace('#home-pickup');
   const dialog = document.querySelector('.wf-news-dialog');
   const detail = dialog.querySelector('[data-wf-news-detail]');
   function openNews(id) {

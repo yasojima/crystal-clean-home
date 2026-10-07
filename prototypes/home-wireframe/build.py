@@ -8,20 +8,6 @@ ROOT = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).resolve().parent
 SITE = ROOT / "source" / "site"
 
-BANNERS = [
-    {
-        "key": "aircon",
-        "label": "まとめてお得に",
-        "title": ["エアコン２台、", "まとめてお得に。"],
-        "description": "",
-        "image": "/assets/images/cleaning-illustrations/aircon.png",
-        "link": "/house-cleaning/aircon/",
-        "action": "まとめて頼む料金を見る",
-    },
-]
-
-PICKUP_TOPICS = ["ハウスクリーニングが人気な理由", "エアコンクリーニングが人気な理由", "水まわりが人気な理由"]
-
 NEWS = [
     {"id": "hours", "date": "20XX.XX.XX", "category": "営業案内", "title": "営業日・受付時間のご案内", "summary": "営業日・受付時間についてお知らせします。", "body": "営業日・受付時間に関するお知らせの掲載例です。正式な日付と本文は、運用時に登録します。"},
     {"id": "services", "date": "20XX.XX.XX", "category": "サービス", "title": "サービス内容の更新について", "summary": "対応メニューの変更点をご案内します。", "body": "サービス内容の更新を伝えるための掲載例です。正式な変更内容と適用日は、運用時に登録します。"},
@@ -29,7 +15,6 @@ NEWS = [
 ]
 
 SECTIONS = [
-    ("pickup", "上部バナー", "まとめて頼むお掃除", []),
     ("news", "追加セクション", "最新のお知らせ", [("A", "日付・見出しの一覧"), ("B", "注目１件＋ほか２件"), ("C", "３枚のカード")]),
 ]
 
@@ -47,30 +32,10 @@ def section(key, number, title, variants):
 </div></section>'''
 
 
-def lp_pickup():
-    cards = "".join(f'''<article class="wf-lp-slot">
-<div class="home-first-view__placeholder wf-lp-slot-image"><span class="home-first-view__label">NO IMAGE</span><p class="home-first-view__note">ここにバナーが入ります</p></div>
-<div class="wf-lp-slot-copy"><h3>{title}</h3><p>漫画LP制作予定</p></div>
-</article>''' for title in PICKUP_TOPICS)
-    return f'''<section class="wf-section wf-section--features c-curved-section c-curved-section--up" id="wf-features" aria-labelledby="wf-features-title">
-<span aria-hidden="true" class="c-section-curve c-section-curve--up" style="--curve-color:#e3f1fc;"></span>
-<div class="wf-container"><header class="wf-section-heading"><span>PICK UP</span><h2 id="wf-features-title">ピックアップ</h2></header>
-<div class="wf-lp-slots">{cards}</div>
-<p class="wf-review wf-review-note wf-lp-review">台本が決まったら、３つの漫画LPとバナーを制作し、ここからつなぎます。</p>
-</div></section>'''
-
 
 def build():
     original = (SITE / "index.html").read_text(encoding="utf-8")
-    catalogue_text = (SITE / "assets/js/cart-catalogue.js").read_text(encoding="utf-8")
-    catalogue = json.loads(catalogue_text.split("=", 1)[1].strip().rstrip(";"))
-    product = catalogue["items"]["product:1"]
-    assert product["tiers"][0]["price"] > next(t["price"] for t in product["tiers"] if t["min"] == 2)
-    data = {"banners": BANNERS, "news": NEWS}
-    for asset in [banner["image"] for banner in BANNERS]:
-        assert (SITE / asset.lstrip("/")).is_file(), asset
-    for route in [banner["link"] for banner in BANNERS]:
-        assert (SITE / route.lstrip("/") / "index.html").is_file(), route
+    data = {"news": NEWS}
     additions = {row[0]: section(*row) for row in SECTIONS}
     page = original.replace("<title>Crystal Clean Home</title>", "<title>HOME ワイヤーフレーム比較 | Crystal Clean Home</title>")
     page = re.sub(r"<title>.*?</title>", "<title>HOME ワイヤーフレーム比較 | Crystal Clean Home</title>", page, count=1)
@@ -80,15 +45,15 @@ def build():
 <p class="wf-review-tag">HOME 複製・ワイヤーフレーム</p><h1>上部バナーと、後半のピックアップ３枠。</h1>
 <p>上部にはエアコン２台のバナー、後半には漫画LPにつなぐ３枠を配置しています。既存のバナーは保持しています。</p>
 <div class="wf-review-actions"><button type="button" data-wf-clean>比較表示を隠す</button><button type="button" data-wf-floating aria-pressed="false">固定見積もりを表示</button></div>
-<nav aria-label="比較画面の移動"><a href="#wf-pickup">上部バナーへ</a><a href="#wf-features">ピックアップ３枠へ</a><a href="#wf-news">お知らせの３案へ</a><a href="/">現在のホーム</a></nav>
-<p class="wf-review-note">ローカルの検討用画面です。お知らせの原稿・掲載日は仮です。案の採用と公開は未決定です。固定見積もりは上のボタンで表示できます。</p>
+<nav aria-label="比較画面の移動"><a href="#home-pickup-banner">上部バナーへ</a><a href="#home-pickup">ピックアップ３枠へ</a><a href="#wf-news">お知らせの３案へ</a><a href="/">現在のホーム</a></nav>
+<p class="wf-review-note">ローカルの検討用画面です。お知らせの原稿・掲載日は仮です。お知らせの形の採用は未決定です。ピックアップ２領域は公開HOMEと共通です。固定見積もりは上のボタンで表示できます。</p>
 </div></div>'''
-    selector = re.search(r'<section\b[^>]*id="home-cleaning-list"[^>]*>', page)
+    selector = re.search(r'<section\b[^>]*id="home-pickup-banner"[^>]*>', page)
     assert selector
-    page = page[:selector.start()] + intro + additions["pickup"] + "\n" + page[selector.start():]
+    page = page[:selector.start()] + intro + "\n" + page[selector.start():]
     bottom = re.search(r'<section\b[^>]*class="[^"]*c-featured-cleaning[^>]*>', page)
     assert bottom
-    page = page[:bottom.start()] + lp_pickup() + additions["news"] + "\n" + page[bottom.start():]
+    page = page[:bottom.start()] + additions["news"] + "\n" + page[bottom.start():]
     encoded = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     page = page.replace("</body>", f'<script type="application/json" id="wf-data">{encoded}</script>\n<dialog class="wf-news-dialog" aria-labelledby="wf-news-dialog-title"><button type="button" class="wf-news-close" data-wf-news-close aria-label="お知らせを閉じる">×</button><div data-wf-news-detail></div></dialog>\n<button type="button" class="wf-review-return" data-wf-return hidden>比較表示を戻す</button>\n</body>', 1)
     preserved = {}
@@ -97,6 +62,8 @@ def build():
         "sharedFooter": r'<footer\b.*?</footer>',
         "videoSection": r'<section\b[^>]*class="home-first-view".*?</section>',
         "topEightCategories": r'<section\b[^>]*id="home-cleaning-list".*?</section>',
+        "pickupBanner": r'<section\b[^>]*id="home-pickup-banner".*?</section>',
+        "pickupThreeSlots": r'<section\b[^>]*id="home-pickup".*?</section>',
         "guideBanners": r'<section\b[^>]*class="[^"]*home-first-guide-section[^>]*>.*?</section>',
         "reasons": r'<section\b[^>]*id="home-reasons".*?</section>',
         "concerns": r'<section\b[^>]*id="tab-panel_02".*?</section>',
@@ -106,7 +73,9 @@ def build():
         assert match and match.group(0) in page, name
         preserved[name] = True
     (HERE / "index.html").write_text(page, encoding="utf-8", newline="\n")
-    (HERE / "build-info.json").write_text(json.dumps({"source": "source/site/index.html", "sourceSha256": sha256((SITE / "index.html").read_bytes()).hexdigest(), "sections": ["pickup", "features", "news"], "newsVariants": 3, "lpSlots": PICKUP_TOPICS, "lpDestinations": "pending scripts and LP production", "assetsCopied": 0, "preservedMarkup": preserved, "newLinksAndAssetsExist": True}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
+    topics = re.findall(r'<div class="home-pickup__copy"><h3>(.*?)</h3>', original)
+    assert len(topics) == 3
+    (HERE / "build-info.json").write_text(json.dumps({"source": "source/site/index.html", "sourceSha256": sha256((SITE / "index.html").read_bytes()).hexdigest(), "sections": ["home-pickup-banner", "home-pickup", "news"], "newsVariants": 3, "lpSlots": topics, "lpDestinations": "pending scripts and LP production", "assetsCopied": 0, "preservedMarkup": preserved, "newLinksAndAssetsExist": True}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     print("Built HOME copy: upper aircon banner and three later manga-LP placeholders; existing sections preserved.")
 
 

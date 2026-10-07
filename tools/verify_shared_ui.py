@@ -10,6 +10,7 @@ from build_shared_ui import SITE, COMPONENTS, transform
 baseline='38e9ab2'
 parser=argparse.ArgumentParser()
 parser.add_argument('--preserve-main', action='store_true')
+parser.add_argument('--output', default='evidence/2026-10-03/local/shared-ui-static.json')
 args=parser.parse_args()
 checked=[]
 targets={}
@@ -38,7 +39,7 @@ for page in sorted(SITE.rglob('*.html')):
         assert target.find(id=fragment),(relative,anchor['href'])
     checked.append(relative)
 report=dict(pages=len(checked),main_unchanged=args.preserve_main,shared_fragments=True,checked=checked)
-out=Path('evidence/2026-10-03/local/shared-ui-static.json')
+out=Path(args.output)
 out.parent.mkdir(parents=True,exist_ok=True)
 out.write_bytes((json.dumps(report,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 print(json.dumps({k:v for k,v in report.items() if k!='checked'},ensure_ascii=False))

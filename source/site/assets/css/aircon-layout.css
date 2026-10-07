@@ -196,7 +196,7 @@
 :is(.c-service-page, .c-home) .p-page-anchors__heading {
   position: relative;
   width: fit-content;
-  max-width: calc(100% - 64px);
+  max-width: calc(100% - 36px);
   margin-inline: auto;
   padding-inline: 10px;
 }
@@ -278,7 +278,7 @@
 }
 
 .c-service-page .p-page-anchors__cards {
-  margin-top: 40px;
+  margin-top: 24px;
 }
 
 .c-featured-cleaning__heading + .c-house-cleaning-links {
@@ -360,13 +360,10 @@
   /* Reuse the reference common.css tabs: 14px, 1.8 line height, 12px side padding. */
   .c-service-page .c-tab__button br { display: none; }
 
-  .c-service-page .p-page-anchors__cards .c-category-simple-card__bottom {
-    padding-inline: 6px;
-  }
-
   .c-service-page .p-page-anchors__cards .c-category-simple-card__text {
-    font-size: clamp(11px, 3.1vw, 13px);
-    white-space: nowrap;
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: normal;
   }
 }
 

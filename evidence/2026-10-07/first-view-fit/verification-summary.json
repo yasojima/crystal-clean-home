@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-07T03:15:53.154385+00:00",
+  "pages": 61,
+  "manifestEntries": 743,
+  "siteFiles": 729,
+  "manifestMatches": true,
+  "sharedFragmentsMatch": true,
+  "publication": "evidence/2026-10-07/first-view-fit/final-publication.json",
+  "tests": {
+    "shared_local": {
+      "path": "evidence/2026-10-07/first-view-fit/local.json",
+      "conditions": 158,
+      "passed": true,
+      "sha256": "ef7d6df4b2f5a26b4056c18a0c5dbf10ba5e237e28a4726468f0a608d172a58b"
+    },
+    "all_pages_local": {
+      "path": "evidence/2026-10-07/first-view-fit/content/local.json",
+      "conditions": 1071,
+      "passed": true,
+      "sha256": "ad7b503b2ee5aff3321735c44b9c224b3163e07d50163715c998dd547e94127e"
+    },
+    "footer_local": {
+      "path": "evidence/2026-10-07/first-view-fit/footer/matrix.json",
+      "conditions": 33,
+      "passed": true,
+      "sha256": "9d6f48e632e7c1c55ab16638eaa3ce73d1b8e9af80e4078cbafa320c068a085f"
+    },
+    "shared_public": {
+      "path": "evidence/2026-10-07/first-view-fit/public/public.json",
+      "conditions": 158,
+      "passed": true,
+      "sha256": "e7b994e5f5d4c5ffea8e7d2c577a40f375a84b39f491932d81d283ef70c187b3"
+    },
+    "footer_public": {
+      "path": "evidence/2026-10-07/first-view-fit/public-footer/matrix.json",
+      "conditions": 33,
+      "passed": true,
+      "sha256": "387aee9fdd0398cc44f24e04c1e44c6d317e982c1df414fc073786c3247498f0"
+    },
+    "office_local": {
+      "path": "evidence/2026-10-07/office-cleaning/local/report.json",
+      "conditions": 34,
+      "passed": true,
+      "sha256": "8352ec49d43b5cbcc9c87f7fd919488651d7fa042da5ac84e09c8bd99428f702"
+    },
+    "office_public": {
+      "path": "evidence/2026-10-07/office-cleaning/public/report.json",
+      "conditions": 34,
+      "passed": true,
+      "sha256": "38ece712982ce83373173cebbffd013ad1eb7de3d3cd370e4578625c6c3a16c2"
+    },
+    "lp_local": {
+      "path": "evidence/2026-10-07/lp-scope-restore/local.json",
+      "conditions": 9,
+      "passed": true,
+      "sha256": "653a6ee450d1a15472ae4cd4aab7f13a6d5c29da9407cbec25c48f167fce68d8"
+    },
+    "lp_public": {
+      "path": "evidence/2026-10-07/lp-scope-restore/public.json",
+      "conditions": 9,
+      "passed": true,
+      "sha256": "f49bcf372ba22c8bf4e8df918f041aa45e639993507235470fdc4a35c2bdd8ce"
+    }
+  },
+  "physicalDeviceAcceptance": false
+}

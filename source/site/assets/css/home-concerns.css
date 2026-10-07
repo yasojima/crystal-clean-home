@@ -16,7 +16,9 @@
 .home-concerns__heading { color: #06408c; }
 .home-concerns__places {
   flex-wrap: wrap;
-  margin: 40px 0 24px;
+  width: 100%;
+  max-width: 750px;
+  margin: 40px auto 24px;
   overflow: visible;
 }
 .home-concerns__place { cursor: pointer; }
