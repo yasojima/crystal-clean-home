@@ -1,0 +1,20 @@
+{
+  "source_commit": "844d0db",
+  "pages_commit": "7a1c4912d4d93e5ef07058e7e438ebc025ac91ac",
+  "actions_run": 37644006789,
+  "actions_status": "success",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "b22e2fe5133b692c2ef28e533ad775046d0e92b4c6c3f1afec9324ab2a50c839",
+      "matches_source": true
+    },
+    {
+      "path": "assets/css/home-pickups.css",
+      "status": 200,
+      "sha256": "6ac8cd18ec8b86b946ce9adf9a02c3203075e704cfd8f4dc3d15e4aa3c2a746d",
+      "matches_source": true
+    }
+  ]
+}

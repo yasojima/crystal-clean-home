@@ -1,0 +1,20 @@
+{
+  "source_commit": "23944ad",
+  "pages_commit": "37e03e70e3fd0835b9e2d699969f8338f5627e81",
+  "actions_run": 37645414547,
+  "actions_status": "success",
+  "files": [
+    {
+      "path": "business/cleaning/index.html",
+      "status": 200,
+      "sha256": "6afa94f9737204041a4ba52e396982b9392a9e93a7ca9685ab8a70034d96d9b5",
+      "matches_source": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "status": 200,
+      "sha256": "26e70ba75b47fff4a0fe50b6f82a6028cc77669f6b7024d86592ce4c78f24c3b",
+      "matches_source": true
+    }
+  ]
+}
