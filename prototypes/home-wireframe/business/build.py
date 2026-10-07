@@ -20,16 +20,15 @@ def build():
     head = re.sub(r'<title>.*?</title>', '<title>法人向け清掃 ワイヤーフレーム | Crystal Clean Home</title>', head)
     head = re.sub(r'<link[^>]*href="/assets/css/office-cleaning\.css[^>]*>', '', head)
     head = re.sub(r'<meta\b[^>]*name="robots"[^>]*>', '', head)
-    head = head.replace('</head>', '<meta name="robots" content="noindex,nofollow">\n<link rel="stylesheet" href="/home-wireframe/business/wireframe.css?v=2026100816">\n</head>')
+    head = head.replace('</head>', '<meta name="robots" content="noindex,nofollow">\n<link rel="stylesheet" href="/home-wireframe/business/wireframe.css?v=2026100819">\n</head>')
     header = re.search(r'<header\b[^>]*class="c-header"[^>]*>.*?</header>', current, re.S).group()
     footer = re.search(r'<footer\b[^>]*class="c-footer\b[^>]*>.*?</footer>', current, re.S).group()
 
     def photo(key, alt, lazy=True):
         return f'<img src="/assets/images/office-cleaning/{key}.png" alt="{escape(alt)}" width="1536" height="1024" loading="{"lazy" if lazy else "eager"}" decoding="async">'
 
-    def inquiry_link(href, text, demo=False):
-        demo_attribute = ' data-demo-dialog' if demo else ''
-        return f'<a class="office-wf__inquiry-link c-category-simple-card" href="{escape(href)}"{demo_attribute}><span class="office-wf__inquiry-surface c-category-simple-card__bottom"><span class="office-wf__inquiry-text c-category-simple-card__text">{escape(text)}</span></span></a>'
+    def inquiry_link():
+        return '<a class="office-wf__inquiry-link c-category-simple-card" href="/contact/business/" data-demo-dialog><span class="office-wf__inquiry-surface c-category-simple-card__bottom"><span class="office-wf__inquiry-text c-category-simple-card__text">ご相談窓口</span></span></a>'
 
     scenes = (
         ('日常では難しい箇所のお掃除', '日々のお掃除では落としにくい汚れや、手の届きにくい箇所をご相談いただけます。エアコン内部、床の黒ずみ、カーペットのシミなど、設備や素材の状態を確認し、場所に合った清掃をご案内します。'),
@@ -55,7 +54,7 @@ def build():
     main = f'''<main class="office-wf">
 <section class="office-wf__hero" aria-labelledby="office-wf-title">
 <div class="office-wf__cover-frame"><div class="office-wf__cover">
-<div class="office-wf__cover-title"><h1 id="office-wf-title">{escape(data['title'])}</h1><p class="office-wf__cover-word">店舗・オフィスを、<span>清潔に。</span></p>{inquiry_link('#office-wf-contact','法人向け清掃のご相談')}</div>
+<div class="office-wf__cover-title"><h1 id="office-wf-title">{escape(data['title'])}</h1><p class="office-wf__cover-word">店舗・オフィスを、<span>清潔に。</span></p>{inquiry_link()}</div>
 <figure class="office-wf__cover-photo">{photo('floor','大きな窓と広いフロアのある店舗・オフィスの空間',False)}</figure>
 </div></div>
 <div class="office-wf__container office-wf__intro"><p class="office-wf__statement">{''.join(f'<span>{escape(line)}</span>' for line in STATEMENT_LINES)}</p><div><p class="office-wf__intro-copy">{escape(INTRO_COPY)}</p></div></div>
@@ -63,7 +62,7 @@ def build():
 <section class="office-wf__section office-wf__scene-section c-home" id="office-wf-scenes" aria-labelledby="office-wf-scenes-title"><div class="office-wf__container"><header class="office-wf__section-head"><h2 id="office-wf-scenes-title">こんな清掃をご相談いただけます</h2></header><div class="office-wf__scenes c-grid c-reasons c-reasons--navy">{scene_items}</div></div></section>
 <section class="office-wf__section office-wf__services" aria-labelledby="office-wf-features-title"><div class="office-wf__container"><div class="office-wf__features">{spreads}</div></div></section>
 <section class="office-wf__section office-wf__range-section" aria-labelledby="office-wf-range-title"><div class="office-wf__container"><header class="office-wf__section-head"><h2 id="office-wf-range-title">幅広い清掃対応</h2></header><div class="office-wf__gallery">{gallery}</div></div></section>
-<section class="office-wf__section office-wf__contact" id="office-wf-contact" aria-labelledby="office-wf-contact-title"><div class="office-wf__container office-wf__contact-grid"><div><h2 id="office-wf-contact-title">法人向け清掃のご相談</h2></div><div><p>{escape(data['closing'])}</p>{inquiry_link('/contact/business/','お問い合わせはこちら',True)}</div></div></section>
+<section class="office-wf__section office-wf__contact" id="office-wf-contact" aria-labelledby="office-wf-contact-title"><div class="office-wf__container office-wf__contact-grid"><div><h2 id="office-wf-contact-title">法人向け清掃のご相談</h2></div><div><p>{escape(data['closing'])}</p>{inquiry_link()}</div></div></section>
 </main>'''
     page = f'{head}<body class="c-office-cleaning office-wf-page">{header}{main}{footer}</body></html>'
     (HERE / 'index.html').write_text(page, encoding='utf-8', newline='\n')

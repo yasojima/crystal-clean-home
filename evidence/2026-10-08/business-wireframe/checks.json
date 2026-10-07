@@ -1,7 +1,7 @@
 {
   "copySource": "source/office-cleaning/content.json",
   "copySha256": "03acc51b60fb7192229ea84ce0b94f935849db0da305222880e14c2c98756ff9",
-  "cssVersion": "2026100816",
+  "cssVersion": "2026100819",
   "records": [
     {
       "width": 1439,
@@ -100,49 +100,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 92,
-          "y": 3913.9375,
+          "y": 3833.9375,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 408,
-          "y": 3913.9375,
+          "y": 3833.9375,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 724,
-          "y": 3913.9375,
+          "y": 3833.9375,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 1040,
-          "y": 3913.9375,
+          "y": 3833.9375,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 92,
-          "y": 4167.78125,
+          "y": 4087.78125,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 408,
-          "y": 4167.78125,
+          "y": 4087.78125,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 724,
-          "y": 4167.78125,
+          "y": 4087.78125,
           "width": 292,
           "height": 194.65625
         },
         {
           "x": 1040,
-          "y": 4167.78125,
+          "y": 4087.78125,
           "width": 292,
           "height": 194.65625
         }
@@ -193,8 +193,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 420,
           "height": 92,
           "background": "rgb(0, 91, 172)",
@@ -203,11 +203,12 @@
           "size": "23.9232px",
           "weight": "700",
           "lineHeight": "35.8848px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 288,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -216,7 +217,8 @@
           "size": "16px",
           "weight": "700",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -377,49 +379,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 40,
-          "y": 3634.1875,
+          "y": 3554.1875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 342.25,
-          "y": 3634.1875,
+          "y": 3554.1875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 644.5,
-          "y": 3634.1875,
+          "y": 3554.1875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 946.75,
-          "y": 3634.1875,
+          "y": 3554.1875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 40,
-          "y": 3878.875,
+          "y": 3798.875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 342.25,
-          "y": 3878.875,
+          "y": 3798.875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 644.5,
-          "y": 3878.875,
+          "y": 3798.875,
           "width": 278.25,
           "height": 185.5
         },
         {
           "x": 946.75,
-          "y": 3878.875,
+          "y": 3798.875,
           "width": 278.25,
           "height": 185.5
         }
@@ -470,8 +472,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 373.171875,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -480,11 +482,12 @@
           "size": "21.252px",
           "weight": "700",
           "lineHeight": "31.878px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 284.25,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -493,7 +496,8 @@
           "size": "16px",
           "weight": "700",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -654,49 +658,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 32,
-          "y": 4145.234375,
+          "y": 4065.234375,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 274.25,
-          "y": 4145.234375,
+          "y": 4065.234375,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 516.5,
-          "y": 4145.234375,
+          "y": 4065.234375,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 758.75,
-          "y": 4145.234375,
+          "y": 4065.234375,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 32,
-          "y": 4349.921875,
+          "y": 4269.921875,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 274.25,
-          "y": 4349.921875,
+          "y": 4269.921875,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 516.5,
-          "y": 4349.921875,
+          "y": 4269.921875,
           "width": 218.25,
           "height": 145.5
         },
         {
           "x": 758.75,
-          "y": 4349.921875,
+          "y": 4269.921875,
           "width": 218.25,
           "height": 145.5
         }
@@ -747,8 +751,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 297.640625,
           "height": 88.3125,
           "background": "rgb(0, 91, 172)",
@@ -757,11 +761,12 @@
           "size": "18px",
           "weight": "700",
           "lineHeight": "27px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 299,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -770,7 +775,8 @@
           "size": "16px",
           "weight": "700",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -931,49 +937,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 32,
-          "y": 4275.53125,
+          "y": 4195.53125,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 209.25,
-          "y": 4275.53125,
+          "y": 4195.53125,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 386.5,
-          "y": 4275.53125,
+          "y": 4195.53125,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 563.75,
-          "y": 4275.53125,
+          "y": 4195.53125,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 32,
-          "y": 4439.546875,
+          "y": 4359.546875,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 209.25,
-          "y": 4439.546875,
+          "y": 4359.546875,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 386.5,
-          "y": 4439.546875,
+          "y": 4359.546875,
           "width": 157.25,
           "height": 104.828125
         },
         {
           "x": 563.75,
-          "y": 4439.546875,
+          "y": 4359.546875,
           "width": 157.25,
           "height": 104.828125
         }
@@ -1024,8 +1030,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 328.5,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -1034,11 +1040,12 @@
           "size": "16px",
           "weight": "700",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 328.5,
           "height": 64,
           "background": "rgb(0, 91, 172)",
@@ -1047,7 +1054,8 @@
           "size": "16px",
           "weight": "700",
           "lineHeight": "24px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -1208,49 +1216,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 20,
-          "y": 5731.640625,
+          "y": 5683.640625,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 207.5,
-          "y": 5731.640625,
+          "y": 5683.640625,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 20,
-          "y": 5905.15625,
+          "y": 5857.15625,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 207.5,
-          "y": 5905.15625,
+          "y": 5857.15625,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 20,
-          "y": 6078.671875,
+          "y": 6030.671875,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 207.5,
-          "y": 6078.671875,
+          "y": 6030.671875,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 20,
-          "y": 6252.1875,
+          "y": 6204.1875,
           "width": 171.5,
           "height": 114.328125
         },
         {
           "x": 207.5,
-          "y": 6252.1875,
+          "y": 6204.1875,
           "width": 171.5,
           "height": 114.328125
         }
@@ -1301,8 +1309,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 178,
           "height": 55,
           "background": "rgb(0, 91, 172)",
@@ -1311,11 +1319,12 @@
           "size": "13px",
           "weight": "700",
           "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 178,
           "height": 55,
           "background": "rgb(0, 91, 172)",
@@ -1324,7 +1333,8 @@
           "size": "13px",
           "weight": "700",
           "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -1485,49 +1495,49 @@
       "galleryPhotoDimensions": [
         {
           "x": 20,
-          "y": 5772.796875,
+          "y": 5724.796875,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 160.5,
-          "y": 5772.796875,
+          "y": 5724.796875,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 20,
-          "y": 5914.984375,
+          "y": 5866.984375,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 160.5,
-          "y": 5914.984375,
+          "y": 5866.984375,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 20,
-          "y": 6057.171875,
+          "y": 6009.171875,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 160.5,
-          "y": 6057.171875,
+          "y": 6009.171875,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 20,
-          "y": 6199.359375,
+          "y": 6151.359375,
           "width": 124.5,
           "height": 83
         },
         {
           "x": 160.5,
-          "y": 6199.359375,
+          "y": 6151.359375,
           "width": 124.5,
           "height": 83
         }
@@ -1578,8 +1588,8 @@
       "bodyFontsMatch": true,
       "cta": [
         {
-          "href": "#office-wf-contact",
-          "text": "法人向け清掃のご相談",
+          "href": "/contact/business/",
+          "text": "ご相談窓口",
           "width": 131,
           "height": 55,
           "background": "rgb(0, 91, 172)",
@@ -1588,11 +1598,12 @@
           "size": "13px",
           "weight": "700",
           "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         },
         {
           "href": "/contact/business/",
-          "text": "お問い合わせはこちら",
+          "text": "ご相談窓口",
           "width": 131,
           "height": 55,
           "background": "rgb(0, 91, 172)",
@@ -1601,7 +1612,8 @@
           "size": "13px",
           "weight": "700",
           "lineHeight": "19.5px",
-          "color": "rgb(255, 255, 255)"
+          "color": "rgb(255, 255, 255)",
+          "demo": true
         }
       ],
       "photoBacking": [
@@ -1668,14 +1680,180 @@
   ],
   "interaction": {
     "hover": "sparkle",
-    "contactAnchor": true,
     "keyboardFocus": {
       "active": true,
       "outline": "solid",
       "width": "2px"
     },
     "demoMessage": "デモ表示のためリンク未設定です。",
-    "reducedMotion": "none"
+    "reducedMotion": "none",
+    "unifiedCTA": {
+      "label": "ご相談窓口",
+      "href": "/contact/business/",
+      "handler": "data-demo-dialog",
+      "records": [
+        {
+          "width": 1439,
+          "height": 802,
+          "buttons": [
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 420,
+              "height": 92,
+              "labelFits": true
+            },
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 288,
+              "height": 64,
+              "labelFits": true
+            }
+          ],
+          "actions": [
+            {
+              "cta": "cover",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "cover",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            }
+          ],
+          "status": "PASS"
+        },
+        {
+          "width": 414,
+          "height": 688,
+          "buttons": [
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 178,
+              "height": 55,
+              "labelFits": true
+            },
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 178,
+              "height": 55,
+              "labelFits": true
+            }
+          ],
+          "actions": [
+            {
+              "cta": "cover",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "cover",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            }
+          ],
+          "status": "PASS"
+        },
+        {
+          "width": 320,
+          "height": 568,
+          "buttons": [
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 131,
+              "height": 55,
+              "labelFits": true
+            },
+            {
+              "text": "ご相談窓口",
+              "href": "/contact/business/",
+              "demo": true,
+              "width": 131,
+              "height": 55,
+              "labelFits": true
+            }
+          ],
+          "actions": [
+            {
+              "cta": "cover",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "cover",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "click",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            },
+            {
+              "cta": "closing",
+              "action": "Enter",
+              "type": "alert",
+              "message": "デモ表示のためリンク未設定です。",
+              "urlUnchanged": true
+            }
+          ],
+          "status": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
   },
   "pageErrors": [],
   "status": "PASS",
@@ -1683,7 +1861,6 @@
     "referenceCanvaDesign": "DAHXWmLLVkk",
     "reference": "User-edited screenshot 021398f2-c59a-4af4-be6d-3bfa55a076a5",
     "status": "PASS",
-    "coverCTAAnchorAndEnter": true,
     "records": [
       {
         "width": 1439,
@@ -1700,8 +1877,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 420,
             "height": 92,
             "background": "rgb(0, 91, 172)",
@@ -1710,11 +1887,12 @@
             "size": "23.9232px",
             "weight": "700",
             "lineHeight": "35.8848px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 288,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1723,7 +1901,8 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -1771,8 +1950,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 373.171875,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1781,11 +1960,12 @@
             "size": "21.252px",
             "weight": "700",
             "lineHeight": "31.878px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 284.25,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1794,7 +1974,8 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -1842,8 +2023,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 297.640625,
             "height": 88.3125,
             "background": "rgb(0, 91, 172)",
@@ -1852,11 +2033,12 @@
             "size": "18px",
             "weight": "700",
             "lineHeight": "27px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 299,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1865,7 +2047,8 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -1913,8 +2096,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 328.5,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1923,11 +2106,12 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 328.5,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -1936,7 +2120,8 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -1984,8 +2169,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 178,
             "height": 55,
             "background": "rgb(0, 91, 172)",
@@ -1994,11 +2179,12 @@
             "size": "13px",
             "weight": "700",
             "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 178,
             "height": 55,
             "background": "rgb(0, 91, 172)",
@@ -2007,7 +2193,8 @@
             "size": "13px",
             "weight": "700",
             "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -2055,8 +2242,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 131,
             "height": 55,
             "background": "rgb(0, 91, 172)",
@@ -2065,11 +2252,12 @@
             "size": "13px",
             "weight": "700",
             "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 131,
             "height": 55,
             "background": "rgb(0, 91, 172)",
@@ -2078,7 +2266,8 @@
             "size": "13px",
             "weight": "700",
             "lineHeight": "19.5px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -2126,8 +2315,8 @@
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 288.203125,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -2136,11 +2325,12 @@
             "size": "18px",
             "weight": "700",
             "lineHeight": "27px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 288.328125,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -2149,7 +2339,8 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
@@ -2192,13 +2383,13 @@
         "heroPhoto": {
           "x": 612.5,
           "y": 140,
-          "width": 1292.5,
-          "height": 924
+          "width": 1165,
+          "height": 720
         },
         "cta": [
           {
-            "href": "#office-wf-contact",
-            "text": "法人向け清掃のご相談",
+            "href": "/contact/business/",
+            "text": "ご相談窓口",
             "width": 420,
             "height": 92,
             "background": "rgb(0, 91, 172)",
@@ -2207,11 +2398,12 @@
             "size": "24px",
             "weight": "700",
             "lineHeight": "36px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           },
           {
             "href": "/contact/business/",
-            "text": "お問い合わせはこちら",
+            "text": "ご相談窓口",
             "width": 288,
             "height": 64,
             "background": "rgb(0, 91, 172)",
@@ -2220,44 +2412,45 @@
             "size": "16px",
             "weight": "700",
             "lineHeight": "24px",
-            "color": "rgb(255, 255, 255)"
+            "color": "rgb(255, 255, 255)",
+            "demo": true
           }
         ],
         "firstView": {
           "frame": {
-            "x": 0,
+            "x": 127.5,
             "y": 140,
-            "width": 1905,
-            "height": 940
+            "width": 1650,
+            "height": 736
           },
           "photo": {
             "x": 612.5,
             "y": 140,
-            "width": 1292.5,
-            "height": 924
+            "width": 1165,
+            "height": 720
           },
           "title": {
             "x": 312.5,
             "y": 180,
             "width": 640,
-            "height": 568.59375
+            "height": 548.6875
           },
           "cta": {
             "x": 328.5,
-            "y": 656.59375,
+            "y": 636.6875,
             "width": 420,
             "height": 92
           },
-          "photoBackingBottom": 1080
+          "photoBackingBottom": 876
         },
         "ctaLabelFits": true,
         "headingFont": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif"
       }
-    ]
+    ],
+    "coverAndClosingCTAUnified": true
   },
   "ctaRefinement": {
     "status": "PASS",
-    "copyAndPhotoUnchanged": true,
     "records": [
       {
         "width": 1439,
@@ -2330,6 +2523,2042 @@
           92
         ],
         "labelFits": true
+      }
+    ],
+    "dimensionsPreserved": true
+  },
+  "layoutRefinement": {
+    "status": "PASS",
+    "copyUnchanged": true,
+    "photoWidthStopsGrowing": true,
+    "records": [
+      {
+        "width": 1439,
+        "height": 802,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 139.921875,
+            "width": 1424,
+            "height": 662.0625
+          },
+          "photo": {
+            "x": 356.796875,
+            "y": 139.921875,
+            "width": 1067.203125,
+            "height": 646.0625
+          },
+          "title": {
+            "x": 72,
+            "y": 172,
+            "width": 640,
+            "height": 543.84375
+          },
+          "cta": {
+            "x": 88,
+            "y": 623.84375,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 801.984375
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 108.936,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 257.609375,
+            "y": 2485.28125,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 994.65625,
+            "y": 2539.234375,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 199.6875,
+            "y": 3315.84375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 784.265625,
+            "y": 3408.109375,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 694.21875,
+          "y": 4410.625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 177.609375,
+            "y": 1967.578125,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 934.65625,
+            "y": 1981.578125,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 139.6875,
+            "y": 2928.234375,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 704.265625,
+            "y": 2864.234375,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 92,
+            "y": 3833.9375,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 408,
+            "y": 3833.9375,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 724,
+            "y": 3833.9375,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1040,
+            "y": 3833.9375,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 92,
+            "y": 4087.78125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 408,
+            "y": 4087.78125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 724,
+            "y": 4087.78125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1040,
+            "y": 4087.78125,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1280,
+        "height": 551,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 120,
+            "width": 1265,
+            "height": 431
+          },
+          "photo": {
+            "x": 293,
+            "y": 120,
+            "width": 972,
+            "height": 415
+          },
+          "title": {
+            "x": 40,
+            "y": 142.03125,
+            "width": 592.5,
+            "height": 389.171875
+          },
+          "cta": {
+            "x": 56,
+            "y": 467.203125,
+            "width": 373.171875,
+            "height": 64
+          },
+          "photoBackingBottom": 551
+        },
+        "corner": "85.3875px",
+        "backCorner": "85.3875px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 80.9677,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 201.75,
+            "y": 2202.921875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 906,
+            "y": 2254.328125,
+            "width": 273.515625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 145.484375,
+            "y": 3018.84375,
+            "width": 273.515625,
+            "height": 84
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 705.5,
+            "y": 3104.375,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 614.71875,
+          "y": 4112.5625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 121.75,
+            "y": 1702.84375,
+            "width": 599.5,
+            "height": 374.6875
+          },
+          {
+            "x": 846,
+            "y": 1716.84375,
+            "width": 333.515625,
+            "height": 416.890625
+          },
+          {
+            "x": 85.484375,
+            "y": 2643.328125,
+            "width": 333.515625,
+            "height": 250.125
+          },
+          {
+            "x": 625.5,
+            "y": 2579.328125,
+            "width": 599.5,
+            "height": 399.65625
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 40,
+            "y": 3554.1875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 342.25,
+            "y": 3554.1875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 644.5,
+            "y": 3554.1875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 946.75,
+            "y": 3554.1875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 40,
+            "y": 3798.875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 342.25,
+            "y": 3798.875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 644.5,
+            "y": 3798.875,
+            "width": 278.25,
+            "height": 185.5
+          },
+          {
+            "x": 946.75,
+            "y": 3798.875,
+            "width": 278.25,
+            "height": 185.5
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 124.796875,
+            "width": 1009,
+            "height": 643.1875
+          },
+          "photo": {
+            "x": 241.796875,
+            "y": 124.796875,
+            "width": 767.203125,
+            "height": 627.1875
+          },
+          "title": {
+            "x": 32,
+            "y": 155.515625,
+            "width": 472.5,
+            "height": 440.875
+          },
+          "cta": {
+            "x": 48,
+            "y": 508.078125,
+            "width": 297.640625,
+            "height": 88.3125
+          },
+          "photoBackingBottom": 767.984375
+        },
+        "corner": "68.1075px",
+        "backCorner": "68.1075px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 77.1885,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 171.15625,
+            "y": 2766.5625,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 735.328125,
+            "y": 2805.796875,
+            "width": 205.46875,
+            "height": 252
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 128.203125,
+            "y": 3575.265625,
+            "width": 205.453125,
+            "height": 84
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 573.234375,
+            "y": 3630.6875,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 483.109375,
+          "y": 4543.609375,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 945,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 97.15625,
+            "y": 2342.578125,
+            "width": 477.75,
+            "height": 298.59375
+          },
+          {
+            "x": 675.328125,
+            "y": 2356.578125,
+            "width": 265.46875,
+            "height": 331.828125
+          },
+          {
+            "x": 68.203125,
+            "y": 3250.796875,
+            "width": 265.453125,
+            "height": 199.078125
+          },
+          {
+            "x": 499.234375,
+            "y": 3186.796875,
+            "width": 477.765625,
+            "height": 318.5
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 32,
+            "y": 4065.234375,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 274.25,
+            "y": 4065.234375,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 516.5,
+            "y": 4065.234375,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 758.75,
+            "y": 4065.234375,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 32,
+            "y": 4269.921875,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 274.25,
+            "y": 4269.921875,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 516.5,
+            "y": 4269.921875,
+            "width": 218.25,
+            "height": 145.5
+          },
+          {
+            "x": 758.75,
+            "y": 4269.921875,
+            "width": 218.25,
+            "height": 145.5
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 768,
+        "height": 800,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 72,
+            "width": 753,
+            "height": 728
+          },
+          "photo": {
+            "x": 32,
+            "y": 388.265625,
+            "width": 689,
+            "height": 347.734375
+          },
+          "title": {
+            "x": 32,
+            "y": 104,
+            "width": 689,
+            "height": 260.265625
+          },
+          "cta": {
+            "x": 32,
+            "y": 300.265625,
+            "width": 328.5,
+            "height": 64
+          },
+          "photoBackingBottom": 768
+        },
+        "corner": "50.8275px",
+        "backCorner": "50.8275px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 40.704,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 123.1875,
+            "y": 2783.546875,
+            "width": 235.3125,
+            "height": 196
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 454.5,
+            "y": 2941.125,
+            "width": 227.3125,
+            "height": 224
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 131.1875,
+            "y": 3691,
+            "width": 227.3125,
+            "height": 84
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 485.6875,
+            "y": 3603.046875,
+            "width": 235.3125,
+            "height": 224
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 32,
+          "y": 4662.953125,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 689,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 71.1875,
+            "y": 2486.59375,
+            "width": 287.3125,
+            "height": 179.5625
+          },
+          {
+            "x": 394.5,
+            "y": 2464.59375,
+            "width": 287.3125,
+            "height": 359.140625
+          },
+          {
+            "x": 71.1875,
+            "y": 3358.125,
+            "width": 287.3125,
+            "height": 215.484375
+          },
+          {
+            "x": 433.6875,
+            "y": 3294.125,
+            "width": 287.3125,
+            "height": 191.53125
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 32,
+            "y": 4195.53125,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 209.25,
+            "y": 4195.53125,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 386.5,
+            "y": 4195.53125,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 563.75,
+            "y": 4195.53125,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 32,
+            "y": 4359.546875,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 209.25,
+            "y": 4359.546875,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 386.5,
+            "y": 4359.546875,
+            "width": 157.25,
+            "height": 104.828125
+          },
+          {
+            "x": 563.75,
+            "y": 4359.546875,
+            "width": 157.25,
+            "height": 104.828125
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 414,
+        "height": 688,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 96,
+            "width": 399,
+            "height": 592
+          },
+          "photo": {
+            "x": 20,
+            "y": 343.171875,
+            "width": 359,
+            "height": 308.828125
+          },
+          "title": {
+            "x": 20,
+            "y": 112,
+            "width": 359,
+            "height": 207.171875
+          },
+          "cta": {
+            "x": 20,
+            "y": 264.171875,
+            "width": 178,
+            "height": 55
+          },
+          "photoBackingBottom": 672
+        },
+        "corner": "48px",
+        "backCorner": "48px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 27.324,
+        "servicesTop": 48,
+        "servicesBottom": 48,
+        "galleryTop": 32,
+        "galleryBottom": 32,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 115.09375,
+            "y": 3358.59375,
+            "width": 263.90625,
+            "height": 168
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 115.078125,
+            "y": 3922.359375,
+            "width": 226,
+            "height": 224
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 115.09375,
+            "y": 4605.671875,
+            "width": 263.90625,
+            "height": 84
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 115.09375,
+            "y": 5312.25,
+            "width": 263.90625,
+            "height": 224
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 20,
+          "y": 6478.703125,
+          "width": 359,
+          "height": 140
+        },
+        "contactWidth": 359,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 63.09375,
+            "y": 3043.765625,
+            "width": 315.90625,
+            "height": 197.4375
+          },
+          {
+            "x": 63.09375,
+            "y": 3582.59375,
+            "width": 277.984375,
+            "height": 222.375
+          },
+          {
+            "x": 63.09375,
+            "y": 4251.359375,
+            "width": 315.90625,
+            "height": 236.921875
+          },
+          {
+            "x": 63.09375,
+            "y": 4984.265625,
+            "width": 315.90625,
+            "height": 210.59375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 20,
+            "y": 5683.640625,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 207.5,
+            "y": 5683.640625,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 20,
+            "y": 5857.15625,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 207.5,
+            "y": 5857.15625,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 20,
+            "y": 6030.671875,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 207.5,
+            "y": 6030.671875,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 20,
+            "y": 6204.1875,
+            "width": 171.5,
+            "height": 114.328125
+          },
+          {
+            "x": 207.5,
+            "y": 6204.1875,
+            "width": 171.5,
+            "height": 114.328125
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 320,
+        "height": 568,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 148,
+            "width": 305,
+            "height": 420
+          },
+          "photo": {
+            "x": 20,
+            "y": 391.578125,
+            "width": 265,
+            "height": 140.421875
+          },
+          "title": {
+            "x": 20,
+            "y": 164,
+            "width": 265,
+            "height": 203.578125
+          },
+          "cta": {
+            "x": 20,
+            "y": 312.578125,
+            "width": 131,
+            "height": 55
+          },
+          "photoBackingBottom": 552
+        },
+        "corner": "48px",
+        "backCorner": "48px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 26,
+        "servicesTop": 48,
+        "servicesBottom": 48,
+        "galleryTop": 32,
+        "galleryBottom": 32,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 103.8125,
+            "y": 3255.890625,
+            "width": 181.1875,
+            "height": 252
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 103.796875,
+            "y": 3883.828125,
+            "width": 153.203125,
+            "height": 364
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 103.8125,
+            "y": 4645.109375,
+            "width": 181.1875,
+            "height": 112
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 103.8125,
+            "y": 5269.40625,
+            "width": 181.1875,
+            "height": 308
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 20,
+          "y": 6394.546875,
+          "width": 265,
+          "height": 196
+        },
+        "contactWidth": 265,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 51.8125,
+            "y": 2992.765625,
+            "width": 233.1875,
+            "height": 145.734375
+          },
+          {
+            "x": 51.8125,
+            "y": 3563.890625,
+            "width": 205.203125,
+            "height": 164.15625
+          },
+          {
+            "x": 51.8125,
+            "y": 4352.828125,
+            "width": 233.1875,
+            "height": 174.890625
+          },
+          {
+            "x": 51.8125,
+            "y": 4996.5625,
+            "width": 233.1875,
+            "height": 155.453125
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 20,
+            "y": 5724.796875,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 160.5,
+            "y": 5724.796875,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 20,
+            "y": 5866.984375,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 160.5,
+            "y": 5866.984375,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 20,
+            "y": 6009.171875,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 160.5,
+            "y": 6009.171875,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 20,
+            "y": 6151.359375,
+            "width": 124.5,
+            "height": 83
+          },
+          {
+            "x": 160.5,
+            "y": 6151.359375,
+            "width": 124.5,
+            "height": 83
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 992,
+        "height": 500,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 74.390625,
+            "width": 977,
+            "height": 425.59375
+          },
+          "photo": {
+            "x": 235.390625,
+            "y": 74.390625,
+            "width": 741.609375,
+            "height": 409.59375
+          },
+          "title": {
+            "x": 32,
+            "y": 94.390625,
+            "width": 456.5,
+            "height": 371.578125
+          },
+          "cta": {
+            "x": 48,
+            "y": 401.96875,
+            "width": 288.203125,
+            "height": 64
+          },
+          "photoBackingBottom": 499.984375
+        },
+        "corner": "65.9475px",
+        "backCorner": "65.9475px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 74.7405,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 168.921875,
+            "y": 2488.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 714,
+            "y": 2526.0625,
+            "width": 196.078125,
+            "height": 252
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 126.921875,
+            "y": 3288.5,
+            "width": 196.078125,
+            "height": 84
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 557.671875,
+            "y": 3340,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 468.875,
+          "y": 4239.90625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 913,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 94.921875,
+            "y": 2074.578125,
+            "width": 461.328125,
+            "height": 288.328125
+          },
+          {
+            "x": 654,
+            "y": 2088.578125,
+            "width": 256.078125,
+            "height": 320.09375
+          },
+          {
+            "x": 66.921875,
+            "y": 2971.0625,
+            "width": 256.078125,
+            "height": 192.046875
+          },
+          {
+            "x": 483.671875,
+            "y": 2907.0625,
+            "width": 461.328125,
+            "height": 307.546875
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 32,
+            "y": 3772.21875,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 266.25,
+            "y": 3772.21875,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 500.5,
+            "y": 3772.21875,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 734.75,
+            "y": 3772.21875,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 32,
+            "y": 3971.5625,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 266.25,
+            "y": 3971.5625,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 500.5,
+            "y": 3971.5625,
+            "width": 210.25,
+            "height": 140.15625
+          },
+          {
+            "x": 734.75,
+            "y": 3971.5625,
+            "width": 210.25,
+            "height": 140.15625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1920,
+        "height": 1080,
+        "firstView": {
+          "frame": {
+            "x": 127.5,
+            "y": 140,
+            "width": 1650,
+            "height": 736
+          },
+          "photo": {
+            "x": 612.5,
+            "y": 140,
+            "width": 1165,
+            "height": 720
+          },
+          "title": {
+            "x": 312.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 328.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 498.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1235.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 440.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 1024.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 934.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 418.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 1175.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 380.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 944.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 332.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 648.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 964.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1280.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 332.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 648.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 964.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1280.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1518,
+        "height": 1622,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 140,
+            "width": 1503,
+            "height": 736
+          },
+          "photo": {
+            "x": 411.5,
+            "y": 140,
+            "width": 1091.5,
+            "height": 720
+          },
+          "title": {
+            "x": 111.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 127.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 297.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1034.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 239.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 823.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 733.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 217.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 974.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 179.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 743.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 131.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 447.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 763.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1079.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 131.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 447.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 763.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1079.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1550,
+        "height": 1622,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 140,
+            "width": 1535,
+            "height": 736
+          },
+          "photo": {
+            "x": 427.5,
+            "y": 140,
+            "width": 1107.5,
+            "height": 720
+          },
+          "title": {
+            "x": 127.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 143.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 313.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1050.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 255.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 839.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 749.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 233.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 990.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 195.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 759.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 147.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 463.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 779.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1095.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 147.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 463.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 779.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1095.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1650,
+        "height": 1622,
+        "firstView": {
+          "frame": {
+            "x": 0,
+            "y": 140,
+            "width": 1635,
+            "height": 736
+          },
+          "photo": {
+            "x": 477.5,
+            "y": 140,
+            "width": 1157.5,
+            "height": 720
+          },
+          "title": {
+            "x": 177.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 193.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 363.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1100.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 305.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 889.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 799.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 283.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 1040.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 245.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 809.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 197.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 513.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 829.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1145.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 197.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 513.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 829.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1145.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 1920,
+        "height": 1622,
+        "firstView": {
+          "frame": {
+            "x": 127.5,
+            "y": 140,
+            "width": 1650,
+            "height": 736
+          },
+          "photo": {
+            "x": 612.5,
+            "y": 140,
+            "width": 1165,
+            "height": 720
+          },
+          "title": {
+            "x": 312.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 328.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 498.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1235.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 440.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 1024.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 934.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 418.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 1175.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 380.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 944.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 332.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 648.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 964.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1280.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 332.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 648.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 964.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1280.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
+      },
+      {
+        "width": 2560,
+        "height": 1622,
+        "firstView": {
+          "frame": {
+            "x": 447.5,
+            "y": 140,
+            "width": 1650,
+            "height": 736
+          },
+          "photo": {
+            "x": 932.5,
+            "y": 140,
+            "width": 1165,
+            "height": 720
+          },
+          "title": {
+            "x": 632.5,
+            "y": 180,
+            "width": 640,
+            "height": 548.6875
+          },
+          "cta": {
+            "x": 648.5,
+            "y": 636.6875,
+            "width": 420,
+            "height": 92
+          },
+          "photoBackingBottom": 876
+        },
+        "corner": "96px",
+        "backCorner": "96px",
+        "clip": "none",
+        "objectFit": "cover",
+        "coverFontSize": 110,
+        "servicesTop": 64,
+        "servicesBottom": 64,
+        "galleryTop": 48,
+        "galleryBottom": 48,
+        "paragraphs": [
+          {
+            "text": "長時間使用することが多い業務用エアコンは、フィルターや内部にホコリなどの汚れがたまりやすくなります。機種や設置状況を確認し、内部まで丁寧に洗浄します。定期的なお掃除で空気の通り道を整え、清潔な状態を保ちます。",
+            "x": 818.109375,
+            "y": 2559.296875,
+            "width": 308,
+            "height": 140
+          },
+          {
+            "text": "人の出入りが多い店舗やオフィスでは、靴で持ち込まれる砂や泥などが床やカーペットに付着しやすくなります。日々のお掃除で落としにくい床の黒ずみやカーペットのシミは、素材や汚れの状態に合わせて専用の機材で清掃し、毎日心地よく使えるきれいな環境に整えます。",
+            "x": 1555.15625,
+            "y": 2613.25,
+            "width": 289.65625,
+            "height": 196
+          },
+          {
+            "text": "よく触れる場所のお掃除や除菌、抗菌のお手入れなど、衛生面のご相談に対応します。",
+            "x": 760.1875,
+            "y": 3389.859375,
+            "width": 289.640625,
+            "height": 56
+          },
+          {
+            "text": "改装後やテナントの入れ替えに伴うお掃除は、設備や広さ、工事の内容によって必要な作業が変わります。床や窓、備え付けの設備の状態を確認し、引き渡しに向けた清掃の範囲と進め方を事前にご案内します。ご希望の時期や作業時間も現場の状況に合わせてご相談いただけます。",
+            "x": 1344.765625,
+            "y": 3482.125,
+            "width": 308,
+            "height": 168
+          }
+        ],
+        "closing": {
+          "text": "店舗やオフィスでも、ご家庭のお掃除で大切にしている丁寧な作業と気配りを心がけています。見落としやすい隅の汚れにも目を配り、日々その場所を使う皆様が気持ちよく過ごせるように、ご希望に合わせた清潔な環境づくりをお手伝いします。",
+          "x": 1254.71875,
+          "y": 4484.640625,
+          "width": 392,
+          "height": 112
+        },
+        "contactWidth": 960,
+        "horizontalOverflow": 0,
+        "mainPhotoDimensions": [
+          {
+            "x": 738.109375,
+            "y": 2041.59375,
+            "width": 627.71875,
+            "height": 392.3125
+          },
+          {
+            "x": 1495.15625,
+            "y": 2055.59375,
+            "width": 349.65625,
+            "height": 437.0625
+          },
+          {
+            "x": 700.1875,
+            "y": 3002.25,
+            "width": 349.640625,
+            "height": 262.21875
+          },
+          {
+            "x": 1264.765625,
+            "y": 2938.25,
+            "width": 627.734375,
+            "height": 418.484375
+          }
+        ],
+        "galleryPhotoDimensions": [
+          {
+            "x": 652.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 968.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1284.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1600.5,
+            "y": 3907.953125,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 652.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 968.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1284.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          },
+          {
+            "x": 1600.5,
+            "y": 4161.796875,
+            "width": 292,
+            "height": 194.65625
+          }
+        ],
+        "textFits": true
       }
     ]
   }
