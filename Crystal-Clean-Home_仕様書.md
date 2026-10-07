@@ -509,3 +509,12 @@ CHG-2026-10-06-012公開確認：ソース1a377a9／Pages158edc0／Actions374540
 - LPは通常PCとスマホの主要要素を縮小前と照合し、ローカル９・公開９条件で確認した。通常PCを再縮小しない。追加調整はCHG016の短いPC条件内だけである。
 - マニフェスト743登録の全729実ファイルが一致し、登録漏れなし。共通header／footerは全61HTMLで正本と一致し、重複なし。共通部品の修正時は生成後の全ページと末尾の再検証を行う。
 - 詳細証拠は `evidence/2026-10-07/first-view-fit/verification-summary.json` と同フォルダーの各JSON、LP復旧は `lp-scope-restore/`、法人原稿・画像は `office-cleaning/`。今回のWindows上の非表示ブラウザ検証を実機iPhoneの受入と混同しない。
+
+## [追加 2026-10-07 / CHG-2026-10-07-018] エアコン２台バナーのローカル再提案
+
+- 比較URLは http://127.0.0.1:8773/home-wireframe/aircon-banner/ 。context.html?banner=A/B/Cで現行HOME内に配置して比較する。採用する本編バナーは未決定。
+- 正本は同フォルダーのbuild.py、banner.css、context.js。料金はsource/service-pages/catalogue.jsonのproducts.1を既存prices処理で読む。１台13,200円、２台以上は１台11,000円、２台合計22,000円、２台合計のお得額4,400円。壁掛けタイプ（お掃除機能なし）・同時２台以上・税込の条件を左側に置く。
+- CSS Gridで左約64％／右約36％。Aの4,400はPC最大158px、Bの11,000は最大138px、Cの２台は最大114px。右の透過エアコン画像はPC最大340px幅とし、画像より主訴求を強くする。スマホも左右の役割を保ち、文字とCTAは必要な改行で読む。
+- ラベル・見出し・価格・条件・CTAは静的HTML、星・ドット・放射・パネルはCSS。aのhrefは既存/house-cleaning/aircon/。JavaScriptなしで重要文字を読める。比較画面だけに７項目の設計説明を生成する。
+- 非表示Chrome１ブラウザーで逐次確認し終了後に閉じた。PC・スマホのギャラリー30条件とHOME内15条件、リンク、静的HTML文字、７項目の説明、保存画面を確認。証拠はevidence/2026-10-07/aircon-banner-proposals/verification-revised.json。実機受入と本編採用・公開は別判定。
+- 公開ソースの共通UI・既存HOME・後半３漫画LP枠・通常PC/スマホのbeginner・カート・法人ページは変更しない。ユーザー用プレビュー8773を維持する。
