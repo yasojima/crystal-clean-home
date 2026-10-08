@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-09",
+  "change": "CHG-2026-10-09-003",
+  "generation": "built-in image_gen",
+  "desktopViewportAspect": 5.3,
+  "mobileViewportAspect": 3,
+  "referenceAssets": [
+    "aircon-mobile.png",
+    "pack-mobile.png"
+  ],
+  "assets": [
+    {
+      "route": "aircon",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/aircon.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: An opened wall air conditioner heat exchanger and black fan, equal-scale dirty dusty coil left and gleaming blue clean coil right.\nHeadline EXACT: \"エアコン内部を、奥まで洗う。\"\nSecondary line EXACT: \"ニオイ・ホコリ対策に\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "dd97a31ee8867e617f67b46597368ce0ae15b94bd591aa805f43cbfdfe66c9ab",
+        "bytes": 2098567
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/aircon-mobile.png",
+        "prompt": null,
+        "origin": "user supplied original",
+        "width": 2172,
+        "height": 724,
+        "sha256": "9eb5402a964b12bc01463603e36067e61cd56c8c860d0af0e4af754799b267e9",
+        "bytes": 3002814
+      }
+    },
+    {
+      "route": "pack",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/pack.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: A Japanese living room and kitchen, dull dusty left transitioning into bright clean white home right.\nHeadline EXACT: \"気になる場所を、まとめてきれいに。\"\nSecondary line EXACT: \"在宅まるごとクリーニング\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "37e3d73cadd66e82cb04df9f82ddd4777c20fea01724bb060f0eac4957980cf8",
+        "bytes": 2009375
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/pack-mobile.png",
+        "prompt": null,
+        "origin": "user supplied original",
+        "width": 2172,
+        "height": 724,
+        "sha256": "07784a8733ffec698d0f9684b94454e61d214d7c7a5440f6531c0ec4a1ad654b",
+        "bytes": 2817684
+      }
+    },
+    {
+      "route": "water",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/water.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: A modern Japanese bathroom and adjacent washbasin, bathtub and faucet details; left has realistic water scale and soap residue, right is freshly cleaned white tile, clear glass and polished chrome. Keep bathroom fixtures recognizable.\nHeadline EXACT: \"水まわりの汚れを、すっきり。\"\nSecondary line EXACT: \"浴室・トイレ・洗面所のお掃除\"",
+        "width": 2171,
+        "height": 724,
+        "sha256": "5e247a59d9da5276135db467d37c4a7d70bf18b9afe937113994837e75ca3014",
+        "bytes": 1946687
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/water-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: A modern Japanese bathroom and adjacent washbasin, bathtub and faucet details; left has realistic water scale and soap residue, right is freshly cleaned white tile, clear glass and polished chrome. Keep bathroom fixtures recognizable.\nText (verbatim), large top headline: \"水まわりの汚れを、すっきり。\"\nText (verbatim), secondary line: \"浴室・トイレ・洗面所のお掃除\"",
+        "origin": "built-in image_gen",
+        "width": 2172,
+        "height": 724,
+        "sha256": "44bc6cfb25282b3bddbb40a0faa30e8ddb00e27426e5badfaf0a31fbb740341f",
+        "bytes": 2411948
+      }
+    },
+    {
+      "route": "washer",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/washer.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: Close view of a real top-loading washing-machine stainless steel drum, circular perforated inner tub seen obliquely from above. Same drum on both sides with equal scale; left has dull residue, right gleaming clean metal, blue cleaning water ribbon flowing diagonally between them. Do not turn the washer into an air conditioner.\nHeadline EXACT: \"洗濯槽の奥まで、きれいに。\"\nSecondary line EXACT: \"毎日のお洗濯をすっきりと\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "217d36850c2b0aa39e7c6df7f777486700a376761ed2e3ed92cc8d0af929b468",
+        "bytes": 2166601
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/washer-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: Close view of a real top-loading washing-machine stainless steel drum, circular perforated inner tub seen obliquely from above. Same drum on both sides with equal scale; left has dull residue, right gleaming clean metal, blue cleaning water ribbon flowing diagonally between them. Do not turn the washer into an air conditioner.\nText (verbatim), large top headline: \"洗濯槽の奥まで、きれいに。\"\nText (verbatim), secondary line: \"毎日のお洗濯をすっきりと\"",
+        "origin": "built-in image_gen",
+        "width": 2172,
+        "height": 724,
+        "sha256": "26eabebf05844006f23f5c3b7db96a9c747235c7426dc8c101757084c60d6096",
+        "bytes": 2700859
+      }
+    },
+    {
+      "route": "kitchen",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/kitchen.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: An attractive home kitchen with stainless cooker hood, cooktop and sink; left shows realistic accumulated grease and dull surfaces, right is airy white clean kitchen with sparkling hood and shiny sink. Similar camera perspectives and equal scale across both sides.\nHeadline EXACT: \"油汚れを落として、気持ちよく。\"\nSecondary line EXACT: \"キッチン・レンジフードのお掃除\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "c1cbfad375844cfd3e92194af80a612db8a06913778b7cd77c8ea01f55a4a020",
+        "bytes": 2015749
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/kitchen-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: An attractive home kitchen with stainless cooker hood, cooktop and sink; left shows realistic accumulated grease and dull surfaces, right is airy white clean kitchen with sparkling hood and shiny sink. Similar camera perspectives and equal scale across both sides.\nText (verbatim), large top headline: \"油汚れを落として、気持ちよく。\"\nText (verbatim), secondary line: \"キッチン・レンジフードのお掃除\"",
+        "origin": "built-in image_gen",
+        "width": 2172,
+        "height": 724,
+        "sha256": "ccbc1a2b01039a7fdc1337396f4e14cdf0a4caa359bca42ade26af54c0c90bc8",
+        "bytes": 2614039
+      }
+    },
+    {
+      "route": "room",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/room.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: Bright Japanese living room, wood flooring, wide windows and neutral white sofa. Left has dusty windows and dull dusty flooring; right has clear glass and beautiful clean floor, welcoming natural daylight. Cleaner left than excessive black mold disaster; daily household cleaning feel.\nHeadline EXACT: \"お部屋を整え、心地よい毎日へ。\"\nSecondary line EXACT: \"床・窓・お部屋のお掃除\"",
+        "width": 2167,
+        "height": 725,
+        "sha256": "be38cafd3003660d8886392adb476bf576d7f016cd3547ec5517629f863a95d1",
+        "bytes": 1933444
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/room-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: Bright Japanese living room, wood flooring, wide windows and neutral white sofa. Left has dusty windows and dull dusty flooring; right has clear glass and beautiful clean floor, welcoming natural daylight. Cleaner left than excessive black mold disaster; daily household cleaning feel.\nText (verbatim), large top headline: \"お部屋を整え、心地よい毎日へ。\"\nText (verbatim), secondary line: \"床・窓・お部屋のお掃除\"",
+        "origin": "built-in image_gen",
+        "width": 2167,
+        "height": 725,
+        "sha256": "185b5109ed45098fa47b975fc326f1d3b29183a90fd649c0c2f55b0b05297b6d",
+        "bytes": 2631641
+      }
+    },
+    {
+      "route": "coating",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/coating.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: Elegant contemporary bathroom washbasin and warm wood floor detail, equal-size comparable surfaces, muted worn dull surface on left and smoothly protected glossy surface on right with small realistic water droplets beading on the washbasin. Suggest protective surface finish, avoid extreme filth or claims about sterilization.\nHeadline EXACT: \"きれいを保つ、ひと工夫。\"\nSecondary line EXACT: \"水まわり・床のコーティング\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "cb440e202f493ce1725d47c55f3139b1ccdd6b8d02ac540ae8a4dded9a68d9fb",
+        "bytes": 2003431
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/coating-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: Elegant contemporary bathroom washbasin and warm wood floor detail, equal-size comparable surfaces, muted worn dull surface on left and smoothly protected glossy surface on right with small realistic water droplets beading on the washbasin. Suggest protective surface finish, avoid extreme filth or claims about sterilization.\nText (verbatim), large top headline: \"きれいを保つ、ひと工夫。\"\nText (verbatim), secondary line: \"水まわり・床のコーティング\"",
+        "origin": "built-in image_gen",
+        "width": 2172,
+        "height": 724,
+        "sha256": "b7875221996664c6b66c9d064cb9c8ac566cf46cfdbe9bdc0dddc557285659c8",
+        "bytes": 2427089
+      }
+    },
+    {
+      "route": "others",
+      "desktop": {
+        "path": "source/site/assets/images/service-banners/others.png",
+        "prompt": "Use case: ads-marketing. Create a NEW version of the attached advertising image, recomposed for a shallow website banner. Keep its Japanese copy, cleaning subject, blue water ribbon, photo-real style, bright clean-right/dirty-left story, blue bold lettering, droplets and a few green leaves. No logo, no brand, no button, no Check, no extra words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable subject across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the wide width to spread the scene; do NOT reproduce the old tall poster or put the headline near the very top of the canvas.\nThe only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: Exterior of a Japanese home with pale siding wall, balcony tile floor and metal railing; left has realistic gray grime on siding and balcony, right is clean bright exterior with green garden. Equal scale and perspective, no workers, no machinery.\nHeadline EXACT: \"外まわりまで、すっきりきれいに。\"\nSecondary line EXACT: \"外壁・ベランダなどのお掃除\"",
+        "width": 2172,
+        "height": 724,
+        "sha256": "d570b7ea7070f39e571b3a3d016dab780211edd153d1435c0d7015d930c68d13",
+        "bytes": 2121693
+      },
+      "mobile": {
+        "path": "source/site/assets/images/service-banners/others-mobile.png",
+        "prompt": "Use case: ads-marketing. Asset type: a finished Japanese cleaning-service website banner, one single panoramic image, exact aspect ratio 3:1, ideally 2160 x 720 pixels.\nInput images 1 and 2 are STYLE REFERENCES ONLY: match their professional bright photoreal advertising composition, navy-to-blue very bold Japanese top headline, soft white glow behind text, dirty muted left side transitioning into sparkling clean bright white/light-blue right side, graceful diagonal blue water ribbon and droplets sweeping from bottom left to upper right, a few green leaves and restrained sparkles. Create a NEW banner of a different service, do not alter either supplied reference.\nThe large headline occupies a clean pale top strip, fully visible with safe 4% margins. Secondary line below it is smaller vivid blue. Photoreal main subject fills the remaining lower area. Both sides depict comparable views and scales, not unrelated cutouts. Beautiful high-end Japanese household cleaning ad. No logos, no brands, no price, no CTA button, no Check text, no extra copy, no watermark. Render all Japanese text exactly and legibly, horizontal writing. Do not crop any text or key subject. No people.\nSubject/scene: Exterior of a Japanese home with pale siding wall, balcony tile floor and metal railing; left has realistic gray grime on siding and balcony, right is clean bright exterior with green garden. Equal scale and perspective, no workers, no machinery.\nText (verbatim), large top headline: \"外まわりまで、すっきりきれいに。\"\nText (verbatim), secondary line: \"外壁・ベランダなどのお掃除\"",
+        "origin": "built-in image_gen",
+        "width": 2172,
+        "height": 724,
+        "sha256": "163f6e6d9affa74d55556a141601d860dcfa97cf58d9b9883f5323648dd46ac2",
+        "bytes": 2921438
+      }
+    }
+  ]
+}

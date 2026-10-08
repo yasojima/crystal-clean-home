@@ -1,0 +1,49 @@
+{
+  "baseline": "9438f823d826388def2182b8c560f429577d811c",
+  "records": [
+    {
+      "route": "business/cleaning",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/aircon",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/pack",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/water",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/washer",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/kitchen",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/room",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/coating",
+      "mainOutsideBandUnchanged": true
+    },
+    {
+      "route": "house-cleaning/others",
+      "mainOutsideBandUnchanged": true
+    }
+  ],
+  "nonBannerCopyUnchanged": true,
+  "preserved": [
+    "source/service-pages/catalogue.json",
+    "source/site/assets/css/common.css",
+    "source/site/assets/js/service-first-view.js",
+    "source/office-cleaning/content.json"
+  ],
+  "passed": true
+}

@@ -721,8 +721,9 @@ def render(route, page, catalogue, copy):
     main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v2'})
     banner = copy['banners'][route]
     hero = parse(render_service_banner(page['title'], banner['lines'],
-                                      f'/assets/images/service-scenes/{banner["scene"]}.webp',
-                                      banner['alt'], banner.get('position'))).find()
+                                      banner['artwork'], banner['alt'],
+                                      mobile_src=banner['mobile_artwork'],
+                                      image_width=banner['width'], image_height=banner['height'])).find()
     nav = navigation(page,primary,page['category'],copy)
     first_classes = 'c-first-view' + (' c-first-view--expanded' if route != 'aircon' else '')
     first_view = tag('div', first_classes, id='first-view', **{'data-floating-visibility-trigger': ''})

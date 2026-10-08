@@ -619,74 +619,91 @@
   "banners": {
     "aircon": {
       "lines": [
-        "内部にたまる汚れを洗い流し",
-        "お部屋の空気をすっきりと"
+        "エアコン内部を、奥まで洗う。",
+        "ニオイ・ホコリ対策に"
       ],
-      "scene": "aircon-wall",
+      "artwork": "/assets/images/service-banners/aircon.png",
+      "mobile_artwork": "/assets/images/service-banners/aircon-mobile.png",
+      "width": 2172,
+      "height": 724,
       "alt": "熱交換器や送風ファンの清掃イメージ"
     },
     "pack": {
       "lines": [
-        "住まいをまとめてお掃除",
-        "暮らしに合う清潔なお部屋へ"
+        "気になる場所を、まとめてきれいに。",
+        "在宅まるごとクリーニング"
       ],
-      "scene": "flooring",
-      "alt": "お得なパックサービスの作業イメージ",
-      "position": "right 70%"
+      "artwork": "/assets/images/service-banners/pack.png",
+      "mobile_artwork": "/assets/images/service-banners/pack-mobile.png",
+      "width": 2172,
+      "height": 724,
+      "alt": "お得なパックサービスの作業イメージ"
     },
     "water": {
       "lines": [
-        "水アカや皮脂汚れをお掃除",
-        "毎日の水まわりを清潔に"
+        "水まわりの汚れを、すっきり。",
+        "浴室・トイレ・洗面所のお掃除"
       ],
-      "scene": "bathroom",
-      "alt": "水まわりのお掃除の作業イメージ",
-      "position": "right 68%"
+      "artwork": "/assets/images/service-banners/water.png",
+      "mobile_artwork": "/assets/images/service-banners/water-mobile.png",
+      "width": 2171,
+      "height": 724,
+      "alt": "水まわりのお掃除の作業イメージ"
     },
     "washer": {
       "lines": [
-        "洗濯槽の奥まで丁寧に洗浄",
+        "洗濯槽の奥まで、きれいに。",
         "毎日のお洗濯をすっきりと"
       ],
-      "scene": "washer-top",
-      "alt": "洗濯機のお掃除の作業イメージ",
-      "position": "right 62%"
+      "artwork": "/assets/images/service-banners/washer.png",
+      "mobile_artwork": "/assets/images/service-banners/washer-mobile.png",
+      "width": 2172,
+      "height": 724,
+      "alt": "洗濯機のお掃除の作業イメージ"
     },
     "kitchen": {
       "lines": [
-        "油汚れや水アカを洗い流し",
-        "お料理する場所を清潔に"
+        "油汚れを落として、気持ちよく。",
+        "キッチン・レンジフードのお掃除"
       ],
-      "scene": "kitchen-fan",
-      "alt": "キッチンのお掃除の作業イメージ",
-      "position": "right 50%"
+      "artwork": "/assets/images/service-banners/kitchen.png",
+      "mobile_artwork": "/assets/images/service-banners/kitchen-mobile.png",
+      "width": 2172,
+      "height": 724,
+      "alt": "キッチンのお掃除の作業イメージ"
     },
     "room": {
       "lines": [
-        "床や窓の汚れを丁寧にお掃除",
-        "くつろぐお部屋を心地よく"
+        "お部屋を整え、心地よい毎日へ。",
+        "床・窓・お部屋のお掃除"
       ],
-      "scene": "flooring",
-      "alt": "お部屋のお掃除の作業イメージ",
-      "position": "right 70%"
+      "artwork": "/assets/images/service-banners/room.png",
+      "mobile_artwork": "/assets/images/service-banners/room-mobile.png",
+      "width": 2167,
+      "height": 725,
+      "alt": "お部屋のお掃除の作業イメージ"
     },
     "coating": {
       "lines": [
-        "水まわりや床の表面を整え",
-        "日々のお手入れをしやすく"
+        "きれいを保つ、ひと工夫。",
+        "水まわり・床のコーティング"
       ],
-      "scene": "bathroom",
-      "alt": "コーティングの作業イメージ",
-      "position": "right 68%"
+      "artwork": "/assets/images/service-banners/coating.png",
+      "mobile_artwork": "/assets/images/service-banners/coating-mobile.png",
+      "width": 2172,
+      "height": 724,
+      "alt": "コーティングの作業イメージ"
     },
     "others": {
       "lines": [
-        "手の届きにくい場所も丁寧に",
-        "住まいの外まわりまで清潔に"
+        "外まわりまで、すっきりきれいに。",
+        "外壁・ベランダなどのお掃除"
       ],
-      "scene": "outerwall",
-      "alt": "その他のお掃除の作業イメージ",
-      "position": "right 88%"
+      "artwork": "/assets/images/service-banners/others.png",
+      "mobile_artwork": "/assets/images/service-banners/others-mobile.png",
+      "width": 2172,
+      "height": 724,
+      "alt": "その他のお掃除の作業イメージ"
     }
   }
 }

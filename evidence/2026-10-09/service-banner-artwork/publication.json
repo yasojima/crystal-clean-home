@@ -1,0 +1,199 @@
+{
+  "pagesCommit": "64f313bb07cc399163d4be3076b237427f18f6fe",
+  "actions": 37824907785,
+  "actionsConclusion": "success",
+  "files": [
+    {
+      "path": "assets/css/aircon-hero.css",
+      "status": 200,
+      "sha256": "46b5a4ae469db01ba101764725e8ee769e190ebb842ec302f024e50a50636536",
+      "localSHA256": "46b5a4ae469db01ba101764725e8ee769e190ebb842ec302f024e50a50636536",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/aircon-mobile.png",
+      "status": 200,
+      "sha256": "9eb5402a964b12bc01463603e36067e61cd56c8c860d0af0e4af754799b267e9",
+      "localSHA256": "9eb5402a964b12bc01463603e36067e61cd56c8c860d0af0e4af754799b267e9",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/aircon.png",
+      "status": 200,
+      "sha256": "dd97a31ee8867e617f67b46597368ce0ae15b94bd591aa805f43cbfdfe66c9ab",
+      "localSHA256": "dd97a31ee8867e617f67b46597368ce0ae15b94bd591aa805f43cbfdfe66c9ab",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/coating-mobile.png",
+      "status": 200,
+      "sha256": "b7875221996664c6b66c9d064cb9c8ac566cf46cfdbe9bdc0dddc557285659c8",
+      "localSHA256": "b7875221996664c6b66c9d064cb9c8ac566cf46cfdbe9bdc0dddc557285659c8",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/coating.png",
+      "status": 200,
+      "sha256": "cb440e202f493ce1725d47c55f3139b1ccdd6b8d02ac540ae8a4dded9a68d9fb",
+      "localSHA256": "cb440e202f493ce1725d47c55f3139b1ccdd6b8d02ac540ae8a4dded9a68d9fb",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/kitchen-mobile.png",
+      "status": 200,
+      "sha256": "ccbc1a2b01039a7fdc1337396f4e14cdf0a4caa359bca42ade26af54c0c90bc8",
+      "localSHA256": "ccbc1a2b01039a7fdc1337396f4e14cdf0a4caa359bca42ade26af54c0c90bc8",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/kitchen.png",
+      "status": 200,
+      "sha256": "c1cbfad375844cfd3e92194af80a612db8a06913778b7cd77c8ea01f55a4a020",
+      "localSHA256": "c1cbfad375844cfd3e92194af80a612db8a06913778b7cd77c8ea01f55a4a020",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/others-mobile.png",
+      "status": 200,
+      "sha256": "163f6e6d9affa74d55556a141601d860dcfa97cf58d9b9883f5323648dd46ac2",
+      "localSHA256": "163f6e6d9affa74d55556a141601d860dcfa97cf58d9b9883f5323648dd46ac2",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/others.png",
+      "status": 200,
+      "sha256": "d570b7ea7070f39e571b3a3d016dab780211edd153d1435c0d7015d930c68d13",
+      "localSHA256": "d570b7ea7070f39e571b3a3d016dab780211edd153d1435c0d7015d930c68d13",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/pack-mobile.png",
+      "status": 200,
+      "sha256": "07784a8733ffec698d0f9684b94454e61d214d7c7a5440f6531c0ec4a1ad654b",
+      "localSHA256": "07784a8733ffec698d0f9684b94454e61d214d7c7a5440f6531c0ec4a1ad654b",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/pack.png",
+      "status": 200,
+      "sha256": "37e3d73cadd66e82cb04df9f82ddd4777c20fea01724bb060f0eac4957980cf8",
+      "localSHA256": "37e3d73cadd66e82cb04df9f82ddd4777c20fea01724bb060f0eac4957980cf8",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/room-mobile.png",
+      "status": 200,
+      "sha256": "185b5109ed45098fa47b975fc326f1d3b29183a90fd649c0c2f55b0b05297b6d",
+      "localSHA256": "185b5109ed45098fa47b975fc326f1d3b29183a90fd649c0c2f55b0b05297b6d",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/room.png",
+      "status": 200,
+      "sha256": "be38cafd3003660d8886392adb476bf576d7f016cd3547ec5517629f863a95d1",
+      "localSHA256": "be38cafd3003660d8886392adb476bf576d7f016cd3547ec5517629f863a95d1",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/washer-mobile.png",
+      "status": 200,
+      "sha256": "26eabebf05844006f23f5c3b7db96a9c747235c7426dc8c101757084c60d6096",
+      "localSHA256": "26eabebf05844006f23f5c3b7db96a9c747235c7426dc8c101757084c60d6096",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/washer.png",
+      "status": 200,
+      "sha256": "217d36850c2b0aa39e7c6df7f777486700a376761ed2e3ed92cc8d0af929b468",
+      "localSHA256": "217d36850c2b0aa39e7c6df7f777486700a376761ed2e3ed92cc8d0af929b468",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/water-mobile.png",
+      "status": 200,
+      "sha256": "44bc6cfb25282b3bddbb40a0faa30e8ddb00e27426e5badfaf0a31fbb740341f",
+      "localSHA256": "44bc6cfb25282b3bddbb40a0faa30e8ddb00e27426e5badfaf0a31fbb740341f",
+      "match": true
+    },
+    {
+      "path": "assets/images/service-banners/water.png",
+      "status": 200,
+      "sha256": "5e247a59d9da5276135db467d37c4a7d70bf18b9afe937113994837e75ca3014",
+      "localSHA256": "5e247a59d9da5276135db467d37c4a7d70bf18b9afe937113994837e75ca3014",
+      "match": true
+    },
+    {
+      "path": "business/cleaning/index.html",
+      "status": 200,
+      "sha256": "f26b8568c3660432311b33f66b25a6be6ebc785033b391981fb701f96175f7c8",
+      "localSHA256": "f26b8568c3660432311b33f66b25a6be6ebc785033b391981fb701f96175f7c8",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "status": 200,
+      "sha256": "f842ad0f8636e7f781cdef9d825e42065230153b6d7092a50e459ae21d5a83a7",
+      "localSHA256": "f842ad0f8636e7f781cdef9d825e42065230153b6d7092a50e459ae21d5a83a7",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "status": 200,
+      "sha256": "b4089f13b24bf5d3ec4d89ed89ae968b03ff0da480593809d50364fdda73ded6",
+      "localSHA256": "b4089f13b24bf5d3ec4d89ed89ae968b03ff0da480593809d50364fdda73ded6",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "status": 200,
+      "sha256": "dfbd772515b0ed16f4acae8c2eecf2c7708b8451bd63d7c154a4335bdf34e183",
+      "localSHA256": "dfbd772515b0ed16f4acae8c2eecf2c7708b8451bd63d7c154a4335bdf34e183",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "status": 200,
+      "sha256": "907ed3eae5cb6d9e3d8e2b778fca8717b25748c42ecc69e19485384d1707249e",
+      "localSHA256": "907ed3eae5cb6d9e3d8e2b778fca8717b25748c42ecc69e19485384d1707249e",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "status": 200,
+      "sha256": "e59be3f8d7f8bce55faf3621c79729072bb942791dece6e4bedd1b0638167ef2",
+      "localSHA256": "e59be3f8d7f8bce55faf3621c79729072bb942791dece6e4bedd1b0638167ef2",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "status": 200,
+      "sha256": "747f2d87d6e44e7af40d2a857006db96f9a77f569b2c26b43331875e3f52a559",
+      "localSHA256": "747f2d87d6e44e7af40d2a857006db96f9a77f569b2c26b43331875e3f52a559",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "status": 200,
+      "sha256": "f3680ea47710ca95ae6661ca3272b7e1f587429b5f31c472f7e6e081977855e2",
+      "localSHA256": "f3680ea47710ca95ae6661ca3272b7e1f587429b5f31c472f7e6e081977855e2",
+      "match": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "status": 200,
+      "sha256": "2cfa79a7ae4acfae72996d405c460ff5d015508fb13350a866e7a9f2797a1434",
+      "localSHA256": "2cfa79a7ae4acfae72996d405c460ff5d015508fb13350a866e7a9f2797a1434",
+      "match": true
+    }
+  ],
+  "passed": true,
+  "publicConditions": 72,
+  "sharedPropagation": 9,
+  "localPublicMeasurementsEqual": true,
+  "visualReview": {
+    "desktop": 1440,
+    "mobile": 414,
+    "pages": 8
+  },
+  "firstViewRegressionConditions": 158
+}

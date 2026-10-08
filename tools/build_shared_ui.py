@@ -91,14 +91,14 @@ def transform(html, is_aircon=False):
         html = re.sub(r'\s*<(?:link|script)\b[^>]*(?:href|src)="/assets/(?:css|js)/' + re.escape(rel) + r'(?:\?v=\d+)?"[^>]*>(?:</script>)?', '', html)
     assets = (*ASSETS, '<script src="/assets/js/cart-estimate.js?v=2026100601" defer></script>') if has_estimate else ASSETS
     if 'class="c-first-view' in html:
-        assets = (*assets, '<script src="/assets/js/service-first-view.js?v=2026100902" defer></script>')
+        assets = (*assets, '<script src="/assets/js/service-first-view.js?v=2026100903" defer></script>')
     html = html.replace('</head>', newline.join(assets) + newline + '</head>', 1)
     html = re.sub(r'<script\b[^>]*src="/assets/js/(?:house-cleaning/(?:product-top|osoujiless)|simulation/parent-product|office/product-detail)\.js(?:\?[^\"]*)?"[^>]*>\s*</script>\s*', '', html)
     if '/assets/js/common.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100602" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100602', html)
-    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100902', html)
+    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100903', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100707', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
@@ -179,6 +179,7 @@ def main():
     manifest_changes += sync_manifest([SITE/'assets/images/home/aircon-bundle-banner.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/office-cleaning.css', *sorted((SITE/'assets/images/office-cleaning').glob('*.png'))], args.check)
     manifest_changes += sync_manifest(sorted((SITE/'assets/images/cleaning-illustrations').glob('*.png')), args.check)
+    manifest_changes += sync_manifest(sorted((SITE/'assets/images/service-banners').glob('*.png')), args.check)
     print(json.dumps(dict(pages=len(pages), changed=changed, manifest_updates=len(manifest_changes), check=args.check), ensure_ascii=False))
     if args.check and (changed or manifest_changes):
         raise SystemExit(1)

@@ -35,3 +35,6 @@ CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編�
 
 
 法人の冒頭はCHG-2026-10-09-002により、サービス8分類と同じsource/shared-ui/service-banner.html、tools/service_banner.py、aircon-hero.css、service-first-view.jsで管理します。法人用の帯を別所有しません。本文はCHG-022を維持します。
+
+
+[変更 2026-10-09 / CHG-2026-10-09-003] 本編のサービス8分類の帯へPC用横長広告とスマホ用画像を適用。画像割り当てはcopy.json.banners、構造・高さ・Check!の配置は共通正本で管理します。帯高は維持し、共通カードと見積もり導線・商品・価格・カートは変更しません。現行表示と制作情報は仕様書CHG-003、source/service-pages/banner-assets.jsonを参照します。
