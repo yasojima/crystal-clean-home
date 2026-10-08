@@ -634,3 +634,19 @@ home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場�
 ローカル確認：16サイズを往復した32条件で中央幅・全幅画像・横はみ出し・比較領域を確認。1442×1646の縦長画面を含みます。スマホ6サイズはaacd586と本文・各セクション・6CTAの寸法一致。PC2・スマホ2サイズで比較タブ・スライダーのキーボード・FAQ・見積もりEnter遷移を確認。検証はtools/test_lp_scope_restore.cjs、記録はevidence/2026-10-09/lp-seamless-opening/。保存画面による確認と実機の人間受入は区別します。
 保持・共通確認（CHG-006）：beginner本文HTMLはaacd586と一致し、HTMLの差分はCSS版だけ。元画像と他ページを含む既存配信746ファイルはGit blob照合で一致。共通61ページ・manifest再生成差分0、395商品／460選択肢、共通ヘッダー／フッター・カテゴリー・サイトIDを確認。記録はpreservation.json・shared-static.json・checks.json。
 公開確認（CHG-006）：Pages5bb71d84d588c4c06e0a42407fd431b9d9c453d9／Actions37846940344成功。HTML・CSS・一枚の冒頭PNGはHTTP200・SHA-256で正本と一致。旧背景はHTTP404。公開32条件・4サイズの操作が合格し、ローカルと全測定値が一致。1442×1646の全体、比較領域、13,200円の料金案内・CTA、414×688の公開保存画面を確認。実機の人間受入は含めない。記録はevidence/2026-10-09/lp-seamless-opening/publication.json・public/report.json・local-public-match.json・checks.json。
+
+
+## [変更 2026-10-09 / CHG-2026-10-09-007] beginner LPの背景と中央内容を分離して補完
+
+背景表示の正本はsource/site/assets/css/beginner-lp.css（版2026100907）。共通ヘッダー・フッター・サービスの帯は既存の共通正本を使用する。LPだけの画像補完・背景指定を他ページへ適用しない。
+
+- 中央幅、各画像の表示幅・高さ・位置、余白と項目順はca2541aのまま。PC最大1120px・左右24px以上とコンテナー880px以下の調整を維持する。背景だけを100vwへ描画し、ルートの横方向でclipする。
+- 下部12項目は中央の独立した色面を外し、全幅の淡い乳白・水色のグラデーションを背面に描画する。上下端は共通の#fbfcfaへ戻して連続させる。旧楕円・三角の白い切り替え、アートの外枠の角丸と影、FAQの黒い背景を除く。レビュー・案内の内容カードと漫画内のコマは保持する。
+- 衛生管理・お悩み・最終見積もりのlp-scene-artは、元画像を同じサイズで前面へ表示する。背面には元画像と同じ高さ・中央幅の2倍の横補完素材を描画し、画面の左右へ広げる。中央画像を2倍にしない。補完素材には文字・人物・説明カードを残さない。元画像の左右16pxの背景端だけをなじませ、本文や人物を透過しない。
+- PC冒頭は採用済みopening-wide.pngを保持し、その上にlp-opening-copyで見出し・導入文の領域だけを表示する。拡大文字はopening-copy.png。女性の髪の上を避けるclip-pathと独立した導入文の範囲で、人物と下部の比較空白・13,200円・CTAを元画像から表示する。
+- 767.98px以下は元opening-integrated.webpと元の各画像を表示し、PC用の補完画像・文字差し替えを使わない。背景色・FAQ・装飾の整理は両方に反映する。スマホCTAの通常フローを維持する。
+- 採用素材はsource/site/assets/images/first-lp/art/complements内のhygiene-sides.png、concerns-sides.png、estimate-sides.png、opening-copy.png。組み込みimage_genの参照・プロンプト・寸法・SHA-256はsource/lp-complement-assets.json。生成画像の前景を採用したものではなく、元画像の中央を保持して新しい背面を使用する。
+- HTMLでは衛生画像と最終画像に表示用の包みを追加し、既存lp-closing-artを共用する。本文テキスト、全img/source属性とリンク、ボタン、価格を保持する。tools/build_shared_ui.pyがCSS版と配信manifestを同期する。
+- 検証はtools/test_lp_scope_restore.cjs。16サイズ往復32条件、変更前ca2541aとの16サイズの全画像とCTA寸法照合、4サイズの比較・FAQ・見積もり操作、下部の全幅背景の保存画面を確認する。記録はevidence/2026-10-09/lp-complement/。公開配信一致と実機の人間受入を区別する。
+
+公開確認（CHG-007）：Pages b20ec7f8c9fe176da6f62e6063bb5dbf06f140e8／Actions37857765662成功。配信6ファイルはHTTP200・SHA-256で正本と一致。公開32条件・4サイズの操作が合格し、全測定値と操作結果がローカルと一致。1440×800、1920×1080、1280×551、414×688などの下部・冒頭・FAQの公開保存画面を確認。背景は補完し、16サイズ×29画像の元の位置・寸法と6CTAを維持。未採用4素材・途中5ファイル・Pythonキャッシュ6件を既存の削除用へまとめ、ハッシュを照合。実機の人間受入は含めない。証拠はevidence/2026-10-09/lp-complementのchecks.json・publication.json・local-public-match.json・public/report.json。

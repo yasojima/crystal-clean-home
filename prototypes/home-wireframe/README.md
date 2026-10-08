@@ -45,3 +45,6 @@ CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編�
 [変更 2026-10-09 / CHG-2026-10-09-006] beginnerのPC本文は中央・最大1120px・左右24px以上。冒頭は室内・人物・文章・水流を含む一枚の横拡張画像で描画し、別背景との重ね合わせを廃止する。高さで本文幅を変えず、本文幅880px以下で内部配置を調整する。767.98px以下の元画像と表示、本文・漫画・原稿・価格・6CTAを保持する。 正本はbeginner-lp.css、opening-wide.png、source/lp-background-assets.json。確認記録はevidence/2026-10-09/lp-seamless-opening/。
 
 公開確認（CHG-005）：Pages12b5d8e99efd640f5f3675ddf6cc7b29f2024989／Actions37840965674成功。beginner HTML・LP CSS・背景PNGの3ファイルがHTTP200・SHA-256で正本と一致。レスポンシブ画像の読み込み後に15サイズ往復30条件を確認し、ローカルと公開の全測定値・4サイズの操作結果が一致。公開PC・短いPC・スマホ・下部の保存画面を確認。公開記録はevidence/2026-10-09/lp-background-width/publication.json・public/report.json・local-public-match.json。
+
+
+[変更 2026-10-09 / CHG-2026-10-09-007] beginner LPの背景補完は本編source/site/beginnerへ組み込む。中央と左右の比率を維持し、住まいの背景とシンプルな背景をつなぐ。個別のLP複製を作らない。表示の所有元はbeginner-lp.css、制作記録はsource/lp-complement-assets.json。未採用4試作は既存Desktop/削除用へ移動済み。仕様と検証は仕様書CHG-007とevidence/2026-10-09/lp-complement/を参照する。

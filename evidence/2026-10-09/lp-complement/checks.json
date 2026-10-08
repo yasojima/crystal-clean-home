@@ -1,0 +1,22 @@
+{
+  "change": "CHG-2026-10-09-007",
+  "baseline": "ca2541a",
+  "local_conditions": 32,
+  "public_conditions": 32,
+  "original_geometry_sizes": 16,
+  "native_images_each_size": 29,
+  "interaction_sizes_each_origin": 4,
+  "other_served_files_unchanged": 747,
+  "shared_pages": 61,
+  "items": 395,
+  "selections": 460,
+  "public_files_sha256_matches": 6,
+  "visual_review": "Saved desktop 1440x800, 1920x1080, short desktop 1280x551 and mobile frames inspected. Human physical-device acceptance is separate.",
+  "cleanup": {
+    "unused_image_drafts": 4,
+    "interim_data_and_frames": 5,
+    "python_cache_files": 6,
+    "permanent_deletion": false
+  },
+  "passed": true
+}

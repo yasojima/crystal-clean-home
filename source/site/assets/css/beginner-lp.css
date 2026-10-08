@@ -68,7 +68,7 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   body.c-beginner-lp #cch-first-lp {
     --lp-content-max: 1120px;
     --lp-content-gutter: 24px;
-    background: #f7fbfc;
+    background: #fbfcfa;
     overflow-x: clip;
   }
   body.c-beginner-lp #cch-first-lp .lp-canvas {
@@ -107,6 +107,120 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   }
   body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-opening-actions {
     top: calc(var(--lp-opening-plate-height) * .937);
+  }
+}
+
+body.c-beginner-lp #cch-first-lp { background: #fbfcfa; overflow-x: clip; }
+body.c-beginner-lp #cch-first-lp .lp-canvas {
+  background: transparent;
+  overflow: visible;
+}
+body.c-beginner-lp #cch-first-lp .lp-canvas > :is(#first-comic, #cleaning-approach, #first-work, #infection-prevention, #first-finish, #first-concerns, #first-voices, #first-comparison, #first-services, #first-flow, #first-faq, #first-bath-results) {
+  position: relative;
+  isolation: isolate;
+  background: transparent;
+}
+body.c-beginner-lp #cch-first-lp .lp-canvas > :is(#first-comic, #cleaning-approach, #first-work, #infection-prevention, #first-finish, #first-concerns, #first-voices, #first-comparison, #first-services, #first-flow, #first-faq, #first-bath-results)::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto auto 50%;
+  width: 100vw;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1;
+  pointer-events: none;
+  clip-path: none;
+  background: linear-gradient(#fbfcfa, transparent 90px, transparent calc(100% - 90px), #fbfcfa), radial-gradient(ellipse at 82% 45%, #eaf5f8, transparent 65%), #fbfcfa;
+}
+body.c-beginner-lp #cch-first-lp :is(#first-voices, #first-faq)::after { content: none; }
+body.c-beginner-lp #cch-first-lp .lp-art-section > :is(img, picture),
+body.c-beginner-lp #cch-first-lp :is(#cleaning-approach, #infection-prevention) > img,
+body.c-beginner-lp #cch-first-lp :is(#first-work, #first-finish) > picture,
+body.c-beginner-lp #cch-first-lp .lp-canvas > .lp-cta-scene,
+body.c-beginner-lp #cch-first-lp #first-concerns .cta-kitchen,
+body.c-beginner-lp #cch-first-lp #first-services > .cta-menu,
+body.c-beginner-lp #cch-first-lp #first-concerns .lp-closing-art,
+body.c-beginner-lp #cch-first-lp #first-bath-results .lp-bath-lead-scene {
+  border-radius: 0;
+  box-shadow: none;
+}
+body.c-beginner-lp #cch-first-lp #first-comic .lp-chapter-title {
+  border-radius: 0;
+  background: #edfaff;
+  color: #073a6a;
+  text-shadow: none;
+}
+body.c-beginner-lp #cch-first-lp #first-concerns .lp-closing-results { background: transparent; }
+body.c-beginner-lp #cch-first-lp #first-faq :is(h2, summary) { color: #263743; }
+body.c-beginner-lp #cch-first-lp #first-faq details {
+  border-color: #cbdfe7;
+  background: #ffffffdc;
+}
+body.c-beginner-lp #cch-first-lp #first-faq .cch-faq-number { color: #075b91; }
+body.c-beginner-lp #cch-first-lp #first-faq summary::after { border-color: #075b91; }
+body.c-beginner-lp #cch-first-lp #first-faq summary:focus-visible { outline-color: #075b91; }
+body.c-beginner-lp #cch-first-lp #first-faq summary:hover { background: #edf7fa; }
+body.c-beginner-lp #cch-first-lp .lp-scene-art {
+  position: relative;
+  container-type: inline-size;
+  isolation: isolate;
+}
+body.c-beginner-lp #cch-first-lp .lp-scene-art > img {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+body.c-beginner-lp #cch-first-lp .lp-opening-copy { display: none; }
+
+@media (min-width: 768px) {
+  body.c-beginner-lp #cch-first-lp { overflow-x: clip; }
+  body.c-beginner-lp #cch-first-lp .lp-canvas > .cta-final,
+  body.c-beginner-lp #cch-first-lp #first-concerns .lp-closing-art { overflow: visible; }
+  body.c-beginner-lp #cch-first-lp .lp-scene-hygiene { --lp-scene-background: url('/assets/images/first-lp/art/complements/hygiene-sides.png'); }
+  body.c-beginner-lp #cch-first-lp .lp-scene-concerns { --lp-scene-background: url('/assets/images/first-lp/art/complements/concerns-sides.png'); }
+  body.c-beginner-lp #cch-first-lp .lp-scene-estimate { --lp-scene-background: url('/assets/images/first-lp/art/complements/estimate-sides.png'); }
+  /* Outpainted margins use the original artwork's scale; the original center remains in front. */
+  body.c-beginner-lp #cch-first-lp .lp-scene-art::before {
+    content: "";
+    position: absolute;
+    inset: 0 auto auto 50%;
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    z-index: 0;
+    background: var(--lp-scene-background) center / 200cqw 100% no-repeat;
+    mask-image: linear-gradient(transparent, #000 20px, #000 calc(100% - 20px), transparent);
+  }
+  body.c-beginner-lp #cch-first-lp .lp-scene-art > img {
+    mask-image: linear-gradient(to right, transparent, #000 16px, #000 calc(100% - 16px), transparent);
+  }
+  body.c-beginner-lp #cch-first-lp #first-concerns .lp-closing-art::after { content: none; }
+  /* Only these two letter regions are replaced; the people remain on the original opening plate. */
+  body.c-beginner-lp #cch-first-lp .lp-opening-copy {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: var(--lp-opening-plate-width);
+    height: var(--lp-opening-plate-height);
+    transform: translateX(-50%);
+    pointer-events: none;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-copy::before,
+  body.c-beginner-lp #cch-first-lp .lp-opening-copy::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url('/assets/images/first-lp/art/complements/opening-copy.png') center / 100% 100% no-repeat;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-copy::before {
+    clip-path: polygon(14% 1%, 64.5% 1%, 64.5% 14.4%, 59% 14.4%, 58.2% 13.8%, 57.4% 13.5%, 56.5% 12.9%, 55.6% 12.65%, 54.6% 12.38%, 53.5% 12.17%, 52.5% 12.11%, 51.5% 12.17%, 50.5% 12.57%, 49.55% 12.83%, 48.57% 13.31%, 47.61% 13.9%, 47.2% 14.4%, 14% 14.4%);
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-copy::after {
+    clip-path: polygon(18.8% 14.3%, 45.7% 14.3%, 45.7% 24.5%, 18.8% 24.5%);
   }
 }
 

@@ -1232,8 +1232,8 @@
       "effective_url": "https://www.osoujihonpo.com/beginner/",
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
-      "bytes": 77024,
-      "sha256": "1d8c33b6f4b64e4f3bf869e54228655b94dddcb7a74967d7bace23600098228b",
+      "bytes": 77211,
+      "sha256": "b79cde28568b4d23249a68410584f5c599225c4c65914ba545613713b6df2b6e",
       "retrieved_at": "2026-09-30T16:59:39.188759+00:00",
       "source_sha256": "943bf4f888b6c8ae1d690c24b5d3811557c6d24618aa05d2302c5a778712f4ab",
       "source_bytes": 62062,
@@ -6248,8 +6248,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "a962063c4aa4b26b2b5841a5066975e4c53264ade35d6c5b125b72236c1c9416",
-      "bytes": 5709
+      "sha256": "ea47bed55d6d1b2f989b6ec0fd510769efb76fe85cabec1adc34ec38fb932eba",
+      "bytes": 11207
     },
     "https://www.osoujihonpo.com/assets/css/site-cart.css": {
       "path": "assets/css/site-cart.css",
@@ -7135,6 +7135,42 @@
       "origin_type": "local-shared-ui",
       "sha256": "8ec0c4103906b5eda5678a92ded65f31c5133fa68ccedc19eec577f6a520a414",
       "bytes": 2098340
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/concerns-sides.png": {
+      "path": "assets/images/first-lp/art/complements/concerns-sides.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/concerns-sides.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "ce28c972d63ca498cac8a12a4596c7fc9089d6135137748a1d10de717f2043a4",
+      "bytes": 1876279
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/estimate-sides.png": {
+      "path": "assets/images/first-lp/art/complements/estimate-sides.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/estimate-sides.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "6f9dbd246e7431202a07a10dca553b5f104aea12dc4d0ebb9b43ef85d169ba90",
+      "bytes": 1929097
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/hygiene-sides.png": {
+      "path": "assets/images/first-lp/art/complements/hygiene-sides.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/hygiene-sides.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "481ad39c75bacebe1ca06c1a2776a55f312f2ee4f9a9cd30d147bbbf6af9296e",
+      "bytes": 1866754
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/opening-copy.png": {
+      "path": "assets/images/first-lp/art/complements/opening-copy.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/complements/opening-copy.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "5d8f7069b037490cb282efbe7060f51a1af0db3d6599d4e041bb09d157b3ec5f",
+      "bytes": 2128793
     }
   },
   "external_urls": [
@@ -9325,9 +9361,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 763,
-    "unique_paths": 749,
-    "bytes": 207984809,
+    "urls": 767,
+    "unique_paths": 753,
+    "bytes": 215791417,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
