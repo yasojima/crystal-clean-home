@@ -25,7 +25,12 @@ const sizes=[[1440,800],[1920,1080],[1280,551],[1024,600],[900,800],[899,800],[7
         const hero=box('.office-wf__hero'),copy=box('.office-wf__hero-copy'),photo=box('.office-wf__kitchen-pair'),text=box('.office-wf__kitchen-copy');
         const left=box('.office-wf__kitchen-pair figure:first-child'),right=box('.office-wf__kitchen-pair figure:last-child');
         const mat=box('.office-wf__mosaic-mat'),basin=box('.office-wf__basin');
-        return {width:innerWidth,height:innerHeight,overflow:Math.max(0,document.documentElement.scrollWidth-document.documentElement.clientWidth),hero,copy,photo,text,equalPhotos:Math.abs(left.w-right.w)<.1&&Math.abs(left.h-right.h)<.1,bandEndsAtBasin:Math.abs(mat.bottom-basin.y)<1,bodyFont:parseFloat(getComputedStyle(document.querySelector('.office-wf__mosaic-body')).fontSize),bodyWriting:getComputedStyle(document.querySelector('.office-wf__mosaic-body-intro')).writingMode,galleryColumns:getComputedStyle(document.querySelector('.office-wf__gallery')).gridTemplateColumns.split(' ').length,pointColumns:getComputedStyle(document.querySelector('.c-reasons')).gridTemplateColumns.split(' ').length,pointsWidth:box('.office-wf__points').w,clientWidth:document.documentElement.clientWidth,images:[...document.querySelectorAll('.office-wf img')].every(i=>i.complete&&i.naturalWidth>0)};
+        const mosaic=box('.office-wf__mosaic');
+        const bodyBottom=Math.max(...[...document.querySelectorAll('.office-wf__mosaic-body-intro,.office-wf__mosaic-body span')].map(e=>e.getBoundingClientRect().bottom));
+        const paragraph=document.querySelector('.office-wf__kitchen-copy'),node=paragraph.firstChild,copyText=node.textContent,lines=new Map();
+        for(let i=0;i<copyText.length;i++){const range=document.createRange();range.setStart(node,i);range.setEnd(node,i+1);const y=Math.round(range.getBoundingClientRect().top);lines.set(y,(lines.get(y)||'')+copyText[i]);}
+        const kitchenLines=[...lines.values()];
+        return {width:innerWidth,height:innerHeight,overflow:Math.max(0,document.documentElement.scrollWidth-document.documentElement.clientWidth),hero,copy,photo,text,mosaic,bodyBottom,kitchenLines,equalPhotos:Math.abs(left.w-right.w)<.1&&Math.abs(left.h-right.h)<.1,bandEndsAtBasin:Math.abs(mat.bottom-basin.y)<1,bodyFont:parseFloat(getComputedStyle(document.querySelector('.office-wf__mosaic-body')).fontSize),bodyWriting:getComputedStyle(document.querySelector('.office-wf__mosaic-body-intro')).writingMode,galleryColumns:getComputedStyle(document.querySelector('.office-wf__gallery')).gridTemplateColumns.split(' ').length,pointColumns:getComputedStyle(document.querySelector('.c-reasons')).gridTemplateColumns.split(' ').length,pointsWidth:box('.office-wf__points').w,clientWidth:document.documentElement.clientWidth,images:[...document.querySelectorAll('.office-wf img')].every(i=>i.complete&&i.naturalWidth>0)};
       });
       assert(r.overflow<=1);assert(r.hero.bottom<=height+1);
       assert(r.copy.y>=r.hero.y-.1&&r.copy.bottom<=r.hero.bottom+.1);
@@ -37,6 +42,8 @@ const sizes=[[1440,800],[1920,1080],[1280,551],[1024,600],[900,800],[899,800],[7
       assert.equal(r.pointColumns,width<1024?1:3);
       assert(Math.abs(r.pointsWidth-r.hero.w)<1,JSON.stringify({width,points:r.pointsWidth,hero:r.hero.w}));
       assert(r.bodyFont>=12);
+      assert(r.bodyBottom<=r.mosaic.bottom+1,'Introduction text exceeds its section');
+      assert(r.kitchenLines.at(-1).length>=8,'Kitchen paragraph leaves an isolated short ending');
       assert.equal(r.bodyWriting,width<900?'horizontal-tb':'vertical-rl');
       r.passed=true;records.push(r);
     }
@@ -44,6 +51,10 @@ const sizes=[[1440,800],[1920,1080],[1280,551],[1024,600],[900,800],[899,800],[7
       await page.setViewportSize({width,height:width===1440?800:688});await page.evaluate(()=>scrollTo(0,0));
       await page.screenshot({path:path.join(out,`first-view-${width}.png`)});
       await page.screenshot({path:path.join(out,`page-${width}.jpg`),quality:80,fullPage:true});
+      for(const [selector,name] of [['.office-wf__kitchen','kitchen'],['.office-wf__mosaic','introduction']]){
+        const clip=await page.locator(selector).boundingBox();
+        await page.screenshot({path:path.join(out,`${name}-${width}.png`),fullPage:true,clip});
+      }
     }
     const dialogPromise=page.waitForEvent('dialog');
     const clicking=page.locator('.office-wf__hero .office-wf__inquiry-link').click();
