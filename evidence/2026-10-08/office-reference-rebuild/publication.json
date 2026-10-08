@@ -1,0 +1,70 @@
+{
+  "change": "CHG-2026-10-08-022",
+  "pagesCommit": "a20fe4cb0a8e4ac0136c2789ab133ad9b52213e2",
+  "actionsRun": 37786478241,
+  "actionsConclusion": "success",
+  "url": "https://yasojima.github.io/business/cleaning/",
+  "files": [
+    {
+      "path": "business/cleaning/index.html",
+      "http": 200,
+      "bytes": 54427,
+      "sha256": "0527e3ffc7bc1744da344c62eab25c6a60b8d3bdb6429b724b51d4c9e2ebd63b",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "http": 200,
+      "bytes": 3767,
+      "sha256": "70141ae5c7f948ab7383e0f483abab407a9705332583d97225f16317be6b9b5b",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/images/office-cleaning/aircon.png",
+      "http": 200,
+      "bytes": 2347212,
+      "sha256": "55bf96dfa5f92756e5545c05518157e705f014d0bde10d07bca4cb37a6498c85",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/images/office-cleaning/sanitizing.png",
+      "http": 200,
+      "bytes": 1904864,
+      "sha256": "b3d16df9baa840c939f91a9d123dc0e7a568a5eea7ea365d466600a9e8386dce",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/images/office-cleaning/shower.png",
+      "http": 200,
+      "bytes": 1853765,
+      "sha256": "87d34e15634c7ccac2f805035416481bcc0b09fbc8bb00085d4664d4bf145d1a",
+      "matchesCanonicalSource": true
+    }
+  ],
+  "httpAndHashesPassed": true,
+  "localConditions": 24,
+  "publicConditions": 24,
+  "homeNavigationPassed": true,
+  "pcAndMobileScreenshotsReviewed": [
+    1440,
+    414
+  ],
+  "physicalDeviceAcceptanceIncluded": false,
+  "restoredOriginals": [
+    {
+      "image": "aircon",
+      "sha256": "55bf96dfa5f92756e5545c05518157e705f014d0bde10d07bca4cb37a6498c85",
+      "matchesStagedOriginal": true
+    },
+    {
+      "image": "sanitizing",
+      "sha256": "b3d16df9baa840c939f91a9d123dc0e7a568a5eea7ea365d466600a9e8386dce",
+      "matchesStagedOriginal": true
+    },
+    {
+      "image": "shower",
+      "sha256": "87d34e15634c7ccac2f805035416481bcc0b09fbc8bb00085d4664d4bf145d1a",
+      "matchesStagedOriginal": true
+    }
+  ]
+}
