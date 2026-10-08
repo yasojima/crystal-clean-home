@@ -1,0 +1,31 @@
+{
+  "change": "CHG-2026-10-09-001",
+  "pagesCommit": "15ad4adbfb9d300500d5688ecae3a99ae1d7c305",
+  "actionsRun": 37811034330,
+  "actionsConclusion": "success",
+  "url": "https://yasojima.github.io/business/cleaning/",
+  "files": [
+    {
+      "path": "business/cleaning/index.html",
+      "http": 200,
+      "sha256": "b152e5bc606684f534c7760169312b1a268eb8cbf8e0480fd6496ecade86f9c6",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "http": 200,
+      "sha256": "b193ad3e1331612ca52c6cb7efa64c24ac1a70be50275492510ddb9c0394b553",
+      "matchesCanonicalSource": true
+    }
+  ],
+  "httpAndHashesPassed": true,
+  "localConditions": 18,
+  "publicConditions": 18,
+  "commonCssUpdatesPropagate": true,
+  "localAndPublicDesignsMatch": true,
+  "pcAndMobileScreenshotsReviewed": [
+    1440,
+    414
+  ],
+  "physicalDeviceAcceptanceIncluded": false
+}

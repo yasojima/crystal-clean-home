@@ -1,0 +1,549 @@
+{
+  "origin": "http://127.0.0.1:8773",
+  "conditions": 18,
+  "records": [
+    {
+      "route": "/business/cleaning/",
+      "width": 1440,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1425,
+        "height": 125
+      },
+      "clientWidth": 1440,
+      "mainWidth": 1425,
+      "overflow": -15,
+      "bodyLineHeight": "30.4px"
+    },
+    {
+      "route": "/contact/",
+      "width": 1440,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1425,
+        "height": 125
+      },
+      "clientWidth": 1440,
+      "mainWidth": 1425,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 1440,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1425,
+        "height": 125
+      },
+      "clientWidth": 1440,
+      "mainWidth": 1425,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1920,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1905,
+        "height": 125
+      },
+      "clientWidth": 1920,
+      "mainWidth": 1905,
+      "overflow": -15,
+      "bodyLineHeight": "30.4px"
+    },
+    {
+      "route": "/contact/",
+      "width": 1920,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1905,
+        "height": 125
+      },
+      "clientWidth": 1920,
+      "mainWidth": 1905,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 1920,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1905,
+        "height": 125
+      },
+      "clientWidth": 1920,
+      "mainWidth": 1905,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1024,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1009,
+        "height": 125
+      },
+      "clientWidth": 1024,
+      "mainWidth": 1009,
+      "overflow": -15,
+      "bodyLineHeight": "30.4px"
+    },
+    {
+      "route": "/contact/",
+      "width": 1024,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1009,
+        "height": 125
+      },
+      "clientWidth": 1024,
+      "mainWidth": 1009,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 1024,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 1009,
+        "height": 125
+      },
+      "clientWidth": 1024,
+      "mainWidth": 1009,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 768,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 753,
+        "height": 125
+      },
+      "clientWidth": 768,
+      "mainWidth": 753,
+      "overflow": -15,
+      "bodyLineHeight": "30.4px"
+    },
+    {
+      "route": "/contact/",
+      "width": 768,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 753,
+        "height": 125
+      },
+      "clientWidth": 768,
+      "mainWidth": 753,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 768,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "30px",
+        "fontWeight": "700",
+        "lineHeight": "45px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "40px",
+        "paddingRight": "15px",
+        "paddingBottom": "40px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 753,
+        "height": 125
+      },
+      "clientWidth": 768,
+      "mainWidth": 753,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 414,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 399,
+        "height": 65
+      },
+      "clientWidth": 414,
+      "mainWidth": 399,
+      "overflow": -15,
+      "bodyLineHeight": "28.5px"
+    },
+    {
+      "route": "/contact/",
+      "width": 414,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 399,
+        "height": 65
+      },
+      "clientWidth": 414,
+      "mainWidth": 399,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 414,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 399,
+        "height": 65
+      },
+      "clientWidth": 414,
+      "mainWidth": 399,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 320,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 305,
+        "height": 65
+      },
+      "clientWidth": 320,
+      "mainWidth": 305,
+      "overflow": -15,
+      "bodyLineHeight": "28.5px"
+    },
+    {
+      "route": "/contact/",
+      "width": 320,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 305,
+        "height": 65
+      },
+      "clientWidth": 320,
+      "mainWidth": 305,
+      "overflow": -15,
+      "bodyLineHeight": null
+    },
+    {
+      "route": "/office/floor/",
+      "width": 320,
+      "design": {
+        "fontFamily": "\"Zen Kaku Gothic New\", \"Noto Sans JP\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "lineHeight": "33px",
+        "color": "rgb(0, 91, 172)",
+        "backgroundColor": "rgb(245, 248, 250)",
+        "backgroundImage": "none",
+        "paddingTop": "16px",
+        "paddingRight": "15px",
+        "paddingBottom": "16px",
+        "paddingLeft": "15px",
+        "textAlign": "center",
+        "marginTop": "0px",
+        "marginBottom": "0px"
+      },
+      "inheritedUpdate": true,
+      "heading": {
+        "x": 0,
+        "width": 305,
+        "height": 65
+      },
+      "clientWidth": 320,
+      "mainWidth": 305,
+      "overflow": -15,
+      "bodyLineHeight": null
+    }
+  ],
+  "errors": [],
+  "commonCssUpdatesPropagate": true,
+  "passed": true
+}

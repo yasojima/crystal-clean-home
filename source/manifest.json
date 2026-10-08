@@ -6826,8 +6826,8 @@
       "status": 200,
       "content_type": "text/html",
       "origin_type": "local-shared-ui",
-      "sha256": "0527e3ffc7bc1744da344c62eab25c6a60b8d3bdb6429b724b51d4c9e2ebd63b",
-      "bytes": 54427,
+      "sha256": "b152e5bc606684f534c7760169312b1a268eb8cbf8e0480fd6496ecade86f9c6",
+      "bytes": 54401,
       "source_sha256": "42dce2fadb4443b103ba34b0b9852cf5b065be3e96cf140af40ec3ccedc12def"
     },
     "https://www.osoujihonpo.com/assets/css/office-cleaning.css": {
@@ -6836,8 +6836,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "70141ae5c7f948ab7383e0f483abab407a9705332583d97225f16317be6b9b5b",
-      "bytes": 3767
+      "sha256": "b193ad3e1331612ca52c6cb7efa64c24ac1a70be50275492510ddb9c0394b553",
+      "bytes": 3453
     },
     "https://www.osoujihonpo.com/assets/images/office-cleaning/balcony.png": {
       "path": "assets/images/office-cleaning/balcony.png",
@@ -9156,7 +9156,7 @@
   "counts": {
     "urls": 744,
     "unique_paths": 730,
-    "bytes": 163627402,
+    "bytes": 163627062,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
