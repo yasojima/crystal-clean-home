@@ -543,7 +543,7 @@ home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場�
 | 厨房・換気設備 | 幅min(90%,1485px)を中央配置。説明文は写真枠内で最大48em、PC15px・スマホ14px、text-wrap:balanceで行長を整える。写真枠は5:3。左右のfigureはともに全体幅・高さ100％で同寸法。左写真は上端70％〜下端34％、右写真は上端66％〜下端30％の斜線で切り抜いて重ねる。重なる4％幅の斜め帯は白22％の不透明度。ぼかしと中央のマスクを使わず、控えめな外周影を保つ。元画像2点をCSSで表示する構成で、別の合成画像ファイルを増やさない |
 | POINT 01〜03 | 既存c-grid・c-reasons--navy・reference-point画像を再利用。ファーストビューと同じ全体幅でPC3列、1024px未満1列。円最大280px、紺色面210px（768px未満162px）。原稿は日常の汚れから定期清掃まで／衛生面の清掃／引き渡しに向けた清掃 |
 | 幅広い清掃対応 | 最大1240px・通常左右40px、768px未満左右20px。8写真はglass/kitchen/hood/lighting/toilet/hallway/basin/balconyの順。写真3:2、PC4列、768px未満2列。写真の下にラベルを表示 |
-| 末尾の相談 | 最大660px、上下の罫線、左寄せ。「法人向け清掃のご相談」→「清掃箇所やご希望の時期について、お気軽にご相談ください。」→「ご相談窓口」。通常PCボタン288×64px。長い説明を再掲しない |
+| 末尾の相談 | 写真一覧と同じ最大1240pxの共通領域の左端へ、最大660pxの相談ブロック全体を配置。スマホは同じ左右20px。上下の罫線・見出し・本文・CTAをまとめて左寄せ。「法人向け清掃のご相談」→「清掃箇所やご希望の時期について、お気軽にご相談ください。」→「ご相談窓口」。通常PCボタン288×64px。長い説明を再掲しない |
 
 実装の所有元は `source/office-cleaning/content.json`（現在の原稿）、同フォルダーの `page.html`（本文構造）、`tools/build_office_cleaning.py`（共通シェルと原稿から生成）、`source/site/assets/css/office-cleaning.css?v=2026100820`（表示）とする。生成先は `source/site/business/cleaning/index.html`。比較用のHTML・CSS・生成元へ依存しない。共通ヘッダー・フッターはsource/shared-uiから生成し、見出しとCTAはZen Kaku Gothic New、本文はNoto Sans JPを共通正本から使用する。画像とプロンプトは現在使用する10写真のみを保持する。
 
@@ -573,3 +573,5 @@ home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場�
 確認：ローカル12サイズ往復24条件で横はみ出しなし、紹介本文の収まり、写真背面なし、半透明帯の色、既存の冒頭・CTA・写真合成・POINT3件・8写真一覧を確認。PC1440×800とスマホ414×688の保存画面を確認。証拠はevidence/2026-10-08/office-canva-band/。
 
 公開確認（CHG-2026-10-08-020）：Pages 1765685f9ea7b428b30bfbfcddd9dd84f08db219／Actions 37773130776成功。公開HTML・CSSのHTTP200とSHA-256正本一致、公開12サイズ往復24条件を確認。PC・スマホ保存画面を確認。証拠evidence/2026-10-08/office-canva-band/publication.jsonとpublic/report.json。
+
+公開確認（CHG-2026-10-08-021）：Pages 1e284b9／Actions37774283466成功。公開HTMLのHTTP200・SHA-256正本一致、公開1440・1024・768・414幅で写真一覧と相談ブロックの左端一致・横はみ出しなしを確認。PC・スマホ保存画面はevidence/2026-10-08/office-contact-left/。
