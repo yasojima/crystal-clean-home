@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-09",
+  "change": "CHG-2026-10-09-005",
+  "generation": "built-in image_gen",
+  "path": "source/site/assets/images/first-lp/art/background-expanded.png",
+  "reference": "source/site/assets/images/first-lp/art/opening-integrated.webp",
+  "prompt": "Use case: background-extraction / precise-object-edit. Asset type: desktop webpage background extension. The attached portrait landing-page artwork is a STYLE AND BACKGROUND REFERENCE only. Create a new wide 3:2 background plate that continues the bright airy room, leafy green plants and windows on the left, warm cream kitchen and sunlit room on the right, and translucent pale-blue curved water ribbons from the reference. This image will be behind the original unmodified portrait artwork, so its center will be covered; the important visible zones are the far LEFT and RIGHT sides. It must make a narrower central artwork feel naturally surrounded by a larger area of the same setting, not framed in a blank gray border.\nCRITICAL: remove ALL text, ALL lettering, ALL numerals, ALL logos, ALL people and characters, ALL air-conditioners, ALL advertising/product insets. Do not draw any new person, worker, customer, animal or readable text. Background scenery only. Preserve the reference's soft detailed anime illustration style, warm daylight, pale cream whites, fresh natural green foliage and subtle light-blue water. No new graphic ornaments or icon patterns. Upper 60% is a wide softly detailed room: closer green leaves and curtains on the far left, softly sunlit cream kitchen/window/plants on the far right. Center can be quiet neutral bright room space because it is behind the original artwork. Lower 40% gradually dissolves into almost-white, very pale blue/cream, with a gentle translucent water ribbon and sparse soft foliage near far corners. Bottom edge should be pale nearly-white #f7fbfc so it blends into the page's long background. No hard horizontal boundary, no border, no picture frame, no shadow, no transparency. This is a backdrop, so avoid high contrast features that compete with the central content. Extend the background spatially; do not mirror or repeat the original text or characters.",
+  "width": 1536,
+  "height": 1024,
+  "bytes": 1916081,
+  "sha256": "fec5eaffa00ab3dd5917c40ab04d9f8172bc2ce18e9b8463c22a1cd41c6804f0",
+  "usage": "PC background only; original LP artwork remains unchanged. Content max 1120px; full-width background; mobile unchanged."
+}

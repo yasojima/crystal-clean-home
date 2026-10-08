@@ -1,0 +1,17 @@
+{
+  "change": "CHG-2026-10-09-005",
+  "browser": "Chrome / Playwright",
+  "conditions": 30,
+  "sizes": 15,
+  "mobilePreservation": 6,
+  "interactionSizes": 4,
+  "ctas": 6,
+  "sharedPages": 61,
+  "catalogueItems": 395,
+  "catalogueSelections": 460,
+  "mainUnchanged": true,
+  "unchangedServedFiles": 746,
+  "generationIdempotent": true,
+  "siteIdentity": true,
+  "passed": true
+}

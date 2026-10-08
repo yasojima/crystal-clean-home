@@ -16,7 +16,7 @@ async function metrics(page) { return page.evaluate(()=>{
   const canvas=document.querySelector('.lp-canvas');
   const cards=[...document.querySelectorAll('.p-page-anchors__cards > a')].map(rect);
   const iconErrors=[...document.querySelectorAll('main .c-category-simple-card__icon')].filter(e=>e.getBoundingClientRect().width>0).flatMap(e=>{const card=e.closest('.c-category-simple-card');const arrow=card.classList.contains('c-category-simple-card--icon-down');const w=innerWidth<768?(arrow?72:98):(arrow?100:120);const r=rect(e),white=rect(card.querySelector('.c-category-simple-card__top'));const h=w*10/13+(arrow?(innerWidth<768?28:32):(innerWidth<768?33:28));return Math.abs(r.width-w)>1||Math.abs(r.height-w*10/13)>1||Math.abs(white.height-h)>1?[{classes:e.className,expected:w,icon:r,white,whiteExpected:h}]:[];});
-  return {width:innerWidth,height:innerHeight,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,clipped,iconErrors,header:rect(document.querySelector('header')),canvas:canvas?rect(canvas):null,cards,ctas:[...document.querySelectorAll('.lp-estimate-button')].map(e=>({href:e.getAttribute('href'),...rect(e)}))};
+  return {width:innerWidth,height:innerHeight,overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,clipped,iconErrors,header:rect(document.querySelector('header')),canvas:canvas?rect(canvas):null,canvasAvailable:canvas?canvas.parentElement.getBoundingClientRect().width:null,cards,ctas:[...document.querySelectorAll('.lp-estimate-button')].map(e=>({href:e.getAttribute('href'),...rect(e)}))};
 }); }
 (async()=>{
   fs.mkdirSync(out,{recursive:true});
@@ -34,7 +34,7 @@ async function metrics(page) { return page.evaluate(()=>{
         await page.setViewportSize({width:size[0],height:size[1]});await settle(page);
         const record={route,...await metrics(page)};
         record.passed=record.overflow<=1&&!record.clipped.length&&!record.iconErrors.length;
-        if(record.canvas){const available=record.width-15;const reduced=record.width>=768&&record.height<=720;record.passed&&=reduced?record.canvas.width<=880.5&&Math.abs(record.canvas.x-(available-record.canvas.width)/2)<=1:Math.abs(record.canvas.width-available)<=1&&Math.abs(record.canvas.x)<=1;}
+        if(record.canvas){const available=record.canvasAvailable;const expected=record.width>=768?Math.min(1120,available-48):available;record.passed&&=Math.abs(record.canvas.width-expected)<=1&&Math.abs(record.canvas.x-(available-record.canvas.width)/2)<=1;}
         if(route==='/house-cleaning/water/'&&record.width===1280&&record.height===551){record.selectorColumns=record.cards.filter(c=>Math.abs(c.y-record.cards[0].y)<1).length;record.passed&&=record.selectorColumns===4;}
         records.push(record);
       }

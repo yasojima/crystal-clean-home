@@ -64,28 +64,43 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   body.c-beginner-lp #cch-first-lp .cta-final .lp-closing-logo { width: 168px; max-width: 100%; }
 }
 
-/* Limit the reduced manga layout to short desktop windows. */
-@media (min-width: 768px) and (max-height: 720px) {
+@media (min-width: 768px) {
+  body.c-beginner-lp #cch-first-lp {
+    --lp-content-max: 1120px;
+    --lp-content-gutter: 24px;
+    --lp-background-height: calc(min(var(--lp-content-max), calc(100vw - var(--lp-content-gutter) * 2)) * 1.6);
+    background: #f7fbfc url('/assets/images/first-lp/art/background-expanded.png') center top / auto var(--lp-background-height) no-repeat;
+  }
   body.c-beginner-lp #cch-first-lp .lp-canvas {
-    width: min(calc(100% - 48px), clamp(560px, calc((100svh - var(--aircon-header-height)) * 1.5), 880px));
+    width: min(calc(100% - var(--lp-content-gutter) * 2), var(--lp-content-max));
     margin: 0 auto;
     container-type: inline-size;
+    container-name: lp-content;
+    background: transparent;
   }
-  body.c-beginner-lp #cch-first-lp .lp-voices { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
-  body.c-beginner-lp #cch-first-lp .lp-services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); }
-  body.c-beginner-lp #cch-first-lp .lp-opening-portrait { --lp-opening-button-height: 64px; }
-  body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-double-icon-button__inner { min-height: 56px; padding: 12px 18px; }
-  body.c-beginner-lp #cch-first-lp .lp-estimate-button .btn-free { font-size: clamp(18px, 3cqw, 24px); }
-  body.c-beginner-lp #cch-first-lp .lp-opening-portrait .c-tab__button { font-size: 12px; line-height: 1.8; }
-  body.c-beginner-lp #cch-first-lp .lp-art-section,
-  body.c-beginner-lp #cch-first-lp #first-comic,
-  body.c-beginner-lp #cch-first-lp #cleaning-approach,
-  body.c-beginner-lp #cch-first-lp #first-work,
-  body.c-beginner-lp #cch-first-lp #infection-prevention,
-  body.c-beginner-lp #cch-first-lp #first-finish { padding-top: 40px; padding-bottom: 40px; }
-  body.c-beginner-lp #cch-first-lp #first-comic .lp-chapter-title { top: 40px; }
-  body.c-beginner-lp #cch-first-lp #first-voices,
-  body.c-beginner-lp #cch-first-lp #first-comparison,
-  body.c-beginner-lp #cch-first-lp #first-flow,
-  body.c-beginner-lp #cch-first-lp #first-faq { padding-top: 56px; padding-bottom: 56px; }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait h1 > img {
+    mask-image: linear-gradient(to right, transparent, #000 12px, #000 calc(100% - 12px), transparent);
+  }
+}
+
+@media (min-width: 768px) {
+  @container lp-content (max-width: 880px) {
+   body.c-beginner-lp #cch-first-lp .lp-voices { grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); }
+   body.c-beginner-lp #cch-first-lp .lp-services { grid-template-columns: repeat(auto-fit, minmax(min(100%, 170px), 1fr)); }
+   body.c-beginner-lp #cch-first-lp .lp-opening-portrait { --lp-opening-button-height: 64px; }
+   body.c-beginner-lp #cch-first-lp .lp-estimate-button .c-double-icon-button__inner { min-height: 56px; padding: 12px 18px; }
+   body.c-beginner-lp #cch-first-lp .lp-estimate-button .btn-free { font-size: clamp(18px, 3cqw, 24px); }
+   body.c-beginner-lp #cch-first-lp .lp-opening-portrait .c-tab__button { font-size: 12px; line-height: 1.8; }
+   body.c-beginner-lp #cch-first-lp .lp-art-section,
+   body.c-beginner-lp #cch-first-lp #first-comic,
+   body.c-beginner-lp #cch-first-lp #cleaning-approach,
+   body.c-beginner-lp #cch-first-lp #first-work,
+   body.c-beginner-lp #cch-first-lp #infection-prevention,
+   body.c-beginner-lp #cch-first-lp #first-finish { padding-top: 40px; padding-bottom: 40px; }
+   body.c-beginner-lp #cch-first-lp #first-comic .lp-chapter-title { top: 40px; }
+   body.c-beginner-lp #cch-first-lp #first-voices,
+   body.c-beginner-lp #cch-first-lp #first-comparison,
+   body.c-beginner-lp #cch-first-lp #first-flow,
+   body.c-beginner-lp #cch-first-lp #first-faq { padding-top: 56px; padding-bottom: 56px; }
+  }
 }

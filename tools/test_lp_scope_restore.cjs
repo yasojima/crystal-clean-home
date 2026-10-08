@@ -4,59 +4,161 @@ const assert = require('assert/strict');
 const {execFileSync} = require('child_process');
 const {chromium} = require('C:/Users/yasoj/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const root = path.resolve(__dirname, '..');
-const deploy = 'C:/Users/yasoj/AppData/Local/Temp/cch-pages-deploy-20261003';
-const out = path.join(root, 'evidence/2026-10-07/lp-scope-restore');
-const candidate = fs.readFileSync(path.join(root,'source/site/assets/css/beginner-lp.css'));
-const original = execFileSync('git',['show','b3de973:source/site/assets/css/beginner-lp.css'],{cwd:root});
 const origin = process.argv[2] || 'http://127.0.0.1:8773';
 const publicMode = origin.startsWith('https:');
-(async()=>{
-  fs.mkdirSync(out,{recursive:true});
-  const browser = await chromium.launch({channel:'chrome',headless:true});
-  const page = await browser.newPage();
-  let useOriginal = false;
-  const errors=[];
-  page.on('pageerror',e=>errors.push(e.message));
-  if(!publicMode) await page.route('**/*',async r=>{
-    const u=new URL(r.request().url());
-    if(u.origin!==new URL(origin).origin) return r.abort();
-    if(u.pathname==='/assets/css/beginner-lp.css') return r.fulfill({body:useOriginal?original:candidate,contentType:'text/css'});
-    let file=path.join(deploy,decodeURIComponent(u.pathname));
-    if(fs.existsSync(file)&&fs.statSync(file).isDirectory()) file=path.join(file,'index.html');
-    if(!fs.existsSync(file)) return r.abort();
-    return r.fulfill({path:file});
+const out = path.join(root, 'evidence/2026-10-09/lp-background-width', publicMode ? 'public' : 'local');
+const original = execFileSync('git', ['show', 'ebf379f:source/site/assets/css/beginner-lp.css'], {cwd:root});
+const sizes = [[1920,1080],[1442,804],[1440,800],[1280,551],[1280,900],[1024,600],[993,800],[992,700],[768,800],[767,800],[600,800],[414,688],[390,844],[375,667],[320,568]];
+async function settle(page) {
+  await page.evaluate(async () => {
+    await document.fonts.ready;
+    await Promise.all([...document.querySelectorAll('#cch-first-lp picture img')].map(img => {
+      img.loading = 'eager';
+      return img.decode().catch(() => {});
+    }));
+    await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
   });
-  const metrics=()=>page.evaluate(()=>{
-    const canvas=document.querySelector('.lp-canvas');const r=canvas.getBoundingClientRect();
-    const nodes=[...canvas.querySelectorAll('section,.lp-estimate-button,.lp-opening-actions,.lp-cta-action,.lp-services,.lp-voices')].map(e=>{
-      const b=e.getBoundingClientRect(),s=getComputedStyle(e);
-      return [e.id||e.className,b.width,b.height,s.paddingTop,s.paddingBottom,s.fontSize];
+}
+async function metrics(page) {
+  return page.evaluate(() => {
+    const root = document.getElementById('cch-first-lp');
+    const canvas = root.querySelector('.lp-canvas');
+    const rect = e => { const r = e.getBoundingClientRect(); return {x:r.x, width:r.width, height:r.height}; };
+    const s = getComputedStyle(root);
+    const ctAs = [...canvas.querySelectorAll('.lp-estimate-button')].map(e => ({
+      href:e.getAttribute('href'), ...rect(e),
+      clipped:e.querySelector('.btn-free').scrollWidth > e.querySelector('.btn-free').clientWidth + 1
+    }));
+    const nodes = [...canvas.querySelectorAll('section,.lp-estimate-button,.lp-opening-actions,.lp-cta-action,.lp-services,.lp-voices')].map(e => {
+      const c = getComputedStyle(e);
+      return [e.id || e.className, ...Object.values(rect(e)), c.paddingTop, c.paddingBottom, c.fontSize];
     });
-    return {width:innerWidth,height:innerHeight,available:canvas.parentElement.getBoundingClientRect().width,canvas:{x:r.x,width:r.width},overflow:document.documentElement.scrollWidth-document.documentElement.clientWidth,nodes};
+    return {
+      width:innerWidth, height:innerHeight, root:rect(root), canvas:rect(canvas), ctAs, nodes,
+      background:{image:s.backgroundImage, color:s.backgroundColor, size:s.backgroundSize},
+      openingMask:getComputedStyle(root.querySelector('h1 > img')).maskImage,
+      overflow:document.documentElement.scrollWidth - document.documentElement.clientWidth
+    };
   });
-  const records=[];
-  try{
-    for(const [width,height] of [[1439,799],[1440,800],[1920,1080],[768,800],[1280,551],[1366,650],[1024,600],[414,688],[320,568]]){
+}
+(async () => {
+  fs.mkdirSync(out, {recursive:true});
+  const browser = await chromium.launch({channel:'chrome', headless:true});
+  const page = await browser.newPage();
+  const errors = [];
+  const failedResponses = [];
+  page.on('pageerror', e => errors.push(e.message));
+  page.on('response', r => { if (r.status() >= 400 && new URL(r.url()).origin === new URL(origin).origin) failedResponses.push({url:r.url(), status:r.status()}); });
+  let useOriginal = false;
+  await page.route('**/assets/css/beginner-lp.css*', r => useOriginal ? r.fulfill({body:original, contentType:'text/css'}) : r.continue());
+  const records = [];
+  const mobilePreservation = [];
+  try {
+    await page.goto(origin + '/beginner/?lp_width=2026100905', {waitUntil:'load'});
+    await page.evaluate(async () => {
+      for (const img of document.querySelectorAll('#cch-first-lp img')) {
+        img.loading = 'eager';
+        await img.decode().catch(() => {});
+      }
+      const bg = new Image();
+      bg.src = '/assets/images/first-lp/art/background-expanded.png';
+      await bg.decode();
+    });
+    for (const [width,height] of [...sizes, ...[...sizes].reverse()]) {
       await page.setViewportSize({width,height});
-      useOriginal=false;await page.goto(origin+'/beginner/?lp_restore=2026100702',{waitUntil:'load'});await page.evaluate(()=>document.fonts.ready);
-      const current=await metrics();console.log(JSON.stringify({width,height,canvas:current.canvas,available:current.available}));assert(current.overflow<=1,`${width} horizontal overflow`);
-      const reduced=width>=768&&height<=720;
-      if(reduced){assert(current.canvas.width<=880.5);assert(Math.abs(current.canvas.x-(current.available-current.canvas.width)/2)<=1);}
-      else{
-        if(!publicMode){useOriginal=true;await page.reload({waitUntil:'load'});await page.evaluate(()=>document.fonts.ready);const before=await metrics();assert.deepEqual(current.canvas,before.canvas,`${width} original width not restored`);assert.deepEqual(current.nodes,before.nodes,`${width} existing LP layout changed`);}
+      await settle(page);
+      const current = await metrics(page);
+      const pc = width >= 768;
+      const expected = pc ? Math.min(1120, current.root.width - 48) : current.root.width;
+      assert(Math.abs(current.canvas.width - expected) <= 1, width + 'x' + height + ': content width');
+      assert(Math.abs(current.canvas.x - current.root.x - (current.root.width - current.canvas.width)/2) <= 1, width + ': centered content');
+      assert(current.overflow <= 1, width + ': page overflow');
+      assert.equal(current.ctAs.length, 6);
+      for (const cta of current.ctAs) {
+        assert.equal(cta.href, '/quick_cart/');
+        assert(cta.height >= 44 && !cta.clipped, width + ': CTA usable');
+        assert(cta.x >= current.canvas.x - 1 && cta.x + cta.width <= current.canvas.x + current.canvas.width + 1, width + ': CTA within content');
       }
-      records.push({width,height,canvas:current.canvas,available:current.available,reduced,overflow:current.overflow,unchangedOutsideScope:!reduced,passed:true});
+      if (pc) {
+        assert(current.background.image.includes('background-expanded.png'));
+        assert(current.openingMask.includes('linear-gradient'));
+        const backdropHeight = Number.parseFloat(current.background.size.split(' ')[1]);
+        assert(backdropHeight * 1.5 >= current.root.width, width + ': backdrop covers full width');
+      } else {
+        assert.equal(current.background.image, 'none');
+        assert.equal(current.openingMask, 'none');
+      }
+      delete current.nodes;
+      records.push(current);
     }
-    if(!publicMode){
-      useOriginal=false;
-      for(const [width,height] of [[1439,799],[1280,551],[414,688]]){
-        await page.setViewportSize({width,height});await page.goto(origin+'/beginner/',{waitUntil:'load'});
-        await page.locator('#first-concerns').evaluate(e=>scrollTo(0,e.getBoundingClientRect().top+scrollY-document.querySelector('header').offsetHeight));
-        await page.waitForTimeout(150);await page.screenshot({path:path.join(out,`${width}-${height}.jpg`),quality:78});
+    const short = records.find(r => r.width === 1280 && r.height === 551);
+    const tall = records.find(r => r.width === 1280 && r.height === 900);
+    assert.deepEqual(short.canvas, tall.canvas, 'height must not narrow the content');
+    console.log(JSON.stringify({origin, layoutConditions:records.length, passed:true}));
+    if (!publicMode) {
+      for (const [width,height] of sizes.filter(s => s[0] < 768)) {
+        await page.setViewportSize({width,height});
+        await settle(page);
+        const after = await metrics(page);
+        useOriginal = true;
+        await page.reload({waitUntil:'load'});
+        await settle(page);
+        const before = await metrics(page);
+        assert.deepEqual(after.canvas, before.canvas, width + ': mobile content changed');
+        assert.deepEqual(after.nodes, before.nodes, width + ': mobile sections changed');
+        assert.deepEqual(after.ctAs, before.ctAs, width + ': mobile CTAs changed');
+        mobilePreservation.push({width,height,unchanged:true});
+        useOriginal = false;
+        await page.reload({waitUntil:'load'});
+        await settle(page);
       }
     }
-    const report={origin,conditions:records.length,records,errors,passed:!errors.length};
-    fs.writeFileSync(path.join(out,publicMode?'public.json':'local.json'),JSON.stringify(report,null,2));
-    console.log(JSON.stringify(report));assert(report.passed);
-  }finally{await browser.close();}
-})().catch(e=>{console.error(e);process.exitCode=1;});
+    const interactions = [];
+    for (const [width,height] of [[1442,804],[768,800],[414,688],[320,568]]) {
+      await page.setViewportSize({width,height});
+      await page.goto(origin + '/beginner/', {waitUntil:'load'});
+      const firstTab = page.locator('#lp-case-tab-0');
+      const secondTab = page.locator('#lp-case-tab-1');
+      await secondTab.click();
+      assert.equal(await secondTab.getAttribute('aria-selected'), 'true');
+      assert(await page.locator('#lp-case-panel-1').isVisible());
+      await secondTab.press('ArrowLeft');
+      assert.equal(await firstTab.getAttribute('aria-selected'), 'true');
+      assert(await page.locator('#lp-case-panel-0').isVisible());
+      const slider = page.locator('#lp-case-panel-0 [role="slider"]');
+      await slider.press('End');
+      await page.waitForFunction(() => document.querySelector('#lp-case-panel-0 [role="slider"]').getAttribute('aria-valuenow') === '100');
+      await slider.press('Home');
+      await page.waitForFunction(() => document.querySelector('#lp-case-panel-0 [role="slider"]').getAttribute('aria-valuenow') === '0');
+      await slider.press('ArrowRight');
+      await page.waitForFunction(() => document.querySelector('#lp-case-panel-0 [role="slider"]').getAttribute('aria-valuenow') === '5');
+      const faq = page.locator('#first-faq details').first();
+      await faq.locator('summary').click();
+      assert(await faq.evaluate(e => e.open));
+      await faq.locator('summary').click();
+      assert(!(await faq.evaluate(e => e.open)));
+      await page.locator('.lp-estimate-button').first().focus();
+      await Promise.all([page.waitForURL('**/quick_cart/'), page.keyboard.press('Enter')]);
+      interactions.push({width,height,tabs:true,comparisonKeyboard:true,faq:true,estimateNavigation:true});
+    }
+    for (const [width,height,anchor,label] of [
+      [1442,804,'#first-introduction','opening-1442'],
+      [1280,551,'#first-introduction','opening-1280'],
+      [414,688,'#first-introduction','opening-mobile'],
+      [1442,804,'#first-cases','comparison-1442'],
+      [768,800,'#first-services','services-768'],
+      [414,688,'#first-faq','faq-mobile']
+    ]) {
+      await page.setViewportSize({width,height});
+      await page.goto(origin + '/beginner/', {waitUntil:'load'});
+      await page.locator(anchor).evaluate(e => scrollTo({top:e.getBoundingClientRect().top + scrollY - document.querySelector('header').offsetHeight, behavior:'instant'}));
+      await settle(page);
+      await page.screenshot({path:path.join(out, label + '.png')});
+    }
+    assert.equal(errors.length, 0, JSON.stringify(errors));
+    assert.equal(failedResponses.length, 0, JSON.stringify(failedResponses));
+    const report = {origin, baseline:'ebf379f', conditions:records.length, records, mobilePreservation, interactions, errors, failedResponses, passed:true};
+    fs.writeFileSync(path.join(out,'report.json'), JSON.stringify(report,null,2) + '\n');
+    console.log(JSON.stringify({origin,conditions:records.length,mobilePreservation:mobilePreservation.length,interactions:interactions.length,passed:true}));
+  } finally { await browser.close(); }
+})().catch(e => { console.error(e); process.exitCode = 1; });

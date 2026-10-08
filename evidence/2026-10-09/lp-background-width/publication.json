@@ -1,0 +1,33 @@
+{
+  "change": "CHG-2026-10-09-005",
+  "commit": "12b5d8e99efd640f5f3675ddf6cc7b29f2024989",
+  "actions": 37840965674,
+  "deployment": "success",
+  "records": [
+    {
+      "path": "beginner/index.html",
+      "url": "https://yasojima.github.io/beginner/?chg=2026100905",
+      "status": 200,
+      "bytes": 77024,
+      "sha256": "91fad0005296caed781aa7737cabee53bdcad30e0716db8eff5a8eca43ab7160",
+      "sourceMatches": true
+    },
+    {
+      "path": "assets/css/beginner-lp.css",
+      "url": "https://yasojima.github.io/assets/css/beginner-lp.css?chg=2026100905",
+      "status": 200,
+      "bytes": 4957,
+      "sha256": "983896009e584828728e457dda5d74c20d6f45b6fcd29856a78393feb3ac13ba",
+      "sourceMatches": true
+    },
+    {
+      "path": "assets/images/first-lp/art/background-expanded.png",
+      "url": "https://yasojima.github.io/assets/images/first-lp/art/background-expanded.png?chg=2026100905",
+      "status": 200,
+      "bytes": 1916081,
+      "sha256": "fec5eaffa00ab3dd5917c40ab04d9f8172bc2ce18e9b8463c22a1cd41c6804f0",
+      "sourceMatches": true
+    }
+  ],
+  "passed": true
+}

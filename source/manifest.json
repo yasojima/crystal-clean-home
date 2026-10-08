@@ -1233,7 +1233,7 @@
       "status": 200,
       "content_type": "text/html;charset=UTF-8",
       "bytes": 77024,
-      "sha256": "70d3f75a23653085dbeea743987cd776d5edb6292fc4e17c5dd12b43b0d8b9c8",
+      "sha256": "91fad0005296caed781aa7737cabee53bdcad30e0716db8eff5a8eca43ab7160",
       "retrieved_at": "2026-09-30T16:59:39.188759+00:00",
       "source_sha256": "943bf4f888b6c8ae1d690c24b5d3811557c6d24618aa05d2302c5a778712f4ab",
       "source_bytes": 62062,
@@ -6248,8 +6248,8 @@
       "status": 200,
       "content_type": "text/css",
       "origin_type": "local-shared-ui",
-      "sha256": "23b5275a23b406049fe7b0aadd3e1567ba0d3f62bd72c486c859455d4cb9ca30",
-      "bytes": 4404
+      "sha256": "983896009e584828728e457dda5d74c20d6f45b6fcd29856a78393feb3ac13ba",
+      "bytes": 4957
     },
     "https://www.osoujihonpo.com/assets/css/site-cart.css": {
       "path": "assets/css/site-cart.css",
@@ -7126,6 +7126,15 @@
       "origin_type": "local-shared-ui",
       "sha256": "0fcc21dc5b8aeda7e014529bd5ebf3484edaf239fded031ee7f988072ef92f5f",
       "bytes": 2432855
+    },
+    "https://www.osoujihonpo.com/assets/images/first-lp/art/background-expanded.png": {
+      "path": "assets/images/first-lp/art/background-expanded.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/first-lp/art/background-expanded.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "fec5eaffa00ab3dd5917c40ab04d9f8172bc2ce18e9b8463c22a1cd41c6804f0",
+      "bytes": 1916081
     }
   },
   "external_urls": [
@@ -9316,9 +9325,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 762,
-    "unique_paths": 748,
-    "bytes": 205885164,
+    "urls": 763,
+    "unique_paths": 749,
+    "bytes": 207801798,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,

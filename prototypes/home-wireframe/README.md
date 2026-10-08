@@ -41,3 +41,7 @@ CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編�
 
 
 [変更 2026-10-09 / CHG-2026-10-09-004] 法人向けページの共通帯にもPC用・スマホ用の広告を追加。割り当てはsource/office-cleaning/content.jsonのbanner、制作情報は同フォルダのbanner-assets.json。既存の共通帯の高さ・余白・Check!、法人本文、HOMEの導線、8分類と見積もり・商品・価格・カートを維持します。
+
+[変更 2026-10-09 / CHG-2026-10-09-005] beginnerのPC本文は中央・最大1120px・左右24px以上。背景を画面全幅へ広げ、高さ依存の縮小を廃止する。本文幅880px以下で内部配置を調整し、767.98px以下の元レイアウトと6か所の/quick_cart/導線を保持。正本はbeginner-lp.cssとsource/lp-background-assets.json、確認記録はevidence/2026-10-09/lp-background-width/。
+
+公開確認（CHG-005）：Pages12b5d8e99efd640f5f3675ddf6cc7b29f2024989／Actions37840965674成功。beginner HTML・LP CSS・背景PNGの3ファイルがHTTP200・SHA-256で正本と一致。レスポンシブ画像の読み込み後に15サイズ往復30条件を確認し、ローカルと公開の全測定値・4サイズの操作結果が一致。公開PC・短いPC・スマホ・下部の保存画面を確認。公開記録はevidence/2026-10-09/lp-background-width/publication.json・public/report.json・local-public-match.json。
