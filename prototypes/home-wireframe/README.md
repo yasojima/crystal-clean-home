@@ -32,3 +32,6 @@ CHG-2026-10-07-020で黄色×青のA案を本編へ採用しました。このHO
 CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編の法人ページ](http://127.0.0.1:8773/business/cleaning/)を使用します。法人のbusiness・business-copy比較フォルダーは既存の削除用へ移動済みです。生成正本はtools/build_office_cleaning.py、原稿と構造はsource/office-cleaning、表示はsource/site/assets/css/office-cleaning.cssです。このHOME比較とお知らせの3案は保持します。
 
 法人本文の現在の構成はCHG-2026-10-08-022です。参考部分の導入・左右交互4説明・12写真一覧・締めの文章を本編に適用し、法人の比較複製は作成しません。
+
+
+法人の冒頭はCHG-2026-10-09-002により、サービス8分類と同じsource/shared-ui/service-banner.html、tools/service_banner.py、aircon-hero.css、service-first-view.jsで管理します。法人用の帯を別所有しません。本文はCHG-022を維持します。

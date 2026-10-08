@@ -1,0 +1,93 @@
+{
+  "change": "CHG-2026-10-09-002",
+  "pagesCommit": "7946019dc27199c03c02e09d735abe7498a26e7b",
+  "actionsRun": 37815825285,
+  "actionsConclusion": "success",
+  "url": "https://yasojima.github.io/business/cleaning/",
+  "files": [
+    {
+      "path": "assets/css/aircon-hero.css",
+      "http": 200,
+      "sha256": "9381114d0323a6674050c8babb3eecbefbbb2696edea75e2e515f5778821400b",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "http": 200,
+      "sha256": "70ffa0ffa36efb3668467885173b8604b9d1c83a08b03b15d846ec52a08a1cfb",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "assets/js/service-first-view.js",
+      "http": 200,
+      "sha256": "f0df6bcfd0e6a041b1449f2d0c4cfa5cc03d8ab439af160404f209fe67242494",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "business/cleaning/index.html",
+      "http": 200,
+      "sha256": "a50afe4cff49307d9b68567380c760bedd2e5894ae6b8430330a36889e09bb53",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/aircon/index.html",
+      "http": 200,
+      "sha256": "254a23231840177e8ac4ecb3b515d51bbf7842b83571e0f88600ef33276b96ec",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/coating/index.html",
+      "http": 200,
+      "sha256": "efdaefb7f49a3d3d4e1e0e6e31362fb61de45d15729cc8d6fae97321d0d63610",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/kitchen/index.html",
+      "http": 200,
+      "sha256": "f6606374ccf190813f3db6b0c9d8a2a67535c18f813d9c30829bdffb72ab5add",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/others/index.html",
+      "http": 200,
+      "sha256": "8dbe885ee85ed059db690e132ef1398660b3a9e4d75c09180ca7a0c6d24c3365",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/pack/index.html",
+      "http": 200,
+      "sha256": "35b96420a326a8a182ff9baf56dbed0f5dc18095e710f708609b570d1befedb7",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/room/index.html",
+      "http": 200,
+      "sha256": "a51127d0f5d6416479c27edd87a02c78047d90d10521128a75c2a737a0886025",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/washer/index.html",
+      "http": 200,
+      "sha256": "9a785456f8cf6fe57c9192a67a4f175553b2edd294a4a73f4c1a2d30394523d1",
+      "matchesCanonicalSource": true
+    },
+    {
+      "path": "house-cleaning/water/index.html",
+      "http": 200,
+      "sha256": "f4884fd30b1e5316cfb91f33076b57219a9ecf16f62764a8d0aca93c952a53f2",
+      "matchesCanonicalSource": true
+    }
+  ],
+  "httpAndHashesPassed": true,
+  "localBandConditions": 63,
+  "localFirstViewConditions": 158,
+  "localOfficeBodyConditions": 24,
+  "physicalDeviceAcceptanceIncluded": false,
+  "publicBandConditions": 63,
+  "commonHeightUpdatesPropagateToAllNinePages": true,
+  "localAndPublicDesignsMatch": true,
+  "pcAndMobileScreenshotsReviewed": [
+    1440,
+    414
+  ]
+}

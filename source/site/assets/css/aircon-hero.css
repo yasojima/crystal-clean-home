@@ -16,6 +16,9 @@
 .c-service-page .c-first-view {
   --first-view-height: calc(min(100svh, 800px) - var(--aircon-header-height) - 16px);
   --banner-height: 184px;
+  --banner-preferred-height: 315px;
+  --banner-min-height: 112px;
+  --first-view-selector-reserve: 304px;
   --first-view-selector-space: 24px;
   --selector-cards-height: none;
   container: first-view / inline-size;
@@ -130,6 +133,7 @@
   .c-service-page .c-house-cleaning-mv__check { font-size: 26px; }
 }
 @media (max-width: 767.98px) {
+  .c-service-page .c-first-view { --banner-preferred-height: 184px; --first-view-selector-reserve: 248px; }
   .c-service-page .c-house-cleaning-mv--check {
     --hero-circle: 124px;
     --hero-projection: 32px;

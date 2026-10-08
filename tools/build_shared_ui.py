@@ -8,6 +8,7 @@ import re
 from apply_cleaning_artwork import transform_references
 from home_section_backgrounds import apply_home_section_backgrounds
 from home_pickups import apply_home_pickups
+from service_banner import transform_service_banners
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -47,6 +48,7 @@ def shared_category_cards(html, featured):
 
 
 def transform(html, is_aircon=False):
+    html = transform_service_banners(html)
     html = transform_references(html)
     html = re.sub(r'/assets/js/demo-contact\.js(?:\?v=\d+)?', '/assets/js/demo-contact.js?v=2026100601', html)
     has_estimate = '/assets/js/cart-estimate.js' in html
@@ -85,16 +87,18 @@ def transform(html, is_aircon=False):
             marker = '<main' if name == 'header' else '</body>'
             html = html.replace(marker, fragment + newline + marker, 1)
     for rel in ('aircon-header.css', 'site-footer.css', 'aircon-header.js', 'site-cart.css',
-                'cart-catalogue.js', 'cart-core.js', 'site-cart.js'):
+                'cart-catalogue.js', 'cart-core.js', 'site-cart.js', 'service-first-view.js'):
         html = re.sub(r'\s*<(?:link|script)\b[^>]*(?:href|src)="/assets/(?:css|js)/' + re.escape(rel) + r'(?:\?v=\d+)?"[^>]*>(?:</script>)?', '', html)
     assets = (*ASSETS, '<script src="/assets/js/cart-estimate.js?v=2026100601" defer></script>') if has_estimate else ASSETS
+    if 'class="c-first-view' in html:
+        assets = (*assets, '<script src="/assets/js/service-first-view.js?v=2026100902" defer></script>')
     html = html.replace('</head>', newline.join(assets) + newline + '</head>', 1)
     html = re.sub(r'<script\b[^>]*src="/assets/js/(?:house-cleaning/(?:product-top|osoujiless)|simulation/parent-product|office/product-detail)\.js(?:\?[^\"]*)?"[^>]*>\s*</script>\s*', '', html)
     if '/assets/js/common.js' not in html:
         html = html.replace('</head>', '<script src="/assets/js/common.js?v=2026100602" defer></script>' + newline + '</head>', 1)
     else:
         html = re.sub(r'/assets/js/common\.js(?:\?v=\d+)?', '/assets/js/common.js?v=2026100602', html)
-    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100701', html)
+    html = re.sub(r'/assets/css/aircon-hero\.css(?:\?v=\d+)?', '/assets/css/aircon-hero.css?v=2026100902', html)
     html = re.sub(r'/assets/css/common\.css(?:\?[^"\s<>]*)?', '/assets/css/common.css?v=2026100707', html)
     html = re.sub(r'/assets/css/simulation/index\.css(?:\?v=\d+)?', '/assets/css/simulation/index.css?v=2026100704', html)
     html = re.sub(r'/assets/css/home-first-view\.css(?:\?v=\d+)?', '/assets/css/home-first-view.css?v=2026100705', html)
@@ -114,8 +118,6 @@ def transform(html, is_aircon=False):
     layout_version = '2026100707'
     html = re.sub(r'/assets/css/aircon-layout\.css\?v=\d+', f'/assets/css/aircon-layout.css?v={layout_version}', html)
     html = re.sub(r'/assets/css/service-format\.css(?:\?v=\d+)?', '/assets/css/service-format.css?v=2026100701', html)
-    if 'class="c-first-view' in html and '/assets/js/service-first-view.js' not in html:
-        html = html.replace('</head>', '<script src="/assets/js/service-first-view.js?v=2026100701" defer></script>' + newline + '</head>', 1)
     if not re.search(r'\bid="first-view"', html):
         marker = '<span class="c-site-page-top" id="first-view" aria-hidden="true"></span>'
         html = re.sub(r'(</header>)', lambda m: m.group() + newline + marker, html, count=1)

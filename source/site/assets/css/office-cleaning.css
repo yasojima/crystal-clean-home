@@ -1,8 +1,8 @@
 .office-wf { color:#243b46; background:#fff; font-family:var(--site-body-font); font-size:16px; padding-bottom:64px; }
 .office-wf *, .office-wf *::before, .office-wf *::after { box-sizing:border-box; }
-.office-wf figure, .office-wf p { margin:0; }
-.office-wf img { display:block; width:100%; height:auto; object-fit:cover; }
-.office-wf p { text-wrap:pretty; word-break:normal; line-break:strict; }
+.office-wf__container figure, .office-wf__container p { margin:0; }
+.office-wf__container img { display:block; width:100%; height:auto; object-fit:cover; }
+.office-wf__container p { text-wrap:pretty; word-break:normal; line-break:strict; }
 .office-wf__container { width:min(1240px,calc(100% - 80px)); margin-inline:auto; line-height:1.9; }
 body .office-wf h2, body .office-wf h3 { margin:0; color:inherit; font-family:var(--site-heading-font); font-weight:600; line-height:1.5; text-wrap:balance; }
 .office-wf__intro { padding-top:40px; }

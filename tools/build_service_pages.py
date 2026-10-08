@@ -8,6 +8,7 @@ import re
 from bs4 import BeautifulSoup
 from build_shared_ui import transform as shared_ui
 from home_section_backgrounds import apply_home_section_backgrounds
+from service_banner import render_service_banner
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
@@ -718,18 +719,10 @@ def render(route, page, catalogue, copy):
     primary = page['groups'][0]['products'][0]
     p = copy['products'][primary]
     main = tag('main', 'c-service-page', **{'data-service-layout':'shared-v2'})
-    hero = template('hero')
     banner = copy['banners'][route]
-    lines(hero.select_one('p'), banner['lines'])
-    for src in hero.select('source'): src.decompose()
-    image(hero.select_one('img'), banner['scene'], banner['alt'], True)
-    if 'position' in banner:
-        hero.select_one('img')['style'] = '--banner-image-position: ' + banner['position'] + ';'
-    hero['class'].append('c-house-cleaning-mv--check')
-    hero.insert(0, tag('h1', 'c-house-cleaning-mv__sr-heading', page['title']))
-    check = tag('span', 'c-house-cleaning-mv__check')
-    check.append(tag('span', 'c-house-cleaning-mv__check-label', 'Check！'))
-    hero.append(check)
+    hero = parse(render_service_banner(page['title'], banner['lines'],
+                                      f'/assets/images/service-scenes/{banner["scene"]}.webp',
+                                      banner['alt'], banner.get('position'))).find()
     nav = navigation(page,primary,page['category'],copy)
     first_classes = 'c-first-view' + (' c-first-view--expanded' if route != 'aircon' else '')
     first_view = tag('div', first_classes, id='first-view', **{'data-floating-visibility-trigger': ''})

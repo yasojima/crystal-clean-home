@@ -33,7 +33,7 @@ const labels=['フロア','カーペット','ガラス・サッシ','業務用�
         const container=box(document.querySelector('.office-wf__container'));
         const cards=[...document.querySelectorAll('.office-wf__service')].map(e=>({copy:box(e.querySelector('.office-wf__service-copy')),photo:box(e.querySelector('img')),panel:box(e.querySelector('.office-wf__service-panel'))}));
         const textOverflow=[];
-        for(const e of document.querySelectorAll('.office-wf p,.office-wf h1,.office-wf h2,.office-wf h3,.office-wf figcaption')){
+        for(const e of document.querySelectorAll('.office-wf p,.office-wf h1:not(.c-house-cleaning-mv__sr-heading),.office-wf h2,.office-wf h3,.office-wf figcaption')){
           const bounds=box(e),range=document.createRange();range.selectNodeContents(e);
           for(const rect of range.getClientRects())if(rect.left<bounds.x-1||rect.right>bounds.right+1||rect.bottom>bounds.bottom+1)textOverflow.push(e.textContent);
         }
@@ -69,7 +69,7 @@ const labels=['フロア','カーペット','ガラス・サッシ','業務用�
     await page.goto(origin+'/',{waitUntil:'load'});
     assert.equal(await page.locator('a.home-business-guide').getAttribute('href'),'/business/cleaning/');
     await page.locator('a.home-business-guide').click();await page.waitForURL('**/business/cleaning/');
-    assert(await page.locator('.office-wf h1').isVisible());
+    assert(await page.locator('.office-wf .c-house-cleaning-mv__text').isVisible());
     assert.deepEqual(errors,[]);
     fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({origin,conditions:records.length,records,errors,homeLink:true,serviceTitles:titles,galleryLabels:labels,passed:true},null,2));
     console.log(JSON.stringify({conditions:records.length,passed:true,errors}));

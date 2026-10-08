@@ -1,0 +1,1639 @@
+{
+  "origin": "https://yasojima.github.io",
+  "conditions": 63,
+  "records": [
+    {
+      "route": "/business/cleaning/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 455,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 264.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 455,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 240px 240px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 197.906px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 232,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 510.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 510.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 230.4px 230.4px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 280,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 184.32px 184.32px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 20px / 30px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "30px"
+      },
+      "clipped": false,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 387,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 729.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 729.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 40px), 138.24px 138.24px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 40px 104.578px",
+        "font": "700 29px / 40.6px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "40.6px"
+      },
+      "clipped": false,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 280,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 565.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 565.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 18px / 25.2px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "25.2px"
+      },
+      "clipped": false,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 304,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 549.375,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 549.375,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 124px 124px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 32px",
+        "font": "700 16px / 22.4px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22.4px"
+      },
+      "clipped": false,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    }
+  ],
+  "propagation": [
+    {
+      "route": "/business/cleaning/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
