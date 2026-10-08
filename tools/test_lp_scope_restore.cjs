@@ -6,13 +6,13 @@ const {chromium} = require('C:/Users/yasoj/.cache/codex-runtimes/codex-primary-r
 const root = path.resolve(__dirname, '..');
 const origin = process.argv[2] || 'http://127.0.0.1:8773';
 const publicMode = origin.startsWith('https:');
-const out = path.join(root, 'evidence/2026-10-09/lp-background-width', publicMode ? 'public' : 'local');
-const original = execFileSync('git', ['show', 'ebf379f:source/site/assets/css/beginner-lp.css'], {cwd:root});
-const sizes = [[1920,1080],[1442,804],[1440,800],[1280,551],[1280,900],[1024,600],[993,800],[992,700],[768,800],[767,800],[600,800],[414,688],[390,844],[375,667],[320,568]];
+const out = path.join(root, 'evidence/2026-10-09/lp-seamless-opening', publicMode ? 'public' : 'local');
+const original = execFileSync('git', ['show', 'aacd586:source/site/assets/css/beginner-lp.css'], {cwd:root});
+const sizes = [[1920,1080],[1442,1646],[1442,804],[1440,800],[1280,551],[1280,900],[1024,600],[993,800],[992,700],[768,800],[767,800],[600,800],[414,688],[390,844],[375,667],[320,568]];
 async function settle(page) {
   await page.evaluate(async () => {
     await document.fonts.ready;
-    await Promise.all([...document.querySelectorAll('#cch-first-lp picture img')].map(img => {
+    await Promise.all([...document.querySelectorAll('#cch-first-lp img')].map(img => {
       img.loading = 'eager';
       return img.decode().catch(() => {});
     }));
@@ -37,6 +37,14 @@ async function metrics(page) {
       width:innerWidth, height:innerHeight, root:rect(root), canvas:rect(canvas), ctAs, nodes,
       background:{image:s.backgroundImage, color:s.backgroundColor, size:s.backgroundSize},
       openingMask:getComputedStyle(root.querySelector('h1 > img')).maskImage,
+      originalOpacity:getComputedStyle(root.querySelector('h1 > img')).opacity,
+      openingPlate:(() => {
+        const opening=root.querySelector('.lp-opening-portrait');
+        const pseudo=getComputedStyle(opening,'::before');
+        const or=opening.getBoundingClientRect(), cr=root.querySelector('#first-cases').getBoundingClientRect();
+        const plateWidth=parseFloat(pseudo.backgroundSize), plateHeight=plateWidth*1544/1019;
+        return {image:pseudo.backgroundImage,width:parseFloat(pseudo.width),plateWidth,plateHeight,compareTop:(cr.top-or.top)/plateHeight,compareBottom:(cr.bottom-or.top)/plateHeight};
+      })(),
       overflow:document.documentElement.scrollWidth - document.documentElement.clientWidth
     };
   });
@@ -54,14 +62,14 @@ async function metrics(page) {
   const records = [];
   const mobilePreservation = [];
   try {
-    await page.goto(origin + '/beginner/?lp_width=2026100905', {waitUntil:'load'});
+    await page.goto(origin + '/beginner/?lp_width=2026100906', {waitUntil:'load'});
     await page.evaluate(async () => {
       for (const img of document.querySelectorAll('#cch-first-lp img')) {
         img.loading = 'eager';
         await img.decode().catch(() => {});
       }
       const bg = new Image();
-      bg.src = '/assets/images/first-lp/art/background-expanded.png';
+      bg.src = '/assets/images/first-lp/art/opening-wide.png';
       await bg.decode();
     });
     for (const [width,height] of [...sizes, ...[...sizes].reverse()]) {
@@ -80,13 +88,18 @@ async function metrics(page) {
         assert(cta.x >= current.canvas.x - 1 && cta.x + cta.width <= current.canvas.x + current.canvas.width + 1, width + ': CTA within content');
       }
       if (pc) {
-        assert(current.background.image.includes('background-expanded.png'));
-        assert(current.openingMask.includes('linear-gradient'));
-        const backdropHeight = Number.parseFloat(current.background.size.split(' ')[1]);
-        assert(backdropHeight * 1.5 >= current.root.width, width + ': backdrop covers full width');
+        assert.equal(current.background.image, 'none');
+        assert.equal(current.openingMask, 'none');
+        assert.equal(current.originalOpacity, '0');
+        assert(current.openingPlate.image.includes('opening-wide.png'));
+        assert(current.openingPlate.width >= current.root.width);
+        assert(current.openingPlate.plateWidth >= current.root.width, width + ': single artwork covers full width');
+        assert(current.openingPlate.compareTop >= .505 && current.openingPlate.compareBottom <= .739, width + ': comparison must fit between headline and offer');
       } else {
         assert.equal(current.background.image, 'none');
         assert.equal(current.openingMask, 'none');
+        assert.equal(current.originalOpacity, '1');
+        assert.equal(current.openingPlate.image, 'none');
       }
       delete current.nodes;
       records.push(current);
@@ -142,22 +155,33 @@ async function metrics(page) {
       interactions.push({width,height,tabs:true,comparisonKeyboard:true,faq:true,estimateNavigation:true});
     }
     for (const [width,height,anchor,label] of [
+      [1442,1646,'#first-introduction','opening-tall'],
       [1442,804,'#first-introduction','opening-1442'],
       [1280,551,'#first-introduction','opening-1280'],
       [414,688,'#first-introduction','opening-mobile'],
       [1442,804,'#first-cases','comparison-1442'],
+      [768,800,'#first-introduction','opening-768'],
+      [1442,1646,'@offer','offer-tall'],
+      [768,800,'@offer','offer-768'],
       [768,800,'#first-services','services-768'],
       [414,688,'#first-faq','faq-mobile']
     ]) {
       await page.setViewportSize({width,height});
       await page.goto(origin + '/beginner/', {waitUntil:'load'});
-      await page.locator(anchor).evaluate(e => scrollTo({top:e.getBoundingClientRect().top + scrollY - document.querySelector('header').offsetHeight, behavior:'instant'}));
+      if (anchor === '@offer') {
+        await page.locator('.lp-opening-portrait').evaluate(e => {
+          const plateHeight = parseFloat(getComputedStyle(e, '::before').backgroundSize) * 1544 / 1019;
+          scrollTo({top:e.getBoundingClientRect().top + scrollY + plateHeight * .715 - document.querySelector('header').offsetHeight, behavior:'instant'});
+        });
+      } else {
+        await page.locator(anchor).evaluate(e => scrollTo({top:e.getBoundingClientRect().top + scrollY - document.querySelector('header').offsetHeight, behavior:'instant'}));
+      }
       await settle(page);
       await page.screenshot({path:path.join(out, label + '.png')});
     }
     assert.equal(errors.length, 0, JSON.stringify(errors));
     assert.equal(failedResponses.length, 0, JSON.stringify(failedResponses));
-    const report = {origin, baseline:'ebf379f', conditions:records.length, records, mobilePreservation, interactions, errors, failedResponses, passed:true};
+    const report = {origin, baseline:'aacd586', conditions:records.length, records, mobilePreservation, interactions, errors, failedResponses, passed:true};
     fs.writeFileSync(path.join(out,'report.json'), JSON.stringify(report,null,2) + '\n');
     console.log(JSON.stringify({origin,conditions:records.length,mobilePreservation:mobilePreservation.length,interactions:interactions.length,passed:true}));
   } finally { await browser.close(); }

@@ -108,7 +108,7 @@ def transform(html, is_aircon=False):
         for asset, kind in [('home-concerns.css', 'css'), ('home-concerns.js', 'js')]:
             html = re.sub(r'/assets/' + kind + '/' + re.escape(asset) + r'(?:\?v=\d+)?',
                           '/assets/' + kind + '/' + asset + ('?v=2026100706' if kind == 'css' else '?v=2026100608'), html)
-    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100905', html)
+    html = re.sub(r'/assets/css/beginner-lp\.css(?:\?v=\d+)?', '/assets/css/beginner-lp.css?v=2026100906', html)
     for stylesheet, version in (('first-lp-desktop.css', '2026100601'), ('first-lp-mobile.css', '2026100703')):
         html = re.sub(r'/assets/css/' + re.escape(stylesheet) + r'(?:\?v=\d+)?',
                       '/assets/css/' + stylesheet + '?v=' + version, html)
@@ -175,7 +175,7 @@ def main():
     manifest_changes = sync_manifest([*pages, SITE/'assets/css/common.css', SITE/'assets/css/simulation/index.css', SITE/'assets/css/aircon-header.css', SITE/'assets/css/aircon-hero.css', SITE/'assets/css/service-format.css', SITE/'assets/js/service-first-view.js', SITE/'assets/css/aircon-layout.css', SITE/'assets/css/site-footer.css', SITE/'assets/js/aircon-header.js', SITE/'assets/css/home-first-view.css', SITE/'assets/css/home-concerns.css', SITE/'assets/js/home-concerns.js', SITE/'assets/css/beginner-lp.css', SITE/'assets/js/home-first-view.js', SITE/'assets/js/common.js', SITE/'assets/css/site-cart.css', SITE/'assets/js/cart-catalogue.js', SITE/'assets/js/cart-core.js', SITE/'assets/js/site-cart.js', SITE/'assets/images/common-parts/icon/share.svg', SITE/'assets/images/home/first-guide-banner.png', SITE/'assets/images/home/business-guide-banner.png', SITE/'assets/images/home/first-guide-banner-mobile.png', SITE/'assets/images/home/business-guide-banner-mobile.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/js/cart-estimate.js', SITE/'assets/js/demo-contact.js', SITE/'assets/js/lp-render-check.js'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/first-lp-desktop.css', SITE/'assets/css/first-lp-mobile.css'], args.check)
-    manifest_changes += sync_manifest([SITE/'assets/images/first-lp/art/background-expanded.png'], args.check)
+    manifest_changes += sync_manifest([SITE/'assets/images/first-lp/art/opening-wide.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/home-pickups.css'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/images/home/aircon-bundle-banner.png'], args.check)
     manifest_changes += sync_manifest([SITE/'assets/css/office-cleaning.css', *sorted((SITE/'assets/images/office-cleaning').glob('*.png'))], args.check)

@@ -1,0 +1,2444 @@
+{
+  "origin": "http://127.0.0.1:8773",
+  "baseline": "aacd586",
+  "conditions": 32,
+  "records": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "root": {
+        "x": 0,
+        "width": 1905,
+        "height": 24356.40625
+      },
+      "canvas": {
+        "x": 392.5,
+        "width": 1120,
+        "height": 24356.40625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 712.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 712.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 1040.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1920,
+        "plateWidth": 1920,
+        "plateHeight": 2909.205103042198,
+        "compareTop": 0.5149978505926841,
+        "compareBottom": 0.6991976512322566
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1442,
+      "height": 1646,
+      "root": {
+        "x": 0,
+        "width": 1427,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 153.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 473.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 473.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 801.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1442,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1442,
+      "height": 804,
+      "root": {
+        "x": 0,
+        "width": 1427,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 153.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 473.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 473.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 801.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1442,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 1425,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 152.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 472.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 472.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 800.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1440,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1280,
+      "height": 551,
+      "root": {
+        "x": 0,
+        "width": 1265,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 72.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 392.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 392.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 720.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1280,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "root": {
+        "x": 0,
+        "width": 1265,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 72.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 392.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 392.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 720.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1280,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "root": {
+        "x": 0,
+        "width": 1009,
+        "height": 21666.328125
+      },
+      "canvas": {
+        "x": 24,
+        "width": 961,
+        "height": 21666.328125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 264.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 264.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 551.953125,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1024,
+        "plateWidth": 1441.5,
+        "plateHeight": 2184.1766437684005,
+        "compareTop": 0.5149966937011496,
+        "compareBottom": 0.7296656864026929
+      },
+      "overflow": -15
+    },
+    {
+      "width": 993,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 978,
+        "height": 21230.390625
+      },
+      "canvas": {
+        "x": 24,
+        "width": 930,
+        "height": 21230.390625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 248.984375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 249,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 528.46875,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 993,
+        "plateWidth": 1395,
+        "plateHeight": 2113.719332679097,
+        "compareTop": 0.5149986013612643,
+        "compareBottom": 0.7302663608812934
+      },
+      "overflow": -15
+    },
+    {
+      "width": 992,
+      "height": 700,
+      "root": {
+        "x": 0,
+        "width": 977,
+        "height": 21625.53125
+      },
+      "canvas": {
+        "x": 24,
+        "width": 929,
+        "height": 21625.53125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 346.578125,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 527.71875,
+          "width": 400,
+          "height": 64,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 992,
+        "plateWidth": 1393.5,
+        "plateHeight": 2111.4465161923454,
+        "compareTop": 0.5149979488757945,
+        "compareBottom": 0.7302902243437797
+      },
+      "overflow": -15
+    },
+    {
+      "width": 768,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 753,
+        "height": 17878.921875
+      },
+      "canvas": {
+        "x": 24,
+        "width": 705,
+        "height": 17878.921875
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 136.484375,
+          "width": 480,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 227.59375,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 404.6875,
+          "width": 306.6875,
+          "height": 58,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 768,
+        "plateWidth": 1057.5,
+        "plateHeight": 1602.3356231599607,
+        "compareTop": 0.5149904227758791,
+        "compareBottom": 0.7381314862535063
+      },
+      "overflow": -15
+    },
+    {
+      "width": 767,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 752,
+        "height": 19170.3125
+      },
+      "canvas": {
+        "x": 0,
+        "width": 752,
+        "height": 19170.3125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 585,
+        "height": 18476.40625
+      },
+      "canvas": {
+        "x": 0,
+        "width": 585,
+        "height": 18476.40625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "root": {
+        "x": 0,
+        "width": 399,
+        "height": 15255.875
+      },
+      "canvas": {
+        "x": 0,
+        "width": 399,
+        "height": 15255.875
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "root": {
+        "x": 0,
+        "width": 375,
+        "height": 14835.703125
+      },
+      "canvas": {
+        "x": 0,
+        "width": 375,
+        "height": 14835.703125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "root": {
+        "x": 0,
+        "width": 360,
+        "height": 14577.4375
+      },
+      "canvas": {
+        "x": 0,
+        "width": 360,
+        "height": 14577.4375
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "root": {
+        "x": 0,
+        "width": 305,
+        "height": 13988.5
+      },
+      "canvas": {
+        "x": 0,
+        "width": 305,
+        "height": 13988.5
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "root": {
+        "x": 0,
+        "width": 305,
+        "height": 13988.5
+      },
+      "canvas": {
+        "x": 0,
+        "width": 305,
+        "height": 13988.5
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 20.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "root": {
+        "x": 0,
+        "width": 360,
+        "height": 14577.4375
+      },
+      "canvas": {
+        "x": 0,
+        "width": 360,
+        "height": 14577.4375
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 48,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "root": {
+        "x": 0,
+        "width": 375,
+        "height": 14835.703125
+      },
+      "canvas": {
+        "x": 0,
+        "width": 375,
+        "height": 14835.703125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 55.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "root": {
+        "x": 0,
+        "width": 399,
+        "height": 15255.875
+      },
+      "canvas": {
+        "x": 0,
+        "width": 399,
+        "height": 15255.875
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 67.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 585,
+        "height": 18476.40625
+      },
+      "canvas": {
+        "x": 0,
+        "width": 585,
+        "height": 18476.40625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 160.5,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 767,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 752,
+        "height": 19170.3125
+      },
+      "canvas": {
+        "x": 0,
+        "width": 752,
+        "height": 19170.3125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 244,
+          "width": 264,
+          "height": 66,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgba(0, 0, 0, 0)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "1",
+      "openingPlate": {
+        "image": "none",
+        "width": null,
+        "plateWidth": null,
+        "plateHeight": null,
+        "compareTop": null,
+        "compareBottom": null
+      },
+      "overflow": -15
+    },
+    {
+      "width": 768,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 753,
+        "height": 17878.921875
+      },
+      "canvas": {
+        "x": 24,
+        "width": 705,
+        "height": 17878.921875
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 136.484375,
+          "width": 480,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 227.59375,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 153.15625,
+          "width": 446.6875,
+          "height": 63,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 404.6875,
+          "width": 306.6875,
+          "height": 58,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 768,
+        "plateWidth": 1057.5,
+        "plateHeight": 1602.3356231599607,
+        "compareTop": 0.5149904227758791,
+        "compareBottom": 0.7381314862535063
+      },
+      "overflow": -15
+    },
+    {
+      "width": 992,
+      "height": 700,
+      "root": {
+        "x": 0,
+        "width": 977,
+        "height": 21625.53125
+      },
+      "canvas": {
+        "x": 24,
+        "width": 929,
+        "height": 21625.53125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 346.578125,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 248.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 527.71875,
+          "width": 400,
+          "height": 64,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 992,
+        "plateWidth": 1393.5,
+        "plateHeight": 2111.4465161923454,
+        "compareTop": 0.5149979488757945,
+        "compareBottom": 0.7302902243437797
+      },
+      "overflow": -15
+    },
+    {
+      "width": 993,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 978,
+        "height": 21230.390625
+      },
+      "canvas": {
+        "x": 24,
+        "width": 930,
+        "height": 21230.390625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 248.984375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 249,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 448.078125,
+          "width": 417.390625,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 528.46875,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 993,
+        "plateWidth": 1395,
+        "plateHeight": 2113.719332679097,
+        "compareTop": 0.5149986013612643,
+        "compareBottom": 0.7302663608812934
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1024,
+      "height": 600,
+      "root": {
+        "x": 0,
+        "width": 1009,
+        "height": 21666.328125
+      },
+      "canvas": {
+        "x": 24,
+        "width": 961,
+        "height": 21666.328125
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 264.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 264.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 462.203125,
+          "width": 431.328125,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 551.953125,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1024,
+        "plateWidth": 1441.5,
+        "plateHeight": 2184.1766437684005,
+        "compareTop": 0.5149966937011496,
+        "compareBottom": 0.7296656864026929
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "root": {
+        "x": 0,
+        "width": 1265,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 72.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 392.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 392.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 720.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1280,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1280,
+      "height": 551,
+      "root": {
+        "x": 0,
+        "width": 1265,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 72.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 392.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 392.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 594.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 720.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1280,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1440,
+      "height": 800,
+      "root": {
+        "x": 0,
+        "width": 1425,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 152.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 472.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 472.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 674.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 800.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1440,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1442,
+      "height": 804,
+      "root": {
+        "x": 0,
+        "width": 1427,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 153.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 473.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 473.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 801.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1442,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1442,
+      "height": 1646,
+      "root": {
+        "x": 0,
+        "width": 1427,
+        "height": 24015.65625
+      },
+      "canvas": {
+        "x": 153.5,
+        "width": 1120,
+        "height": 24015.65625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 473.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 473.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 675.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 801.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1442,
+        "plateWidth": 1680,
+        "plateHeight": 2545.5544651619234,
+        "compareTop": 0.5149970833236954,
+        "compareBottom": 0.7255111411974926
+      },
+      "overflow": -15
+    },
+    {
+      "width": 1920,
+      "height": 1080,
+      "root": {
+        "x": 0,
+        "width": 1905,
+        "height": 24356.40625
+      },
+      "canvas": {
+        "x": 392.5,
+        "width": 1120,
+        "height": 24356.40625
+      },
+      "ctAs": [
+        {
+          "href": "/quick_cart/",
+          "x": 712.484375,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 712.5,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 914.546875,
+          "width": 480,
+          "height": 88,
+          "clipped": false
+        },
+        {
+          "href": "/quick_cart/",
+          "x": 1040.890625,
+          "width": 400,
+          "height": 76,
+          "clipped": false
+        }
+      ],
+      "background": {
+        "image": "none",
+        "color": "rgb(247, 251, 252)",
+        "size": "auto"
+      },
+      "openingMask": "none",
+      "originalOpacity": "0",
+      "openingPlate": {
+        "image": "url(\"http://127.0.0.1:8773/assets/images/first-lp/art/opening-wide.png\")",
+        "width": 1920,
+        "plateWidth": 1920,
+        "plateHeight": 2909.205103042198,
+        "compareTop": 0.5149978505926841,
+        "compareBottom": 0.6991976512322566
+      },
+      "overflow": -15
+    }
+  ],
+  "mobilePreservation": [
+    {
+      "width": 767,
+      "height": 800,
+      "unchanged": true
+    },
+    {
+      "width": 600,
+      "height": 800,
+      "unchanged": true
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "unchanged": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "unchanged": true
+    },
+    {
+      "width": 375,
+      "height": 667,
+      "unchanged": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "unchanged": true
+    }
+  ],
+  "interactions": [
+    {
+      "width": 1442,
+      "height": 804,
+      "tabs": true,
+      "comparisonKeyboard": true,
+      "faq": true,
+      "estimateNavigation": true
+    },
+    {
+      "width": 768,
+      "height": 800,
+      "tabs": true,
+      "comparisonKeyboard": true,
+      "faq": true,
+      "estimateNavigation": true
+    },
+    {
+      "width": 414,
+      "height": 688,
+      "tabs": true,
+      "comparisonKeyboard": true,
+      "faq": true,
+      "estimateNavigation": true
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "tabs": true,
+      "comparisonKeyboard": true,
+      "faq": true,
+      "estimateNavigation": true
+    }
+  ],
+  "errors": [],
+  "failedResponses": [],
+  "passed": true
+}

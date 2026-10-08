@@ -1,0 +1,52 @@
+{
+  "change": "CHG-2026-10-09-006",
+  "canonicalBuild": {
+    "sharedPages": 61,
+    "regenerationDifferences": 0,
+    "manifestDifferences": 0,
+    "cartItems": 395,
+    "cartSelections": 460
+  },
+  "sharedShellVerified": true,
+  "siteIdentity": {
+    "pages": 61,
+    "issues": 0
+  },
+  "lpCategoryConsumers": [
+    "beginner",
+    "quick_cart"
+  ],
+  "estimateCTAs": 6,
+  "preservation": "preservation.json",
+  "browserLocal": "local/report.json",
+  "publication": "publication.json",
+  "visualInspection": {
+    "performedBy": "Codex",
+    "humanAcceptance": false,
+    "localScreens": [
+      "opening-tall.png",
+      "opening-1442.png",
+      "opening-768.png",
+      "opening-mobile.png",
+      "comparison-1442.png",
+      "offer-tall.png",
+      "offer-768.png"
+    ],
+    "observations": [
+      "No separate rectangular overlay or backdrop seam in opening",
+      "Room perspective, floor and water ribbon are continuous",
+      "Japanese headings and 13,200 yen tax-per-unit offer checked",
+      "Comparison and estimate controls fit outside artwork text"
+    ],
+    "publicScreens": [
+      "opening-tall.png",
+      "comparison-1442.png",
+      "offer-tall.png",
+      "opening-mobile.png"
+    ]
+  },
+  "cleanup": "cleanup.json",
+  "browserPublic": "public/report.json",
+  "localPublicMatch": "local-public-match.json",
+  "passed": true
+}

@@ -68,8 +68,8 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
   body.c-beginner-lp #cch-first-lp {
     --lp-content-max: 1120px;
     --lp-content-gutter: 24px;
-    --lp-background-height: calc(min(var(--lp-content-max), calc(100vw - var(--lp-content-gutter) * 2)) * 1.6);
-    background: #f7fbfc url('/assets/images/first-lp/art/background-expanded.png') center top / auto var(--lp-background-height) no-repeat;
+    background: #f7fbfc;
+    overflow-x: clip;
   }
   body.c-beginner-lp #cch-first-lp .lp-canvas {
     width: min(calc(100% - var(--lp-content-gutter) * 2), var(--lp-content-max));
@@ -77,9 +77,36 @@ body.c-beginner-lp #cch-first-lp .lp-services .c-category-simple-card__bottom {
     container-type: inline-size;
     container-name: lp-content;
     background: transparent;
+    overflow: visible;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait {
+    --lp-opening-plate-width: max(150cqw, 100vw);
+    --lp-opening-plate-height: calc(var(--lp-opening-plate-width) * 1544 / 1019);
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 100vw;
+    height: 100%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    background: url('/assets/images/first-lp/art/opening-wide.png') center top / var(--lp-opening-plate-width) auto no-repeat;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait h1 {
+    height: calc(var(--lp-opening-plate-height) * .937 + var(--lp-opening-button-height) / 2 + 32px);
   }
   body.c-beginner-lp #cch-first-lp .lp-opening-portrait h1 > img {
-    mask-image: linear-gradient(to right, transparent, #000 12px, #000 calc(100% - 12px), transparent);
+    opacity: 0;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-cases-section {
+    top: calc(var(--lp-opening-plate-height) * .515);
+    left: 16%;
+    width: 68%;
+  }
+  body.c-beginner-lp #cch-first-lp .lp-opening-portrait .lp-opening-actions {
+    top: calc(var(--lp-opening-plate-height) * .937);
   }
 }
 
