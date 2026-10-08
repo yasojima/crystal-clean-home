@@ -32,7 +32,6 @@ body .office-wf .office-wf__mosaic-heading { font-size:3.53cqw; font-weight:500;
 .office-wf__mosaic-body-welcome span:first-child { left:4.133%; top:8.5cqw; }
 .office-wf__mosaic-body-welcome span:last-child { left:0; top:20.5cqw; font-size:2.081cqw; line-height:1.77; }
 .office-wf__carpet { position:absolute; z-index:1; left:46.064%; top:1.983cqw; width:41.415%; height:27.785cqw; }
-.office-wf__carpet::before { content:""; position:absolute; z-index:-1; left:3.322cqw; top:-1.983cqw; width:40.998cqw; height:30.961cqw; background:#edf2f3; }
 .office-wf__carpet img, .office-wf__basin img { height:100%; }
 .office-wf__mosaic-label-title { font-family:var(--site-heading-font); font-size:4.42cqw; font-weight:600; line-height:1.46; }
 .office-wf__mosaic-label-title span { z-index:3; left:91.919%; }
@@ -96,7 +95,6 @@ body .office-wf .office-wf__contact h2 { font-size:29px; line-height:1.6; }
  .office-wf__mosaic-body-intro, .office-wf__mosaic-body span { position:static; writing-mode:horizontal-tb; white-space:normal; text-wrap:pretty; }
  .office-wf__mosaic-body-welcome span:last-child { font-size:inherit; line-height:inherit; }
  .office-wf__carpet { position:absolute; left:32%; top:20px; width:54.4%; height:36.498cqw; }
- .office-wf__carpet::before { left:12%; top:-20px; width:100%; height:calc(100% + 32px); }
  .office-wf__basin { position:absolute; left:32%; top:calc(32px + 36.498cqw); width:68%; height:33.645cqw; }
  .office-wf__mosaic-mat { width:13.6%; height:calc(32px + 36.498cqw); }
  .office-wf__mosaic-label-title { font-size:clamp(15px,3.5vw,22px); line-height:1.4; }
