@@ -26,3 +26,7 @@ python prototypes/home-wireframe/serve.py --port 8773
 CHG-2026-10-07-020で黄色×青のA案を本編へ採用しました。このHOME比較は本編から生成し、同じ１素材を参照します。画像全体はリンクにせず、料金・サービスを見るCTAだけを操作できるようにしています。
 
 今回のaircon-banner３案比較と旧検証画像・生成時の複製は、デスクトップの削除用フォルダーへ退避済みです。本編素材と生成情報の所有元はsource/site/assets/images/home/aircon-bundle-banner.png、source/home-pickup-banner、tools/home_pickups.pyです。統合後の確認記録はevidence/2026-10-07/aircon-banner-integration。このHOME比較と未採用のお知らせ３案は維持します。
+
+## 法人ページの本編統合
+
+CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編の法人ページ](http://127.0.0.1:8773/business/cleaning/)を使用します。法人のbusiness・business-copy比較フォルダーは既存の削除用へ移動済みです。生成正本はtools/build_office_cleaning.py、原稿と構造はsource/office-cleaning、表示はsource/site/assets/css/office-cleaning.cssです。このHOME比較とお知らせの3案は保持します。

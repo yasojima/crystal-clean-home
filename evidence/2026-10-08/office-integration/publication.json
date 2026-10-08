@@ -1,0 +1,36 @@
+{
+  "pages_commit": "68af91373d157b42b52425067a7aceee428daa36",
+  "actions_run": 37714668878,
+  "actions_status": "success",
+  "verified_at": "2026-10-08T01:50:50.505301+00:00",
+  "files": [
+    {
+      "path": "business/cleaning/index.html",
+      "status": 200,
+      "sha256": "168a099eca4bec1c0b512a523bcbdf0e23da49402f7941dd5b18a1d49b2fe9da",
+      "matches_source": true
+    },
+    {
+      "path": "assets/css/office-cleaning.css",
+      "status": 200,
+      "sha256": "896cea2584e5c2325511d4c58731fb6986fe09795911823697f5df9daca734de",
+      "matches_source": true
+    },
+    {
+      "path": "assets/images/office-cleaning/aircon.png",
+      "status": 404,
+      "removed_as_expected": true
+    },
+    {
+      "path": "assets/images/office-cleaning/sanitizing.png",
+      "status": 404,
+      "removed_as_expected": true
+    },
+    {
+      "path": "assets/images/office-cleaning/shower.png",
+      "status": 404,
+      "removed_as_expected": true
+    }
+  ],
+  "passed": true
+}

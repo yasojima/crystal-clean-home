@@ -1,5 +1,6 @@
-"""Generate the corporate cleaning page from its single content source."""
+"""Generate the corporate page from its canonical content and layout."""
 from pathlib import Path
+from string import Template
 import json
 import re
 from html import escape
@@ -8,27 +9,45 @@ from apply_site_identity import transform as apply_identity
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'source/site'
-DATA = ROOT / 'source/office-cleaning/content.json'
+CONTENT = ROOT / 'source/office-cleaning'
+
+
+def photo(key, label):
+    return f'<img src="/assets/images/office-cleaning/{key}.png" alt="{escape(label)}" width="1536" height="1024" loading="lazy" decoding="async">'
 
 def render():
-    data = json.loads(DATA.read_text(encoding='utf-8'))
+    data = json.loads((CONTENT / 'content.json').read_text(encoding='utf-8'))
+    values = {key: escape(value) for key, value in data.items() if isinstance(value, str)}
+    for key in ('mosaic_heading', 'mosaic_care', 'mosaic_welcome', 'mosaic_label'):
+        values[key] = ''.join(f'<span>{escape(value)}</span>' for value in data[key])
+    values['hero'] = escape(data['hero'][0]) + f'<span>{escape(data["hero"][1])}</span>'
+    values['points'] = ''.join(
+        f'<div class="c-reasons__item"><article class="c-reason-card c-reasons__card">'
+        f'<img class="c-reasons__point" src="/assets/images/reasons/reference-point-{i:02}.webp" alt="POINT {i:02}" width="205" height="70" loading="lazy" decoding="async">'
+        f'<h3 class="c-reason-card__heading">{escape(point["title"])}</h3>'
+        f'<p class="c-reason-card__description">{escape(point["text"])}</p></article>'
+        '<div class="c-reasons__navy" aria-hidden="true"></div></div>'
+        for i, point in enumerate(data['points'], 1)
+    )
+    values['gallery'] = ''.join(
+        f'<figure class="office-wf__gallery-photo office-wf__gallery-photo--{key}">'
+        f'{photo(key, label)}<figcaption>{escape(label)}</figcaption></figure>'
+        for key, label in data['gallery']
+    )
+    values['inquiry'] = (
+        '<a class="office-wf__inquiry-link c-category-simple-card" href="#" data-demo-dialog>'
+        '<span class="office-wf__inquiry-surface c-category-simple-card__bottom">'
+        f'<span class="office-wf__inquiry-text c-category-simple-card__text">{escape(data["contact_label"])}</span></span></a>'
+    )
+    main = Template((CONTENT / 'page.html').read_text(encoding='utf-8')).substitute(values)
     head = (SITE / 'index.html').read_text(encoding='utf-8').split('<body')[0]
     head = re.sub(r'\s*<(?:link|script)[^>]*(?:href|src)="/assets/(?:css|js)/home-[^"]+"[^>]*>(?:</script>)?', '', head)
-    head = re.sub(r'(<meta\b[^>]*\b(?:name|property)="(?:description|og:description)"[^>]*\bcontent=")[^"]*', r'\g<1>店舗・オフィスのエアコン、床、除菌・抗菌、引き渡し清掃をご案内します。', head)
+    head = re.sub(r'(<meta\b[^>]*\b(?:name|property)="(?:description|og:description)"[^>]*\bcontent=")[^"]*', r'\g<1>店舗・オフィスの快適な環境づくりを、日々のお掃除から定期清掃・衛生管理・引き渡しまでサポートします。', head)
     head = re.sub(r'https://yasojima.github.io/(?=["<])', 'https://yasojima.github.io/business/cleaning/', head)
     head = re.sub(r'\s*<link[^>]*href="/assets/css/office-cleaning\.css[^>]*>', '', head)
-    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100801">\n</head>')
-    photo = lambda key, label: f'<img src="/assets/images/office-cleaning/{key}.png" alt="{escape(label)}" width="1536" height="1024" loading="lazy" decoding="async">'
-    intro = f'<p>{escape(data["intro"])}</p>'
-    features = ''.join(f'<article class="office-cleaning__feature"><div class="office-cleaning__text"><h3>{escape(f["title"])}</h3><p>{escape(f["text"])}</p></div><figure>{photo(f["image"], f["title"])}</figure></article>' for f in data['features'])
-    gallery = ''.join(f'<li><figure>{photo(key, label)}<figcaption>{escape(label)}</figcaption></figure></li>' for key, label in data['gallery'])
-    html = f'''{head}<body class="c-office-cleaning"><main class="office-cleaning">
-<h1>{escape(data['title'])}</h1><div class="office-cleaning__intro">{intro}</div>
-<section aria-labelledby="office-cleaning-heading"><h2 id="office-cleaning-heading">{escape(data['heading'])}</h2>{features}
-<div class="office-cleaning__range"><h3>幅広い清掃対応</h3><ul>{gallery}</ul></div>
-<div class="office-cleaning__closing"><p>{escape(data['closing'])}</p></div></section>
-</main></body></html>'''
-    return apply_identity(transform(html), True)
+    head = re.sub(r'(<meta\b[^>]*property="og:url"[^>]*content=")[^"]*', r'\g<1>https://yasojima.github.io/business/cleaning/', head)
+    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100817">\n</head>')
+    return apply_identity(transform(f'{head}<body class="c-office-cleaning office-wf-page">{main}</body></html>'), True)
 
 if __name__ == '__main__':
     target = SITE / 'business/cleaning/index.html'
@@ -42,4 +61,4 @@ if __name__ == '__main__':
         sitemap.write_bytes(xml.encode('utf-8'))
     paths = [target, sitemap, SITE / 'assets/css/office-cleaning.css', *sorted((SITE / 'assets/images/office-cleaning').glob('*.png'))]
     sync_manifest(paths)
-    print('Built corporate cleaning page: four features and twelve photo subjects; no opening photo banner.')
+    print('Built corporate page: static hero, vertical composition, blended kitchen, three points, eight photos and consultation.')
