@@ -20,7 +20,7 @@ const labels=['フロア','カーペット','ガラス・サッシ','業務用�
     assert.deepEqual(await page.locator('.office-wf__service h3').allTextContents(),titles);
     assert.deepEqual(await page.locator('.office-wf__gallery figcaption').allTextContents(),labels);
     assert.equal(await page.locator('.office-wf__closing p').count(),1);
-    assert.equal(await page.locator('.office-wf__hero,.office-wf__mosaic,.office-wf__kitchen,.office-wf__points,.office-wf__contact,.office-wf br,.office-wf svg').count(),0);
+    assert.equal(await page.locator('.office-wf__hero,.office-wf__mosaic,.office-wf__kitchen,.office-wf__points,.office-wf__contact,.office-wf__container br,.office-wf svg').count(),0);
     const body=await page.locator('.office-wf').textContent();
     assert(!/イエキレ|iekire|1988|2000㎡|株式会社|ビルメンテナンス発|光触媒コーティング/i.test(body));
     assert.equal(await page.locator('.c-header').count(),1);
@@ -33,11 +33,11 @@ const labels=['フロア','カーペット','ガラス・サッシ','業務用�
         const container=box(document.querySelector('.office-wf__container'));
         const cards=[...document.querySelectorAll('.office-wf__service')].map(e=>({copy:box(e.querySelector('.office-wf__service-copy')),photo:box(e.querySelector('img')),panel:box(e.querySelector('.office-wf__service-panel'))}));
         const textOverflow=[];
-        for(const e of document.querySelectorAll('.office-wf p,.office-wf h1:not(.c-house-cleaning-mv__sr-heading),.office-wf h2,.office-wf h3,.office-wf figcaption')){
+        for(const e of document.querySelectorAll('.office-wf p:not(.c-house-cleaning-mv__sr-copy),.office-wf h1:not(.c-house-cleaning-mv__sr-heading),.office-wf h2,.office-wf h3,.office-wf figcaption')){
           const bounds=box(e),range=document.createRange();range.selectNodeContents(e);
           for(const rect of range.getClientRects())if(rect.left<bounds.x-1||rect.right>bounds.right+1||rect.bottom>bounds.bottom+1)textOverflow.push(e.textContent);
         }
-        return {width:innerWidth,height:innerHeight,container,cards,textOverflow,overflow:Math.max(0,document.documentElement.scrollWidth-document.documentElement.clientWidth),galleryColumns:getComputedStyle(document.querySelector('.office-wf__gallery')).gridTemplateColumns.split(' ').length,images:[...document.querySelectorAll('.office-wf img')].every(i=>i.complete&&i.naturalWidth>0&&i.getAttribute('src').startsWith('/assets/images/office-cleaning/')),bodyFont:parseFloat(getComputedStyle(document.querySelector('.office-wf')).fontSize)};
+        return {width:innerWidth,height:innerHeight,container,cards,textOverflow,overflow:Math.max(0,document.documentElement.scrollWidth-document.documentElement.clientWidth),galleryColumns:getComputedStyle(document.querySelector('.office-wf__gallery')).gridTemplateColumns.split(' ').length,images:[...document.querySelectorAll('.office-wf__container img')].every(i=>i.complete&&i.naturalWidth>0&&i.getAttribute('src').startsWith('/assets/images/office-cleaning/')),bodyFont:parseFloat(getComputedStyle(document.querySelector('.office-wf')).fontSize)};
       });
       assert(r.overflow<=1,`Horizontal overflow at ${width}`);
       assert.deepEqual(r.textOverflow,[],`Clipped text at ${width}`);
@@ -69,7 +69,7 @@ const labels=['フロア','カーペット','ガラス・サッシ','業務用�
     await page.goto(origin+'/',{waitUntil:'load'});
     assert.equal(await page.locator('a.home-business-guide').getAttribute('href'),'/business/cleaning/');
     await page.locator('a.home-business-guide').click();await page.waitForURL('**/business/cleaning/');
-    assert(await page.locator('.office-wf .c-house-cleaning-mv__text').isVisible());
+    assert(await page.locator('.office-wf .c-house-cleaning-mv__artwork').isVisible());
     assert.deepEqual(errors,[]);
     fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({origin,conditions:records.length,records,errors,homeLink:true,serviceTitles:titles,galleryLabels:labels,passed:true},null,2));
     console.log(JSON.stringify({conditions:records.length,passed:true,errors}));

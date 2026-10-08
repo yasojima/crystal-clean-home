@@ -19,7 +19,11 @@ def photo(key, label):
 def render():
     data = json.loads((CONTENT / 'content.json').read_text(encoding='utf-8'))
     values = {key: escape(value) for key, value in data.items() if isinstance(value, str)}
-    values['service_banner'] = render_service_banner(data['title'], [data['title']])
+    banner = data['banner']
+    values['service_banner'] = render_service_banner(
+        data['title'], banner['lines'], banner['artwork'], banner['alt'],
+        mobile_src=banner['mobile_artwork'],
+        image_width=banner['width'], image_height=banner['height'])
     values['intro'] = ''.join(f'<p>{escape(paragraph)}</p>' for paragraph in data['intro'])
     values['services'] = ''.join(
         '<article class="office-wf__service"><div class="office-wf__service-panel">'

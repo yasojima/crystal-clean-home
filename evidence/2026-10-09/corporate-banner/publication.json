@@ -1,0 +1,41 @@
+{
+  "change": "CHG-2026-10-09-004",
+  "pagesCommit": "cf0ff2f585c8797f5f5ccc8d73562d9b0f29acd7",
+  "actionsRun": 37834263699,
+  "actionsConclusion": "success",
+  "records": [
+    {
+      "path": "business/cleaning/index.html",
+      "url": "https://yasojima.github.io/business/cleaning/index.html?chg=2026100904",
+      "status": 200,
+      "sha256": "6d99ad87a6fbe1f8fbd403f15810941843e89ed0833f02595fbb764e4cd15fa2",
+      "bytes": 55442,
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-banners/corporate.png",
+      "url": "https://yasojima.github.io/assets/images/service-banners/corporate.png?chg=2026100904",
+      "status": 200,
+      "sha256": "869541533e741809ab2a639c2b6bb2614e7490e672c68c04636ce09b087a6b4f",
+      "bytes": 1999320,
+      "matches": true
+    },
+    {
+      "path": "assets/images/service-banners/corporate-mobile.png",
+      "url": "https://yasojima.github.io/assets/images/service-banners/corporate-mobile.png?chg=2026100904",
+      "status": 200,
+      "sha256": "0fcc21dc5b8aeda7e014529bd5ebf3484edaf239fded031ee7f988072ef92f5f",
+      "bytes": 2432855,
+      "matches": true
+    }
+  ],
+  "passed": true,
+  "publicConditions": 72,
+  "commonHeightPropagation": 9,
+  "localPublicMeasurementsEqual": true,
+  "visualReview": [
+    "public/business-1440.png",
+    "public/business-414.png"
+  ],
+  "physicalDeviceAcceptance": false
+}

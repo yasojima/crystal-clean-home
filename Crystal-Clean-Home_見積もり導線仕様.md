@@ -130,3 +130,6 @@ HOME・共通メニュー・フッターの法人案内は `/business/cleaning/`
 
 
 [変更 2026-10-09 / CHG-2026-10-09-003] 本編のサービス8分類の帯へPC用横長広告とスマホ用画像を適用。画像割り当てはcopy.json.banners、構造・高さ・Check!の配置は共通正本で管理します。帯高は維持し、共通カードと見積もり導線・商品・価格・カートは変更しません。現行表示と制作情報は仕様書CHG-003、source/service-pages/banner-assets.jsonを参照します。
+
+
+[変更 2026-10-09 / CHG-2026-10-09-004] 法人向けページの共通帯にもPC用・スマホ用の広告を追加。割り当てはsource/office-cleaning/content.jsonのbanner、制作情報は同フォルダのbanner-assets.json。既存の共通帯の高さ・余白・Check!、法人本文、HOMEの導線、8分類と見積もり・商品・価格・カートを維持します。

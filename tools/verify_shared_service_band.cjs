@@ -16,7 +16,7 @@ async function measure(page) {
     return {width:innerWidth,height:innerHeight,band:{width:r.width,height:r.height,y:r.y},
       style:{background:c.backgroundImage,mask:c.maskImage,maskSize:c.maskSize,maskPosition:c.maskPosition,padding:c.padding,font:s.font,fontFamily:s.fontFamily,color:s.color,lineHeight:s.lineHeight},
       clipped:!artwork&&(t.top<r.top-1||t.bottom>ch.top+1||t.left<r.left-1||t.right>r.right+1),
-      artwork:artwork?{fits,ratio:a.width/a.height,loaded:img.complete&&img.naturalWidth>0,src:img.currentSrc,mask:getComputedStyle(img).maskImage,opacity:getComputedStyle(img).opacity,blueMargins:[a.left-r.left,r.right-a.right,a.top-r.top,r.bottom-projection-a.bottom]}:null,
+      artwork:artwork?{fits,ratio:a.width/a.height,loaded:img.complete&&img.naturalWidth>0,src:img.currentSrc,expectedSrc:new URL(innerWidth<768?artwork.querySelector('source').getAttribute('srcset'):img.getAttribute('src'),location.href).href,mask:getComputedStyle(img).maskImage,opacity:getComputedStyle(img).opacity,blueMargins:[a.left-r.left,r.right-a.right,a.top-r.top,r.bottom-projection-a.bottom]}:null,
       checkFits:label.left>=ch.left&&label.right<=ch.right&&label.top>=ch.top-1&&label.bottom<=ch.bottom+1&&(!a||a.bottom<=ch.top-gap+1),
       frameBottom:frame.getBoundingClientRect().bottom,headerBottom:document.querySelector('.c-header').getBoundingClientRect().bottom,
       overflow:Math.max(0,document.documentElement.scrollWidth-document.documentElement.clientWidth)};
@@ -40,7 +40,7 @@ async function measure(page) {
         if(r.artwork){
           assert(r.artwork.loaded&&r.artwork.fits,`Artwork missing or overlaps frame at ${route} ${width}`);
           assert(r.artwork.mask==='none'&&r.artwork.opacity==='1',`Artwork fades behind blue at ${route} ${width}`);
-          assert(r.artwork.src.includes(width<768?'-mobile.png':`${route.split('/')[2]}.png`),`Wrong responsive asset at ${route} ${width}`);
+          assert.equal(r.artwork.src,r.artwork.expectedSrc,`Wrong responsive asset at ${route} ${width}`);
           assert(Math.abs(r.artwork.ratio-(width<768?3:5.3))<.01,`Artwork aspect ratio incorrect at ${route} ${width}`);
           if(width===1440)assert(r.artwork.blueMargins.every(g=>g>=7&&g<=10),`Excess blue margin at ${route}`);
         }

@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-09",
+  "change": "CHG-2026-10-09-004",
+  "generation": "built-in image_gen",
+  "desktopViewportAspect": 5.3,
+  "mobileViewportAspect": 3,
+  "referenceAssets": [
+    "source/site/assets/images/service-banners/pack.png",
+    "source/site/assets/images/service-banners/pack-mobile.png"
+  ],
+  "route": "/business/cleaning/",
+  "desktop": {
+    "path": "source/site/assets/images/service-banners/corporate.png",
+    "prompt": "Use case: ads-marketing. Create a NEW CORPORATE CLEANING banner in the visual style of the attached home-cleaning advertisement. Keep the photo-real commercial advertising style, bright clean-right/dirty-left story, blue bold Japanese lettering with white glow, blue water ribbon, droplets and a few green leaves. Replace the residential imagery and copy entirely with the corporate subject and copy below. No logo, no brand, no button, no Check, no other words.\nCRITICAL GEOMETRY: output a 3:1 canvas with a FINISHED ULTRA-WIDE 5.3:1 AD STRIP centered vertically inside it. The final visible ad strip is bounded between 22% and 78% of total canvas height. The upper 22% and lower 22% are empty plain pale-blue padding, with NO text, NO imagery, NO decoration. These padding areas are only technical bleed and will be outside the webpage viewport. ALL requested lettering and ALL essential subjects must be INSIDE the middle strip.\nWithin the center strip, place the headline at approximately 30% of the total canvas height, secondary text at 43% of total canvas height, main recognizable office furniture across 48% to 76% of total canvas height. Headline is visually bold but its letter height must be under 11% of total canvas height. Use the width to spread the scene; do NOT put the headline near the very top of the canvas. The only actual design is the central ultra-wide strip. Its own top and bottom edge must have safe space. No border around the strip. Plain bleed above and below.\nSubject: A realistic contemporary Japanese corporate office and commercial reception: desks with monitors, ergonomic chairs, neutral carpet floor, glass partitions and a small meeting area; dusty muted everyday grime on the left gradually transformed into a bright immaculate welcoming workplace on the right. No residential kitchen, beds or sofas. Recognizable office furniture in both halves, consistent scale and perspective. Blue sweeping water ribbon with droplets and a few green leaves, clean commercial advertising look.\nHeadline EXACT: \"店舗・オフィスを、快適に。\"\nSecondary line EXACT: \"法人向けサービス\"",
+    "width": 2172,
+    "height": 724,
+    "sha256": "869541533e741809ab2a639c2b6bb2614e7490e672c68c04636ce09b087a6b4f",
+    "bytes": 1999320
+  },
+  "mobile": {
+    "path": "source/site/assets/images/service-banners/corporate-mobile.png",
+    "prompt": "Use case: ads-marketing. Create a NEW CORPORATE CLEANING advertisement in the visual style of the attached home-cleaning banner. Full 3:1 horizontal composition WITHOUT empty technical bleed. Replace residential imagery and copy with the corporate office subject below. Bold dark-to-vivid blue Japanese headline with a soft white glow across the upper area; smaller blue secondary line immediately underneath. All characters crisp, exact, completely legible, comfortably inset from all four edges. Main office scene fills the lower approximately 70%. A diagonal luminous blue water ribbon sweeps from the lower left to upper right, connecting a dusty muted left office with a bright clean welcoming right office; realistic commercial photography, droplets, subtle sparkles and a few green leaves. Keep the office furniture and clean floor easily recognizable. No logo, no brand, no button, no Check, no extra words.\nSubject: A realistic contemporary Japanese corporate office and commercial reception: desks with monitors, ergonomic chairs, neutral carpet floor, glass partitions and a small meeting area; dusty muted everyday grime on the left gradually transformed into a bright immaculate welcoming workplace on the right. No residential kitchen, beds or sofas. Recognizable office furniture in both halves, consistent scale and perspective. Blue sweeping water ribbon with droplets and a few green leaves, clean commercial advertising look.\nHeadline EXACT: \"店舗・オフィスを、快適に。\"\nSecondary line EXACT: \"法人向けサービス\"",
+    "width": 2172,
+    "height": 724,
+    "sha256": "0fcc21dc5b8aeda7e014529bd5ebf3484edaf239fded031ee7f988072ef92f5f",
+    "bytes": 2432855
+  }
+}

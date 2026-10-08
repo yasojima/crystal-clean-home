@@ -1,0 +1,3016 @@
+{
+  "origin": "http://127.0.0.1:8773",
+  "conditions": 72,
+  "records": [
+    {
+      "route": "/business/cleaning/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 455,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1920,
+      "height": 1080,
+      "band": {
+        "width": 1905,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 264.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300286767718148,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          244.953125,
+          244.953125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 455,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 733.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1440,
+      "height": 800,
+      "band": {
+        "width": 1425,
+        "height": 315,
+        "y": 140
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 180px 180px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 197.906px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.30010579522746,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          8.578125,
+          8.578125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 783.921875,
+      "headerBottom": 140,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 232,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 510.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 510.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1280,
+      "height": 551,
+      "band": {
+        "width": 1265,
+        "height": 112,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 179.2px 179.2px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 175.688px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.301098901098901,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          462.90625,
+          462.90625,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 534.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 280,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 583.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 1024,
+      "height": 600,
+      "band": {
+        "width": 1009,
+        "height": 160,
+        "y": 120
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 143.36px 143.36px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 140.125px",
+        "font": "700 22px / 22px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "22px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.3006836891307385,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          207.703125,
+          207.703125,
+          8.0078125,
+          8.0078125
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 558.921875,
+      "headerBottom": 120,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 387,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 729.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 729.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 768,
+      "height": 800,
+      "band": {
+        "width": 753,
+        "height": 315,
+        "y": 72
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 32px), 112px 112px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 0px 32px 104.578px",
+        "font": "700 26px / 26px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "26px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 5.300370828182942,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          8,
+          8,
+          71.9765625,
+          71.9765625
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 665.921875,
+      "headerBottom": 72,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 280,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 694.75,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 694.75,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 654.75,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 767,
+      "height": 800,
+      "band": {
+        "width": 752,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          160,
+          160,
+          6,
+          6
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 694.75,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 280,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 565.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 565.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 545.875,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 414,
+      "height": 688,
+      "band": {
+        "width": 399,
+        "height": 184,
+        "y": 96
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          13.5,
+          13.5
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 525.375,
+      "headerBottom": 96,
+      "overflow": 0
+    },
+    {
+      "route": "/business/cleaning/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/corporate-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 304,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/aircon-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/pack-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/water-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/washer-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/kitchen-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 549.375,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/room-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 549.375,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/coating-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 552,
+      "headerBottom": 148,
+      "overflow": 0
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "width": 320,
+      "height": 568,
+      "band": {
+        "width": 305,
+        "height": 156,
+        "y": 148
+      },
+      "style": {
+        "background": "linear-gradient(270deg, rgb(54, 190, 239) 0.01%, rgb(6, 102, 188) 100%, rgb(6, 102, 188) 100%)",
+        "mask": "linear-gradient(rgb(0, 0, 0) 0px, rgb(0, 0, 0) 0px), radial-gradient(circle closest-side, rgb(0, 0, 0) calc(100% - 1px), rgba(0, 0, 0, 0) 100%)",
+        "maskSize": "100% calc(100% - 28px), 108px 108px",
+        "maskPosition": "50% 0%, 50% 100%",
+        "padding": "0px 24px 28px",
+        "font": "700 20px / 20px \"Noto Sans JP\", sans-serif",
+        "fontFamily": "\"Noto Sans JP\", sans-serif",
+        "color": "rgb(255, 255, 255)",
+        "lineHeight": "20px"
+      },
+      "clipped": false,
+      "artwork": {
+        "fits": true,
+        "ratio": 3.00032,
+        "loaded": true,
+        "src": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "expectedSrc": "http://127.0.0.1:8773/assets/images/service-banners/others-mobile.png",
+        "mask": "none",
+        "opacity": "1",
+        "blueMargins": [
+          6,
+          6,
+          15.171875,
+          15.171875
+        ]
+      },
+      "checkFits": true,
+      "frameBottom": 568.875,
+      "headerBottom": 148,
+      "overflow": 0
+    }
+  ],
+  "propagation": [
+    {
+      "route": "/business/cleaning/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/aircon/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/pack/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/water/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/washer/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/kitchen/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/room/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/coating/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    },
+    {
+      "route": "/house-cleaning/others/",
+      "before": 315,
+      "changed": 260,
+      "restored": 315
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

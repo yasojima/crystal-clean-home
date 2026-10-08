@@ -6826,8 +6826,8 @@
       "status": 200,
       "content_type": "text/html",
       "origin_type": "local-shared-ui",
-      "sha256": "f26b8568c3660432311b33f66b25a6be6ebc785033b391981fb701f96175f7c8",
-      "bytes": 54859,
+      "sha256": "6d99ad87a6fbe1f8fbd403f15810941843e89ed0833f02595fbb764e4cd15fa2",
+      "bytes": 55442,
       "source_sha256": "42dce2fadb4443b103ba34b0b9852cf5b065be3e96cf140af40ec3ccedc12def"
     },
     "https://www.osoujihonpo.com/assets/css/office-cleaning.css": {
@@ -7108,6 +7108,24 @@
       "origin_type": "local-shared-ui",
       "sha256": "5e247a59d9da5276135db467d37c4a7d70bf18b9afe937113994837e75ca3014",
       "bytes": 1946687
+    },
+    "https://www.osoujihonpo.com/assets/images/service-banners/corporate.png": {
+      "path": "assets/images/service-banners/corporate.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-banners/corporate.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "869541533e741809ab2a639c2b6bb2614e7490e672c68c04636ce09b087a6b4f",
+      "bytes": 1999320
+    },
+    "https://www.osoujihonpo.com/assets/images/service-banners/corporate-mobile.png": {
+      "path": "assets/images/service-banners/corporate-mobile.png",
+      "effective_url": "https://www.osoujihonpo.com/assets/images/service-banners/corporate-mobile.png",
+      "status": 200,
+      "content_type": "image/png",
+      "origin_type": "local-shared-ui",
+      "sha256": "0fcc21dc5b8aeda7e014529bd5ebf3484edaf239fded031ee7f988072ef92f5f",
+      "bytes": 2432855
     }
   },
   "external_urls": [
@@ -9298,9 +9316,9 @@
   "conflicts": [],
   "captured_at": "2026-09-30T17:46:14.322292+00:00",
   "counts": {
-    "urls": 760,
-    "unique_paths": 746,
-    "bytes": 201452406,
+    "urls": 762,
+    "unique_paths": 748,
+    "bytes": 205885164,
     "failures": 120,
     "conflicts": 0,
     "pending_pages": 0,
