@@ -1,0 +1,19 @@
+{
+  "pages_commit": "1765685f9ea7b428b30bfbfcddd9dd84f08db219",
+  "actions_run": 37773130776,
+  "checks": [
+    {
+      "file": "business/cleaning/index.html",
+      "status": 200,
+      "sha256": "081235c495d11dfd3c8b5e9ea73bb007d5af910bf1c31d20ccaf4f9f2c41e152",
+      "matches": true
+    },
+    {
+      "file": "assets/css/office-cleaning.css",
+      "status": 200,
+      "sha256": "b32962997bebd2b4036cc245c56e3ca6f2b4012d6a4787dbd224f6f99b1c4216",
+      "matches": true
+    }
+  ],
+  "passed": true
+}

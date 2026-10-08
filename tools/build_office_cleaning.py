@@ -46,7 +46,7 @@ def render():
     head = re.sub(r'https://yasojima.github.io/(?=["<])', 'https://yasojima.github.io/business/cleaning/', head)
     head = re.sub(r'\s*<link[^>]*href="/assets/css/office-cleaning\.css[^>]*>', '', head)
     head = re.sub(r'(<meta\b[^>]*property="og:url"[^>]*content=")[^"]*', r'\g<1>https://yasojima.github.io/business/cleaning/', head)
-    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100819">\n</head>')
+    head = head.replace('</head>', '<link rel="stylesheet" href="/assets/css/office-cleaning.css?v=2026100820">\n</head>')
     return apply_identity(transform(f'{head}<body class="c-office-cleaning office-wf-page">{main}</body></html>'), True)
 
 if __name__ == '__main__':
