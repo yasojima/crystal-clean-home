@@ -1,0 +1,95 @@
+{
+  "baseline": "7d2ca25",
+  "existing_site_files_unchanged": 751,
+  "html_only_css_version_changed": true,
+  "css_asset_checks": [
+    {
+      "path": "/assets/images/first-lp/art/complements/bath-sides.png",
+      "status": 200,
+      "sha256": "5216a867125bc5f87b46f2b2a15d9c72650042aadbc13c1349b11c8c0ba61a0c"
+    },
+    {
+      "path": "/assets/images/first-lp/art/complements/concerns-sides.png",
+      "status": 200,
+      "sha256": "ce28c972d63ca498cac8a12a4596c7fc9089d6135137748a1d10de717f2043a4"
+    },
+    {
+      "path": "/assets/images/first-lp/art/complements/estimate-sides.png",
+      "status": 200,
+      "sha256": "6f9dbd246e7431202a07a10dca553b5f104aea12dc4d0ebb9b43ef85d169ba90"
+    },
+    {
+      "path": "/assets/images/first-lp/art/complements/hygiene-sides.png",
+      "status": 200,
+      "sha256": "481ad39c75bacebe1ca06c1a2776a55f312f2ee4f9a9cd30d147bbbf6af9296e"
+    },
+    {
+      "path": "/assets/images/first-lp/art/complements/opening-copy.png",
+      "status": 200,
+      "sha256": "5d8f7069b037490cb282efbe7060f51a1af0db3d6599d4e041bb09d157b3ec5f"
+    },
+    {
+      "path": "/assets/images/first-lp/art/opening-wide.png",
+      "status": 200,
+      "sha256": "8ec0c4103906b5eda5678a92ded65f31c5133fa68ccedc19eec577f6a520a414"
+    },
+    {
+      "path": "/assets/images/first-lp/decor/home-light.svg",
+      "status": 200,
+      "sha256": "733e08082ca8ff79434dd9051814dba3194872e9a7d5713d4e0f0348bd555649"
+    },
+    {
+      "path": "/assets/images/first-lp/decor/water-edge.svg",
+      "status": 200,
+      "sha256": "a6cd093b0809ee9c1836dfb8633fed4ae26692069bfd17ce66cd2792f0a02096"
+    },
+    {
+      "path": "/assets/images/first-lp/decor/water-ribbon.svg",
+      "status": 200,
+      "sha256": "edc94844e42b5410e79fc1e810ee954d87f56aea44a6f20c931041605a965552"
+    },
+    {
+      "path": "/assets/images/office-cleaning/floor.png",
+      "status": 200,
+      "sha256": "236cca5b49727981a7446c3839b8b5488e487f88aeb71789d2e69c99b59a9f5f"
+    },
+    {
+      "path": "/assets/images/service-scenes/aircon-wall-after.png",
+      "status": 200,
+      "sha256": "4c32290e678a8376c7f61416d155245283b52c0e85b623db9af69d661cb3a7b8"
+    },
+    {
+      "path": "/assets/images/service-scenes/bathroom-after.webp",
+      "status": 200,
+      "sha256": "d86a990834acbcbfbfa12b3b0eaa984df45598faff844c1703255f31f2e09fb8"
+    },
+    {
+      "path": "/assets/images/service-scenes/flooring-before.webp",
+      "status": 200,
+      "sha256": "e4cc7abd13e79761a8a0735474e5ff703a0b0cd7049b45648bbb15673ea35e94"
+    },
+    {
+      "path": "/assets/images/service-scenes/kitchen-sink-after.webp",
+      "status": 200,
+      "sha256": "30445d3ae8e0b3a5eb3ae87610089febde4e34586c7bb61cb1f7097d3efd3e3e"
+    },
+    {
+      "path": "/assets/images/service-scenes/outerwall.webp",
+      "status": 200,
+      "sha256": "5263b292361441a6b56a175e84e01624d77c725d4981e6510b099199ed2e680b"
+    },
+    {
+      "path": "/assets/images/service-scenes/washer-top-after.webp",
+      "status": 200,
+      "sha256": "685cd60af6461c7aae211c27810059707743c7c5779a76c8c75b728d01ccf0ba"
+    },
+    {
+      "path": "/assets/images/service-scenes/wood-coating.webp",
+      "status": 200,
+      "sha256": "24e9dc3c30f5657ebf33452d05ff80b95a38e5315fd284b350e79bf221673538"
+    }
+  ],
+  "asset_metadata": true,
+  "manifest": true,
+  "passed": true
+}

@@ -1,0 +1,12 @@
+{
+  "desktop": {
+    "tab": true,
+    "slider": true,
+    "faq": true
+  },
+  "phone": {
+    "faq": true,
+    "estimateRoute": "http://127.0.0.1:8773/quick_cart/"
+  },
+  "passed": true
+}

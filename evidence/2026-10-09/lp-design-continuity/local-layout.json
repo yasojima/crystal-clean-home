@@ -1,0 +1,156 @@
+{
+  "baseline": "7d2ca25",
+  "checks": [
+    {
+      "size": [
+        1440,
+        800
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        1280,
+        551
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        992,
+        700
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        768,
+        800
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        320,
+        568
+      ],
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true,
+      "overflow": 0
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        1442,
+        804
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        1024,
+        600
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        993,
+        800
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        767,
+        800
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        600,
+        800
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        414,
+        688
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    },
+    {
+      "size": [
+        375,
+        667
+      ],
+      "overflow": 0,
+      "cta": 6,
+      "usable": true
+    }
+  ],
+  "passed": true
+}

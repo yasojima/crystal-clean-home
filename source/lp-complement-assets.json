@@ -1,6 +1,6 @@
 {
   "date": "2026-10-09",
-  "change": "CHG-2026-10-09-007",
+  "change": "CHG-2026-10-09-008",
   "generation": "built-in image_gen",
   "prompts": [
     {
@@ -50,8 +50,18 @@
       "prompt": "Use case: precise-object-edit. Edit target: attached revised opening artwork. Correct ONLY the enlarged top two-line heading so it ends above the woman's hair. Same exact canvas 1019 x 1544 and all other pixels/composition kept.\nKeep enlarged dark-navy Mincho/brush letters, but put the '初めての' line strictly inside x=165..505, y=24..110, and 'ハウスクリーニング' strictly inside x=160..650, y=118..187. The cyan curved underline must end by y=194. No headline or underline ink below y=194. The woman's hair starts below this space, must not be overlapped. Keep letters large, widen toward the left if needed; do not shrink back to the original.\nKeep the already enlarged subcopy '大切な住まいに / 確かな手仕事と / 誠実な説明を' exactly as now at y=235..370. Keep the woman, worker, background, lower headlines, comparison gap, aircon and price exactly unchanged. No new text, no typo. Do not move people or room features."
     }
   ],
-  "usage": "Use only new background margins behind unchanged original center artworks. Opening copy is clipped to the two text regions; original people and remaining opening art stay visible from opening-wide.png. Native foreground sizes and content ratios remain unchanged.",
+  "bath_background_prompt": "Use case: precise-object-edit, horizontal background outpainting.\nEdit target: attached bath-lead.webp, a 1426 x 1103 Japanese home-cleaning LP scene.\nCreate a BACKGROUND-ONLY canvas of 2852 x 1103 (aspect ratio 2.585:1). Treat the original full canvas as the CENTER HALF of the new canvas x=25%..75%, at exactly the original scale. Extend the bathroom naturally into the new left and right quarter strips, continuing the SAME room at SAME horizon, perspective, tile sizes, window heights, light and color. Retain the original edge scenery at x=25% and x=75% so the sides will join the original artwork laid on top. Do not stretch, zoom or mirror the original.\nRemove all people, all Japanese writing, typography, slogans, outlines around text, callouts and any foreground illustrations from this background-only plate; fill their areas with unobtrusive cream/white bathroom, sunlit windows and greenery. Keep the existing blue water ribbons crossing at their exact original heights and slopes. Continue the bathtub rim into the side strips at the same height; the lower fifth stays quiet clean white as in the original. Only extend existing fixtures; do not add another faucet or duplicated bathtub. Keep coherent warm sunlit domestic illustration style and blue water highlights. No extra people, text, panel outlines, watermark, blur seam, boxed edge, vertical border, repeated furniture or unrelated room.\nThis plate will sit BEHIND the unchanged original center image; only the completed margins are visible. The original text, people and composition are handled by the unchanged original asset.",
+  "decor": "The three decor/*.svg assets are native vector decoration authored for water transitions, quiet information surfaces and warm home margins. The generated LP proposal is not a runtime asset.",
+  "usage": "Use only background margins behind unchanged original center artworks. Opening copy stays clipped to the existing two text regions. Bath background is attached outside the masked scene so completed sides remain visible. Native foreground sizes, copy, prices, section order and all six estimate links remain unchanged. LP-wide surface roles and native water decorations are owned by beginner-lp.css.",
   "assets": [
+    {
+      "path": "source/site/assets/images/first-lp/art/complements/bath-sides.png",
+      "width": 2017,
+      "height": 780,
+      "bytes": 1840849,
+      "sha256": "5216a867125bc5f87b46f2b2a15d9c72650042aadbc13c1349b11c8c0ba61a0c",
+      "change": "CHG-2026-10-09-008"
+    },
     {
       "path": "source/site/assets/images/first-lp/art/complements/concerns-sides.png",
       "width": 1448,

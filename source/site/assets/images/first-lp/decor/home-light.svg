@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1400" preserveAspectRatio="none">
+  <defs>
+    <linearGradient id="light" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff1d8"/></linearGradient>
+    <linearGradient id="leaf" x2="1" y2="1"><stop stop-color="#a9c973"/><stop offset="1" stop-color="#5c9657"/></linearGradient>
+    <g id="branch" fill="url(#leaf)">
+      <path d="M12 4Q95 90 114 218" fill="none" stroke="#769657" stroke-width="3"/>
+      <path d="M40 40Q-10 5 1 73Q40 85 40 40M52 65Q75 7 107 31Q104 72 52 65M76 100Q19 71 33 128Q67 140 76 100M89 130Q116 65 147 91Q142 137 89 130M101 161Q45 126 57 180Q91 194 101 161M108 185Q140 126 167 154Q158 195 108 185"/>
+    </g>
+  </defs>
+  <g fill="url(#light)" stroke="#e8d6bc" stroke-width="3" opacity=".6">
+    <path d="M-10 90H135V730H-10Z M146 90H246V730H146Z M-10 870H135V1380H-10Z M146 870H246V1380H146Z"/>
+    <path d="M1354 200H1454V850H1354Z M1465 200H1610V850H1465Z M1354 990H1454V1410H1354Z M1465 990H1610V1410H1465Z"/>
+  </g>
+  <g opacity=".65"><use href="#branch" transform="translate(-20 30) scale(1.2)"/><use href="#branch" transform="translate(1620 650) scale(-1.25 1.25)"/></g>
+</svg>

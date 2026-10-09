@@ -48,3 +48,5 @@ CHG-2026-10-08-017で法人の採用構成を本編へ移しました。[本編�
 
 
 [変更 2026-10-09 / CHG-2026-10-09-007] beginner LPの背景補完は本編source/site/beginnerへ組み込む。中央と左右の比率を維持し、住まいの背景とシンプルな背景をつなぐ。個別のLP複製を作らない。表示の所有元はbeginner-lp.css、制作記録はsource/lp-complement-assets.json。未採用4試作は既存Desktop/削除用へ移動済み。仕様と検証は仕様書CHG-007とevidence/2026-10-09/lp-complement/を参照する。
+
+[変更 2026-10-09 / CHG-2026-10-09-008] beginner本編のLPは既存構成を維持し、住まいの暖色・白い情報面・青い水流を全幅で接続する。提案画像を配信せず、比較表・8分類のメニューも現行データで意匠を反映する。正本はbeginner-lp.css（2026100908）、共有飾りはfirst-lp/decorの3SVG、浴室補完はart/complements/bath-sides.png。各画像とCTAのサイズ・位置、原稿・価格・順序を維持し、別LP・本編ソースの複製を作らない。現行仕様はCHG-008、検証記録はevidence/2026-10-09/lp-design-continuity/。
