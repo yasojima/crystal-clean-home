@@ -1,0 +1,68 @@
+{
+  "change": "CHG-2026-10-09-008",
+  "source_commit": "de47bf6f6638b9f940ba5cb2d17cfebedffede40",
+  "checked_at": "2026-10-09T01:22:39.571834+00:00",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "5e97544a7cb1b7924223d74e80e72d5abce1bd90",
+    "status": "completed",
+    "url": "https://github.com/yasojima/yasojima.github.io/actions/runs/37869354279"
+  },
+  "files": [
+    {
+      "path": "beginner/index.html",
+      "url": "https://yasojima.github.io/beginner/index.html?v=2026100908",
+      "status": 200,
+      "bytes": 77211,
+      "sha256": "91460678eee2196ef5424bb8598e26f33577c758946b55b5948dfebe1016fa56",
+      "expected_sha256": "91460678eee2196ef5424bb8598e26f33577c758946b55b5948dfebe1016fa56",
+      "matches": true
+    },
+    {
+      "path": "assets/css/beginner-lp.css",
+      "url": "https://yasojima.github.io/assets/css/beginner-lp.css?v=2026100908",
+      "status": 200,
+      "bytes": 19173,
+      "sha256": "59059bf7ecf4e24181135db75a97ae11d38fc9d45dadff20adf71436ad3c0678",
+      "expected_sha256": "59059bf7ecf4e24181135db75a97ae11d38fc9d45dadff20adf71436ad3c0678",
+      "matches": true
+    },
+    {
+      "path": "assets/images/first-lp/art/complements/bath-sides.png",
+      "url": "https://yasojima.github.io/assets/images/first-lp/art/complements/bath-sides.png?v=2026100908",
+      "status": 200,
+      "bytes": 1840849,
+      "sha256": "5216a867125bc5f87b46f2b2a15d9c72650042aadbc13c1349b11c8c0ba61a0c",
+      "expected_sha256": "5216a867125bc5f87b46f2b2a15d9c72650042aadbc13c1349b11c8c0ba61a0c",
+      "matches": true
+    },
+    {
+      "path": "assets/images/first-lp/decor/home-light.svg",
+      "url": "https://yasojima.github.io/assets/images/first-lp/decor/home-light.svg?v=2026100908",
+      "status": 200,
+      "bytes": 1190,
+      "sha256": "733e08082ca8ff79434dd9051814dba3194872e9a7d5713d4e0f0348bd555649",
+      "expected_sha256": "733e08082ca8ff79434dd9051814dba3194872e9a7d5713d4e0f0348bd555649",
+      "matches": true
+    },
+    {
+      "path": "assets/images/first-lp/decor/water-edge.svg",
+      "url": "https://yasojima.github.io/assets/images/first-lp/decor/water-edge.svg?v=2026100908",
+      "status": 200,
+      "bytes": 783,
+      "sha256": "a6cd093b0809ee9c1836dfb8633fed4ae26692069bfd17ce66cd2792f0a02096",
+      "expected_sha256": "a6cd093b0809ee9c1836dfb8633fed4ae26692069bfd17ce66cd2792f0a02096",
+      "matches": true
+    },
+    {
+      "path": "assets/images/first-lp/decor/water-ribbon.svg",
+      "url": "https://yasojima.github.io/assets/images/first-lp/decor/water-ribbon.svg?v=2026100908",
+      "status": 200,
+      "bytes": 830,
+      "sha256": "edc94844e42b5410e79fc1e810ee954d87f56aea44a6f20c931041605a965552",
+      "expected_sha256": "edc94844e42b5410e79fc1e810ee954d87f56aea44a6f20c931041605a965552",
+      "matches": true
+    }
+  ],
+  "passed": true
+}

@@ -663,3 +663,5 @@ home-pickups.css?v=2026100802で、min-width:768pxかつmax-height:650pxの場�
 - PCの冒頭、人物の位置・大きさ、中央最大1120px・左右24px以上、全画像の位置・寸法、原稿・価格・順序・6CTAを維持する。767.98px以下は元画像と通常フローのCTAを維持し、水流を34px・枠を小さくして装飾を反映する。
 - 生成素材の記録はsource/lp-complement-assets.json。浴室は組み込みimage_genによる背景だけの補完、飾り3SVGはコードで制作。提案画像は実行ソースに含めない。
 - 確認記録はevidence/2026-10-09/lp-design-continuity/。ローカル14サイズで横はみ出しと6CTA、6サイズで変更前7d2ca25との中央・セクション・全画像・本文・リンク・CTAを照合する。不可視画像の座標と0.5px未満の測定誤差は表示差として扱わない。比較タブ・スライダー・FAQ・スマホの見積もり遷移、各区間の保存画面を確認する。実機と人間の見た目の受入は別に扱う。
+
+公開確認（CHG-008）：Pages 5e97544a7cb1b7924223d74e80e72d5abce1bd90／Actions37869354279成功。変更した配信6ファイルはHTTP200・SHA-256で正本と一致。公開14サイズで横はみ出しなし・6CTAの収まりを確認し、6サイズで変更前7d2ca25との中央・各セクション・全画像・原稿・リンク・CTAの寸法が一致。PCの比較タブ・スライダー・FAQ、スマホのFAQと/quick_cart/への遷移、公開1440×800と390×844の保存画面を確認。共通61ページ・395商品／460選択肢・生成差分0、既存配信751ファイルを保持。今回再生成されたPythonキャッシュ6件は既存の削除用へ移動し、SHA-256を照合。永久削除と実機の見た目の受入は人間が行う。記録はevidence/2026-10-09/lp-design-continuity/のpublication.json・public-layout.json・public-interactions.json・preservation.json・cleanup.json。関連実装コミットde47bf6。

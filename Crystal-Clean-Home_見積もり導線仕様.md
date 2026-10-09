@@ -142,3 +142,5 @@ HOME・共通メニュー・フッターの法人案内は `/business/cleaning/`
 [変更 2026-10-09 / CHG-2026-10-09-007] beginnerの背景補完は表示だけを変更する。6か所の見積もりリンク、比較とFAQの操作、項目順、商品・価格、カートと予約への既存導線を保持する。中央の画像とCTAの位置・寸法を変えず、背面を画面左右へ補完する。表示の正本と確認記録は仕様書CHG-007とevidence/2026-10-09/lp-complement/を参照する。
 
 [変更 2026-10-09 / CHG-2026-10-09-008] beginner LPの背景・境目・比較表と清掃メニューの意匠を更新。6か所の見積もりCTAと/quick_cart/、8分類の行き先・ラベル・順序、比較スライダー・FAQ、商品・価格・既存カートを維持する。提案の仮原稿・料金を導線に持ち込まない。表示の正本と確認記録は仕様書CHG-008とevidence/2026-10-09/lp-design-continuity/。
+
+CHG-008公開確認：PCの比較タブ・スライダー・FAQ、スマホのFAQと/quick_cart/への遷移が動作。公開14サイズで6CTAの収まり、6サイズで既存の位置・寸法・リンクを保持。記録はlp-design-continuity/public-interactions.json・public-layout.json。

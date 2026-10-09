@@ -1,0 +1,169 @@
+{
+  "baseline": "7d2ca25",
+  "responsive_images": "Waited for currentSrc decode after viewport switch before geometry comparison.",
+  "checks": [
+    {
+      "size": [
+        1440,
+        800
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        1280,
+        551
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        992,
+        700
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        768,
+        800
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        320,
+        568
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true,
+      "canvas": true,
+      "sections": true,
+      "images": true,
+      "copy": true,
+      "links": true,
+      "cta": true
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        1442,
+        804
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        1024,
+        600
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        993,
+        800
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        767,
+        800
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        600,
+        800
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        414,
+        688
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    },
+    {
+      "size": [
+        375,
+        667
+      ],
+      "overflow": 0,
+      "ctaCount": 6,
+      "ctaUsable": true
+    }
+  ],
+  "passed": true
+}
